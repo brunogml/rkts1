@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mng2 — Mongolian Transliteration Converter</title>
+<style>
+  :root {
+    --bg:      #f7f5f0;
+    --panel:   #ffffff;
+    --border:  #d8d0c4;
+    --accent:  #7a5c2e;
+    --accent2: #b08040;
+    --text:    #2a2218;
+    --muted:   #7a7060;
+    --mono:    'Menlo', 'Consolas', monospace;
+    --mng-font: 'Mongolian Baiti', 'Noto Sans Mongolian', serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  header h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: .03em;
+  }
+  header p {
+    color: var(--muted);
+    margin-top: .3rem;
+    font-size: .9rem;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+
+  @media (max-width: 600px) {
+    .container { grid-template-columns: 1fr; }
+  }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .panel-header {
+    background: var(--accent);
+    color: #fff;
+    padding: .5rem .9rem;
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .panel-header .lang-tag {
+    background: rgba(255,255,255,.2);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: .72rem;
+  }
+
+  textarea {
+    flex: 1;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: .8rem;
+    font-size: 1rem;
+    background: transparent;
+    color: var(--text);
+    min-height: 140px;
+  }
+  textarea.mongolian {
+    font-family: var(--mng-font);
+    font-size: 1.35rem;
+    writing-mode: vertical-lr;
+    /* Traditional Mongolian renders top-to-bottom, left-to-right columns */
+    direction: ltr;
+    line-height: 1.8;
+  }
+
+  .panel-footer {
+    border-top: 1px solid var(--border);
+    padding: .4rem .8rem;
+    display: flex;
+    gap: .5rem;
+    justify-content: flex-end;
+  }
+
+  button {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: .3rem .8rem;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: background .15s;
+  }
+  button:hover { background: var(--accent2); }
+  button.secondary {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+  }
+  button.secondary:hover { background: #f0e8d8; }
+
+  /* Arrow in the middle */
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: var(--accent2);
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .arrow button {
+    font-size: .75rem;
+    padding: .3rem .6rem;
+  }
+
+  /* Reference table */
+  .ref-section {
+    grid-column: 1 / -1;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  .ref-section h2 {
+    font-size: .85rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--accent);
+    margin-bottom: .7rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  .ref-section h2::after { content: ' ▾'; font-size: .7rem; }
+  .ref-section h2.collapsed::after { content: ' ▸'; }
+
+  .ref-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: .3rem .6rem;
+    font-size: .82rem;
+  }
+  .ref-grid.hidden { display: none; }
+
+  .ref-item {
+    display: flex;
+    align-items: baseline;
+    gap: .4rem;
+    padding: .15rem .3rem;
+    border-radius: 4px;
+  }
+  .ref-item:hover { background: #f0e8d8; }
+  .ref-rom {
+    font-family: var(--mono);
+    color: var(--accent);
+    min-width: 2.2em;
+    font-size: .85rem;
+  }
+  .ref-arrow { color: var(--muted); font-size: .7rem; }
+  .ref-uni {
+    font-family: var(--mng-font);
+    font-size: 1.05rem;
+  }
+  .ref-cp {
+    color: var(--muted);
+    font-size: .7rem;
+    margin-left: auto;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>mng2 — Mongolian Transliteration</h1>
+  <p>Type romanization on the left → Traditional Mongolian Unicode on the right</p>
+</header>
+
+<div class="container">
+
+  <!-- Input panel -->
+  <div class="panel">
+    <div class="panel-header">
+      Romanization
+      <span class="lang-tag">Latin</span>
+    </div>
+    <textarea id="inputArea" placeholder="e.g.  mongɣol&#10;&#10;Use - for MVS, space between words"></textarea>
+    <div class="panel-footer">
+      <button class="secondary" id="clearBtn">Clear</button>
+      <button id="convertBtn">Convert →</button>
+    </div>
+  </div>
+
+  <!-- Output panel -->
+  <div class="panel">
+    <div class="panel-header">
+      Traditional Mongolian
+      <span class="lang-tag">Unicode</span>
+    </div>
+    <textarea id="outputArea" class="mongolian" readonly placeholder="᠊᠊᠊"></textarea>
+    <div class="panel-footer">
+      <button class="secondary" id="reverseBtn">← Reverse</button>
+      <button id="copyBtn">Copy</button>
+    </div>
+  </div>
+
+  <!-- Reference table -->
+  <div class="ref-section">
+    <h2 id="refToggle">Transliteration reference</h2>
+    <div class="ref-grid hidden" id="refGrid"></div>
+  </div>
+
+</div>
+
+<script src="mng2.js"></script>
+<script>
+  const inputArea  = document.getElementById('inputArea');
+  const outputArea = document.getElementById('outputArea');
+  const convertBtn = document.getElementById('convertBtn');
+  const clearBtn   = document.getElementById('clearBtn');
+  const copyBtn    = document.getElementById('copyBtn');
+  const reverseBtn = document.getElementById('reverseBtn');
+  const refGrid    = document.getElementById('refGrid');
+  const refToggle  = document.getElementById('refToggle');
+
+  // Live conversion as user types
+  inputArea.addEventListener('input', convert);
+  convertBtn.addEventListener('click', convert);
+
+  function convert() {
+    outputArea.value = mng2.toMongolian(inputArea.value);
+  }
+
+  clearBtn.addEventListener('click', () => {
+    inputArea.value = '';
+    outputArea.value = '';
+    inputArea.focus();
+  });
+
+  copyBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText(outputArea.value).then(() => {
+      copyBtn.textContent = 'Copied!';
+      setTimeout(() => copyBtn.textContent = 'Copy', 1500);
+    });
+  });
+
+  reverseBtn.addEventListener('click', () => {
+    const reversed = mng2.toRoman(outputArea.value);
+    inputArea.value = reversed;
+    outputArea.value = mng2.toMongolian(reversed);
+  });
+
+  // Reference table toggle
+  refToggle.addEventListener('click', () => {
+    refGrid.classList.toggle('hidden');
+    refToggle.classList.toggle('collapsed');
+  });
+
+  // Build reference grid from mng2 TABLE
+  // De-duplicate by Unicode char, show all romanizations
+  const seen = new Map(); // uni → [rom, ...]
+  for (const [rom, uni] of mng2.TABLE) {
+    if (!seen.has(uni)) seen.set(uni, []);
+    seen.get(uni).push(rom);
+  }
+  // Codepoint label
+  function cpLabel(str) {
+    return 'U+' + str.codePointAt(0).toString(16).toUpperCase().padStart(4,'0');
+  }
+  for (const [uni, roms] of seen) {
+    const div = document.createElement('div');
+    div.className = 'ref-item';
+    div.title = cpLabel(uni);
+    div.innerHTML =
+      `<span class="ref-rom">${roms.join(' / ')}</span>` +
+      `<span class="ref-arrow">→</span>` +
+      `<span class="ref-uni">${uni}</span>` +
+      `<span class="ref-cp">${cpLabel(uni)}</span>`;
+    refGrid.appendChild(div);
+  }
+
+  // Demo text on load
+  inputArea.value = 'mongɣol\nbuddha-yin nom';
+  convert();
+</script>
+</body>
+</html>

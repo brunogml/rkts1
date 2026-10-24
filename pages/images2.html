@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs – Images</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../configuration/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <link rel="shortcut icon" href="../configuration/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../configuration/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
+
+    <style>
+        html, body { height: 100%; margin: 0; padding: 0; overflow: hidden; background: #1a1a1a; color: #e0e0e0; }
+
+        /* Top bar — white */
+        #topbar {
+            height: 46px; background: #fff; border-bottom: 1px solid #dee2e6;
+            display: flex; align-items: center; gap: 0.8rem;
+            padding: 0 0.9rem; flex-shrink: 0;
+        }
+        #topbar .logo img { height: 28px; width: auto; display: block; }
+        #topbar .logo-text { color: #2c4a6e; font-weight: 700; font-size: 1.05rem; letter-spacing: 0.03em; }
+        #topbar .divider  { width: 1px; height: 22px; background: #dee2e6; flex-shrink: 0; }
+        #topbar .meta-item { font-size: 0.75rem; color: #6c757d; white-space: nowrap; }
+        #topbar .meta-item strong { color: #343a40; font-weight: 600; }
+        #topbar .back-link { color: #2c6fad; font-size: 0.82rem; text-decoration: none; white-space: nowrap; }
+        #topbar .back-link:hover { color: #1a4f8a; text-decoration: underline; }
+
+        /* Provenance badges — "Digitized by" / "Hosted at" */
+        .prov-group {
+            display: flex; align-items: center; gap: 0.35rem; flex-shrink: 0;
+        }
+        .prov-label {
+            font-size: 0.68rem; color: #adb5bd; text-transform: uppercase;
+            letter-spacing: 0.06em; white-space: nowrap;
+        }
+        .prov-logo-link {
+            display: inline-flex; align-items: center;
+            text-decoration: none; opacity: 0.85; transition: opacity 0.15s;
+        }
+        .prov-logo-link:hover { opacity: 1; }
+        .prov-logo-link img {
+            height: 22px; width: auto; display: block;
+            border-radius: 2px;
+        }
+        .prov-logo-link .prov-fallback {
+            font-size: 0.75rem; font-weight: 700; color: #2c4a6e;
+            padding: 1px 5px; border: 1px solid #c8d6e5; border-radius: 3px;
+            background: #f0f5fb; white-space: nowrap;
+        }
+
+        /* Nav bar — white */
+        #nav-bar {
+            height: 40px; background: #f8f9fa; border-bottom: 1px solid #dee2e6;
+            display: flex; align-items: center; gap: 0.4rem;
+            padding: 0 0.9rem; flex-shrink: 0;
+        }
+        #page-label   { font-size: 0.9rem; min-width: 76px; text-align: center; color: #343a40; font-weight: 600; }
+        #section-label{ font-size: 0.72rem; color: #6c757d; margin-left: 0.3rem; }
+        #page-count   { font-size: 0.72rem; color: #adb5bd; }
+        #page-input   {
+            width: 68px; font-size: 0.82rem; background: #fff;
+            border: 1px solid #ced4da; color: #343a40; border-radius: 3px;
+            padding: 2px 6px; text-align: center;
+        }
+        #page-input:focus { outline: none; border-color: #2c6fad; box-shadow: 0 0 0 2px rgba(44,111,173,0.15); }
+        #nav-right { margin-left: auto; display: flex; align-items: center; gap: 0.4rem; }
+
+        /* Main area: row (viewer | right panel), then etext below */
+        #main-area {
+            display: flex; flex-direction: column;
+            height: calc(100vh - 46px - 40px); overflow: hidden;
+        }
+        #viewer-row { display: flex; height: 750px; flex-shrink: 0; min-height: 100px; overflow: hidden; }
+
+        /* Viewer */
+        #viewer-wrap { position: relative; flex: 1 1 0; min-width: 0; background: #111; }
+        #viewer { width: 100%; height: 100%; }
+
+        /* Right info panel */
+        #info-panel {
+            width: 280px; min-width: 200px; flex-shrink: 0;
+            background: #fff; border-left: 1px solid #dee2e6;
+            display: flex; flex-direction: column; overflow: hidden;
+        }
+        #info-panel-header {
+            padding: 0.4rem 0.8rem; background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6; flex-shrink: 0;
+            font-size: 0.7rem; text-transform: uppercase;
+            letter-spacing: 0.08em; color: #6c757d; font-weight: 700;
+        }
+        #info-panel-body {
+            flex: 1 1 0; overflow-y: auto; padding: 0.75rem 0.85rem;
+        }
+        .info-section { margin-bottom: 1rem; }
+        .info-label {
+            font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.07em;
+            color: #adb5bd; font-weight: 700; margin-bottom: 0.3rem;
+        }
+        .text-title-item {
+            font-size: 0.82rem; color: #212529; line-height: 1.5;
+            padding: 0.3rem 0.5rem; border-left: 2px solid #c8d6e5;
+            margin-bottom: 0.35rem; background: #f8f9fa; border-radius: 0 3px 3px 0;
+        }
+        .text-title-item .ref-badge {
+            font-size: 0.7rem; font-family: monospace;
+            color: #2c4a6e; background: #e8f0f8;
+            border: 1px solid #c8d6e5; border-radius: 3px;
+            padding: 0 4px; margin-right: 0.3rem;
+        }
+        .citation-box {
+            background: #f8f9fa; border: 1px solid #dee2e6;
+            border-radius: 4px; padding: 0.5rem 0.6rem;
+            font-size: 0.78rem; color: #495057; line-height: 1.5;
+        }
+        .citation-url {
+            font-family: monospace; font-size: 0.7rem; color: #6c757d;
+            word-break: break-all; margin-top: 0.3rem;
+            display: block;
+        }
+        .btn-copy {
+            margin-top: 0.4rem; font-size: 0.75rem;
+            background: #fff; border: 1px solid #ced4da; color: #495057;
+            border-radius: 3px; padding: 2px 8px; cursor: pointer;
+            transition: background 0.1s;
+        }
+        .btn-copy:hover { background: #e9ecef; }
+        .btn-copy.copied { background: #d4edda; border-color: #5a9e6f; color: #2d6a4f; }
+        .no-info { font-size: 0.78rem; color: #adb5bd; font-style: italic; }
+
+        #manifest-bar {
+            position: absolute; bottom: 0; left: 0; right: 0;
+            background: rgba(0,0,0,0.55); backdrop-filter: blur(2px);
+            padding: 2px 8px; display: flex; align-items: center; gap: 0.3rem;
+            font-size: 0.68rem; font-family: monospace;
+            white-space: nowrap; overflow: hidden; z-index: 5;
+        }
+        #manifest-label { color: #adb5bd; flex-shrink: 0; }
+        #manifest-url   { color: #6ea8d8; text-overflow: ellipsis; overflow: hidden; text-decoration: none; }
+        #manifest-url:hover { color: #90c4f0; text-decoration: underline; }
+
+        #loading-overlay {
+            position: absolute; inset: 0; display: flex;
+            align-items: center; justify-content: center;
+            flex-direction: column; gap: 0.8rem; background: #111; z-index: 10;
+        }
+        #loading-overlay .spinner-border { width: 2.2rem; height: 2.2rem; color: #6ea8d8; }
+        #loading-overlay .load-msg { font-size: 0.8rem; color: #666; }
+        #error-overlay {
+            position: absolute; inset: 0; display: none;
+            align-items: center; justify-content: center; background: #111; z-index: 10;
+        }
+        #error-overlay .alert { background: #2a1a1a; border-color: #6b2a2a; color: #e8a0a0; max-width: 480px; }
+
+        /* Etext pane — horizontal strip below viewer */
+        #etext-pane {
+            flex: 1 1 0; min-height: 80px;
+            background: #fff; border-top: 1px solid #dee2e6;
+            display: flex; flex-direction: column;
+            overflow: hidden;
+        }
+        #etext-pane.collapsed { display: none; }
+
+        #etext-header {
+            padding: 0.3rem 0.85rem; background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+            display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0;
+        }
+        .etext-title { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #6c757d; font-weight: 700; }
+        #etext-page-badge {
+            font-size: 0.72rem; background: #e8f5e9; border: 1px solid #a5d6a7;
+            color: #2d6a4f; border-radius: 3px; padding: 1px 6px; font-family: monospace;
+        }
+        #etext-status { font-size: 0.72rem; color: #adb5bd; margin-left: auto; }
+
+        #etext-body {
+            flex: 1 1 0; overflow-y: auto; padding: 0.6rem 0.9rem;
+            font-size: 0.84rem; line-height: 1.85; color: #343a40;
+        }
+        .eline { display: flex; gap: 0.5rem; margin-bottom: 0.1rem; }
+        .eline-num  { color: #adb5bd; font-size: 0.68rem; min-width: 16px; padding-top: 3px; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+        .eline-text { color: #212529; word-break: break-word; }
+        .no-etext   { font-size: 0.78rem; color: #adb5bd; font-style: italic; }
+
+        /* Resize handle — horizontal */
+        #resize-handle { height: 5px; cursor: row-resize; flex-shrink: 0; background: #dee2e6; }
+        #resize-handle:hover, #resize-handle.dragging { background: #adb5bd; }
+
+        /* Buttons */
+        .btn-nav {
+            background: #fff; border: 1px solid #ced4da; color: #495057;
+            padding: 2px 9px; border-radius: 3px; font-size: 0.82rem;
+            cursor: pointer; transition: background 0.1s; white-space: nowrap;
+            line-height: 1.6;
+        }
+        .btn-nav:hover:not(:disabled) { background: #e9ecef; color: #212529; border-color: #adb5bd; }
+        .btn-nav:disabled { opacity: 0.35; cursor: default; }
+        .btn-nav.on { background: #d4edda; border-color: #5a9e6f; color: #2d6a4f; }
+
+        /* Tibetan script toggle */
+        .tib-toggle-btn {
+            font-size: 0.7rem; padding: 1px 6px; line-height: 1.6;
+            vertical-align: middle; opacity: 0.65; transition: opacity 0.15s;
+        }
+        .tib-toggle-btn:hover { opacity: 1; }
+        .tib-toggle-btn .toggle-label { font-weight: 600; letter-spacing: 0.02em; }
+
+        @media (min-width:992px) {
+            .nav-item.dropdown:hover .dropdown-menu { display: block; margin-top: 0; }
+        }
+		.eline-text.tib { font-size: 1.5rem; line-height: 2; }
+		.text-title-item .script-text.tib { font-size: 1.5rem; }
+    </style>
+</head>
+<body>
+
+<!-- Top bar -->
+<div id="topbar">
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../configuration/rkts-logo.png" alt="rKTs"
+                 onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='block'">
+        </a>
+        <span id="logo-fallback" class="logo-text" style="display:none">rKTs</span>
+    </div>
+    <div class="divider"></div>
+    <a href="#" class="back-link" id="back-link">
+        <i class="bi bi-arrow-left me-1"></i><span id="rkts-display">Back</span>
+    </a>
+    <div class="divider"></div>
+    <div class="meta-item"><strong>Coll&nbsp;</strong><span id="meta-coll">—</span></div>
+    <div class="meta-item"><strong>Set&nbsp;</strong><span id="meta-title">—</span></div>
+    <div class="meta-item"><strong>Vol&nbsp;</strong><span id="meta-vol">—</span><span id="meta-volname" style="color:#6c757d"></span></div>
+    <div class="meta-item" id="meta-sec-wrap"><strong>Sec&nbsp;</strong><span id="meta-sec">—</span></div>
+    <!-- Provenance: Digitized by -->
+    <div class="prov-group" id="prov-digitized" style="display:none; margin-left:auto;">
+        <span class="prov-label">Digitized&nbsp;by</span>
+        <a class="prov-logo-link" id="prov-digitized-link" href="#" target="_blank" rel="noopener" title="">
+            <img id="prov-digitized-img" alt="" style="display:none">
+            <span class="prov-fallback" id="prov-digitized-fb" style="display:none"></span>
+        </a>
+    </div>
+    <!-- Provenance: Hosted at -->
+    <div class="prov-group" id="prov-hosted" style="display:none;">
+        <span class="prov-label">Hosted&nbsp;at</span>
+        <a class="prov-logo-link" id="prov-hosted-link" href="#" target="_blank" rel="noopener" title="">
+            <img id="prov-hosted-img" alt="" style="display:none">
+            <span class="prov-fallback" id="prov-hosted-fb" style="display:none"></span>
+        </a>
+    </div>
+    <div style="display:flex; align-items:center; gap:0.4rem;">
+        <button class="btn btn-outline-secondary btn-sm tib-toggle-btn d-none"
+                id="global-tib-toggle" data-mode="ewts"
+                title="Show in Tibetan script">
+            <i class="bi bi-translate"></i>
+        </button>
+        <button class="btn-nav on" id="btn-toggle-etext" title="Toggle etext panel">
+            <i class="bi bi-card-text me-1"></i>eText
+        </button>
+    </div>
+</div>
+
+<!-- Nav bar -->
+<div id="nav-bar">
+    <button class="btn-nav" id="btn-first" title="First page"><i class="bi bi-skip-start-fill"></i></button>
+    <button class="btn-nav" id="btn-prev"  title="Previous (←)"><i class="bi bi-chevron-left"></i></button>
+    <span id="page-label">—</span>
+    <button class="btn-nav" id="btn-next"  title="Next (→)"><i class="bi bi-chevron-right"></i></button>
+    <button class="btn-nav" id="btn-last"  title="Last page"><i class="bi bi-skip-end-fill"></i></button>
+    <span id="section-label"></span>
+    <div id="nav-right">
+        <span id="page-count"></span>
+        <input type="text" id="page-input" placeholder="go to…" title="Pagination label + Enter">
+        <button class="btn-nav" id="btn-home" title="Reset zoom"><i class="bi bi-arrows-fullscreen"></i></button>
+        <button class="btn-nav" id="btn-save-jpg" title="Save page as JPG"><i class="bi bi-download"></i></button>
+    </div>
+</div>
+
+<!-- Main area -->
+<div id="main-area">
+  <div id="viewer-row">
+
+    <!-- Viewer -->
+    <div id="viewer-wrap">
+        <div id="loading-overlay">
+            <div class="spinner-border" role="status"></div>
+            <div class="load-msg" id="load-msg">Loading…</div>
+        </div>
+        <div id="error-overlay">
+            <div class="alert">
+                <i class="bi bi-exclamation-triangle me-2"></i>
+                <span id="error-msg">Could not load image.</span>
+            </div>
+        </div>
+        <div id="missing-overlay" style="position:absolute;inset:0;display:none;align-items:center;justify-content:center;background:#1a1a1a;z-index:10;">
+            <span id="missing-msg" style="font-size:0.95rem;color:#adb5bd;font-style:italic;"></span>
+        </div>
+        <div id="viewer"></div>
+        <div id="manifest-bar">
+            <span id="manifest-label">IIIF&nbsp;</span>
+            <a id="manifest-url" href="#" target="_blank" title="Open info.json"></a>
+        </div>
+    </div>
+
+    <!-- Right info panel -->
+    <div id="info-panel">
+        <div id="info-panel-header">Page Navigation</div>
+        <div id="info-panel-body">
+            <div class="info-section" id="titles-section">
+                <div class="info-label">Texts on this page</div>
+                <div id="titles-list"><span class="no-info">Loading…</span></div>
+            </div>
+            <div class="info-section" id="dico-section" style="display:none">
+                <div class="info-label">Dictionary</div>
+                <a id="dico-link" href="#" target="_blank"
+                   style="display:inline-flex;align-items:center;gap:0.35rem;font-size:0.8rem;
+                          color:#2c6fad;text-decoration:none;padding:3px 7px;border:1px solid #c8d6e5;
+                          border-radius:3px;background:#f0f5fb;">
+                    <i class="bi bi-book"></i> Open in Dictionary viewer
+                </a>
+            </div>
+            <div class="info-section" id="collation-section" style="display:none">
+                <div class="info-label">Collation tool</div>
+                <div id="collation-links"></div>
+            </div>
+            <div class="info-section" id="parallel-section" style="display:none">
+                <div class="info-label">Other sets</div>
+                <div id="parallel-links"></div>
+            </div>
+            <div class="info-section" id="dual-section" style="display:none">
+                <div class="info-label">Dual reading</div>
+                <div id="dual-links"></div>
+            </div>
+            <!--
+			<div class="info-section" id="similar-section">
+                <div class="info-label">Similar passages</div>
+                <button class="btn-copy" id="btn-similar" title="Find similar passages across all corpora"><i class="bi bi-file-earmark-text me-1"></i>Search similar passages</button>
+            </div>
+            -->
+			<div class="info-section" id="links-section" style="display:none">
+                <div class="info-label">Links</div>
+                <div id="links-list"></div>
+            </div>
+			<div class="info-section" id="citation-section">
+                <div class="info-label">Citation</div>
+                <div id="citation-box" class="citation-box">—</div>
+                <button class="btn-copy" id="btn-copy-citation"><i class="bi bi-clipboard me-1"></i>Copy citation</button>
+            </div>
+       </div>
+    </div>
+
+  </div><!-- /viewer-row -->
+
+    <!-- Resize handle -->
+    <div id="resize-handle"></div>
+
+    <!-- Etext pane -->
+    <div id="etext-pane">
+        <div id="etext-header">
+            <span class="etext-title">eText</span>
+            <span id="etext-page-badge">—</span>
+            <span id="etext-status"></span>
+        </div>
+        <div id="etext-body"><span class="no-etext">Loading…</span></div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../tools/EwtsConverter.js"></script>
+<script>
+(function () {
+    'use strict';
+
+    // ── URL params ──────────────────────────────────────────────
+    var P         = new URLSearchParams(window.location.search);
+    var title     = (P.get('title') || '').trim(); // constituent e.g. MW22084
+    var rkts      = (P.get('rkts')  || '').trim(); // e.g. K57
+    var coll      = (P.get('coll')  || '').trim(); // sigla e.g. D
+    var vol       = (P.get('vol')   || '').trim(); // volref e.g. 0951
+    var sec       = (P.get('sec')   || '').trim();
+    var startPage = (P.get('page')  || '').trim(); // e.g. 1b
+
+    // ── Config ──────────────────────────────────────────────────
+    var dataBase = '../data/collections';
+    var collUrl  = '../data/general/collections.json';
+
+    var GENRE_CODE = { 'Kanjur': '1', 'Canonical Collection': '1', 'Tanjur': '2', 'Old Tantra': '3' };
+
+    // Collections eligible for collation — mirrors COLLATION_COLLECTIONS in collation.php
+    // Format: genreCode + Sigla  (e.g. '1F' = Kanjur collection F)
+    var COLLATION_COLLECTIONS = ['1F', '1Go', '1H', '1J', '1L', '1N', '1Ng', '1Q', '1S', '1Ty', '2G', '2N', '2Q'];
+
+    // ── Populate topbar ─────────────────────────────────────────
+    document.getElementById('meta-coll').textContent  = coll  || '—';
+    document.getElementById('meta-title').textContent = title || '—';
+    document.getElementById('meta-vol').textContent   = vol   || '—';
+    if (sec) { document.getElementById('meta-sec').textContent = sec; }
+    else      { document.getElementById('meta-sec-wrap').style.display = 'none'; }
+
+    document.getElementById('rkts-display').textContent = rkts || 'Back';
+    var backLink = document.getElementById('back-link');
+    backLink.href = rkts ? 'detail.html?id=' + encodeURIComponent(rkts) : 'javascript:history.back()';
+    if (rkts) document.title = 'rKTs \u2013 ' + rkts + ' [' + coll + '] vol.\u00a0' + vol;
+
+    // ── UI helpers ───────────────────────────────────────────────
+    var loadingEl = document.getElementById('loading-overlay');
+    var errorEl   = document.getElementById('error-overlay');
+    var loadMsg   = document.getElementById('load-msg');
+
+    function showError(msg) {
+        loadingEl.style.display = 'none';
+        errorEl.style.display = 'flex';
+        document.getElementById('error-msg').textContent = msg;
+    }
+    function hideLoading() { loadingEl.style.display = 'none'; }
+    function showMissing(pag) {
+        loadingEl.style.display = 'none';
+        errorEl.style.display = 'none';
+        var mo = document.getElementById('missing-overlay');
+        document.getElementById('missing-msg').textContent = 'image missing for ' + pag;
+        mo.style.display = 'flex';
+    }
+    function hideMissing() { document.getElementById('missing-overlay').style.display = 'none'; }
+    function setLoadMsg(m) { loadMsg.textContent = m; }
+    function escHtml(s) {
+        return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    // ── Crop helpers ─────────────────────────────────────────────
+    // Computes an OSD clip rect from cropData for the given page entry and IIIF dimensions.
+    // cropData.files is 0-based; volume JSON file "N.jp2" → files[N-1].
+    // location "top" → pages[0], "bottom" → pages[1].
+    // minAreaRect = [cx, cy, w, h, angle]; we use the axis-aligned bounding box.
+    function computeCrop(page, iiifW, iiifH) {
+        if (!cropData || !cropData.files) return null;
+        if (!page || !page.file || !page.location) return null;
+        // derive 0-based index from filename: "1.jp2" → 0, "2.jp2" → 1, …
+        var fileNum = parseInt(page.file, 10);
+        if (isNaN(fileNum) || fileNum < 1) return null;
+        var fileIdx = fileNum - 1;
+        var pageIdx = (page.location === 'top') ? 0 : 1;
+        var entry = cropData.files[fileIdx];
+        if (!entry || !entry.pages || !entry.pages[pageIdx]) return null;
+        var rect = entry.pages[pageIdx].minAreaRect; // [cx, cy, w, h, angle]
+        var refW = entry.width, refH = entry.height;
+        if (!refW || !refH) return null;
+        var rapp = iiifW / refW;
+        return {
+            x: Math.round((rect[0] - rect[2] / 2) * rapp),
+            y: Math.round((rect[1] - rect[3] / 2) * rapp),
+            w: Math.round(rect[2] * rapp),
+            h: Math.round(rect[3] * rapp)
+        };
+    }
+
+    // ── eText ────────────────────────────────────────────────────
+    var etextMap    = {};  // pagination → [{line,text}]
+    var etextReady  = false;
+	var resolvedVolno = null;
+	var resolvedEtextUrl = null;
+	
+    // ── Info panel state ──────────────────────────────────────────
+    var catalogItems        = [];  // parsed from catalog XML
+    var collTitle           = '';
+    var volName             = '';
+    var genreCode           = '';
+    var parallelConstituents = []; // constituents with isreferenceset !== "1"
+    var textAvailable        = false; // notes["text_Text Available"] === "true" for this sigla
+    var iiifTemplate = null; // URL template from manifest.txt, e.g. "https://…/xxx/info.json"
+    var cropData     = null; // parsed crop JSON: {files:[{width,height,pages:[{minAreaRect}]}]}
+    var pendingCrop  = null; // {x,y,w,h} clip rect to apply on next OSD open event
+    var currentPage  = null; // full page record from volume JSON (has .file, .location)
+
+    // Convert pagination string to numeric for range comparison
+    // "1a" → 1.0, "1b" → 1.5, "1'a" → 1.6, "1'b" → 1.7
+    function pagToNum(p) {
+        if (!p) return -1;
+        var m = p.match(/^(\d+)('?)([ab]?)$/);
+        if (!m) return -1;
+        var base  = parseInt(m[1], 10);
+        var prime = m[2] === "'";
+        var side  = m[3];
+        // Ordering: 191a=191.0, 191b=191.5, 191'a=191.6, 191'b=191.7, 192a=192.0
+        if (prime) return base + (side === 'b' ? 0.7 : 0.6);
+        return base + (side === 'b' ? 0.5 : 0);
+    }
+
+    function buildCitation(pag) {
+        if (!collTitle || !volName) return '';
+        var sec2 = sec || '';
+        var text = coll + ' ' + collTitle + ', vol. ' + volName +
+                   (sec2 ? ', sec. ' + sec2 : '') + ', fol. ' + pag + '.';
+        var idStr = genreCode + '|' + coll + '|' + title + '|I' + vol + '|' + (sec2) + '|' + pag;
+        var url   = 'http://www.rkts.org/images2.php?id=' + encodeURIComponent(idStr);
+        return { text: text, url: url };
+    }
+
+    function renderInfoPanel(pag) {
+        var pagNum = pagToNum(pag);
+
+        // Texts on this page
+        var titlesList = document.getElementById('titles-list');
+        var matching = [];
+        var seen = {};
+        if (catalogItems.length && pagNum >= 0) {
+            catalogItems.forEach(function (it) {
+                if (it.vol !== vol) return;
+                if (sec && it.sec && it.sec !== sec) return;
+                // Start: open-ended if debp missing
+                var start = it.debp ? pagToNum(it.debp + (it.debf || '')) : 0;
+                // End: open-ended if finp missing
+                var end   = it.finp ? pagToNum(it.finp + (it.finf || '')) : 99999;
+                if (pagNum >= start && pagNum <= end) {
+                    var key = (it.ref || '') + '|' + (it.tib || '');
+                    if (!seen[key]) { seen[key] = true; matching.push(it); }
+                }
+            });
+        }
+        if (!catalogItems.length) {
+            titlesList.innerHTML = '<span class="no-info">Loading catalog…</span>';
+        } else if (!matching.length) {
+            titlesList.innerHTML = '<span class="no-info">No text entry for this page.</span>';
+        } else {
+            var html = '';
+            matching.forEach(function (it) {
+                html += '<div class="text-title-item">';
+                if (it.ref && it.rkts) {
+                    // Build rKTs id: genre prefix + rkts number
+                    // genreCode: '1'=Kanjur→K, '2'=Tanjur→T, '3'=Old Tantra→T
+                    var prefix = (genreCode === '1') ? 'K' : 'T';
+                    // Use the rkts number from D.xml directly
+                    var detailId  = prefix + it.rkts;
+                    var detailUrl = 'detail.html?id=' + encodeURIComponent(detailId);
+                    html += '<a href="' + detailUrl + '" class="ref-badge" target="_blank" ' +
+                            'style="text-decoration:none;" title="Open ' + escHtml(detailId) + '">' +
+                            escHtml(it.ref) + '</a> ';
+                } else if (it.ref) {
+                    html += '<span class="ref-badge">' + escHtml(it.ref) + '</span> ';
+                }
+                var tibOrig = it.tib || it.skt || '';
+                if (tibOrig) {
+                    html += '<span class="script-text" data-lang="tib" data-original="'
+                          + escHtml(tibOrig) + '">' + escHtml(tibOrig) + '</span>';
+                } else {
+                    html += '—';
+                }
+                if (textAvailable && it.ref) {
+                    html += ' <a href="etext_complete.html?id=' + escHtml(it.ref) + '" target="_blank" ' +
+                            'title="Read etext" style="font-size:0.75rem;white-space:nowrap;">' +
+                            '<i class="bi bi-file-text"></i></a>';
+                }
+                html += '</div>';
+            });
+            titlesList.innerHTML = html;
+            // Re-apply current script mode to newly rendered titles
+            if (window.tibGlobalMode === 'unicode' && window.jsEWTS) applyTibMode('unicode');
+        }
+
+        // Citation
+        var citBox  = document.getElementById('citation-box');
+        var btnCopy = document.getElementById('btn-copy-citation');
+        var cit = buildCitation(pag);
+        if (cit) {
+            citBox.innerHTML = escHtml(cit.text) +
+                '<br><span class="citation-url">' + escHtml(cit.url) + '</span>';
+            btnCopy.onclick = function () {
+                var full = cit.text + '\n(' + cit.url + ')';
+                navigator.clipboard.writeText(full).then(function () {
+                    btnCopy.textContent = '✓ Copied';
+                    btnCopy.classList.add('copied');
+                    setTimeout(function () {
+                        btnCopy.innerHTML = '<i class="bi bi-clipboard me-1"></i>Copy citation';
+                        btnCopy.classList.remove('copied');
+                    }, 2000);
+                }).catch(function () {
+                    // fallback
+                    var ta = document.createElement('textarea');
+                    ta.value = full; document.body.appendChild(ta);
+                    ta.select(); document.execCommand('copy');
+                    document.body.removeChild(ta);
+                    btnCopy.textContent = '✓ Copied';
+                    btnCopy.classList.add('copied');
+                    setTimeout(function () {
+                        btnCopy.innerHTML = '<i class="bi bi-clipboard me-1"></i>Copy citation';
+                        btnCopy.classList.remove('copied');
+                    }, 2000);
+                });
+            };
+        } else {
+            citBox.textContent = '—';
+        }
+
+        // Similar passages button
+        var btnSimilar = document.getElementById('btn-similar');
+        if (btnSimilar) {
+            btnSimilar.onclick = function () {
+                // Collect etext lines from current folio only
+                var textLines = [];
+                (etextMap[pag] || []).forEach(function (e) {
+                    var prefix = pag + e.line + (e.sec ? '(' + e.sec + ')' : '') + ': ';
+                    textLines.push(prefix + e.text);
+                });
+
+                var form = document.createElement('form');
+                form.method = 'POST';
+                form.action = 'similar.php';
+                form.target = '_blank';
+                var fields = {
+                    cat:       genreCode || '1',
+                    sigla:     coll,
+                    vol:       resolvedVolno || vol,
+                    folio:     pag,
+                    querytext: textLines.join('\n')
+                };
+                Object.keys(fields).forEach(function (k) {
+                    var inp = document.createElement('input');
+                    inp.type = 'hidden'; inp.name = k; inp.value = fields[k];
+                    form.appendChild(inp);
+                });
+                document.body.appendChild(form);
+                form.submit();
+                document.body.removeChild(form);
+            };
+        }
+
+        // Collation links — shown when:
+        //   1. genreCode+coll is in COLLATION_COLLECTIONS
+        //   2. the text spans fewer than 100 folios
+        var collationSection = document.getElementById('collation-section');
+        var collationLinks   = document.getElementById('collation-links');
+        var collKey = genreCode + coll;
+        if (collationSection && collationLinks
+                && COLLATION_COLLECTIONS.indexOf(collKey) !== -1
+                && matching.length) {
+            var linkHtml = '';
+            matching.forEach(function (it) {
+                if (!it.ref) return;
+                var folioCount = (it.debp && it.finp)
+                    ? (parseInt(it.finp, 10) - parseInt(it.debp, 10) + 1)
+                    : 999;
+                if (folioCount >= 50) return;
+                linkHtml +=
+                    '<a href="collation.php?ref=' + encodeURIComponent(it.ref) + '" target="_blank" ' +
+                    'style="display:inline-flex;align-items:center;gap:0.35rem;font-size:0.8rem;' +
+                    'color:#2c6fad;text-decoration:none;padding:3px 7px;border:1px solid #c8d6e5;' +
+                    'border-radius:3px;background:#f0f5fb;margin-bottom:4px;">' +
+                    '<i class="bi bi-journals"></i> ' +
+                    escHtml(it.ref) + ' – Collation' +
+                    '</a><br>';
+            });
+            if (linkHtml) {
+                collationLinks.innerHTML = linkHtml;
+                collationSection.style.display = '';
+            } else {
+                collationSection.style.display = 'none';
+            }
+        } else if (collationSection) {
+            collationSection.style.display = 'none';
+        }
+
+        // ── Parallel volume links ─────────────────────────────────────────────
+        // Show one link per non-reference constituent (isreferenceset !== "1")
+        var parallelSection = document.getElementById('parallel-section');
+        var parallelLinks   = document.getElementById('parallel-links');
+        if (parallelSection && parallelLinks && parallelConstituents.length) {
+            var pLinkHtml = '';
+            parallelConstituents.forEach(function (conTitle) {
+                var pp = new URLSearchParams();
+                if (title)    pp.set('title',    title);
+                if (coll)     pp.set('coll',     coll);
+                if (vol)      pp.set('vol',       vol);
+                pp.set('parallel', conTitle);
+                if (sec)      pp.set('sec',       sec);
+                if (pag)      pp.set('page',      pag);
+                if (rkts)     pp.set('rkts',      rkts);
+                pLinkHtml +=
+                    '<a href="parallel.html?' + pp.toString() + '" target="_blank" ' +
+                    'style="display:inline-flex;align-items:center;gap:0.35rem;font-size:0.8rem;' +
+                    'color:#2c6fad;text-decoration:none;padding:3px 7px;border:1px solid #c8d6e5;' +
+                    'border-radius:3px;background:#f0f5fb;margin-bottom:4px;width:100%;box-sizing:border-box;">' +
+                    '<i class="bi bi-journals"></i> ' +
+                    escHtml(conTitle) +
+                    '</a><br>';
+            });
+            parallelLinks.innerHTML = pLinkHtml;
+            parallelSection.style.display = '';
+        } else if (parallelSection) {
+            parallelSection.style.display = 'none';
+        }
+
+        // ── Dual reading links ────────────────────────────────────────────────
+        renderDualSection(pag);
+        renderLinksSection(pag);
+    }
+
+    // ── Alignment data (for Dual reading) ────────────────────────
+    // [{pag1, vol1, sec1, aligns:[{coll,ref,setid,vol,sec,pag}]}]
+    var alignItems = [];
+    var alignReady = false;
+
+    function loadAlignData() {
+        if (!rkts) return;
+        var alignUrl = '../data/align/' + encodeURIComponent(rkts) + '.xml';
+        fetch(alignUrl)
+            .then(function (r) { return r.ok ? r.text() : ''; })
+            .catch(function () { return ''; })
+            .then(function (xmlText) {
+                if (!xmlText) return;
+                var parser = new DOMParser();
+                var doc = parser.parseFromString(xmlText, 'application/xml');
+                alignItems = Array.from(doc.querySelectorAll('item')).map(function (item) {
+                    var refEl = item.querySelector('ref');
+                    function t(el, tag) { var n = el ? el.querySelector(tag) : null; return n ? n.textContent.trim() : ''; }
+                    return {
+                        pag1:  t(refEl, 'pag'),
+                        vol1:  t(refEl, 'vol'),
+                        sec1:  t(refEl, 'sec'),
+                        aligns: Array.from(item.querySelectorAll('align')).map(function (a) {
+                            return { coll: t(a,'coll'), ref: t(a,'ref'), setid: t(a,'setid'),
+                                     vol: t(a,'vol'), sec: t(a,'sec'), pag: t(a,'pag') };
+                        })
+                    };
+                });
+                alignReady = true;
+                if (currentPag) renderDualSection(currentPag);
+            });
+    }
+
+    function renderDualSection(pag) {
+        var dualSection = document.getElementById('dual-section');
+        var dualLinks   = document.getElementById('dual-links');
+        if (!dualSection || !dualLinks || !alignReady) {
+            if (dualSection) dualSection.style.display = 'none';
+            return;
+        }
+        // Find the <item> whose <ref> matches current vol + pag (+ sec if set)
+        var matchItem = null;
+        for (var i = 0; i < alignItems.length; i++) {
+            var it = alignItems[i];
+            if (it.pag1 !== pag) continue;
+            if (it.vol1 && it.vol1 !== vol) continue;
+            if (sec && it.sec1 && it.sec1 !== sec) continue;
+            matchItem = it;
+            break;
+        }
+        if (!matchItem || !matchItem.aligns.length) {
+            dualSection.style.display = 'none';
+            return;
+        }
+        // Build one link per <align> entry in that exact item
+        var html = '';
+        matchItem.aligns.forEach(function (a) {
+            if (!a.coll || !a.setid || !a.vol) return;
+            var pp = new URLSearchParams();
+            pp.set('rkts',   rkts);
+            pp.set('coll',   coll);
+            pp.set('title',  title);
+            pp.set('vol',    vol);
+            if (sec) pp.set('sec', sec);
+            pp.set('page',   pag);
+            pp.set('coll2',  a.coll);
+            pp.set('setid2', a.setid);
+            pp.set('vol2',   a.vol);
+            if (a.pag) pp.set('pag2', a.pag);
+            var label = (a.ref || a.coll) + '\u2002[' + a.coll + ']';
+            html += '<a href="dual.html?' + pp.toString() + '" target="_blank" ' +
+                'style="display:inline-flex;align-items:center;gap:0.35rem;font-size:0.8rem;' +
+                'color:#2c6fad;text-decoration:none;padding:3px 7px;border:1px solid #c8d6e5;' +
+                'border-radius:3px;background:#f0f5fb;margin-bottom:4px;width:100%;box-sizing:border-box;">' +
+                '<i class="bi bi-layout-split"></i>\u2002' + escHtml(label) +
+                '</a><br>';
+        });
+        if (html) {
+            dualLinks.innerHTML = html;
+            dualSection.style.display = '';
+        } else {
+            dualSection.style.display = 'none';
+        }
+    }
+
+    // -- Dharmanexus links --
+    var dharmanexusMap = {};
+    var dharmanexusReady = false;
+
+    function loadDharmanexusData() {
+        fetch('../data/Dharmanexus.txt')
+            .then(function (r) { return r.ok ? r.text() : ''; })
+            .catch(function () { return ''; })
+            .then(function (txt) {
+                if (!txt) return;
+                txt.split(/\r?\n/).forEach(function (line) {
+                    line = line.trim();
+                    if (!line) return;
+                    var parts = line.split('####');
+                    if (parts.length !== 2) return;
+                    dharmanexusMap[parts[0].trim()] = parts[1].trim();
+                });
+                dharmanexusReady = true;
+                if (currentPag) renderLinksSection(currentPag);
+            });
+    }
+
+    function renderLinksSection(pag) {
+        var linksSection = document.getElementById('links-section');
+        var linksList    = document.getElementById('links-list');
+        if (!linksSection || !linksList) return;
+        if (!dharmanexusReady || !rkts || coll !== 'D') { linksSection.style.display = 'none'; return; }
+        var m = rkts.match(/^([A-Za-z]+)(\d+)$/);
+        if (!m) { linksSection.style.display = 'none'; return; }
+        var key = m[1].toUpperCase() + m[2].padStart(4, '0');
+        var boId = dharmanexusMap[key];
+        if (!boId) { linksSection.style.display = 'none'; return; }
+        var href = 'https://dharmamitra.org/nexus/db/bo/' + encodeURIComponent(boId) +
+                   '/text?active_segment=' + encodeURIComponent(boId) + ':' + encodeURIComponent(pag) + '-0';
+        linksList.innerHTML =
+            '<a href="' + escHtml(href) + '" target="_blank" ' +
+            'style="display:inline-flex;align-items:center;gap:0.35rem;font-size:0.8rem;' +
+            'color:#2c6fad;text-decoration:none;padding:3px 7px;border:1px solid #c8d6e5;' +
+            'border-radius:3px;background:#f0f5fb;width:100%;box-sizing:border-box;">' +
+            '<i class="bi bi-box-arrow-up-right"></i>\u00a0Dharmanexus' +
+            '</a>';
+        linksSection.style.display = '';
+    }
+
+    // Load catalog XML and collections meta in parallel
+    function loadInfoPanelData() {
+        // Collections.json for collTitle, volName, genreCode
+        fetch(collUrl)
+            .then(function (r) { return r.ok ? r.json() : []; })
+            .catch(function () { return []; })
+            .then(function (cols) {
+                cols.forEach(function (c) {
+                    if (c.sigla !== coll) return;
+                    // For collections with both Kanjur and Tanjur (e.g. Derge, Cone),
+                    // the sigla appears twice in collections.json — once per genre.
+                    // Only process the entry whose constituents actually contain the
+                    // current title; this prevents the wrong genre code and prevents
+                    // Kanjur constituents appearing as parallel volumes of a Tanjur
+                    // text (and vice versa).
+                    if (title && c.constituents) {
+                        var ownsTitle = c.constituents.some(function (con) {
+                            return con.title === title;
+                        });
+                        if (!ownsTitle) return;
+                    }
+                    if (!collTitle && c.title) collTitle = c.title;
+                    if (!genreCode && c.genre) genreCode = (GENRE_CODE[c.genre] || '');
+                    if (!textAvailable && c.notes && c.notes['text_Text Available'] === 'true') textAvailable = true;
+                    if (c.constituents) {
+                        // Collect non-reference constituents for parallel links
+                        if (!parallelConstituents.length) {
+                            c.constituents.forEach(function (con) {
+                                if (con.isreferenceset !== '1' && con.title && con.title !== title) {
+                                    parallelConstituents.push(con.title);
+                                }
+                            });
+                        }
+                        if (!volName) {
+                            c.constituents.forEach(function (con) {
+                                if (con.title === title && con.structure && !volName) {
+                                    con.structure.forEach(function (s) {
+                                        if (s.volref === vol && s.volname) volName = s.volname;
+                                    });
+                                }
+                            });
+                        }
+                    }
+                });
+                if (volName) {
+                    document.getElementById('meta-volname').textContent = ' ' + volName;
+                }
+
+                // ── Provenance badges: Digitized by / Hosted at ──────────────
+                // Find the constituent matching current title to read digitizedby / imagesby
+                var digitizedBy = null, imagesBy = null;
+                cols.forEach(function (c) {
+                    if (c.sigla !== coll || !c.constituents) return;
+                    c.constituents.forEach(function (con) {
+                        if (con.title === title) {
+                            if (!digitizedBy && con.digitizedby) digitizedBy = con.digitizedby;
+                            if (!imagesBy   && con.imagesby)    imagesBy    = con.imagesby;
+                        }
+                    });
+                });
+                if (digitizedBy || imagesBy) {
+                    // Load links.txt to get URLs for each org key
+                    fetch('../data/logo/links.txt')
+                        .then(function (r) { return r.ok ? r.text() : ''; })
+                        .catch(function () { return ''; })
+                        .then(function (txt) {
+                            var linkMap = {};
+                            (txt || '').split(/\r?\n/).forEach(function (line) {
+                                var parts = line.split('####');
+                                if (parts.length === 2) {
+                                    linkMap[parts[0].trim()] = parts[1].trim();
+                                }
+                            });
+                            function fillProvBadge(groupId, linkId, imgId, fbId, key) {
+                                if (!key) return;
+                                var group = document.getElementById(groupId);
+                                var link  = document.getElementById(linkId);
+                                var img   = document.getElementById(imgId);
+                                var fb    = document.getElementById(fbId);
+                                if (!group) return;
+                                var href = linkMap[key] || '#';
+                                link.href      = href;
+                                link.title     = key;
+                                fb.textContent = key;
+                                img.alt        = key;
+                                img.onload = function () {
+                                    img.style.display = 'block';
+                                    fb.style.display  = 'none';
+                                };
+                                img.onerror = function () {
+                                    img.style.display = 'none';
+                                    fb.style.display  = 'inline';
+                                };
+                                // Set src last — triggers load/error
+                                img.src = '../data/logo/' + encodeURIComponent(key) + '.png';
+                                group.style.display = '';
+                            }
+                            fillProvBadge('prov-digitized', 'prov-digitized-link',
+                                          'prov-digitized-img', 'prov-digitized-fb', digitizedBy);
+                            fillProvBadge('prov-hosted',    'prov-hosted-link',
+                                          'prov-hosted-img', 'prov-hosted-fb',    imagesBy);
+                        });
+                }
+                if (currentPag) renderInfoPanel(currentPag);
+            });
+
+        // Collection catalog XML: ../data/collections/{coll}/{coll}.xml
+        // Structure: <item><ref>D1</ref><rkts>1</rkts><vol>0886</vol><debp>1</debp><debf>b</debf>...
+        var collXmlUrl = dataBase + '/' + encodeURIComponent(coll) + '/' + encodeURIComponent(coll) + '.xml';
+        fetch(collXmlUrl)
+            .then(function (r) { return r.ok ? r.text() : ''; })
+            .catch(function () { return ''; })
+            .then(function (xmlText) {
+                if (!xmlText) return;
+                var parser = new DOMParser();
+                var doc = parser.parseFromString(xmlText, 'application/xml');
+                var items = Array.from(doc.querySelectorAll('item'));
+                function txt(el, tag) {
+                    var n = el.querySelector(tag); return n ? n.textContent.trim() : '';
+                }
+                catalogItems = items.map(function (item) {
+                    return {
+                        ref:  txt(item, 'ref'),
+                        rkts: txt(item, 'rkts'),
+                        vol:  txt(item, 'vol'),
+                        sec:  txt(item, 'sec'),
+                        debp: txt(item, 'debp'),
+                        debf: txt(item, 'debf'),
+                        finp: txt(item, 'finp'),
+                        finf: txt(item, 'finf'),
+                        tib:  txt(item, 'tib')
+                    };
+                });
+                if (currentPag) renderInfoPanel(currentPag);
+            });
+    }
+
+    // Determine etext URL via collections.json
+    function resolveEtextUrl() {
+        return fetch(collUrl)
+            .then(function (r) { return r.ok ? r.json() : []; })
+            .catch(function () { return []; })
+            .then(function (cols) {
+                var genre = null, volno = null;
+                cols.forEach(function (c) {
+                    if (c.sigla !== coll) return;
+                    // For collections with both Kanjur and Tanjur (e.g. Derge, Cone),
+                    // the sigla appears twice in collections.json — once per genre.
+                    // Only process the entry whose constituents actually contain the
+                    // current title; this prevents picking up the wrong genre code.
+                    if (title && c.constituents) {
+                        var ownsTitle = c.constituents.some(function (con) {
+                            return con.title === title;
+                        });
+                        if (!ownsTitle) return;
+                    }
+                    if (!genre && c.genre) genre = c.genre;
+                    if (!volno && c.constituents) {
+                        c.constituents.forEach(function (con) {
+                            if (con.title === title && con.structure && !volno) {
+                                con.structure.forEach(function (s) {
+                                    if (s.volref === vol && s.volno && !volno) {
+                                        volno = s.volno;
+                                        resolvedVolno = volno;
+                                    }
+                                });
+                            }
+                        });
+                    }
+                });
+                var code = GENRE_CODE[genre];
+                if (!code || !volno) return null;
+                var pad = String(parseInt(volno, 10)).padStart(3, '0');
+                return '../data/etexts/' + code + coll + '/' + pad + '.txt';
+            });
+    }
+
+    function loadEtext(url) {
+        var statusEl = document.getElementById('etext-status');
+        var bodyEl   = document.getElementById('etext-body');
+        statusEl.textContent = 'loading…';
+        fetch(url)
+            .then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.text();
+            })
+            .then(function (txt) {
+                statusEl.textContent = '';
+                parseEtext(txt);
+                etextReady = true;
+                document.getElementById('dico-section').style.display = '';
+                // Show script toggle once etext is available
+                var togBtn = document.getElementById('global-tib-toggle');
+                if (togBtn && window.jsEWTS) togBtn.classList.remove('d-none');
+                if (currentPag) renderEtext(currentPag);
+            })
+            .catch(function () {
+                statusEl.textContent = '';
+                etextReady = true;
+                bodyEl.innerHTML = '<span class="no-etext">No etext available for this volume.</span>';
+            });
+    }
+
+    function parseEtext(txt) {
+        // Format: "1b2(nya): some text"  — section code in parens is optional
+        // Prime folios supported: "191'a3(nya): some text"
+        var re = /^(\d+'?[ab])(\d+)(?:\(([^)]*)\))?:\s*(.*)/;
+        etextMap = {};
+        txt.split(/\r?\n/).forEach(function (raw) {
+            var m = raw.match(re);
+            if (!m) return;
+            var pag = m[1], lnum = m[2], secCode = m[3] || '', text = m[4];
+            if (!etextMap[pag]) etextMap[pag] = [];
+            etextMap[pag].push({ line: lnum, text: text, sec: secCode });
+        });
+    }
+
+    var currentPag = '';
+    function renderEtext(pag) {
+        currentPag = pag;
+        document.getElementById('etext-page-badge').textContent = pag || '—';
+        // Update dico.php link
+        var dicoLink = document.getElementById('dico-link');
+        if (dicoLink) {
+            var dp = new URLSearchParams();
+            if (title) dp.set('title', title);
+            if (rkts)  dp.set('rkts',  rkts);
+            if (coll)  dp.set('coll',  coll);
+            if (vol)   dp.set('vol',   vol);
+            if (sec)   dp.set('sec',   sec);
+            if (pag)   dp.set('page',  pag);
+            dicoLink.href = 'dico.html?' + dp.toString();
+        }
+        renderInfoPanel(pag);
+        var bodyEl = document.getElementById('etext-body');
+        if (!etextReady) { bodyEl.innerHTML = '<span class="no-etext">Loading etext…</span>'; return; }
+        var lines = etextMap[pag];
+        // When the etext file contains multiple sections (e.g. Gaz vol 1KG11711
+        // has sections cha, ja, nya all starting at page 1), filter to the
+        // current section so only the right lines are shown.
+        if (lines && sec) {
+            var hasSec = lines.some(function (l) { return l.sec; });
+            if (hasSec) {
+                var filtered = lines.filter(function (l) { return l.sec === sec; });
+                if (filtered.length) lines = filtered;
+            }
+        }
+        if (!lines || !lines.length) {
+            var volHint  = resolvedVolno    ? ' (volno\u00a0' + resolvedVolno + ')' : '';
+            var pathHint = resolvedEtextUrl ? '<br><span style="font-size:0.7rem;color:#adb5bd;font-family:monospace;">'
+                                             + escHtml(resolvedEtextUrl) + '</span>' : '';
+            bodyEl.innerHTML = '<span class="no-etext">No etext for page '
+                + escHtml(pag)  + '</span>';
+            return;  // ← was missing: prevented lines.forEach() TypeError that froze the URL
+        }
+        var html = '';
+        lines.forEach(function (l) {
+            html += '<div class="eline">' +
+                '<span class="eline-num">' + escHtml(l.line) + '</span>' +
+                '<span class="eline-text script-text" data-lang="tib" data-original="'
+                    + escHtml(l.text) + '">' + escHtml(l.text) + '</span>' +
+                '</div>';
+        });
+        bodyEl.innerHTML = html;
+        bodyEl.scrollTop = 0;
+        // Re-apply current script mode to newly rendered lines
+        if (window.tibGlobalMode === 'unicode' && window.jsEWTS) applyTibMode('unicode');
+    }
+
+    // ── eText toggle ─────────────────────────────────────────────
+    var etextPane  = document.getElementById('etext-pane');
+    var btnToggle  = document.getElementById('btn-toggle-etext');
+    var etextOpen  = true;
+    btnToggle.addEventListener('click', function () {
+        etextOpen = !etextOpen;
+        etextPane.classList.toggle('collapsed', !etextOpen);
+        btnToggle.classList.toggle('on', etextOpen);
+        if (osd) setTimeout(function () { osd.viewport && osd.viewport.goHome(true); }, 220);
+    });
+
+    // ── Resize handle: drags viewer-row height ────────────────────
+    (function () {
+        var handle   = document.getElementById('resize-handle');
+        var viewerRow = document.getElementById('viewer-row');
+        var dragging = false, startY = 0, startH = 0;
+        handle.addEventListener('mousedown', function (e) {
+            dragging = true; startY = e.clientY; startH = viewerRow.offsetHeight;
+            handle.classList.add('dragging');
+            document.body.style.cursor = 'row-resize';
+            document.body.style.userSelect = 'none';
+        });
+        document.addEventListener('mousemove', function (e) {
+            if (!dragging) return;
+            var newH = Math.max(100, Math.min(window.innerHeight * 0.85, startH + (e.clientY - startY)));
+            viewerRow.style.height = newH + 'px';
+        });
+        document.addEventListener('mouseup', function () {
+            if (!dragging) return;
+            dragging = false;
+            handle.classList.remove('dragging');
+            document.body.style.cursor = '';
+            document.body.style.userSelect = '';
+            if (osd) osd.viewport && osd.viewport.goHome(true);
+        });
+    })();
+
+    // ── Tibetan script toggle ─────────────────────────────────────
+    window.tibGlobalMode = 'ewts';
+
+    function applyTibMode(mode) {
+        var fields = Array.from(document.querySelectorAll('.script-text[data-lang="tib"]'));
+        fields.forEach(function (el) {
+            var original = el.dataset.original || el.textContent;
+            if (mode === 'unicode') {
+                el.textContent = jsEWTS.fromWylie(original);
+                el.classList.add('tib');
+            } else {
+                el.textContent = original;
+                el.classList.remove('tib');
+            }
+        });
+        var btn = document.getElementById('global-tib-toggle');
+        if (btn) {
+            btn.dataset.mode = mode;
+            if (mode === 'unicode') {
+                btn.title = 'Show in Wylie (EWTS)';
+                btn.innerHTML = '<span class="toggle-label">Abc</span>';
+            } else {
+                btn.title = 'Show in Tibetan script';
+                btn.innerHTML = '<i class="bi bi-translate"></i>';
+            }
+        }
+    }
+
+    document.addEventListener('click', function (e) {
+        var btn = e.target.closest('.tib-toggle-btn');
+        if (btn && window.jsEWTS) {
+            var newMode = window.tibGlobalMode === 'ewts' ? 'unicode' : 'ewts';
+            window.tibGlobalMode = newMode;
+            applyTibMode(newMode);
+        }
+    });
+
+    // ── Validate ─────────────────────────────────────────────────
+    if (!title || !coll || !vol) { showError('Missing required URL parameters (title, coll, vol).'); return; }
+
+    // Kick off etext + info panel load in parallel
+    loadInfoPanelData();
+    loadAlignData();
+    loadDharmanexusData();
+    resolveEtextUrl().then(function (url) {
+        if (url) {
+            resolvedEtextUrl = url;
+			loadEtext(url);
+        } else {
+            etextReady = true;
+            document.getElementById('etext-body').innerHTML =
+                '<span class="no-etext">No etext available for this collection.</span>';
+        }
+    });
+
+    // ── Volume JSON + manifest.txt ────────────────────────────────
+    var jsonUrl     = dataBase + '/' + encodeURIComponent(coll) +
+                      '/' + encodeURIComponent(title) +
+                      '/' + encodeURIComponent(vol) + '.json';
+    var manifestUrl = dataBase + '/' + encodeURIComponent(coll) +
+                      '/' + encodeURIComponent(title) + '/manifest.txt';
+    var cropUrl     = dataBase + '/' + encodeURIComponent(coll) +
+                      '/' + encodeURIComponent(title) + '_Crop/' +
+                      encodeURIComponent(vol) + '.json';
+
+    setLoadMsg('Loading volume index…');
+
+    Promise.all([
+        fetch(jsonUrl).then(function (r) {
+            if (!r.ok) throw new Error('HTTP ' + r.status + ' – ' + jsonUrl);
+            return r.json();
+        }),
+        fetch(manifestUrl).then(function (r) {
+            return r.ok ? r.text() : null;
+        }).catch(function () { return null; }),
+        fetch(cropUrl).then(function (r) {
+            return r.ok ? r.json() : null;
+        }).catch(function () { return null; })
+    ])
+        .then(function (results) {
+            var data     = results[0];
+            var tmplText = results[1];
+            if (tmplText) iiifTemplate = tmplText.trim();
+            if (results[2]) cropData = results[2];
+
+            var pages = Object.keys(data)
+                .filter(function (k) { return /^\d+$/.test(k); })
+                .sort(function (a, b) { return parseInt(a, 10) - parseInt(b, 10); })
+                .map(function (k) { return data[k]; })
+                .filter(Boolean);
+            if (!pages.length) { showError('No pages found in volume JSON.'); return; }
+
+            var startIdx = 0;
+            if (startPage) {
+                var _found = false, _fallback = -1;
+                for (var i = 0; i < pages.length; i++) {
+                    var pLabel = pages[i].pagination || ('p' + (i + 1));
+                    if (pLabel === startPage) {
+                        if (!sec || pages[i].psection === sec) { startIdx = i; _found = true; break; }
+                        if (_fallback < 0) _fallback = i;
+                    }
+                }
+                if (!_found && _fallback >= 0) startIdx = _fallback;
+            } else if (sec) {
+                for (var j = 0; j < pages.length; j++) {
+                    if (pages[j].psection === sec) { startIdx = j; break; }
+                }
+            }
+            initViewer(pages, startIdx);
+        })
+        .catch(function (err) { showError('Could not load volume index: ' + err.message); });
+
+    // ── OpenSeadragon ─────────────────────────────────────────────
+    var osd = null;
+    var currentIdx = 0;
+
+    var btnFirst  = document.getElementById('btn-first');
+    var btnPrev   = document.getElementById('btn-prev');
+    var btnNext   = document.getElementById('btn-next');
+    var btnLast   = document.getElementById('btn-last');
+    var btnHome   = document.getElementById('btn-home');
+    var pageLabel = document.getElementById('page-label');
+    var secLabel  = document.getElementById('section-label');
+    var pageCount = document.getElementById('page-count');
+    var pageInput = document.getElementById('page-input');
+
+    function iiifUrl(fileId) {
+        // Two manifest.txt formats are supported:
+        //   BDRC: "https://iiif.bdrc.io/xxx/info.json"
+        //         → xxx replaced by fileId; no yyy token, so vol substitution is a no-op.
+        //   EAP:  "https://images.eap.bl.uk/EAP570/yyy/xxx.jp2/info.json"
+        //         → yyy replaced by vol with "-" → "_"; xxx replaced by fileId.
+        if (iiifTemplate) {
+            var volSafe = vol.replace(/-/g, '_');
+            return iiifTemplate.replace('yyy', encodeURIComponent(volSafe))
+                               .replace('xxx', encodeURIComponent(fileId));
+        }
+        // Fallback: absolute URL in fileId field
+        if (/^https?:\/\//i.test(fileId)) {
+            var base = fileId.replace(/\/+$/, '');
+            return base.endsWith('/info.json') ? base : base + '/info.json';
+        }
+        // Fallback: BDRC default
+        return 'https://iiif.bdrc.io/' + fileId + '/info.json';
+    }
+
+    function normalizeIiifInfo(info) {
+        if (Array.isArray(info.profile) && info.profile.length &&
+                typeof info.profile[0] === 'object' && info.profile[0] !== null) {
+            var p0 = info.profile[0], p1 = info.profile[1] || {};
+            var lvl = p0['@id'] || 'http://iiif.io/api/image/2/level1.json';
+            var merged = {};
+            [p0, p1].forEach(function (src) {
+                Object.keys(src).forEach(function (k) {
+                    if (k !== '@id' && src[k] != null) merged[k] = src[k];
+                });
+            });
+            info.profile = [lvl, merged];
+        }
+        return info;
+    }
+
+    function openIiif(fileId) {
+        var url = iiifUrl(fileId);
+        setLoadMsg('Loading image…');
+        loadingEl.style.display = 'flex';
+        var mUrl = document.getElementById('manifest-url');
+        if (mUrl) { mUrl.textContent = url; mUrl.href = url; }
+        fetch(url)
+            .then(function (r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(function (info) {
+                info = normalizeIiifInfo(info);
+                if (!info['@id']) info['@id'] = url.replace(/\/info\.json$/, '');
+                // Compute crop rect (if crop data available for this page)
+                pendingCrop = computeCrop(currentPage, info.width, info.height);
+                osd.open(info);
+            })
+            .catch(function (err) {
+                loadingEl.style.display = 'none';
+                showError('Failed to load IIIF image for page ' +
+                          (pages[currentIdx] ? pages[currentIdx].pagination : '?') +
+                          ' – ' + err.message);
+            });
+    }
+
+    function updateNav(pages, idx) {
+        var p   = pages[idx];
+        var pag = p.pagination || ('p' + (idx + 1));
+        pageLabel.textContent = pag;
+
+        if (p.psection && p.psection !== sec) {
+            sec = p.psection;
+            document.getElementById('meta-sec').textContent = sec;
+            document.getElementById('meta-sec-wrap').style.display = '';
+        }
+        secLabel.textContent = sec || '';
+
+        pageCount.textContent = (idx + 1) + '\u202f/\u202f' + pages.length;
+        btnFirst.disabled = idx === 0;
+        btnPrev.disabled  = idx === 0;
+        btnNext.disabled  = idx === pages.length - 1;
+        btnLast.disabled  = idx === pages.length - 1;
+        var sp = new URLSearchParams(window.location.search);
+        sp.set('page', pag);
+        if (sec) sp.set('sec', sec); else sp.delete('sec');
+        history.replaceState(null, '', '?' + sp.toString());
+        renderEtext(pag);
+    }
+
+    function goTo(pages, idx) {
+        if (idx < 0 || idx >= pages.length) return;
+        currentIdx = idx;
+        currentPage = pages[idx];
+        updateNav(pages, idx);
+        if (pages[idx].file === 'missing') {
+            hideMissing(); // reset first, then show
+            showMissing(pages[idx].pagination || ('p' + (idx + 1)));
+        } else {
+            hideMissing();
+            openIiif(pages[idx].file);
+        }
+    }
+
+    function initViewer(pages, startIdx) {
+        setLoadMsg('Initialising viewer…');
+        osd = OpenSeadragon({
+            id:                    'viewer',
+            prefixUrl:             'https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/images/',
+            showNavigationControl: false,
+            animationTime:         0.3,
+            blendTime:             0.1,
+            constrainDuringPan:    false,
+            maxZoomPixelRatio:     4,
+            minZoomImageRatio:     0.5,
+            visibilityRatio:       0.5,
+            defaultZoomLevel:      0,
+            tileSources:           null,
+            crossOriginPolicy:     'Anonymous'
+        });
+
+        osd.addHandler('open', function () {
+            // Apply crop clip if one was computed for this page
+            if (pendingCrop) {
+                var c = pendingCrop;
+                pendingCrop = null;
+                var tiledImage = osd.world.getItemAt(0);
+                if (tiledImage) {
+                    var imageRect = new OpenSeadragon.Rect(c.x, c.y, c.w, c.h);
+                    tiledImage.setClip(imageRect);
+                    var viewportRect = tiledImage.imageToViewportRectangle(imageRect);
+                    osd.viewport.fitBounds(viewportRect, true);
+                }
+            }
+            var done = false;
+            function finish() { if (!done) { done = true; hideLoading(); } }
+            osd.addOnceHandler('tile-drawn', finish);
+            setTimeout(finish, 8000);
+        });
+        osd.addHandler('open-failed', function () {
+            showError('Failed to load IIIF image for page ' + pages[currentIdx].pagination + '.');
+        });
+
+        btnFirst.addEventListener('click', function () { goTo(pages, 0); });
+        btnPrev.addEventListener('click',  function () { goTo(pages, currentIdx - 1); });
+        btnNext.addEventListener('click',  function () { goTo(pages, currentIdx + 1); });
+        btnLast.addEventListener('click',  function () { goTo(pages, pages.length - 1); });
+        btnHome.addEventListener('click',  function () { if (osd) osd.viewport.goHome(true); });
+
+        document.getElementById('btn-save-jpg').addEventListener('click', function () {
+            if (!osd) return;
+            var canvas = osd.drawer.canvas;
+            if (!canvas) { alert('No image loaded.'); return; }
+
+            var pag = pageLabel.textContent.trim() || 'page';
+            var filename = pag + '.jpg';
+
+            var out = document.createElement('canvas');
+            out.width  = canvas.width;
+            out.height = canvas.height;
+            var ctx = out.getContext('2d');
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, out.width, out.height);
+            try {
+                ctx.drawImage(canvas, 0, 0);
+            } catch (e) {
+                alert('Cannot save: image tiles are cross-origin and the server does not send CORS headers.');
+                return;
+            }
+
+            out.toBlob(function (blob) {
+                if (!blob) { alert('Failed to create image.'); return; }
+                var url = URL.createObjectURL(blob);
+                var a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+                goTo(pages, currentIdx + 1);
+            }, 'image/jpeg', 0.92);
+        });
+
+        document.addEventListener('keydown', function (e) {
+            if (e.target === pageInput) return;
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); goTo(pages, currentIdx + 1); }
+            if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   { e.preventDefault(); goTo(pages, currentIdx - 1); }
+            if (e.key === 'Home') { e.preventDefault(); goTo(pages, 0); }
+            if (e.key === 'End')  { e.preventDefault(); goTo(pages, pages.length - 1); }
+        });
+
+        pageInput.addEventListener('keydown', function (e) {
+            if (e.key !== 'Enter') return;
+            var target = pageInput.value.trim();
+            pageInput.value = '';
+            var found = -1;
+            for (var i = 0; i < pages.length; i++) {
+                if (pages[i].pagination === target) { found = i; break; }
+            }
+            if (found >= 0) {
+                goTo(pages, found);
+            } else {
+                pageInput.style.borderColor = '#a04040';
+                setTimeout(function () { pageInput.style.borderColor = '#444'; }, 1000);
+            }
+        });
+
+        currentIdx = startIdx;
+        currentPage = pages[startIdx];
+        updateNav(pages, startIdx);
+        if (pages[startIdx].file === 'missing') {
+            showMissing(pages[startIdx].pagination || ('p' + (startIdx + 1)));
+        } else {
+            openIiif(pages[startIdx].file);
+        }
+    }
+
+})();
+</script>
+</body>
+</html>

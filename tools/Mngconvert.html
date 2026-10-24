@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mongolian Script Converter — rKTs</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style>
+    body { background: var(--bs-light, #f8f9fa); }
+
+    /* ── page header ───────────────────────────────────────── */
+    .page-header {
+      background: #fff;
+      border-bottom: 1px solid #dee2e6;
+      padding: 1.25rem 0;
+      margin-bottom: 2rem;
+    }
+
+    /* ── converter card ────────────────────────────────────── */
+    #converter-card { background: #fff; border: 1px solid #dee2e6; border-radius: .5rem; }
+
+    textarea#input {
+      font-family: monospace;
+      font-size: 1rem;
+      resize: vertical;
+    }
+
+    /* vertical Mongolian output */
+    #output-wrap {
+      min-height: 120px;
+      display: flex;
+      align-items: flex-start;
+      gap: .75rem;
+      flex-wrap: wrap;
+    }
+    #output {
+      writing-mode: vertical-lr;
+      font-family: 'Mongolian Baiti', serif;
+      font-size: 1.6rem;
+      line-height: 1.8;
+      letter-spacing: .05em;
+      min-height: 80px;
+      flex: 1 1 auto;
+    }
+    #codepoints {
+      font-family: monospace;
+      font-size: .72rem;
+      color: #6c757d;
+      word-break: break-all;
+      max-height: 6rem;
+      overflow-y: auto;
+      flex: 1 1 100%;
+    }
+
+    /* ── reference table ───────────────────────────────────── */
+    #ref-section { background: #fff; border: 1px solid #dee2e6; border-radius: .5rem; }
+
+    .ref-category-title {
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: #6c757d;
+      padding: .35rem .5rem .1rem;
+      border-bottom: 1px solid #e9ecef;
+      margin-bottom: .4rem;
+    }
+
+    .ref-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(88px, 1fr));
+      gap: .25rem .4rem;
+      padding: .1rem .5rem .6rem;
+    }
+
+    .ref-item {
+      display: flex;
+      align-items: center;
+      gap: .3rem;
+      padding: .18rem .35rem;
+      border-radius: .3rem;
+      cursor: default;
+      transition: background .12s;
+    }
+    .ref-item:hover { background: #f0f4ff; }
+
+    .ref-item .rom {
+      font-family: monospace;
+      font-size: 1.0rem;
+      font-weight: 300;
+      color: #0d6efd;
+      min-width: 2.4rem;
+      text-align: right;
+    }
+    .ref-item .arr {
+      color: #adb5bd;
+      font-size: .75rem;
+    }
+    .ref-item .mng {
+      font-family: 'Mongolian Baiti', serif;
+      font-size: 1.5rem;
+      writing-mode: vertical-lr;
+      line-height: 1;
+      min-height: 1.4rem;
+    }
+
+    /* suffix forms use horizontal display */
+    .ref-item.horizontal .mng {
+      writing-mode: horizontal-tb;
+      font-size: 1rem;
+      min-height: unset;
+    }
+  </style>
+
+  <style>
+    @media (min-width: 992px) {
+      .nav-item.dropdown:hover .dropdown-menu { display: block; margin-top: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="navbar-placeholder" data-base=".."></div>
+
+  <!-- Page header -->
+  <div class="page-header">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-1">
+          <li class="breadcrumb-item"><a href="../index.html">rKTs</a></li>
+          <li class="breadcrumb-item active">Mongolian Script Converter</li>
+        </ol>
+      </nav>
+      <h4 class="mb-0 mt-1">Mongolian Script Converter</h4>
+    </div>
+  </div>
+
+  <div class="container pb-5">
+
+    <!-- ── Converter (full width) ── -->
+    <div id="converter-card" class="p-3 mb-4">
+      <div class="row g-3 align-items-start">
+        <div class="col-12 col-md-6">
+          <label for="input" class="form-label fw-semibold">Romanized input</label>
+          <textarea id="input" class="form-control" rows="4"
+            placeholder="e.g. mongγol-un ulus"></textarea>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="d-flex align-items-center justify-content-between mb-2">
+            <span class="fw-semibold">Traditional Mongolian script</span>
+            <button id="copy-btn" class="btn btn-sm btn-outline-secondary">
+              <i class="bi bi-clipboard me-1"></i>Copy
+            </button>
+          </div>
+          <div id="output-wrap" class="border rounded p-2 bg-light">
+            <div id="output"></div>
+            <div id="codepoints" class="mt-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Character reference (full width, below) ── -->
+    <div id="ref-section" class="p-3">
+
+      <div class="d-flex align-items-center justify-content-between mb-2">
+        <span class="fw-semibold">Character reference</span>
+        <button class="btn btn-sm btn-outline-secondary" type="button"
+          data-bs-toggle="collapse" data-bs-target="#refCollapse"
+          aria-expanded="true" aria-controls="refCollapse">
+          <i class="bi bi-chevron-up" id="ref-chevron"></i>
+        </button>
+      </div>
+
+      <div class="collapse show" id="refCollapse">
+        <div id="ref-content"></div>
+      </div>
+
+    </div>
+
+  </div><!-- /container -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script type="module">
+    import { unicodemng } from './mng.js';
+
+    /* ── live conversion ──────────────────────────────────── */
+    const input      = document.getElementById('input');
+    const output     = document.getElementById('output');
+    const codepoints = document.getElementById('codepoints');
+    const copyBtn    = document.getElementById('copy-btn');
+
+    function convert() {
+      const result = unicodemng(input.value);
+      output.textContent = result;
+      codepoints.textContent = result
+        ? [...result].map(c => 'U+' + c.codePointAt(0).toString(16).toUpperCase().padStart(4,'0')).join(' ')
+        : '';
+    }
+    input.addEventListener('input', convert);
+
+    copyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(output.textContent);
+      copyBtn.innerHTML = '<i class="bi bi-check2 me-1"></i>Copied';
+      copyBtn.classList.replace('btn-outline-secondary','btn-outline-success');
+      setTimeout(() => {
+        copyBtn.innerHTML = '<i class="bi bi-clipboard me-1"></i>Copy';
+        copyBtn.classList.replace('btn-outline-success','btn-outline-secondary');
+      }, 1500);
+    });
+
+    /* ── collapse chevron toggle ──────────────────────────── */
+    document.getElementById('refCollapse').addEventListener('hide.bs.collapse', () => {
+      document.getElementById('ref-chevron').className = 'bi bi-chevron-down';
+    });
+    document.getElementById('refCollapse').addEventListener('show.bs.collapse', () => {
+      document.getElementById('ref-chevron').className = 'bi bi-chevron-up';
+    });
+
+    /* ── reference table data ────────────────────────────── */
+    const REF_SECTIONS = [
+      {
+        title: 'Vowels',
+        items: [
+          { rom: 'a',   mng: '\u1820' },  // ᠠ
+          { rom: 'e',   mng: '\u1821' },  // ᠡ
+          { rom: 'i',   mng: '\u1822' },  // ᠢ
+          { rom: 'o',   mng: '\u1823' },  // ᠣ
+          { rom: 'u',   mng: '\u1824' },  // ᠤ
+          { rom: 'ö',   mng: '\u1825' },  // ᠥ
+          { rom: 'ü',   mng: '\u1826' },  // ᠦ
+          { rom: 'E / ê', mng: '\u1827' },  // ᠧ  barred e
+        ]
+      },
+      {
+        title: 'Long vowels (vowel + "  or  uppercase)',
+        items: [
+          { rom: 'a" / A', mng: '\u1820\u1820' },
+          { rom: 'e"',     mng: '\u1821\u1821' },  // E is reserved for ᠧ
+          { rom: 'i" / I', mng: '\u1822\u1822' },
+          { rom: 'o" / O', mng: '\u1823\u1823' },
+          { rom: 'u" / U', mng: '\u1824\u1824' },
+          { rom: 'ö"',     mng: '\u1825\u1825' },
+          { rom: 'ü"',     mng: '\u1826\u1826' },
+        ]
+      },
+      {
+        title: 'Consonants',
+        items: [
+          { rom: 'n',       mng: '\u1828' },  // ᠨ
+          { rom: 'b',       mng: '\u182A' },  // ᠪ
+          { rom: 'p',       mng: '\u182B' },  // ᠫ
+          { rom: 'q / x',   mng: '\u182C' },  // ᠬ
+          { rom: 'g / γ / gh', mng: '\u182D' },  // ᠭ
+          { rom: 'm',       mng: '\u182E' },  // ᠮ
+          { rom: 'l',       mng: '\u182F' },  // ᠯ
+          { rom: 's',       mng: '\u1830' },  // ᠰ
+          { rom: 'š / S / sh', mng: '\u1831' }, // ᠱ
+          { rom: 't / t"',  mng: '\u1832' },  // ᠲ
+          { rom: 'd',       mng: '\u1833' },  // ᠳ
+          { rom: 'c / č / ch', mng: '\u1834' }, // ᠴ
+          { rom: 'j / ǰ / zh', mng: '\u1835' }, // ᠵ
+          { rom: 'y',       mng: '\u1836' },  // ᠶ
+          { rom: 'r',       mng: '\u1837' },  // ᠷ
+          { rom: 'v / w / e\'', mng: '\u1838' }, // ᠸ
+          { rom: 'f',       mng: '\u1839' },  // ᠹ
+          { rom: 'k / g\'', mng: '\u183A' },  // ᠺ
+          { rom: 'kh / k\' / K', mng: '\u183B' }, // ᠻ
+          { rom: 'ts / c" / J', mng: '\u183C' }, // ᠼ
+          { rom: 'dz / j\'', mng: '\u183D' },  // ᠽ
+          { rom: 'ng',      mng: '\u1829' },  // ᠩ
+          { rom: 'ny / n\' / ñ / Y', mng: '\u185B' }, // ᡛ
+          { rom: 'ph / p\'', mng: '\u1893' },  // ᢓ  (moved here from extended)
+          { rom: 'lh',      mng: '\u1840' },  // ᡀ
+          { rom: 'z / C / ẓ', mng: '\u185C' },  // ᡜ
+          { rom: 'h',       mng: '\u183E' },  // ᠾ
+          { rom: 'H',       mng: '\u1841' },  // ᡁ
+        ]
+      },
+      {
+        title: 'Extended / Sanskrit-loan series',
+        items: [
+          { rom: 'c\'',        mng: '\u188B' },  // ᢋ
+          { rom: 'd\' / ḓ / dd', mng: '\u1891' },  // ᢑ
+          { rom: 'd* / D',     mng: '\u188E' },  // ᢎ
+          { rom: 'd" / T / ṱ / tt', mng: '\u1890' },  // ᢐ
+          { rom: 'h\' / ḥ',   mng: '\u1881' },  // ᢁ
+          { rom: 'j"',         mng: '\u1854' },  // ᡔ
+          { rom: 'm\' / M',    mng: '\u1880' },  // ᢀ
+          { rom: 'n" / N / ṇ', mng: '\u188F' },  // ᢏ
+          { rom: 's\'',        mng: '\u1894' },  // ᢔ
+          { rom: 's* / th / ṭh', mng: '\u188D' },  // ᢍ
+          { rom: 't\' / ṭ',   mng: '\u188C' },  // ᢌ
+          { rom: 'y\' / ý',   mng: '\u18A3' },  // ᢣ
+          { rom: 'z\'',        mng: '\u1895' },  // ᢕ
+          { rom: 'Ph / p\'',   mng: '\u1893' },  // ᢓ  (also listed in consonants)
+          { rom: 'P\'',        mng: '\u1892' },  // ᢒ
+          { rom: '\'',         mng: '\u1863' },  // ᡣ  standalone
+        ]
+      },
+      {
+        title: 'Special — o\' (OE ligature)',
+        items: [
+          { rom: 'o\'',  mng: '\u1823\u180D\u180D\u1838\u1821\u1821', horizontal: true },
+        ]
+      },
+      {
+        title: 'Suffix forms',
+        horizontal: true,
+        items: [
+          { rom: '-a',    mng: '\u180E\u1820' },
+          { rom: '-e',    mng: '\u180E\u1821' },
+          { rom: '-i',    mng: '\u180E\u1822' },
+          { rom: '-u/-ü', mng: '\u180E\u1824' },
+          { rom: '-un/-ün', mng: '\u180E\u1824\u1828' },
+          { rom: '-in',   mng: '\u1822\u1828' },
+          { rom: '-yin',  mng: '\u1836\u1822\u1828' },
+          { rom: '-ban',  mng: '\u182A\u1820\u1828' },
+          { rom: '-ben',  mng: '\u182A\u1821\u1828' },
+          { rom: '-bar',  mng: '\u182A\u1820\u1837' },
+          { rom: '-ber',  mng: '\u182A\u1821\u1837' },
+          { rom: '-tur/-tür', mng: '\u1833\u1823\u1837' },
+          { rom: '-dur/-dür', mng: '\u1833\u180B\u200D\u200D\u1824\u200D\u1837' },
+          { rom: '-tai',  mng: '\u1832\u1820\u1822' },
+          { rom: '-tei',  mng: '\u1832\u1821\u1822' },
+          { rom: '-aca/-ece', mng: '\u1821\u1834\u1821' },
+          { rom: '-iyar', mng: '\u1822\u1836\u1820\u1837' },
+          { rom: '-iyer', mng: '\u1822\u1836\u1821\u1837' },
+          { rom: '-luga', mng: '\u182F\u1824\u182D\u1820' },
+          { rom: '-lüge', mng: '\u182F\u1826\u182D\u1821' },
+        ]
+      },
+      {
+        title: 'Punctuation',
+        horizontal: true,
+        items: [
+          { rom: '@', mng: '\u1800' },  // ᠀  MONGOLIAN BIRGA
+          { rom: ';', mng: '\u1802' },  // ᠂  MONGOLIAN COMMA (single)
+          { rom: ',', mng: '\u1803' },  // ᠃
+          { rom: '.', mng: '\u1805' },  // ᠅
+        ]
+      },
+    ];
+
+    /* ── render reference ─────────────────────────────────── */
+    function cpLabel(str) {
+      return [...str]
+        .map(c => 'U+' + c.codePointAt(0).toString(16).toUpperCase().padStart(4,'0'))
+        .join(' ');
+    }
+
+    const container = document.getElementById('ref-content');
+
+    REF_SECTIONS.forEach(sec => {
+      const titleDiv = document.createElement('div');
+      titleDiv.className = 'ref-category-title';
+      titleDiv.textContent = sec.title;
+      container.appendChild(titleDiv);
+
+      const grid = document.createElement('div');
+      grid.className = 'ref-grid';
+
+      sec.items.forEach(({ rom, mng, horizontal }) => {
+        const div = document.createElement('div');
+        div.className = 'ref-item' + (horizontal || sec.horizontal ? ' horizontal' : '');
+        div.title = cpLabel(mng);
+
+        // Escape for display
+        const romEsc = rom.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+        div.innerHTML =
+          `<span class="rom">${romEsc}</span>`+
+          `<span class="arr">→</span>`+
+          `<span class="mng">${mng}</span>`;
+        grid.appendChild(div);
+      });
+
+      container.appendChild(grid);
+    });
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <style>
+        .rkts-result { border-left: 3px solid #dee2e6; padding-left: 1rem; margin-bottom: 1.25rem; }
+        .rkts-result-header { font-size: .95rem; margin-bottom: .2rem; }
+        .rkts-result-loc    { font-size: .85rem; margin-bottom: .3rem; }
+        .rkts-result-snippet { font-size: .9rem; line-height: 1.8; color: #333; }
+        .volume-block { margin-bottom: 1.5rem; }
+        .volume-block .volume-title { font-size: 1rem; font-weight: 600; color: #555; border-bottom: 1px solid #dee2e6; padding-bottom: .3rem; margin-bottom: .75rem; }
+        .search-toggle .btn { font-size: .85rem; }
+        #searchForm select { max-width: 320px; }
+        #binomesSection { font-size: .875rem; }
+        #binomesSection textarea { font-family: monospace; font-size: .8rem; }
+        .binomes-toggle { cursor: pointer; font-size: .8rem; }
+        .tib { font-size: 1.6rem; line-height: 2; }
+        .tib-toggle-btn { font-size: 0.7rem; padding: 1px 6px; line-height: 1.4; opacity: 0.65; transition: opacity 0.15s; }
+        .tib-toggle-btn:hover { opacity: 1; }
+        .tib-toggle-btn .toggle-label { font-weight: 600; letter-spacing: 0.02em; }
+    </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ 
+    <div class="container mt-4">
+
+        <!-- Page heading -->
+        <div class="mb-3 d-flex align-items-start justify-content-between">
+            <div>
+                <h4 class="mb-0">E-text Search
+                    <span class="badge bg-secondary fw-normal ms-1" style="font-size:.65em;vertical-align:middle;">customizable</span>
+                </h4>
+                <p class="text-muted small mb-0 mt-1">
+                    Search with support for <strong>interchangeable spellings</strong> (binomes) — define pairs of equivalent
+                    forms to catch orthographic variants across witnesses in a single pass.
+                    For standard search without binomes, use the
+                    <a href="results2.html" id="link-to-2">standard search</a>.
+                </p>
+            </div>
+            <button type="button" id="global-tib-toggle"
+                    class="btn btn-outline-secondary btn-sm tib-toggle-btn flex-shrink-0 mt-1"
+                    data-mode="ewts" title="Show in Tibetan script">
+                <i class="bi bi-translate"></i>
+            </button>
+        </div>
+
+        <!-- Search form -->
+        <div class="card mb-4">
+            <div class="card-body pb-2">
+                <div class="row g-2 align-items-end" id="searchForm">
+
+                    <div class="col-12 col-md-5">
+                        <label for="text-input" class="form-label small text-muted mb-1">Search phrase (EWTS)</label>
+                        <input type="text" id="text-input" class="form-control"
+                               placeholder="e.g. sangs rgyas kyi zhing">
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <label for="collection-select" class="form-label small text-muted mb-1">Collection</label>
+                        <select id="collection-select" class="form-select"></select>
+                    </div>
+
+                    <div class="col-12 col-md-3 d-flex gap-2 align-items-end flex-wrap">
+                        <div class="btn-group search-toggle" role="group">
+                            <input type="radio" class="btn-check" name="mode" id="modeExact" value="exact" autocomplete="off" checked>
+                            <label class="btn btn-outline-secondary" for="modeExact">Exact</label>
+                            <input type="radio" class="btn-check" name="mode" id="modeApprox" value="approx" autocomplete="off">
+                            <label class="btn btn-outline-secondary" for="modeApprox">Approx</label>
+                        </div>
+                        <button id="search-btn" class="btn btn-primary">
+                            <i class="bi bi-search"></i> Search
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary"
+                                data-bs-toggle="modal" data-bs-target="#searchInfoModal"
+                                title="Search help"><i class="bi bi-info-circle"></i></button>
+                        <a href="results2.html" id="btn-standard"
+                           class="btn btn-outline-secondary" title="Switch to standard search">
+                            Standard Search
+                        </a>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="expert" id="selSearch" value="0" checked>
+                            <label class="form-check-label small text-muted" for="selSearch">Selective search</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="expert" id="expSearch" value="1">
+                            <label class="form-check-label small text-muted" for="expSearch">Expert search</label>
+                        </div>
+                    </div>
+
+                    <!-- Binomes -->
+                    <div class="col-12 mt-1" id="binomesSection">
+                        <div class="d-flex align-items-center gap-2 mb-1">
+                            <span class="text-muted small fw-semibold">
+                                <i class="bi bi-arrow-left-right me-1"></i>Interchangeable spellings
+                            </span>
+                            <button type="button" class="btn btn-link btn-sm p-0 ms-1 text-muted"
+                                    data-bs-toggle="modal" data-bs-target="#binomesInfoModal"
+                                    title="About interchangeable spellings">
+                                <i class="bi bi-info-circle"></i>
+                            </button>
+                            <span class="badge bg-success d-none" id="variants-badge"></span>
+                            <a class="binomes-toggle text-secondary ms-1" data-bs-toggle="collapse"
+                               href="#binomesCollapse" role="button" aria-expanded="false">
+                                <i class="bi bi-caret-down-fill" id="binomes-caret" style="font-size:1.2rem;"></i>
+                            </a>
+                        </div>
+                        <div class="collapse" id="binomesCollapse">
+                            <div class="text-muted small mb-1 d-none" id="variants-list-wrap">
+                                Active variants: <span id="variants-list"></span>
+                            </div>
+                            <textarea id="binomes-input" rows="4"
+                                      class="form-control form-control-sm"
+                                      style="max-width:420px;"
+                                      placeholder="e.g.&#10;bzhugs=gzhugs&#10;khyed=khyod"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Progress -->
+        <div id="progress-area" style="display:none" class="mb-3">
+            <div class="d-flex align-items-center gap-2 text-muted small">
+                <div class="spinner-border spinner-border-sm"></div>
+                <span id="progress-msg">Searching…</span>
+            </div>
+            <div class="progress mt-2" style="height:4px">
+                <div id="progress-bar" class="progress-bar" style="width:0%"></div>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div id="results-area"></div>
+
+    </div><!-- /container -->
+
+    <!-- Info modal -->
+    <div class="modal fade" id="searchInfoModal" tabindex="-1" aria-labelledby="searchInfoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="searchInfoLabel">About the E-text Search</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Selective Search <small class="text-muted">(recommended for targeted queries)</small></h6>
+                    <p>Searches within a curated selection of e-texts chosen for their textual quality and significance in representing distinct transmission traditions.</p>
+                    <ul>
+                        <li>For general searches, use the <u><em>Derge Kanjur</em></u>.</li>
+                        <li>To explore the <em>Them spangs ma</em> transmission, use the <u><em>Stog Kanjur</em></u>.</li>
+                        <li>For early canonical materials, consult the <u><em>Namgyal collection</em></u>.</li>
+                        <li>The <u><em>Phugbrag Kanjur</em></u> reflects both early and later transmission layers.</li>
+                        <li>Tanjur e-texts are based on manual transcription and are generally reliable.</li>
+                        <li>Both Old Tantra and Bon Canon are OCR-based.</li>
+                    </ul>
+                    <p>For best results, use <strong>short and distinctive phrases</strong>.</p>
+                    <hr>
+                    <h6>Expert Search <small class="text-muted">(full corpus access)</small></h6>
+                    <p>Provides access to all available e-texts. Text quality varies:</p>
+                    <ul>
+                        <li><strong>Input</strong> — manually entered and reviewed (highest quality)</li>
+                        <li><strong>OCR+</strong> — machine-generated with multiple proofreading steps</li>
+                        <li><strong>OCR</strong> — raw output without further verification</li>
+                    </ul>
+                    <hr>
+                    <h6>Exact vs. Approximate search</h6>
+                    <p><strong>Exact</strong> finds the literal string anywhere in the text, including across folio-line breaks. <strong>Approximate</strong> finds all search words in order within a two-line window, with up to 5 intervening words allowed.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Binomes info modal -->
+    <div class="modal fade" id="binomesInfoModal" tabindex="-1" aria-labelledby="binomesInfoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="binomesInfoLabel">Interchangeable spellings (binomes)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Enter pairs of equivalent spellings, one pair per line using the format <code>form_a=form_b</code>. The search will find occurrences of either spelling (and all combinations, if multiple pairs interact). Variant matches are flagged with a <span class="badge bg-warning text-dark">badge</span> showing the matched spelling.</p>
+                    <p class="mb-0 text-muted small"><i class="bi bi-clock me-1"></i><strong>Note:</strong> each additional pair multiplies the search work — results may take longer when several variants are active.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../tools/EwtsConverter.js"></script>
+    <script src="etextsearch.js"></script>
+</body>
+</html>

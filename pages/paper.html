@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Page Viewer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <style>
+        #osd-viewer {
+            width: 100%;
+            height: 65vh;
+            min-height: 400px;
+            background: #1a1a1a;
+            border-radius: 4px;
+            position: relative;
+        }
+        .viewer-toolbar {
+            background: var(--light-gray, #f8f9fa);
+            border: 1px solid #dee2e6;
+            border-bottom: none;
+            border-radius: 4px 4px 0 0;
+            padding: 0.4rem 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        .viewer-toolbar .btn {
+            padding: 0.2rem 0.5rem;
+            font-size: 0.85rem;
+        }
+        .page-nav {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .page-id-badge {
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: #1d447a;
+            font-weight: bold;
+        }
+        .biblio-card .card-header {
+            background: #1d447a;
+            color: white;
+            font-size: 0.9rem;
+            padding: 0.4rem 0.75rem;
+        }
+        .biblio-card .card-body {
+            font-size: 0.88rem;
+            padding: 0.6rem 0.75rem;
+        }
+        .biblio-field {
+            margin-bottom: 0.25rem;
+        }
+        .biblio-label {
+            font-weight: 600;
+            color: #555;
+            min-width: 70px;
+            display: inline-block;
+        }
+        #load-error {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #aaa;
+            text-align: center;
+        }
+        .osd-wrapper {
+            position: relative;
+        }
+    </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="page-heading">
+            <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="80">
+            <span class="page-kicker" id="heading-kicker">Page Viewer</span>
+            <h1 id="heading-title">Loading…</h1>
+        </div>
+
+        <div class="row g-3">
+            <!-- Viewer column -->
+            <div class="col-12 col-lg-9">
+                <div class="viewer-toolbar">
+                    <!-- Page navigation -->
+                    <div class="page-nav">
+                        <a id="btn-prev" class="btn btn-outline-secondary btn-sm" href="#" title="Previous page">
+                            <i class="bi bi-chevron-left"></i> Prev
+                        </a>
+                        <span class="page-id-badge" id="page-id-display"></span>
+                        <a id="btn-next" class="btn btn-outline-secondary btn-sm" href="#" title="Next page">
+                            Next <i class="bi bi-chevron-right"></i>
+                        </a>
+                    </div>
+                    <div class="ms-auto d-flex gap-1">
+                        <button class="btn btn-outline-secondary btn-sm" id="btn-zoom-in" title="Zoom in"><i class="bi bi-zoom-in"></i></button>
+                        <button class="btn btn-outline-secondary btn-sm" id="btn-zoom-out" title="Zoom out"><i class="bi bi-zoom-out"></i></button>
+                        <button class="btn btn-outline-secondary btn-sm" id="btn-home" title="Reset view"><i class="bi bi-fullscreen-exit"></i></button>
+                        <button class="btn btn-outline-secondary btn-sm" id="btn-rotate" title="Rotate 90°"><i class="bi bi-arrow-clockwise"></i></button>
+                        <a id="btn-download" class="btn btn-outline-secondary btn-sm" href="#" download title="Download image">
+                            <i class="bi bi-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="osd-wrapper">
+                    <div id="osd-viewer"></div>
+                    <div id="load-error">
+                        <i class="bi bi-image" style="font-size:2.5rem;"></i>
+                        <div class="mt-2">Image not available</div>
+                        <div class="small text-muted" id="error-path"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-12 col-lg-3">
+                <!-- Bibliographic info -->
+                <div class="card biblio-card mb-3">
+                    <div class="card-header">
+                        <i class="bi bi-book me-1"></i> Bibliographic Info
+                    </div>
+                    <div class="card-body" id="biblio-body">
+                        <div class="text-muted small">Loading…</div>
+                    </div>
+                </div>
+
+                <!-- Image info -->
+                <div class="card mb-3">
+                    <div class="card-header" style="background:#1d447a;color:white;font-size:0.9rem;padding:0.4rem 0.75rem;">
+                        <i class="bi bi-info-circle me-1"></i> Image Info
+                    </div>
+                    <div class="card-body" style="font-size:0.88rem;padding:0.6rem 0.75rem;">
+                        <div class="biblio-field">
+                            <span class="biblio-label">Cat:</span>
+                            <span id="info-cat">—</span>
+                        </div>
+                        <div class="biblio-field">
+                            <span class="biblio-label">ID:</span>
+                            <span id="info-id">—</span>
+                        </div>
+                        <div class="biblio-field">
+                            <span class="biblio-label">Path:</span>
+                            <span id="info-path" style="font-family:monospace;font-size:0.8rem;word-break:break-all;">—</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1.0/build/openseadragon/openseadragon.min.js"></script>
+    <script>
+    (function () {
+        // ── Helpers ──────────────────────────────────────────────────────────
+
+        function getParams() {
+            const p = new URLSearchParams(window.location.search);
+            return { cat: p.get('cat') || '', id: p.get('id') || '' };
+        }
+
+        // Parse "prefix-number" style IDs like "1-125"
+        // Returns { prefix, num } or null if not parseable
+        function parseId(id) {
+            const m = id.match(/^(.*?)(\d+)$/);
+            if (!m) return null;
+            return { prefix: m[1], num: parseInt(m[2], 10), raw: id };
+        }
+
+        function buildId(prefix, num) {
+            return prefix + num;
+        }
+
+        function pageUrl(cat, id) {
+            return `paper.html?cat=${encodeURIComponent(cat)}&id=${encodeURIComponent(id)}`;
+        }
+
+        function imagePath(cat, id) {
+            return `../paper/${encodeURIComponent(cat)}/${encodeURIComponent(id)}.jpg`;
+        }
+
+        // ── OSD setup ────────────────────────────────────────────────────────
+
+        let viewer = null;
+        let currentRotation = 0;
+
+        function initViewer(src) {
+            if (viewer) { viewer.destroy(); viewer = null; }
+            currentRotation = 0;
+
+            // Clear any leftover OSD canvas from previous load
+            const el = document.getElementById('osd-viewer');
+            el.innerHTML = '';
+
+            document.getElementById('load-error').style.display = 'none';
+
+            viewer = OpenSeadragon({
+                id: 'osd-viewer',
+                prefixUrl: 'https://cdn.jsdelivr.net/npm/openseadragon@4.1.0/build/openseadragon/images/',
+                showNavigationControl: false,
+                showRotationControl: false,
+                animationTime: 0.4,
+                springStiffness: 8,
+                crossOriginPolicy: 'Anonymous',
+                tileSources: {
+                    type: 'image',
+                    url:  src
+                }
+            });
+
+            viewer.addHandler('open-failed', function () {
+                document.getElementById('load-error').style.display = 'block';
+                document.getElementById('error-path').textContent = src;
+            });
+        }
+
+        // ── Bibliographic data ───────────────────────────────────────────────
+
+        function loadBiblio(cat) {
+            const biblioUrl = `../paper/${encodeURIComponent(cat)}/biblio.xml`;
+            const body = document.getElementById('biblio-body');
+
+            fetch(biblioUrl)
+                .then(r => {
+                    if (!r.ok) throw new Error('Not found');
+                    return r.text();
+                })
+                .then(xml => {
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(xml, 'application/xml');
+
+                    const fields = ['title', 'author', 'year', 'publisher', 'place', 'pages', 'url', 'note'];
+                    let html = '';
+
+                    fields.forEach(f => {
+                        const el = doc.querySelector(f);
+                        if (el && el.textContent.trim()) {
+                            const label = f.charAt(0).toUpperCase() + f.slice(1);
+                            const val = f === 'url'
+                                ? `<a href="${el.textContent.trim()}" target="_blank" rel="noopener">${el.textContent.trim()}</a>`
+                                : escHtml(el.textContent.trim());
+                            html += `<div class="biblio-field"><span class="biblio-label">${label}:</span> ${val}</div>`;
+                        }
+                    });
+
+                    // Fall back: render all child elements not in the known list
+                    const all = Array.from(doc.querySelector('biblio')?.children || []);
+                    all.forEach(el => {
+                        if (!fields.includes(el.tagName.toLowerCase())) {
+                            html += `<div class="biblio-field"><span class="biblio-label">${escHtml(el.tagName)}:</span> ${escHtml(el.textContent.trim())}</div>`;
+                        }
+                    });
+
+                    body.innerHTML = html || '<div class="text-muted small">No data.</div>';
+                })
+                .catch(() => {
+                    body.innerHTML = '<div class="text-muted small">Bibliographic data unavailable.</div>';
+                });
+        }
+
+        function escHtml(s) {
+            return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+
+        // ── Toolbar buttons ──────────────────────────────────────────────────
+
+        document.getElementById('btn-zoom-in').addEventListener('click', () => viewer && viewer.viewport.zoomBy(1.5));
+        document.getElementById('btn-zoom-out').addEventListener('click', () => viewer && viewer.viewport.zoomBy(1 / 1.5));
+        document.getElementById('btn-home').addEventListener('click', () => viewer && viewer.viewport.goHome());
+        document.getElementById('btn-rotate').addEventListener('click', () => {
+            if (!viewer) return;
+            currentRotation = (currentRotation + 90) % 360;
+            viewer.viewport.setRotation(currentRotation);
+        });
+
+        // ── Main init ────────────────────────────────────────────────────────
+
+        function init() {
+            const { cat, id } = getParams();
+
+            // Page heading
+            document.getElementById('heading-kicker').textContent = cat ? `Catalog: ${cat}` : 'Page Viewer';
+            document.getElementById('heading-title').textContent = id ? `Page ${id}` : 'No page specified';
+            document.title = id ? `rKTs – ${cat} / ${id}` : 'rKTs – Page Viewer';
+
+            // Sidebar info
+            document.getElementById('info-cat').textContent = cat || '—';
+            document.getElementById('info-id').textContent = id || '—';
+
+            if (!cat || !id) {
+                document.getElementById('load-error').style.display = 'block';
+                document.getElementById('error-path').textContent = 'No cat or id parameter supplied.';
+                return;
+            }
+
+            const imgSrc = imagePath(cat, id);
+            document.getElementById('info-path').textContent = `../paper/${cat}/${id}.jpg`;
+            document.getElementById('btn-download').href = imgSrc;
+
+            initViewer(imgSrc);
+            loadBiblio(cat);
+
+            // Prev / Next navigation
+            const parsed = parseId(id);
+            if (parsed) {
+                const prevId = parsed.num > 1 ? buildId(parsed.prefix, parsed.num - 1) : null;
+                const nextId = buildId(parsed.prefix, parsed.num + 1);
+
+                const btnPrev = document.getElementById('btn-prev');
+                const btnNext = document.getElementById('btn-next');
+
+                if (prevId) {
+                    btnPrev.href = pageUrl(cat, prevId);
+                } else {
+                    btnPrev.classList.add('disabled');
+                    btnPrev.removeAttribute('href');
+                }
+                btnNext.href = pageUrl(cat, nextId);
+            } else {
+                // ID not numeric – hide nav
+                document.getElementById('btn-prev').classList.add('disabled');
+                document.getElementById('btn-next').classList.add('disabled');
+            }
+
+            document.getElementById('page-id-display').textContent = id;
+        }
+
+        init();
+    })();
+    </script>
+</body>
+</html>

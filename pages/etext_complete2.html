@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+
+    <style>
+        /* ── Etext typography ─────────────────────────────────────── */
+        #etext-container {
+            font-family: 'Noto Serif', 'Times New Roman', Georgia, serif;
+            font-size: 1rem;
+            line-height: 1.85;
+            max-height: 75vh;
+            overflow-y: auto;
+            background: #fdfaf5;
+            border: 1px solid #dee2e6;
+            border-radius: .375rem;
+            padding: 1.5rem 2rem;
+        }
+        .folio-header {
+            display: inline-block;
+            font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+            color: #fff; background: #6c757d;
+            border-radius: 3px; padding: 0 .38em;
+            margin: .9em .4em .25em 0; vertical-align: middle;
+            cursor: default; transition: opacity .15s, width .15s;
+            white-space: nowrap; text-decoration: none;
+        }
+        .folio-header:hover { filter: brightness(1.25); text-decoration: none; }
+        .folio-header.vol-label { background: #0d6efd; font-size: .7rem; }
+        .folio-header.hidden-marker {
+            opacity: 0; width: 0; height: 0; overflow: hidden;
+            padding: 0; margin: 0; font-size: 0; line-height: 0;
+        }
+        .etext-line { display: block; margin-bottom: .12em; }
+        #etext-container.continuous-text .etext-line { display: inline; margin-bottom: 0; }
+        #etext-container.continuous-text .etext-line::after { content: ' '; }
+        .line-num {
+            display: inline-block; font-size: .68rem; color: #aaa;
+            width: 1.4em; text-align: right; margin-right: .55em;
+            user-select: none; transition: opacity .15s, width .15s; vertical-align: baseline;
+        }
+        .line-num.hidden-num { opacity: 0; width: 0; margin: 0; padding: 0; overflow: hidden; font-size: 0; line-height: 0; }
+        .vol-separator { border: none; border-top: 2px solid #dee2e6; margin: 1.5rem 0 1rem; scroll-margin-top: 120px; }
+        span[id^="vol-"] { scroll-margin-top: 120px; }
+
+        /* coll=A apparatus notes */
+        .notes-divider {
+            border: none; border-top: 1px dashed #dee2e6;
+            margin: .6rem 0 .4rem;
+        }
+        .etext-note {
+            display: block; font-size: .82rem; color: #6c5a3a;
+            line-height: 1.6; margin-bottom: .08em;
+        }
+        .note-num {
+            display: inline-block; font-size: .65rem; color: #c8a96e;
+            width: 1.8em; text-align: right; margin-right: .55em;
+            user-select: none; vertical-align: baseline;
+        }
+        .circ-ref { color: #b05020; font-weight: 700; }
+        .page-break-label {
+            display: inline-block; font-size: .62rem; color: #adb5bd;
+            letter-spacing: .06em; text-transform: uppercase;
+            margin: .15rem .3rem .05rem 0; vertical-align: middle;
+        }
+
+        /* ── Toolbar ──────────────────────────────────────────────── */
+        #etext-toolbar {
+            position: sticky; top: 56px; z-index: 100;
+            background: #fff; border-bottom: 1px solid #dee2e6; padding: .5rem 1rem;
+        }
+        #etext-toolbar .btn { min-width: 145px; }
+        .meta-badges .badge { font-size: .8rem; }
+        .vol-jump { font-size: .8rem; cursor: pointer; }
+        .tib { font-size: 1.6rem; line-height: 2; }
+        .tib-toggle-btn { font-size: 0.8rem; padding: 4px 10px; line-height: 1.5; opacity: 0.65; transition: opacity 0.15s; }
+        .tib-toggle-btn:hover { opacity: 1; }
+        .tib-toggle-btn .toggle-label { font-weight: 600; letter-spacing: 0.02em; }
+
+        /* ── User notes ───────────────────────────────────────────── */
+        .etext-block ::selection { background: #b3e5fc; }
+        .noted-passage { background: #fff9c4; border-bottom: 2px solid #f9a825;
+                         border-radius: 2px; cursor: pointer; }
+        .noted-passage:hover { background: #fff176; }
+
+        /* comments */
+        .note-comments { margin-top: .5rem; border-top: 1px solid #e8d8a0; padding-top: .4rem; }
+        .comment-card  {
+            background: #f5f5f5; border: 1px solid #ddd;
+            border-radius: .3rem; padding: .4rem .6rem;
+            margin-bottom: .35rem; font-size: .8rem;
+        }
+        .comment-card .comment-meta {
+            font-size: .68rem; color: #888;
+            display: flex; justify-content: space-between; margin-bottom: .2rem;
+        }
+        .comment-card .comment-author { font-weight: 600; color: #555; }
+        .comment-editor {
+            margin-top: .4rem; padding: .4rem .5rem;
+            background: #fafafa; border: 1px dashed #bbb; border-radius: .3rem;
+        }
+        .comment-editor .fmt-toolbar button { font-size: .7rem; padding: 0 4px; }
+        .comment-editor [contenteditable] {
+            min-height: 48px; font-size: .8rem;
+            border: 1px solid #ced4da; border-radius: 3px;
+            padding: 4px 6px; background: #fff; outline: none;
+        }
+        .comment-editor [contenteditable]:focus {
+            border-color: #86b7fe; box-shadow: 0 0 0 .15rem rgba(13,110,253,.15);
+        }
+        .btn-add-comment {
+            font-size: .72rem; padding: 1px 7px; margin-top: .35rem;
+        }
+
+        #notes-panel {
+            position: fixed; right: 0; top: 0; bottom: 0;
+            width: 340px; background: #fff;
+            border-left: 1px solid #dee2e6;
+            box-shadow: -3px 0 12px rgba(0,0,0,.08);
+            z-index: 200; display: flex; flex-direction: column;
+            transform: translateX(100%); transition: transform .25s ease;
+        }
+        #notes-panel.open { transform: translateX(0); }
+        #notes-panel-header {
+            background: #f8f9fa; border-bottom: 1px solid #dee2e6;
+            padding: .6rem 1rem; display: flex; align-items: center; gap: .5rem;
+            flex-shrink: 0;
+        }
+        #notes-panel-header h6 { margin: 0; font-size: .85rem; font-weight: 600; flex: 1; }
+        #notes-list {
+            flex: 1; overflow-y: auto; padding: .75rem;
+        }
+        .note-card {
+            background: #fffbf0; border: 1px solid #e8d8a0;
+            border-radius: .375rem; padding: .6rem .75rem;
+            margin-bottom: .6rem; font-size: .82rem;
+        }
+        .note-card .note-meta {
+            font-size: .72rem; color: #888; margin-bottom: .3rem;
+            display: flex; justify-content: space-between; flex-wrap: wrap; gap: .2rem;
+        }
+        .note-card .note-author { font-weight: 600; color: #1d6fa4; }
+        .note-card .note-folio  { color: #6c757d; }
+        .note-card .note-selected {
+            font-style: italic; color: #6c5a3a; font-size: .78rem;
+            border-left: 2px solid #e8d8a0; padding-left: .4rem;
+            margin-bottom: .3rem; word-break: break-word;
+        }
+        .note-card .note-body { line-height: 1.5; word-break: break-word; }
+        .note-card .note-actions { margin-top: .4rem; display: flex; gap: .4rem; }
+
+        #note-editor {
+            border-top: 1px solid #dee2e6; padding: .75rem;
+            background: #f8f9fa; flex-shrink: 0;
+        }
+        #note-editor .editor-meta {
+            font-size: .72rem; color: #888; margin-bottom: .4rem;
+        }
+        /* formatting toolbar — identical to index.php */
+        .fmt-toolbar { display:flex; flex-wrap:wrap; gap:3px; margin-bottom:4px; }
+        .fmt-toolbar button { font-size:.75rem; padding:1px 6px; line-height:1.4; }
+        .fmt-sep { display:inline-block; width:1px; background:#dee2e6; margin:0 3px; align-self:stretch; }
+        .fmt-color { min-width:1.6rem; font-size:.8rem !important; }
+        .fmt-color:hover { opacity:.75; }
+        #note-body-editor {
+            width:100%; min-height:80px; font-size:.85rem;
+            border:1px solid #ced4da; border-radius:4px;
+            padding:6px; resize:vertical; font-family:inherit;
+            background:#fff; outline:none;
+        }
+        #note-body-editor:focus { border-color:#86b7fe; box-shadow:0 0 0 .2rem rgba(13,110,253,.15); }
+        .notes-toggle-btn {
+            position: fixed; right: 0; top: 50%;
+            z-index: 199; writing-mode: vertical-rl;
+            padding: .6rem .35rem; border-radius: .375rem 0 0 .375rem;
+            font-size: .78rem; font-weight: 600; letter-spacing: .04em;
+            background: #1d6fa4; color: #fff; border: none; cursor: pointer;
+            box-shadow: -2px 0 8px rgba(0,0,0,.12);
+            transition: background .15s;
+            transform: translateY(-50%);
+        }
+        .notes-toggle-btn:hover { background: #155d8a; }
+        .notes-toggle-btn .note-count-badge {
+            display: inline-block; background: #e8a020; color: #fff;
+            border-radius: 50%; width: 18px; height: 18px;
+            font-size: .65rem; line-height: 18px; text-align: center;
+            margin-top: .3rem; font-style: normal;
+        }
+        /* shift etext container when panel is open */
+        body.notes-open #notes-panel-spacer { display: block; }
+        .nc-body a::after, .note-body a::after, .comment-body a::after {
+            content: '\F1C5';
+            font-family: 'bootstrap-icons';
+            font-size: .75em;
+            margin-left: .25em;
+            opacity: .6;
+            vertical-align: middle;
+        }
+        .login-nudge { font-size: .78rem; color: #888; font-style: italic; text-align: center; padding: .5rem 0; }
+    </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     <div class="container mt-4 mb-5">
+
+        <nav aria-label="breadcrumb" class="mb-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="etexts.html">Etexts</a></li>
+                <li class="breadcrumb-item active" id="breadcrumb-id" aria-current="page">—</li>
+            </ol>
+        </nav>
+
+        <!-- Error display -->
+        <div id="error-area"></div>
+
+        <!-- Main card (hidden until data loads) -->
+        <div id="main-card" class="card shadow-sm" style="display:none">
+
+            <!-- card header -->
+            <div class="card-header py-3">
+                <div style="width:100%;margin-bottom:.5rem">
+                    <h5 class="mb-0 fw-semibold">
+                        <span id="hdr-tib" class="script-text" data-lang="tib"></span>
+                    </h5>
+                </div>
+                <div style="width:100%;margin-bottom:.5rem">
+                    <div class="meta-badges d-flex flex-wrap gap-2">
+                        <span class="badge bg-primary" id="hdr-id">—</span>
+                        <span class="badge bg-secondary" id="hdr-rkts" style="display:none"></span>
+                        <span class="badge bg-info text-dark" id="hdr-sec"></span>
+                        <span class="badge bg-light text-dark border" id="hdr-coll"></span>
+                    </div>
+                </div>
+                <div style="width:100%">
+                    <div class="d-flex flex-wrap gap-2" id="vol-jump-links"></div>
+                </div>
+            </div>
+
+            <!-- toolbar -->
+            <div id="etext-toolbar">
+                <div class="d-flex flex-wrap gap-2 align-items-center">
+                    <button id="btn-pages" class="btn btn-sm btn-outline-secondary" onclick="togglePages()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="me-1" viewBox="0 0 16 16">
+                            <path d="M4 1h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H4z"/>
+                            <path d="M5 4h6v1H5zm0 2h6v1H5zm0 2h4v1H5z"/>
+                        </svg>Hide page markers
+                    </button>
+                    <button id="btn-lines" class="btn btn-sm btn-outline-secondary" onclick="toggleLines()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="me-1" viewBox="0 0 16 16">
+                            <path d="M1 3.5A.5.5 0 0 1 1.5 3h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 3.5zm0 4A.5.5 0 0 1 1.5 7h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 7.5zm0 4A.5.5 0 0 1 1.5 11h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1z"/>
+                        </svg>Hide line numbers
+                    </button>
+                    <button type="button" id="global-tib-toggle"
+                            class="btn btn-sm btn-outline-secondary tib-toggle-btn"
+                            data-mode="ewts" title="Show in Tibetan script">→ ཡིག</button>
+                    <div class="ms-auto d-flex align-items-center gap-3">
+                        <button class="btn btn-sm btn-outline-success" id="btn-add-note" disabled title="Select text in the etext first">
+                            <i class="bi bi-plus-circle me-1"></i>Add note
+                        </button>
+                        <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#notesHelpModal" title="How notes work">
+                            <i class="bi bi-question-circle"></i>
+                        </button>
+                        <div class="text-muted small" id="range-info"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- etext body -->
+            <div class="card-body p-3">
+                <div id="etext-container" class="etext-block">
+                    <div class="text-center text-muted py-4">
+                        <div class="spinner-border spinner-border-sm me-2" role="status"></div>
+                        Loading etext…
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer text-muted small d-flex justify-content-between flex-wrap gap-1">
+                <span id="footer-source"></span>
+                <span id="footer-detail"></span>
+            </div>
+
+        </div><!-- /.card -->
+    </div><!-- /.container -->
+
+    <!-- ── Notes help modal ── -->
+    <div class="modal fade" id="notesHelpModal" tabindex="-1" aria-labelledby="notesHelpModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="notesHelpModalLabel">
+                        <i class="bi bi-journal-text me-2 text-primary"></i>How notes work
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <h6 class="fw-semibold mb-2"><i class="bi bi-eye me-1 text-secondary"></i>Reading notes</h6>
+                    <p class="small mb-3">Notes left by researchers are visible to everyone. Open the <strong>Notes</strong> panel with the blue tab on the right edge of the screen. Passages that have been annotated are highlighted in <mark style="background:#fff9c4;border-bottom:2px solid #f9a825;border-radius:2px;padding:0 2px">yellow</mark> in the text — click any highlight to jump to the corresponding note card.</p>
+
+                    <h6 class="fw-semibold mb-2"><i class="bi bi-pencil me-1 text-success"></i>Adding a note</h6>
+                    <p class="small mb-1">Adding notes requires a registered account. To annotate a passage:</p>
+                    <ol class="small mb-3">
+                        <li><strong>Select</strong> the text you want to annotate by clicking and dragging.</li>
+                        <li>Click the <span class="badge bg-success" style="font-size:.75rem">+ Add note</span> button that appears in the toolbar.</li>
+                        <li>The Notes panel opens with an editor pre-filled with your selection and its folio position.</li>
+                        <li>Write your note — use the formatting toolbar for <b>bold</b>, <i>italic</i>, colours, highlights, and links.</li>
+                        <li>Click <strong>Save</strong>.</li>
+                    </ol>
+
+                    <h6 class="fw-semibold mb-2"><i class="bi bi-pencil-square me-1 text-primary"></i>Editing &amp; deleting</h6>
+                    <p class="small mb-3">You can edit or delete your own notes at any time using the <i class="bi bi-pencil"></i> and <i class="bi bi-trash"></i> buttons on each note card. Administrators can delete any note.</p>
+
+                    <div id="notes-help-auth-status" class="alert alert-warning small mb-0 py-2">
+                        <i class="bi bi-lock me-1"></i>You are not signed in. <a href="login.html">Sign in</a> or <a href="register.html">register</a> to add notes.
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── Notes toggle button (always visible) ── -->
+    <button class="notes-toggle-btn" id="notes-toggle-btn" title="Toggle notes panel">
+        Notes<span class="note-count-badge" id="notes-count-badge" style="display:none">0</span>
+    </button>
+
+    <!-- ── Notes side panel ── -->
+    <div id="notes-panel" role="complementary" aria-label="Notes">
+        <div id="notes-panel-header">
+            <i class="bi bi-journal-text"></i>
+            <h6 id="notes-panel-title">Notes</h6>
+            <button class="btn btn-sm btn-outline-success py-0 px-2 me-1" id="btn-add-note-panel" disabled title="Select text in the etext first">
+                <i class="bi bi-plus-circle"></i>
+            </button>
+            <button class="btn btn-sm btn-outline-secondary py-0 px-2" id="notes-close-btn" title="Close">✕</button>
+        </div>
+
+        <div id="notes-list">
+            <div class="text-center text-muted py-3 small" id="notes-loading">
+                <div class="spinner-border spinner-border-sm me-1"></div> Loading…
+            </div>
+        </div>
+
+        <div id="note-editor" style="display:none">
+            <div class="editor-meta" id="editor-meta"></div>
+            <!-- Formatting toolbar (same as index.php) -->
+            <div class="fmt-toolbar">
+                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="noteFmt('bold')"      title="Bold"><b>B</b></button>
+                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="noteFmt('italic')"    title="Italic"><i>I</i></button>
+                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="noteFmt('underline')" title="Underline"><u>U</u></button>
+                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="noteFmtTag('em')"     title="Emphasis">em</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="noteFmtTag('strong')" title="Strong">str</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="noteFmtTag('sup')"    title="Superscript">sup</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="noteFmtTag('sub')"    title="Subscript">sub</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="noteFmtLink()"        title="Link">🔗</button>
+                <span class="fmt-sep"></span>
+                <!-- text colours -->
+                <button type="button" class="btn btn-sm fmt-color" title="Reset colour"
+                        style="color:#333;border:1px solid #ccc;padding:1px 5px;background:#fff"
+                        onclick="noteFmtColor('inherit')"><b>A</b></button>
+                <button type="button" class="btn btn-sm fmt-color" title="Red"
+                        style="color:#cc0000;border:1px solid #ccc;padding:1px 5px;background:#fff"
+                        onclick="noteFmtColor('#cc0000')"><b>A</b></button>
+                <button type="button" class="btn btn-sm fmt-color" title="Green"
+                        style="color:#1a6600;border:1px solid #ccc;padding:1px 5px;background:#fff"
+                        onclick="noteFmtColor('#1a6600')"><b>A</b></button>
+                <button type="button" class="btn btn-sm fmt-color" title="Blue"
+                        style="color:#0047ab;border:1px solid #ccc;padding:1px 5px;background:#fff"
+                        onclick="noteFmtColor('#0047ab')"><b>A</b></button>
+                <button type="button" class="btn btn-sm fmt-color" title="Grey"
+                        style="color:#888;border:1px solid #ccc;padding:1px 5px;background:#fff"
+                        onclick="noteFmtColor('#888')"><b>A</b></button>
+                <span class="fmt-sep"></span>
+                <!-- background highlights -->
+                <button type="button" class="btn btn-sm fmt-color fmt-bg" title="Yellow highlight"
+                        style="background:#fff59d;border:1px solid #ccc;padding:1px 7px;color:#555;font-size:.7rem"
+                        onclick="noteFmtBg('#fff59d')">A</button>
+                <button type="button" class="btn btn-sm fmt-color fmt-bg" title="Green highlight"
+                        style="background:#a5d6a7;border:1px solid #ccc;padding:1px 7px;color:#555;font-size:.7rem"
+                        onclick="noteFmtBg('#a5d6a7')">A</button>
+                <button type="button" class="btn btn-sm fmt-color fmt-bg" title="Blue highlight"
+                        style="background:#90caf9;border:1px solid #ccc;padding:1px 7px;color:#555;font-size:.7rem"
+                        onclick="noteFmtBg('#90caf9')">A</button>
+                <button type="button" class="btn btn-sm fmt-color fmt-bg" title="Red highlight"
+                        style="background:#ef9a9a;border:1px solid #ccc;padding:1px 7px;color:#555;font-size:.7rem"
+                        onclick="noteFmtBg('#ef9a9a')">A</button>
+                <button type="button" class="btn btn-sm fmt-color fmt-bg" title="Remove background"
+                        style="background:#fff;border:1px solid #ccc;padding:1px 7px;color:#555;font-size:.7rem"
+                        onclick="noteFmtBg('inherit')">A</button>
+            </div>
+            <div id="note-body-editor" contenteditable="true" spellcheck="false"></div>
+            <div class="d-flex gap-2 mt-2">
+                <button class="btn btn-primary btn-sm" id="editor-save-btn">
+                    <i class="bi bi-check-lg me-1"></i>Save
+                </button>
+                <button class="btn btn-outline-secondary btn-sm" id="editor-cancel-btn">Cancel</button>
+            </div>
+            <input type="hidden" id="editor-note-id">
+            <input type="hidden" id="editor-folio">
+            <input type="hidden" id="editor-line">
+            <input type="hidden" id="editor-selected">
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">
+                &copy; <script>document.write(new Date().getFullYear())</script>
+                Resources for Kanjur and Tanjur Studies (rKTs).
+                Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+                <a href="about.html#access">Accessibility</a>.
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../tools/EwtsConverter.js"></script>
+
+    <!-- ── Auth (inlined to avoid 404) ── -->
+    <script>
+    const rktsAuth = (() => {
+        const SESSION_KEY = 'rkts_session';
+        const LOGIN_PHP = (function () {
+            const p = location.pathname.split('/'); p[p.length-1] = 'login.php'; return p.join('/');
+        })();
+        function getSession() { try { return JSON.parse(sessionStorage.getItem(SESSION_KEY)); } catch { return null; } }
+        function setSession(d) { sessionStorage.setItem(SESSION_KEY, JSON.stringify(d)); }
+        function clearSession() { sessionStorage.removeItem(SESSION_KEY); }
+        async function login(username, password) {
+            const res = await fetch(LOGIN_PHP, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({username, password}) });
+            const data = await res.json();
+            if (data.ok) { setSession({user:data.user, level:data.level, email:data.email}); return {ok:true}; }
+            return {ok:false, error: data.error||'Login failed.'};
+        }
+        function logout() { clearSession(); const p=location.pathname.split('/'); p[p.length-1]='index.html'; location.replace(p.join('/')); }
+        function requireLogin(maxLevel) {
+            const sess = getSession();
+            if (!sess) { const p=location.pathname.split('/'); p[p.length-1]='login.html'; location.replace(p.join('/')+'?next='+encodeURIComponent(location.pathname+location.search)); return; }
+            if (maxLevel!==undefined && sess.level>maxLevel) { const p=location.pathname.split('/'); p[p.length-1]='index.html'; location.replace(p.join('/')); }
+        }
+        function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+        function injectNavbar() {
+            const navUl = document.querySelector('.navbar-nav.ms-auto');
+            if (!navUl) return;
+            const existing = navUl.querySelector('.rkts-auth-nav');
+            if (existing) existing.remove();
+            const sess = getSession();
+            const li = document.createElement('li');
+            li.className = 'nav-item rkts-auth-nav';
+            if (sess) {
+                const bc = sess.level<=1?'bg-primary':'bg-secondary';
+                li.innerHTML = '<span class="nav-link d-flex align-items-center gap-2"><span class="badge '+bc+' rounded-pill" title="Level '+sess.level+'"><i class="bi bi-person-fill me-1"></i>'+escHtml(sess.user)+'</span><a href="#" class="rkts-logout-btn text-muted small text-decoration-none" title="Sign out"><i class="bi bi-box-arrow-right"></i></a></span>';
+                li.querySelector('.rkts-logout-btn').addEventListener('click', e => { e.preventDefault(); logout(); });
+            } else {
+                li.innerHTML = '<a class="nav-link" href="login.html"><i class="bi bi-box-arrow-in-right me-1"></i>Sign in</a>';
+            }
+            navUl.appendChild(li);
+        }
+        if (document.readyState==='loading') document.addEventListener('DOMContentLoaded', injectNavbar);
+        else injectNavbar();
+        return { login, logout, getSession, setSession, requireLogin };
+    })();
+    </script>
+
+    <script>
+    (function () {
+        'use strict';
+
+        /* ── Paths ──────────────────────────────────────────────────── */
+        const COLLS_URL   = '../data/general/collections.json';
+        const COLL_BASE   = '../data/collections';   // /{coll}/{coll}.xml
+        const ETEXT_BASE  = '../data/etexts';        // /{catNum}{coll}/{pad}.txt
+
+        /* ── EWTS helpers ───────────────────────────────────────────── */
+        function toUnicode(ewts) {
+            if (!ewts) return '';
+            if (window.jsEWTS) { try { return window.jsEWTS.fromWylie(ewts); } catch(e) {} }
+            return ewts;
+        }
+
+        /* ── HTML escape ────────────────────────────────────────────── */
+        function esc(s) {
+            return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+
+        /* ── Error display ──────────────────────────────────────────── */
+        function showError(msg) {
+            document.getElementById('error-area').innerHTML =
+                `<div class="alert alert-danger">${msg}</div>`;
+            document.getElementById('main-card').style.display = 'none';
+        }
+
+        /* ── URL param ──────────────────────────────────────────────── */
+        const id = (new URLSearchParams(window.location.search).get('id') || '').trim();
+        if (!id) { showError('No text ID provided (use ?id=D236).'); return; }
+
+        const collMatch = id.match(/^([A-Za-z]+)/i);
+        if (!collMatch) { showError('Invalid ID format.'); return; }
+        const coll = collMatch[1];
+
+        document.getElementById('breadcrumb-id').textContent = id;
+        document.title = 'rKTs – Etext ' + id;
+
+        /* ── Position → comparable integer ─────────────────────────── */
+        // Standard format: page * 1000 + (face=b ? 500 : 0) + line
+        // coll=A format:   folio * 1000 + line  (no face)
+        function posToInt(page, face, line) {
+            return page * 1000 + (face === 'b' ? 500 : 0) + (line || 0);
+        }
+        function posToIntA(folio, line) {
+            return folio * 1000 + (line || 0);
+        }
+
+        const CAT_PREFIX = { K:'1', T:'2', G:'3', B:'5' };
+        const CAT_GENRE  = { K:'Kanjur', T:'Tanjur', G:'Kanjur', B:'Kanjur' };
+
+        /* ── Detect coll=A etext format ─────────────────────────────── */
+        function isCollAEtextFormat(txt) {
+            const first = txt.trimStart().split(/\r?\n/).find(l => l.trim()) || '';
+            return /^\d+\.[n\d]/.test(first);
+        }
+
+        /* ── Parse etext segment ────────────────────────────────────── */
+        function parseSegment(txt, startInt, endInt) {
+            if (isCollAEtextFormat(txt)) {
+                // coll=A: "{folio}.{line}({sec}): text"  or  "{folio}.n{num}({sec}): note"
+                const reMain = /^(\d+)\.(\d+)\(([^)]*)\):\s*(.*)/;
+                const reNote = /^(\d+)\.n(\d+)\(([^)]*)\):\s*(.*)/;
+                const extracted = [];
+                const notesMap  = {};   // folio → [{num, text}]
+                txt.split(/\r?\n/).forEach(raw => {
+                    let m;
+                    if ((m = raw.match(reNote))) {
+                        const folio = parseInt(m[1], 10);
+                        if (!notesMap[folio]) notesMap[folio] = [];
+                        notesMap[folio].push({ num: m[2], text: m[4] });
+                    } else if ((m = raw.match(reMain))) {
+                        const folio = parseInt(m[1], 10);
+                        const line  = parseInt(m[2], 10);
+                        const lInt  = posToIntA(folio, line);
+                        if (lInt >= startInt && lInt <= endInt) {
+                            extracted.push({ folio, line, text: m[4], notesMap });
+                        }
+                    }
+                });
+                // Group by folio; attach notes to each folio group
+                const grouped = {};
+                extracted.forEach(l => {
+                    const key = String(l.folio);
+                    if (!grouped[key]) grouped[key] = { lines: [], notes: notesMap[l.folio] || [] };
+                    grouped[key].lines.push(l);
+                });
+                return { lines: extracted, folios: grouped, collA: true };
+            }
+
+            // Standard format: "{page}{face}{line}({sec}): text"
+            const re = /^(\d+)([ab])(\d+)\([^)]*\):\s*(.*)$/;
+            const extracted = [];
+            txt.split(/\r?\n/).forEach(raw => {
+                const m = raw.match(re);
+                if (!m) return;
+                const lPage = parseInt(m[1], 10);
+                const lFace = m[2];
+                const lLine = parseInt(m[3], 10);
+                const lText = m[4];
+                const lInt  = posToInt(lPage, lFace, lLine);
+                if (lInt >= startInt && lInt <= endInt) {
+                    extracted.push({ page: lPage, face: lFace, line: lLine, text: lText, folio: lPage + lFace });
+                }
+            });
+            // Group by folio
+            const grouped = {};
+            extracted.forEach(l => {
+                if (!grouped[l.folio]) grouped[l.folio] = [];
+                grouped[l.folio].push(l);
+            });
+            return { lines: extracted, folios: grouped, collA: false };
+        }
+
+        /* ── Render segments into #etext-container ──────────────────── */
+        function highlightCircRefs(text) {
+            return esc(text).replace(/[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]/g,
+                m => '<span class="circ-ref">' + m + '</span>');
+        }
+
+        function renderSegments(segments, cat, constituentTitle) {
+            const container = document.getElementById('etext-container');
+            const rangeInfo = document.getElementById('range-info');
+            const jumpLinks = document.getElementById('vol-jump-links');
+            const totalLines = segments.reduce((s, seg) => s + (seg.lines ? seg.lines.length : 0), 0);
+
+            // Range info in toolbar
+            let rangeParts = [];
+            segments.forEach(seg => {
+                if (!seg.error && seg.lines && seg.lines.length) {
+                    const it = seg.item;
+                    rangeParts.push(`Vol.\u00a0${seg.volno}: ${it.debp}${it.debf}${it.debl || ''}\u2013${it.finp}${it.finf}${it.finl || ''}`);
+                }
+            });
+            rangeInfo.textContent = rangeParts.join('  ');
+
+            // Volume jump links
+            segments.forEach(seg => {
+                const a = document.createElement('a');
+                a.href = '#vol-' + seg.volno;
+                a.className = 'badge bg-warning text-dark text-decoration-none vol-jump';
+                a.title = 'Jump to Vol. ' + seg.volno;
+                a.textContent = 'Vol.\u00a0' + seg.volno + (seg.volname ? '\u00a0\u00b7\u00a0' + seg.volname : '');
+                jumpLinks.appendChild(a);
+            });
+
+            let html = '';
+            if (totalLines === 0 && !segments.some(s => s.error)) {
+                html = '<div class="alert alert-warning">No etext lines found for the given page range.</div>';
+            }
+
+            segments.forEach((seg, si) => {
+                if (seg.error) {
+                    html += `<div class="alert alert-warning py-2 mb-2"><strong>Volume ${esc(String(seg.volno))}:</strong> ${seg.error}</div>`;
+                    return;
+                }
+                // Volume separator / anchor
+                if (si > 0) {
+                    html += `<hr class="vol-separator" id="vol-${esc(String(seg.volno))}">`;
+                } else {
+                    html += `<span id="vol-${esc(String(seg.volno))}"></span>`;
+                }
+                html += `<span class="folio-header vol-label page-marker">Vol.\u00a0${esc(String(seg.volno))}${seg.volname ? '\u00a0\u00b7\u00a0' + esc(seg.volname) : ''}</span>`;
+
+                if (!seg.folios || !Object.keys(seg.folios).length) {
+                    const pad = String(parseInt(seg.volno, 10)).padStart(3, '0');
+                    html += `<p class="text-muted fst-italic small">(No lines extracted for vol.\u00a0${esc(String(seg.volno))} &mdash;
+                        path: <code>${esc(ETEXT_BASE + '/' + CAT_PREFIX[cat] + coll + '/' + pad + '.txt')}</code>
+                        range: ${esc(seg.item.debp + seg.item.debf + (seg.item.debl || ''))}
+                        &ndash; ${esc(seg.item.finp + seg.item.finf + (seg.item.finl || ''))})</p>`;
+                    return;
+                }
+
+                if (seg.collA) {
+                    // coll=A: folios[key] = { lines: [...], notes: [...] }
+                    Object.entries(seg.folios).forEach(([folioKey, folioData]) => {
+                        const imgUrl = 'images.html?'
+                            + 'title='  + encodeURIComponent(constituentTitle)
+                            + '&rkts='  + encodeURIComponent(cat + seg.rkts)
+                            + '&coll='  + encodeURIComponent(coll)
+                            + '&vol='   + encodeURIComponent(seg.volref)
+                            + '&sec='   + encodeURIComponent(seg.item.sec || '')
+                            + '&page='  + encodeURIComponent(folioKey);
+                        html += `<a href="${esc(imgUrl)}" class="folio-header page-marker" title="Open manuscript image for folio ${esc(folioKey)}">${esc(folioKey)}</a>`;
+                        folioData.lines.forEach(l => {
+                            let displayText = l.text;
+                            let breakLabel  = '';
+                            if (displayText.startsWith('@@//')) {
+                                breakLabel  = '<span class="page-break-label">&#9656;&nbsp;page&nbsp;start</span>';
+                                displayText = displayText.slice(4).replace(/^\s*/, '');
+                            } else if (displayText.startsWith('@@')) {
+                                const tag = displayText.match(/^@@([^/\s]*)/)?.[1] || '';
+                                breakLabel  = '<span class="page-break-label">&#9656;&nbsp;' + esc(tag) + '</span>';
+                                displayText = displayText.replace(/^@@[^\s]*\s*/, '');
+                            }
+                            const cleanOriginal = l.text.replace(/^@@[^\s]*\s*/, '');
+                            html += breakLabel +
+                                `<span class="etext-line" data-folio="${esc(folioKey)}" data-line="${esc(String(l.line))}"><span class="line-num line-number">${esc(String(l.line))}</span>` +
+                                `<span class="script-text" data-lang="tib" data-original="${esc(cleanOriginal)}">` +
+                                highlightCircRefs(displayText) +
+                                `</span></span>`;
+                        });
+                        if (folioData.notes && folioData.notes.length) {
+                            html += '<hr class="notes-divider">';
+                            folioData.notes.forEach(n => {
+                                html += `<span class="etext-note"><span class="note-num">${esc(n.num)}</span>` +
+                                    highlightCircRefs(n.text) + '</span>';
+                            });
+                        }
+                    });
+                } else {
+                    // Standard format: folios[key] = [line, ...]
+                    Object.entries(seg.folios).forEach(([folio, folioLines]) => {
+                        const imgUrl = 'images.html?'
+                            + 'title='  + encodeURIComponent(constituentTitle)
+                            + '&rkts='  + encodeURIComponent(cat + seg.rkts)
+                            + '&coll='  + encodeURIComponent(coll)
+                            + '&vol='   + encodeURIComponent(seg.volref)
+                            + '&sec='   + encodeURIComponent(seg.item.sec || '')
+                            + '&page='  + encodeURIComponent(folio);
+                        html += `<a href="${esc(imgUrl)}" class="folio-header page-marker" title="Open manuscript image for folio ${esc(folio)}">${esc(folio)}</a>`;
+                        folioLines.forEach(l => {
+                            html += `<span class="etext-line" data-folio="${esc(folio)}" data-line="${esc(String(l.line))}"><span class="line-num line-number">${esc(String(l.line))}</span><span class="script-text" data-lang="tib" data-original="${esc(l.text)}">${esc(l.text)}</span></span>`;
+                        });
+                    });
+                }
+            });
+
+            container.innerHTML = html;
+            // Apply Tibetan mode if already active
+            if (window.tibGlobalMode === 'unicode') applyTibMode('unicode');
+        }
+
+        /* ── Main load ──────────────────────────────────────────────── */
+        Promise.all([
+            fetch(COLL_BASE + '/' + encodeURIComponent(coll) + '/' + encodeURIComponent(coll) + '.xml')
+                .then(r => { if (!r.ok) throw new Error('XML not found: ' + coll + '.xml'); return r.text(); }),
+            fetch(COLLS_URL)
+                .then(r => r.ok ? r.json() : []).catch(() => [])
+        ])
+        .then(([xmlText, collections]) => {
+            // ── Parse catalog XML ────────────────────────────────────
+            const doc   = new DOMParser().parseFromString(xmlText, 'application/xml');
+            if (doc.querySelector('parsererror')) throw new Error('Failed to parse ' + coll + '.xml');
+
+            const t = (el, tag) => { const n = el.querySelector(tag); return n ? n.textContent.trim() : ''; };
+            const items = Array.from(doc.querySelectorAll('item'))
+                .filter(item => t(item, 'ref') === id)
+                .map(item => ({
+                    vol:  t(item,'vol'), sec:  t(item,'sec'),
+                    debp: parseInt(t(item,'debp') || '0', 10), debf: t(item,'debf'),
+                    debl: parseInt(t(item,'debl') || '0', 10),
+                    finp: parseInt(t(item,'finp') || '0', 10), finf: t(item,'finf'),
+                    finl: parseInt(t(item,'finl') || '0', 10),
+                    tib:  t(item,'tib'), cat: t(item,'cat'), rkts: t(item,'rkts')
+                }));
+
+            if (!items.length) throw new Error(`No entry found for ID <strong>${esc(id)}</strong> in ${esc(coll)}.xml`);
+
+            const tib  = items[0].tib;
+            const sec  = items[0].sec;
+            const cat  = items[0].cat;
+            const rkts = items[0].rkts;
+
+            // Derive genre from cat
+            const catGenre = CAT_GENRE[cat] || '';
+            const catNum   = CAT_PREFIX[cat] || cat;
+
+            // ── Find collection entry in collections.json ────────────
+            let collTitle = coll, collAlternative = '', constituentTitle = '';
+            let structure = null, exactMatch = false;
+            let fbTitle = coll, fbAlt = '', fbConstituents = [];
+
+            collections.forEach(col => {
+                if (col.sigla !== coll) return;
+                const colGenre = col.genre || '';
+                const isExact  = catGenre !== '' && colGenre === catGenre;
+                if (!exactMatch) {
+                    fbTitle        = col.title || coll;
+                    fbAlt          = col.alternative_title || '';
+                    fbConstituents = col.constituents || [];
+                }
+                if (isExact) {
+                    collTitle       = col.title || coll;
+                    collAlternative = col.alternative_title || '';
+                    const constituents = col.constituents || [];
+                    for (const con of constituents) {
+                        if (con.structure && con.structure.length) {
+                            structure        = con.structure;
+                            constituentTitle = con.title || '';
+                            break;
+                        }
+                    }
+                    exactMatch = true;
+                }
+            });
+            if (!exactMatch) {
+                collTitle       = fbTitle;
+                collAlternative = fbAlt;
+                for (const con of fbConstituents) {
+                    if (con.structure && con.structure.length) {
+                        structure        = con.structure;
+                        constituentTitle = con.title || '';
+                        break;
+                    }
+                }
+            }
+
+            // Build volref → volno / volname maps
+            const volnoMap   = {};
+            const volnameMap = {};
+            if (Array.isArray(structure)) {
+                structure.forEach(s => {
+                    volnoMap[s.volref]   = parseInt(s.volno, 10);
+                    volnameMap[s.volref] = s.volname || '';
+                });
+            }
+
+            // ── Populate header ──────────────────────────────────────
+            const tibEl = document.getElementById('hdr-tib');
+            tibEl.textContent       = tib;
+            tibEl.dataset.original  = tib;
+
+            document.getElementById('hdr-id').textContent   = id;
+            if (rkts) {
+                const rktsEl = document.getElementById('hdr-rkts');
+                rktsEl.textContent    = 'rKTs ' + rkts;
+                rktsEl.style.display  = '';
+            }
+            document.getElementById('hdr-sec').textContent  = sec;
+            document.getElementById('hdr-coll').textContent =
+                collTitle + (collAlternative ? ' ' + collAlternative : '');
+
+            document.getElementById('footer-source').innerHTML =
+                `Source: <em>${esc(collTitle)}</em> (${esc(coll)})${sec ? ' \u00b7 ' + esc(sec) : ''}`;
+            document.getElementById('footer-detail').innerHTML =
+                `<a href="detail.html?id=${encodeURIComponent(cat + rkts)}">View catalog entry</a>`;
+
+            document.getElementById('main-card').style.display = '';
+
+            // ── Fetch etext files for each item ──────────────────────
+            const segPromises = items.map(item => {
+                const volref = item.vol;
+                const volno  = volnoMap[volref];
+                if (volno == null) {
+                    return Promise.resolve({
+                        volno: '?', volnoFmt: '???', volref, volname: '', item, rkts,
+                        lines: [], folios: {}, error: `Volume reference "${esc(volref)}" not found in collections.json.`
+                    });
+                }
+                const volnoFmt   = String(parseInt(volno, 10)).padStart(3, '0');
+                const etextUrl   = ETEXT_BASE + '/' + catNum + coll + '/' + volnoFmt + '.txt';
+                const startInt   = posToInt(item.debp, item.debf, item.debl);
+                const endInt     = posToInt(item.finp, item.finf, item.finl);
+                return fetch(etextUrl)
+                    .then(r => {
+                        if (!r.ok) throw new Error('not found');
+                        return r.text();
+                    })
+                    .then(txt => {
+                        const { lines, folios, collA } = parseSegment(txt, startInt, endInt);
+                        return { volno, volnoFmt, volref, volname: volnameMap[volref] || '', item, rkts, lines, folios, collA, error: null };
+                    })
+                    .catch(() => ({
+                        volno, volnoFmt, volref, volname: volnameMap[volref] || '', item, rkts,
+                        lines: [], folios: {},
+                        error: `Etext file not found: <code>${esc(ETEXT_BASE + '/' + catNum + coll + '/' + volnoFmt + '.txt')}</code>`
+                    }));
+            });
+
+            Promise.all(segPromises).then(segments => {
+                renderSegments(segments, cat, constituentTitle);
+            });
+        })
+        .catch(err => showError(err.message));
+
+        /* ── Tibetan toggle ─────────────────────────────────────────── */
+        window.tibGlobalMode = 'ewts';
+
+        function applyTibMode(mode) {
+            document.querySelectorAll('.script-text[data-lang="tib"]').forEach(el => {
+                const original = el.dataset.original || el.textContent;
+                if (mode === 'unicode') {
+                    el.textContent = toUnicode(original);
+                    el.classList.add('tib');
+                } else {
+                    // Restore with circ-ref highlighting for etext lines
+                    if (el.closest('.etext-line')) {
+                        el.innerHTML = esc(original).replace(
+                            /[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]/g,
+                            m => '<span class="circ-ref">' + m + '</span>'
+                        );
+                    } else {
+                        el.textContent = original;
+                    }
+                    el.classList.remove('tib');
+                }
+            });
+            const btn = document.getElementById('global-tib-toggle');
+            if (btn) {
+                btn.dataset.mode = mode;
+                btn.title = mode === 'unicode' ? 'Show in Wylie (EWTS)' : 'Show in Tibetan script';
+                btn.innerHTML = mode === 'unicode' ? '→ Wylie' : '→ ཡིག';
+            }
+        }
+
+        document.addEventListener('click', e => {
+            const btn = e.target.closest('.tib-toggle-btn');
+            if (btn) {
+                window.tibGlobalMode = window.tibGlobalMode === 'ewts' ? 'unicode' : 'ewts';
+                applyTibMode(window.tibGlobalMode);
+            }
+        });
+
+        /* ── Toolbar toggle functions ───────────────────────────────── */
+        window.pagesHidden = false;
+        window.linesHidden = false;
+
+        window.togglePages = function () {
+            pagesHidden = !pagesHidden;
+            document.querySelectorAll('.page-marker').forEach(m => m.classList.toggle('hidden-marker', pagesHidden));
+            const btn = document.getElementById('btn-pages');
+            btn.classList.toggle('btn-secondary',         pagesHidden);
+            btn.classList.toggle('btn-outline-secondary', !pagesHidden);
+            btn.lastChild.textContent = pagesHidden ? 'Show page markers' : 'Hide page markers';
+        };
+
+        window.toggleLines = function () {
+            linesHidden = !linesHidden;
+            document.querySelectorAll('.line-number').forEach(n => n.classList.toggle('hidden-num', linesHidden));
+            document.getElementById('etext-container').classList.toggle('continuous-text', linesHidden);
+            const btn = document.getElementById('btn-lines');
+            btn.classList.toggle('btn-secondary',         linesHidden);
+            btn.classList.toggle('btn-outline-secondary', !linesHidden);
+            btn.lastChild.textContent = linesHidden ? 'Show line numbers' : 'Hide line numbers';
+        };
+
+        /* ══════════════════════════════════════════════════════════════
+           NOTES SYSTEM  (mirrors index.php interaction model)
+           ══════════════════════════════════════════════════════════════ */
+
+        const NOTES_PHP = (function () {
+            const p = location.pathname.split('/');
+            p[p.length - 1] = 'save_note2.php';
+            return p.join('/');
+        })();
+
+        var notesData      = [];
+        var panelOpen      = false;
+        var editingNoteId  = null;
+        var currentSel     = '';
+        var currentFolio   = '';
+        var currentLine    = 0;
+
+        var btnAddNote      = document.getElementById('btn-add-note');
+        var btnAddNotePanel = document.getElementById('btn-add-note-panel');
+
+        // ── Position notes panel below navbar + etext toolbar ───────
+        function positionNotesPanel() {
+            var navbar  = document.querySelector('.navbar');
+            var toolbar = document.getElementById('etext-toolbar');
+            var top = 0;
+            if (navbar)  top += navbar.getBoundingClientRect().height;
+            if (toolbar) top += toolbar.getBoundingClientRect().height;
+            document.getElementById('notes-panel').style.top = top + 'px';
+            document.getElementById('notes-toggle-btn').style.top =
+                Math.round(top + (window.innerHeight - top) / 2) + 'px';
+        }
+        window.addEventListener('resize', positionNotesPanel);
+        // Run once after layout settles
+        requestAnimationFrame(positionNotesPanel);
+
+        // ── Panel open / close ──────────────────────────────────────
+        function openPanel() {
+            positionNotesPanel();
+            panelOpen = true;
+            document.getElementById('notes-panel').classList.add('open');
+            document.body.classList.add('notes-open');
+        }
+        function closePanel() {
+            panelOpen = false;
+            document.getElementById('notes-panel').classList.remove('open');
+            document.body.classList.remove('notes-open');
+            cancelEdit();
+        }
+        document.getElementById('notes-toggle-btn').addEventListener('click', function () {
+            panelOpen ? closePanel() : openPanel();
+        });
+        document.getElementById('notes-close-btn').addEventListener('click', closePanel);
+
+        // ── Sort key: folio (page*1000 + face*500) * 10000 + line ──
+        function notesSortKey(n) {
+            var folio = String(n.folio || '');
+            var page = 0, face = 0;
+            var m = folio.match(/^(\d+)([ab])$/);
+            if (m) { page = parseInt(m[1], 10); face = m[2] === 'b' ? 500 : 0; }
+            else { m = folio.match(/^(\d+)$/); if (m) page = parseInt(m[1], 10); }
+            return (page * 1000 + face) * 10000 + (parseInt(n.line, 10) || 0);
+        }
+        function sortNotes(arr) {
+            return arr.slice().sort(function (a, b) { return notesSortKey(a) - notesSortKey(b); });
+        }
+
+        // ── Load notes from server ──────────────────────────────────
+        function loadNotes() {
+            fetch(NOTES_PHP + '?textid=' + encodeURIComponent(id))
+                .then(function (r) { return r.json(); })
+                .then(function (data) {
+                    notesData = data.ok ? sortNotes(data.notes) : [];
+                    renderNotesList();
+                    updateBadge();
+                    highlightPassages();
+                })
+                .catch(function () { notesData = []; renderNotesList(); });
+        }
+
+        // ── Badge ───────────────────────────────────────────────────
+        function updateBadge() {
+            var badge = document.getElementById('notes-count-badge');
+            if (notesData.length > 0) {
+                badge.textContent = notesData.length;
+                badge.style.display = 'inline-block';
+            } else {
+                badge.style.display = 'none';
+            }
+            document.getElementById('notes-panel-title').textContent =
+                'Notes (' + notesData.length + ')';
+        }
+
+        // ── Render notes list ───────────────────────────────────────
+        function renderNotesList() {
+            var list = document.getElementById('notes-list');
+            var sess = rktsAuth.getSession();
+
+            if (!notesData.length) {
+                list.innerHTML = '<p class="text-muted small p-2">No notes yet.'
+                    + (sess ? ' Select text in the etext to add one.' : ' <a href="login.html">Sign in</a> to add notes.')
+                    + '</p>';
+                return;
+            }
+
+            var html = '';
+            notesData.forEach(function (n) {
+                var isOwnNote = sess && sess.user.toLowerCase() === n.user.toLowerCase();
+                var isAdmin   = sess && sess.level <= 1;
+                var selShort  = n.selected.length > 80 ? n.selected.slice(0, 80) + '…' : n.selected;
+
+                html += '<div class="note-card p-2" data-note-id="' + esc(n.id) + '">'
+                    + '<div class="d-flex justify-content-between align-items-start">'
+                    +   '<span class="nc-folio"><i class="bi bi-bookmark me-1"></i>' + esc(n.folio)
+                    +   (n.line ? ' l.\u00a0' + esc(String(n.line)) : '') + '</span>'
+                    +   '<span style="font-size:.68rem;color:#888">' + fmtDate(n.updated || n.created) + '</span>'
+                    + '</div>'
+                    + '<div style="font-size:.72rem;color:#1d6fa4;font-weight:600;margin-bottom:.15rem">' + esc(n.user) + '</div>'
+                    + (n.selected ? '<div class="nc-sel">' + esc(selShort) + '</div>' : '')
+                    + '<div class="nc-body">' + (n.note || '<em class="text-muted">empty</em>') + '</div>'
+                    + '<div class="nc-actions">';
+
+                if (isOwnNote || isAdmin) {
+                    // own note → edit + delete
+                    html += '<button class="btn btn-xs btn-outline-primary btn-sm py-0 px-1 note-edit-btn" data-note-id="' + esc(n.id) + '" title="Edit note"><i class="bi bi-pencil"></i></button>'
+                          + '<button class="btn btn-xs btn-outline-danger btn-sm py-0 px-1 ms-1 note-del-btn" data-note-id="' + esc(n.id) + '" title="Delete note"><i class="bi bi-trash"></i></button>';
+                }
+                if (sess) {
+                    // any logged-in user can comment
+                    html += '<button class="btn btn-xs btn-outline-secondary btn-sm py-0 px-1 btn-add-comment ms-1" '
+                          + 'data-note-id="' + esc(n.id) + '" title="Add a comment">'
+                          + '<i class="bi bi-chat-left-text me-1"></i>Comment</button>';
+                }
+                html += '</div>';
+
+                // ── Comments ──
+                if (n.comments && n.comments.length) {
+                    html += '<div class="note-comments">';
+                    n.comments.forEach(function (c) {
+                        var isOwnComment = sess && sess.user.toLowerCase() === c.user.toLowerCase();
+                        html += '<div class="comment-card" data-comment-id="' + esc(c.id) + '" data-note-id="' + esc(n.id) + '">'
+                            + '<div class="comment-meta">'
+                            +   '<span class="comment-author">' + esc(c.user) + '</span>'
+                            +   '<span>' + fmtDate(c.updated || c.created) + '</span>'
+                            + '</div>'
+                            + '<div class="comment-body">' + (c.note || '') + '</div>'
+                            + '<div style="margin-top:.2rem">';
+                        if (isOwnComment) {
+                            // own comment: edit + delete
+                            html += '<button class="btn btn-xs btn-outline-primary btn-sm py-0 px-1 comment-edit-btn" '
+                                  + 'data-note-id="' + esc(n.id) + '" data-comment-id="' + esc(c.id) + '" title="Edit comment">'
+                                  + '<i class="bi bi-pencil"></i></button>'
+                                  + '<button class="btn btn-xs btn-outline-danger btn-sm py-0 px-1 ms-1 comment-del-btn" '
+                                  + 'data-note-id="' + esc(n.id) + '" data-comment-id="' + esc(c.id) + '" title="Delete comment">'
+                                  + '<i class="bi bi-trash"></i></button>';
+                        } else if (isAdmin) {
+                            // admin on others' comment: delete only
+                            html += '<button class="btn btn-xs btn-outline-danger btn-sm py-0 px-1 comment-del-btn" '
+                                  + 'data-note-id="' + esc(n.id) + '" data-comment-id="' + esc(c.id) + '" title="Delete comment">'
+                                  + '<i class="bi bi-trash"></i></button>';
+                        }
+                        html += '</div></div>';
+                    });
+                    html += '</div>'; // .note-comments
+                }
+
+                // Inline comment editor placeholder (hidden, shown on demand)
+                if (sess) {
+                    html += '<div class="comment-editor" id="ce-' + esc(n.id) + '" style="display:none">'
+                          + '<div class="fmt-toolbar mb-1">'
+                          + '<button type="button" class="btn btn-outline-secondary btn-sm" onclick="cmtFmt(\'bold\',\'' + esc(n.id) + '\')"><b>B</b></button>'
+                          + '<button type="button" class="btn btn-outline-secondary btn-sm" onclick="cmtFmt(\'italic\',\'' + esc(n.id) + '\')"><i>I</i></button>'
+                          + '<button type="button" class="btn btn-outline-secondary btn-sm" onclick="cmtFmt(\'underline\',\'' + esc(n.id) + '\')"><u>U</u></button>'
+                          + '<span class="fmt-sep"></span>'
+                          + '<button type="button" class="btn btn-sm fmt-color" style="color:#cc0000;border:1px solid #ccc;padding:0 4px;background:#fff" onclick="cmtFmtColor(\'' + esc(n.id) + '\',\'#cc0000\')"><b>A</b></button>'
+                          + '<button type="button" class="btn btn-sm fmt-color" style="color:#1a6600;border:1px solid #ccc;padding:0 4px;background:#fff" onclick="cmtFmtColor(\'' + esc(n.id) + '\',\'#1a6600\')"><b>A</b></button>'
+                          + '<button type="button" class="btn btn-sm fmt-color" style="color:#0047ab;border:1px solid #ccc;padding:0 4px;background:#fff" onclick="cmtFmtColor(\'' + esc(n.id) + '\',\'#0047ab\')"><b>A</b></button>'
+                          + '<button type="button" class="btn btn-sm fmt-color" style="color:#333;border:1px solid #ccc;padding:0 4px;background:#fff" onclick="cmtFmtColor(\'' + esc(n.id) + '\',\'inherit\')"><b>A</b></button>'
+                          + '</div>'
+                          + '<div class="comment-body-editor" id="cbe-' + esc(n.id) + '" contenteditable="true" spellcheck="false" data-note-id="' + esc(n.id) + '"></div>'
+                          + '<input type="hidden" class="comment-id-field" id="cid-' + esc(n.id) + '" value="">'
+                          + '<div class="d-flex gap-2 mt-1">'
+                          + '<button class="btn btn-primary btn-sm py-0 comment-save-btn" data-note-id="' + esc(n.id) + '"><i class="bi bi-check-lg me-1"></i>Save</button>'
+                          + '<button class="btn btn-outline-secondary btn-sm py-0 comment-cancel-btn" data-note-id="' + esc(n.id) + '">Cancel</button>'
+                          + '</div></div>';
+                }
+
+                html += '</div>'; // .note-card
+            });
+            list.innerHTML = html;
+
+            // Open all links inside notes/comments in a new tab
+            list.querySelectorAll('.nc-body a, .note-body a, .comment-body a').forEach(a => {
+                a.target = '_blank'; a.rel = 'noopener noreferrer';
+            });
+
+            // click on card body → scroll to passage in etext
+            list.querySelectorAll('.note-card').forEach(function (card) {
+                card.addEventListener('click', function (e) {
+                    if (e.target.closest('button') || e.target.closest('[contenteditable]')) return;
+                    var n = notesData.find(function (x) { return x.id === card.dataset.noteId; });
+                    if (n) scrollToPassage(n);
+                });
+            });
+        }
+
+        // ── Highlight saved passages in the etext ───────────────────
+        function highlightPassages() {
+            // Remove old highlights without breaking text nodes
+            document.querySelectorAll('.noted-passage').forEach(function (el) {
+                var parent = el.parentNode;
+                while (el.firstChild) parent.insertBefore(el.firstChild, el);
+                parent.removeChild(el);
+            });
+            notesData.forEach(function (n) {
+                if (!n.selected) return;
+                wrapPassage(n);
+            });
+        }
+
+        // Wrap the selected text for a note inside a .noted-passage span.
+        // Searches text nodes inside the etext container for the first occurrence.
+        function wrapPassage(n) {
+            var container = document.getElementById('etext-container');
+            if (!container || !n.selected) return;
+
+            // Walk all text nodes, build joined string + offsets
+            var walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+                acceptNode: function (node) {
+                    var p = node.parentElement;
+                    if (p && (p.classList.contains('line-num') || p.classList.contains('line-number')
+                           || p.classList.contains('folio-header') || p.classList.contains('page-marker')
+                           || p.classList.contains('note-num') || p.classList.contains('page-break-label')))
+                        return NodeFilter.FILTER_REJECT;
+                    return NodeFilter.FILTER_ACCEPT;
+                }
+            });
+            var nodes = [], joined = '';
+            var node;
+            while ((node = walker.nextNode())) {
+                nodes.push({ node: node, start: joined.length });
+                joined += node.nodeValue;
+            }
+
+            var idx = joined.indexOf(n.selected);
+            if (idx < 0) return; // passage not visible in current render
+
+            // Find which nodes are touched
+            var end = idx + n.selected.length;
+            var segments = [];
+            for (var i = 0; i < nodes.length; i++) {
+                var ns = nodes[i].start;
+                var ne = ns + nodes[i].node.nodeValue.length;
+                if (ne <= idx || ns >= end) continue;
+                segments.push({
+                    node:     nodes[i].node,
+                    localOff: Math.max(0, idx - ns),
+                    take:     Math.min(ne, end) - Math.max(ns, idx)
+                });
+            }
+            if (!segments.length) return;
+
+            // Wrap each segment
+            var firstWrap = null;
+            segments.forEach(function (seg) {
+                var tn     = seg.node;
+                var before = tn.nodeValue.slice(0, seg.localOff);
+                var match  = tn.nodeValue.slice(seg.localOff, seg.localOff + seg.take);
+                var after  = tn.nodeValue.slice(seg.localOff + seg.take);
+                var wrap   = document.createElement('span');
+                wrap.className   = 'noted-passage';
+                wrap.dataset.noteId = n.id;
+                wrap.title       = 'Jump to note';
+                wrap.textContent = match;
+                wrap.addEventListener('click', function () { scrollToNote(n.id); });
+                var frag = document.createDocumentFragment();
+                if (before) frag.appendChild(document.createTextNode(before));
+                frag.appendChild(wrap);
+                if (after)  frag.appendChild(document.createTextNode(after));
+                tn.parentNode.replaceChild(frag, tn);
+                if (!firstWrap) firstWrap = wrap;
+            });
+            return firstWrap;
+        }
+
+        function scrollToNote(noteId) {
+            var card = document.querySelector('#notes-list .note-card[data-note-id="' + noteId + '"]');
+            if (card) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                card.style.outline = '2px solid #0d6efd';
+                setTimeout(function () { card.style.outline = ''; }, 1500);
+            }
+        }
+
+        function scrollToPassage(n) {
+            var span = document.querySelector('.noted-passage[data-note-id="' + n.id + '"]');
+            if (span) { span.scrollIntoView({ behavior: 'smooth', block: 'center' }); flashEl(span); return; }
+            // Passage not wrapped yet — try to find folio header and scroll there
+            if (n.folio) {
+                var folioBase = n.folio.replace(/\.\d+$/, '');
+                var hdr = Array.from(document.querySelectorAll('.folio-header')).find(function (el) {
+                    return el.textContent.trim() === folioBase;
+                });
+                if (hdr) { hdr.scrollIntoView({ behavior: 'smooth', block: 'center' }); flashEl(hdr); }
+            }
+        }
+
+        function flashEl(el) {
+            var origOutline = el.style.outline;
+            var origBg      = el.style.backgroundColor;
+            el.style.outline         = '2px solid #e65100';
+            el.style.backgroundColor = '#ffe082';
+            setTimeout(function () {
+                el.style.outline         = origOutline;
+                el.style.backgroundColor = origBg;
+            }, 1800);
+        }
+
+        // ── Clean selection text (port of index.php cleanSelectionText) ──
+        // Skips .line-num, .folio-header, .page-marker, .note-num nodes.
+        function cleanSelectionText(sel) {
+            if (!sel.rangeCount) return '';
+            var frag   = sel.getRangeAt(0).cloneContents();
+            var result = '';
+            var walker = document.createTreeWalker(frag, NodeFilter.SHOW_ALL, null);
+            var node;
+            while ((node = walker.nextNode())) {
+                if (node.nodeType === Node.ELEMENT_NODE) {
+                    if (node.classList.contains('line-num')    || node.classList.contains('line-number') ||
+                        node.classList.contains('folio-header')|| node.classList.contains('page-marker') ||
+                        node.classList.contains('note-num')    || node.classList.contains('page-break-label'))
+                        node._skip = true;
+                }
+                if (node.nodeType === Node.TEXT_NODE) {
+                    var skip = false, p = node.parentNode;
+                    while (p && p !== frag) { if (p._skip) { skip = true; break; } p = p.parentNode; }
+                    if (!skip) result += node.nodeValue;
+                }
+            }
+            return result.replace(/[\r\n]+/g, ' ').replace(/\s{2,}/g, ' ').trim();
+        }
+
+        // ── Detect folio + line from selection anchor ───────────────
+        // etext_complete2 structure: .folio-header (page label) followed by
+        // .etext-line spans each containing .line-num + .script-text
+        function folioFromAnchor(anchor) {
+            var container = document.getElementById('etext-container');
+            if (!container) return { folio: '', line: 0 };
+
+            // Walk up to find the containing .etext-line
+            var lineEl = anchor.nodeType === Node.TEXT_NODE ? anchor.parentElement : anchor;
+            var etextLine = lineEl.closest ? lineEl.closest('.etext-line') : null;
+            if (!etextLine) {
+                // Try parent chain manually
+                var el = lineEl;
+                while (el && el !== container) {
+                    if (el.classList && el.classList.contains('etext-line')) { etextLine = el; break; }
+                    el = el.parentElement;
+                }
+            }
+
+            var lineNum = 0;
+            if (etextLine) {
+                var ln = etextLine.querySelector('.line-num');
+                if (ln) lineNum = parseInt(ln.textContent.trim(), 10) || 0;
+            }
+
+            // Find the preceding .folio-header
+            var folioLabel = '';
+            var all = Array.from(container.querySelectorAll('.folio-header'));
+            for (var i = all.length - 1; i >= 0; i--) {
+                if (all[i].compareDocumentPosition(anchor) & Node.DOCUMENT_POSITION_FOLLOWING) {
+                    folioLabel = all[i].textContent.trim();
+                    break;
+                }
+            }
+
+            return { folio: folioLabel, line: lineNum };
+        }
+
+        // ── mouseup: detect selection, enable Add note button ───────
+        document.addEventListener('mouseup', function (e) {
+            // Don't interfere with clicks inside the notes panel
+            if (e.target.closest('#notes-panel')) return;
+
+            var sel    = window.getSelection();
+            var isDisabled = !sel || sel.isCollapsed;
+
+            if (!isDisabled) {
+                var anchor = sel.anchorNode;
+                var container = document.getElementById('etext-container');
+                // Check anchor is within etext-container
+                if (!container || !container.contains(anchor)) isDisabled = true;
+            }
+
+            if (!isDisabled) {
+                var text = cleanSelectionText(sel);
+                if (!text) isDisabled = true;
+                else {
+                    var pos = folioFromAnchor(sel.anchorNode);
+                    currentSel   = text;
+                    currentFolio = pos.folio;
+                    currentLine  = pos.line;
+                }
+            }
+
+            var sess = rktsAuth.getSession();
+            var canNote = !isDisabled && !!sess;
+            btnAddNote.disabled      = !canNote;
+            btnAddNotePanel.disabled = !canNote;
+            if (!canNote && !isDisabled && !sess) {
+                // Show nudge in panel if open
+                btnAddNote.title      = 'Sign in to add notes';
+                btnAddNotePanel.title = 'Sign in to add notes';
+            } else {
+                btnAddNote.title      = canNote ? 'Add note for selected text' : 'Select text in the etext first';
+                btnAddNotePanel.title = btnAddNote.title;
+            }
+        });
+
+        // ── Add note button (toolbar + panel header) ────────────────
+        function openNewNote() {
+            var sess = rktsAuth.getSession();
+            if (!sess) { alert('Please sign in to add notes.'); return; }
+            openPanel();
+            openEditor(null, currentFolio, currentLine, currentSel, '');
+        }
+        btnAddNote.addEventListener('click', openNewNote);
+        btnAddNotePanel.addEventListener('click', openNewNote);
+
+        // ── Editor ──────────────────────────────────────────────────
+        function openEditor(noteId, folio, line, selected, existingHtml) {
+            editingNoteId = noteId || null;
+            document.getElementById('editor-note-id').value  = noteId  || '';
+            document.getElementById('editor-folio').value    = folio   || '';
+            document.getElementById('editor-line').value     = line    || '';
+            document.getElementById('editor-selected').value = selected || '';
+            document.getElementById('note-body-editor').innerHTML = existingHtml || '';
+
+            var selShort = selected && selected.length > 60
+                ? selected.substring(0, 60) + '…' : selected;
+            document.getElementById('editor-meta').innerHTML =
+                '<i class="bi bi-bookmark-fill me-1 text-warning"></i>'
+                + (folio  ? '<strong>' + esc(folio)  + '</strong>\u00a0' : '')
+                + (selShort ? '\u201c' + esc(selShort) + '\u201d' : '');
+
+            document.getElementById('note-editor').style.display = '';
+            document.getElementById('note-editor').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            document.getElementById('note-body-editor').focus();
+        }
+
+        function cancelEdit() {
+            document.getElementById('note-editor').style.display = 'none';
+            document.getElementById('note-body-editor').innerHTML = '';
+            editingNoteId = null;
+        }
+
+        document.getElementById('editor-cancel-btn').addEventListener('click', cancelEdit);
+
+        // ── Formatting functions (global so onclick attrs work) ─────
+        window.noteFmt = function (cmd) {
+            document.getElementById('note-body-editor').focus();
+            document.execCommand(cmd, false, null);
+        };
+        window.noteFmtColor = function (color) {
+            document.getElementById('note-body-editor').focus();
+            if (color === 'inherit') document.execCommand('removeFormat', false, null);
+            else document.execCommand('foreColor', false, color);
+        };
+        window.noteFmtBg = function (color) {
+            document.getElementById('note-body-editor').focus();
+            if (color === 'inherit') document.execCommand('backColor', false, 'transparent');
+            else document.execCommand('backColor', false, color);
+        };
+        window.noteFmtTag = function (tag) {
+            var sel = window.getSelection();
+            if (!sel || sel.isCollapsed) return;
+            document.execCommand('insertHTML', false, '<' + tag + '>' + esc(sel.toString()) + '</' + tag + '>');
+        };
+        window.noteFmtLink = function () {
+            var url = prompt('URL:');
+            if (!url) return;
+            document.getElementById('note-body-editor').focus();
+            document.execCommand('createLink', false, url);
+        };
+
+        // ── Save ────────────────────────────────────────────────────
+        document.getElementById('editor-save-btn').addEventListener('click', async function () {
+            var sess = rktsAuth.getSession();
+            if (!sess) { alert('Please sign in to save notes.'); return; }
+
+            var noteId   = document.getElementById('editor-note-id').value;
+            var folio    = document.getElementById('editor-folio').value;
+            var line     = parseInt(document.getElementById('editor-line').value, 10) || 0;
+            var selected = document.getElementById('editor-selected').value;
+            var noteHtml = document.getElementById('note-body-editor').innerHTML.trim();
+            if (!noteHtml || noteHtml === '<br>') { alert('Note cannot be empty.'); return; }
+
+            var btn = document.getElementById('editor-save-btn');
+            btn.disabled = true;
+            btn.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span>';
+
+            try {
+                var res = await fetch(NOTES_PHP, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        action: 'save', textid: id,
+                        id: noteId, folio: folio, line: line,
+                        selected: selected, note: noteHtml, user: sess.user
+                    })
+                });
+                var data = await res.json();
+                if (data.ok) {
+                    cancelEdit();
+                    loadNotes();
+                } else alert('Error: ' + (data.error || 'Save failed'));
+            } catch (err) {
+                alert('Network error: ' + err.message);
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<i class="bi bi-check-lg me-1"></i>Save';
+            }
+        });
+
+        // ── Comment formatting (global for onclick attrs) ────────────
+        window.cmtFmt = function (cmd, noteId) {
+            var el = document.getElementById('cbe-' + noteId);
+            if (el) { el.focus(); document.execCommand(cmd, false, null); }
+        };
+        window.cmtFmtColor = function (noteId, color) {
+            var el = document.getElementById('cbe-' + noteId);
+            if (!el) return;
+            el.focus();
+            if (color === 'inherit') document.execCommand('removeFormat', false, null);
+            else document.execCommand('foreColor', false, color);
+        };
+
+        // ── Delegated handler: notes + comments ──────────────────────
+        document.getElementById('notes-list').addEventListener('click', async function (e) {
+            var sess = rktsAuth.getSession();
+
+            // ── Note: edit ──
+            var editBtn = e.target.closest('.note-edit-btn');
+            if (editBtn) {
+                var n = notesData.find(function (x) { return x.id === editBtn.dataset.noteId; });
+                if (n) openEditor(n.id, n.folio, n.line, n.selected, n.note);
+                return;
+            }
+
+            // ── Note: delete ──
+            var delBtn = e.target.closest('.note-del-btn');
+            if (delBtn) {
+                if (!confirm('Delete this note and all its comments?')) return;
+                if (!sess) return;
+                delBtn.disabled = true;
+                try {
+                    var res = await fetch(NOTES_PHP, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ action: 'delete', textid: id, id: delBtn.dataset.noteId, user: sess.user })
+                    });
+                    var data = await res.json();
+                    if (data.ok) loadNotes();
+                    else { alert('Error: ' + (data.error || 'Delete failed')); delBtn.disabled = false; }
+                } catch (err2) { alert('Network error'); delBtn.disabled = false; }
+                return;
+            }
+
+            // ── Comment: open inline editor ──
+            var addCommentBtn = e.target.closest('.btn-add-comment');
+            if (addCommentBtn) {
+                var nid = addCommentBtn.dataset.noteId;
+                var ce  = document.getElementById('ce-' + nid);
+                if (!ce) return;
+                // close all other open comment editors first
+                document.querySelectorAll('.comment-editor').forEach(function (x) {
+                    if (x.id !== 'ce-' + nid) { x.style.display = 'none'; }
+                });
+                document.getElementById('cid-' + nid).value = '';
+                document.getElementById('cbe-' + nid).innerHTML = '';
+                ce.style.display = '';
+                document.getElementById('cbe-' + nid).focus();
+                return;
+            }
+
+            // ── Comment: edit ──
+            var ceditBtn = e.target.closest('.comment-edit-btn');
+            if (ceditBtn) {
+                var nid = ceditBtn.dataset.noteId;
+                var cid = ceditBtn.dataset.commentId;
+                var n   = notesData.find(function (x) { return x.id === nid; });
+                if (!n) return;
+                var c   = (n.comments || []).find(function (x) { return x.id === cid; });
+                if (!c) return;
+                var ce  = document.getElementById('ce-' + nid);
+                if (!ce) return;
+                document.querySelectorAll('.comment-editor').forEach(function (x) {
+                    if (x.id !== 'ce-' + nid) x.style.display = 'none';
+                });
+                document.getElementById('cid-' + nid).value    = cid;
+                document.getElementById('cbe-' + nid).innerHTML = c.note || '';
+                ce.style.display = '';
+                document.getElementById('cbe-' + nid).focus();
+                return;
+            }
+
+            // ── Comment: save ──
+            var csaveBtn = e.target.closest('.comment-save-btn');
+            if (csaveBtn) {
+                if (!sess) return;
+                var nid      = csaveBtn.dataset.noteId;
+                var cid      = document.getElementById('cid-' + nid).value;
+                var noteHtml = document.getElementById('cbe-' + nid).innerHTML.trim();
+                if (!noteHtml || noteHtml === '<br>') { alert('Comment cannot be empty.'); return; }
+                csaveBtn.disabled = true;
+                csaveBtn.innerHTML = '<span class="spinner-border spinner-border-sm"></span>';
+                try {
+                    var res = await fetch(NOTES_PHP, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            action: 'save_comment', textid: id,
+                            id: nid, comment_id: cid, note: noteHtml, user: sess.user
+                        })
+                    });
+                    var data = await res.json();
+                    if (data.ok) {
+                        var ce = document.getElementById('ce-' + nid);
+                        if (ce) ce.style.display = 'none';
+                        loadNotes();
+                    } else alert('Error: ' + (data.error || 'Save failed'));
+                } catch (err2) { alert('Network error'); }
+                csaveBtn.disabled = false;
+                csaveBtn.innerHTML = '<i class="bi bi-check-lg me-1"></i>Save';
+                return;
+            }
+
+            // ── Comment: cancel ──
+            var ccancelBtn = e.target.closest('.comment-cancel-btn');
+            if (ccancelBtn) {
+                var ce = document.getElementById('ce-' + ccancelBtn.dataset.noteId);
+                if (ce) ce.style.display = 'none';
+                return;
+            }
+
+            // ── Comment: delete ──
+            var cdelBtn = e.target.closest('.comment-del-btn');
+            if (cdelBtn) {
+                if (!confirm('Delete this comment?')) return;
+                if (!sess) return;
+                cdelBtn.disabled = true;
+                try {
+                    var res = await fetch(NOTES_PHP, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            action: 'delete_comment', textid: id,
+                            id: cdelBtn.dataset.noteId, comment_id: cdelBtn.dataset.commentId, user: sess.user
+                        })
+                    });
+                    var data = await res.json();
+                    if (data.ok) loadNotes();
+                    else { alert('Error: ' + (data.error || 'Delete failed')); cdelBtn.disabled = false; }
+                } catch (err2) { alert('Network error'); cdelBtn.disabled = false; }
+            }
+        });
+
+        // ── Load notes once etext has rendered ──────────────────────
+        var notesObserver = new MutationObserver(function () {
+            if (document.querySelector('.etext-line')) {
+                notesObserver.disconnect();
+                loadNotes();
+            }
+        });
+        notesObserver.observe(document.getElementById('etext-container'), { childList: true, subtree: false });
+
+        function fmtDate(iso) {
+            if (!iso) return '';
+            try { return new Date(iso).toLocaleDateString(); } catch(e) { return iso.slice(0,10); }
+        }
+
+        // ── Update modal auth status when opened ─────────────────────
+        document.getElementById('notesHelpModal').addEventListener('show.bs.modal', function () {
+            var el   = document.getElementById('notes-help-auth-status');
+            var sess = rktsAuth.getSession();
+            if (sess) {
+                el.className = 'alert alert-success small mb-0 py-2';
+                el.innerHTML = '<i class="bi bi-person-check me-1"></i>Signed in as <strong>'
+                    + esc(sess.user) + '</strong> — you can add and edit notes.';
+            } else {
+                el.className = 'alert alert-warning small mb-0 py-2';
+                el.innerHTML = '<i class="bi bi-lock me-1"></i>You are not signed in. '
+                    + '<a href="login.html">Sign in</a> or <a href="register.html">register</a> to add notes.';
+            }
+        });
+
+    })();
+    </script>
+</body>
+</html>

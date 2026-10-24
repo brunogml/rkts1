@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Mongolian Canon - Title Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <style>
+        /* Mongolian script display — same as detailm.html */
+        .mongol-script        { font-size: 1em;   line-height: 1.6; font-family: inherit; }
+        .mongol-script.mng-unicode { font-size: 1.5em; line-height: 1.6;
+                                     font-family: "Mongolian Baiti", "Noto Sans Mongolian", serif; }
+        .mng-toggle-btn { min-width: 38px; }
+
+        /* Transcription schema table inside modal — mirrors translitmng.html layout */
+        .mng-schema-wrap { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px,1fr)); gap: 8px; }
+        .mng-schema-col { border: 0.5px solid #ccc; border-radius: 6px; overflow: hidden; }
+        .mng-schema-head { font-size: 10px; font-weight: 600; color: #555; text-transform: uppercase;
+                           letter-spacing: 0.06em; padding: 5px 8px; background: #f5f5f5;
+                           border-bottom: 0.5px solid #ccc; }
+        .mng-schema-table { width: 100%; border-collapse: collapse; }
+        .mng-schema-table td { padding: 2px 6px; border-bottom: 0.5px solid #e8e8e8; vertical-align: middle; }
+        .mng-schema-table tr:last-child td { border-bottom: none; }
+        .sc { writing-mode: vertical-lr; font-size: 1.7em; line-height: 1; display: inline-block; min-height: 1.1em; }
+        .tr { font-family: monospace; font-size: 0.85em; color: #1a5faa; padding-left: 4px; }
+        .sep { font-size: 9px; font-weight: 600; color: #aaa; text-transform: uppercase;
+               letter-spacing: 0.05em; padding: 3px 6px 2px; background: #f5f5f5;
+               border-bottom: 0.5px solid #e8e8e8; }
+
+        /* Result rows */
+        .rkts-result {
+            border: 1px solid #e0e4ec;
+            border-radius: 6px;
+            padding: 10px 14px;
+            margin-bottom: 8px;
+            background: #fff;
+        }
+        .rkts-result:hover { border-color: #b0bdd6; }
+        .rkts-result-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 4px;
+        }
+        .rkts-id {
+            font-family: monospace;
+            font-size: 0.85em;
+            color: #1a5faa;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .rkts-id:hover { text-decoration: underline; }
+        .rkts-result-title a { text-decoration: none; color: inherit; }
+        .rkts-result-title a:hover { text-decoration: underline; }
+
+        /* Section headings */
+        .result-section-heading {
+            font-size: 0.82em;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #666;
+            padding: 10px 0 4px;
+            border-bottom: 1px solid #e0e4ec;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .result-section-heading.approx { color: #9a7a00; }
+        .result-section-heading .cnt {
+            font-size: 0.9em;
+            font-weight: 400;
+            color: #aaa;
+        }
+        .no-results {
+            font-size: 0.9em;
+            color: #aaa;
+            padding: 8px 0 4px;
+            font-style: italic;
+        }
+
+        /* Canon tab bar (single canon here, kept for future extension) */
+        .canon-tab-bar {
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+        .canon-tab-bar .btn {
+            font-size: 0.82em;
+            padding: 4px 12px;
+            border-radius: 20px;
+            border: 1px solid #c0cce0;
+            background: #eef1f8;
+            color: #456;
+        }
+        .canon-tab-bar .btn.active {
+            background: #1a5faa;
+            color: #fff;
+            border-color: #1a5faa;
+        }
+        .badge-cnt {
+            display: inline-block;
+            font-size: 0.78em;
+            padding: 1px 5px;
+            border-radius: 10px;
+            margin-left: 4px;
+            font-weight: 700;
+        }
+        .badge-exact  { background: #d4edda; color: #155724; }
+        .badge-approx { background: #fff3cd; color: #856404; }
+
+        mark.rkts-hl { background: #fff176; padding: 0 1px; border-radius: 2px; }
+
+        /* Normalisation hint */
+        .norm-hint {
+            font-size: 0.8em;
+            color: #888;
+            font-style: italic;
+            margin-top: 4px;
+        }
+        .norm-arrow { color: #aaa; margin: 0 3px; }
+    </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ══ Main ══════════════════════════════════════════════════════════════ -->
+    <div class="container mt-4">
+
+        <!-- Page heading -->
+        <div class="mb-3 d-flex align-items-start justify-content-between">
+            <div>
+                <h4 class="mb-0">Mongolian Canon — Title Search</h4>
+                <p class="text-muted small mb-0 mt-1">
+                    Search Mongolian titles across all Mongolian Canon collection catalogs.
+                    Fuzzy matching accounts for graphic ambiguities (q/γ/g/k, t/d, ö/ü, o/u, b/p/f, č/ç/ǰ/j/ȷ/z/ẓ, etc.). 
+					<br>No need to enter the diacritics (for ǰ→j, š→s, ṭ→t, etc.). 
+                </p>
+            </div>
+            <div class="d-flex gap-2 flex-shrink-0 mt-1">
+                <button type="button" id="global-mng-toggle"
+                        class="btn btn-outline-secondary btn-sm mng-toggle-btn"
+                        data-mode="roman" title="Show in Mongolian script">
+                    <i class="bi bi-translate"></i>
+                </button>
+                <button type="button" class="btn btn-outline-secondary btn-sm"
+                        data-bs-toggle="modal" data-bs-target="#transcription-modal"
+                        title="About the transcription system">
+                    <i class="bi bi-info-circle"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Search form -->
+        <div class="card mb-4">
+            <div class="card-body pb-2">
+                <div class="row g-2 align-items-end">
+                    <div class="col-12 col-md-8">
+                        <label for="text-input" class="form-label small text-muted mb-1">
+                            Mongolian title (rKTs romanization or Mongolian Unicode)
+                        </label>
+                        <input type="text" id="text-input" class="form-control"
+                               placeholder="e.g. nom-un čiγulγan  or  ᠨᠣᠮ ᠤᠨ ᠴᠢᠭᠤᠯᠭᠠᠨ">
+                    </div>
+                    <div class="col-12 col-md-4 d-flex gap-2 align-items-end">
+                        <button id="search-btn" class="btn btn-primary">
+                            <i class="bi bi-search"></i> Search
+                        </button>
+                        <a href="searchm.html" class="btn btn-outline-secondary">← New search</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading indicator -->
+        <div id="loading-indicator" class="text-center my-5" style="display:none;">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading…</span>
+            </div>
+            <p class="text-muted mt-2 small" id="loading-msg">Loading data…</p>
+        </div>
+
+        <!-- Results area -->
+        <div id="results-area"></div>
+
+    </div><!-- /container -->
+
+    <!-- Transcription info modal -->
+    <div class="modal fade" id="transcription-modal" tabindex="-1" aria-labelledby="transcription-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="transcription-modal-label">
+                        rKTs Mongolian Transcription System
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p class="text-muted small">
+                        The rKTs uses a <strong>transcription</strong> (not a transliteration) of Traditional
+                        Mongolian script: each character is rendered by a Roman symbol chosen for
+                        readability and practical keyboard entry, rather than a strict one-to-one
+                        phonemic mapping. The table below lists every character and its transcription symbol.
+                    </p>
+
+                    <!-- Character table -->
+                    <div class="mng-schema-wrap">
+
+                        <div class="mng-schema-col">
+                            <div class="mng-schema-head">Vowels</div>
+                            <table class="mng-schema-table">
+                                <tr><td><span class="sc">ᠠ</span></td><td class="tr">a</td></tr>
+                                <tr><td><span class="sc">ᠡ</span></td><td class="tr">e</td></tr>
+                                <tr><td><span class="sc">ᠢ</span></td><td class="tr">i</td></tr>
+                                <tr><td><span class="sc">ᠣ</span></td><td class="tr">o</td></tr>
+                                <tr><td><span class="sc">ᠤ</span></td><td class="tr">u</td></tr>
+                                <tr><td><span class="sc">ᠥ</span></td><td class="tr">ö</td></tr>
+                                <tr><td><span class="sc">ᠦ</span></td><td class="tr">ü</td></tr>
+                                <tr><td><span class="sc">ᠧ</span></td><td class="tr">ê</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="mng-schema-col">
+                            <div class="mng-schema-head">Nasals + labials</div>
+                            <table class="mng-schema-table">
+                                <tr><td class="sep" colspan="2">Nasals</td></tr>
+                                <tr><td><span class="sc">ᠨ</span></td><td class="tr">n</td></tr>
+                                <tr><td><span class="sc">ᡛ</span></td><td class="tr">ñ</td></tr>
+                                <tr><td><span class="sc">ᢏ</span></td><td class="tr">ṇ</td></tr>
+                                <tr><td><span class="sc">ᠩ</span></td><td class="tr">ng</td></tr>
+                                <tr><td class="sep" colspan="2">Labials</td></tr>
+                                <tr><td><span class="sc">ᠪ</span></td><td class="tr">b</td></tr>
+                                <tr><td><span class="sc">ᠫ</span></td><td class="tr">p</td></tr>
+                                <tr><td><span class="sc">ᢓ</span></td><td class="tr">ph</td></tr>
+                                <tr><td><span class="sc">ᠹ</span></td><td class="tr">f</td></tr>
+                                <tr><td><span class="sc">ᠮ</span></td><td class="tr">m</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="mng-schema-col">
+                            <div class="mng-schema-head">Dentals </div>
+                            <table class="mng-schema-table">
+                                <tr><td class="sep" colspan="2">Dentals</td></tr>
+                                <tr><td><span class="sc">ᠲ</span></td><td class="tr">t</td></tr>
+                                <tr><td><span class="sc">ᠳ</span></td><td class="tr">d</td></tr>
+                                <tr><td class="sep" colspan="2">Diacritics</td></tr>
+                                <tr><td><span class="sc">ᢌ</span></td><td class="tr">ṭ</td></tr>
+                                <tr><td><span class="sc">ᢍ</span></td><td class="tr">ṭh</td></tr>
+                                <tr><td><span class="sc">ᢎ</span></td><td class="tr">ḍ</td></tr>
+                                <tr><td><span class="sc">ᢐ</span></td><td class="tr">ṱ</td></tr>
+                                <tr><td><span class="sc">ᢑ</span></td><td class="tr">ḓ</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="mng-schema-col">
+                            <div class="mng-schema-head">Sibilants &amp; affricates</div>
+                            <table class="mng-schema-table">
+                                <tr><td><span class="sc">ᠰ</span></td><td class="tr">s</td></tr>
+                                <tr><td><span class="sc">ᠱ</span></td><td class="tr">š</td></tr>
+                                <tr><td><span class="sc">ᢔ</span></td><td class="tr">ṣ</td></tr>
+                                <tr><td><span class="sc">ᢍ</span></td><td class="tr">ś</td></tr>
+                                <tr><td><span class="sc">ᠴ</span></td><td class="tr">č</td></tr>
+                                <tr><td><span class="sc">ᠼ</span></td><td class="tr">ç</td></tr>
+                                <tr><td><span class="sc">ᠵ</span></td><td class="tr">ǰ</td></tr>
+                                <tr><td><span class="sc">ᢖ</span></td><td class="tr">j</td></tr>
+                                <tr><td><span class="sc">ᡒ</span></td><td class="tr">ȷ</td></tr>
+                                <tr><td><span class="sc">ᠽ</span></td><td class="tr">z</td></tr>
+                                <tr><td><span class="sc">ᡜ</span></td><td class="tr">ẓ</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="mng-schema-col">
+                            <div class="mng-schema-head">Velars + liquids &amp; glides</div>
+                            <table class="mng-schema-table">
+                                <tr><td class="sep" colspan="2">Velars / uvulars</td></tr>
+                                <tr><td><span class="sc">ᠺ</span></td><td class="tr">k</td></tr>
+                                <tr><td><span class="sc">ᠻ</span></td><td class="tr">kh</td></tr>
+                                <tr><td><span class="sc">ᠬ</span></td><td class="tr">q</td></tr>
+                                <tr><td><span class="sc">ᠭ</span></td><td class="tr">γ</td></tr>
+                                <tr><td><span class="sc">ᢉ</span></td><td class="tr">&#x2019;</td></tr>
+                                <tr><td class="sep" colspan="2">Liquids &amp; glides</td></tr>
+                                <tr><td><span class="sc">ᠯ</span></td><td class="tr">l</td></tr>
+                                <tr><td><span class="sc">ᡀ</span></td><td class="tr">lh</td></tr>
+                                <tr><td><span class="sc">ᠷ</span></td><td class="tr">r</td></tr>
+                                <tr><td><span class="sc">ᠶ</span></td><td class="tr">y</td></tr>
+                                <tr><td><span class="sc">ᢣ</span></td><td class="tr">ý</td></tr>
+                                <tr><td><span class="sc">ᠸ</span></td><td class="tr">w</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="mng-schema-col">
+                            <div class="mng-schema-head">Other + special</div>
+                            <table class="mng-schema-table">
+                                <tr><td class="sep" colspan="2">Other consonants</td></tr>
+                                <tr><td><span class="sc">ᠾ</span></td><td class="tr">h</td></tr>
+                                <tr><td><span class="sc">ᠿ</span></td><td class="tr">ž</td></tr>
+                                <tr><td><span class="sc">ᡁ</span></td><td class="tr">zh</td></tr>
+                                <tr><td><span class="sc">ᡂ</span></td><td class="tr">ch</td></tr>
+                                <tr><td class="sep" colspan="2">Special</td></tr>
+                                <tr><td><span class="sc">ᢀ</span></td><td class="tr">ṃ</td></tr>
+                                <tr><td><span class="sc">ᢁ</span></td><td class="tr">ḥ</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="mng-schema-col">
+                            <div class="mng-schema-head">Punctuation</div>
+                            <table class="mng-schema-table">
+                                <tr><td><span class="sc">᠀</span></td><td class="tr">@</td></tr>
+                                <tr><td><span class="sc">᠂</span></td><td class="tr">;</td></tr>
+                                <tr><td><span class="sc">᠃</span></td><td class="tr">,</td></tr>
+                                <tr><td><span class="sc">᠄</span></td><td class="tr">:</td></tr>
+                                <tr><td><span class="sc">᠅</span></td><td class="tr">.</td></tr>
+                            </table>
+                        </div>
+
+                    </div><!-- /.mng-schema-wrap -->
+
+                    <p class="text-muted small mt-3 mb-0">
+                        Full reference: <a href="translitmng.html" target="_blank">Mongolian Transcription Schema <i class="bi bi-box-arrow-up-right"></i></a>
+                    </p>
+
+                </div><!-- /.modal-body -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+        import { unicodemng } from '../tools/mng.js';
+        window.unicodemng = unicodemng;
+    </script>
+
+    <script>
+    /* ══════════════════════════════════════════════════════════════════════════
+       resultsm.html  –  Mongolian Canon title search
+       Data sources:
+         ../data/general/collections.json   (filter by genre = "Mongolian Canon")
+         ../data/collections/{sigla}/{sigla}.xml
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    /* ── 0. Paths ──────────────────────────────────────────────────────────── */
+    const PATHS = {
+        collections: '../data/general/collections.json',
+        colXml:  (sigla) => `../data/collections/${sigla}/${sigla}.xml`,
+        detail:  (id)    => `detailm.html?id=${id}`,
+    };
+
+    /* ── 0b. Canon definitions ────────────────────────────────────────────── */
+
+    const MONG_CANONS = [
+        { key: 'MK', label: 'Mongolian Kanjur', id: 'MK' },
+        { key: 'MT', label: 'Mongolian Tanjur', id: 'MT' },
+        { key: 'M',  label: 'Mongolian Canon',  id: 'M'  },  // fallback for untyped entries
+    ];
+
+    /*
+     * Map an item-level prefix (from <cat> / <rktsTyp>) to a canon bucket key.
+     *   MK… or K → 'MK'  (Mongolian Kanjur)
+     *   MT… or T → 'MT'  (Mongolian Tanjur)
+     *   anything else    → ''  (unknown — caller should fall back to collection level)
+     */
+    function prefixToCanonKey(prefix) {
+        const p = (prefix || '').trim().toUpperCase();
+        if (p === 'K'  || p.startsWith('MK')) return 'MK';
+        if (p === 'T'  || p.startsWith('MT')) return 'MT';
+        return '';
+    }
+
+    /*
+     * Derive a canon bucket key from the collection-level genre/canon string.
+     * Used as fallback when the item has no usable <cat>/<rktsTyp>.
+     */
+    function colGenreToCanonKey(colObj) {
+        const g = ((colObj.canon || colObj.genre || colObj.rktsTyp || '')).toLowerCase().trim();
+        if (g.includes('kanjur') || g === 'k') return 'MK';
+        if (g.includes('tanjur') || g === 't') return 'MT';
+        return 'M';
+    }
+
+    /* ══════════════════════════════════════════════════════════════════════════
+       1. MONGOLIAN NORMALISATION
+       ══════════════════════════════════════════════════════════════════════════
+
+       Two-stage pipeline:
+         A. unicodeToRoman(str)  — Traditional Mongolian Unicode → rKTs roman
+            (uses the MAP from mngconv logic, applied codepoint-by-codepoint)
+         B. normRoman(str)       — collapse all graphic ambiguities
+
+       normRoman equivalences (applied in this order to avoid chain-collisions):
+         1. Strip diacritics: š→s, ṣ→s, ś→s, č→j, ç→j, ǰ→j, ȷ→j, ñ→n, ṇ→n,
+                              ẓ→z, ṭ→t, ḍ→d, ṱ→t, ḓ→d, ý→y, γ→g, ɣ→g,
+                              ö→o, ü→u, ê→e, ṃ→m, ḥ→h
+         2. Long vowels: aa→a, ee→e, ii→i, oo→o, uu→u
+         3. q→g, k→g  (velar/uvular merger)
+         4. t→d        (dental voicing neutralisation)
+         5. Labial merger: p→b, f→b  (b=p=f)
+         6. Affricate/sibilant merger: z→j  (č=ç=ǰ=j=ȷ=z=ẓ; non-initial z collapses
+            to j; word-initial j→y is handled below, so word-initial z also → y)
+         7. j→y  at word start only (in normalised token position)
+         8. o→u  (back vowel collapse: ö→o→u; e and i remain distinct)
+         9. ph→p→b, kh→g, lh→l, ch→c→j, sh→s, zh→j, ng stays, ny→n
+            (digraphs — resolved before single-char rules)
+        10. Collapse repeated identical consonants (tt→t, dd→d, nn→n, etc.)
+
+       Matching:
+         exact  — normRoman(query) is a substring of normRoman(title)
+         approx — every space-delimited token of normRoman(query) is found
+                  as a whole syllable in normRoman(title)
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    /* ── 1a. Unicode → roman (codepoint map) ──────────────────────────────── */
+    const MNG_UNICODE_TO_ROMAN = new Map([
+        // Vowels
+        ['\u1820','a'], ['\u1821','e'], ['\u1822','i'], ['\u1823','o'],
+        ['\u1824','u'], ['\u1825','ö'], ['\u1826','ü'], ['\u1827','ê'],
+        // Nasals
+        ['\u1828','n'], ['\u185B','ñ'], ['\u188F','ṇ'], ['\u1829','ng'],
+        // Labials
+        ['\u182A','b'], ['\u182B','p'], ['\u1893','ph'], ['\u1839','f'],
+        ['\u182E','m'],
+        // Dentals
+        ['\u1832','t'], ['\u1833','d'],
+        // Retroflexes
+        ['\u188C','ṭ'], ['\u188D','ṭh'], ['\u188E','ḍ'],
+        ['\u1890','ṱ'], ['\u1891','ḓ'],
+        // Sibilants / affricates
+        ['\u1830','s'], ['\u1831','š'], ['\u1894','ṣ'], ['\u1899','ś'],
+        ['\u1834','č'], ['\u183C','ç'], ['\u1835','ǰ'], ['\u1896','j'],
+        ['\u1452','ȷ'], ['\u183D','z'], ['\u185C','ẓ'],
+        // Velars / uvulars
+        ['\u183A','k'], ['\u183B','kh'], ['\u182C','q'], ['\u182D','γ'],
+        ['\u1889','\''],
+        // Liquids / glides
+        ['\u182F','l'], ['\u1840','lh'], ['\u1837','r'],
+        ['\u1836','y'], ['\u18A3','ý'], ['\u1838','w'],
+        // Other consonants
+        ['\u183E','h'], ['\u183F','ž'], ['\u1841','zh'], ['\u1842','ch'],
+        // Special
+        ['\u1880','ṃ'], ['\u1881','ḥ'],
+        // Punctuation / formatting — map to space/nothing so they don't interfere
+        ['\u180E',' '], ['\u202F',' '], ['\u200C',''], ['\u200D',''],
+        ['\u180B',''], ['\u180C',''], ['\u180D',''],
+    ]);
+
+    function unicodeToRoman(str) {
+        if (!str) return '';
+        let out = '';
+        for (const ch of str) {
+            out += MNG_UNICODE_TO_ROMAN.has(ch) ? MNG_UNICODE_TO_ROMAN.get(ch) : ch;
+        }
+        return out;
+    }
+
+    /* ── 1b. Roman normaliser ──────────────────────────────────────────────── */
+
+    function normRoman(str) {
+        if (!str) return '';
+        let s = str.toLowerCase();
+
+        // 0. Strip Mongolian formatting chars; collapse hyphens and spaces equally
+        s = s.replace(/[\u180B-\u180E\u200C\u200D\u202F]/g, ' ');
+        s = s.replace(/-/g, ' ');          // erke-tü → erke tü (same as erketü)
+
+        // 1. v/w merger
+        s = s.replace(/v/g, 'w');
+
+        // 2. Digraphs first
+        s = s.replace(/kh/g, 'g');
+        s = s.replace(/ph/g, 'p');
+        s = s.replace(/lh/g, 'l');
+        s = s.replace(/ch/g, 'j');
+        s = s.replace(/sh/g, 's');
+        s = s.replace(/zh/g, 'j');
+        s = s.replace(/ng/g, 'ng');
+        s = s.replace(/ny/g, 'n');
+
+        // 3. Diacritics → base letters
+        s = s.replace(/[šśṣ]/g,  's');
+        s = s.replace(/[cčç]/g,  'j');
+        s = s.replace(/[ǰȷ]/g,   'j');   // ȷ (dotless-j) included
+        s = s.replace(/[ñ]/g,    'n');
+        s = s.replace(/[ṇ]/g,    'n');
+        s = s.replace(/[ẓ]/g,    'z');    // ẓ→z, then z→j below
+        s = s.replace(/[ṭ]/g,    't');
+        s = s.replace(/[ḍ]/g,    'd');
+        s = s.replace(/[ṱ]/g,    't');
+        s = s.replace(/[ḓ]/g,    'd');
+        s = s.replace(/[ý]/g,    'y');
+        s = s.replace(/[γɣ]/g,   'g');
+        s = s.replace(/ö/g, 'ü');   // ö=ü (front rounded group)
+        s = s.replace(/o/g, 'u');   // o=u (back unrounded group)
+        s = s.replace(/ê/g,      'e');
+        s = s.replace(/ṃ/g,      'm');
+        s = s.replace(/ḥ/g,      'h');
+        s = s.replace(/ž/g,      'j');
+
+        // 4. Long vowels → short (covers plain vowels and ü after ö→ü merge)
+        s = s.replace(/([aeiouü])\1+/g, '$1');
+
+        // 5. Velar merger: q, k → g
+        s = s.replace(/[qk]/g, 'g');
+
+        // 6. Dental neutralisation: t → d
+        s = s.replace(/t/g, 'd');
+
+        // 7. Labial merger: b = p = f  (ph already resolved to p in step 2)
+        s = s.replace(/[pf]/g, 'b');
+
+        // 7b. Affricate/sibilant merger: z → j  (č=ç=ǰ=j=ȷ=z=ẓ)
+        // Word-initial z will subsequently → j → y via step 8, giving the
+        // correct č=ç=j=ȷ=z=ẓ equivalence at word start (ǰ→j→y separately).
+        s = s.replace(/z/g, 'j');
+
+        // 8. Word-initial j → y per token
+        s = s.split(/\s+/).map(tok => tok.replace(/^j/, 'y')).join(' ');
+
+        // 9. Collapse repeated consonants (not ng)
+        s = s.replace(/([^ng])\1+/g, '$1');
+
+        // 10. Tidy
+        s = s.replace(/\s+/g, ' ').trim();
+        return s;
+    }
+
+    /* ── 1c. Detect Mongolian Unicode input ───────────────────────────────── */
+    // Mongolian Unicode block: U+1800–U+18AF
+    function isMongolianUnicode(str) {
+        return /[\u1800-\u18AF]/.test(str);
+    }
+
+    /* ── 1d. Normalise raw query input → roman ────────────────────────────── */
+    function toRoman(raw) {
+        if (!raw) return '';
+        if (isMongolianUnicode(raw)) return unicodeToRoman(raw).replace(/\s+/g,' ').trim();
+        return raw.replace(/\s+/g,' ').trim();
+    }
+
+    /* ── 1e. Roman → Mongolian Unicode (for display in script pane) ────────── */
+    // Same as detailm.html
+    function toMongolian(translit) {
+        if (!translit) return '';
+        if (window.unicodemng) { try { return window.unicodemng(translit); } catch(e) {} }
+        return translit;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════════════
+       2. Highlight helpers
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    function escapeHtml(s) {
+        return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+                        .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+    }
+
+    function highlightMng(originalRoman, queryNorm) {
+        if (!queryNorm) return escapeHtml(originalRoman);
+
+        // Split display chunks on spaces; split each chunk on hyphens for atoms.
+        const chunks = originalRoman.split(' ');
+        const atoms  = [];
+        chunks.forEach((chunk, ci) => {
+            chunk.split('-').forEach(part => atoms.push({ norm: normRoman(part), chunkIdx: ci }));
+        });
+
+        const queryToks   = queryNorm.split(' ').filter(Boolean);
+        const highlighted = new Array(chunks.length).fill(false);
+        const solidQuery  = queryToks.join('');   // query with spaces removed
+
+        // Pass 1: for each contiguous run of atoms of length runLen,
+        //   a) spaced join === normQuery  (normal multi-token match)
+        //   b) solid join  === solidQuery (hyphenated-vs-solid equivalence)
+        // runLen ranges from 1 up to queryToks.length.
+        // For single-token queries, runLen goes up to the number of atoms in
+        // the longest hyphenated chunk so "erketü" finds ["erke","tü"] in one chunk.
+        const maxRun = Math.max(queryToks.length, 4);  // 4 covers most hyphen depths
+        for (let s = 0; s < atoms.length; s++) {
+            for (let len = 1; len <= maxRun && s + len <= atoms.length; len++) {
+                const run       = atoms.slice(s, s + len);
+                const runSpaced = run.map(a => a.norm).join(' ');
+                const runSolid  = run.map(a => a.norm).join('');
+                if (runSpaced === queryNorm || runSolid === solidQuery) {
+                    run.forEach(({ chunkIdx }) => { highlighted[chunkIdx] = true; });
+                    break;  // stop extending this run
+                }
+            }
+        }
+
+        // Pass 2: single-token stem match — highlight chunks whose first atom
+        //         starts with the query token (e.g. "erke" → "erke-tü")
+        if (queryToks.length === 1 && queryToks[0].length >= 3) {
+            const tok = queryToks[0];
+            atoms.forEach(({ norm, chunkIdx }) => {
+                if (!highlighted[chunkIdx] && norm.startsWith(tok)) highlighted[chunkIdx] = true;
+            });
+        }
+
+        return chunks.map((chunk, i) =>
+            highlighted[i]
+                ? '<mark class="rkts-hl">' + escapeHtml(chunk) + '</mark>'
+                : escapeHtml(chunk)
+        ).join(' ');
+    }
+
+    /* ══════════════════════════════════════════════════════════════════════════
+       3. Match type
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    /*
+     * normRomanSolid(str) — like normRoman but strips hyphens WITHOUT adding a
+     * space, so erke-tü → ergedü (same as erketü). Used alongside normRoman
+     * (which converts hyphens to spaces) so both hyphenated and solid forms match.
+     */
+    function normRomanSolid(str) {
+        return normRoman(str.replace(/-/g, ''));
+    }
+
+    /*
+     * normRomanNoHyphen(str) — normalise each space-separated word with its
+     * internal hyphens stripped, but keep spaces between words intact.
+     * e.g. "burqan-u bey-e" → "burganu beye"
+     * This bridges the gap between a query like "burqan-u beye" or "burqanu beye"
+     * and a title that uses hyphens inside some words but not others.
+     */
+    function normRomanNoHyphen(str) {
+        return str.split(' ')
+                  .map(w => normRoman(w.replace(/-/g, '')))
+                  .join(' ').replace(/\s+/g, ' ').trim();
+    }
+
+    function matchType(titleRoman, queryNorm, approxToks, rawQuery) {
+        // Three normalised title strings:
+        //   titleNorm       — hyphens → spaces ("burqan-u bey-e" → "burganu bey e")
+        //   titleNormSolid  — all hyphens & spaces stripped ("burqanubeye")
+        //   titleNormNoHyph — hyphens stripped within words, spaces kept
+        //                     ("burqan-u bey-e" → "burganu beye")
+        // Two normalised query strings:
+        //   queryNorm       — normRoman(raw): hyphens → spaces, so "burqan-u beye"
+        //                     → "burgan u beye" (3 tokens). This does NOT match
+        //                     titleNormNoHyph "burganu beye" (2 tokens).
+        //   queryNormNoHyph — normRomanNoHyphen(rawQuery): strip hyphens within each
+        //                     space-word first, then normalise, so "burqan-u beye"
+        //                     → "burganu beye" (2 tokens). This matches titleNormNoHyph.
+        const titleNorm       = normRoman(titleRoman);
+        const titleNormSolid  = normRomanSolid(titleRoman);
+        const titleNormNoHyph = normRomanNoHyphen(titleRoman);
+        const solidQuery      = queryNorm.replace(/ /g, '');
+        const queryNormNoHyph = rawQuery ? normRomanNoHyphen(rawQuery) : queryNorm;
+
+        // Exact match: check all combinations of title form vs query form
+        if (titleNorm.includes(queryNorm))             return 'exact';
+        if (titleNormSolid.includes(queryNorm))        return 'exact';
+        if (titleNormNoHyph.includes(queryNorm))       return 'exact';
+        if (titleNorm.includes(solidQuery))            return 'exact';
+        if (titleNormSolid.includes(solidQuery))       return 'exact';
+        if (titleNormNoHyph.includes(solidQuery))      return 'exact';
+        if (titleNormNoHyph.includes(queryNormNoHyph)) return 'exact';
+
+        // Approx: every token of the query found as a whole syllable in any title form
+        if (approxToks.length > 0) {
+            const paddedSpaced = ' ' + titleNorm       + ' ';
+            const paddedSolid  = ' ' + titleNormSolid  + ' ';
+            const paddedNoHyph = ' ' + titleNormNoHyph + ' ';
+            for (const tok of approxToks) {
+                const inSpaced  = paddedSpaced.includes(' ' + tok + ' ');
+                const inSolid   = paddedSolid.includes(' ' + tok + ' ');
+                const inNoHyph  = paddedNoHyph.includes(' ' + tok + ' ');
+                if (!inSpaced && !inSolid && !inNoHyph) return '';
+            }
+            return 'approx';
+        }
+        return '';
+    }
+
+    /* ══════════════════════════════════════════════════════════════════════════
+       4. Row builder
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    function makeRow(rktsNum, prefix, roman, mng_unicode, isExact, queryNorm) {
+        // roman_hl: original spelling preserved, only matching syllables wrapped in <mark>
+        const roman_hl   = highlightMng(roman, queryNorm);
+        // (unicode script generated on demand by toMongolian() in applyMngMode)
+        return {
+            id:      rktsNum,
+            prefix,
+            roman,        // plain roman for toMongolian() conversion
+            roman_hl,     // highlighted roman for display
+        };
+    }
+
+    /* ══════════════════════════════════════════════════════════════════════════
+       5. addMatch (dedup / upgrade)
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    function addMatch(allMatches, canonKey, rktsInt, mtype, row) {
+        if (!allMatches[canonKey]) allMatches[canonKey] = {};
+        const existing = allMatches[canonKey][rktsInt];
+        if (!existing) { allMatches[canonKey][rktsInt] = { type: mtype, row }; return; }
+        if (mtype === 'exact' && existing.type === 'approx') {
+            allMatches[canonKey][rktsInt] = { type: 'exact', row }; return;
+        }
+        if (mtype === existing.type && row.roman_hl.includes('rkts-hl') && !existing.row.roman_hl.includes('rkts-hl')) {
+            allMatches[canonKey][rktsInt] = { type: mtype, row };
+        }
+    }
+
+    /* ══════════════════════════════════════════════════════════════════════════
+       6. Fetch helpers
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    async function fetchXml(url) {
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${url}`);
+        return new DOMParser().parseFromString(await resp.text(), 'application/xml');
+    }
+
+    async function fetchJson(url) {
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${url}`);
+        return resp.json();
+    }
+
+    /* ══════════════════════════════════════════════════════════════════════════
+       7. Core search
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    async function runSearch(rawText) {
+        setLoading(true, 'Loading collection list…');
+
+        /* 7a. Normalise query */
+        const roman     = toRoman(rawText);          // rKTs roman (original or converted from Unicode)
+        const queryNorm = normRoman(roman);           // normalised form used for matching
+        const approxToks = queryNorm.split(' ').filter(t => t.length > 1); // whole-syllable tokens
+
+        /* 7b. Load collections.json — filter to Mongolian Canon only */
+        let collections = [];
+        try {
+            const all = await fetchJson(PATHS.collections);
+            collections = all.filter(c => (c.genre || '').trim() === 'Mongolian Canon');
+        } catch(e) {
+            console.warn('collections.json load failed:', e);
+        }
+
+        if (collections.length === 0) {
+            setLoading(false);
+            document.getElementById('results-area').innerHTML =
+                '<div class="alert alert-warning">No Mongolian Canon collections found in collections.json.</div>';
+            return;
+        }
+
+        /* 7c. Search each collection XML */
+        // allMatches keyed by canon (MK / MT / M), then by rktsInt
+        const allMatches = { MK: {}, MT: {}, M: {} };
+
+        let colsDone = 0;
+        const total  = collections.length;
+        for (const col of collections) {
+            const sigla = col.sigla || '';
+            if (!sigla) continue;
+            colsDone++;
+            if (colsDone % 5 === 0 || colsDone === 1) {
+                setLoading(true, `Searching collections… (${colsDone}/${total})`);
+                await new Promise(r => setTimeout(r, 0));
+            }
+
+            let colXml;
+            try { colXml = await fetchXml(PATHS.colXml(sigla)); }
+            catch(e) { continue; }
+
+            const colSeen = {};  // [canonKey][rktsInt] = best mt in this file
+
+            for (const item of colXml.documentElement.children) {
+                if (item.tagName !== 'item') continue;
+
+                const dc = (tag) => Array.from(item.children).find(el => el.tagName === tag);
+
+                const rktsNum = (dc('rkts')?.textContent || '').trim();
+                const rktsInt = parseInt(rktsNum, 10);
+                if (!rktsInt) continue;
+
+                // Mongolian title field: <mng> preferred, fall back to <tib> if it
+                // contains Mongolian Unicode, otherwise skip
+                let mngRoman  = '';
+                let mngScript = '';
+                const mngEl  = dc('mng');
+                const tibEl  = dc('tib');
+                if (mngEl && mngEl.textContent.trim()) {
+                    const raw = mngEl.textContent.trim();
+                    if (isMongolianUnicode(raw)) {
+                        mngScript = raw;
+                        mngRoman  = unicodeToRoman(raw);
+                    } else {
+                        mngRoman  = raw;   // already roman
+                        mngScript = '';
+                    }
+                } else if (tibEl && isMongolianUnicode(tibEl.textContent)) {
+                    mngScript = tibEl.textContent.trim();
+                    mngRoman  = unicodeToRoman(mngScript);
+                } else {
+                    // No usable Mongolian title in this item
+                    continue;
+                }
+
+                const prefix   = (dc('cat')?.textContent || dc('rktsTyp')?.textContent || '').trim();
+                const canonKey = prefixToCanonKey(prefix) || colGenreToCanonKey(col);
+
+                const mt = matchType(mngRoman, queryNorm, approxToks, roman);
+                if (!colSeen[canonKey]) colSeen[canonKey] = {};
+                if (!mt) { if (!(rktsInt in colSeen[canonKey])) colSeen[canonKey][rktsInt] = ''; continue; }
+
+                // Dedup within file
+                const prev = colSeen[canonKey][rktsInt] ?? null;
+                if (prev === 'exact') continue;
+                if (prev === 'approx' && mt === 'approx') continue;
+                colSeen[canonKey][rktsInt] = mt;
+
+                addMatch(allMatches, canonKey, rktsInt, mt,
+                    makeRow(rktsNum, prefix, mngRoman, mngScript, mt === 'exact', queryNorm));
+            }
+        }
+
+        /* 7d. Split exact / approx per canon, sort by rKTs number */
+        const results = {};
+        for (const canon of MONG_CANONS) {
+            results[canon.key] = { exact: [], approx: [] };
+        }
+        for (const [canonKey, entries] of Object.entries(allMatches)) {
+            if (!results[canonKey]) results[canonKey] = { exact: [], approx: [] };
+            Object.entries(entries)
+                .sort((a, b) => parseInt(a[0], 10) - parseInt(b[0], 10))
+                .forEach(([, entry]) => {
+                    results[canonKey][entry.type].push(entry.row);
+                });
+        }
+
+        setLoading(false);
+        renderResults(roman, queryNorm, results);
+    }
+
+    /* ══════════════════════════════════════════════════════════════════════════
+       8. Rendering
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    function renderResults(roman, queryNorm, results) {
+        const area = document.getElementById('results-area');
+
+        // Only show canons that have results
+        const activeCanons = MONG_CANONS.filter(c =>
+            (results[c.key]?.exact.length  ?? 0) > 0 ||
+            (results[c.key]?.approx.length ?? 0) > 0
+        );
+
+        const totalExact  = activeCanons.reduce((s, c) => s + (results[c.key]?.exact.length  ?? 0), 0);
+        const totalApprox = activeCanons.reduce((s, c) => s + (results[c.key]?.approx.length ?? 0), 0);
+
+        if (totalExact === 0 && totalApprox === 0) {
+            area.innerHTML = `<div class="alert alert-secondary">
+                No matches found for <strong>${escapeHtml(roman)}</strong>
+                <span class="norm-arrow">→</span>
+                <em>${escapeHtml(queryNorm)}</em> (normalised).
+            </div>`;
+            return;
+        }
+
+        let html = `<div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <strong>${totalExact}</strong> exact match${totalExact !== 1 ? 'es' : ''}
+                and <strong>${totalApprox}</strong> approximate match${totalApprox !== 1 ? 'es' : ''}
+                for <span class="text-danger fw-bold">${escapeHtml(roman)}</span>
+                <span class="norm-hint">
+                    <span class="norm-arrow">→</span> normalised: <em>${escapeHtml(queryNorm)}</em>
+                </span>
+            </div>
+        </div>`;
+
+        /* Canon tab bar */
+        if (activeCanons.length > 1) {
+            html += '<div class="canon-tab-bar">';
+            activeCanons.forEach((c, i) => {
+                const cntE = results[c.key]?.exact.length  ?? 0;
+                const cntA = results[c.key]?.approx.length ?? 0;
+                html += `<button class="btn${i === 0 ? ' active' : ''}"
+                                 onclick="showMngCanon('${c.id}', this)">
+                    ${escapeHtml(c.label)}
+                    ${cntE > 0 ? `<span class="badge-cnt badge-exact">${cntE}</span>` : ''}
+                    ${cntA > 0 ? `<span class="badge-cnt badge-approx">~${cntA}</span>` : ''}
+                </button>`;
+            });
+            html += '</div>';
+        }
+
+        /* Canon panels */
+        activeCanons.forEach((c, i) => {
+            const exactRows  = results[c.key]?.exact  ?? [];
+            const approxRows = results[c.key]?.approx ?? [];
+            html += `<div id="mng-panel-${c.id}" class="canon-panel" style="${i === 0 ? '' : 'display:none;'}">`;
+
+            html += `<div class="result-section-heading">
+                ${escapeHtml(c.label)} &mdash; exact match
+                <span class="cnt">${pluralise(exactRows.length, 'result')}</span>
+            </div>`;
+            if (exactRows.length === 0) {
+                html += '<div class="no-results">No exact matches found.</div>';
+            } else {
+                for (const row of exactRows) html += renderRow(row);
+            }
+
+            html += `<div class="result-section-heading approx">
+                ${escapeHtml(c.label)} &mdash; approximate match
+                <span class="cnt">${pluralise(approxRows.length, 'result')}</span>
+            </div>`;
+            if (approxRows.length === 0) {
+                html += '<div class="no-results">No approximate matches found.</div>';
+            } else {
+                for (const row of approxRows) html += renderRow(row);
+            }
+
+            html += '</div><!-- /panel -->';
+        });
+
+        area.innerHTML = html;
+
+        // Apply current script mode
+        if (window.mngGlobalMode === 'script') applyMngMode('script');
+    }
+
+    function showMngCanon(id, btn) {
+        document.querySelectorAll('.canon-panel').forEach(p => p.style.display = 'none');
+        document.querySelectorAll('.canon-tab-bar .btn').forEach(b => b.classList.remove('active'));
+        document.getElementById('mng-panel-' + id).style.display = 'block';
+        btn.classList.add('active');
+    }
+
+    function pluralise(n, singular) {
+        return `${n} ${singular}${n !== 1 ? 's' : ''}`;
+    }
+
+    function renderRow(row) {
+        const detailUrl = escapeHtml(PATHS.detail(row.prefix + row.id));
+        // Use same pattern as detailm.html: data-mng-original holds the roman,
+        // applyMngMode toggles textContent and mng-unicode class.
+        const inUni  = window.mngGlobalMode === 'script';
+        const display = inUni ? hlRomanToScript(row.roman_hl) : row.roman_hl;
+        const cls    = 'mongol-script' + (inUni ? ' mng-unicode' : '');
+        return `<div class="rkts-result">
+            <div class="rkts-result-header">
+                <a href="${detailUrl}" class="rkts-id">${escapeHtml(row.prefix + row.id)}</a>
+                <a href="${detailUrl}" title="Open catalogue entry">
+                    <i class="bi bi-box-arrow-up-right small text-muted"></i>
+                </a>
+            </div>
+            <div class="rkts-result-title">
+                <a href="${detailUrl}">
+                    <span class="${cls}"
+                          data-mng-original="${escapeHtml(row.roman)}"
+                          data-mng-hl="${escapeHtml(row.roman_hl)}"
+                    >${display}</span>
+                </a>
+            </div>
+        </div>`;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════════════
+       9. Script toggle — same pattern as detailm.html
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    window.mngGlobalMode = 'roman';  // 'roman' | 'script'
+
+    /*
+     * hlRomanToScript(hlHtml)
+     * Convert a highlighted roman string (HTML with <mark class="rkts-hl"> spans)
+     * to Mongolian Unicode, preserving the <mark> wrappers around the matching words.
+     * Each space-delimited chunk is converted individually so mark boundaries are kept.
+     */
+    function hlRomanToScript(hlHtml) {
+        // Parse into a temporary element to walk nodes
+        const tmp = document.createElement('span');
+        tmp.innerHTML = hlHtml;
+        let result = '';
+        tmp.childNodes.forEach(node => {
+            if (node.nodeType === Node.TEXT_NODE) {
+                // Plain text chunk — convert each space-separated word individually
+                result += toMongolian(node.textContent);
+            } else if (node.nodeName === 'MARK') {
+                // Highlighted chunk — convert content but keep <mark>
+                result += '<mark class="rkts-hl">' + toMongolian(node.textContent) + '</mark>';
+            } else {
+                // Fallback: anything else, just convert text
+                result += toMongolian(node.textContent);
+            }
+        });
+        return result;
+    }
+
+    function applyMngMode(mode) {
+        window.mngGlobalMode = mode;
+        document.querySelectorAll('.mongol-script[data-mng-original]').forEach(el => {
+            const orig = el.dataset.mngOriginal;   // plain roman
+            const hl   = el.dataset.mngHl || escapeHtml(orig);  // highlighted roman HTML
+            if (mode === 'script') {
+                el.innerHTML = hlRomanToScript(hl);
+                el.classList.add('mng-unicode');
+            } else {
+                el.innerHTML = hl;
+                el.classList.remove('mng-unicode');
+            }
+        });
+        const btn = document.getElementById('global-mng-toggle');
+        if (btn) {
+            btn.dataset.mode = mode;
+            if (mode === 'script') {
+                btn.title     = 'Show transliteration';
+                btn.innerHTML = '<span style="font-family:monospace;font-size:0.85em;">Abc</span>';
+            } else {
+                btn.title     = 'Show in Mongolian script';
+                btn.innerHTML = '<span style="font-family:\'Mongolian Baiti\',serif;">ᠮᠣᠩᠭᠣᠯ</span>';
+            }
+        }
+    }
+
+    document.getElementById('global-mng-toggle').addEventListener('click', () => {
+        applyMngMode(window.mngGlobalMode === 'roman' ? 'script' : 'roman');
+    });
+
+    /* ══════════════════════════════════════════════════════════════════════════
+       10. Loading indicator
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    function setLoading(active, msg) {
+        const el = document.getElementById('loading-indicator');
+        el.style.display = active ? 'block' : 'none';
+        if (msg) document.getElementById('loading-msg').textContent = msg;
+    }
+
+    /* ══════════════════════════════════════════════════════════════════════════
+       11. URL params + form wiring
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    function getParam(name) {
+        return new URLSearchParams(window.location.search).get(name) || '';
+    }
+
+    function doSearch() {
+        const raw = document.getElementById('text-input').value.trim();
+        if (!raw) return;
+        const url = new URL(window.location);
+        url.searchParams.set('text', raw);
+        history.pushState({}, '', url);
+        document.getElementById('results-area').innerHTML = '';
+        runSearch(raw).catch(err => {
+            setLoading(false);
+            document.getElementById('results-area').innerHTML =
+                `<div class="alert alert-danger">Search error: ${escapeHtml(err.message)}</div>`;
+        });
+    }
+
+    document.getElementById('search-btn').addEventListener('click', doSearch);
+    document.getElementById('text-input').addEventListener('keydown', e => {
+        if (e.key === 'Enter') doSearch();
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+        const raw = getParam('text');
+        if (raw) {
+            document.getElementById('text-input').value = raw;
+            runSearch(raw).catch(err => {
+                setLoading(false);
+                document.getElementById('results-area').innerHTML =
+                    `<div class="alert alert-danger">Search error: ${escapeHtml(err.message)}</div>`;
+            });
+        }
+    });
+    </script>
+
+</body>
+</html>

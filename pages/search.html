@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="page-heading">
+            <h1>Search the Collections</h1>
+            <p>Find records by title or variant, search full-text quotations, or jump directly to a known rKTs ID</p>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Search form</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-4">
+                            <form action="results.html" method="get" id="searchForm" onsubmit="return setFormAction() !== false;">
+
+                        <div class="search-box-wrap">
+                            <label class="visually-hidden" for="searchText">Search text</label>
+                            <div class="input-group">
+                                <input type="text" name="text" id="searchText"
+                                       placeholder="Enter a title, quotation, or rKTs ID"
+                                       class="form-control" autocomplete="off" aria-describedby="searchHelp" required>
+                                <button type="submit" class="btn-search"><i class="bi bi-search me-1"></i>Search</button>
+                            </div>
+                        </div>
+
+                        <div class="search-type-bar" role="radiogroup" aria-label="Search type">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="typ" id="typ1" value="1"
+                                       onchange="updateSubOptions()" checked>
+                                <label class="form-check-label" for="typ1">Title</label>
+                            </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="typ" id="typ2" value="2"
+                                       onchange="updateSubOptions()">
+                                <label class="form-check-label" for="typ2">Quotation</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="typ" id="typ3" value="3"
+                                       onchange="updateSubOptions()">
+                                <label class="form-check-label" for="typ3">
+                                    ID N°
+                                </label>
+	                            </div>
+	                        </div>
+
+                        <div id="searchHelp" class="search-mode-guide" aria-label="Search type descriptions">
+                            <div>
+                                <strong>Title</strong>
+                                <span>Searches across all collections for matching titles and title variants.</span>
+                            </div>
+                            <div>
+                                <strong>Quotation</strong>
+                                <span>Performs a full-text search through the e-texts that rKTs maintains for selected collections.</span>
+                            </div>
+                            <div>
+                                <strong>ID N°</strong>
+                                <span>ID N° jumps directly to a catalog entry. Enter a full rKTs ID (e.g. K-235, T-1478, G-257) or a catalog reference (e.g. D123, F247) — the type is detected automatically.</span>
+                            </div>
+                        </div>
+
+                        <div id="canonOptions" class="sub-options">
+                            <div class="canon-options-label">Filter by canon:</div>
+                            <div class="d-flex flex-wrap gap-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="typ2" id="c1" value="1" checked>
+                                    <label class="form-check-label" for="c1">Kanjur/Canonical Collections</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="typ2" id="c2" value="2">
+                                    <label class="form-check-label" for="c2">Tanjur</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="typ2" id="c3" value="3">
+                                    <label class="form-check-label" for="c3">Old Tantra</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="typ2" id="c4" value="4">
+                                    <label class="form-check-label" for="c4">Bon</label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                        </div>
+                        
+                         </div>
+                    </div>
+				<br><a href="resultsm.html">Search in the Mongolian Canon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script> Resources for Kanjur and Tanjur Studies (rKTs). Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>. <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+    
+<script src="../vendor/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+var actionMap = { '1': 'results.html', '2': 'results2.html', '3': 'results3.html' };
+var collectionMap = { '1': 'D', '2': 'TD', '3': 'Gpb', '4': 'Bkz' };
+
+// rKTs ID: letter(s) followed by a hyphen then digits  e.g. K-257, T-1478, Gpb-12
+var RKTS_RE = /^([A-Za-z]+)-(\d+)$/;
+
+function updateSubOptions() {
+    var typ = document.querySelector('input[name="typ"]:checked').value;
+    document.getElementById('canonOptions').style.display = (typ === '2') ? 'block' : 'none';
+    document.getElementById('searchForm').action = actionMap[typ] || 'results.html';
+}
+
+function setFormAction() {
+    var typ  = document.querySelector('input[name="typ"]:checked').value;
+    var text = document.getElementById('searchText').value.trim();
+
+    if (typ === '2') {
+        var typ2Val    = document.querySelector('input[name="typ2"]:checked').value;
+        var collection = collectionMap[typ2Val] || 'D';
+        window.location.href = 'results2.html?text=' + encodeURIComponent(text)
+            + '&collection=' + encodeURIComponent(collection)
+            + '&mode=exact&expert=0';
+        return false;
+    }
+
+    if (typ === '3') {
+        if (RKTS_RE.test(text)) {
+            // rKTs ID — go directly to detail page, strip the hyphen for the URL
+            var m  = text.match(RKTS_RE);
+            var id = m[1].toUpperCase() + m[2];        // e.g. K-257 → K257
+            window.location.href = 'detail.html?id=' + encodeURIComponent(id);
+        } else {
+            // Catalog reference (D123, F247, Gpb12, …) — pass as-is to results3.html
+            window.location.href = 'results3.html?text=' + encodeURIComponent(text);
+        }
+        return false;
+    }
+
+    document.getElementById('searchForm').action = actionMap[typ] || 'results.html';
+}
+
+document.addEventListener('DOMContentLoaded', updateSubOptions);
+</script>
+</body>
+</html>

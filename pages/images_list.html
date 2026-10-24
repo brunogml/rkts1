@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <style>
+        .vol-row:hover { background-color: #f8f9ff; }
+        .volref-badge  { font-size: .75rem; font-family: monospace; color: #6c757d; }
+    </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ 
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+
+                <nav aria-label="breadcrumb" class="mb-3">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="images_list.html">Image Collections</a>
+                        </li>
+                        <li class="breadcrumb-item active" id="breadcrumb-title" aria-current="page">—</li>
+                    </ol>
+                </nav>
+
+                <!-- Loading -->
+                <div id="loading-area" class="text-center py-5">
+                    <div class="spinner-border text-primary" role="status"></div>
+                    <p class="text-muted mt-2 small">Loading collection data…</p>
+                </div>
+
+                <!-- Error -->
+                <div id="error-area" class="d-none"></div>
+
+                <!-- Main card -->
+                <div id="main-card" class="card d-none">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2 class="mb-0">
+                            <span class="badge bg-secondary me-2" id="hdr-sigla"></span>
+                            <span id="hdr-title"></span>
+                        </h2>
+                        <a id="hdr-bdrc-link" href="#" target="_blank"
+                           class="btn btn-sm btn-outline-secondary d-none">
+                            BDRC
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
+                                 class="bi bi-box-arrow-up-right mb-1" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="card-body" id="card-body"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    (function () {
+        'use strict';
+
+        const COLLS_URL = '../data/general/collections.json';
+
+        const CAT_MAP = {
+            'kanjur':               'Kanjur',
+            'tanjur':               'Tanjur',
+            'old-tantra':           'Old Tantra',
+            'canonical-collection': 'Canonical Collection',
+            'bon-canon':            'Bon',
+            'mongolian-canon':      'Mongolian Canon',
+        };
+
+        function esc(s) {
+            return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+        function showError(msg) {
+            document.getElementById('loading-area').classList.add('d-none');
+            document.getElementById('error-area').innerHTML =
+                `<div class="alert alert-warning">${msg}</div>`;
+            document.getElementById('error-area').classList.remove('d-none');
+        }
+
+        const P        = new URLSearchParams(window.location.search);
+        const sigla    = (P.get('sigla')    || '').trim();
+        const category = (P.get('category') || '').trim();
+        const genrePat = CAT_MAP[category.toLowerCase()] || '';
+
+        const collectionTitle = sigla
+            ? sigla + ' ' + category.replace(/-/g,' ').replace(/\b\w/g, c => c.toUpperCase())
+            : 'Image Collections';
+
+        document.title = 'rKTs – ' + collectionTitle;
+        document.getElementById('breadcrumb-title').textContent = collectionTitle;
+
+        if (!sigla || !category) {
+            showError('Missing <code>sigla</code> or <code>category</code> URL parameter.');
+            return;
+        }
+
+        fetch(COLLS_URL)
+            .then(r => r.ok ? r.json() : Promise.reject('Could not load collections.json'))
+            .then(collections => {
+
+                /* ── Find matching collection entry ─── */
+                let entry = null;
+                for (const col of collections) {
+                    if ((col.sigla || '') !== sigla) continue;
+                    const g = col.genre || '';
+                    const match = genrePat === 'Bon'
+                        ? g.startsWith('Bon')
+                        : genrePat === 'Mongolian Canon'
+                        ? g.startsWith('Mongolian')
+                        : g === genrePat;
+                    if (!match) continue;
+                    entry = col;
+                    break;
+                }
+
+                /* ── Check images available ─────────── */
+                const hasImages = entry &&
+                    (entry.notes?.['images_Images Available'] || '').toLowerCase().trim() === 'true';
+
+                /* ── Find reference-set constituent ─── */
+                let refConst = null;
+                if (hasImages && entry.constituents?.length) {
+                    refConst = entry.constituents.find(c => c.isreferenceset) || entry.constituents[0];
+                }
+
+                /* ── Build structure map ─────────────── */
+                const structMap = [];  // sorted by volno
+                if (refConst?.structure?.length) {
+                    const sorted = refConst.structure.slice().sort((a,b) =>
+                        parseInt(a.volno,10) - parseInt(b.volno,10));
+                    sorted.forEach(s => structMap.push({
+                        volno:   parseInt(s.volno, 10),
+                        volname: s.volname || '',
+                        volref:  s.volref  || '',
+                    }));
+                }
+
+                const collTitle       = entry?.title || collectionTitle;
+                const constituentUrl  = refConst?.url || '';
+                const constituentTitle= constituentUrl
+                    ? constituentUrl.replace(/\/+$/, '').split('/').pop()
+                    : '';
+
+                /* ── Update header ───────────────────── */
+                document.getElementById('hdr-sigla').textContent = sigla;
+                document.getElementById('hdr-title').textContent = collTitle;
+                document.getElementById('breadcrumb-title').textContent = collTitle;
+                document.title = 'rKTs – ' + collTitle;
+
+                if (constituentUrl) {
+                    const lnk = document.getElementById('hdr-bdrc-link');
+                    lnk.href = constituentUrl;
+                    lnk.classList.remove('d-none');
+                }
+
+                document.getElementById('loading-area').classList.add('d-none');
+                document.getElementById('main-card').classList.remove('d-none');
+
+                /* ── Render card body ────────────────── */
+                const body = document.getElementById('card-body');
+
+                if (!entry) {
+                    body.innerHTML = `<div class="alert alert-warning">No collection found for sigla
+                        <strong>${esc(sigla)}</strong> / category <strong>${esc(category)}</strong>.</div>`;
+                    return;
+                }
+                if (!hasImages) {
+                    body.innerHTML = '<div class="alert alert-info">No manuscript images are registered for this collection.</div>';
+                    return;
+                }
+                if (!structMap.length) {
+                    body.innerHTML = '<div class="alert alert-warning">The reference-set constituent has no volume structure data.</div>';
+                    return;
+                }
+
+                const extSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                     class="bi bi-box-arrow-up-right mb-1" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                </svg>`;
+                const imgSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                     class="bi bi-image me-1" viewBox="0 0 16 16">
+                    <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
+                </svg>`;
+
+                let html = `<div class="d-flex flex-wrap gap-3 align-items-center mb-4 text-muted small">
+                    <span><strong>Category:</strong> ${esc(category.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()))}</span>
+                    <span><strong>Volumes:</strong> ${structMap.length}</span>
+                    ${constituentTitle ? `<span><strong>Work ID:</strong> <code>${esc(constituentTitle)}</code></span>` : ''}
+                    ${refConst?.isreferenceset ? `<span class="badge bg-light text-secondary border">reference set</span>` : ''}
+                </div>
+                <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th style="width:3.5rem">Vol</th>
+                            <th style="width:40%">Volume name</th>
+                            <th>Vol ref</th>
+                            <th style="width:9rem" class="text-center">Images</th>
+                        </tr>
+                    </thead>
+                    <tbody>`;
+
+                for (const v of structMap) {
+                    const imgUrl = (constituentTitle && v.volref)
+                        ? 'images.html?' + new URLSearchParams({
+                              title: constituentTitle, coll: sigla,
+                              vol: v.volref, page: '1a'
+                          })
+                        : '';
+                    const bdrcUrl = v.volref
+                        ? 'http://purl.bdrc.io/resource/I' + v.volref
+                        : '';
+
+                    html += `<tr class="vol-row">
+                        <td class="fw-semibold text-secondary">${v.volno}</td>
+                        <td>${esc(v.volname || '—')}</td>
+                        <td>${bdrcUrl
+                            ? `<a href="${esc(bdrcUrl)}" target="_blank" class="volref-badge text-decoration-none">${esc(v.volref)} ${extSvg}</a>`
+                            : '<span class="text-muted">—</span>'}</td>
+                        <td class="text-center">${imgUrl
+                            ? `<a href="${esc(imgUrl)}" class="btn btn-outline-secondary btn-sm" title="Browse images – vol ${v.volno}">${imgSvg}Vol ${v.volno}</a>`
+                            : '<span class="text-muted">—</span>'}</td>
+                    </tr>`;
+                }
+
+                html += '</tbody></table></div>';
+                body.innerHTML = html;
+            })
+            .catch(err => showError(typeof err === 'string' ? err : (err.message || 'Failed to load collection data.')));
+
+    })();
+    </script>
+</body>
+</html>

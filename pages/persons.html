@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+   <style>
+        .section-nav-inner {
+            position: sticky; top: 70px; z-index: 80; padding-top: 0.25rem;
+        }
+        .nav-sidebar-label {
+            font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em;
+            color: #6c757d; font-weight: 700; padding: 0 0.5rem 0.4rem;
+            border-bottom: 1px solid #dee2e6; margin-bottom: 0.5rem;
+        }
+        #section-nav-pills .nav-link {
+            font-size: 0.73rem; padding: 0.28rem 0.6rem; color: #2c4a6e;
+            border-radius: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        #section-nav-pills .nav-link:hover  { background: #e8eef5; }
+        #section-nav-pills .nav-link.active { background: #2c4a6e; color: #fff; }
+        .person-section { scroll-margin-top: 70px; }
+        .person-section-header {
+            font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.09em;
+            color: #2c4a6e; font-weight: 700; border-bottom: 2px solid #c8d6e5;
+            padding-bottom: 0.35rem; margin-bottom: 1rem;
+            display: flex; align-items: baseline; gap: 0.5rem;
+            cursor: pointer; user-select: none;
+        }
+        .person-section-header .count-badge {
+            font-size: 0.7rem; color: #6c757d; font-weight: 400;
+            text-transform: none; letter-spacing: 0;
+        }
+        .person-section-header .toggle-icon {
+            margin-left: auto; font-size: 0.8rem; color: #6c757d;
+            transition: transform 0.2s; flex-shrink: 0;
+        }
+        .person-section.collapsed .toggle-icon { transform: rotate(-90deg); }
+        .person-section.collapsed .section-body { display: none; }
+        .ref-badge {
+            font-family: monospace; font-size: 0.82rem; background: #f0f4f8;
+            border: 1px solid #c8d6e5; border-radius: 4px; padding: 2px 6px;
+            color: #2c4a6e; white-space: nowrap;
+        }
+        a.ref-badge:hover { background: #2c4a6e; color: #fff; border-color: #2c4a6e; }
+        .catalog-entry {
+            border-left: 3px solid #c8d6e5; padding: 0.35rem 0.75rem;
+            margin-bottom: 0.35rem; font-size: 0.88rem; line-height: 1.5;
+            transition: border-color 0.15s;
+        }
+        .catalog-entry:hover { border-left-color: #2c4a6e; }
+        .collab-card {
+            border-left: 3px solid #c8d6e5; padding: 0.5rem 0.75rem;
+            margin-bottom: 0.75rem; transition: border-color 0.15s;
+        }
+        .collab-card:hover { border-left-color: #2c4a6e; }
+        .collab-header {
+            display: flex; align-items: baseline; gap: 0.4rem;
+            cursor: pointer; user-select: none;
+            font-weight: 600; color: #2c4a6e; font-size: 0.95rem;
+        }
+        .collab-header .toggle-icon {
+            margin-left: auto; font-size: 0.75rem; color: #6c757d;
+            transition: transform 0.2s; flex-shrink: 0;
+        }
+        .collab-card.collapsed .toggle-icon { transform: rotate(-90deg); }
+        .collab-card.collapsed .collab-works { display: none; }
+        .collab-works { font-size: 0.82rem; margin-top: 0.25rem; }
+        #person-name { font-size: 1.5rem; font-weight: 700; color: #2c4a6e; }
+        #progress-wrap { max-width: 360px; margin: 3rem auto; }
+    </style>
+</head>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+
+        <div id="error-alert" class="alert alert-warning d-none" role="alert">
+            <i class="bi bi-exclamation-triangle me-2"></i>
+            <span id="error-message">Could not load person data.</span>
+        </div>
+
+        <div id="loading-indicator"><!-- progress filled by JS --></div>
+        <style>
+        #loading-overlay-fixed {
+            position: fixed !important;
+            inset: 0 !important;
+            display: flex;
+            align-items: center !important;
+            justify-content: center !important;
+            background: rgba(255,255,255,0.92) !important;
+            z-index: 9999 !important;
+        }
+        #loading-overlay-fixed .prog-box {
+            width: 420px;
+            max-width: 90vw;
+            background: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+            text-align: center;
+        }
+        #loading-overlay-fixed .prog-title {
+            font-size: 1.1rem; font-weight: 700; color: #2c4a6e; margin-bottom: 0.3rem;
+        }
+        #loading-overlay-fixed .prog-sub {
+            font-size: 0.88rem; color: #6c757d; margin-bottom: 1.5rem;
+        }
+        #loading-overlay-fixed .prog-track {
+            height: 18px; background: #e9ecef; border-radius: 9px;
+            overflow: hidden; border: 1px solid #ced4da; margin-bottom: 0.5rem;
+        }
+        #loading-overlay-fixed .prog-fill {
+            height: 100%; width: 5%; min-width: 2.5rem;
+            background: linear-gradient(90deg, #2c6fad 0%, #4a8bc4 50%, #2c6fad 100%);
+            background-size: 200% 100%;
+            animation: prog-shimmer 1.2s ease infinite;
+            transition: width 0.25s ease;
+            border-radius: 9px;
+        }
+        #loading-overlay-fixed .prog-footer {
+            display: flex; justify-content: space-between;
+            font-size: 0.82rem; color: #6c757d;
+        }
+        @keyframes prog-shimmer {
+            0%   { background-position: 100% 0; }
+            100% { background-position: -100% 0; }
+        }
+        </style>
+        <div id="loading-overlay-fixed">
+            <div class="prog-box">
+                <div style="margin-bottom:1.2rem;">
+                    <svg width="44" height="44" viewBox="0 0 44 44" style="animation:spin 1s linear infinite;display:inline-block;">
+                        <circle cx="22" cy="22" r="18" fill="none" stroke="#e9ecef" stroke-width="4"/>
+                        <circle cx="22" cy="22" r="18" fill="none" stroke="#2c6fad" stroke-width="4"
+                                stroke-dasharray="28 84" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="prog-title" id="progress-label">Loading persons…</div>
+                <div class="prog-sub" id="progress-sub">Reading persons database…</div>
+                <div class="prog-track">
+                    <div class="prog-fill" id="progress-bar"></div>
+                </div>
+                <div class="prog-footer">
+                    <span id="progress-pct">5%</span>
+                    <span id="progress-hits" style="color:#198754;font-weight:700;"></span>
+                </div>
+            </div>
+        </div>
+        <style>@keyframes spin { to { transform: rotate(360deg); } }</style>
+
+        <div class="row g-0 d-none" id="person-layout">
+
+            <!-- Sidebar -->
+            <div class="col-xl-2 col-lg-2 col-md-3 pe-3">
+                <div class="section-nav-inner">
+                    <div class="nav-sidebar-label">Navigate</div>
+                    <nav class="nav flex-column nav-pills" id="section-nav-pills"></nav>
+                </div>
+            </div>
+
+            <!-- Main -->
+            <div class="col">
+
+                <!-- Header card -->
+                <div class="card border-0 bg-light mb-4">
+                    <div class="card-body py-3 px-4">
+                        <div class="d-flex align-items-start justify-content-between gap-3">
+                            <div class="flex-grow-1">
+                                <div id="person-name" class="mb-2">—</div>
+                                <div class="d-flex align-items-center gap-3 flex-wrap">
+                                    <span class="ref-badge" id="person-rid"></span>
+                                    <a id="bdrc-link" href="#" target="_blank" rel="noopener"
+                                       class="btn btn-sm btn-outline-secondary">
+                                        <i class="bi bi-box-arrow-up-right me-1"></i>BDRC
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column align-items-end justify-content-center flex-shrink-0" style="min-width:140px;">
+                                <span class="text-muted mb-1" style="font-size:0.65rem; text-transform:uppercase; letter-spacing:0.08em; white-space:nowrap;">In cooperation with</span>
+                                <a href="https://www.bdrc.io/blog/2022/01/21/the-authors-and-translators-identification-initiative/"
+                                   target="_blank" rel="noopener" title="Authors &amp; Translators Identification Initiative">
+                                    <img src="../more/ATII.jpg" alt="ATII – Authors &amp; Translators Identification Initiative"
+                                         style="height:36px; width:auto; display:block;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Encountered names -->
+                <div id="section-names" class="person-section mb-5 collapsed">
+                    <div class="person-section-header">
+                        Encountered names
+                        <span class="count-badge" id="names-count"></span>
+                        <i class="bi bi-chevron-down toggle-icon"></i>
+                    </div>
+                    <div class="section-body">
+                        <ul id="names-list" class="list-unstyled mb-0 ps-1 text-muted small"></ul>
+                    </div>
+                </div>
+
+                <!-- Author of -->
+                <div id="section-author" class="person-section mb-5 d-none">
+                    <div class="person-section-header">
+                        Author of
+                        <span class="count-badge" id="author-count"></span>
+                        <i class="bi bi-chevron-down toggle-icon"></i>
+                    </div>
+                    <div class="section-body">
+                        <div id="author-list"></div>
+                    </div>
+                </div>
+
+                <!-- Translator in -->
+                <div id="section-translator" class="person-section mb-5 d-none">
+                    <div class="person-section-header">
+                        Translator in
+                        <span class="count-badge" id="translator-count"></span>
+                        <i class="bi bi-chevron-down toggle-icon"></i>
+                    </div>
+                    <div class="section-body">
+                        <div id="translator-list"></div>
+                    </div>
+                </div>
+
+                <!-- Revisor in -->
+                <div id="section-revisor" class="person-section mb-5 d-none">
+                    <div class="person-section-header">
+                        Revisor in
+                        <span class="count-badge" id="revisor-count"></span>
+                        <i class="bi bi-chevron-down toggle-icon"></i>
+                    </div>
+                    <div class="section-body">
+                        <div id="revisor-list"></div>
+                    </div>
+                </div>
+
+                <!-- Has worked with -->
+                <div id="section-collab" class="person-section mb-5 d-none">
+                    <div class="person-section-header">
+                        Associated persons
+                        <span class="count-badge" id="collab-count"></span>
+                        <i class="bi bi-chevron-down toggle-icon"></i>
+                    </div>
+                    <div class="section-body">
+                        <div id="collab-list"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    (function () {
+        'use strict';
+
+        /* ── Paths ────────────────────────────────────────────────────────── */
+        // Catalog XMLs live at ../data/catalogs/{PREFIX}/{ID}.xml
+        // e.g. K57 → ../data/catalogs/K/K57.xml
+        const PERSONS_URL = '../data/general/persons.xml';
+        const CAT_BASE    = '../data/catalogs';
+
+        /* ── URL param ────────────────────────────────────────────────────── */
+        const rid = (new URLSearchParams(window.location.search).get('id') || '').trim();
+
+        const errorAlert    = document.getElementById('error-alert');
+        const errorMsg      = document.getElementById('error-message');
+        const loadingEl     = document.getElementById('loading-indicator');
+        const layoutEl      = document.getElementById('person-layout');
+        const progressBar   = document.getElementById('progress-bar');
+        const progressLabel = document.getElementById('progress-label');
+        const progressPct   = document.getElementById('progress-pct');
+        const progressSub   = document.getElementById('progress-sub');
+        const progressHits  = document.getElementById('progress-hits');
+
+
+        function hideOverlay() {
+            var _ov = document.getElementById('loading-overlay-fixed');
+            if (_ov) {
+                _ov.setAttribute('style', 'display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;');
+            }
+            if (loadingEl) loadingEl.classList.add('d-none');
+            if (layoutEl) layoutEl.classList.remove('d-none');
+        }
+        function showError(msg) {
+            hideOverlay();
+            errorAlert.classList.remove('d-none');
+            errorMsg.textContent = msg;
+        }
+
+        if (!rid) { showError('No person ID specified. Add ?id=bdr:P8228 to the URL.'); return; }
+        document.title = 'rKTs \u2013 Person ' + rid;
+
+        /* ── Helpers ──────────────────────────────────────────────────────── */
+        function esc(s) {
+            if (s == null) return '';
+            return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+        function qtext(el, tag) {
+            const node = el.querySelector(tag);
+            return node ? (node.textContent || '').trim() : '';
+        }
+        function addNavPill(href, label) {
+            const pills = document.getElementById('section-nav-pills');
+            const a = document.createElement('a');
+            a.className = 'nav-link'; a.href = href; a.textContent = label;
+            a.addEventListener('click', e => {
+                e.preventDefault();
+                const t = document.querySelector(href);
+                if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                pills.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                a.classList.add('active');
+            });
+            pills.appendChild(a);
+        }
+        function renderEntries(entries, containerId) {
+            const container = document.getElementById(containerId);
+            let html = '';
+            entries.forEach(e => {
+                html += '<div class="catalog-entry">';
+                html += `<a href="detail.html?id=${esc(e.catalogId)}" class="ref-badge me-2 text-decoration-none">${esc(e.catalogId)}</a>`;
+                if (e.tib) html += `<span class="text-muted">${esc(e.tib)}</span>`;
+                html += '</div>';
+            });
+            container.innerHTML = html || '<p class="text-muted fst-italic small">No entries found.</p>';
+        }
+        function catSort(a, b) {
+            const ra = a.catalogId.match(/^([A-Za-z]+)(\d+)$/);
+            const rb = b.catalogId.match(/^([A-Za-z]+)(\d+)$/);
+            if (ra && rb) {
+                if (ra[1] !== rb[1]) return ra[1].localeCompare(rb[1]);
+                return parseInt(ra[2], 10) - parseInt(rb[2], 10);
+            }
+            return a.catalogId.localeCompare(b.catalogId);
+        }
+
+        /* ── Accumulated results ──────────────────────────────────────────── */
+        const authorEntries     = [];
+        const translatorEntries = [];
+        const revisorEntries    = [];
+        const collabMap         = {};
+        const stdMap            = {};
+
+        /* ── Scan one catalog XML ─────────────────────────────────────────── */
+        function scanXml(catId, xmlStr) {
+            if (!xmlStr) return;
+            const cdoc  = new DOMParser().parseFromString(xmlStr, 'application/xml');
+            const items = Array.from(cdoc.querySelectorAll('item'));
+            // Get first Tibetan title in the file
+            let tibForWork = '';
+            for (const item of items) {
+                const t = qtext(item, 'tib');
+                if (t) { tibForWork = t; break; }
+            }
+            let isAuthor = false, isTranslator = false, isRevisor = false;
+            const coRidsInWork = {};
+            items.forEach(item => {
+                const allTr = Array.from(item.querySelectorAll('translator'));
+                const isTr  = allTr.some(tr => qtext(tr,'rid') === rid && qtext(tr,'role') === 'translator');
+                const isRv  = allTr.some(tr => qtext(tr,'rid') === rid && qtext(tr,'role') === 'revisor');
+                const isAu  = allTr.some(tr => qtext(tr,'rid') === rid && qtext(tr,'role') === 'author');
+                if (isTr) isTranslator = true;
+                if (isRv) isRevisor    = true;
+                if (isAu) isAuthor     = true;
+                if (isTr || isRv || isAu) {
+                    allTr.forEach(tr => {
+                        const co = qtext(tr, 'rid');
+                        if (co && co !== rid) coRidsInWork[co] = true;
+                    });
+                }
+            });
+            if (isAuthor)     authorEntries.push({ catalogId: catId, tib: tibForWork });
+            if (isTranslator) translatorEntries.push({ catalogId: catId, tib: tibForWork });
+            if (isRevisor)    revisorEntries.push({ catalogId: catId, tib: tibForWork });
+            Object.keys(coRidsInWork).forEach(co => {
+                if (!collabMap[co]) collabMap[co] = [];
+                collabMap[co].push({ catalogId: catId, tib: tibForWork });
+            });
+        }
+
+        /* ── Batched fetching ─────────────────────────────────────── */
+        const BATCH = 20;
+        let done = 0, total = 0;
+
+        function fetchOne(catId) {
+            const prefix = catId.match(/^([A-Za-z]+)/)[1];
+            const url    = `${CAT_BASE}/${prefix}/${catId}.xml`;
+            return fetch(url)
+                .then(r => r.ok ? r.text() : '')
+                .catch(() => '')
+                .then(xmlStr => {
+                    done++;
+                    const _pct = Math.round(10 + (done / total) * 88);
+                    progressBar.style.width = _pct + '%';
+                    if (progressPct) progressPct.textContent = _pct + '%';
+                    if (progressSub) progressSub.textContent = done + '\u00a0/\u00a0' + total;
+                    const _hits = authorEntries.length + translatorEntries.length + revisorEntries.length;
+                    if (_hits > 0 && progressHits) progressHits.textContent = _hits + ' match' + (_hits !== 1 ? 'es' : '') + ' found';
+                    scanXml(catId, xmlStr);
+                    // Safety: hide overlay as soon as all files processed
+                    if (done >= total) { hideOverlay(); }
+                });
+        }
+        function runBatches(ids, size) {
+            let i = 0;
+            function next() {
+                if (i >= ids.length) return Promise.resolve();
+                const batch = ids.slice(i, i + size); i += size;
+                return Promise.all(batch.map(fetchOne)).then(next);
+            }
+            return next();
+        }
+
+        /* ── Build catalog ID list from standard.xml ───────────────── */
+        // standard.xml lists every rKTs entry with <rktsTyp> and <rkts>.
+        // Only these IDs actually exist — no blind 404 requests.
+        function loadCatalogIds() {
+            progressLabel.textContent = 'Loading catalog indices…';
+            if (progressSub) progressSub.textContent = 'Reading standard.xml…';
+            return fetch('../data/general/standard.xml')
+                .then(r => { if (!r.ok) throw new Error('Cannot load standard.xml'); return r.text(); })
+                .then(xmlStr => {
+                    const doc = new DOMParser().parseFromString(xmlStr, 'application/xml');
+                    const ids = [];
+                    doc.querySelectorAll('item').forEach(it => {
+                        const typ  = (it.querySelector('rktsTyp') || {}).textContent || '';
+                        const num  = (it.querySelector('rkts')    || {}).textContent || '';
+                        if (typ && num) ids.push(typ + num);
+                    });
+                    return ids;
+                });
+        }
+
+                /* ── Load persons.xml, then scan catalogs ─────────────────────────── */
+        progressLabel.textContent = 'Loading persons\u2026';
+        if (progressSub) progressSub.textContent = 'Reading persons database…';
+        progressBar.style.width = '5%';
+
+        fetch(PERSONS_URL)
+            .then(r => { if (!r.ok) throw new Error('Cannot load persons.xml'); return r.text(); })
+            .then(xmlStr => {
+                const pdoc = new DOMParser().parseFromString(xmlStr, 'application/xml');
+
+                // Build stdMap (rid → Standardname)
+                Array.from(pdoc.querySelectorAll('item')).forEach(it => {
+                    const r  = qtext(it, 'ref');
+                    const sn = qtext(it, 'Standardname');
+                    if (r && sn) stdMap[r] = sn;
+                });
+
+                // Find this person
+                const personItem = Array.from(pdoc.querySelectorAll('item'))
+                    .find(it => qtext(it, 'ref') === rid);
+                if (!personItem) throw new Error('Person not found: ' + rid);
+
+                // Populate header
+                const stdName = qtext(personItem, 'Standardname') || rid;
+                document.getElementById('person-name').textContent = stdName;
+                document.getElementById('person-rid').textContent  = rid;
+                document.title = 'rKTs \u2013 ' + stdName;
+                document.getElementById('bdrc-link').href =
+                    'https://library.bdrc.io/show/bdr:' + encodeURIComponent(rid.replace(/^bdr:/, ''));
+
+                // Names section
+                const names = Array.from(personItem.querySelectorAll('name'))
+                    .map(n => n.textContent.trim()).filter(Boolean);
+                document.getElementById('names-list').innerHTML = names.length
+                    ? names.map(n => `<li class="mb-1">${esc(n)}</li>`).join('')
+                    : '<li class="fst-italic">No names recorded.</li>';
+                document.getElementById('names-count').textContent =
+                    names.length + ' name' + (names.length !== 1 ? 's' : '');
+
+                // Scan all catalog XMLs
+                progressLabel.textContent = 'Scanning catalogs\u2026';
+                if (progressPct) progressPct.textContent = '10%';
+                if (progressSub) progressSub.textContent = '0 / ' + total;
+                progressBar.style.width = '10%';
+                return loadCatalogIds().then(ids => {
+                    total = ids.length;
+                    if (progressSub) progressSub.textContent = '0 / ' + total;
+                    return runBatches(ids, BATCH);
+                });
+            })
+            .then(() => {
+                // Hide overlay immediately when scan completes
+                hideOverlay();
+
+                // Author section
+                if (authorEntries.length) {
+                    authorEntries.sort(catSort);
+                    renderEntries(authorEntries, 'author-list');
+                    document.getElementById('author-count').textContent =
+                        authorEntries.length + ' work' + (authorEntries.length !== 1 ? 's' : '');
+                    const sa = document.getElementById('section-author');
+                    sa.classList.remove('d-none'); sa.classList.add('collapsed');
+                }
+
+                // Translator section
+                if (translatorEntries.length) {
+                    translatorEntries.sort(catSort);
+                    renderEntries(translatorEntries, 'translator-list');
+                    document.getElementById('translator-count').textContent =
+                        translatorEntries.length + ' work' + (translatorEntries.length !== 1 ? 's' : '');
+                    const st = document.getElementById('section-translator');
+                    st.classList.remove('d-none'); st.classList.add('collapsed');
+                }
+
+                // Revisor section
+                if (revisorEntries.length) {
+                    revisorEntries.sort(catSort);
+                    renderEntries(revisorEntries, 'revisor-list');
+                    document.getElementById('revisor-count').textContent =
+                        revisorEntries.length + ' work' + (revisorEntries.length !== 1 ? 's' : '');
+                    const sr = document.getElementById('section-revisor');
+                    sr.classList.remove('d-none'); sr.classList.add('collapsed');
+                }
+
+                // Collaborators section
+                const collabRids = Object.keys(collabMap);
+                if (collabRids.length) {
+                    collabRids.sort((a, b) => collabMap[b].length - collabMap[a].length);
+                    let html = '';
+                    collabRids.forEach(co => {
+                        const cName = stdMap[co] || co;
+                        const works = collabMap[co].slice().sort(catSort);
+                        html += '<div class="collab-card collapsed">';
+                        html += '<div class="collab-header mb-1">';
+                        html += `<a href="persons.html?id=${encodeURIComponent(co)}"
+                            class="text-decoration-none" onclick="event.stopPropagation()">${esc(cName)}</a>`;
+                        html += `<span class="text-muted fw-normal small ms-1">(${works.length} work${works.length !== 1 ? 's' : ''})</span>`;
+                        html += '<i class="bi bi-chevron-down toggle-icon"></i>';
+                        html += '</div>';
+                        html += '<div class="collab-works">';
+                        works.forEach(w => {
+                            html += '<div class="mb-1">';
+                            html += `<a href="detail.html?id=${esc(w.catalogId)}" class="ref-badge me-2 text-decoration-none">${esc(w.catalogId)}</a>`;
+                            if (w.tib) html += `<span class="text-muted">${esc(w.tib)}</span>`;
+                            html += '</div>';
+                        });
+                        html += '</div></div>';
+                    });
+                    document.getElementById('collab-list').innerHTML = html;
+                    document.getElementById('collab-count').textContent =
+                        collabRids.length + ' person' + (collabRids.length !== 1 ? 's' : '');
+                    const sc = document.getElementById('section-collab');
+                    sc.classList.remove('d-none'); sc.classList.add('collapsed');
+                }
+
+                // Nav pills
+                addNavPill('#section-names', 'Names');
+                if (authorEntries.length)     addNavPill('#section-author',     'Author (' + authorEntries.length + ')');
+                if (translatorEntries.length) addNavPill('#section-translator', 'Translator (' + translatorEntries.length + ')');
+                if (revisorEntries.length)    addNavPill('#section-revisor',    'Revisor (' + revisorEntries.length + ')');
+                if (collabRids.length)        addNavPill('#section-collab',     'Worked with (' + collabRids.length + ')');
+
+                // Reveal layout
+                progressBar.style.width = '100%';
+                hideOverlay();
+            })
+            .catch(err => {
+                console.error('persons.html error:', err);
+                showError(err.message || 'Failed to load person data.');
+            });
+
+        /* ── Toggle handlers ──────────────────────────────────────────────── */
+        document.addEventListener('click', e => {
+            const collabHeader = e.target.closest('.collab-header');
+            if (collabHeader) {
+                collabHeader.closest('.collab-card').classList.toggle('collapsed');
+                return;
+            }
+            const header = e.target.closest('.person-section-header');
+            if (header) header.closest('.person-section').classList.toggle('collapsed');
+        });
+
+    })();
+    </script>
+</body>
+</html>

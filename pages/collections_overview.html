@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Collections Overview</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <style>
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3em;
+            font-size: 0.85em;
+            font-weight: 500;
+            padding: 0.25em 0.6em;
+            border-radius: 0.4em;
+        }
+        .status-true     { background-color: #d1f0d8; color: #1a6630; }
+        .status-false    { background-color: #fad7d7; color: #7a1f1f; }
+        .status-progress { background-color: #fde8c8; color: #7a4a00; }
+        .overview-table th { white-space: nowrap; }
+        .overview-table td { vertical-align: middle; }
+        .col-sigla { font-family: monospace; font-weight: 600; font-size: 1em; }
+        .nav-tabs .nav-link { font-weight: 500; }
+        .table-toolbar {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+        }
+        .table-toolbar .input-group { max-width: 320px; }
+        .count-badge {
+            font-size: 0.85em;
+            color: #555;
+            white-space: nowrap;
+        }
+        tr.hidden-row { display: none; }
+    </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="page-heading">
+            <h1>Collections Overview</h1>
+			<p><a href="collections.html"><i class="bi bi-box-arrow-left"></i></a></p>
+            <p>Availability of images, handlists, and e-texts for each collection, by canon.</p>
+        </div>
+
+        <!-- Legend -->
+        <div class="d-flex gap-3 mb-3 flex-wrap">
+            <span class="status-badge status-true"><i class="bi bi-check-circle-fill"></i> Available</span>
+            <span class="status-badge status-progress"><i class="bi bi-hourglass-split"></i> In progress</span>
+            <span class="status-badge status-false"><i class="bi bi-x-circle-fill"></i> Not available</span>
+        </div>
+
+        <!-- Tabs -->
+        <ul class="nav nav-tabs mb-0" id="canonTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="tab-K" data-bs-toggle="tab" data-bs-target="#pane-K"
+                        type="button" role="tab" aria-controls="pane-K" aria-selected="true">Kanjur</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-C" data-bs-toggle="tab" data-bs-target="#pane-C"
+                        type="button" role="tab" aria-controls="pane-C" aria-selected="false">Canonical Collections</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-T" data-bs-toggle="tab" data-bs-target="#pane-T"
+                        type="button" role="tab" aria-controls="pane-T" aria-selected="false">Tanjur</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-G" data-bs-toggle="tab" data-bs-target="#pane-G"
+                        type="button" role="tab" aria-controls="pane-G" aria-selected="false">Old Tantra</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-B" data-bs-toggle="tab" data-bs-target="#pane-B"
+                        type="button" role="tab" aria-controls="pane-B" aria-selected="false">Bon Canon</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-M" data-bs-toggle="tab" data-bs-target="#pane-M"
+                        type="button" role="tab" aria-controls="pane-M" aria-selected="false">Mongolian Canon</button>
+            </li>
+        </ul>
+
+        <div class="tab-content border border-top-0 rounded-bottom p-3 bg-white" id="canonTabContent">
+            <div class="tab-pane fade show active" id="pane-K" role="tabpanel" aria-labelledby="tab-K">
+                <div class="table-toolbar" id="toolbar-K"></div>
+                <div id="table-K"><div class="text-muted py-3">Loading…</div></div>
+            </div>
+            <div class="tab-pane fade" id="pane-T" role="tabpanel" aria-labelledby="tab-T">
+                <div class="table-toolbar" id="toolbar-T"></div>
+                <div id="table-T"><div class="text-muted py-3">Loading…</div></div>
+            </div>
+            <div class="tab-pane fade" id="pane-G" role="tabpanel" aria-labelledby="tab-G">
+                <div class="table-toolbar" id="toolbar-G"></div>
+                <div id="table-G"><div class="text-muted py-3">Loading…</div></div>
+            </div>
+            <div class="tab-pane fade" id="pane-B" role="tabpanel" aria-labelledby="tab-B">
+                <div class="table-toolbar" id="toolbar-B"></div>
+                <div id="table-B"><div class="text-muted py-3">Loading…</div></div>
+            </div>
+            <div class="tab-pane fade" id="pane-M" role="tabpanel" aria-labelledby="tab-M">
+                <div class="table-toolbar" id="toolbar-M"></div>
+                <div id="table-M"><div class="text-muted py-3">Loading…</div></div>
+            </div>
+            <div class="tab-pane fade" id="pane-C" role="tabpanel" aria-labelledby="tab-C">
+                <div class="table-toolbar" id="toolbar-C"></div>
+                <div id="table-C"><div class="text-muted py-3">Loading…</div></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script> Resources for Kanjur and Tanjur Studies (rKTs). Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>. <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    const DATA_URL        = '../data/general/collections_overview.xml';
+    const COLLECTIONS_URL = '../data/general/collections.json';
+
+    function statusBadge(val) {
+        const v = (val || '').trim().toLowerCase();
+        if (v === 'true')     return '<span class="status-badge status-true"><i class="bi bi-check-circle-fill"></i> Available</span>';
+        if (v === 'progress') return '<span class="status-badge status-progress"><i class="bi bi-hourglass-split"></i> In progress</span>';
+        return '<span class="status-badge status-false"><i class="bi bi-x-circle-fill"></i> Not available</span>';
+    }
+
+    function escHtml(s) {
+        return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    function getText(el, tag) {
+        const n = el.querySelector(tag);
+        return n ? n.textContent.trim() : '';
+    }
+
+    // Build the toolbar (filter input + count) and wire up live filtering for a tab.
+    function buildToolbar(type, total) {
+        const toolbar = document.getElementById('toolbar-' + type);
+        if (!toolbar) return;
+        toolbar.innerHTML = `
+            <div class="input-group input-group-sm">
+                <span class="input-group-text bg-white border-end-0">
+                    <i class="bi bi-search text-muted"></i>
+                </span>
+                <input type="text" class="form-control border-start-0"
+                       id="filter-${type}" placeholder="Filter by name or sigla…" autocomplete="off">
+                <button class="btn btn-outline-secondary" type="button" id="clear-${type}" title="Clear filter">
+                    <i class="bi bi-x"></i>
+                </button>
+            </div>
+            <span class="count-badge" id="count-${type}">
+                <strong id="count-shown-${type}">${total}</strong> / ${total} collection${total !== 1 ? 's' : ''}
+            </span>`;
+
+        const input   = document.getElementById('filter-' + type);
+        const clearBtn = document.getElementById('clear-' + type);
+        const tbody   = document.querySelector('#table-' + type + ' tbody');
+
+        function applyFilter() {
+            const q = input.value.trim().toLowerCase();
+            if (!tbody) return;
+            let shown = 0;
+            for (const row of tbody.rows) {
+                const sigla = (row.cells[0]?.textContent || '').toLowerCase();
+                const name  = (row.cells[1]?.textContent || '').toLowerCase();
+                const match = !q || sigla.includes(q) || name.includes(q);
+                row.classList.toggle('hidden-row', !match);
+                if (match) shown++;
+            }
+            const countEl = document.getElementById('count-shown-' + type);
+            if (countEl) countEl.textContent = shown;
+        }
+
+        input.addEventListener('input', applyFilter);
+        clearBtn.addEventListener('click', () => { input.value = ''; applyFilter(); input.focus(); });
+    }
+
+    function buildTable(type, items, nameMap) {
+        const el = document.getElementById('table-' + type);
+        if (!el) return;
+
+        if (!items.length) {
+            el.innerHTML = '<p class="text-muted py-2">No collections in this category.</p>';
+            return;
+        }
+
+        const table = document.createElement('table');
+        table.className = 'table table-hover table-sm overview-table align-middle mb-0';
+        table.innerHTML = `<thead class="table-light"><tr>
+            <th>Sigla</th><th>Name</th><th>Images</th><th>Handlist</th><th>E-texts</th>
+        </tr></thead>`;
+        const tbody = document.createElement('tbody');
+        for (const item of items) {
+            const name = nameMap[item.col] || '';
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td class="col-sigla">${escHtml(item.col)}</td>
+                <td>${escHtml(name)}</td>
+                <td>${statusBadge(item.images)}</td>
+                <td>${statusBadge(item.handlist)}</td>
+                <td>${statusBadge(item.etext)}</td>`;
+            tbody.appendChild(tr);
+        }
+        table.appendChild(tbody);
+        el.innerHTML = '';
+        el.appendChild(table);
+
+        buildToolbar(type, items.length);
+    }
+
+    async function loadData() {
+        let xmlDoc, nameMap = {};
+        try {
+            const [xmlRes, jsonRes] = await Promise.all([
+                fetch(DATA_URL),
+                fetch(COLLECTIONS_URL)
+            ]);
+            if (!xmlRes.ok)  throw new Error(`XML HTTP ${xmlRes.status}`);
+            if (!jsonRes.ok) throw new Error(`JSON HTTP ${jsonRes.status}`);
+            xmlDoc = new DOMParser().parseFromString(await xmlRes.text(), 'application/xml');
+
+            const collections = await jsonRes.json();
+            const typeToGenre = { K: 'Kanjur', T: 'Tanjur', G: 'Old Tantra', B: 'Bon', M: 'Mongolian Canon', C: 'Canonical Collection' };
+            for (const c of collections) {
+                if (c.sigla && c.title) {
+                    if (!nameMap[c.sigla]) nameMap[c.sigla] = {};
+                    for (const [t, g] of Object.entries(typeToGenre)) {
+                        const matches = (g === 'Bon') ? c.genre.startsWith(g) : c.genre === g;
+                        if (matches) nameMap[c.sigla][t] = c.title;
+                    }
+                    if (!nameMap[c.sigla]._default) nameMap[c.sigla]._default = c.title;
+                }
+            }
+        } catch(e) {
+            ['K','T','G','B','C'].forEach(t => {
+                document.getElementById('table-'+t).innerHTML =
+                    '<p class="text-danger py-2"><i class="bi bi-exclamation-triangle me-1"></i>Could not load data.</p>';
+            });
+            console.error(e);
+            return;
+        }
+
+        function resolveName(sigla, type) {
+            const entry = nameMap[sigla];
+            if (!entry) return '';
+            return entry[type] || entry._default || '';
+        }
+
+        const byType = { K: [], T: [], G: [], B: [], M: [], C: [] };
+        for (const item of xmlDoc.querySelectorAll('item')) {
+            const type = getText(item, 'type');
+            if (byType[type]) {
+                byType[type].push({
+                    col:      getText(item, 'col'),
+                    images:   getText(item, 'images'),
+                    handlist: getText(item, 'handlist'),
+                    etext:    getText(item, 'etext'),
+                });
+            }
+        }
+
+        for (const [type, items] of Object.entries(byType)) {
+            const perTypeMap = {};
+            for (const item of items) perTypeMap[item.col] = resolveName(item.col, type);
+            buildTable(type, items, perTypeMap);
+        }
+    }
+
+    loadData();
+    </script>
+</body>
+</html>

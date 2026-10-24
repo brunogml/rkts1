@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <style>
+        .section-header td {
+            background-color: var(--bs-secondary-bg, #e9ecef);
+            font-weight: 600; font-style: italic;
+            color: var(--bs-secondary-color, #6c757d);
+            font-size: .85rem; letter-spacing: .03em; padding: .35rem .75rem;
+        }
+        .vol-list  { display: flex; flex-wrap: wrap; gap: .25rem; }
+        .vol-entry {
+            display: inline-flex; flex-direction: column; align-items: center;
+            background: var(--bs-light, #f8f9fa);
+            border: 1px solid var(--bs-border-color, #dee2e6);
+            border-radius: .3rem; padding: .1rem .4rem;
+            font-size: .78rem; line-height: 1.3; white-space: nowrap;
+        }
+        .vol-entry .vol-num  { font-weight: 600; }
+        .vol-entry .vol-loc  { color: #6c757d; font-size: .72rem; }
+        td.tib-title         { font-style: italic; }
+        .ref-link            { font-weight: 600; white-space: nowrap; }
+        td.row-num           { color: #adb5bd; font-size: .8rem; text-align: right; }
+        .handlist-table td, .handlist-table th { vertical-align: middle; }
+        mark.hl-match        { background: none; color: #dc3545; font-weight: 700; padding: 0; }
+
+        /* ── Mongolian canon additions ──────────────────────────────────── */
+        td.mng-title {
+            font-family: 'Noto Sans Mongolian', 'Mongolian Baiti', 'Traditional Mongolian', serif;
+            font-size: 1rem;
+        }
+        td.mng-title .tib-sub {
+            display: block;
+            font-family: 'Jomolhari', 'Tibetan Machine Uni', serif;
+            font-size: .85rem; color: #6c757d; font-style: italic; margin-top: .1rem;
+        }
+    </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ 
+    <div class="container-fluid mt-4 px-4">
+        <div id="alert-area"></div>
+        <div id="loading-area" class="text-center py-5">
+            <div class="spinner-border text-primary" role="status"></div>
+            <p class="text-muted mt-2 small">Loading hand list…</p>
+        </div>
+        <div id="main-area" style="display:none"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">
+                &copy; <script>document.write(new Date().getFullYear())</script>
+                Resources for Kanjur and Tanjur Studies (rKTs).
+                Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+                <a href="about.html#access">Accessibility</a>.
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    (function () {
+        'use strict';
+
+        /* ── Paths ────────────────────────────────────────────────────────── */
+        const COLLS_URL = '../data/general/collections.json';
+        const STD_URL   = '../data/general/standard.xml';
+        const COLL_BASE = '../data/collections';   // /{sigla}/{sigla}.xml
+
+        /* ── Maps (mirror PHP) ────────────────────────────────────────────── */
+        const CAT_LETTER = { '1':'K', '2':'T', '3':'G', '4':'F', '5':'B', '6':'M' };
+        const CAT_NAME   = { K:'Kanjur', T:'Tanjur', G:"Old Tantra (rNying ma rgyud 'bum)", F:'Fragments', B:'Bon', M:'Mongolian Canon' };
+        const CAT_GENRE  = { K:'Kanjur', T:'Tanjur', G:'Old Tantra', F:'Fragments', B:'Bon', M:'Mongolian' };
+
+        /* ── HTML escape ──────────────────────────────────────────────────── */
+        function esc(s) {
+            return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+
+        function showAlert(msg, type = 'danger') {
+            document.getElementById('loading-area').style.display = 'none';
+            document.getElementById('alert-area').innerHTML =
+                `<div class="alert alert-${type}">${msg}</div>`;
+        }
+
+        /* ── Parse ?id= ───────────────────────────────────────────────────── */
+        const idParam = (new URLSearchParams(window.location.search).get('id') || '').trim();
+        const idMatch = idParam.match(/^(\d+)([A-Za-z].*)$/);
+
+        if (!idMatch) {
+            if (idParam) showAlert(`Invalid id parameter: <code>${esc(idParam)}</code>`);
+            else         showAlert('No collection specified. Please supply an <code>?id=</code> parameter, e.g. <code>handlist.html?id=1D</code>.', 'warning');
+            document.getElementById('loading-area').style.display = 'none';
+            return;
+        }
+
+        const catNum   = idMatch[1];
+        const sigla    = idMatch[2];
+        const catLetter= CAT_LETTER[catNum] || '';
+        const catName  = CAT_NAME[catLetter]  || 'Unknown';
+        const catGenre = CAT_GENRE[catLetter] || '';
+
+        if (!catLetter) {
+            showAlert(`Unknown category digit: <code>${esc(catNum)}</code>`);
+            return;
+        }
+
+        document.title = `rKTs – Hand List ${sigla} (${catName})`;
+
+        /* ── Text helper ──────────────────────────────────────────────────── */
+        function tx(el, tag) {
+            const n = el.querySelector(tag);
+            return n ? n.textContent.trim() : '';
+        }
+
+        /* ── Fetch sources; standard.xml only needed for Tibetan ─────────── */
+        const isMongolian = catLetter === 'M';
+        const isFragment  = catLetter === 'F';
+        Promise.all([
+            fetch(COLLS_URL).then(r => r.ok ? r.json() : []).catch(() => []),
+            (isMongolian || isFragment)
+                ? Promise.resolve('')
+                : fetch(STD_URL).then(r => r.ok ? r.text() : '').catch(() => ''),
+            fetch(`${COLL_BASE}/${encodeURIComponent(sigla)}/${encodeURIComponent(sigla)}.xml`)
+                .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+        ])
+        .then(([collections, stdXmlText, collXmlText]) => {
+
+            /* ── collections.json: volNames + collTitle + collName ────────── */
+            let volNames  = {};   // volref → volname
+            let collTitle = '';   // first constituent BDRC ID (e.g. MW22084)
+            let collName  = '';   // human-readable name
+            let collBaseUrl = ''; // link to external collection_base resource
+            let collBase    = ''; // label for the collection_base link
+
+            for (const col of collections) {
+                if (col.sigla !== sigla) continue;
+                let colGenre = col.genre || '';
+                if (catGenre === 'Kanjur' && colGenre === 'Canonical Collection') colGenre = 'Kanjur';
+                if (colGenre !== catGenre && !colGenre.toLowerCase().includes(catGenre.toLowerCase())) continue;
+                collName = col.title || '';
+                collBaseUrl = col.collection_base_url || '';
+                collBase    = col.collection_base || '';
+                for (const con of (col.constituents || [])) {
+                    if (!collTitle && con.title) collTitle = con.title;
+                    for (const s of (con.structure || [])) {
+                        if (s.volref && s.volname) volNames[s.volref] = s.volname;
+                    }
+                }
+                break;
+            }
+
+            /* ── standard.xml: stdTitles map ─────────────────────────────── */
+            const stdTitles = {};  // "{catLetter}-{rkts}" → { tib, eng }
+            if (stdXmlText) {
+                const stdDoc = new DOMParser().parseFromString(stdXmlText, 'application/xml');
+                for (const si of stdDoc.querySelectorAll('item')) {
+                    const key = tx(si,'rktsTyp') + '-' + tx(si,'rkts');
+                    stdTitles[key] = { tib: tx(si,'tib'), eng: tx(si,'eng') };
+                }
+            }
+
+            /* ── collection XML: build texts list ────────────────────────── */
+            const collDoc = new DOMParser().parseFromString(collXmlText, 'application/xml');
+            if (collDoc.querySelector('parsererror'))
+                throw new Error(`Failed to parse XML for collection <strong>${esc(sigla)}</strong>.`);
+
+            const texts = [];   // ordered, first-occurrence
+            const seen  = {};   // ref → index
+
+            for (const item of collDoc.querySelectorAll('item')) {
+                if (!isMongolian && !isFragment && tx(item,'cat') !== catLetter) continue;
+                const ref  = tx(item,'ref');
+                const rkts = tx(item,'rkts');
+                const cat  = tx(item,'cat');
+                const sec  = tx(item,'sec');
+                const vol  = tx(item,'vol');
+                const tib  = tx(item,'tib');
+                const mng  = tx(item,'mng');
+                const rnb  = parseInt(tx(item,'rnb'), 10) || 0;
+                const startFolio = tx(item,'debp') + tx(item,'debf');
+                const endFolio   = tx(item,'finp') + tx(item,'finf');
+
+                if (seen[ref] === undefined) {
+                    seen[ref] = texts.length;
+                    texts.push({ ref, rkts, cat, sec, tib, mng, rnb, vols: [] });
+                }
+                if (vol) texts[seen[ref]].vols.push({ vol, start: startFolio, end: endFolio });
+            }
+
+            /* ── Sort by rnb (running number) if present ─────────────────── */
+            if (texts.some(t => t.rnb > 0))
+                texts.sort((a, b) => a.rnb - b.rnb);
+
+            /* ── fmtVol helpers ───────────────────────────────────────────── */
+            // Tibetan: strip leading zeros from numeric vol refs
+            function fmtVol(vol) { return vol.replace(/^0+/, '') || '0'; }
+            // Mongolian: strip leading digit from BDRC IDs like "1PD110269"
+            function fmtVolId(vol) { return vol.replace(/^\d/, ''); }
+
+            /* ── Group by section (Tibetan) or first volume (Mongolian) ──── */
+            const sections = {};
+            const FRAG_CAT_LABEL = { K:'Kanjur', T:'Tanjur', G:"Old Tantra (rNying ma rgyud 'bum)", B:'Bon', '':'Unidentified' };
+            for (const t of texts) {
+                let key;
+                if (isMongolian) {
+                    if (t.vols.length) {
+                        const v = t.vols[0].vol;
+                        key = volNames[v] ? `${volNames[v]} (${fmtVolId(v)})` : fmtVolId(v);
+                    } else {
+                        key = 'No volume assigned';
+                    }
+                } else if (isFragment) {
+                    key = FRAG_CAT_LABEL[t.cat] || t.cat || 'Unidentified';
+                } else {
+                    // Use vol+sec composite — sec alone restarts per volume and
+                    // collides across volumes, destroying rnb order.
+                    key = t.vols.length ? (t.vols[0].vol + '.' + t.sec) : t.sec;
+                }
+                if (!sections[key]) sections[key] = [];
+                sections[key].push(t);
+            }
+
+            /* ── Render ───────────────────────────────────────────────────── */
+            document.getElementById('loading-area').style.display = 'none';
+            const mainArea = document.getElementById('main-area');
+            mainArea.style.display = '';
+
+            if (!texts.length) {
+                mainArea.innerHTML = `<div class="alert alert-warning">No entries found in collection <strong>${esc(sigla)}</strong>.</div>`;
+                return;
+            }
+
+            const titleColHeader = isMongolian ? 'Title (Mongolian)' : isFragment ? 'Description / Notes' : 'Title';
+
+            let html = `<div class="card">
+                <div class="card-header" style="position:relative;z-index:5">
+                    ${collName ? `<div class="text-muted mb-1 d-flex align-items-center gap-2" style="font-size:.85rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase">
+                        <span>${esc(collName)}</span>
+                        ${collBaseUrl ? `<a href="${esc(collBaseUrl)}" target="_blank" rel="noopener" class="text-decoration-none" title="Open collection base">
+                            (based on ${esc(collBase)}) <i class="bi bi-box-arrow-up-right"></i> 
+                        </a>` : ''}
+                    </div>` : ''}
+                    <div class="d-flex align-items-baseline gap-3 flex-wrap">
+                        <h2 class="mb-0 me-2">Hand List &mdash; <span class="text-primary">${esc(sigla)}</span></h2>
+                        <span class="badge bg-secondary fs-6">${esc(catName)}</span>
+                        <span class="ms-auto text-muted small">${texts.length} texts</span>
+                    </div>
+                </div>
+                <div class="card-body p-0">
+                    <div class="px-3 py-2 border-bottom d-flex align-items-center gap-2">
+                        <label for="titleFilter" class="form-label mb-0 text-nowrap small fw-semibold text-muted">
+                            Title containing
+                        </label>
+                        <input type="search" id="titleFilter" class="form-control form-control-sm"
+                               placeholder="type to filter…" autocomplete="off" style="max-width:28rem">
+                        <span id="filterCount" class="text-muted small text-nowrap"></span>
+                    </div>
+                    <div class="table-responsive">
+                    <table class="table table-sm table-hover table-bordered mb-0 handlist-table">
+                        <thead class="table-dark" style="position:sticky;top:0;z-index:2">
+                            <tr>
+                                <th style="width:2.5rem">#</th>
+                                <th style="width:5rem">Ref</th>
+                                <th>${esc(titleColHeader)}</th>
+                                <th>Volumes / Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>`;
+
+            let rowNum = 0;
+            for (const [secName, secTexts] of Object.entries(sections)) {
+                // secName is "vol.sec" composite for Tibetan; render as "<volname> · Sec M"
+                let secLabel = secName;
+                if (!isMongolian && !isFragment) {
+                    const dot = secName.indexOf('.');
+                    if (dot !== -1) {
+                        const volref = secName.slice(0, dot);
+                        const sPart  = secName.slice(dot + 1);
+                        const vLabel = volNames[volref] || ('Vol. ' + (volref.replace(/^0+/, '') || '0'));
+                        secLabel = `${vLabel} · Sec. ${sPart}`;
+                    }
+                }
+                html += `<tr class="section-header"><td colspan="4">${esc(secLabel)}</td></tr>`;
+                for (const t of secTexts) {
+                    rowNum++;
+
+                    // ── detail link ──────────────────────────────────────────
+                    const detailUrl = isMongolian
+                        ? `detailm.html?id=${encodeURIComponent(t.cat + t.rkts)}`
+                        : `detail.html?id=${encodeURIComponent((t.cat || catLetter) + t.rkts)}`;
+
+                    // ── vol chips ────────────────────────────────────────────
+                    let volsHtml = '';
+                    if (t.vols.length) {
+                        for (const v of t.vols) {
+                            const imgP = new URLSearchParams({
+                                title: collTitle,
+                                rkts:  isMongolian ? t.ref : (t.cat || catLetter) + t.rkts,
+                                coll: sigla, vol: v.vol, sec: t.sec, page: v.start
+                            });
+                            const volLabel = isMongolian
+                                ? (volNames[v.vol] || fmtVolId(v.vol))
+                                : (volNames[v.vol] || ('Vol. ' + fmtVol(v.vol)));
+                            const loc = v.start && v.end ? v.start + '–' + v.end : (v.start || '');
+                            volsHtml += `<a href="images.html?${imgP}" class="vol-entry text-decoration-none"
+                                title="Open images for ${esc(volNames[v.vol] || v.vol)}">
+                                <span class="vol-num">${esc(volLabel)}</span>
+                                ${loc ? `<span class="vol-loc">${esc(loc)}</span>` : ''}
+                            </a>`;
+                        }
+                    } else {
+                        volsHtml = `<span class="text-muted fst-italic small">—</span>`;
+                    }
+
+                    // ── title cell ───────────────────────────────────────────
+                    let titleCell;
+                    if (isMongolian) {
+                        const tibSub = t.tib
+                            ? `<span class="tib-sub">${esc(t.tib)}</span>` : '';
+                        titleCell = `<td class="mng-title">
+                            <span class="title-text" data-raw="${esc(t.mng)}">${esc(t.mng)}</span>
+                            ${tibSub}
+                        </td>`;
+                    } else if (isFragment) {
+                        const fragTitle = t.tib || '';
+                        const rktsTag = t.rkts
+                            ? `<span class="badge bg-light text-secondary border ms-1" style="font-size:.72rem">${esc((t.cat || catLetter) + '-' + t.rkts)}</span>`
+                            : '';
+                        titleCell = `<td class="tib-title${fragTitle ? '' : ' text-muted fst-italic'}">
+                            <span class="title-text" data-raw="${esc(fragTitle)}">${esc(fragTitle) || '—'}</span>
+                            ${rktsTag}
+                        </td>`;
+                    } else {
+                        let tibTitle  = t.tib;
+                        let isMissing = !tibTitle;
+                        if (isMissing) {
+                            const stdEntry = stdTitles[`${catLetter}-${t.rkts}`] || null;
+                            tibTitle = (stdEntry?.tib) || (stdEntry?.eng) || '';
+                        }
+                        titleCell = `<td class="tib-title${isMissing ? ' text-muted fst-italic' : ''}">
+                            <span class="title-text" data-raw="${esc(tibTitle)}">${esc(tibTitle)}</span>
+                            ${isMissing ? `<span class="badge bg-warning text-dark ms-1"
+                                title="This text has no title in the ${esc(sigla)} collection">missing title</span>` : ''}
+                        </td>`;
+                    }
+
+                    // ── data-title for filter: mng or tib, lowercased ────────
+                    const filterTitle = isMongolian ? t.mng.toLowerCase() : (t.tib || '').toLowerCase();
+
+                    // ── ref cell: link only when rkts is known ───────────────
+                    const refCell = (isFragment && !t.rkts)
+                        ? `<td><span class="ref-link">${esc(t.ref)}</span></td>`
+                        : `<td><a href="${esc(detailUrl)}" class="ref-link text-decoration-none"
+                               title="View details for ${esc(t.ref)}">${esc(t.ref)}</a></td>`;
+
+                    html += `<tr data-title="${esc(filterTitle)}">
+                        <td class="row-num">${rowNum}</td>
+                        ${refCell}
+                        ${titleCell}
+                        <td><div class="vol-list">${volsHtml}</div></td>
+                    </tr>`;
+                }
+            }
+
+            html += `</tbody></table></div></div></div>`;
+            mainArea.innerHTML = html;
+
+            /* ── Title filter (same logic as PHP version) ─────────────────── */
+            (function () {
+                const input     = document.getElementById('titleFilter');
+                const countEl   = document.getElementById('filterCount');
+                const tbody     = document.querySelector('.handlist-table tbody');
+                const totalRows = tbody ? tbody.querySelectorAll('tr[data-title]').length : 0;
+
+                function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+                function highlight(raw, needle) {
+                    let safe = raw.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+                    if (!needle) return safe;
+                    return safe.replace(new RegExp('(' + escapeRe(needle) + ')', 'gi'),
+                                        '<mark class="hl-match">$1</mark>');
+                }
+
+                input.addEventListener('input', function () {
+                    const needle  = this.value.trim().toLowerCase();
+                    let   visible = 0;
+                    const rows    = tbody.querySelectorAll('tr');
+                    let   i       = 0;
+                    while (i < rows.length) {
+                        const row = rows[i];
+                        if (row.classList.contains('section-header')) {
+                            const sectionRows = [];
+                            let j = i + 1;
+                            while (j < rows.length && !rows[j].classList.contains('section-header')) {
+                                sectionRows.push(rows[j]); j++;
+                            }
+                            let anyVisible = false;
+                            sectionRows.forEach(tr => {
+                                const title   = tr.getAttribute('data-title') || '';
+                                const matches = needle === '' || title.indexOf(needle) !== -1;
+                                tr.style.display = matches ? '' : 'none';
+                                if (matches) { anyVisible = true; visible++; }
+                                const span = tr.querySelector('.title-text');
+                                if (span) span.innerHTML = highlight(span.getAttribute('data-raw') || '', needle);
+                            });
+                            row.style.display = anyVisible ? '' : 'none';
+                            i = j;
+                        } else { i++; }
+                    }
+                    countEl.textContent = needle === '' ? '' : `${visible} of ${totalRows} shown`;
+                });
+            })();
+        })
+        .catch(err => {
+            showAlert(err.message || String(err));
+        });
+
+    })();
+    </script>
+</body>
+</html>

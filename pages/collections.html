@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Collections</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="page-heading">
+            <h1>Collections</h1>
+            <p>Explore the available collections through filters, maps, and detailed records.</p>
+            <p class="page-heading-aside">You can also export any filtered subset as JSON or CSV.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 filters-column">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Filters</h5>
+                    </div>
+                    <div class="card-body">
+                        <form id="filter-form">
+                            <div class="mb-3">
+                                <label for="search" class="form-label">Search</label>
+                                <div class="input-group search-container position-relative">
+                                    <span class="input-group-text bg-white border-end-0">
+                                        <i class="bi bi-search text-muted"></i>
+                                    </span>
+                                    <input type="text" class="form-control border-start-0" id="search" placeholder="Search collections...">
+                                    <button class="btn btn-outline-primary" type="button" id="clear-search" aria-label="Clear collection search">
+                                        <i class="bi bi-x"></i>
+                                    </button>
+                                    <div id="search-preview" class="search-preview-dropdown">
+                                        <div class="search-preview-header">
+                                            <span id="search-results-count">0</span> results found
+                                        </div>
+                                        <div id="search-preview-results" class="search-preview-results"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Category</label>
+                                <div id="category-filter" class="filter-checkboxes">
+                                    <div class="text-center my-1"><small class="text-muted">Loading categories...</small></div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Group</label>
+                                <div id="group-filter" class="filter-checkboxes">
+                                    <div class="text-center my-1"><small class="text-muted">Loading groups...</small></div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Associated places</label>
+                                <div id="place-filter" class="filter-checkboxes">
+                                    <div class="text-center my-1"><small class="text-muted">Loading places...</small></div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Medium</label>
+                                <div id="medium-filter" class="filter-checkboxes">
+                                    <div class="text-center my-1"><small class="text-muted">Loading media...</small></div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Date Range</label>
+                                <div class="d-flex justify-content-between mb-1">
+                                    <span id="date-range-min">1000</span>
+                                    <span id="date-range-max">2000</span>
+                                </div>
+                                <input type="range" class="form-range" min="1000" max="2000" step="10" id="date-slider-min" value="1000">
+                                <input type="range" class="form-range" min="1000" max="2000" step="10" id="date-slider-max" value="2000">
+                                <div class="d-flex justify-content-between">
+                                    <span id="selected-date-min">1000</span>
+                                    <span id="selected-date-max">2000</span>
+                                </div>
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="checkbox" id="include-undated" checked>
+                                    <label class="form-check-label" for="include-undated" title="Include items that have no date metadata">Include undated</label>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-end mt-3">
+                                <button type="button" class="btn btn-outline-secondary w-100" id="reset-filters">Reset filters</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card mt-3">
+                    <div class="card-header">
+                        <h5>Statistics</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <p class="stats-line"><span>Total collections</span><span id="total-collections">0</span></p>
+                            <p class="stats-line"><span>Mapped collections</span><span id="mapped-collections">0</span></p>
+                        </div>
+                        <div class="mb-3">
+                            <h6>Collection Distribution</h6>
+                            <div class="chart-container chart-container-sm">
+                                <canvas id="category-chart"></canvas>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <h6>Regional Distribution (experimental)</h6>
+                            <div class="chart-container chart-container-sm">
+                                <canvas id="place-chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-3">
+                    <div class="card-header bg-light">
+                        <h5>Export Options</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-muted small mb-2">Export your currently filtered collections data. Only the collections matching your current filter criteria will be included in the export.</p>
+                        <div class="d-grid gap-2">
+                            <div class="btn-group w-100">
+                                <button id="export-json" class="btn btn-sm btn-outline-secondary" title="Export complete data in JSON format">Export JSON</button>
+                                <button id="export-csv" class="btn btn-sm btn-outline-secondary" title="Export tabular data in CSV format">Export CSV</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5>Map</h5>
+                        <div class="btn-group" role="group" aria-label="Map display mode">
+                            <button type="button" class="btn btn-sm btn-outline-secondary active" id="marker-view-btn">Markers</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" id="heatmap-view-btn">Heatmap</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="map"></div>
+                        <div class="map-legend mt-3">
+                            <h6>Map Legend</h6>
+                            <div class="d-flex flex-wrap gap-3">
+                                <div class="d-flex align-items-center">
+                                    <span class="legend-marker legend-marker-kanjur"></span>
+                                    <span class="ms-1">Kanjur</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="legend-marker legend-marker-tanjur"></span>
+                                    <span class="ms-1">Tanjur</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="legend-marker legend-marker-tantra"></span>
+                                    <span class="ms-1">Tantra</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="legend-marker legend-marker-collection"></span>
+                                    <span class="ms-1">Collection</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="legend-marker legend-marker-other"></span>
+                                    <span class="ms-1">Other</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-3" id="collections">
+                    <div class="card-header">
+                        <h5>Collections </h5><a href="collections_overview.html">overview <i class="bi bi-box-arrow-up-right me-1"></i></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="row" id="collections-container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Collection detail modal -->
+    <div class="modal fade" id="collection-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Collection Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="download-xml-btn">Download JSON</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script> Resources for Kanjur and Tanjur Studies (rKTs). Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>. <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+
+    <script>
+    window.rKTsConfig = {
+        collectionsDataUrl: '../data/general/collections.json'
+    };
+    </script>
+
+    <script>
+    // ── Utility functions (inlined from utils.js) ────────────────────────────
+
+    function debounce(fn, delay) {
+        let timer;
+        return function(...args) {
+            clearTimeout(timer);
+            timer = setTimeout(() => fn.apply(this, args), delay);
+        };
+    }
+
+    function parseDateRange(dateStr) {
+        if (!dateStr) return null;
+        const s = String(dateStr);
+        const m = s.match(/(\d{3,4})/);
+        return m ? parseInt(m[1], 10) : null;
+    }
+
+    function filterCollections(all, { searchTerm, minYear, maxYear }, extraPredicate) {
+        return all.filter(c => {
+            if (extraPredicate && !extraPredicate(c)) return false;
+            const dateRange = parseDateString(c.date_created);
+            if (dateRange.minYear !== null && dateRange.maxYear !== null) {
+                if (dateRange.maxYear < minYear || dateRange.minYear > maxYear) return false;
+            }
+            return true;
+        });
+    }
+
+    function showError(msg) {
+        const container = document.getElementById('collections-container');
+        if (container) {
+            container.innerHTML = `<div class="col-12"><div class="alert alert-danger">${msg}</div></div>`;
+        }
+    }
+
+    function downloadCollectionXML(fileName) {
+        if (!fileName) return;
+        const data = window._rKTsCollections
+            ? window._rKTsCollections.find(c => c.file_name === fileName)
+            : null;
+        if (!data) { alert('Collection data not available.'); return; }
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = fileName.replace(/\.xml$/i, '') + '.json';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
+    function exportJSON(data, filename) {
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url; a.download = filename;
+        document.body.appendChild(a); a.click();
+        document.body.removeChild(a); URL.revokeObjectURL(url);
+    }
+
+    function exportCSV(data, headers, filename) {
+        const escape = v => {
+            if (v == null) return '';
+            const s = typeof v === 'object' ? JSON.stringify(v) : String(v);
+            return s.includes(',') || s.includes('"') || s.includes('\n')
+                ? '"' + s.replace(/"/g, '""') + '"' : s;
+        };
+        const rows = [headers.join(',')];
+        data.forEach(c => rows.push(headers.map(h => escape(c[h])).join(',')));
+        const blob = new Blob([rows.join('\n')], { type: 'text/csv' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url; a.download = filename;
+        document.body.appendChild(a); a.click();
+        document.body.removeChild(a); URL.revokeObjectURL(url);
+    }
+
+    function performGenericSearch({ searchInputId, searchPreviewId, searchResultsContainerId,
+            searchResultsCountId, collections, lunrIndex, showDetailsCallback,
+            updateFilteredCollections, onResultsUpdated }) {
+        const input = document.getElementById(searchInputId);
+        const preview = document.getElementById(searchPreviewId);
+        const resultsContainer = document.getElementById(searchResultsContainerId);
+        const countEl = document.getElementById(searchResultsCountId);
+        if (!input || !lunrIndex) return;
+
+        const term = input.value.trim();
+        if (!term) {
+            if (preview) preview.style.display = 'none';
+            if (updateFilteredCollections) {
+                filteredCollections = [...collections];
+                if (onResultsUpdated) onResultsUpdated(filteredCollections);
+            }
+            return;
+        }
+
+        let results = [];
+        try {
+            results = lunrIndex.search(term + '~1').map(r => collections[parseInt(r.ref)]).filter(Boolean);
+            if (results.length === 0)
+                results = lunrIndex.search(term).map(r => collections[parseInt(r.ref)]).filter(Boolean);
+        } catch(e) {
+            results = collections.filter(c =>
+                (c.title || '').toLowerCase().includes(term.toLowerCase()) ||
+                (c.sigla || '').toLowerCase().includes(term.toLowerCase())
+            );
+        }
+
+        if (updateFilteredCollections) {
+            filteredCollections = results;
+            if (onResultsUpdated) onResultsUpdated(results);
+        }
+
+        if (countEl) countEl.textContent = results.length;
+        if (resultsContainer) {
+            resultsContainer.innerHTML = '';
+            results.slice(0, 8).forEach(c => {
+                const div = document.createElement('div');
+                div.style.cursor = 'pointer';
+                div.innerHTML = `<div class="search-result-title">
+                    <span class="search-result-sigla">${c.sigla || ''}</span>${c.title || 'Untitled'}
+                    </div>
+                    <div class="search-result-snippet">${c.genre || ''} ${c.place_of_production ? '· ' + c.place_of_production : ''}</div>`;
+                div.addEventListener('click', () => {
+                    if (preview) preview.style.display = 'none';
+                    showDetailsCallback(c);
+                });
+                resultsContainer.appendChild(div);
+            });
+        }
+        if (preview) preview.style.display = results.length ? 'block' : 'none';
+    }
+
+    function updateGenericCategoryChart(data, canvasId, chartInstance, label) {
+        const canvas = document.getElementById(canvasId);
+        if (!canvas) return chartInstance;
+        const counts = {};
+        data.forEach(c => { if (c.genre) counts[c.genre] = (counts[c.genre] || 0) + 1; });
+        const labels = Object.keys(counts);
+        const values = labels.map(l => counts[l]);
+        const colors = ['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#a65628','#3388ff'];
+        if (chartInstance) chartInstance.destroy();
+        return new Chart(canvas, {
+            type: 'doughnut',
+            data: { labels, datasets: [{ data: values, backgroundColor: colors.slice(0, labels.length) }] },
+            options: { responsive: true, maintainAspectRatio: false,
+                plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } } }
+        });
+    }
+
+    function updateGenericRegionalChart(data, canvasId, chartInstance, label) {
+        const canvas = document.getElementById(canvasId);
+        if (!canvas) return chartInstance;
+        const regionMap = {};
+        data.forEach(c => {
+            const place = c.place_of_production || 'Unknown';
+            regionMap[place] = (regionMap[place] || 0) + 1;
+        });
+        const sorted = Object.entries(regionMap).sort((a,b) => b[1]-a[1]).slice(0,8);
+        const labels = sorted.map(e => e[0]);
+        const values = sorted.map(e => e[1]);
+        if (chartInstance) chartInstance.destroy();
+        return new Chart(canvas, {
+            type: 'bar',
+            data: { labels, datasets: [{ label, data: values, backgroundColor: '#2a5ea7' }] },
+            options: { responsive: true, maintainAspectRatio: false, indexAxis: 'y',
+                plugins: { legend: { display: false } },
+                scales: { x: { ticks: { font: { size: 10 } } }, y: { ticks: { font: { size: 10 } } } } }
+        });
+    }
+
+    window.updateShareableUrl = function() { /* no-op: URL sharing not required */ };
+
+    // ── Main application (inlined from app.js) ───────────────────────────────
+
+    let map;
+    let markers = [];
+    let markerCluster;
+    let heatLayer;
+    let isHeatmapActive = false;
+    let collections = [];
+    let filteredCollections = [];
+    let lunrIndex;
+    const categoryOptions = new Set();
+    const groupOptions = new Set();
+    const placeOptions = new Set();
+    const mediumOptions = new Set();
+    let minYear = 1000;
+    let maxYear = 2050;
+    let categoryChart;
+    let placeChart;
+    let skipFitBounds = false;
+
+    document.addEventListener("DOMContentLoaded", () => {
+        initMap();
+        loadData();
+
+        document.getElementById("reset-filters").addEventListener("click", resetFilters);
+
+        const searchInput = document.getElementById("search");
+        const clearSearchBtn = document.getElementById("clear-search");
+
+        if (searchInput) {
+            searchInput.addEventListener("input", debounce(performSearch, 100));
+            document.addEventListener("click", (e) => {
+                if (!e.target.closest(".search-container")) {
+                    document.getElementById("search-preview").style.display = "none";
+                }
+            });
+        }
+
+        if (clearSearchBtn) {
+            clearSearchBtn.addEventListener("click", () => {
+                if (searchInput) {
+                    searchInput.value = "";
+                    document.getElementById("search-preview").style.display = "none";
+                    applyFilters();
+                }
+            });
+        }
+
+        const markerViewBtn = document.getElementById("marker-view-btn");
+        const heatmapViewBtn = document.getElementById("heatmap-view-btn");
+
+        if (markerViewBtn && heatmapViewBtn) {
+            markerViewBtn.addEventListener("click", () => {
+                if (isHeatmapActive) {
+                    switchToMarkerView();
+                    markerViewBtn.classList.add("active");
+                    heatmapViewBtn.classList.remove("active");
+                }
+            });
+            heatmapViewBtn.addEventListener("click", () => {
+                if (!isHeatmapActive) {
+                    switchToHeatmapView();
+                    heatmapViewBtn.classList.add("active");
+                    markerViewBtn.classList.remove("active");
+                }
+            });
+        }
+
+        const dateSliderMin = document.getElementById("date-slider-min");
+        const dateSliderMax = document.getElementById("date-slider-max");
+        const selectedDateMin = document.getElementById("selected-date-min");
+        const selectedDateMax = document.getElementById("selected-date-max");
+        const includeUndatedCheckbox = document.getElementById("include-undated");
+        let undatedAuto = true;
+
+        function toggleUndatedBasedOnRange() {
+            const minVal = parseInt(dateSliderMin.value, 10);
+            const maxVal = parseInt(dateSliderMax.value, 10);
+            if (includeUndatedCheckbox)
+                includeUndatedCheckbox.checked = (minVal === minYear && maxVal === maxYear);
+        }
+
+        if (dateSliderMin) {
+            dateSliderMin.addEventListener("input", function () {
+                const value = parseInt(this.value, 10);
+                if (value > parseInt(dateSliderMax.value, 10)) {
+                    this.value = dateSliderMax.value;
+                    selectedDateMin.textContent = this.value;
+                } else {
+                    selectedDateMin.textContent = value;
+                }
+            });
+            dateSliderMin.addEventListener("change", () => {
+                if (undatedAuto && includeUndatedCheckbox) toggleUndatedBasedOnRange();
+                applyFilters();
+            });
+        }
+
+        if (includeUndatedCheckbox) {
+            includeUndatedCheckbox.addEventListener("change", () => {
+                undatedAuto = false;
+                applyFilters();
+            });
+        }
+
+        if (dateSliderMax) {
+            dateSliderMax.addEventListener("input", function () {
+                const value = parseInt(this.value, 10);
+                if (value < parseInt(dateSliderMin.value, 10)) {
+                    this.value = dateSliderMin.value;
+                    selectedDateMax.textContent = this.value;
+                } else {
+                    selectedDateMax.textContent = value;
+                }
+            });
+            dateSliderMax.addEventListener("change", () => {
+                if (undatedAuto && includeUndatedCheckbox) toggleUndatedBasedOnRange();
+                applyFilters();
+            });
+        }
+
+        const exportJsonBtn = document.getElementById("export-json");
+        const exportCsvBtn = document.getElementById("export-csv");
+        if (exportJsonBtn) exportJsonBtn.addEventListener("click", exportFilteredAsJSON);
+        if (exportCsvBtn) exportCsvBtn.addEventListener("click", exportFilteredAsCSV);
+    });
+
+    function enableMapInteractions() {
+        if (!map) return;
+        map.dragging?.enable();
+        map.scrollWheelZoom?.enable();
+        map.touchZoom?.enable();
+        map.doubleClickZoom?.enable();
+        map.boxZoom?.enable();
+        map.keyboard?.enable();
+        const container = map.getContainer();
+        if (container && !container.hasAttribute("tabindex"))
+            container.setAttribute("tabindex", "0");
+    }
+
+    function initMap() {
+        map = L.map("map").setView([30.0, 90.0], 5);
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 18,
+        }).addTo(map);
+        markerCluster = L.markerClusterGroup({
+            showCoverageOnHover: false,
+            maxClusterRadius: 50,
+            iconCreateFunction: (cluster) => {
+                const count = cluster.getChildCount();
+                let size = 50;
+                if (count > 10) size = 60;
+                if (count > 20) size = 70;
+                return L.divIcon({
+                    html: `<div class="cluster-icon">${count}</div>`,
+                    className: "marker-cluster-large",
+                    iconSize: L.point(size, size),
+                });
+            },
+        });
+        map.addLayer(markerCluster);
+        markers = L.layerGroup().addTo(map);
+        enableMapInteractions();
+        const mapContainer = map.getContainer();
+        mapContainer.addEventListener("mouseenter", enableMapInteractions);
+        mapContainer.addEventListener("click", () => enableMapInteractions());
+        map.on("zoomstart", () => { skipFitBounds = true; });
+        map.on("dragstart", () => { skipFitBounds = true; });
+        map.on("zoomend", () => { setTimeout(() => { skipFitBounds = false; }, 2000); });
+        map.on("dragend", () => { setTimeout(() => { skipFitBounds = false; }, 2000); });
+    }
+
+    async function loadData() {
+        try {
+            showLoading(true);
+            const collectionsUrl = (window.rKTsConfig && window.rKTsConfig.collectionsDataUrl)
+                ? window.rKTsConfig.collectionsDataUrl
+                : "../data/general/collections.json";
+            const response = await fetch(collectionsUrl);
+            if (!response.ok) throw new Error(`HTTP ${response.status}: ${collectionsUrl}`);
+            collections = await response.json();
+            window._rKTsCollections = collections;
+
+            document.getElementById("total-collections").textContent = collections.length;
+            document.getElementById("mapped-collections").textContent =
+                collections.filter((c) => c.coordinates).length;
+
+            let foundMinYear = 2000, foundMaxYear = 1000;
+            collections.forEach((collection) => {
+                if (collection.date_created) {
+                    const dateRange = parseDateString(collection.date_created);
+                    if (dateRange.minYear !== null && dateRange.maxYear !== null) {
+                        foundMinYear = Math.min(foundMinYear, dateRange.minYear);
+                        foundMaxYear = Math.max(foundMaxYear, dateRange.maxYear);
+                    }
+                }
+                if (collection.genre) categoryOptions.add(collection.genre);
+                if (collection.place_of_production) placeOptions.add(collection.place_of_production);
+                if (collection.classifications) collection.classifications.forEach((cls) => groupOptions.add(cls));
+                if (collection.medium) mediumOptions.add(collection.medium);
+            });
+
+            minYear = Math.floor(foundMinYear / 100) * 100;
+            maxYear = Math.ceil(foundMaxYear / 100) * 100;
+
+            const dateSliderMin = document.getElementById("date-slider-min");
+            const dateSliderMax = document.getElementById("date-slider-max");
+            const dateRangeMin = document.getElementById("date-range-min");
+            const dateRangeMax = document.getElementById("date-range-max");
+            const selectedDateMin = document.getElementById("selected-date-min");
+            const selectedDateMax = document.getElementById("selected-date-max");
+
+            if (dateSliderMin && dateSliderMax && dateRangeMin && dateRangeMax && selectedDateMin && selectedDateMax) {
+                dateSliderMin.min = minYear; dateSliderMin.max = maxYear; dateSliderMin.value = minYear;
+                dateSliderMax.min = minYear; dateSliderMax.max = maxYear; dateSliderMax.value = maxYear;
+                dateRangeMin.textContent = minYear; dateRangeMax.textContent = maxYear;
+                selectedDateMin.textContent = minYear; selectedDateMax.textContent = maxYear;
+            }
+
+            filteredCollections = [...collections];
+            createSearchIndex();
+            updateMapWithFiltered();
+            populateFilterDropdowns();
+            updateDynamicFilterOptions();
+            updateCharts();
+            updateCollectionsDisplay();
+            showLoading(false);
+        } catch (error) {
+            console.error("Error loading data:", error);
+            showLoading(false);
+            showError("Failed to load collection data: " + error.message);
+        }
+    }
+
+    function createSearchIndex() {
+        lunrIndex = lunr(function () {
+            this.field("sigla", { boost: 12 });
+            this.field("title", { boost: 8 });
+            this.field("title_tibetan", { boost: 6 });
+            this.field("place_of_production", { boost: 5 });
+            this.field("genre", { boost: 4 });
+            this.field("classifications", { boost: 4 });
+            this.field("description", { boost: 3 });
+            this.field("all");
+            this.ref("id");
+            const normalizeTibetan = (token) => {
+                if (!token) return null;
+                return token.toString().replace(/[\u0300-\u036f]/g, "").toLowerCase();
+            };
+            lunr.Pipeline.registerFunction(normalizeTibetan, "normalizeTibetan");
+            this.pipeline.add(normalizeTibetan);
+            collections.forEach((collection, index) => {
+                const sigla = collection.sigla || "";
+                const title = collection.title || "";
+                const title_tibetan = collection.title_tibetan || "";
+                const place = collection.place_of_production || "";
+                const genre = collection.genre || "";
+                const classifications = Array.isArray(collection.classifications)
+                    ? collection.classifications.join(" ") : "";
+                const description = collection.abstract || collection.description || "";
+                this.add({ id: index, sigla, title, title_tibetan, place_of_production: place,
+                    genre, classifications, description,
+                    all: `${sigla} ${title} ${title_tibetan} ${place} ${genre} ${classifications} ${description}` });
+            });
+        });
+    }
+
+    function populateFilterDropdowns() {
+        const categoryContainer = document.getElementById("category-filter");
+        const groupContainer = document.getElementById("group-filter");
+        const placeContainer = document.getElementById("place-filter");
+        const mediumContainer = document.getElementById("medium-filter");
+
+        categoryContainer.innerHTML = "";
+        groupContainer.innerHTML = "";
+        placeContainer.innerHTML = "";
+        if (mediumContainer) mediumContainer.innerHTML = "";
+
+        const categoryOrder = ['Kanjur','Canonical Collection','Tanjur','Old Tantra','Bon-Kanjur','Bon-Tanjur'];
+        const sortedCategories = Array.from(categoryOptions).sort((a, b) => {
+            const ai = categoryOrder.indexOf(a), bi = categoryOrder.indexOf(b);
+            if (ai === -1 && bi === -1) return a.localeCompare(b);
+            if (ai === -1) return 1; if (bi === -1) return -1;
+            return ai - bi;
+        });
+        const sortedGroups = Array.from(groupOptions).sort();
+        const sortedPlaces = Array.from(placeOptions).sort();
+        const sortedMedia = Array.from(mediumOptions).sort();
+
+        const categoryCounts = {}, groupCounts = {}, placeCounts = {}, mediumCounts = {};
+        collections.forEach((c) => {
+            if (c.genre) categoryCounts[c.genre] = (categoryCounts[c.genre] || 0) + 1;
+            if (c.place_of_production) placeCounts[c.place_of_production] = (placeCounts[c.place_of_production] || 0) + 1;
+            if (c.classifications) c.classifications.forEach(g => { groupCounts[g] = (groupCounts[g] || 0) + 1; });
+            if (c.medium) mediumCounts[c.medium] = (mediumCounts[c.medium] || 0) + 1;
+        });
+
+        sortedCategories.forEach(cat => categoryContainer.appendChild(createCheckboxItem(cat, "category", categoryCounts[cat] || 0)));
+        sortedGroups.forEach(g => groupContainer.appendChild(createCheckboxItem(g, "group", groupCounts[g] || 0)));
+        sortedPlaces.forEach(p => placeContainer.appendChild(createCheckboxItem(p, "place", placeCounts[p] || 0)));
+        if (mediumContainer) sortedMedia.forEach(m => mediumContainer.appendChild(createCheckboxItem(m, "medium", mediumCounts[m] || 0)));
+
+        [categoryContainer, groupContainer, placeContainer, mediumContainer].forEach((c) => {
+            if (!c) return;
+            if (c.querySelectorAll('.filter-checkbox-item').length > 7) {
+                c.style.maxHeight = '180px'; c.style.overflowY = 'auto';
+            } else {
+                c.style.maxHeight = ''; c.style.overflowY = '';
+            }
+        });
+    }
+
+    function createCheckboxItem(value, type, count) {
+        const item = document.createElement("div");
+        item.className = "filter-checkbox-item";
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.id = `${type}-${value.replace(/\s+/g, "-").toLowerCase()}`;
+        checkbox.value = value;
+        checkbox.className = `${type}-checkbox filter-checkbox`;
+        checkbox.dataset.type = type;
+        checkbox.dataset.value = value;
+        checkbox.addEventListener("change", applyFilters);
+        const label = document.createElement("label");
+        label.htmlFor = checkbox.id;
+        label.textContent = value;
+        const countSpan = document.createElement("span");
+        countSpan.className = "filter-checkbox-count";
+        countSpan.textContent = `(${count})`;
+        item.appendChild(checkbox); item.appendChild(label); item.appendChild(countSpan);
+        return item;
+    }
+
+    function updateDynamicFilterOptions() {
+        const current = (filteredCollections && filteredCollections.length > 0) ? filteredCollections : collections;
+        const counts = { category: {}, group: {}, place: {}, medium: {} };
+        current.forEach((c) => {
+            if (c.genre) counts.category[c.genre] = (counts.category[c.genre] || 0) + 1;
+            if (c.place_of_production) counts.place[c.place_of_production] = (counts.place[c.place_of_production] || 0) + 1;
+            if (c.classifications) new Set(c.classifications).forEach(g => { counts.group[g] = (counts.group[g] || 0) + 1; });
+            if (c.medium) counts.medium[c.medium] = (counts.medium[c.medium] || 0) + 1;
+        });
+        document.querySelectorAll(".filter-checkbox").forEach((checkbox) => {
+            const type = checkbox.dataset.type, value = checkbox.dataset.value;
+            const count = counts[type][value] || 0;
+            const countSpan = checkbox.parentElement.querySelector(".filter-checkbox-count");
+            if (countSpan) countSpan.textContent = `(${count})`;
+            if (checkbox.checked) {
+                checkbox.disabled = false;
+                checkbox.parentElement.classList.remove("disabled-filter-option");
+            } else {
+                checkbox.disabled = count === 0;
+                checkbox.parentElement.classList.toggle("disabled-filter-option", count === 0);
+            }
+        });
+    }
+
+    function parseDateString(dateStr) {
+        if (!dateStr) return { minYear: null, maxYear: null };
+        dateStr = String(dateStr);
+        const centuryMatch = dateStr.match(/(\d+)(?:st|nd|rd|th|\.)?\s*-\s*(\d+)(?:st|nd|rd|th|\.)?\s*(?:cent|Jh|Jahrhundert|century)/i);
+        if (centuryMatch) return { minYear: (parseInt(centuryMatch[1],10)-1)*100+1, maxYear: parseInt(centuryMatch[2],10)*100 };
+        const singleCenturyMatch = dateStr.match(/(\d+)(?:st|nd|rd|th|\.)?\s*(?:cent|Jh|Jahrhundert|century)/i);
+        if (singleCenturyMatch) { const c=parseInt(singleCenturyMatch[1],10); return { minYear:(c-1)*100+1, maxYear:c*100 }; }
+        const yearRangeMatch = dateStr.match(/(?:ca\.?|circa|around|about)?\s*(\d{3,4})\s*-\s*(\d{3,4})/i);
+        if (yearRangeMatch) return { minYear: parseInt(yearRangeMatch[1],10), maxYear: parseInt(yearRangeMatch[2],10) };
+        const singleYearMatch = dateStr.match(/(?:ca\.?|circa|around|about)?\s*(\d{3,4})/i);
+        if (singleYearMatch) { const y=parseInt(singleYearMatch[1],10); return { minYear:y, maxYear:y }; }
+        return { minYear: null, maxYear: null };
+    }
+
+    function performSearch() {
+        performGenericSearch({
+            searchInputId: "search",
+            searchPreviewId: "search-preview",
+            searchResultsContainerId: "search-preview-results",
+            searchResultsCountId: "search-results-count",
+            collections, lunrIndex,
+            showDetailsCallback: showCollectionDetails,
+            updateFilteredCollections: true,
+            onResultsUpdated: () => {
+                document.getElementById("total-collections").textContent = filteredCollections.length;
+                document.getElementById("mapped-collections").textContent =
+                    filteredCollections.filter(c => c.coordinates).length;
+                updateCollectionsDisplay();
+                updateMapWithFiltered();
+                updateCharts();
+            },
+        });
+    }
+
+    function applyFilters() {
+        const searchInput = document.getElementById("search");
+        const searchTerm = searchInput ? searchInput.value.trim() : "";
+        const selectedCategories = Array.from(document.querySelectorAll(".category-checkbox:checked")).map(cb => cb.value);
+        const selectedGroups = Array.from(document.querySelectorAll(".group-checkbox:checked")).map(cb => cb.value);
+        const selectedPlaces = Array.from(document.querySelectorAll(".place-checkbox:checked")).map(cb => cb.value);
+        const selectedMedia = Array.from(document.querySelectorAll(".medium-checkbox:checked")).map(cb => cb.value);
+        const dateSliderMin = document.getElementById("date-slider-min");
+        const dateSliderMax = document.getElementById("date-slider-max");
+        const dateMinFilter = dateSliderMin ? parseInt(dateSliderMin.value, 10) : minYear;
+        const dateMaxFilter = dateSliderMax ? parseInt(dateSliderMax.value, 10) : maxYear;
+        const includeUndatedCheckbox = document.getElementById("include-undated");
+        const includeUndated = includeUndatedCheckbox ? includeUndatedCheckbox.checked : true;
+
+        filteredCollections = filterCollections(collections, { searchTerm, minYear: dateMinFilter, maxYear: dateMaxFilter },
+            (c) => {
+                const matchesCategory = selectedCategories.length === 0 || (c.genre && selectedCategories.includes(c.genre));
+                const matchesGroup = selectedGroups.length === 0 || c.classifications?.some(cls => selectedGroups.includes(cls));
+                const matchesPlace = selectedPlaces.length === 0 || (c.place_of_production && selectedPlaces.includes(c.place_of_production));
+                const matchesMedium = selectedMedia.length === 0 || (c.medium && selectedMedia.includes(c.medium));
+                const hasDate = parseDateRange(c.date_created) !== null;
+                const matchesUndated = includeUndated || hasDate;
+                return matchesCategory && matchesGroup && matchesPlace && matchesMedium && matchesUndated;
+            }
+        );
+
+        document.getElementById("total-collections").textContent = filteredCollections.length;
+        document.getElementById("mapped-collections").textContent = filteredCollections.filter(c => c.coordinates).length;
+        updateCollectionsDisplay();
+        updateMapWithFiltered();
+        updateCharts();
+        updateDynamicFilterOptions();
+    }
+
+    function resetFilters() {
+        document.getElementById("search").value = "";
+        document.querySelectorAll(".filter-checkbox").forEach((cb) => {
+            cb.checked = false; cb.disabled = false;
+            cb.parentElement.classList.remove("disabled-filter-option");
+        });
+        const dsMin = document.getElementById("date-slider-min");
+        const dsMax = document.getElementById("date-slider-max");
+        const sdMin = document.getElementById("selected-date-min");
+        const sdMax = document.getElementById("selected-date-max");
+        if (dsMin && dsMax) {
+            dsMin.value = minYear; dsMax.value = maxYear;
+            sdMin.textContent = minYear; sdMax.textContent = maxYear;
+        }
+        applyFilters();
+        populateFilterDropdowns();
+    }
+
+    function updateCollectionsDisplay() {
+        const container = document.getElementById("collections-container");
+        container.innerHTML = "";
+        if (filteredCollections.length === 0) {
+            container.innerHTML = '<div class="col-12"><p>No collections match your filters.</p></div>';
+            return;
+        }
+        filteredCollections.forEach((collection) => {
+            const col = document.createElement("div");
+            col.className = "col-md-6 col-lg-4 mb-3";
+            const card = document.createElement("div");
+            card.className = "card collection-card h-100";
+            card.dataset.fileName = collection.file_name;
+            card.addEventListener("click", () => showCollectionDetails(collection));
+            const cardBody = document.createElement("div");
+            cardBody.className = "card-body";
+            const title = document.createElement("h5");
+            title.className = "card-title";
+            title.textContent = `${collection.sigla ? `${collection.sigla} — ` : ""}${collection.title || "Untitled Collection"}`;
+            const place = document.createElement("p");
+            place.className = "card-text";
+            place.innerHTML = collection.place_of_production ? `<strong>Place:</strong> ${collection.place_of_production}` : "";
+            const metadata = document.createElement("p");
+            metadata.className = "card-text";
+            if (collection.genre) {
+                const badge = document.createElement("span");
+                badge.className = "badge bg-primary"; badge.textContent = collection.genre;
+                metadata.appendChild(badge);
+            }
+            if (collection.classifications && collection.classifications.length > 0) {
+                collection.classifications.forEach((cls) => {
+                    const badge = document.createElement("span");
+                    badge.className = "badge bg-secondary ms-1"; badge.textContent = cls;
+                    metadata.appendChild(badge);
+                });
+            }
+            if (collection.date_created) {
+                const dateBadge = document.createElement("span");
+                dateBadge.className = "badge bg-info ms-1"; dateBadge.textContent = collection.date_created;
+                metadata.appendChild(dateBadge);
+            }
+            cardBody.appendChild(title); cardBody.appendChild(place); cardBody.appendChild(metadata);
+            card.appendChild(cardBody); col.appendChild(card); container.appendChild(col);
+        });
+    }
+
+    function switchToMarkerView() {
+        enableMapInteractions();
+        if (heatLayer) map.removeLayer(heatLayer);
+        if (document.getElementById("heatmap-legend")) document.getElementById("heatmap-legend").remove();
+        markerCluster.addTo(map);
+        isHeatmapActive = false;
+    }
+
+    function switchToHeatmapView() {
+        enableMapInteractions();
+        if (markerCluster) map.removeLayer(markerCluster);
+        updateHeatmap();
+        isHeatmapActive = true;
+    }
+
+    function updateHeatmap() {
+        if (heatLayer) map.removeLayer(heatLayer);
+        const filteredWithCoords = filteredCollections.filter((c) => c.coordinates);
+        if (filteredWithCoords.length === 0) {
+            showError("No collections with coordinates to display in heatmap. Try adjusting your filters.");
+            return;
+        }
+        const heatData = filteredWithCoords.map((c) => {
+            try {
+                const coords = c.coordinates.split(",");
+                const lat = parseFloat(coords[0]), lon = parseFloat(coords[1]);
+                let intensity = 0.5;
+                if (c.constituents?.length) intensity += Math.min(c.constituents.length, 10) * 0.1;
+                if (c.classifications?.length) intensity += c.classifications.length * 0.15;
+                if (c.date_created) {
+                    const year = parseInt(c.date_created, 10);
+                    if (!Number.isNaN(year) && year > 1000) intensity += ((Math.min(Math.max(year,1000),2000)-1000)/1000)*0.2;
+                }
+                return [lat, lon, intensity];
+            } catch(e) { return null; }
+        }).filter(Boolean);
+
+        heatLayer = L.heatLayer(heatData, {
+            radius: 30, blur: 20, maxZoom: 12, minOpacity: 0.4, max: 3.0,
+            gradient: { 0.1:"#3388ff", 0.3:"#6699ff", 0.5:"#9966ff", 0.7:"#ff66cc", 0.9:"#ff3333" }
+        }).addTo(map);
+
+        if (document.getElementById("heatmap-legend")) document.getElementById("heatmap-legend").remove();
+        const legend = L.control({ position: "bottomright" });
+        legend.onAdd = () => {
+            const div = L.DomUtil.create("div", "info legend");
+            div.id = "heatmap-legend";
+            div.innerHTML = "<h6>Heatmap Intensity</h6>" +
+                '<div class="d-flex align-items-center"><span style="background:linear-gradient(to right,#3388ff,#6699ff,#9966ff,#ff66cc,#ff3333);height:10px;flex-grow:1;display:block;"></span></div>' +
+                '<div class="d-flex justify-content-between"><small>Low</small><small>High</small></div>' +
+                '<small class="text-muted">Based on collection size, age, and classifications</small>';
+            div.style.cssText = "background:white;padding:10px;border-radius:5px;box-shadow:0 1px 5px rgba(0,0,0,0.2);width:200px;";
+            return div;
+        };
+        if (isHeatmapActive) legend.addTo(map);
+
+        if (heatData.length > 0) {
+            const bounds = L.latLngBounds(heatData.map(p => [p[0],p[1]]));
+            if (bounds.isValid()) map.fitBounds(bounds, heatData.length <= 3 ? { maxZoom:7, padding:[50,50] } : {});
+        }
+    }
+
+    function updateMapWithFiltered() {
+        if (markers) markers.clearLayers();
+        if (markerCluster) markerCluster.clearLayers();
+
+        const features = filteredCollections.filter(c => c.coordinates).map((c) => {
+            try {
+                const coords = c.coordinates.split(",");
+                return { type:"Feature",
+                    geometry:{ type:"Point", coordinates:[parseFloat(coords[1]), parseFloat(coords[0])] },
+                    properties:{ sigla:c.sigla||"", title:c.title||"", place:c.place_of_production||"",
+                        genre:c.genre||"", classifications:c.classifications||[], file_name:c.file_name||"" } };
+            } catch(e) { return null; }
+        }).filter(Boolean);
+
+        const geoJsonLayer = L.geoJSON({ type:"FeatureCollection", features }, {
+            pointToLayer: (feature, latlng) => {
+                const genre = feature.properties.genre;
+                let color = "#3388ff";
+                if (genre.toLowerCase().includes("kanjur")) color = "#e41a1c";
+                else if (genre.toLowerCase().includes("tanjur")) color = "#377eb8";
+                else if (genre.toLowerCase().includes("tantra")) color = "#4daf4a";
+                else if (genre.toLowerCase().includes("collection")) color = "#984ea3";
+                return L.circleMarker(latlng, { radius:12, fillColor:color, color:"#000", weight:1.5, opacity:1, fillOpacity:0.9 });
+            },
+            onEachFeature: (feature, layer) => {
+                const p = feature.properties;
+                let popup = `<h5>${p.sigla ? p.sigla+" \u2014 " : ""}${p.title||"Untitled"}</h5>
+                    <p><strong>Place:</strong> ${p.place||"Unknown"}</p>`;
+                if (p.genre) popup += `<p><strong>Category:</strong> ${p.genre}</p>`;
+                popup += `<p class="mt-2 mb-0"><a href="#" class="view-details-link" data-filename="${p.file_name}">View Details →</a></p>`;
+                layer.bindPopup(popup);
+                layer.on("popupopen", () => {
+                    const link = layer.getPopup().getElement()?.querySelector(".view-details-link");
+                    if (link) link.addEventListener("click", function(e) {
+                        e.preventDefault(); e.stopPropagation();
+                        const c = collections.find(x => x.file_name === this.getAttribute("data-filename"));
+                        if (c) { map.closePopup(); showCollectionDetails(c); }
+                    });
+                });
+            },
+        });
+
+        markerCluster.addLayer(geoJsonLayer);
+        if (features.length > 0 && !skipFitBounds) {
+            const bounds = markerCluster.getBounds();
+            if (bounds?.isValid()) map.fitBounds(bounds, features.length <= 3 ? { maxZoom:7, padding:[50,50] } : {});
+        }
+        if (isHeatmapActive) updateHeatmap();
+        else if (!map.hasLayer(markerCluster)) markerCluster.addTo(map);
+    }
+
+    function showCollectionDetails(collection) {
+        const modalTitle = document.getElementById("modal-title");
+        const modalBody = document.getElementById("modal-body");
+        modalTitle.textContent = `${collection.sigla ? collection.sigla+" — " : ""}${collection.title||"Untitled Collection"}`;
+
+        let content = "";
+        if (collection.alternative_title)
+            content += `<p class="fs-5 fw-semibold text-muted">${collection.alternative_title}</p>`;
+        if (collection.abstract)
+            content += `<h4>Historical Description</h4><p>${collection.abstract}</p>`;
+
+        content += `<h4>Metadata</h4><table class="table table-striped"><tbody>`;
+        if (collection.genre) content += `<tr><th>Category</th><td>${collection.genre}</td></tr>`;
+        if (collection.classifications?.length) content += `<tr><th>Group</th><td>${collection.classifications.join(", ")}</td></tr>`;
+        if (collection.date_created) content += `<tr><th>Creation Date</th><td>${collection.date_created}</td></tr>`;
+        if (collection.place_of_production) {
+            let placeContent = collection.place_of_production;
+            if (collection.bdrc_reference)
+                placeContent += ` (<a href="${collection.bdrc_reference.url}" target="_blank">${collection.bdrc_reference.id}</a>)`;
+            content += `<tr><th>Associated places</th><td>${placeContent}</td></tr>`;
+        } else if (collection.bdrc_reference) {
+            content += `<tr><th>Associated places</th><td>(<a href="${collection.bdrc_reference.url}" target="_blank">${collection.bdrc_reference.id}</a>)</td></tr>`;
+        }
+        
+        content += `</tbody></table>`;
+
+        {
+            const sigla = collection.sigla || '';
+            const genreSlugMap = { 'Kanjur':'kanjur','Tanjur':'tanjur','Old Tantra':'old-tantra','Canonical Collection':'canonical-collection' };
+            let slug = genreSlugMap[collection.genre] || '';
+            if (!slug && collection.genre?.indexOf('Bon') === 0) slug = 'bon-canon';
+            if (!slug && collection.genre?.indexOf('Mongolian') === 0) slug = 'mongolian-canon';
+            const catNumMap = { 'Tanjur':'2','Old Tantra':'3','Fragments':'4','Bon':'5','Mongolian Canon':'6' };
+            let catNum = catNumMap[collection.genre] || '';
+            if (!catNum && collection.genre?.indexOf('Bon') === 0) catNum = '5';
+            if (!catNum && collection.genre?.indexOf('Mongolian') === 0) catNum = '6';
+            if (!catNum && collection.genre?.toLowerCase().includes('fragment')) catNum = '4';
+            if (!catNum) catNum = '1';
+            const resLinkMap = {
+                'handlist_Handlist Available': `<a href="handlist.html?id=${encodeURIComponent(catNum+sigla)}" class="btn btn-sm btn-outline-primary" target="_blank"><i class="bi bi-list-ul me-1"></i>Handlist</a>`,
+                'images_Images Available':     `<a href="images_list.html?sigla=${encodeURIComponent(sigla)}&category=${encodeURIComponent(slug)}" class="btn btn-sm btn-outline-secondary" target="_blank"><i class="bi bi-images me-1"></i>Images</a>`,
+                'text_Text Available':         `<a href="etexts_repository2.html?sigla=${encodeURIComponent(sigla)}&category=${encodeURIComponent(slug)}" class="btn btn-sm btn-outline-success" target="_blank"><i class="bi bi-file-text me-1"></i>E-texts</a>`,
+            };
+            if (collection.notes && Object.keys(collection.notes).length > 0) {
+                const filteredNotes = Object.entries(collection.notes).filter(([key]) =>
+                    key !== "integratedrkts" && key !== "isreferenceset" && key.toLowerCase() !== "numberoflines");
+                if (filteredNotes.length > 0) {
+                    content += `<h4>Resources</h4><table class="table table-striped"><tbody>`;
+                    for (const [key, value] of filteredNotes) {
+                        if (value === undefined) continue;
+                        const formattedKey = key.replace(/_/g," ").replace(/\b\w/g,l=>l.toUpperCase()).replace(/([A-Za-z]+)\s\1/g,"$1");
+                        if (value === "true" || value === "false") {
+                            const isChecked = value === "true";
+                            const linkBtn = (isChecked && resLinkMap[key]) ? `<td class="text-end">${resLinkMap[key]}</td>` : `<td></td>`;
+                            content += `<tr><th>${formattedKey}</th><td><div class="form-check"><input class="form-check-input" type="checkbox" ${isChecked?"checked":""} disabled></div></td>${linkBtn}</tr>`;
+                        } else {
+                            content += `<tr><th>${formattedKey}</th><td colspan="2">${value}</td></tr>`;
+                        }
+                    }
+                    content += `</tbody></table>`;
+                }
+            }
+        }
+
+        if (collection.constituents?.length > 0) {
+            content += `<h4>Editions (${collection.constituents.length})</h4>
+                <table class="table table-striped constituent-table">
+                <thead><tr><th>ID/Title</th><th>URL</th><th>Medium</th><th>Extent/Script</th><th>Description</th></tr></thead><tbody>`;
+            collection.constituents.forEach((item, idx) => {
+                let extentDisplay = "";
+                if (item.extent) extentDisplay = /^\d+$/.test(item.extent.trim()) ? `Extent: ${item.extent} volumes` : `Extent: ${item.extent}`;
+                const descCell = `<td><a href="editiondescription.html?sigla=${encodeURIComponent(collection.sigla)}&edition=${idx}" target="_blank" class="btn btn-sm btn-outline-primary py-0"><i class="bi bi-journal-text"></i> Details</a></td>`;
+                content += `<tr>
+                    <td>${item.id?`ID: ${item.id}<br>`:""}${item.title?`Title: ${item.title}`:""}</td>
+                    <td>${item.url?`<a href="${item.url}" target="_blank">Link</a>`:""}</td>
+                    <td>${item.medium||""}</td>
+                    <td>${extentDisplay?`${extentDisplay}<br>`:""}${item.script?`Script: ${item.script}`:""}</td>
+                    ${descCell}</tr>`;
+            });
+            content += `</tbody></table>`;
+        }
+
+        modalBody.innerHTML = content;
+        const downloadBtn = document.getElementById("download-xml-btn");
+        if (downloadBtn) {
+            const newBtn = downloadBtn.cloneNode(true);
+            downloadBtn.parentNode.replaceChild(newBtn, downloadBtn);
+            newBtn.addEventListener("click", () => downloadCollectionXML(collection.file_name));
+        }
+        new bootstrap.Modal(document.getElementById("collection-modal")).show();
+    }
+
+    function showLoading(isLoading) {
+        const container = document.getElementById("collections-container");
+        if (isLoading) container.innerHTML = '<div class="col-12 loading"><div class="loading-spinner"></div></div>';
+    }
+
+    function updateCharts() {
+        if (document.getElementById("category-chart")) categoryChart = updateGenericCategoryChart(filteredCollections, "category-chart", categoryChart, "Collections by Category");
+        if (document.getElementById("place-chart")) placeChart = updateGenericRegionalChart(filteredCollections, "place-chart", placeChart, "Regional Distribution");
+    }
+
+    function exportFilteredAsJSON() { exportJSON(filteredCollections, "tibetan_collections.json"); }
+    function exportFilteredAsCSV() {
+        exportCSV(filteredCollections, ["sigla","title","alternative_title","abstract","genre","date_created","place_of_production","coordinates","bdrc_reference"], "tibetan_collections.csv");
+    }
+    </script>
+
+</body>
+</html>

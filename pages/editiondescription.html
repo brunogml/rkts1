@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <style>
+        body { background: var(--bs-light, #f8f9fa); }
+        .page-header { background: #fff; border-bottom: 1px solid #dee2e6; padding: 1.25rem 0; margin-bottom: 2rem; }
+        #volumes-table th { white-space: nowrap; }
+        .vol_description { font-size: 0.9rem; color: #444; line-height: 1.5; }
+        .cat-ref { font-weight: 500; color: #0d6efd; text-decoration: none; white-space: nowrap; }
+        .cat-ref:hover { text-decoration: underline; }
+        #loading-state, #error-state { min-height: 200px; }
+        #volumes-table thead th { position: sticky; top: 0; background: #fff; z-index: 1; }
+        .table-container { max-height: 75vh; overflow-y: auto; border: 1px solid #dee2e6; border-radius: 0.375rem; }
+    </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Page header -->
+    <div class="page-header">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-1">
+                    <li class="breadcrumb-item"><a href="collections.html">Collections</a></li>
+                    <li class="breadcrumb-item active" id="breadcrumb-title">Edition Description</li>
+                </ol>
+            </nav>
+            <h2 class="mb-0" id="page-title">
+                <span class="spinner-border spinner-border-sm text-secondary me-2" id="title-spinner"></span>
+                Edition Description
+            </h2>
+            <p class="text-muted mb-0 mt-1" id="page-subtitle"></p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <!-- Loading -->
+        <div id="loading-state" class="d-flex align-items-center justify-content-center text-muted">
+            <div class="spinner-border me-3" role="status"></div>
+            Loading edition data…
+        </div>
+
+        <!-- Error -->
+        <div id="error-state" class="d-none alert alert-danger"></div>
+
+        <!-- Content -->
+        <div id="content-area" class="d-none">
+
+            <!-- General edition description (moved before info card by JS if present) -->
+            <div class="general-description-wrapper d-none mb-4">
+                <div class="card border-0 bg-light">
+                    <div class="card-body">
+                        <p class="mb-0" id="general-description"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Collection info card -->
+            <div class="card mb-4" id="collection-info-card">
+                <div class="card-body">
+                    <div class="row g-3" id="collection-meta"></div>
+                </div>
+            </div>
+
+            <!-- Volume table -->
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Volumes <span class="badge bg-secondary ms-2" id="vol-count"></span></h5>
+                </div>
+                <div class="table-container">
+                    <table class="table table-hover table-sm mb-0" id="volumes-table">
+                        <thead class="table-light">
+                            <tr>
+                                <th style="width:4rem">Vol.</th>
+                                <th>Volume Name</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody id="volumes-tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div><!-- /content-area -->
+    </div><!-- /container -->
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    (function () {
+        'use strict';
+
+        /* ── Paths ────────────────────────────────────────────────────────── */
+        const COLLS_URL = '../data/general/collections.json';
+        const COLL_BASE = '../data/collections';   // /{sigla}/{sigla}.xml
+
+        /* ── Helpers ──────────────────────────────────────────────────────── */
+        function getParam(name) {
+            return new URLSearchParams(window.location.search).get(name);
+        }
+        function showError(msg) {
+            document.getElementById('loading-state').classList.add('d-none');
+            const el = document.getElementById('error-state');
+            el.textContent = msg;
+            el.classList.remove('d-none');
+        }
+        function showContent() {
+            document.getElementById('loading-state').classList.add('d-none');
+            document.getElementById('content-area').classList.remove('d-none');
+        }
+        function escHtml(s) {
+            return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+        function metaItem(label, value) {
+            if (!value) return '';
+            return `<div class="col-sm-6 col-lg-3">
+                <small class="text-muted d-block">${escHtml(label)}</small>
+                <span>${value}</span>
+            </div>`;
+        }
+
+        /* ── Build ref→{cat,rkts} map from collection XML ────────────────── */
+        function buildRefMap(xmlDoc) {
+            const map = {};
+            xmlDoc.querySelectorAll('item').forEach(item => {
+                const ref  = (item.querySelector('ref')  || {}).textContent || '';
+                const cat  = (item.querySelector('cat')  || {}).textContent || '';
+                const rkts = (item.querySelector('rkts') || {}).textContent || '';
+                if (ref && !map[ref]) map[ref] = { cat, rkts };
+            });
+            return map;
+        }
+
+        /* ── Render description: replace $ref$ tokens with detail.html links */
+        function renderDescription(text, refMap) {
+            if (!text) return '<span class="text-muted">—</span>';
+            const parts = text.split(/\$([^$]+)\$/g);
+            let html = '';
+            for (let i = 0; i < parts.length; i++) {
+                if (i % 2 === 0) {
+                    html += parts[i];   // raw HTML segment — pass through
+                } else {
+                    const ref   = parts[i];
+                    const entry = refMap[ref];
+                    if (!entry) {
+                        html += `<code>${escHtml(ref)}</code>`;
+                    } else {
+                        const url = 'detail.html?id=' + encodeURIComponent(entry.cat + entry.rkts);
+                        html += `<a href="${url}" target="_blank" class="cat-ref">${escHtml(ref)}</a>`;
+                    }
+                }
+            }
+            return html;
+        }
+
+        /* ── Main ─────────────────────────────────────────────────────────── */
+        const sigla        = getParam('sigla');
+        const editionIndex = parseInt(getParam('edition') || '0', 10);
+
+        if (!sigla) {
+            showError("No sigla specified. Please open this page from a collection's Edition link.");
+            return;
+        }
+
+        fetch(COLLS_URL)
+            .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status + ' loading collections.json'); return r.json(); })
+            .then(collections => {
+                const coll = collections.find(c => c.sigla === sigla);
+                if (!coll) throw new Error(`Collection "${sigla}" not found in collections.json`);
+
+                const constituent = (coll.constituents || [])[editionIndex];
+                if (!constituent) throw new Error(`Edition index ${editionIndex} not found for "${sigla}"`);
+
+                // Page titles
+                document.getElementById('title-spinner').classList.add('d-none');
+                document.getElementById('page-title').textContent    = coll.title || sigla;
+                document.getElementById('page-subtitle').textContent = constituent.title ? ('BDRC: ' + constituent.title) : '';
+                document.getElementById('breadcrumb-title').textContent = coll.title || sigla;
+                document.title = 'rKTs – ' + (coll.title || sigla);
+
+                // Collection meta
+                let metaHtml = '';
+                metaHtml += metaItem('Sigla',             `<strong>${escHtml(sigla)}</strong>`);
+                metaHtml += metaItem('Genre',             escHtml(coll.genre || ''));
+                metaHtml += metaItem('Date',              escHtml(coll.date_created || ''));
+                metaHtml += metaItem('Associated places', escHtml(coll.place_of_production || ''));
+                metaHtml += metaItem('Medium',            escHtml(constituent.medium || coll.medium || ''));
+                metaHtml += metaItem('Extent',            constituent.extent ? constituent.extent + ' vols.' : '');
+                if (constituent.url) {
+                    const urlLabel = constituent.url.replace(/\/+$/, '').split('/').pop();
+                    metaHtml += metaItem('URL',
+                        `<a href="${escHtml(constituent.url)}" target="_blank" rel="noopener">${escHtml(urlLabel)}</a>`);
+                }
+                document.getElementById('collection-meta').innerHTML = metaHtml;
+
+                // General description
+                if (constituent.general_description) {
+                    const gdEl = document.getElementById('general-description');
+                    gdEl.innerHTML = constituent.general_description;
+                    const gdWrapper = gdEl.closest('.general-description-wrapper');
+                    gdWrapper.classList.remove('d-none');
+                    const card = document.getElementById('collection-info-card');
+                    card.parentNode.insertBefore(gdWrapper, card);
+                }
+
+                const structure = constituent.structure || [];
+                document.getElementById('vol-count').textContent = structure.length;
+
+                // Load collection XML for $ref$ resolution
+                const xmlUrl = `${COLL_BASE}/${encodeURIComponent(sigla)}/${encodeURIComponent(sigla)}.xml`;
+                return fetch(xmlUrl)
+                    .then(r => r.ok ? r.text() : null)
+                    .catch(() => null)
+                    .then(xmlText => {
+                        let refMap = {};
+                        if (xmlText) {
+                            const xmlDoc = new DOMParser().parseFromString(xmlText, 'application/xml');
+                            refMap = buildRefMap(xmlDoc);
+                        }
+                        renderVolumes(structure, refMap);
+                        showContent();
+                    });
+            })
+            .catch(err => showError('Error: ' + err.message));
+
+        function renderVolumes(structure, refMap) {
+            document.getElementById('volumes-tbody').innerHTML = structure.map(vol =>
+                `<tr>
+                    <td class="text-center fw-semibold">${escHtml(String(vol.volno || ''))}</td>
+                    <td><span class="font-monospace">${escHtml(vol.volname || '')}</span></td>
+                    <td class="vol_description">${renderDescription(vol.vol_description || '', refMap)}</td>
+                </tr>`
+            ).join('');
+        }
+
+    })();
+    </script>
+</body>
+</html>

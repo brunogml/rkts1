@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Collections</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <style>
+        .about-block { scroll-margin-top: 80px; }
+    </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+        <div class="page-heading">
+            <h1>About rKTs</h1>
+            <p>Project background, tutorials, updates, licensing, and contact information for rKTs</p>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="about-blocks">
+                    <section class="card about-block" id="about">
+                        <div class="card-header">
+                            <h3>About</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>The databases available through rKTs are compiled and maintained by members of the Tibetan Manuscript Project Vienna (TMPV), based at the Department of South Asian, Tibetan and Buddhist Studies at the University of Vienna. Further information on the project's aims, structure, and team can be found on the <a href="https://tmpv.univie.ac.at/" target="_blank">TMPV website</a>.</p>
+                            <p>In addition, the site provides open access to a range of project outputs under the section "Dissemination," including academic publications, research data, and documentary films.</p>
+                        </div>
+                    </section>
+                    <section class="card about-block" id="news">
+                        <div class="card-header">
+                            <h3>News</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>The TMPV website also offers updates on recent fieldwork activities (see "Documentation") and features a <a href="https://tmpv.univie.ac.at/blog" target="_blank">blog</a> with articles on current developments, including new functionalities and data releases within the rKTs archive.</p>
+                        </div>
+                    </section>
+                    <section class="card about-block" id="howto">
+                        <div class="card-header">
+                            <h3>How to</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>While the rKTs website is designed to be intuitive, some of its more advanced technical features may not be immediately apparent. The following tutorials provide an introduction to key functions and tools:</p>
+ <!--                           <div class="tutorial-embed">
+                                <iframe src="https://archive.org/embed/tutorial-how-to-use-r-kts.mp-4" title="General introduction to the rKTs website" loading="lazy" allowfullscreen></iframe>
+                            </div>
+-->                            <ul class="section-list">
+                                <li><a href="../more/rkts1.pdf" target="_blank">PDF tutorial: Key features of the rKTs archive</a></li>
+                                <li><a href="../more/rKTs_how to_1.mp4" target="_blank">Video tutorial: General overview of the rKTs archive</a></li>
+                                <li><a href="../more/rKTs_how to_2.mp4" target="_blank">Video tutorial: Searching canonical witnesses</a></li>
+                                <li><a href="../more/rKTs_how to_3.mp4" target="_blank">Video tutorial: E-texts and full-text search</a></li>
+                            </ul>
+                            <p>In addition, a <a href="https://digitalorientalist.com/2025/02/14/resources-for-kanjur-and-tanjur-studies-introduction-and-review/" target="_blank">review</a> by Rachael Griffiths published on The Digital Orientalist remains a useful introduction, although it refers to an earlier version of the rKTs interface.</p>
+                        </div>
+                    </section>
+                    <section class="card about-block" id="copyright">
+                        <div class="card-header">
+                            <h3>Copyright</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>TMPV is committed to making primary sources and research results openly accessible, while also respecting the rights of contributing institutions and individuals. Users are kindly requested to observe the copyright regulations specified for each individual source.</p>
+                            <p>Unless otherwise indicated, all data (excluding images) provided through the rKTs website are licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.</p>
+                            <p>Images of canonical collections made available by TMPV through the rKTs and BUDA (BDRC) platforms are licensed under the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)</a>.</p>
+                        </div>
+                    </section>
+                    <section class="card about-block" id="access">
+                        <div class="card-header">
+                            <h3>Accessibility Statement</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>The Tibetan Manuscript Project Vienna (TMPV), based at the Department of South Asian, 							Tibetan and Buddhist Studies at the University of Vienna, is committed to making its website
+							<a href="https://www.rkts.org">www.rkts.org</a> accessible in accordance with the Austrian Federal Act on the Accessibility of
+							Websites and Mobile Applications of Public Sector Bodies (Web Accessibility Act – Web-
+							Zugänglichkeits-Gesetz, WZG, Federal Law Gazette I No. 59/2019 as amended).
+							<br>
+							This accessibility statement applies to the website:
+							<a href="https://www.rkts.org">www.rkts.org</a>
+							</p><br>
+							<h5>Compliance Status</h5>
+							<p>This website is partially compliant with Conformance Level AA of the Web Content
+							Accessibility Guidelines (WCAG) 2.1 and with the applicable European Standard EN 301
+							549 V3.2.1 (2021-03).
+							<br><br>
+							In the development and ongoing revision of the website, particular attention is paid to the
+							following aspects:
+							<br>- semantically structured HTML content
+							<br>- identification of language changes using lang attributes
+							<br>- use of ARIA labels for navigation and interface elements
+							<br>- keyboard accessibility of core functions wherever possible
+							<br>- structured and readable page content
+							</p><br>
+ 							<h5>Non-accessible Content</h5>
+							 <p>
+							The content listed below is currently not fully accessible:<br>
+
+							- <u>Images and manuscript photographs:</u><br>
+							The database contains a large corpus of historical manuscript images and scholarly visual
+							materials. Some of these contents do not yet provide adequate text alternatives. Due to the
+							scale of the collection, suitable alternative texts are being added progressively. (WCAG 2.1:
+							1.1.1 Non-text Content)<br>
+
+							- <u>Multilingual content:</u><br>
+							Individual foreign-language passages or special characters may not yet be consistently
+							marked with appropriate language attributes. In isolated cases, this may result in limitations
+							for assistive technologies. (WCAG 2.1: 3.1.2 Language of Parts)<br>
+
+							- <u>Older content:</u><br>
+							Some older contents or database entries may not yet fully comply with current accessibility
+							requirements.<br><br>
+
+							The accessibility of the website is continuously being improved through ongoing technical
+							and editorial revisions.
+							</p><br>
+ 							<h5>Feedback and Contact Information</h5>
+							 <p>
+							If you encounter barriers when accessing content on this website or require content in an
+							accessible format, please contact us:<br>
+
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tibetan Manuscript Project Vienna (TMPV)<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department of South Asian, Tibetan and Buddhist Studies<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Vienna<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spitalgasse 2, Campus, Hof 2.7<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1090 Vienna<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Austria</p><br>
+							<h5>Preparation of this Accessibility Statement</h5>
+							<p>
+							This statement was prepared in May 2026 on the basis of a self-assessment.
+							</p><br>
+							<h5>Enforcement Procedure</h5>
+							<p>If you are not satisfied with the response to your request, you may contact the complaints
+							office of the Austrian Research Promotion Agency (FFG):
+							<br><a href="https://www.digitalbarrierefrei.at/en/submit-a-complain" target="_blank">https://www.digitalbarrierefrei.at/en/submit-a-complain</a>
+							</p>
+							
+					</div>
+                    </section>
+                    <section class="card about-block" id="contact">
+                        <div class="card-header">
+                            <h3>Contact</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>For questions regarding the rKTs database or to report errors, please contact Bruno Lainé at: <a href="mailto:brunogml@gmail.com">brunogml@gmail.com</a></p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script> Resources for Kanjur and Tanjur Studies (rKTs). Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>. <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>

@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bodong Panchen — bka' 'bum portal</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<style>
+/* ── typography ── */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;1,400&display=swap');
+
+body { font-family: 'Noto Serif', Georgia, serif; background: #f8f5ef; color: #1a1a1a; font-size: 15px; }
+
+/* ── header ── */
+#site-header { background: #1c1830; color: #e8e0cc; padding: .75rem 1.25rem; display: flex; align-items: baseline; gap: 1rem; }
+#site-header .orn { color: #c5943a; font-size: 1.4rem; }
+#site-header h1 { font-size: 1.05rem; font-weight: 500; margin: 0; }
+#site-header .sub { font-size: .78rem; color: #9e94a8; font-style: italic; }
+
+/* ── nav tabs ── */
+#main-tabs .nav-link { font-size: .82rem; color: #555; padding: .4rem .9rem; border-radius: 0; border: none; border-bottom: 2px solid transparent; }
+#main-tabs .nav-link.active { color: #1c1830; border-bottom-color: #c5943a; font-weight: 500; background: none; }
+#main-tabs { border-bottom: 1px solid #ddd; padding: .5rem 1rem 0; background: #fff; }
+
+/* ── home tab ── */
+#tab-home { max-width: 720px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+.home-ornament { font-size: 2.8rem; color: #c5943a; line-height: 1; margin-bottom: 1rem; }
+.home-title { font-size: 1.5rem; font-weight: 500; color: #1c1830; margin-bottom: .2rem; }
+.home-tibetan { font-size: 1.05rem; color: #7a6a50; font-style: italic; margin-bottom: .1rem; }
+.home-dates { font-size: .82rem; color: #999; font-family: var(--bs-font-monospace); margin-bottom: 1.8rem; }
+.home-body { font-size: .95rem; line-height: 1.85; color: #2a2520; }
+.home-body p { margin-bottom: 1.1rem; }
+.home-divider { border: none; border-top: 1px solid #e0d8cc; margin: 1.8rem 0; }
+.home-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin: 1.8rem 0; }
+.home-stat { background: #fff; border: 1px solid #e8e0cc; border-radius: 6px; padding: .9rem 1rem; text-align: center; }
+.home-stat .sv { font-size: 1.6rem; font-weight: 500; color: #1c1830; font-family: var(--bs-font-monospace); }
+.home-stat .sl { font-size: .75rem; color: #888; margin-top: .2rem; }
+.home-nav-btns { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 2rem; }
+.home-nav-btn { background: #1c1830; color: #e8e0cc; border: none; border-radius: 5px; padding: .5rem 1.1rem; font-size: .85rem; cursor: pointer; font-family: 'Noto Serif', Georgia, serif; transition: background .15s; }
+.home-nav-btn:hover { background: #2e2848; }
+.home-nav-btn .btn-icon { color: #c5943a; margin-right: .35rem; }
+#hl-search { max-width: 480px; }
+.hl-item { cursor: pointer; padding: .45rem .7rem; border-radius: 4px; border-left: 2px solid transparent; transition: background .1s; }
+.hl-item:hover { background: #f0ece3; border-left-color: #c5943a; }
+.hl-ref { font-size: .72rem; color: #c5943a; font-family: monospace; font-weight: 600; }
+.hl-tib { font-size: .93rem; }
+.hl-loc { font-size: .72rem; color: #888; font-family: monospace; }
+mark { background: #fde68a; border-radius: 2px; padding: 0 1px; }
+
+/* ── reader layout ── */
+#reader-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 0; height: calc(100vh - 108px); overflow: hidden; }
+#img-pane { background: #2a2520; display: flex; flex-direction: column; overflow: hidden; }
+#img-toolbar { background: #1c1830; color: #e8e0cc; padding: .35rem .7rem; display: flex; align-items: center; gap: .5rem; font-size: .78rem; flex-shrink: 0; }
+#img-toolbar button { background: none; border: 1px solid #4a4060; color: #ccc; border-radius: 3px; padding: .15rem .5rem; font-size: .78rem; cursor: pointer; }
+#img-toolbar button:hover { background: #3a3050; }
+#img-toolbar select { background: #2a2040; color: #ccc; border: 1px solid #4a4060; border-radius: 3px; padding: .15rem .4rem; font-size: .78rem; }
+#osd-wrap { flex: 1; position: relative; overflow: hidden; }
+#osd-viewer { width: 100%; height: 100%; background: #1a1510; }
+#img-loading { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  background: rgba(20,16,10,.7); color: #c5943a; font-size: .8rem; pointer-events: none; }
+#img-error-msg { position: absolute; inset: 0; display: none; align-items: center; justify-content: center;
+  background: rgba(20,16,10,.85); color: #e07050; font-size: .8rem; text-align: center; padding: 1rem; }
+#img-manifest { font-size: .68rem; color: #6a6080; padding: .2rem .7rem; flex-shrink: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#img-manifest a { color: #8a80b0; text-decoration: none; }
+#img-manifest a:hover { text-decoration: underline; }
+
+#text-pane { background: #fff; display: flex; flex-direction: column; overflow: hidden; border-left: 1px solid #ddd; }
+#text-toolbar { background: #f4f1eb; padding: .35rem .7rem; display: flex; align-items: center; gap: .5rem; font-size: .78rem; flex-shrink: 0; border-bottom: 1px solid #e0d8cc; }
+#text-toolbar button { background: none; border: 1px solid #bbb; border-radius: 3px; padding: .15rem .5rem; font-size: .78rem; cursor: pointer; }
+#text-toolbar button:hover { background: #ede7da; }
+#text-toolbar select { border: 1px solid #bbb; border-radius: 3px; padding: .15rem .4rem; font-size: .78rem; background: #fff; }
+#text-toolbar .pg-label { font-size: .72rem; color: #999; margin-left: auto; font-family: monospace; }
+
+#etext-body { flex: 1; overflow-y: auto; padding: .75rem 1rem; line-height: 1.9; }
+.et-folio-sep { font-size: .7rem; color: #c5943a; font-family: monospace; font-weight: 600; border-top: 1px solid #f0e8d8; margin: .6rem 0 .3rem; padding-top: .3rem; }
+.et-line { font-size: .87rem; color: #222; padding: .05rem 0; }
+.et-line .ln { font-size: .68rem; color: #bbb; font-family: monospace; margin-right: .4rem; user-select: none; }
+.et-line.current-folio { background: #fdf6e3; }
+.et-special { color: #7a5030; font-style: italic; }
+
+/* ── search tab ── */
+#ft-results .ft-hit { padding: .5rem .75rem; border-left: 2px solid #c5943a; margin-bottom: .5rem; cursor: pointer; background: #fff; border-radius: 0 4px 4px 0; }
+#ft-results .ft-hit:hover { background: #fdf6e3; }
+.ft-ref { font-size: .72rem; color: #888; font-family: monospace; }
+.ft-snip { font-size: .85rem; line-height: 1.7; }
+
+/* ── vol selector ── */
+#vol-selector { padding: .6rem 1rem; background: #fff; border-bottom: 1px solid #e8e0cc; display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; }
+#vol-selector label { font-size: .8rem; color: #666; }
+#vol-select { border: 1px solid #ccc; border-radius: 4px; padding: .2rem .5rem; font-size: .82rem; }
+
+/* ── status / error ── */
+.status-bar { font-size: .75rem; color: #888; padding: .2rem .7rem; flex-shrink: 0; font-family: monospace; }
+.img-error { color: #c5943a; font-size: .8rem; padding: 1rem; text-align: center; }
+
+/* ── responsive ── */
+@media (max-width: 768px) {
+  #reader-wrap { grid-template-columns: 1fr; height: auto; }
+  #img-pane { height: 50vh; }
+  #text-pane { height: 60vh; }
+}
+</style>
+</head>
+<body>
+
+<div id="site-header">
+  <span class="orn">༄</span>
+  <h1>Bodong Panchen Chokle Namgyal — bka' 'bum</h1>
+  <span class="sub">bo dong paṇ chen phyogs las rnam rgyal · 1376–1451</span>
+</div>
+
+<!-- Main tabs -->
+<div id="main-tabs" class="d-flex align-items-end gap-1">
+  <button class="nav-link active" data-tab="home" onclick="showTab('home',this)">Home</button>
+  <button class="nav-link" data-tab="handlist" onclick="showTab('handlist',this)">Handlist</button>
+  <button class="nav-link" data-tab="reader" onclick="showTab('reader',this)">Reader</button>
+  <button class="nav-link" data-tab="search" onclick="showTab('search',this)">Full-text search</button>
+</div>
+
+<!-- ══════════════ HOME TAB ══════════════ -->
+<div id="tab-home" class="tab-content">
+  <div class="home-ornament">༄</div>
+  <div class="home-title">Bodong Panchen Chokle Namgyal</div>
+  <div class="home-tibetan">bo dong paṇ chen phyogs las rnam rgyal — བོ་དོང་པཎ་ཆེན་ཕྱོགས་ལས་རྣམ་རྒྱལ</div>
+  <div class="home-dates">1376 – 1451</div>
+
+  <div class="home-stats">
+    <div class="home-stat"><div class="sv">137</div><div class="sl">volumes</div></div>
+    <div class="home-stat"><div class="sv" id="hl-stat">—</div><div class="sl">texts in handlist</div></div>
+    <div class="home-stat"><div class="sv">75+</div><div class="sl">years of composition</div></div>
+  </div>
+
+  <hr class="home-divider">
+
+  <div class="home-body">
+    <p>Bodong Panchen Chokle Namgyal was one of the most prolific scholars of fifteenth-century Tibet, a polymath whose output rivals the great encyclopaedists of any tradition. Born in 1376 in the Bo dong region of southern Tibet, he trained at the major monastic centres of his day before establishing himself as the pre-eminent authority of the Bo dong school, a lineage that traces its doctrinal roots to the eleventh-century master Bo dong Phyogs glang.</p>
+
+    <p>His collected works — the <em>bka' 'bum</em> — extend to 137 volumes and are preserved in a print made at Bo dong E monastery. The corpus is exceptional in its breadth: it encompasses works on Madhyamaka and Pramāṇa philosophy, Kālacakra and other tantra, sādhana literature, grammar, poetics, history, and an extensive personal correspondence. Particularly celebrated is his <em>Encyclopedia of Buddhist Doctrine</em> (<em>thub bstan rgya mtsho</em>), running to many dozens of volumes and covering virtually the full range of Indo-Tibetan learning.</p>
+
+    <p>Despite his stature, Bodong Panchen remains comparatively understudied in Western scholarship, in part because of the sheer scale of his output and the relative scarcity of critical editions. This portal makes the digitised <em>bka' 'bum</em> accessible for the first time in an integrated reading environment, combining manuscript images from the Buddhist Digital Resource Center (BDRC) with etext transcriptions and a searchable handlist.</p>
+  </div>
+
+  <hr class="home-divider">
+
+  <div class="home-nav-btns">
+    <button class="home-nav-btn" onclick="showTab('handlist', document.querySelector('[data-tab=handlist]'))">
+      <span class="btn-icon">☰</span> Browse handlist
+    </button>
+    <button class="home-nav-btn" onclick="showTab('reader', document.querySelector('[data-tab=reader]'))">
+      <span class="btn-icon">☷</span> Open reader
+    </button>
+    <button class="home-nav-btn" onclick="showTab('search', document.querySelector('[data-tab=search]'))">
+      <span class="btn-icon">🔍</span> Full-text search
+    </button>
+  </div>
+</div>
+
+<!-- ══════════════ HANDLIST TAB ══════════════ -->
+<div id="tab-handlist" class="tab-content p-3" style="display:none">
+  <div class="mb-2 d-flex gap-2 align-items-center" style="max-width:560px">
+    <input id="hl-search" type="text" class="form-control form-control-sm" placeholder="Search title (Wylie, Tibetan Unicode)…" oninput="filterHandlist()">
+    <button class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('hl-search').value='';filterHandlist()">✕</button>
+  </div>
+  <div id="hl-count" class="text-muted" style="font-size:.75rem;margin-bottom:.4rem"></div>
+  <div id="hl-list" style="max-height:calc(100vh - 180px);overflow-y:auto"></div>
+</div>
+
+<!-- ══════════════ READER TAB ══════════════ -->
+<div id="tab-reader" class="tab-content" style="display:none">
+  <div id="vol-selector">
+    <label>Volume:</label>
+    <select id="vol-select" onchange="loadVolume(this.value)"></select>
+    <span id="vol-info" style="font-size:.75rem;color:#999"></span>
+  </div>
+  <div id="reader-wrap">
+    <!-- image pane -->
+    <div id="img-pane">
+      <div id="img-toolbar">
+        <button onclick="stepPage(-1)" title="previous folio">◀</button>
+        <button onclick="stepPage(1)" title="next folio">▶</button>
+        <span style="color:#9e94a8">folio:</span>
+        <select id="folio-jump" onchange="jumpToFolio(this.value)" style="max-width:90px"></select>
+        <span id="img-status" style="color:#7a7090;margin-left:.3rem"></span>
+        <button onclick="osdReset()" style="margin-left:auto" title="reset view">⌂</button>
+      </div>
+      <div id="osd-wrap">
+        <div id="osd-viewer"></div>
+        <div id="img-loading">loading image…</div>
+        <div id="img-error-msg"></div>
+      </div>
+      <div id="img-manifest"></div>
+    </div>
+    <!-- text pane -->
+    <div id="text-pane">
+      <div id="text-toolbar">
+        <button onclick="stepPage(-1)">◀</button>
+        <button onclick="stepPage(1)">▶</button>
+        <span style="color:#999">folio:</span>
+        <strong id="text-folio-label" style="font-family:monospace;font-size:.82rem"></strong>
+        <span class="pg-label" id="text-pg-label"></span>
+      </div>
+      <div id="etext-body"><div class="text-muted p-3" style="font-size:.85rem">Select a volume to begin reading.</div></div>
+      <div class="status-bar" id="text-status"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════ SEARCH TAB ══════════════ -->
+<div id="tab-search" class="tab-content p-3" style="display:none">
+  <div class="mb-2 d-flex gap-2 align-items-center" style="max-width:560px">
+    <input id="ft-input" type="text" class="form-control form-control-sm" placeholder="Search across all loaded volumes (Wylie)…" oninput="ftSearch()">
+    <select id="ft-ctx" onchange="ftSearch()" style="border:1px solid #ccc;border-radius:4px;padding:.2rem .4rem;font-size:.8rem">
+      <option value="40">narrow context</option>
+      <option value="80" selected>normal context</option>
+      <option value="160">wide context</option>
+    </select>
+    <button class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('ft-input').value='';ftSearch()">✕</button>
+  </div>
+  <div id="ft-count" class="text-muted mb-2" style="font-size:.75rem"></div>
+  <div id="ft-results" style="max-height:calc(100vh - 180px);overflow-y:auto"></div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
+<script>
+/* ═══════════════════════════════════════════════
+   CONFIG
+═══════════════════════════════════════════════ */
+const DATA_BASE  = '../data/bodong';
+const ETEXT_BASE = DATA_BASE + '/etexts';
+const JSON_BASE  = DATA_BASE + '/json';
+const HL_PATH    = DATA_BASE + '/handlist.xml';
+const LIST_PATH  = DATA_BASE + '/list.txt';
+
+/* BDRC image URL — direct IIIF Image API render (no info.json).
+   https://iiif.bdrc.io/bdr:I{volref}::{volref}{file}.tif/full/max/0/default.png */
+function bdrcImageUrl(volref, file) {
+  return `https://iiif.bdrc.io/bdr:I${volref}::${volref}${file}.tif/full/max/0/default.png`;
+}
+
+/* ═══════════════════════════════════════════════
+   STATE
+═══════════════════════════════════════════════ */
+let volList    = [];
+let handlist   = [];
+let curVolref  = null;
+let curJson    = null;
+let curEtext   = null;  /* [{folio, lines:[{linenum,section,text}]}] keyed by folio */
+let curPages   = [];    /* ordered page list from JSON: [{pagination, section|psection, file}, …] */
+let curFolioIdx = 0;    /* index into curPages */
+let etextCache = {};
+let jsonCache  = {};
+let allEtextRaw = {};
+let osd        = null;
+
+/* ═══════════════════════════════════════════════
+   OPENSEADRAGON INIT
+═══════════════════════════════════════════════ */
+function initOsd() {
+  osd = OpenSeadragon({
+    id:                    'osd-viewer',
+    prefixUrl:             'https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/images/',
+    showNavigationControl: true,
+    showRotationControl:   true,
+    animationTime:         0.3,
+    blendTime:             0.1,
+    constrainDuringPan:    false,
+    maxZoomPixelRatio:     4,
+    minZoomImageRatio:     0.5,
+    visibilityRatio:       0.5,
+    defaultZoomLevel:      0,
+    navigatorPosition:     'BOTTOM_RIGHT',
+    navigatorSizeRatio:    0.15,
+  });
+
+  osd.addHandler('open', () => {
+    document.getElementById('img-loading').style.display = 'none';
+    document.getElementById('img-error-msg').style.display = 'none';
+  });
+  osd.addHandler('open-failed', (e) => {
+    const ts = e && e.options && e.options.tileSource;
+    const url = ts ? (typeof ts === 'string' ? ts : ts.url || '') : '';
+    showImgError(`Failed to load image${url ? ':\n' + url : ''}`);
+  });
+}
+
+function showImgLoading() {
+  document.getElementById('img-loading').style.display = 'flex';
+  document.getElementById('img-error-msg').style.display = 'none';
+}
+function showImgError(msg) {
+  document.getElementById('img-loading').style.display = 'none';
+  const el = document.getElementById('img-error-msg');
+  el.textContent = msg;
+  el.style.display = 'flex';
+}
+function osdReset() { if (osd) osd.viewport.goHome(true); }
+
+/* Open a folio image in OSD as a plain image (BDRC IIIF Image API static render) */
+function openFolioImage(volref, file) {
+  if (!osd) return;
+  showImgLoading();
+  const url = bdrcImageUrl(volref, file);
+  document.getElementById('img-manifest').innerHTML =
+    `<a href="${url}" target="_blank">${url}</a>`;
+  osd.open({ type: 'image', url });
+}
+
+/* ═══════════════════════════════════════════════
+   TAB SWITCHING
+═══════════════════════════════════════════════ */
+function showTab(name, btn) {
+  document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
+  document.querySelectorAll('#main-tabs .nav-link').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).style.display = 'block';
+  btn.classList.add('active');
+  if (name === 'reader' && volList.length && !curVolref) loadVolume(volList[0].volref);
+}
+
+/* ═══════════════════════════════════════════════
+   INIT
+═══════════════════════════════════════════════ */
+async function init() {
+  initOsd();
+  await Promise.all([loadList(), loadHandlist()]);
+}
+
+async function loadList() {
+  try {
+    const txt = await fetchText(LIST_PATH);
+    volList = txt.trim().split(/\r?\n/).map(line => {
+      const [volno, volref] = line.split(';');
+      return { volno: parseInt(volno), volref: volref.trim() };
+    });
+    const sel = document.getElementById('vol-select');
+    volList.forEach(v => {
+      const opt = document.createElement('option');
+      opt.value = v.volref;
+      opt.textContent = `Vol. ${v.volno} (${v.volref})`;
+      sel.appendChild(opt);
+    });
+  } catch(e) { console.error('list.txt:', e); }
+}
+
+async function loadHandlist() {
+  try {
+    let xml = await fetchText(HL_PATH);
+    /* Fix known malformed closing tag: </Bd> should be </ref> */
+    xml = xml.replace(/<\/Bd>/gi, '</ref>');
+    /* Parse as text/html so the browser tolerates any remaining quirks */
+    const doc = new DOMParser().parseFromString(xml, 'text/html');
+    handlist = Array.from(doc.querySelectorAll('item')).map(item => ({
+      ref:     (item.querySelector('ref')     || {}).textContent?.trim() || '',
+      tib:     (item.querySelector('tib')     || {}).textContent?.trim() || '',
+      vol:     (item.querySelector('vol')     || {}).textContent?.trim() || '',
+      section: (item.querySelector('section') || {}).textContent?.trim() || '',
+      page:    (item.querySelector('page')    || {}).textContent?.trim() || '',
+    }));
+    renderHandlist(handlist);
+  } catch(e) {
+    console.error('handlist.xml:', e);
+    document.getElementById('hl-list').innerHTML =
+      '<div class="text-muted p-2">Could not load handlist.xml</div>';
+  }
+}
+
+/* ═══════════════════════════════════════════════
+   HANDLIST
+═══════════════════════════════════════════════ */
+function renderHandlist(items) {
+  const q = document.getElementById('hl-search').value.trim();
+  const total = handlist.length || items.length;
+  document.getElementById('hl-count').textContent =
+    items.length + ' text' + (items.length !== 1 ? 's' : '');
+  const statEl = document.getElementById('hl-stat');
+  if (statEl) statEl.textContent = total;
+  document.getElementById('hl-list').innerHTML = items.map(it => `
+    <div class="hl-item" onclick="openFromHandlist('${it.vol}','${it.page}')">
+      <span class="hl-ref">${it.ref}</span>
+      <span class="hl-tib ms-2">${hlMark(it.tib, q)}</span>
+      <span class="hl-loc ms-2">vol. ${it.vol} · f. ${it.page}</span>
+    </div>`).join('');
+}
+
+function filterHandlist() {
+  const q = document.getElementById('hl-search').value.trim().toLowerCase();
+  renderHandlist(q
+    ? handlist.filter(it => it.tib.toLowerCase().includes(q) || it.ref.toLowerCase().includes(q))
+    : handlist);
+}
+
+function hlMark(text, q) {
+  if (!q) return text;
+  const re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+  return text.replace(re, '<mark>$1</mark>');
+}
+
+async function openFromHandlist(vol, pageRange) {
+  const startFolio = pageRange.split('-')[0].replace(/\d+$/, '').trim();
+  showTab('reader', document.querySelector('[data-tab="reader"]'));
+  await loadVolume(vol);
+  const norm = normFolio(startFolio);
+  const idx = curPages.findIndex(p => normFolio(p.pagination) === norm);
+  if (idx >= 0) { curFolioIdx = idx; renderFolio(); }
+}
+
+/* ═══════════════════════════════════════════════
+   VOLUME LOADING
+═══════════════════════════════════════════════ */
+async function loadVolume(volref) {
+  if (!volref) return;
+  document.getElementById('vol-select').value = volref;
+  curVolref = volref;
+  document.getElementById('vol-info').textContent = 'loading…';
+
+  const [json, etext] = await Promise.all([loadJson(volref), loadEtext(volref)]);
+  curJson = json;
+  curEtext = etext;
+  curFolioIdx = 0;
+
+  /* Build ordered page list from JSON — each entry is one navigable page.
+     Sort numerically by key so order matches the manuscript sequence. */
+  curPages = Object.keys(json)
+    .sort((a, b) => parseInt(a) - parseInt(b))
+    .map(k => json[k]);   /* [{pagination, section|psection, file}, …] */
+
+  /* Populate folio jump from JSON page list */
+  const sel = document.getElementById('folio-jump');
+  sel.innerHTML = curPages.map((p, i) => {
+    const sec = p.section ?? p.psection ?? null;
+    const label = p.pagination + (curPages.filter(x => x.pagination === p.pagination).length > 1 && sec ? ' §' + sec : '');
+    return `<option value="${i}">${label}</option>`;
+  }).join('');
+
+  const info = volList.find(v => v.volref === volref);
+  document.getElementById('vol-info').textContent =
+    info ? `vol. ${info.volno} · ${curPages.length} pages` : `${curPages.length} pages`;
+
+  renderFolio();
+}
+
+async function loadJson(volref) {
+  if (jsonCache[volref]) return jsonCache[volref];
+  try {
+    const text = await fetchText(`${JSON_BASE}/${volref}.json`);
+    jsonCache[volref] = JSON.parse(text);
+    return jsonCache[volref];
+  } catch(e) {
+    console.error(`JSON load failed for ${volref}:`, e.message);
+    document.getElementById('text-status').textContent =
+      `⚠ Could not load ${JSON_BASE}/${volref}.json — ${e.message}`;
+    return {};
+  }
+}
+
+async function loadEtext(volref) {
+  if (etextCache[volref]) return etextCache[volref];
+  try {
+    const raw = await fetchText(`${ETEXT_BASE}/${volref}V2.txt`);
+    allEtextRaw[volref] = raw;
+    etextCache[volref] = parseEtext(raw);
+    return etextCache[volref];
+  } catch(e) { console.warn('etext missing:', volref); return []; }
+}
+
+/* ═══════════════════════════════════════════════
+   ETEXT PARSER   @0001a.1(1): text
+═══════════════════════════════════════════════ */
+function parseEtext(raw) {
+  const folioMap = new Map();
+  for (const line of raw.split(/\r?\n/)) {
+    const m = line.match(/^@0*(\d+[ab])\.(\d+)\((\d+)\):\s*(.*)/);
+    if (!m) continue;
+    const [, folio, linenum, section, text] = m;
+    if (!folioMap.has(folio)) folioMap.set(folio, { folio, lines: [] });
+    folioMap.get(folio).lines.push({ linenum, section, text });
+  }
+  return Array.from(folioMap.values());
+}
+
+function normFolio(f) { return String(f).replace(/^0+/, '').toLowerCase(); }
+
+function jsonEntryForFolio(folio) {
+  if (!curJson) return null;
+  const keys = Object.keys(curJson);
+  if (keys.length === 0) return null;
+  const norm = normFolio(folio);
+  for (const key of keys) {
+    if (normFolio(curJson[key].pagination) === norm) return curJson[key];
+  }
+  return null;
+}
+
+/* ═══════════════════════════════════════════════
+   RENDER FOLIO
+═══════════════════════════════════════════════ */
+function renderFolio() {
+  if (!curPages || !curPages.length) return;
+  const page = curPages[curFolioIdx];
+  if (!page) return;
+
+  const { pagination, file } = page;
+  const psection = page.section ?? page.psection ?? null;
+
+  document.getElementById('folio-jump').value = curFolioIdx;
+  document.getElementById('img-status').textContent = pagination;
+
+  /* IMAGE */
+  if (file) {
+    openFolioImage(curVolref, file);
+  } else {
+    showImgError(`No image file for ${pagination}`);
+    document.getElementById('img-manifest').textContent = '';
+  }
+
+  /* TEXT — find the etext folio entry, filter to psection */
+  const norm = normFolio(pagination);
+  const folioEntry = curEtext ? curEtext.find(f => normFolio(f.folio) === norm) : null;
+  const lines = folioEntry
+    ? (psection != null ? folioEntry.lines.filter(l => l.section === String(psection)) : folioEntry.lines)
+    : [];
+
+  document.getElementById('text-folio-label').textContent = pagination;
+  document.getElementById('text-pg-label').textContent =
+    `${curFolioIdx + 1} / ${curPages.length}`;
+
+  const body = document.getElementById('etext-body');
+  const secLabel = psection != null ? ` · §${psection}` : '';
+  body.innerHTML = `<div class="et-folio-sep">f. ${pagination}${secLabel}</div>` +
+    (lines.length
+      ? lines.map(l => {
+          const sp = l.text.startsWith('@#') ? ' et-special' : '';
+          return `<div class="et-line${sp}"><span class="ln">${l.linenum}</span>${escHtml(l.text)}</div>`;
+        }).join('')
+      : folioEntry
+        ? `<div class="text-muted p-2" style="font-size:.82rem">No lines for §${psection} on f. ${pagination}.</div>`
+        : `<div class="text-muted p-2" style="font-size:.82rem">No etext for f. ${pagination}.</div>`
+    );
+  body.scrollTop = 0;
+
+  document.getElementById('text-status').textContent =
+    `vol. ${curVolref} · f. ${pagination}${secLabel} · ${lines.length} line${lines.length !== 1 ? 's' : ''} · img ${file}`;
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+/* ═══════════════════════════════════════════════
+   NAVIGATION
+═══════════════════════════════════════════════ */
+function stepPage(d) {
+  if (!curPages || !curPages.length) return;
+  const next = curFolioIdx + d;
+  if (next < 0 || next >= curPages.length) return;
+  curFolioIdx = next;
+  renderFolio();
+}
+function jumpToFolio(idx) { curFolioIdx = parseInt(idx); renderFolio(); }
+
+/* ═══════════════════════════════════════════════
+   FULL-TEXT SEARCH
+═══════════════════════════════════════════════ */
+async function ftSearch() {
+  const q   = document.getElementById('ft-input').value.trim().toLowerCase();
+  const ctx = parseInt(document.getElementById('ft-ctx').value);
+  const box = document.getElementById('ft-results');
+  const cEl = document.getElementById('ft-count');
+
+  if (!q || q.length < 2) {
+    box.innerHTML = '';
+    cEl.textContent = 'Enter at least 2 characters.';
+    return;
+  }
+
+  cEl.textContent = 'Searching…';
+  const toLoad = volList.filter(v => !allEtextRaw[v.volref]);
+  if (toLoad.length) {
+    cEl.textContent = `Loading ${toLoad.length} volume(s)…`;
+    await Promise.all(toLoad.map(v => loadEtext(v.volref)));
+  }
+
+  const hits = [];
+  for (const v of volList) {
+    const raw = allEtextRaw[v.volref];
+    if (!raw) continue;
+    for (const line of raw.split(/\r?\n/)) {
+      const m = line.match(/^@0*(\d+[ab])\.(\d+)\((\d+)\):\s*(.*)/);
+      if (!m) continue;
+      if (m[4].toLowerCase().includes(q))
+        hits.push({ volref: v.volref, volno: v.volno, folio: m[1], linenum: m[2], section: m[3], text: m[4] });
+    }
+  }
+
+  cEl.textContent = hits.length + ' occurrence' + (hits.length !== 1 ? 's' : '') +
+    ' in ' + new Set(hits.map(h => h.volref)).size + ' volume(s)';
+
+  if (!hits.length) { box.innerHTML = '<div class="text-muted p-2">No results.</div>'; return; }
+
+  box.innerHTML = hits.slice(0, 200).map(h =>
+    `<div class="ft-hit" onclick="gotoHit('${h.volref}','${h.folio}','${h.section}')">
+      <div class="ft-ref">vol. ${h.volref} · f. ${h.folio} · §${h.section} · line ${h.linenum}</div>
+      <div class="ft-snip">${hlSnip(h.text, q, ctx)}</div>
+    </div>`).join('');
+  if (hits.length > 200)
+    box.innerHTML += `<div class="text-muted p-2" style="font-size:.75rem">${hits.length-200} more — refine query.</div>`;
+}
+
+function hlSnip(text, q, ctxChars) {
+  const lo = text.toLowerCase();
+  const idx = lo.indexOf(q);
+  if (idx < 0) return escHtml(text);
+  /* collect all match positions */
+  const matches = [];
+  let pos = 0;
+  while ((pos = lo.indexOf(q, pos)) !== -1) { matches.push(pos); pos += q.length; }
+  /* window around first match for display */
+  const start = Math.max(0, idx - ctxChars);
+  const end   = Math.min(text.length, idx + q.length + ctxChars);
+  const slice = text.slice(start, end);
+  const sliceLo = slice.toLowerCase();
+  /* highlight all occurrences within the slice */
+  let out = '';
+  let cur = 0;
+  let p = 0;
+  while ((p = sliceLo.indexOf(q, cur)) !== -1) {
+    out += escHtml(slice.slice(cur, p));
+    out += `<mark>${escHtml(slice.slice(p, p + q.length))}</mark>`;
+    cur = p + q.length;
+  }
+  out += escHtml(slice.slice(cur));
+  return (start > 0 ? '…' : '') + out + (end < text.length ? '…' : '');
+}
+
+async function gotoHit(volref, folio, section) {
+  showTab('reader', document.querySelector('[data-tab="reader"]'));
+  if (curVolref !== volref) await loadVolume(volref);
+  const norm = normFolio(folio);
+  /* prefer the page matching both folio and section; fall back to folio only */
+  let idx = curPages.findIndex(p =>
+    normFolio(p.pagination) === norm && String(p.section ?? p.psection) === String(section));
+  if (idx < 0) idx = curPages.findIndex(p => normFolio(p.pagination) === norm);
+  if (idx >= 0) { curFolioIdx = idx; renderFolio(); }
+}
+
+/* ═══════════════════════════════════════════════
+   UTILITY
+═══════════════════════════════════════════════ */
+async function fetchText(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`HTTP ${r.status} ${url}`);
+  return r.text();
+}
+
+init();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ══ Main ══════════════════════════════════════════════════════════════ -->
+    <div class="container mt-4">
+
+        <!-- Page heading + Tibetan toggle -->
+        <div class="mb-3 d-flex align-items-start justify-content-between">
+            <div>
+                <h4 class="mb-0">Title Search</h4>
+                <p class="text-muted small mb-0 mt-1">
+                    Search canonical titles across the rKTs standard list and all collection catalogs.
+                </p>
+            </div>
+            <button type="button" id="global-tib-toggle"
+                    class="btn btn-outline-secondary btn-sm tib-toggle-btn flex-shrink-0 mt-1"
+                    data-mode="ewts" title="Show in Tibetan script">
+                <i class="bi bi-translate"></i>
+            </button>
+        </div>
+
+        <!-- Search form -->
+        <div class="card mb-4">
+            <div class="card-body pb-2">
+                <div class="row g-2 align-items-end">
+                    <div class="col-12 col-md-8">
+                        <label for="text-input" class="form-label small text-muted mb-1">Title (EWTS or Tibetan Unicode)</label>
+                        <input type="text" id="text-input" class="form-control"
+                               placeholder="e.g. shes rab kyi pha rol tu phyin pa">
+                        <input type="hidden" id="typ-input" value="1">
+                    </div>
+                    <div class="col-12 col-md-4 d-flex gap-2 align-items-end">
+                        <button id="search-btn" class="btn btn-primary">
+                            <i class="bi bi-search"></i> Search
+                        </button>
+                        <a href="search.html" class="btn btn-outline-secondary">← New search</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading indicator -->
+        <div id="loading-indicator" class="text-center my-5">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading…</span>
+            </div>
+            <p class="text-muted mt-2 small" id="loading-msg">Loading data…</p>
+        </div>
+
+        <!-- Results area -->
+        <div id="results-area"></div>
+
+    </div><!-- /container -->
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- EwtsConverter JS port (BDRC, Apache 2.0) -->
+    <script src="../tools/EwtsConverter.js"></script>
+
+    <script>
+    /* ══════════════════════════════════════════════════════════════════════════
+       rKTs results.html  –  client-side port of results.php
+       Data sources (fetched via fetch()):
+         ../data/general/standard.xml
+         ../data/general/collections.json
+         ../data/general/natlang.xml
+         ../data/collections/{sigla}/{sigla}.xml
+    ══════════════════════════════════════════════════════════════════════════ */
+
+    /* ── 0. Paths ──────────────────────────────────────────────────────────── */
+    const PATHS = {
+        standard:    '../data/general/standard.xml',
+        collections: '../data/general/collections.json',
+        natlang:     '../data/general/natlang.xml',
+        colXml:      (sigla) => `../data/collections/${sigla}/${sigla}.xml`,
+        detail:      (id)    => `detail.html?id=${id}`,
+    };
+
+    /* ── 1. EWTS / Unicode helpers ─────────────────────────────────────────
+       EwtsConverter.js (BDRC port) exposes window.jsEWTS with two methods:
+         jsEWTS.fromWylie(ewts)    →  Tibetan Unicode string
+         jsEWTS.toWylie(unicode)   →  EWTS string
+       Falls back gracefully if the script failed to load.                 */
+
+    /**
+     * Convert input to EWTS.
+     * If the input looks like Tibetan Unicode (U+0F00–0FFF), convert Unicode→EWTS.
+     * Otherwise assume it is already EWTS/Latin and return normalised.
+     */
+    function toEwts(raw) {
+        if (!raw) return '';
+        // Detect Tibetan Unicode codepoints
+        if (/[\u0F00-\u0FFF]/.test(raw)) {
+            if (window.jsEWTS) {
+                try { return window.jsEWTS.toWylie(raw); } catch(e) {}
+            }
+            return raw; // fallback: keep as-is
+        }
+        // Already EWTS/latin — normalise multiple spaces
+        return raw.replace(/  +/g, ' ').trim();
+    }
+
+    /**
+     * Convert EWTS string to Tibetan Unicode.
+     */
+    function toUnicode(ewts) {
+        if (!ewts) return '';
+        if (window.jsEWTS) {
+            try { return window.jsEWTS.fromWylie(ewts); } catch(e) {}
+        }
+        return ewts; // fallback
+    }
+
+    /* ── 2. Highlight helpers ──────────────────────────────────────────────── */
+
+    function escapeHtml(s) {
+        return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+                .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+    }
+
+    function highlightTerm(h, needle) {
+        if (!needle) return h;
+        // Simple literal replacement (mirrors PHP str_replace approach)
+        const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        return h.replace(new RegExp(escaped, 'g'),
+                         '<mark class="rkts-hl">$&</mark>');
+    }
+
+    /* FIX 1: Build a single-pass regex from all tokens (longest first) so that
+       shorter tokens never re-match inside already-injected <mark> markup.     */
+    function highlightTokens(h, tokens) {
+        if (!tokens.length) return h;
+        const sorted = tokens.slice().sort((a, b) => b.length - a.length);
+        const pattern = sorted
+            .map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+            .join('|');
+        return h.replace(new RegExp(pattern, 'g'), '<mark class="rkts-hl">$&</mark>');
+    }
+
+    /* ── 3. Approximate token builder ─────────────────────────────────────── */
+
+    /**
+     * Strip natlang stopwords from EWTS query, return array of remaining tokens.
+     * FIX 2: Compare whole space-delimited syllables only, never strip stopwords
+     * as bare substrings — that was eating parts of words and leaving single-char
+     * tokens (e.g. 'a', 'i') that matched nearly every title.
+     *
+     * @param {string}   text       EWTS query (already normalised)
+     * @param {string[]} stopwords  items from natlang.xml
+     */
+    function buildApproxTokens(text, stopwords) {
+        const swSet = new Set(stopwords.map(s => s.trim()).filter(Boolean));
+        return text.split(' ')
+                   .map(s => s.trim())
+                   .filter(tok => tok && !swSet.has(tok));
+    }
+
+    /* ── 4. Canon utilities ────────────────────────────────────────────────── */
+
+    const CANON_MAP = { K:'Kanjur', T:'Tanjur', G:'OldTantra', B:'Bon' };
+
+    function rktsTypToCanonKey(typ) {
+        return CANON_MAP[typ] || '';
+    }
+
+    function genreToRktsTyp(genre) {
+        switch ((genre || '').toLowerCase().trim()) {
+            case 'kanjur':
+            case 'canonical collection': return 'K';
+            case 'tanjur':               return 'T';
+            case 'old tantra':           return 'G';
+            case 'bon canon':
+            case 'bon':                  return 'B';
+            default:                     return '';
+        }
+    }
+
+    /* ── 5. Match type ─────────────────────────────────────────────────────── */
+
+    /**
+     * FIX 2 (continued): approximate token matching uses whole-syllable
+     * (space-delimited) containment, not bare substring search.
+     * A token matches only if it appears surrounded by spaces (or at the
+     * start/end of the title string), preventing e.g. 'ba' from matching
+     * inside 'bshad', 'bzhi', etc.
+     */
+    function containsToken(tib, tok) {
+        // Pad both sides so boundary check is uniform
+        return (' ' + tib + ' ').includes(' ' + tok + ' ');
+    }
+
+    function matchType(tib, text, approxToks) {
+        if (tib.includes(text)) return 'exact';
+        if (approxToks.length > 0) {
+            for (const tok of approxToks) {
+                if (!containsToken(tib, tok)) return '';
+            }
+            return 'approx';
+        }
+        return '';
+    }
+
+    /* ── 6. Row builder ────────────────────────────────────────────────────── */
+
+    function makeRow(rktsNum, rktsTyp, ewts, isExact, text, ttext, approxToks) {
+        const uni = toUnicode(ewts);
+        let ewts_hl, uni_hl;
+        if (isExact) {
+            ewts_hl = highlightTerm(escapeHtml(ewts), escapeHtml(text));
+            uni_hl  = highlightTerm(escapeHtml(uni),  escapeHtml(ttext));
+        } else {
+            ewts_hl = highlightTokens(escapeHtml(ewts), approxToks.map(escapeHtml));
+            uni_hl  = highlightTokens(escapeHtml(uni),  approxToks.map(t => escapeHtml(toUnicode(t))));
+        }
+        return {
+            id:      rktsNum,   // numeric string
+            prefix:  rktsTyp,   // K / T / G / B
+            ewts_hl,
+            uni_hl,
+        };
+    }
+
+    /* ── 7. addMatch helper ────────────────────────────────────────────────── */
+
+    function addMatch(allMatches, canonKey, rktsInt, mtype, row) {
+        const existing = allMatches[canonKey][rktsInt];
+        if (!existing) {
+            allMatches[canonKey][rktsInt] = { type: mtype, row };
+            return;
+        }
+        // Upgrade approx → exact if we now have a better match type
+        if (mtype === 'exact' && existing.type === 'approx') {
+            allMatches[canonKey][rktsInt] = { type: 'exact', row };
+            return;
+        }
+        // Same match type: prefer the row whose displayed title visibly contains
+        // the search term over one that does not. This handles the case where
+        // standard.xml stores a canonical title that differs from the collection
+        // title that actually triggered the match.
+        if (mtype === existing.type && row.ewts_hl.includes('rkts-hl')) {
+            if (!existing.row.ewts_hl.includes('rkts-hl')) {
+                allMatches[canonKey][rktsInt] = { type: mtype, row };
+            }
+        }
+    }
+
+    /* ── 8. XML fetch helper ───────────────────────────────────────────────── */
+
+    async function fetchXml(url) {
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${url}`);
+        const text = await resp.text();
+        return new DOMParser().parseFromString(text, 'application/xml');
+    }
+
+    async function fetchJson(url) {
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${url}`);
+        return resp.json();
+    }
+
+    /* ── 9. Core search function ───────────────────────────────────────────── */
+
+    async function runSearch(rawText) {
+        setLoading(true, 'Loading standard catalog…');
+
+        /* 9a. Normalise query */
+        const text  = toEwts(rawText).replace(/  +/g, ' ').trim();
+        const ttext = toUnicode(text);   // Unicode version of query for display
+
+        /* 9b. Load natlang stopwords */
+        let stopwords = [];
+        try {
+            const nlXml = await fetchXml(PATHS.natlang);
+            stopwords = Array.from(nlXml.querySelectorAll('item')).map(el => el.textContent.trim());
+        } catch(e) { /* natlang missing — proceed without stopwords */ }
+
+        const approxToks = buildApproxTokens(text, stopwords);
+
+        /* 9c. Working structure */
+        const allMatches = { Kanjur:{}, Tanjur:{}, OldTantra:{}, Bon:{} };
+
+        /* 9d. Load standard.xml and build title lookup + search */
+        const standardTitles = {};   // [rktsTyp][rktsInt] = tib_ewts
+        try {
+            const stdXml = await fetchXml(PATHS.standard);
+            for (const item of stdXml.querySelectorAll('item')) {
+                const rktsTyp = (item.querySelector('rktsTyp')?.textContent || '').trim();
+                const rktsNum = (item.querySelector('rkts')?.textContent    || '').trim();
+                const tib     = (item.querySelector('tib')?.textContent     || '').trim();
+                const rktsInt = parseInt(rktsNum, 10);
+                if (rktsTyp && rktsInt) {
+                    if (!standardTitles[rktsTyp]) standardTitles[rktsTyp] = {};
+                    standardTitles[rktsTyp][rktsInt] = tib;
+                }
+                if (!rktsTyp || !rktsInt) continue;
+                const canonKey = rktsTypToCanonKey(rktsTyp);
+                if (!canonKey) continue;
+                const mt = matchType(tib, text, approxToks);
+                // DIAGNOSTIC — remove once bug is resolved
+                if ((rktsTyp === 'K') && (parseInt(rktsNum,10) === 451 || parseInt(rktsNum,10) === 452)) {
+                    console.log(`[diag std] rkts=${rktsNum} mt=${mt||'(none)'} tib="${tib}" approxToks=${JSON.stringify(approxToks)}`);
+                }
+                if (!mt) continue;
+                addMatch(allMatches, canonKey, rktsInt, mt,
+                    makeRow(rktsNum, rktsTyp, tib, mt === 'exact', text, ttext, approxToks));
+            }
+        } catch(e) {
+            console.warn('standard.xml load failed:', e);
+        }
+
+        /* 9e. Load collections.json and search per-collection XML files */
+        setLoading(true, 'Loading collection catalogs…');
+        let collections = [];
+        try {
+            collections = await fetchJson(PATHS.collections);
+        } catch(e) { console.warn('collections.json load failed:', e); }
+
+        let colsDone = 0;
+        const total  = collections.length;
+        for (const col of collections) {
+            const sigla = col.sigla || '';
+            const genre = col.genre || '';
+            if (!sigla) continue;
+
+            colsDone++;
+            if (colsDone % 10 === 0) {
+                setLoading(true, `Searching collections… (${colsDone}/${total})`);
+                // Yield to browser
+                await new Promise(r => setTimeout(r, 0));
+            }
+
+            let colXml;
+            try {
+                colXml = await fetchXml(PATHS.colXml(sigla));
+            } catch(e) { continue; }
+
+            // per-file dedup: [canonKey][rktsInt] = best match type seen in this file
+            const colSeen = {};
+
+            // Only top-level <item> children of the document (not nested inside
+            // <chapters> or other sub-elements that may reuse the same tag names)
+            for (const item of colXml.documentElement.children) {
+                if (item.tagName !== 'item') continue;
+                // Use direct-child helper — querySelector does a deep search and
+                // would pick up <rkts>, <tib> etc. nested inside <chapters>/<chapter>
+                const directChild = (tag) =>
+                    Array.from(item.children).find(el => el.tagName === tag);
+
+                const rktsNum = (directChild('rkts')?.textContent || '').trim();
+                const rktsInt = parseInt(rktsNum, 10);
+                const tib     = (directChild('tib')?.textContent  || '').trim();
+                if (!rktsInt) continue;
+
+                // Determine canon code: <cat> > <rktsTyp> > fallback from genre
+                let rktsTyp = '';
+                const catEl     = directChild('cat');
+                const rktsTypEl = directChild('rktsTyp');
+                if (catEl && catEl.textContent.trim())             rktsTyp = catEl.textContent.trim();
+                else if (rktsTypEl && rktsTypEl.textContent.trim()) rktsTyp = rktsTypEl.textContent.trim();
+                else rktsTyp = genreToRktsTyp(genre);
+                if (!rktsTyp) continue;
+
+                const canonKey = rktsTypToCanonKey(rktsTyp);
+                if (!canonKey) continue;
+
+                if (!colSeen[canonKey]) colSeen[canonKey] = {};
+                const prevInFile = colSeen[canonKey][rktsInt] ?? null;
+
+                const mt = matchType(tib, text, approxToks);
+                // DIAGNOSTIC — remove once bug is resolved
+                if (rktsInt === 451 || rktsInt === 452) {
+                    console.log(`[diag] ${sigla} rkts=${rktsInt} mt=${mt||'(none)'} tib="${tib}"`);
+                }
+                if (!mt) {
+                    if (prevInFile === null) colSeen[canonKey][rktsInt] = '';
+                    continue;
+                }
+                // Dedup within file
+                if (prevInFile === 'exact') continue;
+                if (prevInFile === 'approx' && mt === 'approx') continue;
+
+                colSeen[canonKey][rktsInt] = mt;
+
+                /* FIX 3: Only substitute the standard.xml title when it also
+                   contains the search term (exact) or all approx tokens.
+                   If the standard title doesn't match, display the collection
+                   title that actually matched — otherwise the result row shows
+                   a title that appears to have nothing to do with the query.  */
+                const stdTib = (standardTitles[rktsTyp] && standardTitles[rktsTyp][rktsInt])
+                               ? standardTitles[rktsTyp][rktsInt]
+                               : null;
+                const displayTib = (stdTib && matchType(stdTib, text, approxToks))
+                                   ? stdTib
+                                   : tib;
+
+                addMatch(allMatches, canonKey, rktsInt, mt,
+                    makeRow(rktsNum, rktsTyp, displayTib, mt === 'exact', text, ttext, approxToks));
+            }
+        }
+
+        /* 9f. Split into exact/approx, sort by rKTs number */
+        const results = {
+            Kanjur:    { exact:[], approx:[] },
+            Tanjur:    { exact:[], approx:[] },
+            OldTantra: { exact:[], approx:[] },
+            Bon:       { exact:[], approx:[] },
+        };
+        for (const [canonKey, entries] of Object.entries(allMatches)) {
+            const sorted = Object.entries(entries)
+                .sort((a, b) => parseInt(a[0], 10) - parseInt(b[0], 10));
+            for (const [, entry] of sorted) {
+                results[canonKey][entry.type].push(entry.row);
+            }
+        }
+
+        setLoading(false);
+        renderResults(text, ttext, results);
+    }
+
+    /* ── 10. Rendering ─────────────────────────────────────────────────────── */
+
+    const CANONS = [
+        { prefix:'K', label:'Kanjur',     tib:'བཀའ་འགྱུར།',  id:'Kanjur'    },
+        { prefix:'T', label:'Tanjur',     tib:'བསྟན་འགྱུར།', id:'Tanjur'    },
+        { prefix:'G', label:'Old Tantra', tib:'རྙིང་རྒྱུད།',  id:'OldTantra' },
+        { prefix:'B', label:'Bon Canon',  tib:'བོན།',          id:'Bon'       },
+    ];
+
+    function pluralise(n, singular) {
+        return `${n} ${singular}${n !== 1 ? 's' : ''}`;
+    }
+
+    function renderResults(text, ttext, results) {
+        const totalExact  = Object.values(results).reduce((s, r) => s + r.exact.length,  0);
+        const totalApprox = Object.values(results).reduce((s, r) => s + r.approx.length, 0);
+
+        const area = document.getElementById('results-area');
+
+        if (totalExact === 0 && totalApprox === 0) {
+            area.innerHTML = `<div class="alert alert-secondary">
+                No matches found for <strong>${escapeHtml(text)}</strong>.
+            </div>`;
+            return;
+        }
+
+        /* Summary bar */
+        let html = `<div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <strong>${totalExact}</strong> exact match${totalExact !== 1 ? 'es' : ''}
+                and <strong>${totalApprox}</strong> approximate match${totalApprox !== 1 ? 'es' : ''}
+                for <span class="text-danger fw-bold">${escapeHtml(text)}</span>
+            </div>
+        </div>`;
+
+        /* Canon tab bar */
+        html += '<div class="canon-tab-bar">';
+        CANONS.forEach((c, i) => {
+            const cntE = results[c.id].exact.length;
+            const cntA = results[c.id].approx.length;
+            html += `<button class="btn${i === 0 ? ' active' : ''}"
+                             onclick="showCanon('${c.id}', this)">
+                ${escapeHtml(c.label)}
+                <span class="tib">${c.tib}</span>
+                ${cntE > 0 ? `<span class="badge-cnt badge-exact" title="Exact matches">${cntE}</span>` : ''}
+                ${cntA > 0 ? `<span class="badge-cnt badge-approx" title="Approximate matches">~${cntA}</span>` : ''}
+            </button>`;
+        });
+        html += '</div>';
+
+        /* Canon panels */
+        CANONS.forEach((c, i) => {
+            const exactRows  = results[c.id].exact;
+            const approxRows = results[c.id].approx;
+            html += `<div id="panel-${c.id}" class="canon-panel" style="${i === 0 ? '' : 'display:none;'}">`;
+
+            /* Exact section */
+            html += `<div class="result-section-heading">
+                ${escapeHtml(c.label)} &mdash; exact match
+                <span class="cnt">${pluralise(exactRows.length, 'result')}</span>
+            </div>`;
+            if (exactRows.length === 0) {
+                html += '<div class="no-results">No exact matches found.</div>';
+            } else {
+                for (const row of exactRows) html += renderRow(row);
+            }
+
+            /* Approximate section */
+            html += `<div class="result-section-heading approx">
+                ${escapeHtml(c.label)} &mdash; approximate match
+                <span class="cnt">${pluralise(approxRows.length, 'result')}</span>
+            </div>`;
+            if (approxRows.length === 0) {
+                html += '<div class="no-results">No approximate matches found.</div>';
+            } else {
+                for (const row of approxRows) html += renderRow(row);
+            }
+
+            html += '</div><!-- /panel -->';
+        });
+
+        area.innerHTML = html;
+
+        // Re-apply Tibetan mode if already active
+        if (window.tibGlobalMode === 'unicode') applyTibMode('unicode');
+    }
+
+    function renderRow(row) {
+        const detailUrl = escapeHtml(PATHS.detail(row.prefix + row.id));
+        return `<div class="rkts-result">
+            <div class="rkts-result-header">
+                <a href="${detailUrl}" class="rkts-id">${escapeHtml(row.prefix + row.id)}</a>
+                <a href="${detailUrl}" title="Open catalogue entry">
+                    <i class="bi bi-box-arrow-up-right small text-muted"></i>
+                </a>
+            </div>
+            <div class="rkts-result-title">
+                <a href="${detailUrl}">
+                    <span class="script-text"
+                          data-lang="tib"
+                          data-hl-ewts="${escapeHtml(row.ewts_hl)}"
+                          data-hl-uni="${escapeHtml(row.uni_hl)}"
+                    >${row.ewts_hl}</span>
+                </a>
+            </div>
+        </div>`;
+    }
+
+    /* ── 11. Canon tab switcher ────────────────────────────────────────────── */
+
+    function showCanon(id, btn) {
+        document.querySelectorAll('.canon-panel').forEach(p => p.style.display = 'none');
+        document.querySelectorAll('.canon-tab-bar .btn').forEach(b => b.classList.remove('active'));
+        document.getElementById('panel-' + id).style.display = 'block';
+        btn.classList.add('active');
+    }
+
+    /* ── 12. Tibetan script toggle ─────────────────────────────────────────── */
+
+    window.tibGlobalMode = 'ewts';
+
+    function applyTibMode(mode) {
+        document.querySelectorAll('.script-text[data-lang="tib"]').forEach(el => {
+            if (el.dataset.hlEwts !== undefined) {
+                // innerHTML carries pre-computed highlighted HTML stored in data attrs
+                // data attrs store HTML-escaped + highlighted strings
+                el.innerHTML = (mode === 'unicode') ? el.dataset.hlUni : el.dataset.hlEwts;
+                el.classList.toggle('tib', mode === 'unicode');
+            }
+        });
+        const btn = document.getElementById('global-tib-toggle');
+        if (btn) {
+            btn.dataset.mode = mode;
+            btn.title   = (mode === 'unicode') ? 'Show in Wylie (EWTS)' : 'Show in Tibetan script';
+            btn.innerHTML = (mode === 'unicode')
+                ? '<span class="toggle-label">Abc</span>'
+                : '<i class="bi bi-translate"></i>';
+        }
+    }
+
+    document.addEventListener('click', e => {
+        if (e.target.closest('#global-tib-toggle')) {
+            window.tibGlobalMode = (window.tibGlobalMode === 'ewts') ? 'unicode' : 'ewts';
+            applyTibMode(window.tibGlobalMode);
+        }
+    });
+
+    /* ── 13. Loading indicator ─────────────────────────────────────────────── */
+
+    function setLoading(active, msg) {
+        const el = document.getElementById('loading-indicator');
+        el.classList.toggle('active', active);
+        if (msg) document.getElementById('loading-msg').textContent = msg;
+    }
+
+    /* ── 14. URL params + form wiring ──────────────────────────────────────── */
+
+    function getParam(name) {
+        return new URLSearchParams(window.location.search).get(name) || '';
+    }
+
+    function doSearch() {
+        const raw = document.getElementById('text-input').value.trim();
+        if (!raw) return;
+        // Update URL without reload
+        const url = new URL(window.location);
+        url.searchParams.set('text', raw);
+        url.searchParams.set('typ',  '1');
+        history.pushState({}, '', url);
+        document.getElementById('results-area').innerHTML = '';
+        runSearch(raw).catch(err => {
+            setLoading(false);
+            document.getElementById('results-area').innerHTML =
+                `<div class="alert alert-danger">Search error: ${escapeHtml(err.message)}</div>`;
+        });
+    }
+
+    document.getElementById('search-btn').addEventListener('click', doSearch);
+    document.getElementById('text-input').addEventListener('keydown', e => {
+        if (e.key === 'Enter') doSearch();
+    });
+
+    // On load: read ?text= from URL
+    window.addEventListener('DOMContentLoaded', () => {
+        const raw = getParam('text');
+        if (raw) {
+            document.getElementById('text-input').value = raw;
+            runSearch(raw).catch(err => {
+                setLoading(false);
+                document.getElementById('results-area').innerHTML =
+                    `<div class="alert alert-danger">Search error: ${escapeHtml(err.message)}</div>`;
+            });
+        }
+    });
+    </script>
+
+</body>
+</html>

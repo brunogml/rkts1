@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs – Parallel View</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
+
+    <style>
+        html, body { height: 100%; margin: 0; padding: 0; overflow: hidden; background: #1a1a1a; color: #e0e0e0; }
+
+        /* Top bar */
+        #topbar {
+            height: 46px; background: #fff; border-bottom: 1px solid #dee2e6;
+            display: flex; align-items: center; gap: 0.8rem;
+            padding: 0 0.9rem; flex-shrink: 0; overflow: hidden;
+        }
+        #topbar .logo img      { height: 28px; width: auto; display: block; }
+        #topbar .logo-text     { color: #2c4a6e; font-weight: 700; font-size: 1.05rem; letter-spacing: 0.03em; }
+        #topbar .divider       { width: 1px; height: 22px; background: #dee2e6; flex-shrink: 0; }
+        #topbar .meta-item     { font-size: 0.75rem; color: #6c757d; white-space: nowrap; }
+        #topbar .meta-item strong { color: #343a40; font-weight: 600; }
+        #topbar .back-link     { color: #2c6fad; font-size: 0.82rem; text-decoration: none; white-space: nowrap; }
+        #topbar .back-link:hover { color: #1a4f8a; text-decoration: underline; }
+
+        /* Provenance badges */
+        .prov-group      { display: flex; align-items: center; gap: 0.35rem; flex-shrink: 0; }
+        .prov-label      { font-size: 0.68rem; color: #adb5bd; text-transform: uppercase; letter-spacing: 0.06em; white-space: nowrap; }
+        .prov-logo-link  { display: inline-flex; align-items: center; text-decoration: none; opacity: 0.85; transition: opacity 0.15s; }
+        .prov-logo-link:hover { opacity: 1; }
+        .prov-logo-link img { height: 22px; width: auto; display: block; border-radius: 2px; }
+        .prov-fallback   { font-size: 0.75rem; font-weight: 700; color: #2c4a6e; padding: 1px 5px; border: 1px solid #c8d6e5; border-radius: 3px; background: #f0f5fb; white-space: nowrap; }
+
+        #coll-title-strip { font-size: 0.78rem; color: #343a40; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1 1 0; min-width: 0; }
+        #coll-title-strip .coll-name { font-weight: 700; color: #1a3e72; }
+        #coll-title-strip .vol-name  { color: #6c757d; }
+        .parallel-arrow  { color: #adb5bd; font-size: 0.9rem; flex-shrink: 0; }
+        .parallel-badge  {
+            display: inline-flex; align-items: center; gap: 0.35rem;
+            background: #e8f0f8; border: 1px solid #c8d6e5; border-radius: 4px;
+            padding: 1px 7px; font-size: 0.75rem; color: #2c4a6e; font-weight: 600; white-space: nowrap;
+        }
+
+        /* Nav bar */
+        #nav-bar {
+            height: 40px; background: #f8f9fa; border-bottom: 1px solid #dee2e6;
+            display: flex; align-items: center; gap: 0.4rem;
+            padding: 0 0.9rem; flex-shrink: 0;
+        }
+        #page-label    { font-size: 0.9rem; min-width: 76px; text-align: center; color: #343a40; font-weight: 600; }
+        #section-label { font-size: 0.72rem; color: #6c757d; margin-left: 0.3rem; }
+        #page-count    { font-size: 0.72rem; color: #adb5bd; }
+        #page-input    {
+            width: 68px; font-size: 0.82rem; background: #fff;
+            border: 1px solid #ced4da; color: #343a40; border-radius: 3px;
+            padding: 2px 6px; text-align: center;
+        }
+        #page-input:focus { outline: none; border-color: #2c6fad; box-shadow: 0 0 0 2px rgba(44,111,173,0.15); }
+        #nav-right     { margin-left: auto; display: flex; align-items: center; gap: 0.4rem; }
+
+        /* Main layout */
+        #main-area   { display: flex; flex-direction: column; height: calc(100vh - 46px - 40px); overflow: hidden; }
+        #viewer-row  { display: flex; height: 100%; flex-shrink: 0; min-height: 100px; overflow: hidden; }
+
+        /* Viewer */
+        #viewer-wrap { position: relative; flex: 1 1 0; min-width: 0; background: #111; }
+        #viewer      { width: 100%; height: 100%; }
+
+        /* Info panel */
+        #info-panel         { width: 260px; min-width: 180px; flex-shrink: 0; background: #fff; border-left: 1px solid #dee2e6; display: flex; flex-direction: column; overflow: hidden; }
+        #info-panel-header  { padding: 0.4rem 0.8rem; background: #f8f9fa; border-bottom: 1px solid #dee2e6; flex-shrink: 0; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #6c757d; font-weight: 700; }
+        #info-panel-body    { flex: 1 1 0; overflow-y: auto; padding: 0.75rem 0.85rem; }
+        .info-section       { margin-bottom: 1rem; }
+        .info-label         { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.07em; color: #adb5bd; font-weight: 700; margin-bottom: 0.3rem; }
+        .info-row           { font-size: 0.8rem; color: #212529; line-height: 1.6; padding: 0.25rem 0.5rem; background: #f8f9fa; border-left: 2px solid #c8d6e5; border-radius: 0 3px 3px 0; margin-bottom: 0.3rem; }
+        .info-row .lbl      { color: #6c757d; font-size: 0.72rem; display: block; }
+        .info-row .val      { color: #212529; font-weight: 600; font-family: monospace; }
+        .citation-box       { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 4px; padding: 0.5rem 0.6rem; font-size: 0.78rem; color: #495057; line-height: 1.5; }
+        .citation-url       { font-family: monospace; font-size: 0.7rem; color: #6c757d; word-break: break-all; margin-top: 0.3rem; display: block; }
+        .source-link        { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; color: #2c6fad; text-decoration: none; padding: 3px 7px; border: 1px solid #c8d6e5; border-radius: 3px; background: #f0f5fb; }
+        .source-link:hover  { background: #dceaf8; color: #1a4f8a; }
+
+        /* IIIF bar */
+        #manifest-bar   { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.55); backdrop-filter: blur(2px); padding: 2px 8px; display: flex; align-items: center; gap: 0.3rem; font-size: 0.68rem; font-family: monospace; white-space: nowrap; overflow: hidden; z-index: 5; }
+        #manifest-label { color: #adb5bd; flex-shrink: 0; }
+        #manifest-url   { color: #6ea8d8; text-overflow: ellipsis; overflow: hidden; text-decoration: none; }
+        #manifest-url:hover { color: #90c4f0; text-decoration: underline; }
+
+        /* Overlays */
+        #loading-overlay { position: absolute; inset: 0; display: none; align-items: center; justify-content: center; flex-direction: column; gap: 0.8rem; background: #111; z-index: 10; }
+        #loading-overlay .spinner-border { width: 2.2rem; height: 2.2rem; color: #6ea8d8; }
+        #loading-overlay .load-msg { font-size: 0.8rem; color: #666; }
+        #error-overlay  { position: absolute; inset: 0; display: none; align-items: center; justify-content: center; background: #111; z-index: 10; }
+        #error-overlay .alert { background: #2a1a1a; border-color: #6b2a2a; color: #e8a0a0; max-width: 480px; }
+
+        /* Buttons */
+        .btn-nav { background: #fff; border: 1px solid #ced4da; color: #495057; padding: 2px 9px; border-radius: 3px; font-size: 0.82rem; cursor: pointer; transition: background 0.1s; white-space: nowrap; line-height: 1.6; }
+        .btn-nav:hover:not(:disabled) { background: #e9ecef; color: #212529; border-color: #adb5bd; }
+        .btn-nav:disabled { opacity: 0.35; cursor: default; }
+        .btn-copy { margin-top: 0.4rem; font-size: 0.75rem; background: #fff; border: 1px solid #ced4da; color: #495057; border-radius: 3px; padding: 2px 8px; cursor: pointer; transition: background 0.1s; }
+        .btn-copy:hover   { background: #e9ecef; }
+        .btn-copy.copied  { background: #d4edda; border-color: #5a9e6f; color: #2d6a4f; }
+    </style>
+</head>
+<body>
+
+<!-- Error state (shown before JS runs if params missing) -->
+<div id="error-state" style="display:none;align-items:center;justify-content:center;height:100vh;background:#1a1a1a;">
+    <div class="alert" style="background:#2a1a1a;border-color:#6b2a2a;color:#e8a0a0;max-width:520px;border-radius:6px;padding:1.2rem 1.5rem;">
+        <i class="bi bi-exclamation-triangle me-2"></i>
+        <strong>Parallel volume lookup failed</strong><br>
+        <span id="error-state-msg" style="font-size:0.88rem;"></span>
+        <hr style="border-color:#6b2a2a;margin:0.8rem 0;">
+        <a id="error-back-link" href="images.html" style="color:#6ea8d8;font-size:0.85rem;">
+            <i class="bi bi-arrow-left me-1"></i>Back to primary volume
+        </a>
+    </div>
+</div>
+
+<!-- Top bar -->
+<div id="topbar">
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../configuration/rkts-logo.png" alt="rKTs"
+                 onerror="this.style.display='none';document.getElementById('logo-fallback').style.display='block'">
+        </a>
+        <span id="logo-fallback" class="logo-text" style="display:none">rKTs</span>
+    </div>
+    <div class="divider"></div>
+    <a href="images.html" class="back-link" id="back-link" title="Back to primary volume">
+        <i class="bi bi-arrow-left me-1"></i><span id="back-label">Primary</span>
+    </a>
+    <div class="divider"></div>
+    <div id="coll-title-strip">
+        <span class="meta-item"><strong>Coll&nbsp;</strong><span id="meta-coll">—</span></span>
+        <span id="coll-full-name" style="display:none">
+            &ensp;<span class="coll-name" id="coll-name-text"></span>
+        </span>
+        <span id="vol-name-wrap" style="display:none">
+            &ensp;<span class="vol-name" id="vol-name-text"></span>
+        </span>
+    </div>
+    <div class="meta-item"><strong>Set&nbsp;</strong><span id="meta-title">—</span></div>
+    <div class="meta-item"><strong>Vol&nbsp;</strong><span id="meta-vol">—</span><span id="meta-volname" style="color:#6c757d"></span></div>
+    <div class="meta-item" id="meta-sec-wrap" style="display:none"><strong>Sec&nbsp;</strong><span id="meta-sec">—</span></div>
+    <div class="divider"></div>
+    <span class="parallel-arrow"><i class="bi bi-arrow-right"></i></span>
+    <span class="parallel-badge">
+        <i class="bi bi-journals"></i>
+        <span id="parallel-badge-label">—</span>
+    </span>
+    <span class="meta-item" id="section-name-badge" style="color:#6c757d;font-size:0.72rem;display:none"></span>
+    <div style="margin-left:auto;display:flex;align-items:center;gap:0.6rem;" id="prov-area"></div>
+</div>
+
+<!-- Nav bar -->
+<div id="nav-bar">
+    <button class="btn-nav" id="btn-first" title="First page"><i class="bi bi-skip-start-fill"></i></button>
+    <button class="btn-nav" id="btn-prev"  title="Previous (←)"><i class="bi bi-chevron-left"></i></button>
+    <span id="page-label">—</span>
+    <button class="btn-nav" id="btn-next"  title="Next (→)"><i class="bi bi-chevron-right"></i></button>
+    <button class="btn-nav" id="btn-last"  title="Last page"><i class="bi bi-skip-end-fill"></i></button>
+    <span id="section-label"></span>
+    <div id="nav-right">
+        <span id="page-count"></span>
+        <input type="text" id="page-input" placeholder="go to…" title="Pagination label + Enter">
+        <button class="btn-nav" id="btn-home" title="Reset zoom"><i class="bi bi-arrows-fullscreen"></i></button>
+    </div>
+</div>
+
+<!-- Main area -->
+<div id="main-area">
+  <div id="viewer-row">
+
+    <!-- Viewer -->
+    <div id="viewer-wrap">
+        <div id="loading-overlay">
+            <div class="spinner-border" role="status"></div>
+            <div class="load-msg" id="load-msg">Loading…</div>
+        </div>
+        <div id="error-overlay">
+            <div class="alert">
+                <i class="bi bi-exclamation-triangle me-2"></i>
+                <span id="error-msg">Could not load image.</span>
+            </div>
+        </div>
+        <div id="viewer"></div>
+        <div id="manifest-bar">
+            <span id="manifest-label">IIIF&nbsp;</span>
+            <a id="manifest-url" href="#" target="_blank" title="Open info.json"></a>
+        </div>
+    </div>
+
+    <!-- Info panel -->
+    <div id="info-panel">
+        <div id="info-panel-header">Parallel Volume</div>
+        <div id="info-panel-body">
+
+            <div class="info-section">
+                <div class="info-label">Reference</div>
+                <div class="info-row">
+                    <span class="lbl">Parallel set</span>
+                    <span class="val" id="ip-parallel">—</span>
+                </div>
+                <div class="info-row">
+                    <span class="lbl">Volume id</span>
+                    <span class="val" id="ip-volparallel">—</span>
+                </div>
+                <div class="info-row" id="ip-section-row" style="display:none">
+                    <span class="lbl">Section</span>
+                    <span class="val" id="ip-section" style="font-family:inherit;"></span>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-label">Source volume</div>
+                <a href="images.html" class="source-link" id="source-link-dyn">
+                    <i class="bi bi-arrow-left-circle"></i>
+                    <span id="source-link-label">—</span>
+                </a>
+            </div>
+
+            <div class="info-section">
+                <div class="info-label">Citation</div>
+                <div id="citation-box" class="citation-box">—</div>
+            </div>
+
+        </div>
+    </div>
+
+  </div><!-- /viewer-row -->
+</div><!-- /main-area -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+(function () {
+    'use strict';
+
+    /* ── Paths ────────────────────────────────────────────────────────── */
+    const COLLS_URL = '../data/general/collections.json';
+    const COLL_BASE = '../data/collections';
+
+    /* ── URL params ───────────────────────────────────────────────────── */
+    const P        = new URLSearchParams(window.location.search);
+    const title    = (P.get('title')    || '').trim();  // primary constituent
+    const coll     = (P.get('coll')     || '').trim();  // sigla
+    const vol      = (P.get('vol')      || '').trim();  // primary volref
+    const sec      = (P.get('sec')      || '').trim();  // section
+    const startPage= (P.get('page')     || '').trim();  // starting pagination
+    const parallel = (P.get('parallel') || '').trim();  // parallel constituent
+    const rkts     = (P.get('rkts')     || '').trim();  // rKTs id for back-link
+
+    /* ── Helpers ──────────────────────────────────────────────────────── */
+    function esc(s) {
+        return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+    function buildBackUrl(page) {
+        const bp = new URLSearchParams();
+        if (title) bp.set('title', title);
+        if (coll)  bp.set('coll',  coll);
+        if (vol)   bp.set('vol',   vol);
+        if (sec)   bp.set('sec',   sec);
+        if (page)  bp.set('page',  page);
+        if (rkts)  bp.set('rkts',  rkts);
+        return 'images.html' + (bp.toString() ? '?' + bp.toString() : '');
+    }
+
+    /* ── Static topbar fill ───────────────────────────────────────────── */
+    document.getElementById('meta-coll').textContent  = coll  || '—';
+    document.getElementById('meta-title').textContent = title || '—';
+    document.getElementById('meta-vol').textContent   = vol   || '—';
+    if (sec) {
+        document.getElementById('meta-sec').textContent = sec;
+        document.getElementById('meta-sec-wrap').style.display = '';
+    }
+    document.getElementById('back-label').textContent = rkts || 'Primary';
+    document.getElementById('back-link').href         = buildBackUrl(startPage);
+    document.getElementById('ip-parallel').textContent    = parallel || '—';
+    document.getElementById('source-link-label').textContent =
+        [coll, title, vol].filter(Boolean).join(' / ');
+    document.getElementById('source-link-dyn').href = buildBackUrl(startPage);
+
+    /* ── Validate required params ─────────────────────────────────────── */
+    function fatalError(msg) {
+        document.getElementById('topbar').style.display    = 'none';
+        document.getElementById('nav-bar').style.display   = 'none';
+        document.getElementById('main-area').style.display = 'none';
+        const es = document.getElementById('error-state');
+        document.getElementById('error-state-msg').textContent = msg;
+        document.getElementById('error-back-link').href = buildBackUrl(startPage);
+        es.style.display = 'flex';
+    }
+
+    if (!coll)     { fatalError('Missing parameter: coll'); return; }
+    if (!vol)      { fatalError('Missing parameter: vol');  return; }
+    if (!parallel) { fatalError('Missing parameter: parallel'); return; }
+
+    /* ── DOM refs ─────────────────────────────────────────────────────── */
+    const loadingEl  = document.getElementById('loading-overlay');
+    const errorEl    = document.getElementById('error-overlay');
+    const loadMsg    = document.getElementById('load-msg');
+    const btnFirst   = document.getElementById('btn-first');
+    const btnPrev    = document.getElementById('btn-prev');
+    const btnNext    = document.getElementById('btn-next');
+    const btnLast    = document.getElementById('btn-last');
+    const btnHome    = document.getElementById('btn-home');
+    const pageLabel  = document.getElementById('page-label');
+    const secLabel   = document.getElementById('section-label');
+    const pageCount  = document.getElementById('page-count');
+    const pageInput  = document.getElementById('page-input');
+
+    function showError(msg) {
+        loadingEl.style.display = 'none';
+        errorEl.style.display   = 'flex';
+        document.getElementById('error-msg').textContent = msg;
+    }
+    function hideLoading() { loadingEl.style.display = 'none'; }
+    function setLoadMsg(m) { if (loadMsg) loadMsg.textContent = m; }
+
+    /* ── Crop state ───────────────────────────────────────────────────── */
+    let cropData    = null;
+    let cropSeqMap  = null;   // seq number → index into cropData.files[]
+    let pendingCrop = null;
+    let currentPage = null;  // full page record {file, location, pagination, …}
+
+    function buildCropSeqMap() {
+        if (!cropData || !cropData.files) return;
+        cropSeqMap = {};
+        cropData.files.forEach((f, i) => {
+            const m = (f.img_path || '').match(/-(\d+)b\./i);
+            if (m) cropSeqMap[parseInt(m[1], 10)] = i;
+        });
+    }
+
+    function computeCrop(page, iiifW, iiifH) {
+        if (!cropData || !cropData.files) return null;
+        if (!page || !page.file || !page.location) return null;
+        // Extract seq number from path-style file IDs like "001%2F001-00001-002b"
+        // or fall back to direct parseInt for plain numeric IDs.
+        let fileIdx;
+        const pathMatch = String(page.file).match(/[-](\d+)b(?:\.[^/]*)?$/i);
+        if (pathMatch && cropSeqMap) {
+            const seq = parseInt(pathMatch[1], 10);
+            fileIdx = cropSeqMap[seq];
+            if (fileIdx === undefined) return null;
+        } else {
+            const fileNum = parseInt(page.file, 10);
+            if (isNaN(fileNum) || fileNum < 1) return null;
+            fileIdx = fileNum - 1;
+        }
+        const pageIdx = (page.location === 'top') ? 0 : 1;
+        const entry   = cropData.files[fileIdx];
+        if (!entry || !entry.pages || !entry.pages[pageIdx]) return null;
+        const rect = entry.pages[pageIdx].minAreaRect;
+        const refW = entry.width, refH = entry.height;
+        if (!refW || !refH) return null;
+        const rapp = iiifW / refW;
+        return {
+            x: Math.round((rect[0] - rect[2] / 2) * rapp),
+            y: Math.round((rect[1] - rect[3] / 2) * rapp),
+            w: Math.round(rect[2] * rapp),
+            h: Math.round(rect[3] * rapp)
+        };
+    }
+
+    /* ── Citation ─────────────────────────────────────────────────────── */
+    function updateCitation(pag) {
+        const box    = document.getElementById('citation-box');
+        const btnCpy = document.getElementById('btn-copy-citation');
+        if (!pag || !box) return;
+        const secPart = sec ? ', sec. ' + sec : '';
+        const text = parallel + ' / ' + (document.getElementById('ip-volparallel').textContent || '?') +
+                     secPart + ', fol. ' + pag + '.';
+        const url  = window.location.href.replace(/[?#].*/, '') + '?' +
+                     new URLSearchParams({ title, coll, vol, parallel, sec, page: pag, rkts }).toString();
+        box.innerHTML = esc(text) + '<br><span class="citation-url">' + esc(url) + '</span>';
+        if (btnCpy) {
+            btnCpy.onclick = function () {
+                const full = text + '\n(' + url + ')';
+                (navigator.clipboard ? navigator.clipboard.writeText(full) : Promise.reject())
+                    .catch(() => {
+                        const ta = document.createElement('textarea');
+                        ta.value = full; document.body.appendChild(ta);
+                        ta.select(); document.execCommand('copy'); document.body.removeChild(ta);
+                    });
+                btnCpy.textContent = '✓ Copied';
+                btnCpy.classList.add('copied');
+                setTimeout(() => {
+                    btnCpy.innerHTML = '<i class="bi bi-clipboard me-1"></i>Copy citation';
+                    btnCpy.classList.remove('copied');
+                }, 2000);
+            };
+        }
+    }
+
+    /* ── Provenance badges ────────────────────────────────────────────── */
+    function fillProvBadge(label, key) {
+        if (!key) return;
+        fetch('../data/logo/links.txt')
+            .then(r => r.ok ? r.text() : '')
+            .catch(() => '')
+            .then(txt => {
+                const linkMap = {};
+                (txt || '').split(/\r?\n/).forEach(line => {
+                    const parts = line.split('####');
+                    if (parts.length === 2) linkMap[parts[0].trim()] = parts[1].trim();
+                });
+                const area  = document.getElementById('prov-area');
+                const group = document.createElement('div');
+                group.className = 'prov-group';
+                const href  = linkMap[key] || '#';
+                group.innerHTML =
+                    `<span class="prov-label">${esc(label)}</span>
+                     <a class="prov-logo-link" href="${esc(href)}" target="_blank" rel="noopener" title="${esc(key)}">
+                         <img src="../data/logo/${encodeURIComponent(key)}.png" alt="${esc(key)}"
+                              style="display:none" onload="this.style.display='block'"
+                              onerror="this.style.display='none';this.nextElementSibling.style.display='inline'">
+                         <span class="prov-fallback" style="display:none">${esc(key)}</span>
+                     </a>`;
+                area.appendChild(group);
+            });
+    }
+
+    /* ── IIIF ─────────────────────────────────────────────────────────── */
+    let iiifTemplate = null;
+    let volparallel  = '';   // resolved from volumecorr.txt
+
+    function mw1bltohoImageUrl(fileId) {
+        // MW1BLTOHO (Tohoku Derge Kanjur): IIIF images at touda.tohoku.ac.jp
+        // fileId is like "001%2F001-00001-002b" (already URL-encoded path)
+        // Full IIIF URL: https://touda.tohoku.ac.jp/iiif/2/public%252Fconnect%252Ftibet%252Fderge%252F{fileId}.tif/info.json
+        const encoded = String(fileId).replace(/%2F/gi, '%252F');
+        return 'https://touda.tohoku.ac.jp/iiif/2/public%252Fconnect%252Ftibet%252Fderge%252F' +
+               encoded + '.tif/info.json';
+    }
+
+    function iiifUrl(fileId) {
+        if (parallel === 'MW1BLTOHO') return mw1bltohoImageUrl(fileId);
+        if (iiifTemplate) {
+            const volSafe = volparallel.replace(/-/g, '_');
+            return iiifTemplate
+                .replace('yyy', encodeURIComponent(volSafe))
+                .replace('xxx', encodeURIComponent(fileId));
+        }
+        if (/^https?:\/\//i.test(fileId)) {
+            const base = fileId.replace(/\/+$/, '');
+            return base.endsWith('/info.json') ? base : base + '/info.json';
+        }
+        return 'https://iiif.bdrc.io/' + fileId + '/info.json';
+    }
+
+    function normalizeIiifInfo(info) {
+        if (Array.isArray(info.profile) && info.profile.length &&
+                typeof info.profile[0] === 'object' && info.profile[0] !== null) {
+            const p0 = info.profile[0], p1 = info.profile[1] || {};
+            const lvl = p0['@id'] || 'http://iiif.io/api/image/2/level1.json';
+            const merged = {};
+            [p0, p1].forEach(src => {
+                Object.keys(src).forEach(k => { if (k !== '@id' && src[k] != null) merged[k] = src[k]; });
+            });
+            info.profile = [lvl, merged];
+        }
+        return info;
+    }
+
+    function openIiif(fileId) {
+        const url = iiifUrl(fileId);
+        setLoadMsg('Loading image…');
+        loadingEl.style.display = 'flex';
+        const mUrl = document.getElementById('manifest-url');
+        if (mUrl) { mUrl.textContent = url; mUrl.href = url; }
+        fetch(url)
+            .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(info => {
+                info = normalizeIiifInfo(info);
+                if (!info['@id']) info['@id'] = url.replace(/\/info\.json$/, '');
+                pendingCrop = computeCrop(currentPage, info.width, info.height);
+                osd.open(info);
+            })
+            .catch(err => {
+                loadingEl.style.display = 'none';
+                showError('Failed to load IIIF image – ' + err.message);
+            });
+    }
+
+    /* ── Navigation ───────────────────────────────────────────────────── */
+    let pages      = [];
+    let currentIdx = 0;
+
+    function updateNav(idx) {
+        const p   = pages[idx];
+        const pag = p.pagination || ('p' + (idx + 1));
+        pageLabel.textContent = pag;
+        if (p.psection) secLabel.textContent = p.psection;
+        pageCount.textContent = (idx + 1) + '\u202f/\u202f' + pages.length;
+        btnFirst.disabled = idx === 0;
+        btnPrev.disabled  = idx === 0;
+        btnNext.disabled  = idx === pages.length - 1;
+        btnLast.disabled  = idx === pages.length - 1;
+        // URL
+        const sp = new URLSearchParams(window.location.search);
+        sp.set('page', pag);
+        history.replaceState(null, '', '?' + sp.toString());
+        // Back-link & source-link track current page
+        const backUrl = buildBackUrl(pag);
+        document.getElementById('back-link').href      = backUrl;
+        document.getElementById('source-link-dyn').href = backUrl;
+        updateCitation(pag);
+    }
+
+    function goTo(idx) {
+        if (idx < 0 || idx >= pages.length) return;
+        currentIdx  = idx;
+        currentPage = pages[idx];
+        updateNav(idx);
+        openIiif(pages[idx].file);
+    }
+
+    /* ── OpenSeadragon ────────────────────────────────────────────────── */
+    let osd = null;
+
+    function initViewer(startIdx) {
+        setLoadMsg('Initialising viewer…');
+        osd = OpenSeadragon({
+            id:                    'viewer',
+            prefixUrl:             'https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/images/',
+            showNavigationControl: false,
+            animationTime:         0.3,
+            blendTime:             0.1,
+            constrainDuringPan:    false,
+            maxZoomPixelRatio:     4,
+            minZoomImageRatio:     0.5,
+            visibilityRatio:       0.5,
+            defaultZoomLevel:      0,
+            tileSources:           null
+        });
+
+        osd.addHandler('open', function () {
+            // Apply crop clip if pending, or clear any previous clip
+            const tiledImage = osd.world.getItemAt(0);
+            if (pendingCrop) {
+                const c = pendingCrop; pendingCrop = null;
+                if (tiledImage) {
+                    const imageRect    = new OpenSeadragon.Rect(c.x, c.y, c.w, c.h);
+                    tiledImage.setClip(imageRect);
+                    const viewportRect = tiledImage.imageToViewportRectangle(imageRect);
+
+                    osd.viewport.fitBounds(viewportRect, true);
+                }
+            } else {
+                if (tiledImage) tiledImage.setClip(null);
+            }
+            let done = false;
+            function finish() { if (!done) { done = true; hideLoading(); } }
+            osd.addOnceHandler('tile-drawn', finish);
+            setTimeout(finish, 8000);
+        });
+        osd.addHandler('open-failed', () => {
+            showError('Failed to load IIIF image for page ' +
+                (pages[currentIdx] ? pages[currentIdx].pagination : '?') + '.');
+        });
+
+        btnFirst.addEventListener('click', () => goTo(0));
+        btnPrev.addEventListener('click',  () => goTo(currentIdx - 1));
+        btnNext.addEventListener('click',  () => goTo(currentIdx + 1));
+        btnLast.addEventListener('click',  () => goTo(pages.length - 1));
+        btnHome.addEventListener('click',  () => { if (osd) osd.viewport.goHome(true); });
+
+        document.addEventListener('keydown', e => {
+            if (e.target === pageInput) return;
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); goTo(currentIdx + 1); }
+            if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   { e.preventDefault(); goTo(currentIdx - 1); }
+            if (e.key === 'Home') { e.preventDefault(); goTo(0); }
+            if (e.key === 'End')  { e.preventDefault(); goTo(pages.length - 1); }
+        });
+
+        pageInput.addEventListener('keydown', e => {
+            if (e.key !== 'Enter') return;
+            const target = pageInput.value.trim();
+            pageInput.value = '';
+            const found = pages.findIndex(p => p.pagination === target);
+            if (found >= 0) {
+                goTo(found);
+            } else {
+                pageInput.style.borderColor = '#a04040';
+                setTimeout(() => { pageInput.style.borderColor = '#ced4da'; }, 1000);
+            }
+        });
+
+        currentIdx  = startIdx;
+        currentPage = pages[startIdx];
+        updateNav(startIdx);
+        openIiif(pages[startIdx].file);
+    }
+
+    /* ── Step 1: parse volumecorr.txt → resolve volparallel ──────────── */
+    function resolveVolparallel() {
+        const vcUrl = COLL_BASE + '/' + encodeURIComponent(coll) + '/volumecorr.txt';
+        return fetch(vcUrl)
+            .then(r => { if (!r.ok) throw new Error('volumecorr.txt not found for collection ' + coll); return r.text(); })
+            .then(txt => {
+                const lines = txt.split(/\r?\n/).filter(Boolean);
+                for (const line of lines) {
+                    const cols = line.split(';');
+                    // Find the primary set column
+                    let volIdx = -1;
+                    if (title) {
+                        const titleIdx = cols.indexOf(title);
+                        if (titleIdx === -1) continue;
+                        volIdx = titleIdx + 1;
+                    } else {
+                        for (let i = 2; i < cols.length; i += 2) {
+                            if (cols[i].trim() === vol) { volIdx = i; break; }
+                        }
+                        if (volIdx === -1) continue;
+                    }
+                    if (!cols[volIdx] || cols[volIdx].trim() !== vol) continue;
+                    // Found row — find parallel set
+                    const parallelIdx = cols.indexOf(parallel);
+                    if (parallelIdx === -1)
+                        throw new Error("Parallel set '" + parallel + "' not found in volumecorr.txt.");
+                    const vp = (cols[parallelIdx + 1] || '').trim();
+                    if (!vp)
+                        throw new Error("Volume id for parallel set '" + parallel + "' is empty in volumecorr.txt.");
+                    const sectionName = cols[0].trim();
+                    return { volparallel: vp, sectionName };
+                }
+                throw new Error('No volumecorr.txt row found for vol=' + vol + ' in set ' + title);
+            });
+    }
+
+    /* ── Step 2: load collections.json → provenance + names ─────────────── */
+    function loadProvenance() {
+        return fetch(COLLS_URL)
+            .then(r => r.ok ? r.json() : []).catch(() => [])
+            .then(cols => {
+                let digitizedBy = '', imagesBy = '', collTitle = '', volName = '';
+                for (const c of cols) {
+                    if (c.sigla !== coll) continue;
+                    for (const con of (c.constituents || [])) {
+                        if (con.title === parallel) {
+                            if (!digitizedBy && con.digitizedby) digitizedBy = con.digitizedby;
+                            if (!imagesBy   && con.imagesby)    imagesBy    = con.imagesby;
+                        }
+                    }
+                    if (!collTitle && c.title) collTitle = c.title;
+                    if (digitizedBy || imagesBy) break;
+                }
+                return { digitizedBy, imagesBy, collTitle };
+            });
+    }
+
+    /* ── Main init ────────────────────────────────────────────────────── */
+    setLoadMsg('Resolving parallel volume…');
+    loadingEl.style.display = 'flex';
+
+    Promise.all([resolveVolparallel(), loadProvenance()])
+        .then(([vcResult, provResult]) => {
+            volparallel = vcResult.volparallel;
+            const sectionName = vcResult.sectionName;
+
+            // Update topbar + info panel with resolved values
+            document.getElementById('parallel-badge-label').textContent =
+                parallel + ' / ' + volparallel;
+            document.getElementById('ip-volparallel').textContent = volparallel;
+            if (sectionName) {
+                document.getElementById('section-name-badge').textContent = sectionName;
+                document.getElementById('section-name-badge').style.display = '';
+                document.getElementById('ip-section').textContent = sectionName;
+                document.getElementById('ip-section-row').style.display = '';
+            }
+            document.title = 'rKTs – Parallel View · ' + parallel + ' / ' + volparallel;
+
+            // Collection name in topbar
+            if (provResult.collTitle) {
+                document.getElementById('coll-name-text').textContent = provResult.collTitle;
+                document.getElementById('coll-full-name').style.display = '';
+            }
+
+            // Provenance
+            if (provResult.digitizedBy) fillProvBadge('Digitized\u00a0by', provResult.digitizedBy);
+            if (provResult.imagesBy)    fillProvBadge('Hosted\u00a0at',    provResult.imagesBy);
+
+            // Look up volName for the parallel volume from collections.json
+            fetch(COLLS_URL)
+                .then(r => r.ok ? r.json() : []).catch(() => [])
+                .then(cols => {
+                    for (const c of cols) {
+                        if (c.sigla !== coll) continue;
+                        for (const con of (c.constituents || [])) {
+                            if (con.title === parallel && con.structure) {
+                                for (const s of con.structure) {
+                                    if (s.volref === volparallel && s.volname) {
+                                        document.getElementById('vol-name-text').textContent = s.volname;
+                                        document.getElementById('vol-name-wrap').style.display = '';
+                                        document.getElementById('meta-volname').textContent = ' ' + s.volname;
+                                        return;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+
+            // Load volume JSON + manifest + crop JSON in parallel
+            const jsonUrl     = COLL_BASE + '/' + encodeURIComponent(coll) +
+                                '/' + encodeURIComponent(parallel) +
+                                '/' + encodeURIComponent(volparallel) + '.json';
+            const manifestUrl = COLL_BASE + '/' + encodeURIComponent(coll) +
+                                '/' + encodeURIComponent(parallel) + '/manifest.txt';
+            const cropUrl     = COLL_BASE + '/' + encodeURIComponent(coll) +
+                                '/' + encodeURIComponent(parallel) + '_Crop/' +
+                                encodeURIComponent(volparallel) + '.json';
+
+            setLoadMsg('Loading parallel volume index…');
+
+            return Promise.all([
+                fetch(jsonUrl).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status + ' – ' + jsonUrl); return r.json(); }),
+                fetch(manifestUrl).then(r => r.ok ? r.text() : null).catch(() => null),
+                fetch(cropUrl).then(r => r.ok ? r.json() : null).catch(() => null)
+            ]);
+        })
+        .then(([data, tmplText, cropJson]) => {
+            if (tmplText) iiifTemplate = tmplText.trim();
+            if (cropJson) { cropData = cropJson; buildCropSeqMap(); }
+
+            pages = Object.keys(data)
+                .filter(k => /^\d+$/.test(k))
+                .sort((a, b) => parseInt(a, 10) - parseInt(b, 10))
+                .map(k => data[k])
+                .filter(Boolean);
+
+            if (!pages.length) { showError('No pages found in parallel volume JSON.'); return; }
+
+            // Determine start index
+            let startIdx = 0;
+            if (startPage) {
+                let found = -1, fallback = -1;
+                for (let i = 0; i < pages.length; i++) {
+                    const pLabel = pages[i].pagination || ('p' + (i + 1));
+                    if (pLabel === startPage) {
+                        if (!sec || pages[i].psection === sec) { found = i; break; }
+                        if (fallback < 0) fallback = i;
+                    }
+                }
+                if (found >= 0) startIdx = found;
+                else if (fallback >= 0) startIdx = fallback;
+            } else if (sec) {
+                for (let j = 0; j < pages.length; j++) {
+                    if (pages[j].psection === sec) { startIdx = j; break; }
+                }
+            }
+
+            initViewer(startIdx);
+        })
+        .catch(err => {
+            loadingEl.style.display = 'none';
+            fatalError(err.message || 'Could not load parallel volume.');
+        });
+
+})();
+</script>
+</body>
+</html>

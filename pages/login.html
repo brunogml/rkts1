@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs – Sign in</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+</head>
+<body class="page-login">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="collections.html">Collections</a></li>
+                    <li class="nav-item"><a class="nav-link" href="search.html">Search</a></li>
+                    <li class="nav-item"><a class="nav-link" href="etexts.html">E-text Lab</a></li>
+                    <li class="nav-item"><a class="nav-link" href="zotero.html">Bibliography</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="page-heading">
+            <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="80">
+            <span class="page-kicker">Researcher access</span>
+            <h1>Sign in</h1>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6">
+
+                <div id="statusBox" class="alert d-none mb-3" role="alert"></div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="bi bi-box-arrow-in-right me-2"></i>Login</h2>
+                    </div>
+                    <div class="card-body">
+                        <form id="loginForm" autocomplete="off" novalidate>
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control form-control-sm" id="username"
+                                       required autocomplete="username" placeholder="your username">
+                            </div>
+                            <div class="mb-4">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control form-control-sm" id="password"
+                                       required autocomplete="current-password" placeholder="••••••••">
+                            </div>
+                            <div class="d-flex align-items-center gap-3">
+                                <button type="submit" class="btn btn-primary btn-sm" id="submitBtn">
+                                    <i class="bi bi-box-arrow-in-right me-1"></i>Sign in
+                                </button>
+                                <span class="text-muted small">No account? <a href="register.html">Register</a></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- auth.js MUST come before the inline script below -->
+    <script src="auth.js"></script>
+
+    <script>
+    // Determine where to go after login:
+    // 1. ?next= param (set by requireLogin guard)
+    // 2. document.referrer, if it's on the same origin and not the login page itself
+    // 3. index.html
+    function getRedirect() {
+        const next = new URLSearchParams(location.search).get('next');
+        if (next) return next;
+        try {
+            const ref = document.referrer;
+            if (ref && new URL(ref).origin === location.origin
+                    && !new URL(ref).pathname.endsWith('login.html')) {
+                return ref;
+            }
+        } catch (e) {}
+        return 'index.html';
+    }
+
+    // Redirect away if already logged in
+    (function () {
+        const sess = rktsAuth.getSession();
+        if (sess) location.replace(getRedirect());
+    })();
+
+    document.getElementById('loginForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        const username  = document.getElementById('username').value.trim();
+        const password  = document.getElementById('password').value;
+        const btn       = document.getElementById('submitBtn');
+        const statusBox = document.getElementById('statusBox');
+
+        function setStatus(msg, type) {
+            statusBox.className = 'alert alert-' + type;
+            statusBox.innerHTML = msg;
+        }
+
+        if (!username || !password) {
+            setStatus('Please enter username and password.', 'danger');
+            return;
+        }
+
+        btn.disabled = true;
+        btn.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span>Signing in…';
+
+        try {
+            const result = await rktsAuth.login(username, password);
+            if (result.ok) {
+                location.replace(getRedirect());
+            } else {
+                setStatus('<i class="bi bi-exclamation-triangle me-1"></i>' + result.error, 'danger');
+                btn.disabled = false;
+                btn.innerHTML = '<i class="bi bi-box-arrow-in-right me-1"></i>Sign in';
+            }
+        } catch (err) {
+            setStatus('<i class="bi bi-exclamation-triangle me-1"></i>Could not reach server: ' + err.message, 'danger');
+            btn.disabled = false;
+            btn.innerHTML = '<i class="bi bi-box-arrow-in-right me-1"></i>Sign in';
+        }
+    });
+    </script>
+
+</body>
+</html>

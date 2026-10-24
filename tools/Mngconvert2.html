@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mng2 — probe</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 740px; margin: 2rem auto; padding: 0 1rem; background: #f8f7f3; color: #222; }
+  h1 { font-size: 1.2rem; color: #5a3e1b; margin-bottom: 1.5rem; }
+  .row { display: grid; grid-template-columns: 1fr auto 1fr; gap: .6rem; align-items: start; margin-bottom: 1rem; }
+  .col { display: flex; flex-direction: column; gap: .35rem; }
+  label { font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: #888; }
+  textarea {
+    width: 100%; border: 1px solid #ccc; border-radius: 6px; padding: .55rem .7rem;
+    font-size: 1rem; resize: vertical; min-height: 90px; background: #fff;
+    font-family: system-ui, sans-serif;
+  }
+  textarea.uni { font-family: 'Mongolian Baiti', 'Noto Sans Mongolian', serif; font-size: 1.3rem; }
+  .arrows { display: flex; flex-direction: column; gap: .4rem; padding-top: 1.6rem; }
+  button {
+    background: #7a5c2e; color: #fff; border: none; border-radius: 5px;
+    padding: .35rem .75rem; font-size: .8rem; cursor: pointer; white-space: nowrap;
+  }
+  button:hover { background: #a07838; }
+  .cp-row { font-size: .7rem; color: #999; font-family: monospace; word-break: break-all; min-height: 1rem; }
+
+  /* Reference table */
+  details { margin-top: 1.5rem; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: .7rem 1rem; }
+  summary { cursor: pointer; font-size: .8rem; font-weight: 600; color: #5a3e1b; user-select: none; }
+  .ref-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: .2rem .5rem;
+    margin-top: .7rem;
+  }
+  .ref-item {
+    display: flex; align-items: center; gap: .3rem;
+    padding: .15rem .3rem; border-radius: 4px; font-size: .82rem;
+  }
+  .ref-item:hover { background: #f0e8d8; }
+  .rom { font-family: monospace; color: #7a5c2e; min-width: 2rem; }
+  .arr { color: #bbb; font-size: .7rem; }
+  .mng { font-family: 'Mongolian Baiti', serif; font-size: 1.1rem; }
+  .cp  { color: #bbb; font-size: .65rem; margin-left: auto; }
+</style>
+</head>
+<body>
+
+<h1>mng2 — transliteration ↔ Unicode Mongolian</h1>
+
+<div class="row">
+  <div class="col">
+    <label>Transliteration</label>
+    <textarea id="translit" placeholder="e.g. mongɣol&#10;büged&#10;ṭh, ḍ, ǰ, ž…" spellcheck="false"></textarea>
+  </div>
+  <div class="arrows">
+    <button id="btn-to-uni">→ Unicode</button>
+    <button id="btn-to-rom">← Translit</button>
+  </div>
+  <div class="col">
+    <label>Unicode Mongolian</label>
+    <textarea id="unicode" class="uni" placeholder="᠊᠊᠊" spellcheck="false"></textarea>
+    <div class="cp-row" id="cp-out"></div>
+  </div>
+</div>
+
+<details>
+  <summary>Transliteration reference</summary>
+  <div class="ref-grid" id="ref-grid"></div>
+</details>
+
+<script src="mng2.js"></script>
+<script>
+  const tEl  = document.getElementById('translit');
+  const uEl  = document.getElementById('unicode');
+  const cpEl = document.getElementById('cp-out');
+
+  function showCp(str) {
+    cpEl.textContent = str
+      ? [...str].map(c => 'U+' + c.codePointAt(0).toString(16).toUpperCase().padStart(4,'0')).join(' ')
+      : '';
+  }
+
+  document.getElementById('btn-to-uni').addEventListener('click', () => {
+    const result = mng2.toUnicode(tEl.value);
+    uEl.value = result;
+    showCp(result);
+  });
+
+  document.getElementById('btn-to-rom').addEventListener('click', () => {
+    tEl.value = mng2.toTranslit(uEl.value);
+    showCp(uEl.value);
+  });
+
+  // Live: translit → unicode as you type
+  tEl.addEventListener('input', () => {
+    const result = mng2.toUnicode(tEl.value);
+    uEl.value = result;
+    showCp(result);
+  });
+
+  // Build reference grid
+  const grid = document.getElementById('ref-grid');
+  for (const [uni, rom] of mng2.TABLE) {
+    const cp = 'U+' + uni.codePointAt(0).toString(16).toUpperCase().padStart(4,'0');
+    const div = document.createElement('div');
+    div.className = 'ref-item';
+    div.title = cp;
+    div.innerHTML =
+      `<span class="rom">${rom.replace(/&/g,'&amp;').replace(/</g,'&lt;')}</span>` +
+      `<span class="arr">→</span>` +
+      `<span class="mng">${uni}</span>` +
+      `<span class="cp">${cp}</span>`;
+    grid.appendChild(div);
+  }
+
+  // Demo
+  tEl.value = 'mongɣol\nbüged\nṭhegri';
+  tEl.dispatchEvent(new Event('input'));
+</script>
+</body>
+</html>

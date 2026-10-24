@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs – Dictionary</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
+
+    <style>
+        html, body { height: 100%; margin: 0; padding: 0; overflow: hidden; background: #f0f2f5; color: #343a40; }
+
+        /* ── Top bar ──────────────────────────────────────────────── */
+        #topbar {
+            height: 46px; background: #fff; border-bottom: 1px solid #dee2e6;
+            display: flex; align-items: center; gap: 0.8rem;
+            padding: 0 0.9rem; flex-shrink: 0;
+        }
+        #topbar .logo img         { height: 28px; width: auto; display: block; }
+        #topbar .logo-text        { color: #2c4a6e; font-weight: 700; font-size: 1.05rem; letter-spacing: 0.03em; }
+        #topbar .divider          { width: 1px; height: 22px; background: #dee2e6; flex-shrink: 0; }
+        #topbar .meta-item        { font-size: 0.75rem; color: #6c757d; white-space: nowrap; }
+        #topbar .meta-item strong { color: #343a40; font-weight: 600; }
+        #topbar .back-link        { color: #2c6fad; font-size: 0.82rem; text-decoration: none; white-space: nowrap; }
+        #topbar .back-link:hover  { color: #1a4f8a; text-decoration: underline; }
+
+        /* ── Nav bar ──────────────────────────────────────────────── */
+        #nav-bar {
+            height: 40px; background: #f8f9fa; border-bottom: 1px solid #dee2e6;
+            display: flex; align-items: center; gap: 0.4rem;
+            padding: 0 0.9rem; flex-shrink: 0;
+        }
+        #page-label    { font-size: 0.9rem; min-width: 76px; text-align: center; color: #343a40; font-weight: 600; }
+        #section-label { font-size: 0.72rem; color: #6c757d; margin-left: 0.3rem; }
+        #page-count    { font-size: 0.72rem; color: #adb5bd; }
+        #page-input {
+            width: 68px; font-size: 0.82rem; background: #fff;
+            border: 1px solid #ced4da; color: #343a40; border-radius: 3px;
+            padding: 2px 6px; text-align: center;
+        }
+        #page-input:focus { outline: none; border-color: #2c6fad; box-shadow: 0 0 0 2px rgba(44,111,173,0.15); }
+        #nav-right { margin-left: auto; display: flex; align-items: center; gap: 0.4rem; }
+
+        /* ── Main area ────────────────────────────────────────────── */
+        #main-area { display: flex; height: calc(100vh - 46px - 40px); overflow: hidden; }
+
+        /* ── Left column ──────────────────────────────────────────── */
+        #left-col {
+            flex: 1 1 0; min-width: 0;
+            display: flex; flex-direction: column;
+            overflow: hidden; border-right: 1px solid #dee2e6; background: #fff;
+        }
+
+        /* ── eText pane ───────────────────────────────────────────── */
+        #etext-pane { flex: 1 1 0; min-width: 0; background: #fff; display: flex; flex-direction: column; overflow: hidden; }
+        #etext-header {
+            padding: 0.35rem 0.85rem; background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+            display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0;
+        }
+        .etext-title      { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #6c757d; font-weight: 700; }
+        #etext-page-badge { font-size: 0.72rem; background: #e8f5e9; border: 1px solid #a5d6a7; color: #2d6a4f; border-radius: 3px; padding: 1px 6px; font-family: monospace; }
+        #etext-status     { font-size: 0.72rem; color: #adb5bd; }
+        #term-count       { font-size: 0.72rem; color: #6c757d; margin-left: auto; }
+        #etext-body       { flex: 1 1 0; overflow-y: auto; padding: 0.75rem 1rem; font-size: 0.88rem; line-height: 2; color: #343a40; }
+        .eline            { display: flex; gap: 0.5rem; margin-bottom: 0.15rem; }
+        .eline-num        { color: #adb5bd; font-size: 0.68rem; min-width: 18px; padding-top: 5px; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+        .eline-text       { color: #212529; word-break: break-word; }
+        .no-etext         { font-size: 0.78rem; color: #adb5bd; font-style: italic; }
+        .eline-text.tib   { font-size: 1.5rem; line-height: 2; }
+
+        /* ── Term highlight ───────────────────────────────────────── */
+        .dict-term        { background: #fff3cd; border-bottom: 2px solid #ffc107; cursor: pointer; border-radius: 2px; padding: 0 1px; transition: background 0.12s; }
+        .dict-term:hover  { background: #ffe082; }
+        .dict-term.active { background: #ffd54f; border-color: #e67e00; }
+
+        /* ── Horizontal resize handle ─────────────────────────────── */
+        #h-resize-handle { height: 5px; cursor: row-resize; flex-shrink: 0; background: #dee2e6; }
+        #h-resize-handle:hover, #h-resize-handle.dragging { background: #adb5bd; }
+
+        /* ── Viewer pane ──────────────────────────────────────────── */
+        #viewer-wrap { position: relative; flex-shrink: 0; height: 380px; min-height: 80px; background: #111; overflow: hidden; }
+        #viewer { width: 100%; height: 100%; }
+        #loading-overlay {
+            position: absolute; inset: 0; display: flex;
+            align-items: center; justify-content: center;
+            flex-direction: column; gap: 0.8rem; background: #111; z-index: 10;
+        }
+        #loading-overlay .spinner-border { width: 2rem; height: 2rem; color: #6ea8d8; }
+        #loading-overlay .load-msg { font-size: 0.78rem; color: #666; }
+        #error-overlay { position: absolute; inset: 0; display: none; align-items: center; justify-content: center; background: #111; z-index: 10; }
+        #error-overlay .alert { background: #2a1a1a; border-color: #6b2a2a; color: #e8a0a0; max-width: 400px; }
+
+        /* ── Vertical resize handle ───────────────────────────────── */
+        #resize-handle { width: 5px; cursor: col-resize; flex-shrink: 0; background: #dee2e6; }
+        #resize-handle:hover, #resize-handle.dragging { background: #adb5bd; }
+
+        /* ── Dictionary panel ─────────────────────────────────────── */
+        #dict-panel { width: 50%; min-width: 280px; flex-shrink: 0; background: #fff; display: flex; flex-direction: column; overflow: hidden; }
+        #dict-panel-header { padding: 0.35rem 0.85rem; background: #f8f9fa; border-bottom: 1px solid #dee2e6; flex-shrink: 0; display: flex; align-items: center; gap: 0.6rem; }
+        .dict-panel-title  { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #6c757d; font-weight: 700; }
+        #dict-active-term  { font-size: 0.78rem; color: #2c4a6e; font-weight: 600; margin-left: 0.4rem; }
+        #dict-close        { margin-left: auto; background: none; border: none; color: #adb5bd; cursor: pointer; font-size: 1rem; line-height: 1; padding: 0; }
+        #dict-close:hover  { color: #495057; }
+        #dict-body         { flex: 1 1 0; overflow: hidden; }
+        #dict-placeholder  { display: flex; align-items: center; justify-content: center; height: 100%; flex-direction: column; gap: 0.6rem; color: #adb5bd; font-size: 0.82rem; text-align: center; padding: 1.5rem; }
+        #dict-placeholder i { font-size: 2.2rem; opacity: 0.4; }
+
+        /* ── Buttons ──────────────────────────────────────────────── */
+        .btn-nav { background: #fff; border: 1px solid #ced4da; color: #495057; padding: 2px 9px; border-radius: 3px; font-size: 0.82rem; cursor: pointer; transition: background 0.1s; white-space: nowrap; line-height: 1.6; }
+        .btn-nav:hover:not(:disabled) { background: #e9ecef; color: #212529; border-color: #adb5bd; }
+        .btn-nav:disabled { opacity: 0.35; cursor: default; }
+        .btn-nav.on { background: #d4edda; border-color: #5a9e6f; color: #2d6a4f; }
+
+        /* ── Status bar ───────────────────────────────────────────── */
+        #status-bar { position: fixed; bottom: 0; left: 0; right: 0; background: #2c4a6e; color: #e0e8f0; font-size: 0.75rem; padding: 3px 12px; display: none; z-index: 100; }
+    </style>
+</head>
+<body>
+
+<!-- Top bar -->
+<div id="topbar">
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../configuration/rkts-logo.png" alt="rKTs"
+                 onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='block'">
+        </a>
+        <span id="logo-fallback" class="logo-text" style="display:none">rKTs</span>
+    </div>
+    <div class="divider"></div>
+    <a href="#" class="back-link" id="back-link">
+        <i class="bi bi-arrow-left me-1"></i><span id="rkts-display">Back</span>
+    </a>
+    <div class="divider"></div>
+    <div class="meta-item"><strong>Coll&nbsp;</strong><span id="meta-coll">—</span></div>
+    <div class="meta-item"><strong>Set&nbsp;</strong><span id="meta-title">—</span></div>
+    <div class="meta-item"><strong>Vol&nbsp;</strong><span id="meta-vol">—</span><span id="meta-volname" style="color:#6c757d"></span></div>
+    <div class="meta-item" id="meta-sec-wrap"><strong>Sec&nbsp;</strong><span id="meta-sec">—</span></div>
+    <div style="margin-left:auto; display:flex; gap:0.4rem;">
+        <button class="btn-nav on" id="btn-toggle-dict" title="Toggle dictionary panel">
+            <i class="bi bi-book me-1"></i>Dictionary
+        </button>
+    </div>
+</div>
+
+<!-- Nav bar -->
+<div id="nav-bar">
+    <button class="btn-nav" id="btn-first" title="First page"><i class="bi bi-skip-start-fill"></i></button>
+    <button class="btn-nav" id="btn-prev"  title="Previous (←)"><i class="bi bi-chevron-left"></i></button>
+    <span id="page-label">—</span>
+    <button class="btn-nav" id="btn-next"  title="Next (→)"><i class="bi bi-chevron-right"></i></button>
+    <button class="btn-nav" id="btn-last"  title="Last page"><i class="bi bi-skip-end-fill"></i></button>
+    <span id="section-label"></span>
+    <div id="nav-right">
+        <span id="page-count"></span>
+        <input type="text" id="page-input" placeholder="go to…" title="Pagination label + Enter">
+    </div>
+</div>
+
+<!-- Main area -->
+<div id="main-area">
+
+    <!-- Left column: etext + viewer -->
+    <div id="left-col">
+
+        <!-- eText pane -->
+        <div id="etext-pane">
+            <div id="etext-header">
+                <span class="etext-title">eText</span>
+                <span id="etext-page-badge">—</span>
+                <span id="etext-status"></span>
+                <span id="term-count"></span>
+            </div>
+            <div id="etext-body"><span class="no-etext">Loading…</span></div>
+        </div>
+
+        <!-- Horizontal resize handle -->
+        <div id="h-resize-handle"></div>
+
+        <!-- Image viewer -->
+        <div id="viewer-wrap">
+            <div id="loading-overlay" style="display:none">
+                <div class="spinner-border" role="status"></div>
+                <div class="load-msg" id="load-msg">Loading…</div>
+            </div>
+            <div id="error-overlay">
+                <div class="alert">
+                    <i class="bi bi-exclamation-triangle me-2"></i>
+                    <span id="error-msg">Could not load image.</span>
+                </div>
+            </div>
+            <div id="viewer"></div>
+        </div>
+
+    </div><!-- /left-col -->
+
+    <!-- Vertical resize handle -->
+    <div id="resize-handle"></div>
+
+    <!-- Dictionary panel -->
+    <div id="dict-panel">
+        <div id="dict-panel-header">
+            <span class="dict-panel-title"><i class="bi bi-book me-1"></i>Dictionary</span>
+            <span id="dict-active-term"></span>
+            <button id="dict-close" title="Close dictionary"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <div id="dict-body">
+            <div id="dict-placeholder">
+                <i class="bi bi-hand-index-thumb"></i>
+                <span>Click a <span style="background:#fff3cd;border-bottom:2px solid #ffc107;padding:0 3px;border-radius:2px;">highlighted term</span> in the eText<br>to look it up in the dictionary.</span>
+                <small style="color:#ced4da;margin-top:0.5rem;">Terms from <code>term.txt</code> are highlighted</small>
+            </div>
+        </div>
+    </div>
+
+</div><!-- /main-area -->
+
+<div id="status-bar"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+(function () {
+    'use strict';
+
+    /* ── Paths ────────────────────────────────────────────────────────── */
+    const COLLS_URL  = '../data/general/collections.json';
+    const COLL_BASE  = '../data/collections';   // /{sigla}/{conTitle}/{volref}.json
+    const ETEXT_BASE = '../data/etexts';
+    const TERMS_URL  = '../tools/term.txt';
+
+    const GENRE_CODE = { 'Kanjur': '1', 'Canonical Collection': '1', 'Tanjur': '2', 'Old Tantra': '3' };
+
+    /* ── URL params ───────────────────────────────────────────────────── */
+    const P         = new URLSearchParams(window.location.search);
+    const title     = (P.get('title') || '').trim();
+    const rkts      = (P.get('rkts')  || '').trim();
+    const coll      = (P.get('coll')  || '').trim();
+    const vol       = (P.get('vol')   || '').trim();
+    const sec       = (P.get('sec')   || '').trim();
+    const startPage = (P.get('page')  || '').trim();
+
+    /* ── Populate topbar ──────────────────────────────────────────────── */
+    document.getElementById('meta-coll').textContent  = coll  || '—';
+    document.getElementById('meta-title').textContent = title || '—';
+    document.getElementById('meta-vol').textContent   = vol   || '—';
+    if (sec) document.getElementById('meta-sec').textContent = sec;
+    else     document.getElementById('meta-sec-wrap').style.display = 'none';
+
+    document.getElementById('rkts-display').textContent = rkts || 'Back';
+    const backLink = document.getElementById('back-link');
+    backLink.href = rkts ? 'detail.html?id=' + encodeURIComponent(rkts) : 'javascript:history.back()';
+    if (rkts) document.title = 'rKTs \u2013 ' + rkts + ' [' + coll + '] vol.\u00a0' + vol + ' – Dictionary';
+
+    /* ── Status bar ───────────────────────────────────────────────────── */
+    const statusBar = document.getElementById('status-bar');
+    function showStatus(msg) { statusBar.textContent = msg; statusBar.style.display = 'block'; }
+    function hideStatus()    { statusBar.style.display = 'none'; }
+
+    /* ── HTML escape ──────────────────────────────────────────────────── */
+    function escHtml(s) {
+        return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    /* ── eText state ──────────────────────────────────────────────────── */
+    let etextMap   = {};
+    let etextReady = false;
+    let currentPag = '';
+
+    /* ── Terms state ──────────────────────────────────────────────────── */
+    let terms      = [];
+    let termsReady = false;
+
+    /* ── Dictionary panel ─────────────────────────────────────────────── */
+    const dictPanel   = document.getElementById('dict-panel');
+    const dictBody    = document.getElementById('dict-body');
+    const dictActTerm = document.getElementById('dict-active-term');
+    let   dictOpen    = true;
+
+    document.getElementById('btn-toggle-dict').addEventListener('click', function () {
+        dictOpen = !dictOpen;
+        dictPanel.style.display = dictOpen ? 'flex' : 'none';
+        this.classList.toggle('on', dictOpen);
+    });
+    document.getElementById('dict-close').addEventListener('click', function () {
+        dictOpen = false;
+        dictPanel.style.display = 'none';
+        document.getElementById('btn-toggle-dict').classList.remove('on');
+    });
+
+    let lastActiveTerm = null;
+    function showDict(termRaw) {
+        const norm     = termRaw.replace(/\u2019/g, "'");
+        const encoded  = norm.replace(/'/g, '%27').replace(/ /g, '%20');
+        const parts    = encoded.split('%20');
+        const encoded2 = parts[0] + (parts[1] ? '%20' + parts[1] : '');
+
+        dictBody.innerHTML =
+            '<iframe src="https://dictionary.christian-steinert.de/' +
+            '#%7B%22activeTerm%22%3A%22' + encoded +
+            '%22%2C%22lang%22%3A%22tib%22%2C%22inputLang%22%3A%22tib%22%2C%22currentListTerm%22%3A%22' + encoded2 +
+            '%22%2C%22forceLeftSideVisible%22%3Atrue%2C%22offset%22%3A0%7D"' +
+            ' width="100%" height="100%" style="border:none;display:block;"' +
+            ' allow="clipboard-read; clipboard-write"' +
+            ' sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-top-navigation">' +
+            '</iframe>';
+
+        if (!dictOpen) {
+            dictOpen = true;
+            dictPanel.style.display = 'flex';
+            document.getElementById('btn-toggle-dict').classList.add('on');
+        }
+        dictActTerm.textContent = termRaw;
+
+        if (lastActiveTerm) {
+            document.querySelectorAll('.dict-term.active').forEach(el => el.classList.remove('active'));
+        }
+        document.querySelectorAll('.dict-term[data-term="' + CSS.escape(termRaw) + '"]').forEach(el => {
+            el.classList.add('active');
+        });
+        lastActiveTerm = termRaw;
+    }
+    window._showDict = showDict;
+
+    /* ── Load terms from ../tools/term.txt ────────────────────────────── */
+    function loadTerms() {
+        fetch(TERMS_URL)
+            .then(r => r.ok ? r.text() : '')
+            .catch(() => '')
+            .then(txt => {
+                terms = txt.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+                terms.sort((a, b) => b.length - a.length);  // longest first
+                termsReady = true;
+                if (currentPag) renderEtext(currentPag);
+            });
+    }
+
+    /* ── Term highlighting ────────────────────────────────────────────── */
+    function applyTermHighlighting(text) {
+        if (!termsReady || !terms.length) return escHtml(text);
+        const norm  = text.replace(/\u2019/g, "'");
+        const lower = norm.toLowerCase();
+        const len   = norm.length;
+        const claimed = new Uint8Array(len);
+        const hits    = [];
+
+        terms.forEach(term => {
+            const tLower = term.toLowerCase();
+            const tLen   = term.length;
+            let pos = 0;
+            while (pos <= len - tLen) {
+                const idx = lower.indexOf(tLower, pos);
+                if (idx === -1) break;
+                let free = true;
+                for (let i = idx; i < idx + tLen; i++) { if (claimed[i]) { free = false; break; } }
+                if (free) {
+                    for (let j = idx; j < idx + tLen; j++) claimed[j] = 1;
+                    hits.push({ start: idx, end: idx + tLen, raw: term });
+                }
+                pos = idx + 1;
+            }
+        });
+
+        if (!hits.length) return escHtml(text);
+        hits.sort((a, b) => a.start - b.start);
+
+        let result = '', last = 0;
+        hits.forEach(h => {
+            result += escHtml(text.slice(last, h.start));
+            result += '<span class="dict-term" data-term="' + escHtml(h.raw) +
+                      '" onclick="window._showDict(this.dataset.term)" title="' + escHtml(h.raw) + '">' +
+                      escHtml(text.slice(h.start, h.end)) + '</span>';
+            last = h.end;
+        });
+        result += escHtml(text.slice(last));
+        return result;
+    }
+
+    /* ── Render etext for a page ──────────────────────────────────────── */
+    function renderEtext(pag) {
+        currentPag = pag;
+        document.getElementById('etext-page-badge').textContent = pag || '—';
+        const bodyEl  = document.getElementById('etext-body');
+        const countEl = document.getElementById('term-count');
+
+        if (!etextReady) { bodyEl.innerHTML = '<span class="no-etext">Loading etext…</span>'; return; }
+        const lines = etextMap[pag];
+        if (!lines || !lines.length) {
+            bodyEl.innerHTML = '<span class="no-etext">No etext for page ' + escHtml(pag) + '.</span>';
+            countEl.textContent = '';
+            return;
+        }
+
+        let html = '', total = 0;
+        lines.forEach(l => {
+            const highlighted = applyTermHighlighting(l.text);
+            const tmp = document.createElement('div');
+            tmp.innerHTML = highlighted;
+            total += tmp.querySelectorAll('.dict-term').length;
+            html += '<div class="eline">' +
+                '<span class="eline-num">' + escHtml(l.line) + '</span>' +
+                '<span class="eline-text">' + highlighted + '</span>' +
+                '</div>';
+        });
+        bodyEl.innerHTML = html;
+        bodyEl.scrollTop = 0;
+        countEl.textContent = termsReady && total > 0
+            ? total + ' term' + (total === 1 ? '' : 's') + ' found' : '';
+
+        if (lastActiveTerm) {
+            document.querySelectorAll('.dict-term[data-term="' + CSS.escape(lastActiveTerm) + '"]').forEach(el => {
+                el.classList.add('active');
+            });
+        }
+
+        const sp = new URLSearchParams(window.location.search);
+        sp.set('page', pag);
+        history.replaceState(null, '', '?' + sp.toString());
+    }
+
+    /* ── Resolve etext URL ────────────────────────────────────────────── */
+    function resolveEtextUrl() {
+        return fetch(COLLS_URL)
+            .then(r => r.ok ? r.json() : [])
+            .catch(() => [])
+            .then(cols => {
+                let genre = null, volno = null;
+                cols.forEach(c => {
+                    if (c.sigla !== coll) return;
+                    if (!genre && c.genre) genre = c.genre;
+                    if (!volno && c.constituents) {
+                        c.constituents.forEach(con => {
+                            if (con.title === title && con.structure && !volno) {
+                                con.structure.forEach(s => {
+                                    if (s.volref === vol && s.volno && !volno) volno = s.volno;
+                                });
+                            }
+                        });
+                    }
+                });
+                const code = GENRE_CODE[genre];
+                if (!code || !volno) return null;
+                const pad = String(parseInt(volno, 10)).padStart(3, '0');
+                return ETEXT_BASE + '/' + code + coll + '/' + pad + '.txt';
+            });
+    }
+
+    /* ── Parse etext ──────────────────────────────────────────────────── */
+    function parseEtext(txt) {
+        const re = /^(\d+'?[ab])(\d+)(?:\([^)]*\))?:\s*(.*)/;
+        etextMap = {};
+        txt.split(/\r?\n/).forEach(raw => {
+            const m = raw.match(re);
+            if (!m) return;
+            const [, pag, lnum, text] = m;
+            if (!etextMap[pag]) etextMap[pag] = [];
+            etextMap[pag].push({ line: lnum, text });
+        });
+    }
+
+    function loadEtext(url) {
+        const statusEl = document.getElementById('etext-status');
+        statusEl.textContent = 'loading etext…';
+        fetch(url)
+            .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+            .then(txt => {
+                statusEl.textContent = '';
+                parseEtext(txt);
+                etextReady = true;
+                if (currentPag) renderEtext(currentPag);
+            })
+            .catch(() => {
+                statusEl.textContent = '';
+                etextReady = true;
+                document.getElementById('etext-body').innerHTML =
+                    '<span class="no-etext">No etext available for this volume.</span>';
+            });
+    }
+
+    /* ── Main init ────────────────────────────────────────────────────── */
+    if (!title || !coll || !vol) {
+        document.getElementById('etext-body').innerHTML =
+            '<span class="no-etext">Missing required URL parameters (title, coll, vol).</span>';
+    } else {
+        document.getElementById('etext-body').innerHTML = '<span class="no-etext">Loading etext…</span>';
+        loadTerms();
+        resolveEtextUrl().then(url => {
+            if (url) {
+                loadEtext(url);
+            } else {
+                etextReady = true;
+                document.getElementById('etext-status').textContent = '';
+                document.getElementById('etext-body').innerHTML =
+                    '<span class="no-etext">No etext available for this collection.</span>';
+            }
+        });
+
+        // Volume JSON for pagination
+        const jsonUrl = COLL_BASE + '/' + encodeURIComponent(coll) +
+                        '/' + encodeURIComponent(title) +
+                        '/' + encodeURIComponent(vol) + '.json';
+        showStatus('Loading volume index…');
+        fetch(jsonUrl)
+            .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(data => {
+                hideStatus();
+                const pages = Object.keys(data).map(Number).sort((a,b) => a-b).map(k => data[String(k)]);
+                if (!pages.length) { showStatus('No pages found in volume JSON.'); return; }
+                let startIdx = 0;
+                if (startPage) {
+                    for (let i = 0; i < pages.length; i++) {
+                        if (pages[i].pagination === startPage) { startIdx = i; break; }
+                    }
+                }
+                initNav(pages, startIdx);
+            })
+            .catch(() => {
+                hideStatus();
+                document.getElementById('etext-status').textContent = '(no page index)';
+                if (startPage) {
+                    document.getElementById('page-label').textContent = startPage;
+                    currentPag = startPage;
+                    if (etextReady) renderEtext(startPage);
+                }
+            });
+
+        // volname metadata
+        fetch(COLLS_URL)
+            .then(r => r.ok ? r.json() : []).catch(() => [])
+            .then(cols => {
+                cols.forEach(c => {
+                    if (c.sigla !== coll) return;
+                    (c.constituents || []).forEach(con => {
+                        if (con.title === title) {
+                            (con.structure || []).forEach(s => {
+                                if (s.volref === vol && s.volname)
+                                    document.getElementById('meta-volname').textContent = ' ' + s.volname;
+                            });
+                        }
+                    });
+                });
+            });
+    }
+
+    /* ── Navigation ───────────────────────────────────────────────────── */
+    let currentIdx = 0, allPages = [];
+
+    const btnFirst  = document.getElementById('btn-first');
+    const btnPrev   = document.getElementById('btn-prev');
+    const btnNext   = document.getElementById('btn-next');
+    const btnLast   = document.getElementById('btn-last');
+    const pageLabel = document.getElementById('page-label');
+    const secLabel  = document.getElementById('section-label');
+    const pageCount = document.getElementById('page-count');
+    const pageInput = document.getElementById('page-input');
+
+    function updateNav(pages, idx) {
+        const p   = pages[idx];
+        const pag = p.pagination || ('p' + (idx + 1));
+        pageLabel.textContent = pag;
+        secLabel.textContent  = p.psection || '';
+        pageCount.textContent = (idx + 1) + '\u202f/\u202f' + pages.length;
+        btnFirst.disabled = idx === 0;
+        btnPrev.disabled  = idx === 0;
+        btnNext.disabled  = idx === pages.length - 1;
+        btnLast.disabled  = idx === pages.length - 1;
+        renderEtext(pag);
+        loadPageImage(pages, idx);
+    }
+
+    function goTo(pages, idx) {
+        if (idx < 0 || idx >= pages.length) return;
+        currentIdx = idx;
+        updateNav(pages, idx);
+    }
+
+    function initNav(pages, startIdx) {
+        allPages   = pages;
+        currentIdx = startIdx;
+        btnFirst.addEventListener('click', () => goTo(pages, 0));
+        btnPrev.addEventListener('click',  () => goTo(pages, currentIdx - 1));
+        btnNext.addEventListener('click',  () => goTo(pages, currentIdx + 1));
+        btnLast.addEventListener('click',  () => goTo(pages, pages.length - 1));
+        document.addEventListener('keydown', e => {
+            if (e.target === pageInput) return;
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); goTo(pages, currentIdx + 1); }
+            if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   { e.preventDefault(); goTo(pages, currentIdx - 1); }
+            if (e.key === 'Home') { e.preventDefault(); goTo(pages, 0); }
+            if (e.key === 'End')  { e.preventDefault(); goTo(pages, pages.length - 1); }
+        });
+        pageInput.addEventListener('keydown', e => {
+            if (e.key !== 'Enter') return;
+            const target = pageInput.value.trim();
+            pageInput.value = '';
+            const found = pages.findIndex(p => p.pagination === target);
+            if (found >= 0) {
+                goTo(pages, found);
+            } else {
+                pageInput.style.borderColor = '#a04040';
+                setTimeout(() => { pageInput.style.borderColor = '#ced4da'; }, 1000);
+            }
+        });
+        updateNav(pages, startIdx);
+    }
+
+    /* ── OpenSeadragon viewer ─────────────────────────────────────────── */
+    let osd = null;
+    const loadingEl = document.getElementById('loading-overlay');
+    const loadMsgEl = document.getElementById('load-msg');
+    const errorEl   = document.getElementById('error-overlay');
+
+    function setLoadMsg(m) { if (loadMsgEl) loadMsgEl.textContent = m; }
+    function hideLoading() { if (loadingEl) loadingEl.style.display = 'none'; }
+    function showImgError(m) {
+        if (loadingEl) loadingEl.style.display = 'none';
+        if (errorEl)   { errorEl.style.display = 'flex'; document.getElementById('error-msg').textContent = m; }
+    }
+
+    function iiifUrl(fileId) { return 'https://iiif.bdrc.io/' + fileId + '/info.json'; }
+
+    function initViewer() {
+        osd = OpenSeadragon({
+            id:                    'viewer',
+            prefixUrl:             'https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/images/',
+            showNavigationControl: true,
+            animationTime:         0.3,
+            blendTime:             0.1,
+            constrainDuringPan:    false,
+            maxZoomPixelRatio:     4,
+            minZoomImageRatio:     0.5,
+            visibilityRatio:       0.5,
+            defaultZoomLevel:      0,
+            tileSources:           null
+        });
+        osd.addHandler('open', function () {
+            let done = false;
+            function finish() { if (!done) { done = true; hideLoading(); } }
+            osd.addOnceHandler('tile-drawn', finish);
+            setTimeout(finish, 8000);
+        });
+        osd.addHandler('open-failed', () => showImgError('Failed to load image.'));
+    }
+
+    function loadPageImage(pages, idx) {
+        if (!pages || !pages[idx] || !pages[idx].file) return;
+        if (!osd) initViewer();
+        if (loadingEl) loadingEl.style.display = 'flex';
+        if (errorEl)   errorEl.style.display   = 'none';
+        setLoadMsg('Loading image…');
+        osd.open(iiifUrl(pages[idx].file));
+    }
+
+    /* ── Horizontal resize (etext ↕ viewer) ──────────────────────────── */
+    (function () {
+        const handle = document.getElementById('h-resize-handle');
+        const wrap   = document.getElementById('viewer-wrap');
+        let dragging = false, startY = 0, startH = 0;
+        handle.addEventListener('mousedown', e => {
+            dragging = true; startY = e.clientY; startH = wrap.offsetHeight;
+            handle.classList.add('dragging');
+            document.body.style.cursor = 'row-resize';
+            document.body.style.userSelect = 'none';
+        });
+        document.addEventListener('mousemove', e => {
+            if (!dragging) return;
+            const newH = Math.max(80, Math.min(window.innerHeight * 0.8, startH + (e.clientY - startY)));
+            wrap.style.height = newH + 'px';
+            if (osd && osd.viewport) osd.viewport.goHome(true);
+        });
+        document.addEventListener('mouseup', () => {
+            if (!dragging) return;
+            dragging = false;
+            handle.classList.remove('dragging');
+            document.body.style.cursor = '';
+            document.body.style.userSelect = '';
+        });
+    })();
+
+    /* ── Vertical resize (left col ↔ dict panel) ──────────────────────── */
+    (function () {
+        const handle = document.getElementById('resize-handle');
+        const panel  = document.getElementById('dict-panel');
+        let dragging = false, startX = 0, startW = 0;
+        handle.addEventListener('mousedown', e => {
+            if (!dictOpen) return;
+            dragging = true; startX = e.clientX; startW = panel.offsetWidth;
+            handle.classList.add('dragging');
+            document.body.style.cursor = 'col-resize';
+            document.body.style.userSelect = 'none';
+        });
+        document.addEventListener('mousemove', e => {
+            if (!dragging) return;
+            const delta = startX - e.clientX;
+            const newW  = Math.max(280, Math.min(window.innerWidth * 0.75, startW + delta));
+            panel.style.width = newW + 'px';
+        });
+        document.addEventListener('mouseup', () => {
+            if (!dragging) return;
+            dragging = false;
+            handle.classList.remove('dragging');
+            document.body.style.cursor = '';
+            document.body.style.userSelect = '';
+        });
+    })();
+
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Collections</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="page-heading">
+            <h1>rKTs E-text Lab</h1>
+            <p>A working corpus of OCR-derived Tibetan texts for discovery, comparison, and downstream research</p>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card reading-card">
+                    <div class="card-header">
+                        <h2>Available tools</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="resource-grid mb-4">
+                            <a class="resource-card" href="results2.html">
+                                <strong>E-texts Search</strong>
+                                <span>Search across all available e-texts.</span>
+                            </a>
+                            <a class="resource-card" href="etexts_navigator.html">
+                                <strong>E-texts Navigator</strong>
+                                <span>Browse e-texts by collection, volume, and folios.</span>
+                            </a>
+                            <a class="resource-card" href="etexts_repository.html">
+                                <strong>E-texts Repository</strong>
+                                <span>Download plain-text from the full corpus of e-texts.</span>
+                            </a>
+                        </div>
+
+                        <div class="reading-sections reading-flow">
+                            <section class="content-section">
+                                <h3>Critical Source Materials for Buddhist Textual Studies</h3>
+                                <p>rKTs presents an extended repository of machine-generated e-texts. These digital renditions have been created using BDRC’s OCR  application for Tibetan, released in March 2025. The models for character recognition were developed by Eric Werner in collaboration with Élie Roux, Pentsok W. Rtsang, and the Monlam AI team.</p>
+                            </section>
+                            <section class="content-section">
+                                <h3>Quality Statement</h3>
+                                <p>The present corpus largely constitutes raw OCR output without manual correction or editorial review. As such, researchers should note:
+							<br>• Character recognition accuracy varies according to script type, image quality, and textual layout.
+							<br>• The OCR models employed are in continued development.
+							<br>• Results may exhibit inconsistencies in complex passages or where source materials present degradation.
+							<br>• Occasional character substitutions, omissions, or misrecognitions may be present.
+							<br>• Levels of quality are indicated by the following labels: Input (manually entered and reviewed); OCR+ (machine-generated with multiple proofreading steps); OCR (raw output without further verifaction).
+							
+							<br><br>Users are advised to verify critical passages against original sources when employing these materials for substantive philological or doctrinal analysis.</p>
+                            </section>
+                            <section class="content-section">
+                                <h3>Community Collaboration</h3>
+                                <p>							The rKTs team welcomes scholarly contributions in the form of corrected or edited versions of these texts. All contributions will be properly attributed to their original authors.
+							<br>If you find errors in these e-texts or if you have good-quality e-texts to contribute, please <a href="about.html#contact">contact us</a>.</p>
+                            </section>
+                            <section class="content-section">
+                                <h3>The Journey of Digital Tibetan Canonical Collections</h3>
+                                <p>This short <a href="data/HistoryDigitalTexts.pdf" target="_blank">essay</a> describes the history of creating Tibetan e-texts for Tibetan Buddhist studies (Daniel Wojahn, 2025).</p>
+                            </section>
+                        </div>
+                        
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script> Resources for Kanjur and Tanjur Studies (rKTs). Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>. <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+  

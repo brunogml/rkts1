@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+</head>
+<body class="page-zotero">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="page-heading">
+            <h1>Bibliography</h1>
+            <p>Search and filter the rKTs Zotero bibliography by title, author, topic, and date</p>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card bibliography-toolbar-card">
+                    <div class="card-header">
+                        <h2>Search bibliography</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3 toolbar-row">
+                            <div class="col-lg-6">
+                                <label class="form-label" for="search-input">Search</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                                    <input type="text" class="form-control" id="search-input"
+                                           placeholder="Search publications by title, author, or abstract...">
+                                    <button class="btn btn-outline-secondary" type="button"
+                                            id="clear-search-btn" aria-label="Clear bibliography search">
+                                        <i class="bi bi-x-lg"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-3">
+                                <label class="form-label" for="tag-filter">Topic</label>
+                                <select class="form-select" id="tag-filter">
+                                    <option value="">All topics</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6 col-lg-3">
+                                <label class="form-label" for="sort-order">Sort by</label>
+                                <select class="form-select" id="sort-order">
+                                    <option value="dateAdded-desc">Newest First</option>
+                                    <option value="dateAdded-asc">Oldest First</option>
+                                    <option value="date-desc">Publication Date (Newest)</option>
+                                    <option value="date-asc">Publication Date (Oldest)</option>
+                                    <option value="title-asc">Title A-Z</option>
+                                    <option value="title-desc">Title Z-A</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
+                            <span id="results-count" class="results-meta">Loading publications...</span>
+                            <div class="btn-group" role="group" aria-label="Bibliography display mode">
+                                <button type="button" class="btn btn-outline-primary" id="view-cards">
+                                    <i class="bi bi-grid-3x3-gap"></i> Cards
+                                </button>
+                                <button type="button" class="btn btn-outline-primary" id="view-list">
+                                    <i class="bi bi-list-ul"></i> List
+                                </button>
+                                <button type="button" class="btn btn-outline-primary active" id="view-compact">
+                                    <i class="bi bi-list"></i> Compact
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span id="filter-badge" class="badge bg-secondary ms-2" style="display:none">Filtered</span>
+                            <div></div>
+                        </div>
+                        <div id="recent-publications">
+                            <div class="d-flex justify-content-center my-5">
+                                <div class="spinner-border text-primary" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="../vendor/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    (function () {
+        'use strict';
+
+        /* ── Configuration ───────────────────────────────────────────────────── */
+        const ZOTERO_API_BASE  = 'https://api.zotero.org';
+        const ZOTERO_GROUP_ID  = '2296997';
+        const ZOTERO_GROUP_URL = 'https://www.zotero.org/groups/2296997/rkts_bibliography/library';
+        const ZOTERO_API_KEY   = ''; // set via server config if needed
+        const ITEMS_PER_PAGE   = 100;
+        const CACHE_KEY        = 'rkts_zotero_cache';
+        const CACHE_EXPIRY_MS  = 30 * 60 * 1000;
+
+        /* ── State ───────────────────────────────────────────────────────────── */
+        let allPublications      = [];
+        let filteredPublications = [];
+        const allTags            = new Set();
+        let currentView          = 'compact';
+        let isLoading            = false;
+
+        const currentFilters = {
+            search:    '',
+            sort:      'dateAdded',
+            direction: 'desc',
+            type:      'all',
+            tag:       '',
+        };
+
+        /* ── Utilities ───────────────────────────────────────────────────────── */
+        function debounce(fn, ms) {
+            let timer;
+            return function (...args) {
+                clearTimeout(timer);
+                timer = setTimeout(() => fn.apply(this, args), ms);
+            };
+        }
+
+        function truncateText(text, maxLen) {
+            if (!text || text.length <= maxLen) return text || '';
+            return text.slice(0, maxLen).replace(/\s+\S*$/, '') + '…';
+        }
+
+        /* ── Cache ───────────────────────────────────────────────────────────── */
+        function loadFromCache() {
+            try {
+                const cached = localStorage.getItem(CACHE_KEY);
+                if (!cached) return null;
+                const { data, timestamp } = JSON.parse(cached);
+                if (Date.now() - timestamp > CACHE_EXPIRY_MS) {
+                    localStorage.removeItem(CACHE_KEY);
+                    return null;
+                }
+                return data;
+            } catch (_e) {
+                localStorage.removeItem(CACHE_KEY);
+                return null;
+            }
+        }
+
+        function saveToCache(data) {
+            try {
+                localStorage.setItem(CACHE_KEY, JSON.stringify({ data, timestamp: Date.now() }));
+            } catch (_e) { /* storage full or disabled */ }
+        }
+
+        /* ── Fetch ───────────────────────────────────────────────────────────── */
+        function fetchPublications() {
+            if (isLoading) return;
+
+            const cachedData = loadFromCache();
+            if (cachedData && cachedData.length > 0) {
+                processPublications(cachedData);
+                return;
+            }
+
+            isLoading = true;
+            const container = document.getElementById('recent-publications');
+            if (container) {
+                container.innerHTML =
+                    '<div class="text-center py-4">' +
+                    '<div class="spinner-border text-primary" role="status">' +
+                    '<span class="visually-hidden">Loading...</span></div>' +
+                    '<p class="mt-2">Loading publications from Zotero...</p></div>';
+            }
+
+            const endpoint = `${ZOTERO_API_BASE}/groups/${ZOTERO_GROUP_ID}/items/top`;
+            const baseParams = new URLSearchParams({
+                limit:    ITEMS_PER_PAGE,
+                sort:     currentFilters.sort,
+                direction:currentFilters.direction,
+                format:   'json',
+                itemType: '-attachment',
+            });
+
+            const headers = new Headers({
+                Accept:             'application/json',
+                'Zotero-API-Version': '3',
+            });
+            if (ZOTERO_API_KEY) headers.append('Authorization', `Bearer ${ZOTERO_API_KEY}`);
+
+            // First request: get Total-Results header
+            fetch(`${endpoint}?${baseParams}&limit=1`, { method: 'GET', headers })
+                .then(response => {
+                    if (!response.ok) throw new Error(`HTTP ${response.status} ${response.statusText}`);
+                    const total = parseInt(response.headers.get('Total-Results') || '0', 10);
+                    if (total === 0) return Promise.resolve([]);
+
+                    const requests = [];
+                    for (let start = 0; start < total; start += ITEMS_PER_PAGE) {
+                        const p = new URLSearchParams(baseParams);
+                        p.set('start', start);
+                        p.set('limit', ITEMS_PER_PAGE);
+                        requests.push(
+                            fetch(`${endpoint}?${p}`, { method: 'GET', headers })
+                                .then(res => {
+                                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                                    return res.json();
+                                })
+                                .catch(() => [])
+                        );
+                    }
+                    return Promise.all(requests);
+                })
+                .then(pages => {
+                    const allItems = pages.flat().filter(Boolean);
+                    if (allItems.length === 0) {
+                        showError('No publications found. The group might be empty or not publicly accessible.');
+                        return;
+                    }
+                    saveToCache(allItems);
+                    processPublications(allItems);
+                })
+                .catch(error => {
+                    showError(`Failed to load publications from Zotero: ${error.message || error}`);
+                    isLoading = false;
+                });
+        }
+
+        /* ── Process ─────────────────────────────────────────────────────────── */
+        function processPublications(items) {
+            allPublications = items.filter(pub =>
+                pub.data?.itemType &&
+                pub.data.itemType !== 'note' &&
+                pub.data.itemType !== 'attachment'
+            );
+
+            if (allPublications.length === 0) {
+                showError('No valid publications found after filtering out notes and attachments.');
+                return;
+            }
+
+            allTags.clear();
+            allPublications.forEach(pub => {
+                (pub.data?.tags || []).forEach(tag => {
+                    if (tag && typeof tag === 'object' && tag.tag) allTags.add(tag.tag);
+                    else if (typeof tag === 'string')               allTags.add(tag);
+                });
+            });
+
+            updateTagFilter();
+            applyFilters();
+            isLoading = false;
+        }
+
+        /* ── Error ───────────────────────────────────────────────────────────── */
+        function showError(message) {
+            console.error('Displaying error:', message);
+            const container = document.getElementById('recent-publications') || document.body;
+            container.innerHTML =
+                `<div class="alert alert-danger">` +
+                `<i class="bi bi-exclamation-triangle me-2"></i>${message}` +
+                `<div class="mt-2"><button class="btn btn-sm btn-outline-secondary" onclick="location.reload()">` +
+                `<i class="bi bi-arrow-clockwise"></i> Try Again</button></div></div>`;
+        }
+
+        /* ── Filters & Sort ──────────────────────────────────────────────────── */
+        function applyFilters() {
+            filteredPublications = allPublications.filter(pub => {
+                if (!pub.data) return false;
+
+                if (currentFilters.search) {
+                    const s = currentFilters.search;
+                    const haystack = [
+                        pub.data.title || '',
+                        pub.data.abstractNote || '',
+                        getAuthorsText(pub),
+                        pub.data.publicationTitle || '',
+                        pub.data.publisher || '',
+                    ].join(' ').toLowerCase();
+                    if (!haystack.includes(s)) return false;
+                }
+
+                if (currentFilters.type && currentFilters.type !== 'all') {
+                    if (pub.data.itemType !== currentFilters.type) return false;
+                }
+
+                if (currentFilters.tag) {
+                    if (!pub.data.tags || !pub.data.tags.some(t => t.tag === currentFilters.tag))
+                        return false;
+                }
+
+                return true;
+            });
+
+            sortPublications();
+            renderPublications(filteredPublications);
+            updateFilterBadge();
+        }
+
+        function sortPublications() {
+            const dir = currentFilters.direction === 'asc' ? 1 : -1;
+            filteredPublications.sort((a, b) => {
+                let va, vb;
+                switch (currentFilters.sort) {
+                    case 'title':     va = a.data.title || '';      vb = b.data.title || '';      break;
+                    case 'date':      va = a.data.date || '';       vb = b.data.date || '';       break;
+                    default:          va = a.data.dateAdded || '';  vb = b.data.dateAdded || '';
+                }
+                if (va < vb) return -1 * dir;
+                if (va > vb) return  1 * dir;
+                return 0;
+            });
+        }
+
+        function updateFilterBadge() {
+            const badge = document.getElementById('filter-badge');
+            if (!badge) return;
+
+            const active = [
+                currentFilters.search ? `Search: ${currentFilters.search}` : null,
+                currentFilters.tag    ? `Tag: ${currentFilters.tag}`        : null,
+            ].filter(Boolean);
+
+            badge.style.display = active.length ? 'inline-block' : 'none';
+            if (active.length) {
+                badge.title       = active.join('\n');
+                badge.textContent = String(active.length);
+            }
+
+            const rc = document.getElementById('results-count');
+            if (rc) {
+                const total    = allPublications.length;
+                const filtered = filteredPublications.length;
+                rc.textContent = filtered === total
+                    ? `Showing all ${total} publications`
+                    : `Showing ${filtered} of ${total} publications`;
+            }
+        }
+
+        function updateTagFilter() {
+            const sel = document.getElementById('tag-filter');
+            if (!sel) return;
+            const prev = sel.value;
+            while (sel.options.length > 1) sel.remove(1);
+            Array.from(allTags).sort().forEach(tag => {
+                const opt = document.createElement('option');
+                opt.value = opt.textContent = tag;
+                sel.appendChild(opt);
+            });
+            if (prev && Array.from(allTags).includes(prev)) sel.value = prev;
+        }
+
+        /* ── Render ──────────────────────────────────────────────────────────── */
+        function renderPublications(publications) {
+            const container = document.getElementById('recent-publications');
+            if (!container) return;
+            container.innerHTML = '';
+
+            if (!publications || publications.length === 0) {
+                container.innerHTML = '<div class="alert alert-info">No publications found matching your criteria.</div>';
+                return;
+            }
+
+            let wrapper;
+            if (currentView === 'compact') {
+                wrapper = document.createElement('table');
+                wrapper.className = 'table table-hover';
+                wrapper.innerHTML =
+                    '<thead><tr>' +
+                    '<th scope="col">Title</th>' +
+                    '<th scope="col">Authors</th>' +
+                    '<th scope="col">Year</th>' +
+                    '<th scope="col">Type</th>' +
+                    '<th scope="col"></th>' +
+                    '</tr></thead>';
+                const tbody = document.createElement('tbody');
+                tbody.id = 'publications-tbody';
+                wrapper.appendChild(tbody);
+                container.appendChild(wrapper);
+                publications.forEach(pub => {
+                    if (pub.data) tbody.appendChild(createPublicationTableRow(pub));
+                });
+            } else if (currentView === 'list') {
+                wrapper = document.createElement('div');
+                wrapper.className = 'list-group';
+                container.appendChild(wrapper);
+                publications.forEach(pub => {
+                    if (pub.data) wrapper.appendChild(createPublicationListItem(pub));
+                });
+            } else {
+                wrapper = document.createElement('div');
+                wrapper.className = 'row';
+                container.appendChild(wrapper);
+                publications.forEach(pub => {
+                    if (pub.data) wrapper.appendChild(createPublicationCard(pub));
+                });
+            }
+        }
+
+        /* ── Card view ───────────────────────────────────────────────────────── */
+        function createPublicationCard(pub) {
+            const year    = pub.data.date ? new Date(pub.data.date).getFullYear() : 'n.d.';
+            const authors = getAuthorsText(pub);
+            const type    = formatItemType(pub.data.itemType);
+
+            const details = [
+                pub.data.publicationTitle ? `<em>${pub.data.publicationTitle}</em>` : null,
+                pub.data.publisher        || null,
+                pub.data.place            || null,
+            ].filter(Boolean).join(', ');
+
+            const zoteroLink = `${ZOTERO_GROUP_URL}/item/${pub.key}`;
+            let linkHtml = '';
+            if (pub.data.DOI) {
+                linkHtml = `<a href="https://doi.org/${pub.data.DOI}" target="_blank" class="text-decoration-none">DOI: ${pub.data.DOI}</a><br>`;
+            } else if (pub.data.url) {
+                linkHtml = `<a href="${pub.data.url}" target="_blank" class="text-decoration-none">View Online</a><br>`;
+            }
+            linkHtml += `<a href="${zoteroLink}" target="_blank" class="btn btn-sm btn-outline-secondary mt-1"><i class="bi bi-journal-text me-1"></i>View in Zotero</a>`;
+
+            const tagsHtml = (pub.data.tags || [])
+                .filter(t => t.tag)
+                .map(t => `<span class="badge bg-light text-dark me-1 mb-1">${t.tag}</span>`)
+                .join('');
+
+            const col  = document.createElement('div');
+            col.className = 'col-md-6 col-lg-4 mb-4';
+            const card = document.createElement('div');
+            card.className = 'card h-100';
+            card.innerHTML =
+                `<div class="card-body">` +
+                `<h5 class="card-title">${pub.data.title || 'Untitled'}</h5>` +
+                `<h6 class="card-subtitle mb-2 text-muted">${authors}</h6>` +
+                `<div class="d-flex justify-content-between align-items-center mb-2">` +
+                `<span class="badge bg-secondary">${type}</span>` +
+                `<small class="text-muted">${year}</small></div>` +
+                (details ? `<p class="card-text small text-muted">${details}</p>` : '') +
+                (pub.data.abstractNote ? `<p class="card-text small">${truncateText(pub.data.abstractNote, 150)}</p>` : '') +
+                `<p class="card-text small">${linkHtml}</p>` +
+                (tagsHtml ? `<div class="mt-2">${tagsHtml}</div>` : '') +
+                `</div>`;
+            col.appendChild(card);
+            return col;
+        }
+
+        /* ── List view ───────────────────────────────────────────────────────── */
+        function createPublicationListItem(pub) {
+            const year    = pub.data.date ? new Date(pub.data.date).getFullYear() : 'n.d.';
+            const authors = getAuthorsText(pub);
+            const type    = formatItemType(pub.data.itemType);
+            const href    = pub.links?.alternate?.href || '#';
+
+            const item    = document.createElement('a');
+            item.className = 'list-group-item list-group-item-action';
+            item.href      = href;
+            item.target    = '_blank';
+            item.innerHTML =
+                `<div class="d-flex w-100 justify-content-between">` +
+                `<h5 class="mb-1">${pub.data.title || 'Untitled'}</h5>` +
+                `<small>${year}</small></div>` +
+                `<p class="mb-1">${authors}</p>` +
+                (pub.data.abstractNote ? `<small class="text-muted">${truncateText(pub.data.abstractNote, 200)}</small>` : '') +
+                `<div class="mt-2"><span class="badge bg-secondary">${type}</span></div>`;
+            return item;
+        }
+
+        /* ── Compact view ────────────────────────────────────────────────────── */
+        function createPublicationTableRow(pub) {
+            const year    = pub.data.date ? new Date(pub.data.date).getFullYear() : 'n.d.';
+            const authors = getAuthorsText(pub);
+            const type    = formatItemType(pub.data.itemType);
+            const href    = pub.links?.alternate?.href || '#';
+
+            const row = document.createElement('tr');
+            row.innerHTML =
+                `<td><strong>${truncateText(pub.data.title || 'Untitled', 80)}</strong></td>` +
+                `<td>${authors}</td>` +
+                `<td>${year}</td>` +
+                `<td><span class="badge bg-secondary">${type}</span></td>` +
+                `<td><a href="${href}" target="_blank" class="btn btn-sm btn-outline-primary">` +
+                `<i class="bi bi-box-arrow-up-right"></i></a></td>`;
+            return row;
+        }
+
+        /* ── Helpers ─────────────────────────────────────────────────────────── */
+        function getAuthorsText(pub) {
+            if (!pub.data?.creators) return 'Unknown Author';
+            const authors = pub.data.creators
+                .filter(c => c.creatorType === 'author')
+                .map(a => a.name || `${a.lastName || ''}, ${a.firstName || ''}`);
+            if (authors.length === 0) return 'Unknown Author';
+            if (authors.length === 1) return authors[0];
+            if (authors.length === 2) return `${authors[0]} and ${authors[1]}`;
+            return `${authors[0]} et al.`;
+        }
+
+        function formatItemType(itemType) {
+            if (!itemType) return 'Unknown';
+            return itemType
+                .replace(/([A-Z])/g, ' $1')
+                .replace(/^./, s => s.toUpperCase())
+                .trim();
+        }
+
+        function setActiveView(view) {
+            currentView = view;
+            document.querySelectorAll('#view-cards, #view-list, #view-compact')
+                .forEach(btn => btn.classList.remove('active'));
+            const btn = document.getElementById(`view-${view}`);
+            if (btn) btn.classList.add('active');
+            renderPublications(filteredPublications);
+        }
+
+        /* ── Init ────────────────────────────────────────────────────────────── */
+        function init() {
+            if (!document.getElementById('recent-publications')) return;
+
+            const searchInput = document.getElementById('search-input');
+            if (searchInput) {
+                searchInput.addEventListener('input', debounce(function () {
+                    currentFilters.search = this.value.trim().toLowerCase();
+                    applyFilters();
+                }, 300));
+            }
+
+            const clearBtn = document.getElementById('clear-search-btn');
+            if (clearBtn) {
+                clearBtn.addEventListener('click', () => {
+                    searchInput.value = '';
+                    currentFilters.search = '';
+                    applyFilters();
+                });
+            }
+
+            const tagFilter = document.getElementById('tag-filter');
+            if (tagFilter) {
+                tagFilter.addEventListener('change', function () {
+                    currentFilters.tag = this.value;
+                    applyFilters();
+                });
+            }
+
+            const sortOrder = document.getElementById('sort-order');
+            if (sortOrder) {
+                sortOrder.addEventListener('change', function () {
+                    const [sort, direction] = this.value.split('-');
+                    currentFilters.sort      = sort;
+                    currentFilters.direction = direction;
+                    applyFilters();
+                });
+            }
+
+            document.getElementById('view-cards')  ?.addEventListener('click', () => setActiveView('cards'));
+            document.getElementById('view-list')   ?.addEventListener('click', () => setActiveView('list'));
+            document.getElementById('view-compact')?.addEventListener('click', () => setActiveView('compact'));
+
+            fetchPublications();
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+
+    })();
+    </script>
+</body>
+</html>

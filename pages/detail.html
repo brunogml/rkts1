@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ 
+ 
+    <!-- ══ Main ══════════════════════════════════════════════════════════════ -->
+    <div class="container mt-4">
+
+        <!-- Page header -->
+        <div class="d-flex align-items-center justify-content-between mb-3">
+            <h4 class="mb-0">
+                Catalog: <span id="collection-id-label" class="badge bg-secondary collection-id-badge">—</span>
+            </h4>
+            <div class="d-flex align-items-center gap-2">
+                <span id="item-count" class="text-muted small"></span>
+                <button type="button" id="global-tib-toggle"
+                        class="btn btn-outline-secondary btn-sm tib-toggle-btn d-none"
+                        data-mode="ewts" title="Show in Tibetan script">
+                    <i class="bi bi-translate" style="font-size:1.5em;">བོད་</i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Error alert -->
+        <div id="error-alert" class="alert alert-warning d-none" role="alert">
+            <i class="bi bi-exclamation-triangle me-2"></i>
+            <span id="error-message">Could not load catalog data.</span>
+        </div>
+
+        <!-- Two-column layout -->
+        <div class="row g-0">
+
+            <!-- Left sidebar -->
+            <div id="section-nav" class="col-xl-2 col-lg-2 col-md-3 d-none pe-3">
+                <div class="section-nav-inner">
+                    <div class="nav-sidebar-label">Navigate</div>
+                    <input type="text" id="coll-filter" class="form-control form-control-sm mb-2"
+                           placeholder="Filter…" autocomplete="off" aria-label="Filter collections">
+                    <div style="overflow-y: scroll; max-height: calc(100vh - 160px);">
+                        <nav class="nav flex-column nav-pills" id="section-nav-pills"></nav>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main content column -->
+            <div class="col" id="main-content-col">
+
+                <!-- Standard titles block -->
+                <div id="standard-titles" class="d-none mb-4">
+                    <div class="card border-0 bg-light">
+                        <div class="card-body py-3 px-4">
+                            <div id="std-tib" class="d-none mb-1">
+                                <span class="modal-label me-2">Tibetan</span>
+                                <span id="std-tib-val" class="script-text" data-lang="tib"></span>
+                            </div>
+                            <div id="std-skt" class="d-none mb-1">
+                                <span class="modal-label me-2">Sanskrit</span>
+                                <span id="std-skt-val"></span>
+                            </div>
+                            <div id="std-mng" class="d-none mb-1">
+                                <span class="modal-label me-2">Mongolian</span>
+                                <span id="std-mng-val"></span>
+                            </div>
+                            <div id="std-eng" class="d-none mb-1">
+                                <span class="modal-label me-2">English</span>
+                                <span id="std-eng-val"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Collections (populated by JS) -->
+                <div id="section-collections"></div>
+
+                <!-- Title variants -->
+                <div id="title-variants-section" class="d-none mt-5">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="text-uppercase text-muted fw-semibold mb-0"
+                                style="letter-spacing:0.07em; font-size:0.78rem;">Title Variants</h2>
+                        </div>
+                        <div class="card-body">
+                            <ul id="title-variants-list" class="list-unstyled mb-0"></ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More -->
+                <div id="section-more" class="d-none mt-5">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="text-uppercase text-muted fw-semibold mb-0"
+                                style="letter-spacing:0.07em; font-size:0.78rem;">More</h2>
+                        </div>
+                        <div class="card-body" id="more-content"></div>
+                    </div>
+                </div>
+
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <!-- Item Detail Modal -->
+    <div class="modal fade" id="item-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-ref">—</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Collection Info Modal -->
+    <div class="modal fade" id="coll-info-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="coll-info-modal-title">Collection Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="coll-info-modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary d-none" id="coll-info-download-btn">
+                        <i class="bi bi-download me-1"></i>Download JSON
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../tools/EwtsConverter.js"></script>
+
+    <script>
+    (function () {
+        /* ── Paths ─────────────────────────────────────────────────────────── */
+        const DATA      = '../data/general';
+        const COLLS_URL = DATA + '/collections.json';
+        const STD_URL   = DATA + '/standard.xml';
+        const COLL_XML  = (sigla) => `../data/collections/${sigla}/${sigla}.xml`;
+        const COLL_BASE = '../data/collections';   // /{coll}/{coll}.xml, /{coll}/{title}/{vol}.json etc.
+        // Derived data files alongside standard.xml
+        const DATA_BASE = '../data/general';
+
+        // Collections for which the "Download Images" button is shown.
+        // Keep this in sync with the list at the top of downloadImageRange() below.
+        const DOWNLOAD_ENABLED_COLLS = ['D', 'H', 'N'];
+
+        /* ── EWTS helpers (jsEWTS from EwtsConverter.js) ───────────────────── */
+        function toUnicode(ewts) {
+            if (!ewts) return '';
+            if (window.jsEWTS) { try { return window.jsEWTS.fromWylie(ewts); } catch(e) {} }
+            return ewts;
+        }
+
+        /* ── Image download (zip of a folio range) ────────────────────────────
+           Reuses the file-resolution logic from images.html (volume JSON,
+           manifest.txt IIIF template, and the per-collection image URL rules
+           for Gpb / coll=A / generic IIIF). ───────────────────────────────── */
+        function pagToNum(p) {
+            if (!p) return -1;
+            // Accept an optional trailing ".N" line-number suffix (e.g. "17b.4" from
+            // a debl/finl folio+line reference) and ignore it for range comparison.
+            const m = p.match(/^(\d+)('?)([ab]?)(?:\.\d+)?$/);
+            if (!m) return -1;
+            const base  = parseInt(m[1], 10);
+            const prime = m[2] === "'";
+            const side  = m[3];
+            if (prime) return base + (side === 'b' ? 0.7 : 0.6);
+            return base + (side === 'b' ? 0.5 : 0);
+        }
+
+        function gpbImageUrl(vol, fileId) {
+            // Gpb exception: images at www.rswb.org/rkts/Gpb/I{vol}/I{file on 4 digits}.png
+            const base    = String(fileId).replace(/\.[^.]+$/, '');
+            const fileNum = base.slice(-4).padStart(4, '0');
+            return 'http://www.rswb.org/rkts/Gpb/I' + vol + '/I' + fileNum + '.png';
+        }
+
+        function collAImageUrl(vol, fileId) {
+            // coll=A: images at www.rswb.org/rkts/A/I{vol}/{localPart}.png
+            const localPart = String(fileId).includes('::') ? fileId.split('::').pop() : String(fileId);
+            const base      = localPart.replace(/\.[^.]+$/, '').replace(/^I/, '');
+            return 'http://www.rswb.org/rkts/A/I' + vol + '/' + base + '.jpg';
+        }
+
+        function genericImageDownloadUrl(vol, fileId, iiifTemplate) {
+            // Same template resolution as iiifUrl() in images.html, but pointed
+            // at a full-resolution IIIF Image API request instead of info.json.
+            if (iiifTemplate) {
+                const volSafe = vol.replace(/-/g, '_');
+                const infoUrl = iiifTemplate.replace('yyy', encodeURIComponent(volSafe))
+                                            .replace('xxx', encodeURIComponent(fileId));
+                return infoUrl.replace(/\/info\.json$/, '/full/full/0/default.jpg');
+            }
+            if (/^https?:\/\//i.test(fileId)) {
+                const base = fileId.replace(/\/+$/, '').replace(/\/info\.json$/, '');
+                return base + '/full/full/0/default.jpg';
+            }
+            return 'https://iiif.bdrc.io/' + fileId + '/full/full/0/default.jpg';
+        }
+
+        async function fetchVolumePages(coll, title, vol) {
+            const jsonUrl     = COLL_BASE + '/' + encodeURIComponent(coll) + '/' + encodeURIComponent(title) + '/' + encodeURIComponent(vol) + '.json';
+            const manifestUrl = COLL_BASE + '/' + encodeURIComponent(coll) + '/' + encodeURIComponent(title) + '/manifest.txt';
+            console.log('[download-images] volume JSON URL:', jsonUrl);
+            console.log('[download-images] manifest.txt URL:', manifestUrl);
+            const [data, tmplText] = await Promise.all([
+                fetch(jsonUrl).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status + ' for volume index (' + jsonUrl + ')'); return r.json(); }),
+                fetch(manifestUrl).then(r => r.ok ? r.text() : null).catch(() => null)
+            ]);
+            const iiifTemplate = tmplText ? tmplText.trim() : null;
+            const pages = Object.keys(data)
+                .filter(k => /^\d+$/.test(k))
+                .sort((a, b) => parseInt(a, 10) - parseInt(b, 10))
+                .map(k => data[k])
+                .filter(Boolean);
+            console.log('[download-images] pages found in volume JSON:', pages.length,
+                '— paginations:', pages.map(p => p.pagination));
+            return { pages, iiifTemplate, jsonUrl, manifestUrl };
+        }
+
+        async function downloadImageRange(coll, title, vol, sec, fromPag, toPag, btn) {
+            // Collections for which image download is permitted.
+            const ALLOWED_DOWNLOAD_COLLS = ['D', 'H', 'N'];
+
+            if (!ALLOWED_DOWNLOAD_COLLS.includes(coll)) {
+                alert('Image download is not available for collection "' + coll + '".');
+                return;
+            }
+            if (typeof JSZip === 'undefined') {
+                alert('Download is unavailable: the JSZip library failed to load.');
+                return;
+            }
+
+            const origHtml = btn.innerHTML;
+            btn.disabled = true;
+            try {
+                btn.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span>Loading index…';
+                const { pages, iiifTemplate, jsonUrl } = await fetchVolumePages(coll, title, vol);
+                if (!pages.length) throw new Error('No pages found in volume index.\nJSON: ' + jsonUrl);
+
+                const fromNum = fromPag ? pagToNum(fromPag) : -Infinity;
+                const toNum   = toPag   ? pagToNum(toPag)   : fromNum;
+                console.log('[download-images] requested range:', fromPag, '→', toPag,
+                    '(numeric', fromNum, '→', toNum, ', sec =', sec || '(none)', ')');
+
+                let selected = pages.filter(p => {
+                    if (sec && p.psection && p.psection !== sec) return false;
+                    const n = pagToNum(p.pagination);
+                    if (n < 0) return false;
+                    return n >= fromNum && n <= toNum;
+                });
+                console.log('[download-images] matched pages:', selected.map(p => p.pagination));
+                if (!selected.length) {
+                    throw new Error(
+                        'No pages found in the requested range.\n' +
+                        'JSON: ' + jsonUrl + '\n' +
+                        'Requested: ' + (fromPag || '?') + (toPag && toPag !== fromPag ? ' – ' + toPag : '') +
+                            (sec ? ' (sec ' + sec + ')' : '') + '\n' +
+                        'Available paginations (' + pages.length + '): ' +
+                            pages.slice(0, 30).map(p => p.pagination).join(', ') +
+                            (pages.length > 30 ? ', …' : '')
+                    );
+                }
+
+                const zip = new JSZip();
+                for (let i = 0; i < selected.length; i++) {
+                    const p = selected[i];
+                    btn.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span>'
+                        + 'Downloading ' + (i + 1) + '/' + selected.length + '…';
+
+                    const fileId = p.file || p.img;
+                    let url;
+                    if (coll === 'Gpb') url = gpbImageUrl(vol, fileId);
+                    else if (coll === 'A') url = collAImageUrl(vol, fileId);
+                    else url = genericImageDownloadUrl(vol, fileId, iiifTemplate);
+
+                    try {
+                        const resp = await fetch(url);
+                        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+                        const blob = await resp.blob();
+                        const ext  = (url.match(/\.(\w+)(?:\?.*)?$/) || [])[1] || 'jpg';
+                        const name = (p.pagination || ('p' + (i + 1))).replace(/[^A-Za-z0-9_.'-]/g, '_') + '.' + ext;
+                        zip.file(name, blob);
+                    } catch (e) {
+                        console.warn('Failed to download image for page', p.pagination, url, e);
+                    }
+                }
+
+                btn.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span>Zipping…';
+                const blob = await zip.generateAsync({ type: 'blob' });
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(blob);
+                a.download = [coll, title, vol, fromPag, toPag].filter(Boolean).join('_') + '.zip';
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+                setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+            } catch (e) {
+                console.error('Image download failed:', e);
+                alert('Image download failed: ' + e.message);
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = origHtml;
+            }
+        }
+
+        document.addEventListener('click', e => {
+            const btn = e.target.closest('.btn-download-images');
+            if (!btn) return;
+            e.preventDefault();
+            if (btn.disabled) return;
+            downloadImageRange(
+                btn.dataset.coll, btn.dataset.title, btn.dataset.vol, btn.dataset.sec || '',
+                btn.dataset.from || '', btn.dataset.to || '', btn
+            );
+        });
+
+        /* ══════════════════════════════════════════════════════════════════════
+           Etext download (Wylie .txt and Unicode .txt for a folio range)
+           Path: ../data/etexts/{genreCode}{coll}/{volno_padded3}.txt
+           Line format: \d+'?[ab]\d+(?:\(secCode\))?: text
+        ══════════════════════════════════════════════════════════════════════ */
+        const ETEXT_GENRE_CODE = { 'Kanjur': '1', 'Canonical Collection': '1', 'Tanjur': '2', 'Old Tantra': '3', 'Bon': '4' };
+        const ETEXTS_BASE      = '../data/etexts';
+
+        // Collections for which etext download is shown.
+        const ETEXT_DOWNLOAD_ENABLED_COLLS = ['D', 'H', 'N'];
+
+        async function downloadEtextRange(coll, conTitle, volref, sec, fromFolio, toFolio, asUnicode, btn, siglaGenre, volrefVolno) {
+            if (!ETEXT_DOWNLOAD_ENABLED_COLLS.includes(coll)) {
+                alert('Etext download is not available for collection "' + coll + '".');
+                return;
+            }
+            const genre = siglaGenre ? siglaGenre[coll] : null;
+            const code  = genre ? ETEXT_GENRE_CODE[genre] : null;
+            if (!code) {
+                alert('Cannot determine genre code for collection "' + coll + '".');
+                return;
+            }
+            // Resolve volno via {sigla}:{conTitle}:{volref}
+            let volno = volrefVolno ? volrefVolno[coll + ':' + (conTitle||'') + ':' + volref] : null;
+            if (!volno && volrefVolno) {
+                const prefix = coll + ':';
+                const suffix = ':' + volref;
+                const key = Object.keys(volrefVolno).find(k => k.startsWith(prefix) && k.endsWith(suffix));
+                if (key) volno = volrefVolno[key];
+            }
+            if (!volno) {
+                alert('Cannot resolve volume number for vol "' + volref + '" in collection "' + coll + '".');
+                return;
+            }
+            const pad    = String(parseInt(volno, 10)).padStart(3, '0');
+            const txtUrl = ETEXTS_BASE + '/' + code + coll + '/' + pad + '.txt';
+
+            const origHtml = btn.innerHTML;
+            btn.disabled   = true;
+            try {
+                btn.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span>Fetching etext…';
+                const resp = await fetch(txtUrl);
+                if (!resp.ok) throw new Error('HTTP ' + resp.status + ' — ' + txtUrl);
+                const rawTxt = await resp.text();
+
+                // Parse lines: pag lnum (secCode)?: text
+                const lineRe = /^(\d+'?[ab])(\d+)(?:\(([^)]*)\))?:\s*(.*)/;
+                const parsed = [];
+                rawTxt.split(/\r?\n/).forEach(raw => {
+                    const m = raw.match(lineRe);
+                    if (!m) return;
+                    parsed.push({ pag: m[1], lnum: m[2], secCode: m[3] || '', text: m[4] });
+                });
+
+                const fromNum = fromFolio ? pagToNum(fromFolio) : -Infinity;
+                const toNum   = toFolio   ? pagToNum(toFolio)   :  fromNum;
+                const selected = parsed.filter(entry => {
+                    if (sec && entry.secCode && entry.secCode !== sec) return false;
+                    const n = pagToNum(entry.pag);
+                    return n >= fromNum && n <= toNum;
+                });
+
+                if (!selected.length) {
+                    throw new Error(
+                        'No etext lines found in the requested range.\n' +
+                        'URL: ' + txtUrl + '\n' +
+                        'Requested: ' + (fromFolio||'?') + (toFolio && toFolio !== fromFolio ? ' – ' + toFolio : '') +
+                            (sec ? ' (sec ' + sec + ')' : '') + '\n' +
+                        'Total lines parsed: ' + parsed.length
+                    );
+                }
+
+                btn.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span>Building file…';
+
+                // Reconstruct text grouped by folio page
+                let output = '';
+                let lastPag = null;
+                selected.forEach(entry => {
+                    if (entry.pag !== lastPag) {
+                        if (lastPag) output += '\n';
+                        output += '[' + entry.pag + ']\n';
+                        lastPag = entry.pag;
+                    }
+                    let line = entry.text;
+                    if (asUnicode && window.jsEWTS) {
+                        try { line = window.jsEWTS.fromWylie(line); } catch(e) {}
+                    }
+                    output += entry.lnum + ': ' + line + '\n';
+                });
+
+                const ext      = asUnicode ? '_unicode.txt' : '_wylie.txt';
+                const filename = [coll, pad, fromFolio, toFolio].filter(Boolean).join('_') + ext;
+                const blob     = new Blob([output], { type: 'text/plain;charset=utf-8' });
+                const a        = document.createElement('a');
+                a.href         = URL.createObjectURL(blob);
+                a.download     = filename;
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+                setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+
+            } catch(e) {
+                console.error('Etext download failed:', e);
+                alert('Etext download failed: ' + e.message);
+            } finally {
+                btn.disabled  = false;
+                btn.innerHTML = origHtml;
+            }
+        }
+
+        document.addEventListener('click', e => {
+            const btn = e.target.closest('.btn-download-etext');
+            if (!btn || btn.disabled) return;
+            e.preventDefault();
+            // siglaGenre and volrefVolno are passed as JSON data-attributes
+            let sg = {}, vv = {};
+            try { sg = JSON.parse(btn.dataset.siglaGenre  || '{}'); } catch(ex) {}
+            try { vv = JSON.parse(btn.dataset.volrefVolno || '{}'); } catch(ex) {}
+            downloadEtextRange(
+                btn.dataset.coll, btn.dataset.conTitle || '', btn.dataset.vol,
+                btn.dataset.sec  || '', btn.dataset.from || '', btn.dataset.to || '',
+                btn.dataset.unicode === '1', btn, sg, vv
+            );
+        });
+
+        /* ── DOM shortcuts ──────────────────────────────────────────────────── */
+        const labelEl    = document.getElementById('collection-id-label');
+        const countEl    = document.getElementById('item-count');
+        const errorAlert = document.getElementById('error-alert');
+        const errorMsg   = document.getElementById('error-message');
+        const modalEl    = document.getElementById('item-modal');
+        const modalRef   = document.getElementById('modal-ref');
+        const modalBody  = document.getElementById('modal-body');
+
+        /* ── Utility: get text of a child tag ───────────────────────────────── */
+        function text(parent, tag) {
+            const el = parent.querySelector(tag);
+            return el ? (el.textContent || '').trim() : '';
+        }
+
+        /* ── HTML escaping ──────────────────────────────────────────────────── */
+        function esc(s) {
+            return String(s)
+                .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+                .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+        function escAttr(s) {
+            return esc(s).replace(/'/g,'&#39;');
+        }
+        // Allow a safe subset of HTML tags stored escaped in XML (br, b, i, em, strong, u, span)
+        function allowHtml(s) {
+            return esc(s).replace(
+                /&lt;(\/?(br|b|i|em|strong|u|span))(\s[^&]*)?\s*&gt;/gi,
+                (_m, tag) => '<' + tag + '>'
+            );
+        }
+
+        /* ── Modal field helper ─────────────────────────────────────────────── */
+        function field(label, valueHtml) {
+            return `<div class="mb-3">
+                <div class="modal-label mb-1">${label}</div>
+                <div>${valueHtml}</div>
+            </div>`;
+        }
+
+        /* ── Error display ──────────────────────────────────────────────────── */
+        function showError(msg) {
+            errorAlert.classList.remove('d-none');
+            errorMsg.textContent = msg;
+        }
+
+        /* ── Read ?id= ──────────────────────────────────────────────────────── */
+        const params  = new URLSearchParams(window.location.search);
+        const id      = (params.get('id') || '').trim();
+
+        if (!id) {
+            showError('No catalog ID specified. Add ?id=K96 to the URL.');
+            return;
+        }
+
+        labelEl.textContent = id;
+        document.title = 'rKTs – ' + id;
+
+        /* ── Build XML URL ──────────────────────────────────────────────────── */
+        const idMatch  = id.match(/^([A-Za-z]+)(\d+)$/);
+        const idPrefix = id.match(/^([A-Za-z]+)/);
+        const xmlSubdir = idPrefix ? '/' + idPrefix[1].toUpperCase() : '';
+        const xmlUrl   = `../data/catalogs${xmlSubdir}/${encodeURIComponent(id)}.xml`;
+
+        /* ── Tibetan global mode ────────────────────────────────────────────── */
+        window.tibGlobalMode = 'ewts';
+
+        function showGlobalToggle() {
+            const btn = document.getElementById('global-tib-toggle');
+            if (btn) btn.classList.remove('d-none');
+        }
+
+        function tibSpan(ewtsOrig) {
+            const inUni = window.tibGlobalMode === 'unicode';
+            const display = inUni ? toUnicode(ewtsOrig) : ewtsOrig;
+            const cls = inUni ? 'tib script-text' : 'script-text';
+            return `<span class="${cls}" data-lang="tib" data-original="${escAttr(ewtsOrig)}">${esc(display)}</span>`;
+        }
+
+        function applyTibMode(mode) {
+            // Collect main variant for re-diffing
+            let mainEwts = null, mainUni = null;
+            const varList = document.getElementById('title-variants-list');
+            if (varList) {
+                const mainSpan = varList.querySelector('.script-text[data-var-idx="0"]');
+                if (mainSpan) {
+                    mainEwts = mainSpan.dataset.original;
+                    if (mainEwts) mainUni = toUnicode(mainEwts);
+                }
+            }
+
+            document.querySelectorAll('.script-text[data-lang="tib"]').forEach(el => {
+                const original = el.dataset.original || el.textContent;
+                const varIdx   = el.dataset.varIdx !== undefined ? parseInt(el.dataset.varIdx) : -1;
+
+                if (mode === 'unicode') {
+                    const uni = toUnicode(original);
+                    el.classList.add('tib');
+                    if (varIdx > 0 && mainUni) {
+                        el.innerHTML = diffTib(mainUni, uni);
+                    } else {
+                        el.textContent = uni;
+                    }
+                } else {
+                    el.classList.remove('tib');
+                    if (varIdx > 0 && mainEwts) {
+                        el.innerHTML = diffTib(mainEwts, original);
+                    } else {
+                        el.textContent = original;
+                    }
+                }
+            });
+
+            const btn = document.getElementById('global-tib-toggle');
+            if (btn) {
+                btn.dataset.mode = mode;
+                if (mode === 'unicode') {
+                    btn.title     = 'Show in Wylie (EWTS)';
+                    btn.innerHTML = '<span class="toggle-label">Abc</span>';
+                } else {
+                    btn.title     = 'Show in Tibetan script';
+                    btn.innerHTML = '<i class="bi bi-translate" style="font-size:1.5em;">བོད་</i>';
+                }
+            }
+        }
+
+        document.addEventListener('click', e => {
+            const btn = e.target.closest('.tib-toggle-btn');
+            if (btn) {
+                window.tibGlobalMode = (window.tibGlobalMode === 'ewts') ? 'unicode' : 'ewts';
+                applyTibMode(window.tibGlobalMode);
+            }
+        });
+
+        /* ── Syllable-level LCS diff ────────────────────────────────────────── */
+        function diffTib(main, variant) {
+            function syllables(s) {
+                return s.split(/(?<=།|་)|(?= )|(?<= )/).filter(x => x.length > 0);
+            }
+            const a = syllables(main), b = syllables(variant);
+            const m = a.length, n = b.length;
+            const dp = Array.from({length: m+1}, () => new Array(n+1).fill(0));
+            for (let i = 1; i <= m; i++)
+                for (let j = 1; j <= n; j++)
+                    dp[i][j] = a[i-1] === b[j-1] ? dp[i-1][j-1]+1 : Math.max(dp[i-1][j], dp[i][j-1]);
+            const inLcs = new Array(n).fill(false);
+            let i = m, j = n;
+            while (i > 0 && j > 0) {
+                if (a[i-1] === b[j-1]) { inLcs[j-1] = true; i--; j--; }
+                else if (dp[i-1][j] >= dp[i][j-1]) i--; else j--;
+            }
+            return b.map((syl, idx) =>
+                inLcs[idx] ? esc(syl) : `<mark class="tib-diff">${esc(syl)}</mark>`
+            ).join('');
+        }
+
+        /* ══════════════════════════════════════════════════════════════════════
+           Main data load
+        ══════════════════════════════════════════════════════════════════════ */
+        Promise.all([
+            fetch(COLLS_URL).then(r => r.ok ? r.json() : []).catch(() => []),
+            fetch(xmlUrl).then(r => {
+                if (!r.ok) throw new Error('HTTP ' + r.status + ' – ' + xmlUrl);
+                return r.text();
+            }),
+            fetch(STD_URL).then(r => r.ok ? r.text() : '').catch(() => '')
+        ])
+        .then(([collections, xmlText, stdXmlText]) => {
+            window._rKTsCollections = collections;
+
+            /* ── Standard titles ────────────────────────────────────────────── */
+            if (stdXmlText && idMatch) {
+                const stdDoc  = new DOMParser().parseFromString(stdXmlText, 'application/xml');
+                const idTyp   = idMatch[1].toUpperCase();
+                const idNum   = idMatch[2];
+                const stdItem = Array.from(stdDoc.querySelectorAll('item')).find(it =>
+                    (it.querySelector('rktsTyp') || {textContent:''}).textContent.trim().toUpperCase() === idTyp
+                    && (it.querySelector('rkts') || {textContent:''}).textContent.trim() === idNum
+                );
+                if (stdItem) {
+                    let showBlock = false;
+                    [
+                        { tag:'tib', el:'std-tib', val:'std-tib-val' },
+                        { tag:'skt', el:'std-skt', val:'std-skt-val' },
+                        { tag:'mng', el:'std-mng', val:'std-mng-val' },
+                        { tag:'eng', el:'std-eng', val:'std-eng-val' }
+                    ].forEach(f => {
+                        const node = stdItem.querySelector(f.tag);
+                        const v = node ? node.textContent.trim() : '';
+                        if (v) {
+                            const valEl = document.getElementById(f.val);
+                            valEl.textContent = v;
+                            if (f.tag === 'tib') {
+                                valEl.dataset.original = v;
+                                if (window.tibGlobalMode === 'unicode') {
+                                    valEl.textContent = toUnicode(v);
+                                    valEl.classList.add('tib');
+                                }
+                            }
+                            if (f.tag === 'mng') {
+                                const mngRow = document.getElementById(f.el);
+                                const mngLink = document.createElement('a');
+                                mngLink.href      = `detailm.html?id=${encodeURIComponent(id)}`;
+                                mngLink.target    = '_blank';
+                                mngLink.className = 'btn btn-outline-secondary btn-sm ms-2 py-0';
+                                mngLink.title     = 'Mongolian canon view';
+                                mngLink.innerHTML = '<i class="bi bi-box-arrow-up-right me-1"></i>Mongolian Canon';
+                                mngRow.appendChild(mngLink);
+                            }
+                            document.getElementById(f.el).classList.remove('d-none');
+                            showBlock = true;
+                        }
+                    });
+                    if (showBlock) {
+                        document.getElementById('standard-titles').classList.remove('d-none');
+                        showGlobalToggle();
+                    }
+                }
+            }
+
+            /* ── Build sigla → title map ────────────────────────────────────── */
+            const preferredGenre = idMatch
+                ? (idMatch[1].toUpperCase() === 'K' ? 'Kanjur'
+                 : idMatch[1].toUpperCase() === 'T' ? 'Tanjur' : null)
+                : null;
+            const siglaTitles = {};
+            collections.forEach(c => {
+                if (c.sigla && c.title && (!preferredGenre || c.genre === preferredGenre))
+                    if (!siglaTitles[c.sigla]) siglaTitles[c.sigla] = c.title;
+            });
+            collections.forEach(c => {
+                if (c.sigla && c.title && !siglaTitles[c.sigla]) siglaTitles[c.sigla] = c.title;
+            });
+
+            /* ── Build sigla → genre map ────────────────────────────────────── */
+            const siglaGenre = {};
+            collections.forEach(c => {
+                if (c.sigla && c.genre && !siglaGenre[c.sigla]) siglaGenre[c.sigla] = c.genre;
+            });
+
+            /* ── Build volref → volname map ─────────────────────────────────── */
+            const volNames = {};
+            collections.forEach(c => {
+                (c.constituents || []).forEach(con => {
+                    (con.structure || []).forEach(s => {
+                        if (s.volref && s.volname && !volNames[s.volref]) volNames[s.volref] = s.volname;
+                    });
+                });
+            });
+
+            /* ── Build {sigla}:{conTitle}:{volref} → volno map ─────────────── */
+            const volrefVolno = {};
+            collections.forEach(c => {
+                if (!c.sigla || !c.constituents) return;
+                c.constituents.forEach(con => {
+                    (con.structure || []).forEach(s => {
+                        if (s.volref && s.volno) {
+                            volrefVolno[c.sigla + ':' + (con.title||'') + ':' + s.volref] = s.volno;
+                        }
+                    });
+                });
+            });
+
+            /* ── integratedMap: sigla → { conTitle → true } ─────────────────── */
+            const integratedMap = {};
+            collections.forEach(c => {
+                if (c.sigla && c.constituents) {
+                    c.constituents.forEach(con => {
+                        if (con.integratedrkts === '1' && con.title) {
+                            if (!integratedMap[c.sigla]) integratedMap[c.sigla] = {};
+                            integratedMap[c.sigla][con.title] = true;
+                        }
+                    });
+                }
+            });
+
+            /* ── referenceSetMap: sigla → { conTitle → true } ──────────────── */
+            const referenceSetMap = {};
+            collections.forEach(c => {
+                if (c.sigla && c.constituents) {
+                    c.constituents.forEach(con => {
+                        if (con.isreferenceset === '1' && con.title) {
+                            if (!referenceSetMap[c.sigla]) referenceSetMap[c.sigla] = {};
+                            referenceSetMap[c.sigla][con.title] = true;
+                        }
+                    });
+                }
+            });
+
+            /* ── textAvailableSet ───────────────────────────────────────────── */
+            const textAvailableSet = new Set(
+                collections.filter(c => c.sigla && c.notes && c.notes['text_Text Available'] === 'true')
+                           .map(c => c.sigla)
+            );
+
+            /* ── Parse main XML ─────────────────────────────────────────────── */
+            const doc      = new DOMParser().parseFromString(xmlText, 'application/xml');
+            if (doc.querySelector('parsererror')) throw new Error('XML parse error in ' + id + '.xml');
+
+            const items = Array.from(doc.querySelectorAll('item'));
+            if (!items.length) { showError('No items found in ' + id + '.xml'); return; }
+
+            countEl.textContent = items.length + ' item' + (items.length !== 1 ? 's' : '');
+
+            /* ── Group items by coll sigla ──────────────────────────────────── */
+            const collOrder  = [];
+            const collGroups = {};
+            const collTitles = {};
+
+            items.forEach(item => {
+                const ref  = text(item, 'ref');
+                const tib  = text(item, 'tib');
+                if (!ref && !tib) return;
+
+                const coll      = text(item, 'coll');
+                const collTitle = coll && siglaTitles[coll] ? siglaTitles[coll] : '';
+                const sigla     = coll || '—';
+
+                if (!collGroups[sigla]) {
+                    collGroups[sigla] = [];
+                    collTitles[sigla] = collTitle;
+                    collOrder.push(sigla);
+                }
+
+                collGroups[sigla].push({
+                    ref, tib,
+                    skt:         text(item, 'skt'),
+                    coloph:      text(item, 'coloph'),
+                    colophTitle: text(item, 'colophTitle'),
+                    margin:      text(item, 'margin'),
+                    note:        text(item, 'note'),
+                    rnb:         text(item, 'rnb'),
+                    coll, collTitle,
+                    locs: Array.from(item.querySelectorAll('location')).map(loc => ({
+                        setid: text(loc,'setid'), vol:  text(loc,'vol'),
+                        sec:   text(loc,'sec'),   debp: text(loc,'debp'),
+                        debf:  text(loc,'debf'),  debl: text(loc,'debl'),
+                        finp:  text(loc,'finp'),  finf: text(loc,'finf'), finl: text(loc,'finl')
+                    })),
+                    translators: Array.from(item.querySelectorAll('translator')).map(tr => ({
+                        n: text(tr,'name'), role: text(tr,'role'), rid: text(tr,'rid')
+                    })).filter(tr => tr.n),
+                    bampos: Array.from(item.querySelectorAll('bampos > bampo')).map(bp => ({
+                        rn: text(bp,'rn'), name: text(bp,'name'), setid: text(bp,'setid'),
+                        vol: text(bp,'vol'), sec: text(bp,'sec'),
+                        debp: text(bp,'debp'), debf: text(bp,'debf'), debl: text(bp,'debl')
+                    })),
+                    chapters: Array.from(item.querySelectorAll('chapters > chapter')).map(ch => ({
+                        rn: text(ch,'rn'), name: text(ch,'name'), setid: text(ch,'setid'),
+                        vol: text(ch,'vol'), sec: text(ch,'sec'),
+                        debp: text(ch,'debp'), debf: text(ch,'debf'), debl: text(ch,'debl')
+                    }))
+                });
+            });
+
+            /* ── Determine reference sigla for this catalog type ────────────── */
+            const refSigla = idMatch
+                ? (idMatch[1].toUpperCase() === 'G' ? 'Gpb' : 'D')
+                : 'D';
+
+            /* ── Sort collections: reference edition first, then alphabetical ── */
+            collOrder.sort((a, b) => {
+                if (a === refSigla) return -1;
+                if (b === refSigla) return  1;
+                return a.localeCompare(b);
+            });
+
+            /* ── DOM refs for rendering ─────────────────────────────────── */
+            const collectionsEl = document.getElementById('section-collections');
+                const navPills      = document.getElementById('section-nav-pills');
+                const sectionNav    = document.getElementById('section-nav');
+
+                /* ── Nav pill helper ────────────────────────────────────────── */
+                function addNavPill(href, label, title) {
+                    const a = document.createElement('a');
+                    a.className   = 'nav-link';
+                    a.href        = href;
+                    a.textContent = label;
+                    if (title) a.title = title;
+                    a.addEventListener('click', e => {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) target.scrollIntoView({ behavior:'smooth', block:'start' });
+                        navPills.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                        a.classList.add('active');
+                    });
+                    navPills.appendChild(a);
+                    return a;
+                }
+
+                /* ── Overview pill ──────────────────────────────────────────── */
+                const stdBlock    = document.getElementById('standard-titles');
+                const overviewPill = addNavPill('#standard-titles', 'Overview');
+                if (!stdBlock || stdBlock.classList.contains('d-none')) overviewPill.classList.add('d-none');
+
+                /* ── Render collection sections ─────────────────────────────── */
+                collOrder.forEach(sigla => {
+                    const group     = collGroups[sigla];
+                    const titleStr  = collTitles[sigla] || sigla;
+                    const sectionId = 'coll-' + sigla.replace(/[^A-Za-z0-9_-]/g, '_');
+
+                    const section = document.createElement('div');
+                    section.id            = sectionId;
+                    section.className     = 'coll-section mb-5';
+                    section.dataset.sigla = sigla.toLowerCase();
+                    section.dataset.title = titleStr.toLowerCase();
+
+                    const header = document.createElement('div');
+                    header.className = 'coll-section-header';
+                    header.innerHTML =
+                        esc(sigla) +
+                        (collTitles[sigla] ? ` <span class="fw-normal">— ${esc(collTitles[sigla])}</span>` : '') +
+                        ` <span class="coll-count">${group.length} item${group.length !== 1 ? 's' : ''}</span>` +
+                        (sigla === refSigla ? ' <span class="ref-edition-badge">Reference edition</span>' : '') +
+                        ' <span class="coll-info-btn" title="About this collection" role="button">&#x1F6C8;</span>';
+                    header.querySelector('.coll-info-btn').addEventListener('click', e => {
+                        e.stopPropagation();
+                        openCollInfoModal(sigla, collections);
+                    });
+                    section.appendChild(header);
+
+                    const grid = document.createElement('div');
+                    grid.className = 'row g-3';
+                    group.forEach(d => {
+                        const col = document.createElement('div');
+                        col.className = 'col-12 col-md-6 col-xl-4';
+                        col.innerHTML =
+                            '<div class="card h-100 item-card">' +
+                                '<div class="card-body">' +
+                                    (d.ref ? `<div class="mb-2"><span class="ref-badge">${esc(d.ref)}</span></div>` : '') +
+                                    (d.tib
+                                        ? `<p class="mb-0"><span class="script-text" data-lang="tib" data-original="${escAttr(d.tib)}">${esc(d.tib)}</span></p>`
+                                        : '<p class="text-muted small mb-0 fst-italic">No Tibetan title</p>') +
+                                '</div>' +
+                            '</div>';
+                        col.querySelector('.item-card').addEventListener('click', () => {
+                            try { openModal(d, volNames, integratedMap, referenceSetMap, textAvailableSet, siglaGenre, volrefVolno); }
+                            catch(e) { console.error('openModal error:', e); }
+                        });
+                        grid.appendChild(col);
+                    });
+
+                    section.appendChild(grid);
+                    collectionsEl.appendChild(section);
+                    addNavPill('#' + sectionId, `${sigla} (${group.length})`, titleStr || sigla);
+                });
+
+                /* ── NLM pill placeholder ───────────────────────────────────── */
+                const nlmNavPill = addNavPill('#coll-NLM', 'NLM', 'National Library of Mongolia');
+                nlmNavPill.classList.add('d-none');
+
+                /* ── Title variants pill ────────────────────────────────────── */
+                addNavPill('#title-variants-section', 'Variants');
+                addNavPill('#section-more', 'More');
+
+                /* ── More: stats ────────────────────────────────────────────── */
+                const moreEl      = document.getElementById('section-more');
+                const moreContent = document.getElementById('more-content');
+                if (moreContent) {
+                    moreContent.innerHTML =
+                        `<div class="row g-3">
+                            <div class="col-12 col-md-6">
+                                <div class="modal-label mb-1">Catalog ID</div>
+                                <div><span class="ref-badge">${esc(id)}</span></div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="modal-label mb-1">Total Items</div>
+                                <div>${items.length}</div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="modal-label mb-1">Collections</div>
+                                <div>${collOrder.length}</div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="modal-label mb-1">Source</div>
+                                <div><a href="${esc(xmlUrl)}" class="small" target="_blank">
+                                    <i class="bi bi-file-earmark-code me-1"></i>${esc(id)}.xml</a></div>
+                            </div>
+                        </div>`;
+                    moreEl.classList.remove('d-none');
+
+                    /* ── 84000 link ─────────────────────────────────────────── */
+                    fetch(DATA_BASE + '/84000.txt').then(r => r.ok ? r.text() : '').then(txt => {
+                        if (!txt) return;
+                        let toh = null;
+                        txt.trim().split(/\r?\n/).forEach(line => {
+                            if (toh) return;
+                            const p = line.split('####');
+                            if (p.length === 2 && p[0].trim() === id) toh = p[1].trim();
+                        });
+                        if (!toh || toh === 'tohx_H0' || toh === 'tohx_H') return;
+                        const row = moreContent.querySelector('.row');
+                        if (!row) return;
+                        const d = document.createElement('div');
+                        d.className = 'col-12 col-md-6';
+                        d.innerHTML = `<div class="modal-label mb-1">84000</div>
+                            <div><a href="https://84000.co/translation/${esc(toh)}" target="_blank" rel="noopener">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Read on 84000.co</a>
+                            <span class="text-muted small ms-2">${esc(toh)}</span></div>`;
+                        row.appendChild(d);
+                    }).catch(() => {});
+
+                    /* ── Dharmanexus link ───────────────────────────────────── */
+                    fetch(DATA_BASE + '/Dharmanexus.txt').then(r => r.ok ? r.text() : '').then(txt => {
+                        if (!txt || !idMatch) return;
+                        const idP   = idMatch[1].toUpperCase();
+                        const idN   = parseInt(idMatch[2], 10);
+                        let slug = null;
+                        txt.trim().split(/\r?\n/).forEach(line => {
+                            if (slug) return;
+                            const p = line.split('####');
+                            if (p.length !== 2) return;
+                            const lm = p[0].trim().match(/^([A-Za-z]+)(\d+)$/);
+                            if (lm && lm[1].toUpperCase() === idP && parseInt(lm[2],10) === idN) slug = p[1].trim();
+                        });
+                        if (!slug) return;
+                        const row = moreContent.querySelector('.row');
+                        if (!row) return;
+                        const d = document.createElement('div');
+                        d.className = 'col-12 col-md-6';
+                        d.innerHTML = `<div class="modal-label mb-1">Dharmanexus</div>
+                            <div><a href="https://dharmamitra.org/nexus/db/bo/${slug}/text" target="_blank" rel="noopener">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Open in Dharmanexus</a>
+                            <span class="text-muted small ms-2">${esc(slug)}</span></div>`;
+                        row.appendChild(d);
+                    }).catch(() => {});
+
+                    /* ── Persons ────────────────────────────────────────────── */
+                    const ridSet = {};
+                    Array.from(doc.querySelectorAll('translator')).forEach(tr => {
+                        const rid = (tr.querySelector('rid') || {}).textContent || '';
+                        if (rid.trim()) ridSet[rid.trim()] = true;
+                    });
+                    const rids = Object.keys(ridSet);
+                    if (rids.length) {
+                        fetch(DATA_BASE + '/persons.xml')
+                            .then(r => r.ok ? r.text() : Promise.reject())
+                            .then(xmlStr => {
+                                const pdoc   = new DOMParser().parseFromString(xmlStr, 'application/xml');
+                                const stdMap = {};
+                                Array.from(pdoc.querySelectorAll('item')).forEach(pitem => {
+                                    const ref = (pitem.querySelector('ref') || {}).textContent || '';
+                                    const sn  = (pitem.querySelector('Standardname') || {}).textContent || '';
+                                    if (ref.trim() && sn.trim()) stdMap[ref.trim()] = sn.trim();
+                                });
+                                const persons = rids
+                                    .map(rid => ({ rid, name: stdMap[rid] || rid }))
+                                    .sort((a, b) => a.name.localeCompare(b.name));
+                                const div = document.createElement('div');
+                                div.className = 'mt-4 pt-3 border-top';
+                                div.innerHTML =
+                                    '<div class="modal-label mb-2">Persons (translators &amp; revisors)</div>' +
+                                    '<ul class="list-unstyled mb-0">' +
+                                    persons.map(p =>
+                                        `<li class="mb-1"><a href="persons.html?id=${encodeURIComponent(p.rid)}" target="_blank">${esc(p.name)}</a></li>`
+                                    ).join('') +
+                                    '</ul>';
+                                moreContent.appendChild(div);
+                            }).catch(() => {});
+                    }
+                }
+
+                /* ── Show sidebar nav ───────────────────────────────────────── */
+                sectionNav.classList.remove('d-none');
+                showGlobalToggle();
+
+                /* ── Collection filter ──────────────────────────────────────── */
+                document.getElementById('coll-filter').addEventListener('input', function () {
+                    const q = this.value.toLowerCase().trim();
+                    document.querySelectorAll('.coll-section').forEach(sec => {
+                        sec.style.display = (!q || sec.dataset.sigla.includes(q) || sec.dataset.title.includes(q)) ? '' : 'none';
+                    });
+                    navPills.querySelectorAll('.nav-link').forEach(pill => {
+                        const href = pill.getAttribute('href');
+                        if (href && href.startsWith('#coll-')) {
+                            const target = document.querySelector(href);
+                            if (target) pill.style.opacity = (target.style.display === 'none') ? '0.35' : '';
+                        }
+                    });
+                });
+
+                /* ── Title variants ─────────────────────────────────────────── */
+                const varSection = document.getElementById('title-variants-section');
+                const varList    = document.getElementById('title-variants-list');
+                const varMap     = {};
+                const varOrder   = [];
+
+                items.forEach(item => {
+                    const vTib  = text(item, 'tib');
+                    if (!vTib) return;
+                    const vColl = text(item, 'coll');
+                    if (!varMap[vTib]) { varMap[vTib] = []; varOrder.push(vTib); }
+                    if (vColl && !varMap[vTib].includes(vColl)) varMap[vTib].push(vColl);
+                });
+
+                varOrder.sort((a, b) => varMap[b].length - varMap[a].length);
+                const mainVariant = varOrder[0];
+                let varHtml = '';
+                varOrder.forEach((vTib, idx) => {
+                    const colls = varMap[vTib];
+                    varHtml += '<li class="mb-2" style="line-height:1.6;">';
+                    if (idx === 0) {
+                        varHtml += `<span class="script-text" data-lang="tib" data-original="${escAttr(vTib)}" data-var-idx="0">${esc(vTib)}</span>`;
+                    } else {
+                        varHtml += `<span class="script-text" data-lang="tib" data-original="${escAttr(vTib)}" data-var-idx="${idx}">${diffTib(mainVariant, vTib)}</span>`;
+                    }
+                    if (colls.length) {
+                        varHtml += ` <span class="text-muted small">[${colls.map(esc).join(', ')}]</span>`;
+                    }
+                    varHtml += '</li>';
+                });
+                if (varHtml) {
+                    varList.innerHTML = varHtml;
+                    varSection.classList.remove('d-none');
+                }
+
+                /* ── NLM section (async) ────────────────────────────────────── */
+                fetch(`../data/collections/NLM/NLM.xml`)
+                    .then(r => r.ok ? r.text() : '')
+                    .catch(() => '')
+                    .then(nlmXmlStr => {
+                        if (!nlmXmlStr) return;
+                        const ndoc     = new DOMParser().parseFromString(nlmXmlStr, 'application/xml');
+                        const nlmItems = Array.from(ndoc.querySelectorAll('item')).filter(it =>
+                            ((it.querySelector('rkts') || {}).textContent || '').trim() === id
+                        );
+                        if (!nlmItems.length) return;
+
+                        function nt(it, tag) {
+                            const el = it.querySelector(tag);
+                            return el ? el.textContent.trim() : '';
+                        }
+
+                        let nlmData = nlmItems.map(it => ({
+                            ref:      nt(it,'ref'),   refNLM:   nt(it,'refNLM'),
+                            tib:      nt(it,'tib'),   coloph:   nt(it,'coloph'),
+                            bookType: nt(it,'BookType'), bookSize: nt(it,'BookSize'),
+                            vol:      nt(it,'vol'),   sec:      nt(it,'sec'),
+                            debp:     nt(it,'debp'),  debf:     nt(it,'debf'), debl: nt(it,'debl'),
+                            finp:     nt(it,'finp'),  finf:     nt(it,'finf'), finl: nt(it,'finl'),
+                            rkts:     nt(it,'rkts'),
+                            rnb:      parseInt(nt(it,'rnb'), 10) || 0
+                        }));
+                        nlmData.sort((a, b) => a.rnb - b.rnb);
+
+                        const nlmSection = document.createElement('div');
+                        nlmSection.id            = 'coll-NLM';
+                        nlmSection.className     = 'coll-section mb-5';
+                        nlmSection.dataset.sigla  = 'nlm';
+                        nlmSection.dataset.title  = 'national library of mongolia';
+
+                        const nlmHeader = document.createElement('div');
+                        nlmHeader.className = 'coll-section-header';
+                        nlmHeader.innerHTML = 'NLM <span class="fw-normal">— National Library of Mongolia</span>' +
+                            ` <span class="coll-count">${nlmData.length} item${nlmData.length !== 1 ? 's' : ''}</span>`;
+                        nlmSection.appendChild(nlmHeader);
+
+                        const nlmGrid = document.createElement('div');
+                        nlmGrid.className = 'row g-3';
+                        nlmData.forEach(d => {
+                            const col = document.createElement('div');
+                            col.className = 'col-12 col-md-6 col-xl-4';
+                            col.innerHTML =
+                                '<div class="card h-100 item-card">' +
+                                    '<div class="card-body">' +
+                                        (d.ref ? `<div class="mb-2"><span class="ref-badge">${esc(d.ref)}</span></div>` : '') +
+                                        (d.tib
+                                            ? `<p class="mb-0"><span class="script-text" data-lang="tib" data-original="${escAttr(d.tib)}">${esc(d.tib)}</span></p>`
+                                            : '<p class="text-muted small mb-0 fst-italic">No Tibetan title</p>') +
+                                    '</div>' +
+                                '</div>';
+                            col.querySelector('.item-card').addEventListener('click', () => openNLMModal(d));
+                            nlmGrid.appendChild(col);
+                        });
+
+                        nlmSection.appendChild(nlmGrid);
+                        collectionsEl.appendChild(nlmSection);
+
+                        // Apply current Tibetan mode to new cards
+                        if (window.tibGlobalMode === 'unicode') {
+                            nlmSection.querySelectorAll('.script-text[data-lang="tib"]').forEach(el => {
+                                el.textContent = toUnicode(el.dataset.original || el.textContent);
+                                el.classList.add('tib');
+                            });
+                        }
+
+                        nlmNavPill.textContent = `NLM (${nlmData.length})`;
+                        nlmNavPill.classList.remove('d-none');
+                    });
+
+            // ── Phase 2: fetch per-collection XMLs for rnb sort, re-render grids ──
+            // This is best-effort; cards are already visible and clickable above.
+            const rnbFetches = collOrder.map(sigla => {
+                if (sigla === '—') return Promise.resolve({ sigla, map: {} });
+                return fetch(COLL_XML(sigla))
+                    .then(r => r.ok ? r.text() : '')
+                    .catch(() => '')
+                    .then(xmlStr => {
+                        const map = {};
+                        if (xmlStr) {
+                            try {
+                                const cdoc = new DOMParser().parseFromString(xmlStr, 'application/xml');
+                                Array.from(cdoc.querySelectorAll('item')).forEach(it => {
+                                    const ref = text(it, 'ref');
+                                    const rnb = text(it, 'rnb');
+                                    if (ref && rnb && !map[ref]) map[ref] = parseInt(rnb, 10) || 0;
+                                });
+                            } catch(e) {}
+                        }
+                        return { sigla, map };
+                    });
+            });
+
+            Promise.all(rnbFetches).then(rnbResults => {
+                const rnbLookup = {};
+                rnbResults.forEach(r => { rnbLookup[r.sigla] = r.map; });
+
+                // Re-sort each group and re-render its grid in place
+                collOrder.forEach(sigla => {
+                    const map = rnbLookup[sigla] || {};
+                    const group = collGroups[sigla];
+                    group.sort((a, b) => (map[a.ref] || 0) - (map[b.ref] || 0));
+
+                    // Find the existing section and replace only its grid
+                    const sectionId = 'coll-' + sigla.replace(/[^A-Za-z0-9_-]/g, '_');
+                    const section   = document.getElementById(sectionId);
+                    if (!section) return;
+                    const oldGrid   = section.querySelector('.row.g-3');
+                    if (!oldGrid) return;
+
+                    const newGrid = document.createElement('div');
+                    newGrid.className = 'row g-3';
+                    group.forEach(d => {
+                        const col = document.createElement('div');
+                        col.className = 'col-12 col-md-6 col-xl-4';
+                        col.innerHTML =
+                            '<div class="card h-100 item-card">' +
+                                '<div class="card-body">' +
+                                    (d.ref ? `<div class="mb-2"><span class="ref-badge">${esc(d.ref)}</span></div>` : '') +
+                                    (d.tib
+                                        ? `<p class="mb-0"><span class="script-text" data-lang="tib" data-original="${escAttr(d.tib)}">${esc(d.tib)}</span></p>`
+                                        : '<p class="text-muted small mb-0 fst-italic">No Tibetan title</p>') +
+                                '</div>' +
+                            '</div>';
+                        col.querySelector('.item-card').addEventListener('click', () => {
+                            try { openModal(d, volNames, integratedMap, referenceSetMap, textAvailableSet, siglaGenre, volrefVolno); }
+                            catch(e) { console.error('openModal error:', e); }
+                        });
+                        newGrid.appendChild(col);
+                    });
+
+                    // Apply current Tibetan mode to re-rendered cards
+                    if (window.tibGlobalMode === 'unicode') {
+                        newGrid.querySelectorAll('.script-text[data-lang="tib"]').forEach(el => {
+                            el.textContent = toUnicode(el.dataset.original || el.textContent);
+                            el.classList.add('tib');
+                        });
+                    }
+                    section.replaceChild(newGrid, oldGrid);
+                });
+            }).catch(() => {}); // rnb sort is best-effort
+
+        })
+        .catch(err => showError(`Could not load ${id}.xml. ${err.message}`));
+
+        /* ══════════════════════════════════════════════════════════════════════
+           Modal: item detail
+        ══════════════════════════════════════════════════════════════════════ */
+        function openModal(d, volNames, integratedMap, referenceSetMap, textAvailableSet, siglaGenre, volrefVolno) {
+            modalRef.textContent = d.ref || '—';
+            let html = '';
+            try {
+
+            if (d.collTitle) html += `<div class="mb-3 text-muted small fw-semibold">${esc(d.collTitle)}</div>`;
+            if (d.tib)        html += field('Tibetan title',       tibSpan(d.tib));
+            if (d.skt)        html += field('Sanskrit title', tibSpan(d.skt));
+            if (d.coloph)     html += field('Colophon',            tibSpan(d.coloph));
+            if (d.colophTitle)html += field('Colophon title',      tibSpan(d.colophTitle));
+            if (d.margin)     html += field('Margin',              allowHtml(d.margin));
+
+            // Locations (reference sets only)
+            if (d.locs && d.locs.length) {
+                const refLocs = d.locs.filter(loc =>
+                    loc.setid && referenceSetMap && referenceSetMap[d.coll] && referenceSetMap[d.coll][loc.setid]
+                );
+                if (refLocs.length) {
+                    html += `<div class="mb-3"><div class="modal-label mb-2">Location${refLocs.length > 1 ? 's' : ''}</div>`;
+                    refLocs.forEach(loc => {
+                        const folio = (p, f, l) => p + (f || '') + (l ? '.' + l : '');
+                        html += '<div class="location-block mb-2">';
+                        if (loc.setid) html += `<div><span class="modal-label">Set</span> ${esc(loc.setid)}</div>`;
+                        if (loc.vol) {
+                            const vn = volNames && volNames[loc.vol] ? ` <span class="text-muted">(${esc(volNames[loc.vol])})</span>` : '';
+                            html += `<div><span class="modal-label">Vol</span> ${esc(loc.vol)}${vn}</div>`;
+                        }
+                        if (loc.sec) html += `<div><span class="modal-label">Section</span> ${esc(loc.sec)}</div>`;
+                        const from = loc.debp ? folio(loc.debp, loc.debf, loc.debl) : '';
+                        const to   = loc.finp ? folio(loc.finp, loc.finf, loc.finl) : '';
+                        if (from || to) html += `<div><span class="modal-label">Pages</span> ${esc(from)}${to ? ' – ' + esc(to) : ''}</div>`;
+                        const isIntegrated = !!(integratedMap && d.coll && loc.setid
+                            && integratedMap[d.coll] && integratedMap[d.coll][loc.setid]);
+                        if (isIntegrated) {
+                            const p = new URLSearchParams();
+                            p.set('title', loc.setid); p.set('rkts', id); p.set('coll', d.coll);
+                            if (loc.vol)  p.set('vol',  loc.vol);
+                            if (loc.sec)  p.set('sec',  loc.sec);
+                            if (loc.debp) p.set('page', loc.debp + (loc.debf || ''));
+                            html += `<div class="mt-2"><a href="images.html?${p}" class="btn btn-sm btn-outline-primary" target="_blank"><i class="bi bi-images me-1"></i>View Images</a>`;
+                            if (DOWNLOAD_ENABLED_COLLS.includes(d.coll) && loc.vol && from) {
+                                html += ` <button type="button" class="btn btn-sm btn-outline-secondary btn-download-images"
+                                    data-coll="${escAttr(d.coll)}" data-title="${escAttr(loc.setid)}" data-vol="${escAttr(loc.vol)}"
+                                    data-sec="${escAttr(loc.sec||'')}" data-from="${escAttr(from)}" data-to="${escAttr(to||from)}">
+                                    <i class="bi bi-file-earmark-zip me-1"></i>Download Images</button>`;
+                            }
+                            html += `</div>`;
+                        }
+                        html += '</div>';
+                    });
+                    html += '</div>';
+                }
+            }
+
+            if (d.note) html += field('Note', allowHtml(d.note));
+
+            // Chapters
+            if (d.chapters && d.chapters.length) {
+                const chBySet = {}, chSetOrder = [];
+                d.chapters.forEach(ch => {
+                    const sid = ch.setid || '—';
+                    if (!chBySet[sid]) { chBySet[sid] = []; chSetOrder.push(sid); }
+                    chBySet[sid].push(ch);
+                });
+                html += `<div class="mb-3"><div class="modal-label mb-2">Chapters (${d.chapters.length})</div>`;
+                chSetOrder.forEach(sid => {
+                    const rows = chBySet[sid];
+                    if (chSetOrder.length > 1) html += `<div class="modal-label mb-1" style="font-size:0.7rem;">${esc(sid)}</div>`;
+                    html += '<div style="max-height:220px;overflow-y:auto;border:1px solid #dee2e6;border-radius:4px;">' +
+                        '<table class="table table-sm table-bordered mb-0" style="font-size:0.8rem;">' +
+                        '<thead class="table-light"><tr><th style="width:2.5rem">#</th><th>Title</th><th>Volume</th><th style="white-space:nowrap">Page</th><th></th></tr></thead><tbody>';
+                    rows.forEach(ch => {
+                        const page      = ch.debp ? ch.debp + (ch.debf||'') + (ch.debl ? '.'+ch.debl : '') : '';
+                        const chVolName = (volNames && ch.vol && volNames[ch.vol]) ? volNames[ch.vol] : (ch.vol || '');
+                        const chIsInt   = !!(integratedMap && d.coll && ch.setid && integratedMap[d.coll] && integratedMap[d.coll][ch.setid]);
+                        let imgLink = '';
+                        if (chIsInt) {
+                            const p = new URLSearchParams();
+                            p.set('title', ch.setid); p.set('rkts', id); p.set('coll', d.coll);
+                            if (ch.vol)  p.set('vol',  ch.vol);
+                            if (ch.sec)  p.set('sec',  ch.sec);
+                            if (ch.debp) p.set('page', ch.debp + (ch.debf||''));
+                            imgLink = `<a href="images.html?${p}" target="_blank" class="btn btn-outline-primary btn-sm py-0 px-1" title="View images"><i class="bi bi-images"></i></a>`;
+
+                        }
+                        html += `<tr><td class="text-muted">${esc(ch.rn||'')}</td>
+                            <td>${ch.name ? tibSpan(ch.name) : '<span class="text-muted fst-italic">—</span>'}</td>
+                            <td class="text-muted" style="white-space:nowrap">${esc(chVolName)}</td>
+                            <td class="text-muted" style="white-space:nowrap">${esc(page)}</td>
+                            <td>${imgLink}</td></tr>`;
+                    });
+                    html += '</tbody></table></div>';
+                    if (chSetOrder.length > 1) html += '<div class="mb-2"></div>';
+                });
+                html += '</div>';
+            }
+
+            // Bampos
+            if (d.bampos && d.bampos.length) {
+                const bpBySet = {}, bpSetOrder = [];
+                d.bampos.forEach(bp => {
+                    const sid = bp.setid || '—';
+                    if (!bpBySet[sid]) { bpBySet[sid] = []; bpSetOrder.push(sid); }
+                    bpBySet[sid].push(bp);
+                });
+                html += `<div class="mb-3"><div class="modal-label mb-2">Bampos (${d.bampos.length})</div>`;
+                bpSetOrder.forEach(sid => {
+                    const rows = bpBySet[sid];
+                    if (bpSetOrder.length > 1) html += `<div class="modal-label mb-1" style="font-size:0.7rem;">${esc(sid)}</div>`;
+                    html += '<div style="max-height:180px;overflow-y:auto;border:1px solid #dee2e6;border-radius:4px;">' +
+                        '<table class="table table-sm table-bordered mb-0" style="font-size:0.8rem;">' +
+                        '<thead class="table-light"><tr><th style="width:2.5rem">#</th><th>Volume</th><th style="white-space:nowrap">Page</th><th></th></tr></thead><tbody>';
+                    rows.forEach(bp => {
+                        const page      = bp.debp ? bp.debp + (bp.debf||'') + (bp.debl ? '.'+bp.debl : '') : '';
+                        const bpVolName = (volNames && bp.vol && volNames[bp.vol]) ? volNames[bp.vol] : (bp.vol || '');
+                        const bpIsInt   = !!(integratedMap && d.coll && bp.setid && integratedMap[d.coll] && integratedMap[d.coll][bp.setid]);
+                        let imgLink = '';
+                        if (bpIsInt) {
+                            const p = new URLSearchParams();
+                            p.set('title', bp.setid); p.set('rkts', id); p.set('coll', d.coll);
+                            if (bp.vol)  p.set('vol',  bp.vol);
+                            if (bp.sec)  p.set('sec',  bp.sec);
+                            if (bp.debp) p.set('page', bp.debp + (bp.debf||''));
+                            imgLink = `<a href="images.html?${p}" target="_blank" class="btn btn-outline-primary btn-sm py-0 px-1" title="View images"><i class="bi bi-images"></i></a>`;
+
+                        }
+                        html += `<tr><td class="text-muted">${esc(bp.name||bp.rn||'')}</td>
+                            <td class="text-muted" style="white-space:nowrap">${esc(bpVolName)}</td>
+                            <td class="text-muted" style="white-space:nowrap">${esc(page)}</td>
+                            <td>${imgLink}</td></tr>`;
+                    });
+                    html += '</tbody></table></div>';
+                    if (bpSetOrder.length > 1) html += '<div class="mb-2"></div>';
+                });
+                html += '</div>';
+            }
+
+            // Translators / revisors / authors
+            if (d.translators && d.translators.length) {
+                const roleOrder  = ['author','translator','revisor'];
+                const roleLabels = { translator:'Translator', revisor:'Revisor', author:'Author' };
+                const byRole = {};
+                d.translators.forEach(tr => {
+                    const r = tr.role || 'translator';
+                    if (!byRole[r]) byRole[r] = [];
+                    byRole[r].push(tr);
+                });
+                const allRoles = roleOrder.filter(r => byRole[r])
+                    .concat(Object.keys(byRole).filter(r => !roleOrder.includes(r)));
+                allRoles.forEach(role => {
+                    const label = roleLabels[role] || (role.charAt(0).toUpperCase() + role.slice(1));
+                    const names = byRole[role].map(tr => {
+                        if (tr.rid) {
+                            const url = 'persons.html?id=bdr:' + encodeURIComponent(tr.rid.replace(/^bdr:/, ''));
+                            return `<a href="${url}" target="_blank" rel="noopener">${esc(tr.n)}</a>`;
+                        }
+                        return esc(tr.n);
+                    });
+                    html += field(label + (byRole[role].length > 1 ? 's' : ''), names.join(' <br> '));
+                });
+            }
+
+            // Etext link + download buttons
+            if (textAvailableSet && d.coll && textAvailableSet.has(d.coll)) {
+                let etextHtml = `<a href="etext_complete.html?id=${esc(d.ref)}" class="btn btn-sm btn-outline-success me-1" target="_blank"><i class="bi bi-file-text me-1"></i>Read Etext</a>`;
+                // Add download buttons if we have a reference-set location with a vol
+                const refLocForEtext = d.locs && d.locs.length
+                    ? d.locs.find(loc => referenceSetMap && d.coll && referenceSetMap[d.coll] && loc.setid && referenceSetMap[d.coll][loc.setid] && loc.vol)
+                    : null;
+                if (refLocForEtext && ETEXT_DOWNLOAD_ENABLED_COLLS.includes(d.coll)) {
+                    const folio2 = (p, f, l) => p + (f || '') + (l ? '.' + l : '');
+                    const fromE  = refLocForEtext.debp ? folio2(refLocForEtext.debp, refLocForEtext.debf, refLocForEtext.debl) : '';
+                    const toE    = refLocForEtext.finp ? folio2(refLocForEtext.finp, refLocForEtext.finf, refLocForEtext.finl) : '';
+                    const sgJson = escAttr(JSON.stringify({ [d.coll]: siglaGenre[d.coll] || null }));
+                    const vvSlice2 = {};
+                    Object.keys(volrefVolno).filter(k => k.startsWith(d.coll + ':')).forEach(k => vvSlice2[k] = volrefVolno[k]);
+                    const vvJson2 = escAttr(JSON.stringify(vvSlice2));
+                    etextHtml += ` <button type="button" class="btn btn-sm btn-outline-secondary btn-download-etext me-1"
+                        data-coll="${escAttr(d.coll)}" data-con-title="${escAttr(refLocForEtext.setid||'')}" data-vol="${escAttr(refLocForEtext.vol)}"
+                        data-sec="${escAttr(refLocForEtext.sec||'')}" data-from="${escAttr(fromE)}" data-to="${escAttr(toE||fromE)}"
+                        data-unicode="0" data-sigla-genre="${sgJson}" data-volref-volno="${vvJson2}">
+                        <i class="bi bi-download me-1"></i>Wylie</button>`;
+                    etextHtml += ` <button type="button" class="btn btn-sm btn-outline-secondary btn-download-etext"
+                        data-coll="${escAttr(d.coll)}" data-con-title="${escAttr(refLocForEtext.setid||'')}" data-vol="${escAttr(refLocForEtext.vol)}"
+                        data-sec="${escAttr(refLocForEtext.sec||'')}" data-from="${escAttr(fromE)}" data-to="${escAttr(toE||fromE)}"
+                        data-unicode="1" data-sigla-genre="${sgJson}" data-volref-volno="${vvJson2}">
+                        <i class="bi bi-fonts me-1"></i>Unicode</button>`;
+                }
+                html += field('Etext', etextHtml);
+            }
+
+            modalBody.innerHTML = html || '<p class="text-muted fst-italic">No additional details.</p>';
+            if (window.tibGlobalMode === 'unicode') {
+                modalBody.querySelectorAll('.script-text[data-lang="tib"]').forEach(el => {
+                    el.textContent = toUnicode(el.dataset.original || el.textContent);
+                    el.classList.add('tib');
+                });
+            }
+            } catch(e) {
+                console.error('openModal build error:', e);
+                modalBody.innerHTML = '<p class="text-danger small">Error loading details. See console.</p>';
+            }
+            bootstrap.Modal.getOrCreateInstance(modalEl).show();
+        }
+
+        /* ══════════════════════════════════════════════════════════════════════
+           Modal: NLM item
+        ══════════════════════════════════════════════════════════════════════ */
+        function openNLMModal(d) {
+            modalRef.textContent = d.ref || '—';
+            let html = '<div class="mb-3 text-muted small fw-semibold">National Library of Mongolia</div>';
+
+            if (d.tib)      html += field('Tibetan title', tibSpan(d.tib));
+            if (d.coloph)   html += field('Colophon',      tibSpan(d.coloph));
+            if (d.refNLM)   html += field('NLM ref',       allowHtml(d.refNLM));
+            if (d.bookType) html += field('Book style',    allowHtml(d.bookType));
+            if (d.bookSize) html += field('Book size',     allowHtml(d.bookSize));
+
+            html += '<div class="mb-3"><div class="modal-label mb-2">Location</div><div class="location-block mb-2">';
+            if (d.vol) html += `<div><span class="modal-label">Vol</span> ${esc(d.vol)}</div>`;
+            if (d.sec) html += `<div><span class="modal-label">Section</span> ${esc(d.sec)}</div>`;
+            const from = d.debp ? d.debp + (d.debf||'') + (d.debl ? '.'+d.debl : '') : '';
+            const to   = d.finp ? d.finp + (d.finf||'') + (d.finl ? '.'+d.finl : '') : '';
+            if (from || to) html += `<div><span class="modal-label">Pages</span> ${esc(from)}${to ? ' – '+esc(to) : ''}</div>`;
+            if (d.vol && d.debp) {
+                const p = new URLSearchParams();
+                p.set('title','MWNLM'); p.set('rkts', d.rkts); p.set('coll','NLM');
+                p.set('vol', d.vol);
+                if (d.sec)  p.set('sec',  d.sec);
+                p.set('page', d.debp + (d.debf||''));
+                html += `<div class="mt-2"><a href="images.html?${p}" class="btn btn-sm btn-outline-primary" target="_blank"><i class="bi bi-images me-1"></i>View Images</a></div>`;
+            }
+            html += '</div></div>';
+
+            modalBody.innerHTML = html || '<p class="text-muted fst-italic">No additional details.</p>';
+            if (window.tibGlobalMode === 'unicode') {
+                modalBody.querySelectorAll('.script-text[data-lang="tib"]').forEach(el => {
+                    el.textContent = toUnicode(el.dataset.original || el.textContent);
+                    el.classList.add('tib');
+                });
+            }
+            bootstrap.Modal.getOrCreateInstance(modalEl).show();
+        }
+
+        /* ══════════════════════════════════════════════════════════════════════
+           Modal: collection info
+        ══════════════════════════════════════════════════════════════════════ */
+        function openCollInfoModal(sigla, collsData) {
+            const ciModalEl    = document.getElementById('coll-info-modal');
+            const ciModalTitle = document.getElementById('coll-info-modal-title');
+            const ciModalBody  = document.getElementById('coll-info-modal-body');
+            const ciDownloadBtn= document.getElementById('coll-info-download-btn');
+
+            const collection = collsData.find(c => c.sigla === sigla) || null;
+            if (!collection) {
+                ciModalTitle.textContent = sigla;
+                ciModalBody.innerHTML = '<p class="text-muted fst-italic">No metadata available for this collection.</p>';
+                ciDownloadBtn.classList.add('d-none');
+                bootstrap.Modal.getOrCreateInstance(ciModalEl).show();
+                return;
+            }
+
+            ciModalTitle.textContent =
+                (collection.sigla ? collection.sigla + ' \u2014 ' : '') +
+                (collection.title || 'Untitled Collection');
+
+            let content = '';
+
+            if (collection.alternative_title)
+                content += `<p class="fs-5 fw-semibold text-muted">${collection.alternative_title}</p>`;
+            if (collection.abstract)
+                content += `<h6 class="fw-semibold mt-1 mb-1">Historical Description</h6><p class="small">${collection.abstract}</p>`;
+
+            content += '<h6 class="fw-semibold mt-3 mb-1">Metadata</h6>' +
+                       '<table class="table table-striped table-sm"><tbody>';
+            if (collection.genre)
+                content += `<tr><th>Category</th><td>${esc(collection.genre)}</td></tr>`;
+            if (collection.classifications && collection.classifications.length)
+                content += `<tr><th>Group</th><td>${esc(collection.classifications.join(', '))}</td></tr>`;
+            if (collection.date_created)
+                content += `<tr><th>Creation Date</th><td>${esc(collection.date_created)}</td></tr>`;
+
+            if (collection.place_of_production) {
+                let placeContent = esc(collection.place_of_production);
+                if (collection.bdrc_reference)
+                    placeContent += ` (<a href="${esc(collection.bdrc_reference.url)}" target="_blank">${esc(collection.bdrc_reference.id)}</a>)`;
+                content += `<tr><th>Associated places</th><td>${placeContent}</td></tr>`;
+            } else if (collection.bdrc_reference) {
+                content += `<tr><th>Associated places</th><td>(<a href="${esc(collection.bdrc_reference.url)}" target="_blank">${esc(collection.bdrc_reference.id)}</a>)</td></tr>`;
+            }
+            if (collection.coordinates)
+                content += `<tr><th>Coordinates</th><td>${esc(collection.coordinates)}</td></tr>`;
+            content += '</tbody></table>';
+
+            // Resources / Notes table
+            const notes = collection.notes || {};
+            const genreSlugMap = { 'Kanjur':'kanjur', 'Tanjur':'tanjur', 'Old Tantra':'old-tantra', 'Canonical Collection':'canonical-collection' };
+            let genreSlug = genreSlugMap[collection.genre] || '';
+            if (!genreSlug && collection.genre && collection.genre.startsWith('Bon')) genreSlug = 'bon-canon';
+            const catNumMap = { 'Tanjur':'2', 'Old Tantra':'3' };
+            let catNum = catNumMap[collection.genre] || '';
+            if (!catNum && collection.genre && collection.genre.startsWith('Bon')) catNum = '5';
+            if (!catNum) catNum = '1';
+            const sig = collection.sigla || '';
+
+            const resLinkMap = {
+                'handlist_Handlist Available':
+                    `<a href="handlist.html?id=${encodeURIComponent(catNum+sig)}" class="btn btn-sm btn-outline-primary" target="_blank"><i class="bi bi-list-ul me-1"></i>Handlist</a>`,
+                'images_Images Available':
+                    `<a href="images_list.html?sigla=${encodeURIComponent(sig)}&category=${encodeURIComponent(genreSlug)}" class="btn btn-sm btn-outline-secondary" target="_blank"><i class="bi bi-images me-1"></i>Images</a>`,
+                'text_Text Available':
+                    `<a href="etexts_repository2.html?sigla=${encodeURIComponent(sig)}&category=${encodeURIComponent(genreSlug)}" class="btn btn-sm btn-outline-success" target="_blank"><i class="bi bi-file-text me-1"></i>E-texts</a>`
+            };
+
+            const noteEntries = Object.keys(notes).filter(k =>
+                k !== 'integratedrkts' && k !== 'isreferenceset' && k.toLowerCase() !== 'numberoflines'
+            );
+            if (noteEntries.length) {
+                content += '<h6 class="fw-semibold mt-3 mb-1">Resources</h6>' +
+                           '<table class="table table-striped table-sm"><tbody>';
+                noteEntries.forEach(key => {
+                    const val = notes[key];
+                    if (val === undefined) return;
+                    const formattedKey = key.replace(/_/g,' ')
+                        .replace(/\b\w/g, l => l.toUpperCase())
+                        .replace(/([A-Za-z]+) \1/g, '$1');
+                    if (val === 'true' || val === 'false') {
+                        const checked = val === 'true';
+                        const linkBtn = (checked && resLinkMap[key]) ? `<td class="text-end">${resLinkMap[key]}</td>` : '<td></td>';
+                        content += `<tr><th>${esc(formattedKey)}</th>` +
+                            `<td><div class="form-check"><input class="form-check-input" type="checkbox"${checked?' checked':''} disabled></div></td>` +
+                            `${linkBtn}</tr>`;
+                    } else {
+                        content += `<tr><th>${esc(formattedKey)}</th><td colspan="2">${String(val)}</td></tr>`;
+                    }
+                });
+                content += '</tbody></table>';
+            }
+
+            // Editions (constituents)
+            if (collection.constituents && collection.constituents.length) {
+                content += `<h6 class="fw-semibold mt-3 mb-1">Editions (${collection.constituents.length})</h6>` +
+                    '<table class="table table-striped table-sm constituent-table">' +
+                    '<thead><tr><th>ID/Title</th><th>URL</th><th>Medium</th><th>Extent / Script</th><th></th></tr></thead><tbody>';
+                collection.constituents.forEach((item, idx) => {
+                    let extentDisplay = '';
+                    if (item.extent) {
+                        extentDisplay = /^\d+$/.test(item.extent.trim())
+                            ? 'Extent: ' + item.extent + ' volumes'
+                            : 'Extent: ' + item.extent;
+                    }
+                    const descCell = `<td><a href="editiondescription.html?sigla=${encodeURIComponent(sig)}&edition=${idx}" target="_blank" class="btn btn-sm btn-outline-primary py-0"><i class="bi bi-journal-text"></i> Details</a></td>`;
+                    content += `<tr>
+                        <td>${item.id ? 'ID: '+esc(item.id)+'<br>' : ''}${item.title ? 'Title: '+esc(item.title) : ''}</td>
+                        <td>${item.url ? `<a href="${esc(item.url)}" target="_blank">Link</a>` : ''}</td>
+                        <td>${esc(item.medium||'')}</td>
+                        <td>${extentDisplay ? esc(extentDisplay)+'<br>' : ''}${item.script ? 'Script: '+esc(item.script) : ''}</td>
+                        ${descCell}</tr>`;
+                });
+                content += '</tbody></table>';
+            }
+
+            ciModalBody.innerHTML = content;
+
+            // Download JSON button
+            const xmlFileName = collection.file_name || null;
+            if (xmlFileName) {
+                ciDownloadBtn.classList.remove('d-none');
+                const freshBtn = ciDownloadBtn.cloneNode(true);
+                ciDownloadBtn.parentNode.replaceChild(freshBtn, ciDownloadBtn);
+                freshBtn.addEventListener('click', () => {
+                    const a = document.createElement('a');
+                    a.href     = `../data/collections/${encodeURIComponent(sig)}/${encodeURIComponent(xmlFileName)}`;
+                    a.download = xmlFileName;
+                    a.click();
+                });
+            } else {
+                ciDownloadBtn.classList.add('d-none');
+            }
+
+            bootstrap.Modal.getOrCreateInstance(ciModalEl).show();
+        }
+
+    })();
+    </script>
+
+</body>
+</html>

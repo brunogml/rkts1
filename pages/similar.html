@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+
+    <style>
+        /* ── Etext typography ─────────────────────────────────────── */
+        #etext-container {
+            font-family: 'Noto Serif', 'Times New Roman', Georgia, serif;
+            font-size: 1rem;
+            line-height: 1.85;
+            max-height: 75vh;
+            overflow-y: auto;
+            background: #fdfaf5;
+            border: 1px solid #dee2e6;
+            border-radius: .375rem;
+            padding: 1.5rem 2rem;
+        }
+        .folio-header {
+            display: inline-block;
+            font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+            color: #fff; background: #6c757d;
+            border-radius: 3px; padding: 0 .38em;
+            margin: .9em .4em .25em 0; vertical-align: middle;
+            cursor: default; transition: opacity .15s, width .15s;
+            white-space: nowrap; text-decoration: none;
+        }
+        .folio-header:hover { filter: brightness(1.25); text-decoration: none; }
+        .folio-header.vol-label { background: #0d6efd; font-size: .7rem; }
+        .folio-header.hidden-marker {
+            opacity: 0; width: 0; height: 0; overflow: hidden;
+            padding: 0; margin: 0; font-size: 0; line-height: 0;
+        }
+        .etext-line { display: block; margin-bottom: .12em; }
+        #etext-container.continuous-text .etext-line { display: inline; margin-bottom: 0; }
+        #etext-container.continuous-text .etext-line::after { content: ' '; }
+        .line-num {
+            display: inline-block; font-size: .68rem; color: #aaa;
+            width: 1.4em; text-align: right; margin-right: .55em;
+            user-select: none; transition: opacity .15s, width .15s; vertical-align: baseline;
+        }
+        .line-num.hidden-num { opacity: 0; width: 0; margin: 0; padding: 0; overflow: hidden; font-size: 0; line-height: 0; }
+        .vol-separator { border: none; border-top: 2px solid #dee2e6; margin: 1.5rem 0 1rem; scroll-margin-top: 120px; }
+        span[id^="vol-"] { scroll-margin-top: 120px; }
+
+        /* coll=A apparatus notes */
+        .notes-divider {
+            border: none; border-top: 1px dashed #dee2e6;
+            margin: .6rem 0 .4rem;
+        }
+        .etext-note {
+            display: block; font-size: .82rem; color: #6c5a3a;
+            line-height: 1.6; margin-bottom: .08em;
+        }
+        .note-num {
+            display: inline-block; font-size: .65rem; color: #c8a96e;
+            width: 1.8em; text-align: right; margin-right: .55em;
+            user-select: none; vertical-align: baseline;
+        }
+        .circ-ref { color: #b05020; font-weight: 700; }
+        .page-break-label {
+            display: inline-block; font-size: .62rem; color: #adb5bd;
+            letter-spacing: .06em; text-transform: uppercase;
+            margin: .15rem .3rem .05rem 0; vertical-align: middle;
+        }
+
+        /* ── Toolbar ──────────────────────────────────────────────── */
+        #etext-toolbar {
+            position: sticky; top: 56px; z-index: 100;
+            background: #fff; border-bottom: 1px solid #dee2e6; padding: .5rem 1rem;
+        }
+        #etext-toolbar .btn { min-width: 145px; }
+        .meta-badges .badge { font-size: .8rem; }
+        .vol-jump { font-size: .8rem; cursor: pointer; }
+        .tib { font-size: 1.6rem; line-height: 2; }
+        .tib-toggle-btn { font-size: 0.8rem; padding: 4px 10px; line-height: 1.5; opacity: 0.65; transition: opacity 0.15s; }
+        .tib-toggle-btn:hover { opacity: 1; }
+        .tib-toggle-btn .toggle-label { font-weight: 600; letter-spacing: 0.02em; }
+
+        /* ── Cross-canon search buttons ────────────────────────────── */
+        #sim-xcanon {
+            display: none;
+            padding: .45rem .85rem .35rem;
+            border-bottom: 1px solid #dee2e6;
+            background: #fafbfc;
+        }
+        #sim-xcanon-label {
+            font-size: .68rem; text-transform: uppercase; letter-spacing: .06em;
+            color: #6c757d; font-weight: 600; margin-bottom: .3rem;
+        }
+        #sim-xcanon-btns { display: flex; flex-wrap: wrap; gap: .3em; }
+        .sim-xcanon-btn {
+            font-size: .72rem; padding: 2px 10px; border-radius: 3px;
+            border: 1px solid #c8d6e5; background: #f5f9ff; color: #2c6fad;
+            cursor: pointer; text-decoration: none; display: inline-block;
+            transition: background .12s, color .12s;
+        }
+        .sim-xcanon-btn:hover { background: #1d447a; color: #fff; border-color: #1d447a; }
+        .sim-xcanon-btn.current { background: #e8edf4; color: #6c757d; border-color: #dee2e6; cursor: default; pointer-events: none; }
+
+        /* ── Similar passages ─────────────────────────────────────── */
+        #sim-fab-wrap {
+            position: fixed;
+            bottom: 2rem; right: 2rem;
+            z-index: 1080;
+            display: none;
+            align-items: center; gap: .45em;
+        }
+        #sim-fab {
+            display: flex;
+            align-items: center; gap: .45em;
+            background: #1d447a; color: #fff;
+            border: none; border-radius: 2rem;
+            padding: .55rem 1.1rem;
+            font-size: .85rem; font-weight: 600;
+            box-shadow: 0 4px 16px rgba(0,0,0,.25);
+            cursor: pointer;
+            transition: background .15s, transform .1s;
+            white-space: nowrap;
+        }
+        #sim-fab:hover { background: #163766; transform: translateY(-2px); }
+        #sim-fab.loading { background: #6c757d; pointer-events: none; }
+
+        #sim-panel {
+            position: fixed;
+            top: 0; right: -520px;
+            width: min(520px, 96vw);
+            height: 100vh;
+            background: #fff;
+            border-left: 1px solid #dee2e6;
+            box-shadow: -4px 0 24px rgba(0,0,0,.15);
+            z-index: 1090;
+            display: flex; flex-direction: column;
+            transition: right .28s cubic-bezier(.4,0,.2,1);
+            overflow: hidden;
+        }
+        #sim-panel.open { right: 0; }
+
+        #sim-panel-header {
+            background: #1d447a; color: #fff;
+            padding: .85rem 1.2rem;
+            display: flex; align-items: center; gap: .6rem;
+            flex-shrink: 0;
+        }
+        #sim-panel-header h6 { margin: 0; font-size: .92rem; font-weight: 700; flex: 1; }
+        #sim-close {
+            background: none; border: none; color: #fff;
+            font-size: 1.3rem; line-height: 1; cursor: pointer; opacity: .8;
+            padding: 0 .2rem;
+        }
+        #sim-close:hover { opacity: 1; }
+
+        #sim-query-box {
+            background: #f0f4fa;
+            padding: .65rem 1.2rem;
+            font-size: .78rem; color: #495057;
+            border-bottom: 1px solid #dee2e6;
+            flex-shrink: 0;
+        }
+        #sim-query-text {
+            font-style: italic; color: #1d447a;
+            max-height: 3.2em; overflow: hidden;
+            text-overflow: ellipsis; display: -webkit-box;
+            -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+        }
+
+        #sim-results {
+            flex: 1; overflow-y: auto;
+            padding: .6rem .85rem;
+        }
+
+        /* ── Result card ── */
+        .sim-result-item {
+            border: 1px solid #dee2e6;
+            border-left: 3px solid #1d447a;
+            border-radius: .35rem;
+            margin-bottom: .7rem;
+            overflow: hidden;
+            transition: box-shadow .15s, border-color .15s;
+        }
+        .sim-result-item:hover {
+            box-shadow: 0 2px 10px rgba(29,68,122,.12);
+            border-color: #1d447a;
+        }
+
+        /* Header bar: location + score */
+        .sim-result-head {
+            display: flex; align-items: center; gap: .5em; flex-wrap: wrap;
+            background: #f0f4fa;
+            padding: .32rem .7rem;
+            border-bottom: 1px solid #dee2e6;
+            font-size: .72rem; color: #495057;
+        }
+        .sim-result-head .sim-loc {
+            font-weight: 700; color: #1d447a; white-space: nowrap;
+        }
+        .sim-result-head .sim-sec {
+            color: #6c757d; font-style: italic;
+        }
+        .sim-score-wrap {
+            margin-left: auto; display: flex; align-items: center; gap: .4em;
+        }
+        .sim-score-bar {
+            display: inline-block; height: 7px; border-radius: 4px;
+            background: linear-gradient(90deg, #1d447a, #4e8fd4);
+        }
+        .sim-score-pct {
+            font-size: .7rem; font-weight: 700; color: #1d447a; white-space: nowrap;
+        }
+
+        /* Title row: ref badge + Tibetan title + action links */
+        .sim-result-titles {
+            display: flex; flex-wrap: wrap; align-items: center;
+            gap: .3em .5em;
+            padding: .4rem .7rem .25rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .sim-ref-badge {
+            font-size: .72rem; font-weight: 700;
+            background: #1d447a; color: #fff;
+            border-radius: 3px; padding: 1px .45em;
+            text-decoration: none; white-space: nowrap; flex-shrink: 0;
+        }
+        .sim-ref-badge:hover { background: #163766; color: #fff; }
+        .sim-tib-title {
+            font-size: .83rem; color: #212529; flex: 1 1 55%;
+            min-width: 0;
+        }
+        .sim-action-links {
+            display: flex; gap: .3em; margin-left: auto; flex-shrink: 0;
+        }
+        .sim-etext-link {
+            display: inline-flex; align-items: center; gap: .22em;
+            font-size: .68rem; color: #2c6fad;
+            border: 1px solid #c8d6e5; border-radius: 3px;
+            padding: 1px 6px; background: #f5f9ff;
+            text-decoration: none; white-space: nowrap;
+            transition: background .12s;
+        }
+        .sim-etext-link:hover { background: #ddeaf7; color: #1a4f8a; }
+
+        /* Passage text */
+        .sim-result-text {
+            font-size: .83rem; line-height: 1.7; color: #212529;
+            padding: .45rem .7rem .5rem;
+        }
+        .sim-result-text mark {
+            background: #ffe066;
+            color: #1a1a1a;
+            font-weight: 600;
+            border-radius: 2px;
+            padding: 0 2px;
+            box-shadow: 0 0 0 1px rgba(180,140,0,.25);
+        }
+        .sim-missing {
+            margin-top: .3rem; display: flex; flex-wrap: wrap;
+            gap: .2em; align-items: center;
+        }
+        .sim-missing-label {
+            font-size: .65rem; color: #aaa; text-transform: uppercase;
+            letter-spacing: .05em; margin-right: .1em;
+        }
+        .sim-missing-kw {
+            font-size: .7rem; color: #b00; background: #fff0f0;
+            border: 1px solid #f5c6c6; border-radius: 3px;
+            padding: 0 5px; text-decoration: line-through;
+        }
+
+        /* ── Keyword preview ── */
+        #sim-kw-preview {
+            margin-top: .5rem; display: flex; flex-wrap: wrap; gap: .25em .3em;
+        }
+        .sim-kw-tag {
+            display: inline-flex; align-items: center; gap: .2em;
+            font-size: .72rem; border-radius: 3px; padding: 1px 6px;
+            white-space: nowrap;
+        }
+        .sim-kw-tag.unigram  { background: #ffe066; color: #1a1a1a; font-weight: 600; cursor: pointer; user-select: none; }
+        .sim-kw-tag.unigram:hover { background: #ffd000; }
+        .sim-kw-tag.unigram.disabled { background: #f0f0f0; color: #aaa; text-decoration: line-through; font-weight: 400; }
+        .sim-kw-tag.dropped  { background: #f0f0f0; color: #aaa; text-decoration: line-through; }
+
+        /* ── Mode toggle + reload ── */
+        #sim-controls {
+            display: flex; align-items: center; gap: .4em; margin-top: .55rem; flex-wrap: wrap;
+        }
+        #sim-mode-toggle {
+            display: flex; gap: .3em;
+        }
+        .sim-mode-btn {
+            font-size: .72rem; padding: 2px 9px; border-radius: 3px; cursor: pointer;
+            border: 1px solid #c8d6e5; background: #f5f9ff; color: #2c6fad;
+            transition: background .12s, color .12s;
+        }
+        .sim-mode-btn.active {
+            background: #1d447a; color: #fff; border-color: #1d447a;
+        }
+        #sim-reload-btn {
+            margin-left: auto; font-size: .72rem; padding: 2px 9px; border-radius: 3px;
+            border: 1px solid #1d447a; background: #fff; color: #1d447a; cursor: pointer;
+            display: flex; align-items: center; gap: .25em;
+            transition: background .12s, color .12s;
+        }
+        #sim-reload-btn:hover { background: #1d447a; color: #fff; }
+        #sim-reload-btn:disabled { opacity: .4; pointer-events: none; }
+
+        /* ── Canon search buttons ── */
+        #sim-canon-btns {
+            display: flex; flex-wrap: wrap; gap: .3em;
+            margin-top: .4rem; padding-top: .4rem;
+            border-top: 1px solid #e8edf4;
+        }
+        #sim-canon-label {
+            width: 100%; font-size: .65rem; text-transform: uppercase;
+            letter-spacing: .06em; color: #6c757d; margin-bottom: .1rem;
+        }
+        .sim-canon-btn {
+            font-size: .72rem; padding: 2px 10px; border-radius: 3px;
+            border: 1px solid #c8d6e5; background: #f5f9ff; color: #2c6fad;
+            text-decoration: none; display: inline-block;
+            transition: background .12s, color .12s;
+        }
+        .sim-canon-btn:hover { background: #1d447a; color: #fff; border-color: #1d447a; }
+        .sim-canon-btn.current { background: #e8edf4; color: #888; border-color: #dee2e6; pointer-events: none; }
+
+        #sim-status {
+            text-align: center; color: #6c757d; font-size: .85rem;
+            padding: 2rem 1rem;
+        }
+        #sim-overlay {
+            display: none;
+            position: fixed; inset: 0;
+            background: rgba(0,0,0,.18);
+            z-index: 1085;
+        }
+        #sim-overlay.open { display: block; }
+
+        /* ── Info modal ── */
+        #sim-info-backdrop {
+            display: none; position: fixed; inset: 0;
+            background: rgba(0,0,0,.45); z-index: 1200;
+            align-items: center; justify-content: center;
+        }
+        #sim-info-backdrop.open { display: flex; }
+        #sim-info-modal {
+            background: #fff; border-radius: .5rem;
+            width: min(680px, 92vw); max-height: 88vh;
+            overflow-y: auto;
+            box-shadow: 0 8px 40px rgba(0,0,0,.3);
+            display: flex; flex-direction: column;
+        }
+        #sim-info-modal-head {
+            background: #1d447a; color: #fff;
+            padding: .8rem 1.1rem;
+            display: flex; align-items: center; gap: .6rem;
+            border-radius: .5rem .5rem 0 0; flex-shrink: 0;
+        }
+        #sim-info-modal-head h6 { margin: 0; font-size: .92rem; font-weight: 700; flex: 1; }
+        #sim-info-modal-close {
+            background: none; border: none; color: #fff;
+            font-size: 1.3rem; line-height: 1; cursor: pointer; opacity: .8;
+        }
+        #sim-info-modal-close:hover { opacity: 1; }
+        #sim-info-modal-body {
+            padding: 1.1rem 1.3rem; font-size: .84rem; line-height: 1.7; color: #212529;
+        }
+        #sim-info-modal-body h6 {
+            font-size: .78rem; font-weight: 700; text-transform: uppercase;
+            letter-spacing: .06em; color: #1d447a; margin: 1rem 0 .3rem;
+        }
+        #sim-info-modal-body h6:first-child { margin-top: 0; }
+        #sim-info-modal-body p { margin: 0 0 .5rem; }
+        #sim-info-modal-body ul { margin: 0 0 .5rem; padding-left: 1.2rem; }
+        #sim-info-modal-body li { margin-bottom: .2rem; }
+        .sim-kw-example {
+            display: inline-block; background: #ffe066; color: #1a1a1a;
+            font-weight: 600; border-radius: 2px; padding: 0 3px;
+            box-shadow: 0 0 0 1px rgba(180,140,0,.25); font-size: .82rem;
+        }
+        .sim-badge-example {
+            display: inline-block; background: #1d447a; color: #fff;
+            border-radius: 3px; padding: 1px 5px; font-size: .72rem; font-weight: 700;
+        }
+    </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     <div class="container mt-4 mb-5">
+
+        <nav aria-label="breadcrumb" class="mb-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="etexts.html">Etexts</a></li>
+                <li class="breadcrumb-item active" id="breadcrumb-id" aria-current="page">—</li>
+            </ol>
+        </nav>
+
+        <!-- Error display -->
+        <div id="error-area"></div>
+
+        <!-- Main card (hidden until data loads) -->
+        <div id="main-card" class="card shadow-sm" style="display:none">
+
+            <!-- card header -->
+            <div class="card-header py-3">
+                <div style="width:100%;margin-bottom:.5rem">
+                    <h5 class="mb-0 fw-semibold">
+                        <span id="hdr-tib" class="script-text" data-lang="tib"></span>
+                    </h5>
+                </div>
+                <div style="width:100%;margin-bottom:.5rem">
+                    <div class="meta-badges d-flex flex-wrap gap-2">
+                        <span class="badge bg-primary" id="hdr-id">—</span>
+                        <span class="badge bg-secondary" id="hdr-rkts" style="display:none"></span>
+                        <span class="badge bg-info text-dark" id="hdr-sec"></span>
+                        <span class="badge bg-light text-dark border" id="hdr-coll"></span>
+                    </div>
+                </div>
+                <div style="width:100%">
+                    <div class="d-flex flex-wrap gap-2" id="vol-jump-links"></div>
+                </div>
+            </div>
+
+            <!-- toolbar -->
+            <div id="etext-toolbar">
+                <div class="d-flex flex-wrap gap-2 align-items-center">
+                    <button id="btn-pages" class="btn btn-sm btn-outline-secondary" onclick="togglePages()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="me-1" viewBox="0 0 16 16">
+                            <path d="M4 1h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H4z"/>
+                            <path d="M5 4h6v1H5zm0 2h6v1H5zm0 2h4v1H5z"/>
+                        </svg>Hide page markers
+                    </button>
+                    <button id="btn-lines" class="btn btn-sm btn-outline-secondary" onclick="toggleLines()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="me-1" viewBox="0 0 16 16">
+                            <path d="M1 3.5A.5.5 0 0 1 1.5 3h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 3.5zm0 4A.5.5 0 0 1 1.5 7h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 7.5zm0 4A.5.5 0 0 1 1.5 11h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1z"/>
+                        </svg>Hide line numbers
+                    </button>
+                    <button type="button" id="global-tib-toggle"
+                            class="btn btn-sm btn-outline-secondary tib-toggle-btn"
+                            data-mode="ewts" title="Show in Tibetan script">→ ཡིག</button>
+                    <div class="ms-auto d-flex align-items-center gap-3">
+                        <div class="text-muted small" id="range-info"></div>
+                        <div style="display:flex;flex-direction:column;align-items:center;gap:.15rem;">
+                            <span style="font-size:.62rem;color:#6c757d;white-space:nowrap;letter-spacing:.03em;">Similar passages</span>
+                            <button id="sim-info-btn" title="How Similar Passages works"
+                                    style="background:none;border:1px solid #dee2e6;border-radius:50%;
+                                           width:1.6rem;height:1.6rem;display:flex;align-items:center;
+                                           justify-content:center;cursor:pointer;color:#6c757d;
+                                           flex-shrink:0;padding:0;transition:color .15s,border-color .15s;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- etext body -->
+            <div class="card-body p-3">
+                <div id="etext-container">
+                    <div class="text-center text-muted py-4">
+                        <div class="spinner-border spinner-border-sm me-2" role="status"></div>
+                        Loading etext…
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer text-muted small d-flex justify-content-between flex-wrap gap-1">
+                <span id="footer-source"></span>
+                <span id="footer-detail"></span>
+            </div>
+
+        </div><!-- /.card -->
+    </div><!-- /.container -->
+
+    <!-- Similar passages FAB -->
+    <div id="sim-fab-wrap" style="display:none;position:fixed;bottom:2rem;right:2rem;z-index:1080;display:none;align-items:center;gap:.35em;">
+        <button id="sim-fab" title="Find similar passages in this collection">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.099zm-5.242 1.656a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11"/>
+            </svg>
+            Find similar passages
+        </button>
+    </div>
+
+    <!-- Overlay -->
+    <div id="sim-overlay"></div>
+
+    <!-- Slide-in panel -->
+    <div id="sim-panel" role="complementary" aria-label="Similar passages">
+        <div id="sim-panel-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.099zm-5.242 1.656a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11"/>
+            </svg>
+            <h6>Similar passages</h6>
+            <button id="sim-panel-info-btn" title="How Similar Passages works"
+                    style="background:none;border:none;color:rgba(255,255,255,.7);
+                           display:flex;align-items:center;cursor:pointer;padding:0 .1rem;
+                           transition:color .15s;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                </svg>
+            </button>
+            <button id="sim-close" aria-label="Close">&times;</button>
+        </div>
+
+        <div id="sim-query-box">
+            <div style="font-weight:600;margin-bottom:.2rem;font-size:.76rem;text-transform:uppercase;letter-spacing:.06em;color:#6c757d;">Query</div>
+            <div id="sim-query-text"></div>
+            <div id="sim-kw-preview"></div>
+            <div id="sim-controls">
+                <div id="sim-mode-toggle">
+                    <button class="sim-mode-btn active" data-mode="bag" title="Bag-of-keywords: keywords may appear anywhere in the window">Bag of words</button>
+                    <button class="sim-mode-btn" data-mode="phrase" title="Phrase: keywords must appear in order (gaps allowed)">Phrase order</button>
+                </div>
+                <button id="sim-reload-btn" disabled title="Re-run search with current keywords and mode">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
+                        <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+                    </svg>
+                    Reload
+                </button>
+                <div id="sim-canon-btns" style="display:none;">
+                    <span id="sim-canon-label">Search in</span>
+                    <a id="sim-canon-kanjur"  class="sim-canon-btn" target="_blank">Kanjur</a>
+                    <a id="sim-canon-tanjur"  class="sim-canon-btn" target="_blank">Tanjur</a>
+                    <a id="sim-canon-tantra"  class="sim-canon-btn" target="_blank">Tantra</a>
+                </div>
+            </div>
+        </div>
+        <div id="sim-xcanon">
+            <div id="sim-xcanon-label">Search same text in</div>
+            <div id="sim-xcanon-btns"></div>
+        </div>
+        <div id="sim-results">
+            <div id="sim-status">Select text in the etext, then click <strong>Find similar passages</strong>.</div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">
+                &copy; <script>document.write(new Date().getFullYear())</script>
+                Resources for Kanjur and Tanjur Studies (rKTs).
+                Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+                <a href="about.html#access">Accessibility</a>.
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../tools/EwtsConverter.js"></script>
+
+    <script>
+    (function () {
+        'use strict';
+
+        /* ── Paths ──────────────────────────────────────────────────── */
+        const COLLS_URL   = '../data/general/collections.json';
+        const COLL_BASE   = '../data/collections';   // /{coll}/{coll}.xml
+        const ETEXT_BASE  = '../data/etexts';        // /{catNum}{coll}/{pad}.txt
+
+        /* ── EWTS helpers ───────────────────────────────────────────── */
+        function toUnicode(ewts) {
+            if (!ewts) return '';
+            if (window.jsEWTS) { try { return window.jsEWTS.fromWylie(ewts); } catch(e) {} }
+            return ewts;
+        }
+
+        /* ── HTML escape ────────────────────────────────────────────── */
+        function esc(s) {
+            return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+
+        /* ── Error display ──────────────────────────────────────────── */
+        function showError(msg) {
+            document.getElementById('error-area').innerHTML =
+                `<div class="alert alert-danger">${msg}</div>`;
+            document.getElementById('main-card').style.display = 'none';
+        }
+
+        /* ── URL param ──────────────────────────────────────────────── */
+        const id = (new URLSearchParams(window.location.search).get('id') || '').trim();
+        if (!id) { showError('No text ID provided (use ?id=D236).'); return; }
+
+        const collMatch = id.match(/^([A-Za-z]+)/i);
+        if (!collMatch) { showError('Invalid ID format.'); return; }
+        const coll = collMatch[1];
+
+        document.getElementById('breadcrumb-id').textContent = id;
+        document.title = 'rKTs – Etext ' + id;
+
+        /* ── Position → comparable integer ─────────────────────────── */
+        // Standard format: page * 1000 + (face=b ? 500 : 0) + line
+        // coll=A format:   folio * 1000 + line  (no face)
+        function posToInt(page, face, line) {
+            return page * 1000 + (face === 'b' ? 500 : 0) + (line || 0);
+        }
+        function posToIntA(folio, line) {
+            return folio * 1000 + (line || 0);
+        }
+
+        const CAT_PREFIX = { K:'1', T:'2', G:'3', B:'5' };
+        const CAT_GENRE  = { K:'Kanjur', T:'Tanjur', G:'Kanjur', B:'Kanjur' };
+
+        /* ── Detect coll=A etext format ─────────────────────────────── */
+        function isCollAEtextFormat(txt) {
+            const first = txt.trimStart().split(/\r?\n/).find(l => l.trim()) || '';
+            return /^\d+\.[n\d]/.test(first);
+        }
+
+        /* ── Parse etext segment ────────────────────────────────────── */
+        function parseSegment(txt, startInt, endInt) {
+            if (isCollAEtextFormat(txt)) {
+                // coll=A: "{folio}.{line}({sec}): text"  or  "{folio}.n{num}({sec}): note"
+                const reMain = /^(\d+)\.(\d+)\(([^)]*)\):\s*(.*)/;
+                const reNote = /^(\d+)\.n(\d+)\(([^)]*)\):\s*(.*)/;
+                const extracted = [];
+                const notesMap  = {};   // folio → [{num, text}]
+                txt.split(/\r?\n/).forEach(raw => {
+                    let m;
+                    if ((m = raw.match(reNote))) {
+                        const folio = parseInt(m[1], 10);
+                        if (!notesMap[folio]) notesMap[folio] = [];
+                        notesMap[folio].push({ num: m[2], text: m[4] });
+                    } else if ((m = raw.match(reMain))) {
+                        const folio = parseInt(m[1], 10);
+                        const line  = parseInt(m[2], 10);
+                        const lInt  = posToIntA(folio, line);
+                        if (lInt >= startInt && lInt <= endInt) {
+                            extracted.push({ folio, line, text: m[4], notesMap });
+                        }
+                    }
+                });
+                // Group by folio; attach notes to each folio group
+                const grouped = {};
+                extracted.forEach(l => {
+                    const key = String(l.folio);
+                    if (!grouped[key]) grouped[key] = { lines: [], notes: notesMap[l.folio] || [] };
+                    grouped[key].lines.push(l);
+                });
+                return { lines: extracted, folios: grouped, collA: true };
+            }
+
+            // Standard format: "{page}{face}{line}({sec}): text"
+            const re = /^(\d+)([ab])(\d+)\([^)]*\):\s*(.*)$/;
+            const extracted = [];
+            txt.split(/\r?\n/).forEach(raw => {
+                const m = raw.match(re);
+                if (!m) return;
+                const lPage = parseInt(m[1], 10);
+                const lFace = m[2];
+                const lLine = parseInt(m[3], 10);
+                const lText = m[4];
+                const lInt  = posToInt(lPage, lFace, lLine);
+                if (lInt >= startInt && lInt <= endInt) {
+                    extracted.push({ page: lPage, face: lFace, line: lLine, text: lText, folio: lPage + lFace });
+                }
+            });
+            // Group by folio
+            const grouped = {};
+            extracted.forEach(l => {
+                if (!grouped[l.folio]) grouped[l.folio] = [];
+                grouped[l.folio].push(l);
+            });
+            return { lines: extracted, folios: grouped, collA: false };
+        }
+
+        /* ── Render segments into #etext-container ──────────────────── */
+        function highlightCircRefs(text) {
+            return esc(text).replace(/[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]/g,
+                m => '<span class="circ-ref">' + m + '</span>');
+        }
+
+        function renderSegments(segments, cat, constituentTitle) {
+            const container = document.getElementById('etext-container');
+            const rangeInfo = document.getElementById('range-info');
+            const jumpLinks = document.getElementById('vol-jump-links');
+            const totalLines = segments.reduce((s, seg) => s + (seg.lines ? seg.lines.length : 0), 0);
+
+            // Range info in toolbar
+            let rangeParts = [];
+            segments.forEach(seg => {
+                if (!seg.error && seg.lines && seg.lines.length) {
+                    const it = seg.item;
+                    rangeParts.push(`Vol.\u00a0${seg.volno}: ${it.debp}${it.debf}${it.debl || ''}\u2013${it.finp}${it.finf}${it.finl || ''}`);
+                }
+            });
+            rangeInfo.textContent = rangeParts.join('  ');
+
+            // Volume jump links
+            segments.forEach(seg => {
+                const a = document.createElement('a');
+                a.href = '#vol-' + seg.volno;
+                a.className = 'badge bg-warning text-dark text-decoration-none vol-jump';
+                a.title = 'Jump to Vol. ' + seg.volno;
+                a.textContent = 'Vol.\u00a0' + seg.volno + (seg.volname ? '\u00a0\u00b7\u00a0' + seg.volname : '');
+                jumpLinks.appendChild(a);
+            });
+
+            let html = '';
+            if (totalLines === 0 && !segments.some(s => s.error)) {
+                html = '<div class="alert alert-warning">No etext lines found for the given page range.</div>';
+            }
+
+            segments.forEach((seg, si) => {
+                if (seg.error) {
+                    html += `<div class="alert alert-warning py-2 mb-2"><strong>Volume ${esc(String(seg.volno))}:</strong> ${seg.error}</div>`;
+                    return;
+                }
+                // Volume separator / anchor
+                if (si > 0) {
+                    html += `<hr class="vol-separator" id="vol-${esc(String(seg.volno))}">`;
+                } else {
+                    html += `<span id="vol-${esc(String(seg.volno))}"></span>`;
+                }
+                html += `<span class="folio-header vol-label page-marker">Vol.\u00a0${esc(String(seg.volno))}${seg.volname ? '\u00a0\u00b7\u00a0' + esc(seg.volname) : ''}</span>`;
+
+                if (!seg.folios || !Object.keys(seg.folios).length) {
+                    const pad = String(parseInt(seg.volno, 10)).padStart(3, '0');
+                    html += `<p class="text-muted fst-italic small">(No lines extracted for vol.\u00a0${esc(String(seg.volno))} &mdash;
+                        path: <code>${esc(ETEXT_BASE + '/' + CAT_PREFIX[cat] + coll + '/' + pad + '.txt')}</code>
+                        range: ${esc(seg.item.debp + seg.item.debf + (seg.item.debl || ''))}
+                        &ndash; ${esc(seg.item.finp + seg.item.finf + (seg.item.finl || ''))})</p>`;
+                    return;
+                }
+
+                if (seg.collA) {
+                    // coll=A: folios[key] = { lines: [...], notes: [...] }
+                    Object.entries(seg.folios).forEach(([folioKey, folioData]) => {
+                        const imgUrl = 'images.html?'
+                            + 'title='  + encodeURIComponent(constituentTitle)
+                            + '&rkts='  + encodeURIComponent(cat + seg.rkts)
+                            + '&coll='  + encodeURIComponent(coll)
+                            + '&vol='   + encodeURIComponent(seg.volref)
+                            + '&sec='   + encodeURIComponent(seg.item.sec || '')
+                            + '&page='  + encodeURIComponent(folioKey);
+                        html += `<a href="${esc(imgUrl)}" class="folio-header page-marker" title="Open manuscript image for folio ${esc(folioKey)}">${esc(folioKey)}</a>`;
+                        folioData.lines.forEach(l => {
+                            let displayText = l.text;
+                            let breakLabel  = '';
+                            if (displayText.startsWith('@@//')) {
+                                breakLabel  = '<span class="page-break-label">&#9656;&nbsp;page&nbsp;start</span>';
+                                displayText = displayText.slice(4).replace(/^\s*/, '');
+                            } else if (displayText.startsWith('@@')) {
+                                const tag = displayText.match(/^@@([^/\s]*)/)?.[1] || '';
+                                breakLabel  = '<span class="page-break-label">&#9656;&nbsp;' + esc(tag) + '</span>';
+                                displayText = displayText.replace(/^@@[^\s]*\s*/, '');
+                            }
+                            const cleanOriginal = l.text.replace(/^@@[^\s]*\s*/, '');
+                            html += breakLabel +
+                                `<span class="etext-line"><span class="line-num line-number">${esc(String(l.line))}</span>` +
+                                `<span class="script-text" data-lang="tib" data-original="${esc(cleanOriginal)}">` +
+                                highlightCircRefs(displayText) +
+                                '</span></span>';
+                        });
+                        if (folioData.notes && folioData.notes.length) {
+                            html += '<hr class="notes-divider">';
+                            folioData.notes.forEach(n => {
+                                html += `<span class="etext-note"><span class="note-num">${esc(n.num)}</span>` +
+                                    highlightCircRefs(n.text) + '</span>';
+                            });
+                        }
+                    });
+                } else {
+                    // Standard format: folios[key] = [line, ...]
+                    Object.entries(seg.folios).forEach(([folio, folioLines]) => {
+                        const imgUrl = 'images.html?'
+                            + 'title='  + encodeURIComponent(constituentTitle)
+                            + '&rkts='  + encodeURIComponent(cat + seg.rkts)
+                            + '&coll='  + encodeURIComponent(coll)
+                            + '&vol='   + encodeURIComponent(seg.volref)
+                            + '&sec='   + encodeURIComponent(seg.item.sec || '')
+                            + '&page='  + encodeURIComponent(folio);
+                        html += `<a href="${esc(imgUrl)}" class="folio-header page-marker" title="Open manuscript image for folio ${esc(folio)}">${esc(folio)}</a>`;
+                        folioLines.forEach(l => {
+                            html += `<span class="etext-line"><span class="line-num line-number">${esc(String(l.line))}</span><span class="script-text" data-lang="tib" data-original="${esc(l.text)}">${esc(l.text)}</span></span>`;
+                        });
+                    });
+                }
+            });
+
+            container.innerHTML = html;
+            // Apply Tibetan mode if already active
+            if (window.tibGlobalMode === 'unicode') applyTibMode('unicode');
+        }
+
+        /* ── Main load ──────────────────────────────────────────────── */
+        Promise.all([
+            fetch(COLL_BASE + '/' + encodeURIComponent(coll) + '/' + encodeURIComponent(coll) + '.xml')
+                .then(r => { if (!r.ok) throw new Error('XML not found: ' + coll + '.xml'); return r.text(); }),
+            fetch(COLLS_URL)
+                .then(r => r.ok ? r.json() : []).catch(() => [])
+        ])
+        .then(([xmlText, collections]) => {
+            // ── Parse catalog XML ────────────────────────────────────
+            const doc   = new DOMParser().parseFromString(xmlText, 'application/xml');
+            if (doc.querySelector('parsererror')) throw new Error('Failed to parse ' + coll + '.xml');
+
+            const t = (el, tag) => { const n = el.querySelector(tag); return n ? n.textContent.trim() : ''; };
+            const items = Array.from(doc.querySelectorAll('item'))
+                .filter(item => t(item, 'ref') === id)
+                .map(item => ({
+                    vol:  t(item,'vol'), sec:  t(item,'sec'),
+                    debp: parseInt(t(item,'debp') || '0', 10), debf: t(item,'debf'),
+                    debl: parseInt(t(item,'debl') || '0', 10),
+                    finp: parseInt(t(item,'finp') || '0', 10), finf: t(item,'finf'),
+                    finl: parseInt(t(item,'finl') || '0', 10),
+                    tib:  t(item,'tib'), cat: t(item,'cat'), rkts: t(item,'rkts')
+                }));
+            // Full catalog for similar-passages text lookup
+            const allItems = Array.from(doc.querySelectorAll('item'))
+                .map(item => ({
+                    ref:  t(item,'ref'),
+                    vol:  t(item,'vol'), sec:  t(item,'sec'),
+                    debp: parseInt(t(item,'debp') || '0', 10), debf: t(item,'debf'),
+                    finp: parseInt(t(item,'finp') || '0', 10), finf: t(item,'finf'),
+                    tib:  t(item,'tib'), cat: t(item,'cat'), rkts: t(item,'rkts')
+                }));
+
+            if (!items.length) throw new Error(`No entry found for ID <strong>${esc(id)}</strong> in ${esc(coll)}.xml`);
+
+            const tib  = items[0].tib;
+            const sec  = items[0].sec;
+            const cat  = items[0].cat;
+            const rkts = items[0].rkts;
+
+            // Derive genre from cat
+            const catGenre = CAT_GENRE[cat] || '';
+            const catNum   = CAT_PREFIX[cat] || cat;
+
+            // Expose for similar-passages search
+            window.simEtextFolder  = ETEXT_BASE + '/' + catNum + coll;
+            window.simCatalog      = allItems;
+            window.simCat          = cat;
+            window.simColl         = coll;
+            window.simSec          = sec;
+            window.simCurrentItems = items.map(it => ({
+                vol: it.vol, debp: it.debp, debf: it.debf, finp: it.finp, finf: it.finf
+            }));
+
+            // Expose for similar-passages search
+            window.simEtextFolder = ETEXT_BASE + '/' + catNum + coll;
+
+            // ── Find collection entry in collections.json ────────────
+            let collTitle = coll, collAlternative = '', constituentTitle = '';
+            let structure = null, exactMatch = false;
+            let fbTitle = coll, fbAlt = '', fbConstituents = [];
+
+            collections.forEach(col => {
+                if (col.sigla !== coll) return;
+                const colGenre = col.genre || '';
+                const isExact  = catGenre !== '' && colGenre === catGenre;
+                if (!exactMatch) {
+                    fbTitle        = col.title || coll;
+                    fbAlt          = col.alternative_title || '';
+                    fbConstituents = col.constituents || [];
+                }
+                if (isExact) {
+                    collTitle       = col.title || coll;
+                    collAlternative = col.alternative_title || '';
+                    const constituents = col.constituents || [];
+                    for (const con of constituents) {
+                        if (con.structure && con.structure.length) {
+                            structure        = con.structure;
+                            constituentTitle = con.title || '';
+                            break;
+                        }
+                    }
+                    exactMatch = true;
+                }
+            });
+            if (!exactMatch) {
+                collTitle       = fbTitle;
+                collAlternative = fbAlt;
+                for (const con of fbConstituents) {
+                    if (con.structure && con.structure.length) {
+                        structure        = con.structure;
+                        constituentTitle = con.title || '';
+                        break;
+                    }
+                }
+            }
+
+            // Build volref → volno / volname maps
+            const volnoMap   = {};
+            const volnameMap = {};
+            if (Array.isArray(structure)) {
+                structure.forEach(s => {
+                    volnoMap[s.volref]   = parseInt(s.volno, 10);
+                    volnameMap[s.volref] = s.volname || '';
+                });
+            }
+            window.simVolnoToRef = {};
+            Object.entries(volnoMap).forEach(([ref, no]) => { window.simVolnoToRef[no] = ref; });
+
+            // ── Populate header ──────────────────────────────────────
+            const tibEl = document.getElementById('hdr-tib');
+            tibEl.textContent       = tib;
+            tibEl.dataset.original  = tib;
+
+            document.getElementById('hdr-id').textContent   = id;
+            if (rkts) {
+                const rktsEl = document.getElementById('hdr-rkts');
+                rktsEl.textContent    = 'rKTs ' + rkts;
+                rktsEl.style.display  = '';
+            }
+            document.getElementById('hdr-sec').textContent  = sec;
+            document.getElementById('hdr-coll').textContent =
+                collTitle + (collAlternative ? ' ' + collAlternative : '');
+
+            document.getElementById('footer-source').innerHTML =
+                `Source: <em>${esc(collTitle)}</em> (${esc(coll)})${sec ? ' \u00b7 ' + esc(sec) : ''}`;
+            document.getElementById('footer-detail').innerHTML =
+                `<a href="detail.html?id=${encodeURIComponent(cat + rkts)}">View catalog entry</a>`;
+
+            document.getElementById('main-card').style.display = '';
+
+            // ── Fetch etext files for each item ──────────────────────
+            const segPromises = items.map(item => {
+                const volref = item.vol;
+                const volno  = volnoMap[volref];
+                if (volno == null) {
+                    return Promise.resolve({
+                        volno: '?', volnoFmt: '???', volref, volname: '', item, rkts,
+                        lines: [], folios: {}, error: `Volume reference "${esc(volref)}" not found in collections.json.`
+                    });
+                }
+                const volnoFmt   = String(parseInt(volno, 10)).padStart(3, '0');
+                const etextUrl   = ETEXT_BASE + '/' + catNum + coll + '/' + volnoFmt + '.txt';
+                const startInt   = posToInt(item.debp, item.debf, item.debl);
+                const endInt     = posToInt(item.finp, item.finf, item.finl);
+                return fetch(etextUrl)
+                    .then(r => {
+                        if (!r.ok) throw new Error('not found');
+                        return r.text();
+                    })
+                    .then(txt => {
+                        const { lines, folios, collA } = parseSegment(txt, startInt, endInt);
+                        return { volno, volnoFmt, volref, volname: volnameMap[volref] || '', item, rkts, lines, folios, collA, error: null };
+                    })
+                    .catch(() => ({
+                        volno, volnoFmt, volref, volname: volnameMap[volref] || '', item, rkts,
+                        lines: [], folios: {},
+                        error: `Etext file not found: <code>${esc(ETEXT_BASE + '/' + catNum + coll + '/' + volnoFmt + '.txt')}</code>`
+                    }));
+            });
+
+            // All etext URLs — built from structure after volnoMap is complete
+            window.simEtextFiles = Array.isArray(structure)
+                ? structure.map(s => {
+                    const pad = String(parseInt(s.volno, 10)).padStart(3, '0');
+                    return ETEXT_BASE + '/' + catNum + coll + '/' + pad + '.txt';
+                  })
+                : [];
+
+            Promise.all(segPromises).then(segments => {
+                window.simConstituentTitle = constituentTitle;
+                try { buildXCanonButtons(cat, items[0]); } catch (_) {}
+                renderSegments(segments, cat, constituentTitle);
+            });
+        })
+        .catch(err => showError(err.message));
+
+        /* ── Tibetan toggle ─────────────────────────────────────────── */
+        window.tibGlobalMode = 'ewts';
+
+        function applyTibMode(mode) {
+            document.querySelectorAll('.script-text[data-lang="tib"]').forEach(el => {
+                const original = el.dataset.original || el.textContent;
+                if (mode === 'unicode') {
+                    el.textContent = toUnicode(original);
+                    el.classList.add('tib');
+                } else {
+                    // Restore with circ-ref highlighting for etext lines
+                    if (el.closest('.etext-line')) {
+                        el.innerHTML = esc(original).replace(
+                            /[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]/g,
+                            m => '<span class="circ-ref">' + m + '</span>'
+                        );
+                    } else {
+                        el.textContent = original;
+                    }
+                    el.classList.remove('tib');
+                }
+            });
+            const btn = document.getElementById('global-tib-toggle');
+            if (btn) {
+                btn.dataset.mode = mode;
+                btn.title = mode === 'unicode' ? 'Show in Wylie (EWTS)' : 'Show in Tibetan script';
+                btn.innerHTML = mode === 'unicode' ? '→ Wylie' : '→ ཡིག';
+            }
+        }
+
+        document.addEventListener('click', e => {
+            const btn = e.target.closest('.tib-toggle-btn');
+            if (btn) {
+                window.tibGlobalMode = window.tibGlobalMode === 'ewts' ? 'unicode' : 'ewts';
+                applyTibMode(window.tibGlobalMode);
+            }
+        });
+
+        /* ── Toolbar toggle functions ───────────────────────────────── */
+        window.pagesHidden = false;
+        window.linesHidden = false;
+
+        window.togglePages = function () {
+            pagesHidden = !pagesHidden;
+            document.querySelectorAll('.page-marker').forEach(m => m.classList.toggle('hidden-marker', pagesHidden));
+            const btn = document.getElementById('btn-pages');
+            btn.classList.toggle('btn-secondary',         pagesHidden);
+            btn.classList.toggle('btn-outline-secondary', !pagesHidden);
+            btn.lastChild.textContent = pagesHidden ? 'Show page markers' : 'Hide page markers';
+        };
+
+        window.toggleLines = function () {
+            linesHidden = !linesHidden;
+            document.querySelectorAll('.line-number').forEach(n => n.classList.toggle('hidden-num', linesHidden));
+            document.getElementById('etext-container').classList.toggle('continuous-text', linesHidden);
+            const btn = document.getElementById('btn-lines');
+            btn.classList.toggle('btn-secondary',         linesHidden);
+            btn.classList.toggle('btn-outline-secondary', !linesHidden);
+            btn.lastChild.textContent = linesHidden ? 'Show line numbers' : 'Hide line numbers';
+        };
+
+    })();
+    </script>
+    <script>
+    /* ═══════════════════════════════════════════════════════════════════
+       Similar Passages — N-line bag-of-keywords, adjustable threshold
+       ═══════════════════════════════════════════════════════════════════ */
+    (function () {
+        'use strict';
+
+        /* ── Config ─────────────────────────────────────────────────── */
+        const MIN_SELECTION = 20;
+        const TOP_N         = 25;
+        const WIN_LINES     = 4;
+        const NATLANG_URL   = '../data/general/natlang.xml';
+        const KW_THRESHOLD  = 0.50;
+
+        /* ── State ──────────────────────────────────────────────────── */
+        let lastSelection    = '';
+        let natlangSet       = null;
+        let natlangLoading   = null;
+        let searchMode       = 'bag';   // 'bag' | 'phrase'
+        let lastTokens       = [];      // raw tokens from last query
+        let lastParticles    = null;    // particle set from last query
+        let disabledUnigrams = new Set(); // unigrams toggled off by user
+
+        /* ── Elements ───────────────────────────────────────────────── */
+        const fab      = document.getElementById('sim-fab');
+        const fabWrap  = document.getElementById('sim-fab-wrap');
+        const panel    = document.getElementById('sim-panel');
+        const overlay  = document.getElementById('sim-overlay');
+        const results  = document.getElementById('sim-results');
+        const queryEl  = document.getElementById('sim-query-text');
+        const kwPrev   = document.getElementById('sim-kw-preview');
+        const closeBtn = document.getElementById('sim-close');
+
+        /* ── Open / close ───────────────────────────────────────────── */
+        function openPanel()  { panel.classList.add('open');    overlay.classList.add('open');    }
+        function closePanel() { panel.classList.remove('open'); overlay.classList.remove('open'); }
+        closeBtn.addEventListener('click', closePanel);
+        overlay.addEventListener('click', closePanel);
+
+        /* ── Mode toggle wiring ─────────────────────────────────────── */
+        document.querySelectorAll('.sim-mode-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                searchMode = btn.dataset.mode;
+                document.querySelectorAll('.sim-mode-btn').forEach(b =>
+                    b.classList.toggle('active', b.dataset.mode === searchMode));
+            });
+        });
+
+        /* ── Info modal — wired after DOM ready ────────────────────── */
+        document.addEventListener('DOMContentLoaded', () => {
+            const infoBackdrop = document.getElementById('sim-info-backdrop');
+            const infoClose    = document.getElementById('sim-info-modal-close');
+            const infoBtnPanel = document.getElementById('sim-info-btn');
+            if (!infoBackdrop || !infoClose) return;
+            function openInfo()  { infoBackdrop.classList.add('open');    }
+            function closeInfo() { infoBackdrop.classList.remove('open'); }
+            if (infoBtnPanel) infoBtnPanel.addEventListener('click', openInfo);
+            const infoBtnPanelHead = document.getElementById('sim-panel-info-btn');
+            if (infoBtnPanelHead) infoBtnPanelHead.addEventListener('click', openInfo);
+            infoClose.addEventListener('click', closeInfo);
+            infoBackdrop.addEventListener('click', e => { if (e.target === infoBackdrop) closeInfo(); });
+            document.addEventListener('keydown', e => { if (e.key === 'Escape') closeInfo(); });
+        });
+
+        /* ── HTML escape ────────────────────────────────────────────── */
+        function esc(s) {
+            return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')
+                            .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+
+        /* ── Tokenizer ──────────────────────────────────────────────── */
+        function tokenize(text) {
+            return text
+                .replace(/[@#\/\\\[\]()|]+/g, ' ')
+                .split(/[\s·\u0F0B\u0F0C\u0F0D\u0F0E]+/)
+                .map(s => s.trim()).filter(s => s.length > 0);
+        }
+
+        /* ── Load natlang particles ─────────────────────────────────── */
+        function loadNatlang() {
+            if (natlangSet)     return Promise.resolve(natlangSet);
+            if (natlangLoading) return natlangLoading;
+            natlangLoading = fetch(NATLANG_URL)
+                .then(r => r.ok ? r.text() : '')
+                .then(xml => {
+                    const set = new Set();
+                    const re  = /<item>\s*([^<]+?)\s*<\/item>/g;
+                    let m;
+                    while ((m = re.exec(xml)) !== null) set.add(m[1].trim());
+                    natlangSet = set;
+                    return set;
+                })
+                .catch(() => { natlangSet = new Set(); return natlangSet; });
+            return natlangLoading;
+        }
+
+        /* ── Extract unigram + bigram keywords ──────────────────────── */
+        // Unigrams: non-particle syllables.
+        // Bigrams:  adjacent pairs where BOTH syllables are non-particles.
+        //           (particle-content or content-particle pairs are skipped)
+        function extractKeywords(tokens, particles) {
+            const unigrams  = tokens.filter(t => !particles.has(t) && !disabledUnigrams.has(t));
+            const bigrams   = [];
+            const trigrams  = [];
+            const quadgrams = [];
+
+            // Helper: all n tokens in range [i, i+n) are content words and not disabled
+            function allContent(i, n) {
+                for (let j = i; j < i + n; j++) {
+                    if (particles.has(tokens[j]) || disabledUnigrams.has(tokens[j])) return false;
+                }
+                return true;
+            }
+
+            for (let i = 0; i < tokens.length - 1; i++) {
+                if (allContent(i, 2))
+                    bigrams.push(tokens.slice(i, i+2).join(' '));
+                if (i < tokens.length - 2 && allContent(i, 3))
+                    trigrams.push(tokens.slice(i, i+3).join(' '));
+                if (i < tokens.length - 3 && allContent(i, 4))
+                    quadgrams.push(tokens.slice(i, i+4).join(' '));
+            }
+            return { unigrams, bigrams, trigrams, quadgrams };
+        }
+
+        /* ── Render keyword preview in the query box ────────────────── */
+        function showKeywordPreview(tokens, particles) {
+            if (!kwPrev) return;
+            lastTokens    = tokens;
+            lastParticles = particles;
+
+            const reloadBtn = document.getElementById('sim-reload-btn');
+
+            const frags = tokens.map(t => {
+                const dropped  = particles.has(t);
+                const disabled = !dropped && disabledUnigrams.has(t);
+                const cls = dropped ? 'dropped' : ('unigram' + (disabled ? ' disabled' : ''));
+                return `<span class="sim-kw-tag ${cls}" data-tok="${esc(t)}">${esc(t)}</span>`;
+            });
+
+
+            kwPrev.innerHTML = frags.join('');
+
+            // Toggle click on unigram tags
+            kwPrev.querySelectorAll('.sim-kw-tag.unigram, .sim-kw-tag.disabled').forEach(tag => {
+                tag.addEventListener('click', () => {
+                    const tok = tag.dataset.tok;
+                    if (disabledUnigrams.has(tok)) disabledUnigrams.delete(tok);
+                    else disabledUnigrams.add(tok);
+                    showKeywordPreview(lastTokens, lastParticles); // re-render tags
+                    if (reloadBtn) reloadBtn.disabled = false;
+                });
+            });
+
+            if (reloadBtn) reloadBtn.disabled = false;
+        }
+
+        /* ── Strip folio header → plain text ────────────────────────── */
+        function lineText(raw) {
+            const m = raw.match(/^[^)]+\):\s*(.*)/);
+            return m ? m[1] : raw;
+        }
+
+        /* ── Highlight keywords (unigrams + bigrams) ────────────────── */
+        function highlight(text, unigrams, bigrams, trigrams, quadgrams) {
+            // Longest ngrams first so they match before their sub-sequences
+            const allKws = [...(quadgrams||[]), ...(trigrams||[]), ...(bigrams||[]), ...unigrams];
+            if (!allKws.length) return esc(text);
+            const sep  = '[\\s·\\u0F0B\\u0F0C\\u0F0D\\u0F0E\\/|@#,;()\\[\\]{}]';
+            const alts = allKws.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+            const re   = new RegExp('(?<=' + sep + '|^)(' + alts + ')(?=' + sep + '|$)', 'g');
+            return esc(text).replace(re, '<mark>$1</mark>');
+        }
+
+        /* ── BAG-OF-WORDS search ────────────────────────────────────── */
+        // Score = fraction of distinct (unigram ∪ bigram) keywords found in window.
+        // Bigrams count as extra evidence on top of their constituent unigrams.
+        // Score denominator = unigrams only (keeps scoring comparable).
+        function searchFileBag(rawLines, unigrams, bigrams, trigrams, quadgrams) {
+            if (!unigrams.length || rawLines.length < WIN_LINES) return null;
+
+            const uSet  = new Set(unigrams);
+            const bSet  = new Set(bigrams);
+            const tSet  = new Set(trigrams);
+            const qSet  = new Set(quadgrams);
+            const needed = uSet.size * KW_THRESHOLD;
+            const plain  = rawLines.map(lineText);
+            const lineToks = plain.map(tokenize);
+
+            // Build per-line ngram sets
+            function buildNgrams(toks, n) {
+                const s = new Set();
+                for (let i = 0; i <= toks.length - n; i++)
+                    s.add(toks.slice(i, i+n).join(' '));
+                return s;
+            }
+            const lineB = lineToks.map(t => buildNgrams(t, 2));
+            const lineT = lineToks.map(t => buildNgrams(t, 3));
+            const lineQ = lineToks.map(t => buildNgrams(t, 4));
+
+            let bestCov = 0, bestWinStart = -1;
+            const folioBest = {};
+
+            for (let i = 0; i <= rawLines.length - WIN_LINES; i++) {
+                const bagU = new Set(), bagB = new Set(), bagT = new Set(), bagQ = new Set();
+                for (let j = 0; j < WIN_LINES; j++) {
+                    lineToks[i+j].forEach(t => bagU.add(t));
+                    lineB[i+j].forEach(b => bagB.add(b));
+                    lineT[i+j].forEach(b => bagT.add(b));
+                    lineQ[i+j].forEach(b => bagQ.add(b));
+                }
+                let foundU = 0;
+                uSet.forEach(k => { if (bagU.has(k)) foundU++; });
+                if (foundU < needed) continue;
+
+                // Weighted bonus: bigram=0.5, trigram=1.0, quadgram=1.5
+                let bonus = 0, denom = uSet.size;
+                bSet.forEach(b => { if (bagB.has(b)) bonus += 0.5; }); denom += bSet.size * 0.5;
+                tSet.forEach(t => { if (bagT.has(t)) bonus += 1.0; }); denom += tSet.size * 1.0;
+                qSet.forEach(q => { if (bagQ.has(q)) bonus += 1.5; }); denom += qSet.size * 1.5;
+                const cov = (foundU + bonus) / denom;
+
+                const folioKey = (rawLines[i] || '').split(':')[0];
+                if (!folioBest[folioKey] || cov > folioBest[folioKey].cov)
+                    folioBest[folioKey] = { cov, winStart: i };
+            }
+
+            Object.values(folioBest).forEach(({ cov, winStart }) => {
+                if (cov > bestCov) { bestCov = cov; bestWinStart = winStart; }
+            });
+
+            if (bestWinStart < 0) return null;
+            return {
+                coverage: bestCov,
+                text: plain.slice(bestWinStart, bestWinStart + WIN_LINES).join(' / '),
+                startRawLine: bestWinStart
+            };
+        }
+
+        /* ── PHRASE-ORDER search ────────────────────────────────────── */
+        // Checks that unigrams appear in the same left-to-right order as in
+        // the query, with gaps allowed. Bigrams add a bonus when consecutive
+        // pairs are also in order. Window = WIN_LINES lines.
+        function searchFilePhrase(rawLines, unigrams, bigrams, trigrams, quadgrams) {
+            if (!unigrams.length || rawLines.length < WIN_LINES) return null;
+
+            const needed = unigrams.length * KW_THRESHOLD;
+            const plain  = rawLines.map(lineText);
+            const lineToks = plain.map(tokenize);
+
+            function buildNgrams(toks, n) {
+                const s = new Set();
+                for (let i = 0; i <= toks.length - n; i++)
+                    s.add(toks.slice(i, i+n).join(' '));
+                return s;
+            }
+            const lineB = lineToks.map(t => buildNgrams(t, 2));
+            const lineT = lineToks.map(t => buildNgrams(t, 3));
+            const lineQ = lineToks.map(t => buildNgrams(t, 4));
+
+            let bestCov = 0, bestWinStart = -1;
+            const folioBest = {};
+
+            for (let i = 0; i <= rawLines.length - WIN_LINES; i++) {
+                const flat = [];
+                for (let j = 0; j < WIN_LINES; j++) flat.push(...lineToks[i+j]);
+
+                // Greedy left-to-right match of unigrams in order
+                let qi = 0, found = 0;
+                for (let fi = 0; fi < flat.length && qi < unigrams.length; fi++) {
+                    if (flat[fi] === unigrams[qi]) { found++; qi++; }
+                }
+                if (found < needed) continue;
+
+                // Ngram bonus (presence, weighted)
+                const bagB = new Set(), bagT = new Set(), bagQ = new Set();
+                for (let j = 0; j < WIN_LINES; j++) {
+                    lineB[i+j].forEach(b => bagB.add(b));
+                    lineT[i+j].forEach(b => bagT.add(b));
+                    lineQ[i+j].forEach(b => bagQ.add(b));
+                }
+                let bonus = 0, denom = unigrams.length;
+                bigrams.forEach(b   => { if (bagB.has(b)) bonus += 0.5; }); denom += bigrams.length * 0.5;
+                trigrams.forEach(t  => { if (bagT.has(t)) bonus += 1.0; }); denom += trigrams.length * 1.0;
+                quadgrams.forEach(q => { if (bagQ.has(q)) bonus += 1.5; }); denom += quadgrams.length * 1.5;
+
+                const cov = (found + bonus) / denom;
+                const folioKey = (rawLines[i] || '').split(':')[0];
+                if (!folioBest[folioKey] || cov > folioBest[folioKey].cov)
+                    folioBest[folioKey] = { cov, winStart: i };
+            }
+
+            Object.values(folioBest).forEach(({ cov, winStart }) => {
+                if (cov > bestCov) { bestCov = cov; bestWinStart = winStart; }
+            });
+
+            if (bestWinStart < 0) return null;
+            return {
+                coverage: bestCov,
+                text: plain.slice(bestWinStart, bestWinStart + WIN_LINES).join(' / '),
+                startRawLine: bestWinStart
+            };
+        }
+
+        /* ── Parse folio ref from raw line ──────────────────────────── */
+        function parseLocation(raw) {
+            const m  = raw.match(/^(\d+)([ab])(\d+)\(([^)]*)\)/);
+            if (m)  return { ref: m[1]+m[2]+m[3], sec: m[4] };
+            const m2 = raw.match(/^(\d+)\.(\d+)\(([^)]*)\)/);
+            if (m2) return { ref: m2[1]+'.'+m2[2], sec: m2[3] };
+            return { ref: '', sec: '' };
+        }
+
+        /* ── Is this hit within the currently displayed text? ───────── */
+        function isCurrentPassage(volNum, ref) {
+            const cur        = window.simCurrentItems || [];
+            const volnoToRef = window.simVolnoToRef   || {};
+            if (!cur.length || !ref) return false;
+            function p2n(pag) {
+                const m = String(pag).match(/^(\d+)([ab])/);
+                if (m) return parseInt(m[1],10)*2+(m[2]==='b'?1:0);
+                const m2 = String(pag).match(/^(\d+)/);
+                return m2 ? parseInt(m2[1],10) : -1;
+            }
+            const volref = volnoToRef[volNum] || String(volNum);
+            const pn     = p2n(ref);
+            return cur.some(it => {
+                if (it.vol !== volref) return false;
+                return pn >= 0 && pn >= p2n((it.debp||0)+(it.debf||'')) && pn <= p2n((it.finp||0)+(it.finf||''));
+            });
+        }
+
+        /* ── Look up catalog entries for a hit ──────────────────────── */
+        function lookupTexts(volNum, ref) {
+            const catalog    = window.simCatalog    || [];
+            const volnoToRef = window.simVolnoToRef || {};
+            const cat        = window.simCat        || '';
+            const prefix     = cat === 'T' ? 'T' : 'K';
+            const volref     = volnoToRef[volNum]   || String(volNum);
+            function p2n(pag) {
+                const m = String(pag).match(/^(\d+)([ab])/);
+                if (m) return parseInt(m[1],10)*2+(m[2]==='b'?1:0);
+                const m2 = String(pag).match(/^(\d+)/);
+                return m2 ? parseInt(m2[1],10) : -1;
+            }
+            const pn = p2n(ref);
+            return catalog
+                .filter(it => {
+                    if (it.vol !== volref) return false;
+                    return pn >= 0 && pn >= p2n((it.debp||0)+(it.debf||'')) && pn <= p2n((it.finp||0)+(it.finf||''));
+                })
+                .map(it => ({
+                    ref:        it.ref,
+                    tib:        it.tib || '',
+                    sec:        it.sec || '',
+                    rktsForImg: it.rkts ? prefix + it.rkts : (it.ref || ''),
+                    detailUrl:  it.ref && it.rkts ? 'detail.html?id=' + encodeURIComponent(prefix + it.rkts)
+                                                  : (it.ref ? 'detail.html?id=' + encodeURIComponent(it.ref) : ''),
+                    etextUrl:   it.ref ? 'etext_complete.html?id=' + encodeURIComponent(it.ref) : '',
+                }));
+        }
+
+        /* ── List files ─────────────────────────────────────────────── */
+        /* ── List txt files for this collection ─────────────────────── */
+        async function listTxtFiles(folder) {
+            if (window.simEtextFiles && window.simEtextFiles.length)
+                return window.simEtextFiles;
+            for (const name of ['index.json', 'files.json']) {
+                try {
+                    const r = await fetch(folder + '/' + name);
+                    if (r.ok) {
+                        const d = await r.json();
+                        if (Array.isArray(d) && d.length) return d.map(f => folder + '/' + f);
+                    }
+                } catch (_) {}
+            }
+            return [];
+        }
+
+        /* ── Render result card ─────────────────────────────────────── */
+        function renderCard(h, unigrams, bigrams, trigrams, quadgrams) {
+            // Score: count unigrams actually present in the window text (word-boundary match)
+            const total = unigrams.length;
+            const sep   = '(?<=[\\s·\\u0F0B\\u0F0C\\u0F0D\\u0F0E\\/|@#,;()[\\]{}]|^)';
+            const sepE  = '(?=[\\s·\\u0F0B\\u0F0C\\u0F0D\\u0F0E\\/|@#,;()[\\]{}]|$)';
+            const found = unigrams.filter(kw => {
+                const re = new RegExp(sep + kw.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + sepE);
+                return re.test(h.text);
+            }).length;
+            const barW  = Math.max(8, Math.round((found / Math.max(total,1)) * 90));
+            const texts = lookupTexts(h.volNum, h.ref);
+
+            // ── Header: location + score ──
+            const locStr = `Vol.&nbsp;${esc(String(h.volNum))}${h.ref ? '&nbsp;·&nbsp;' + esc(h.ref) : ''}`;
+            const secStr = h.sec ? `<span class="sim-sec">(${esc(h.sec)})</span>` : '';
+            const headHtml = `
+                <div class="sim-result-head">
+                    <span class="sim-loc">${locStr}</span>${secStr}
+                    <span class="sim-score-wrap">
+                        <span class="sim-score-bar" style="width:${barW}px" title="${found} of ${total} keywords"></span>
+                        <span class="sim-score-pct">${found}/${total}</span>
+                    </span>
+                </div>`;
+
+            // ── Title rows: one per catalog entry ──
+            let titlesHtml = '';
+            texts.forEach(tx => {
+                const badge = tx.detailUrl && tx.ref
+                    ? `<a href="${esc(tx.detailUrl)}" class="sim-ref-badge" target="_blank">${esc(tx.ref)}</a>`
+                    : (tx.ref ? `<span class="sim-ref-badge">${esc(tx.ref)}</span>` : '');
+                const tibTitle = tx.tib ? `<span class="sim-tib-title">${esc(tx.tib)}</span>` : '';
+
+                let links = '<span class="sim-action-links">';
+                if (tx.etextUrl)
+                    links += `<a href="${esc(tx.etextUrl)}" class="sim-etext-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h11A1.5 1.5 0 0 1 15 2.5v11a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 13.5zm1 0v11a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5v-11a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5"/><path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/></svg> e-text</a>`;
+                if (tx.ref && h.ref) {
+                    const pg = h.ref.replace(/^(\d+[ab])\d+$/,'$1').replace(/^(\d+)\.\d+$/,'$1');
+                    const vr = (window.simVolnoToRef || {})[h.volNum] || '';
+                    const iu = 'images.html?'
+                        + 'title=' + encodeURIComponent(window.simConstituentTitle || '')
+                        + '&coll=' + encodeURIComponent(window.simColl || '')
+                        + '&vol='  + encodeURIComponent(vr)
+                        + '&page=' + encodeURIComponent(pg)
+                        + '&sec='  + encodeURIComponent(tx.sec || window.simSec || '');
+                    links += `<a href="${esc(iu)}" class="sim-etext-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" viewBox="0 0 16 16"><path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/><path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z"/></svg> image</a>`;
+                }
+                links += '</span>';
+
+                titlesHtml += `<div class="sim-result-titles">${badge}${tibTitle}${links}</div>`;
+            });
+
+            // ── Missing keywords (reuse same boundary regex as score) ──
+            const missing = unigrams.filter(kw => {
+                const re = new RegExp(sep + kw.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + sepE);
+                return !re.test(h.text);
+            });
+
+            let missingHtml = '';
+            if (missing.length) {
+                missingHtml = '<div class="sim-missing">'
+                    + '<span class="sim-missing-label">missing:</span>'
+                    + missing.map(k => `<span class="sim-missing-kw">${esc(k)}</span>`).join('')
+                    + '</div>';
+            }
+
+            const div = document.createElement('div');
+            div.className = 'sim-result-item';
+            div.innerHTML = headHtml + titlesHtml
+                + `<div class="sim-result-text">${highlight(h.text, unigrams, bigrams, trigrams, quadgrams)}</div>`
+                + missingHtml;
+            return div;
+        }
+
+        /* ── Cross-canon navigation buttons ────────────────────────── */
+        function buildXCanonButtons(currentCat, currentItem) {
+            const bar     = document.getElementById('sim-xcanon');
+            const btnWrap = document.getElementById('sim-xcanon-btns');
+            if (!bar || !btnWrap || !currentItem) return;
+
+            const CANONS = [
+                { label: 'Kanjur (D)',       coll: 'D',   cat: 'K', id_prefix: 'K' },
+                { label: 'Tanjur (D)',       coll: 'D',   cat: 'T', id_prefix: 'T' },
+                { label: 'Nyingrgyud (Gpb)', coll: 'Gpb', cat: 'G', id_prefix: 'K' },
+            ];
+
+            const rkts = currentItem.rkts || '';
+            btnWrap.innerHTML = '';
+
+            CANONS.forEach(canon => {
+                const isCurrent = (canon.coll === (window.simColl || '') && canon.cat === currentCat);
+                const btn = document.createElement('a');
+                btn.className = 'sim-xcanon-btn' + (isCurrent ? ' current' : '');
+                btn.textContent = canon.label;
+                if (!isCurrent && rkts) {
+                    btn.href  = 'similar2.html?id=' + encodeURIComponent(canon.id_prefix + rkts);
+                    btn.title = 'Search similar passages in ' + canon.label;
+                } else if (isCurrent) {
+                    btn.title = 'Currently viewing this canon';
+                }
+                btnWrap.appendChild(btn);
+            });
+
+            bar.style.display = 'block';
+        }
+
+        /* ── Main search ─────────────────────────────────────────────── */
+        /* ── Canon collection definitions ───────────────────────────── */
+        const CANON_DEFS = [
+            { id: 'sim-canon-kanjur', label: 'Kanjur',  coll: '1D',  etextColl: 'D',   cat: 'K' },
+            { id: 'sim-canon-tanjur', label: 'Tanjur',  coll: '2D',  etextColl: 'D',   cat: 'T' },
+            { id: 'sim-canon-tantra', label: 'Tantra',  coll: '3Gpb',etextColl: 'Gpb', cat: 'G' },
+        ];
+
+        /* ── Update cross-canon buttons with current query ───────────── */
+        function updateCanonButtons(queryText, mode) {
+            const wrap = document.getElementById('sim-canon-btns');
+            if (!wrap) return;
+            const currentColl = window.simColl || '';
+            const currentCat  = window.simCat  || '';
+            CANON_DEFS.forEach(def => {
+                const btn = document.getElementById(def.id);
+                if (!btn) return;
+                const isCurrent = (def.etextColl === currentColl && def.cat === currentCat);
+                const url = 'similar2.html?'
+                    + 'coll=' + encodeURIComponent(def.coll)
+                    + '&query=' + encodeURIComponent(queryText)
+                    + '&mode='  + encodeURIComponent(mode);
+                btn.href = isCurrent ? '#' : url;
+                btn.className = 'sim-canon-btn' + (isCurrent ? ' current' : '');
+                btn.title = isCurrent
+                    ? 'Currently searching this canon'
+                    : 'Search similar passages in ' + def.label;
+            });
+            wrap.style.display = 'flex';
+        }
+
+        async function findSimilar(queryText) {
+            openPanel();
+            queryEl.textContent = queryText;
+            results.innerHTML   = '';
+
+            const statusDiv = document.createElement('div');
+            statusDiv.id    = 'sim-status';
+            statusDiv.innerHTML = '<div class="spinner-border spinner-border-sm me-2" role="status"></div>Loading particles…';
+            results.appendChild(statusDiv);
+
+            fab.classList.add('loading');
+            fab.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.099zm-5.242 1.656a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11"/></svg> Searching…';
+
+            try {
+                const particles = await loadNatlang();
+                const qTokens   = tokenize(queryText);
+                const { unigrams, bigrams, trigrams, quadgrams } = extractKeywords(qTokens, particles);
+
+                if (!unigrams.length) {
+                    results.innerHTML = '<div id="sim-status">Selection contains only grammatical particles — please select a passage with content words.</div>';
+                    return;
+                }
+
+                // Show keyword preview
+                showKeywordPreview(qTokens, particles);
+
+                const folder = window.simEtextFolder || null;
+                if (!folder) throw new Error('Page not yet loaded — please wait and try again.');
+
+                const modeLabel = searchMode === 'phrase' ? 'phrase order' : 'bag of words';
+                statusDiv.innerHTML = `<div class="spinner-border spinner-border-sm me-2" role="status"></div>Searching — <strong>${unigrams.length}</strong> keywords, mode: <em>${modeLabel}</em>…`;
+
+                const files = await listTxtFiles(folder);
+                if (!files.length) throw new Error('No etext files found for this collection.');
+
+                const scored = await Promise.all(files.map(async url => {
+                    try {
+                        const r = await fetch(url);
+                        if (!r.ok) return null;
+                        const rawLines = (await r.text()).split(/\r?\n/).filter(l => l.trim());
+                        const hit = searchMode === 'phrase'
+                            ? searchFilePhrase(rawLines, unigrams, bigrams, trigrams, quadgrams)
+                            : searchFileBag(rawLines, unigrams, bigrams, trigrams, quadgrams);
+                        if (!hit) return null;
+                        const loc    = parseLocation(rawLines[hit.startRawLine] || '');
+                        const volNum = parseInt(url.match(/(\d{3})\.txt$/)?.[1] || '0', 10);
+                        return { url, volNum, coverage: hit.coverage, text: hit.text, ref: loc.ref, sec: loc.sec };
+                    } catch (_) { return null; }
+                }));
+
+                const hits = scored
+                    .filter(Boolean)
+                    .filter(h => !isCurrentPassage(h.volNum, h.ref))
+                    .sort((a, b) => b.coverage - a.coverage)
+                    .slice(0, TOP_N);
+
+                results.innerHTML = '';
+
+                if (!hits.length) {
+                    results.innerHTML = `<div id="sim-status">No passages found with ≥${Math.round(KW_THRESHOLD*100)}% of the ${unigrams.length} keywords (mode: ${modeLabel}).<br><small class="text-muted">Try switching to bag-of-words mode or selecting a longer passage.</small></div>`;
+                    return;
+                }
+
+                hits.forEach(h => results.appendChild(renderCard(h, unigrams, bigrams, trigrams, quadgrams)));
+                updateCanonButtons(queryText, searchMode);
+
+            } catch (err) {
+                results.innerHTML = `<div id="sim-status" class="text-danger">Error: ${esc(err.message)}</div>`;
+            } finally {
+                fab.classList.remove('loading');
+                fab.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.099zm-5.242 1.656a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11"/></svg> Find similar passages';
+            }
+        }
+
+        /* ── Selection listener ─────────────────────────────────────── */
+        document.addEventListener('selectionchange', () => {
+            const sel = window.getSelection();
+            const txt = sel ? sel.toString().trim() : '';
+            const container = document.getElementById('etext-container');
+            if (txt.length >= MIN_SELECTION && container && sel.rangeCount) {
+                if (container.contains(sel.getRangeAt(0).commonAncestorContainer)) {
+                    lastSelection = txt;
+                    fabWrap.style.display = 'flex';
+                    return;
+                }
+            }
+            if (!panel.classList.contains('open')) fabWrap.style.display = 'none';
+        });
+
+        /* ── FAB click ──────────────────────────────────────────────── */
+        fab.addEventListener('click', () => {
+            const sel   = window.getSelection();
+            const txt   = sel ? sel.toString().trim() : '';
+            const query = txt.length >= MIN_SELECTION ? txt : lastSelection;
+            if (!query) return;
+            if (query !== lastSelection) disabledUnigrams.clear();
+            lastSelection = query;
+            findSimilar(query);
+        });
+
+        /* ── Programmatic trigger for similar2.html ──────────────────── */
+        window._simS2Fire = function(query) {
+            if (!query) return;
+            disabledUnigrams.clear();
+            lastSelection = query;
+            findSimilar(query);
+        };
+
+        /* ── Reload button ───────────────────────────────────────────── */
+        document.addEventListener('DOMContentLoaded', () => {
+            const reloadBtn = document.getElementById('sim-reload-btn');
+            if (reloadBtn) {
+                reloadBtn.addEventListener('click', () => {
+                    if (lastSelection) findSimilar(lastSelection);
+                });
+            }
+        });
+
+    })();
+    </script>
+    <!-- Similar passages info modal — at body level so it overlays the whole page -->
+    <div id="sim-info-backdrop">
+        <div id="sim-info-modal" role="dialog" aria-modal="true" aria-labelledby="sim-info-title">
+            <div id="sim-info-modal-head">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                </svg>
+                <h6 id="sim-info-title">How Similar Passages works</h6>
+                <button id="sim-info-modal-close" aria-label="Close">&times;</button>
+            </div>
+            <div id="sim-info-modal-body">
+                <h6>1 · Select a passage</h6>
+                <p>Highlight any stretch of text in the etext viewer. A <em>Find similar passages</em> button appears at the bottom-right of the screen. Click it to start the search.</p>
+
+                <h6>2 · Keywords are extracted</h6>
+                <p>The selection is split into Tibetan syllables. Grammatical particles (case markers, connectives such as <em>ba, dang, kyi, las, pa'i…</em>) are filtered out using the rKTs particle list. The remaining syllables become your <strong>keywords</strong>, shown as <span class="sim-kw-example">yellow</span> tags. Adjacent content-word pairs (bigrams, e.g. <span class="sim-kw-example" style="background:#c8e6ff;color:#0a3a6e;">sangs rgyas</span>) are also extracted as extra evidence and shown in blue.</p>
+
+                <h6>3 · Refine keywords before searching</h6>
+                <p>After the keyword preview appears, you can <strong>click any yellow keyword tag to deselect it</strong> — it will be struck through and excluded from the search. Click it again to re-enable it. This is useful when a syllable is too common or ambiguous to be a reliable search term. Once you have adjusted the keywords, click <strong>Reload</strong> to re-run the search.</p>
+
+                <h6>4 · Choose a search mode</h6>
+                <p>Two modes are available:</p>
+                <ul>
+                    <li><strong>Bag of words</strong> — the keywords may appear <em>anywhere</em> in the 4-line window, in any order. Best for finding parallel passages where the same ideas are expressed with different word order or paraphrase. This is the default.</li>
+                    <li><strong>Phrase order</strong> — the keywords must appear in the <em>same left-to-right order</em> as in your selection (gaps are allowed). Stricter, and better for finding near-verbatim quotations or formulaic passages.</li>
+                </ul>
+                <p>After switching mode, click <strong>Reload</strong> to apply it to the current selection.</p>
+
+                <h6>5 · Results are ranked</h6>
+                <p>All etext files of the current collection are scanned with a sliding window of <strong>4 consecutive lines</strong>. Windows where at least <strong>50%</strong> of the active keywords are found are kept. Results are sorted by keyword coverage; the score <strong>6/8</strong> means 6 of your 8 keywords were found in that passage. Up to 25 results are shown.</p>
+
+                <h6>6 · Reading a result</h6>
+                <ul>
+                    <li>The <strong>header bar</strong> shows volume, folio, and section.</li>
+                    <li>The <span class="sim-badge-example">D236</span> badge links to the catalog entry for that text.</li>
+                    <li><em>e-text</em> opens the full etext; <em>image</em> opens the manuscript viewer at that folio.</li>
+                    <li>Matched keywords are highlighted in <span class="sim-kw-example">yellow</span> in the passage snippet.</li>
+                </ul>
+
+                <h6>Limitations</h6>
+                <p>The search is limited to the current collection's etext files. Spelling variants, abbreviated forms, and syllables split across lines may be missed. Passages with very short selections (fewer than 3–4 content words) will produce many false positives.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Mongolian Transcription Schema</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <style>
+        .wrap { display: grid; grid-template-columns: repeat(7, minmax(0,1fr)); gap: 10px; }
+        .col { border: 0.5px solid #ccc; border-radius: 6px; overflow: hidden; }
+        .col-head { font-size: 11px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.06em; padding: 6px 8px; background: #f5f5f5; border-bottom: 0.5px solid #ccc; }
+        .col table { width: 100%; border-collapse: collapse; }
+        .col td { padding: 3px 8px; border-bottom: 0.5px solid #e8e8e8; vertical-align: middle; }
+        .col tr:last-child td { border-bottom: none; }
+        .sc { writing-mode: vertical-lr; font-size: 1.9em; line-height: 1; display: inline-block; min-height: 1.2em; }
+        .tr { font-family: monospace; font-size: 0.9em; color: #1a5faa; padding-left: 6px; }
+        .sep { font-size: 10px; font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; padding: 4px 8px 2px; background: #f5f5f5; border-bottom: 0.5px solid #e8e8e8; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="page-heading">
+            <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="80">
+            <span class="page-kicker">Mongolian canonical collections</span>
+            <h1>Transcription schema</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Mongolian script transcription </h2>
+                    </div>
+                    <div class="card-body">
+
+                        <div class="wrap">
+
+                            <div class="col">
+                                <div class="col-head">Vowels</div>
+                                <table>
+                                    <tr><td><span class="sc">ᠠ</span></td><td class="tr">a</td></tr>
+                                    <tr><td><span class="sc">ᠡ</span></td><td class="tr">e</td></tr>
+                                    <tr><td><span class="sc">ᠢ</span></td><td class="tr">i</td></tr>
+                                    <tr><td><span class="sc">ᠣ</span></td><td class="tr">o</td></tr>
+                                    <tr><td><span class="sc">ᠤ</span></td><td class="tr">u</td></tr>
+                                    <tr><td><span class="sc">ᠥ</span></td><td class="tr">ö</td></tr>
+                                    <tr><td><span class="sc">ᠦ</span></td><td class="tr">ü</td></tr>
+                                    <tr><td><span class="sc">ᠧ</span></td><td class="tr">ê</td></tr>
+                                </table>
+                            </div>
+
+                            <div class="col">
+                                <div class="col-head">Nasals + labials</div>
+                                <table>
+                                    <tr><td class="sep" colspan="2">Nasals</td></tr>
+                                    <tr><td><span class="sc">ᠨ</span></td><td class="tr">n</td></tr>
+                                    <tr><td><span class="sc">ᡛ</span></td><td class="tr">ñ</td></tr>
+                                    <tr><td><span class="sc">ᢏ</span></td><td class="tr">ṇ</td></tr>
+                                    <tr><td><span class="sc">ᠩ</span></td><td class="tr">ng</td></tr>
+                                    <tr><td class="sep" colspan="2">Labials</td></tr>
+                                    <tr><td><span class="sc">ᠪ</span></td><td class="tr">b</td></tr>
+                                    <tr><td><span class="sc">ᠫ</span></td><td class="tr">p</td></tr>
+                                    <tr><td><span class="sc">ᢓ</span></td><td class="tr">ph</td></tr>
+                                    <tr><td><span class="sc">ᠹ</span></td><td class="tr">f</td></tr>
+                                    <tr><td><span class="sc">ᠮ</span></td><td class="tr">m</td></tr>
+                                </table>
+                            </div>
+
+                            <div class="col">
+                                <div class="col-head">Dentals</div>
+                                <table>
+                                    <tr><td class="sep" colspan="2">Dentals</td></tr>
+                                    <tr><td><span class="sc">ᠲ</span></td><td class="tr">t</td></tr>
+                                    <tr><td><span class="sc">ᠳ</span></td><td class="tr">d</td></tr>
+                                    <tr><td class="sep" colspan="2">Diacritics</td></tr>
+                                    <tr><td><span class="sc">ᢌ</span></td><td class="tr">ṭ</td></tr>
+                                    <tr><td><span class="sc">ᢍ</span></td><td class="tr">ṭh</td></tr>
+                                    <tr><td><span class="sc">ᢎ</span></td><td class="tr">ḍ</td></tr>
+                                    <tr><td><span class="sc">ᢐ</span></td><td class="tr">ṱ</td></tr>
+                                    <tr><td><span class="sc">ᢑ</span></td><td class="tr">ḓ</td></tr>
+                                </table>
+                            </div>
+
+                            <div class="col">
+                                <div class="col-head">Sibilants &amp; affricates</div>
+                                <table>
+                                    <tr><td><span class="sc">ᠰ</span></td><td class="tr">s</td></tr>
+                                    <tr><td><span class="sc">ᠱ</span></td><td class="tr">š</td></tr>
+                                    <tr><td><span class="sc">ᢔ</span></td><td class="tr">ṣ</td></tr>
+                                    <tr><td><span class="sc">ᢍ</span></td><td class="tr">ś</td></tr>
+                                    <tr><td><span class="sc">ᠴ</span></td><td class="tr">č</td></tr>
+                                    <tr><td><span class="sc">ᠼ</span></td><td class="tr">ç</td></tr>
+                                    <tr><td><span class="sc">ᠵ</span></td><td class="tr">ǰ</td></tr>
+                                    <tr><td><span class="sc">ᢖ</span></td><td class="tr">j</td></tr>
+                                    <tr><td><span class="sc">ᡒ</span></td><td class="tr">ȷ</td></tr>
+                                    <tr><td><span class="sc">ᠽ</span></td><td class="tr">z</td></tr>
+                                    <tr><td><span class="sc">ᡜ</span></td><td class="tr">ẓ</td></tr>
+                                </table>
+                            </div>
+
+                            <div class="col">
+                                <div class="col-head">Velars + liquids &amp; glides</div>
+                                <table>
+                                    <tr><td class="sep" colspan="2">Velars / uvulars</td></tr>
+                                    <tr><td><span class="sc">ᠺ</span></td><td class="tr">k</td></tr>
+                                    <tr><td><span class="sc">ᠻ</span></td><td class="tr">kh</td></tr>
+                                    <tr><td><span class="sc">ᠬ</span></td><td class="tr">q</td></tr>
+                                    <tr><td><span class="sc">ᠭ</span></td><td class="tr">γ</td></tr>
+                                    <tr><td><span class="sc">ᢉ</span></td><td class="tr">'</td></tr>
+                                    <tr><td class="sep" colspan="2">Liquids &amp; glides</td></tr>
+                                    <tr><td><span class="sc">ᠯ</span></td><td class="tr">l</td></tr>
+                                    <tr><td><span class="sc">ᡀ</span></td><td class="tr">lh</td></tr>
+                                    <tr><td><span class="sc">ᠷ</span></td><td class="tr">r</td></tr>
+                                    <tr><td><span class="sc">ᠶ</span></td><td class="tr">y</td></tr>
+                                    <tr><td><span class="sc">ᢣ</span></td><td class="tr">ý</td></tr>
+                                    <tr><td><span class="sc">ᠸ</span></td><td class="tr">w</td></tr>
+                                </table>
+                            </div>
+
+                            <div class="col">
+                                <div class="col-head">Other + special</div>
+                                <table>
+                                    <tr><td class="sep" colspan="2">Other consonants</td></tr>
+                                    <tr><td><span class="sc">ᠾ</span></td><td class="tr">h</td></tr>
+                                    <tr><td><span class="sc">ᠿ</span></td><td class="tr">ž</td></tr>
+                                    <tr><td><span class="sc">ᡁ</span></td><td class="tr">zh</td></tr>
+                                    <tr><td><span class="sc">ᡂ</span></td><td class="tr">ch</td></tr>
+                                    <tr><td class="sep" colspan="2">Special</td></tr>
+                                    <tr><td><span class="sc">ᢀ</span></td><td class="tr">ṃ</td></tr>
+                                    <tr><td><span class="sc">ᢁ</span></td><td class="tr">ḥ</td></tr>
+                                </table>
+                            </div>
+
+                            <div class="col">
+                                <div class="col-head">Punctuation</div>
+                                <table>
+                                    <tr><td><span class="sc">᠀</span></td><td class="tr">@</td></tr>
+                                    <tr><td><span class="sc">᠂</span></td><td class="tr">;</td></tr>
+                                    <tr><td><span class="sc">᠃</span></td><td class="tr">,</td></tr>
+                                    <tr><td><span class="sc">᠄</span></td><td class="tr">:</td></tr>
+                                    <tr><td><span class="sc">᠅</span></td><td class="tr">.</td></tr>
+                                </table>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

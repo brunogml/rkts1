@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+
+    <style>
+        /* ── Etext typography ─────────────────────────────────────── */
+        #etext-container {
+            font-family: 'Noto Serif', 'Times New Roman', Georgia, serif;
+            font-size: 1rem;
+            line-height: 1.85;
+            max-height: 75vh;
+            overflow-y: auto;
+            background: #fdfaf5;
+            border: 1px solid #dee2e6;
+            border-radius: .375rem;
+            padding: 1.5rem 2rem;
+        }
+        .folio-header {
+            display: inline-block;
+            font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+            color: #fff; background: #6c757d;
+            border-radius: 3px; padding: 0 .38em;
+            margin: .9em .4em .25em 0; vertical-align: middle;
+            cursor: default; transition: opacity .15s, width .15s;
+            white-space: nowrap; text-decoration: none;
+        }
+        .folio-header:hover { filter: brightness(1.25); text-decoration: none; }
+        .folio-header.vol-label { background: #0d6efd; font-size: .7rem; }
+        .folio-header.hidden-marker {
+            opacity: 0; width: 0; height: 0; overflow: hidden;
+            padding: 0; margin: 0; font-size: 0; line-height: 0;
+        }
+        .etext-line { display: block; margin-bottom: .12em; }
+        #etext-container.continuous-text .etext-line { display: inline; margin-bottom: 0; }
+        #etext-container.continuous-text .etext-line::after { content: ' '; }
+        .line-num {
+            display: inline-block; font-size: .68rem; color: #aaa;
+            width: 1.4em; text-align: right; margin-right: .55em;
+            user-select: none; transition: opacity .15s, width .15s; vertical-align: baseline;
+        }
+        .line-num.hidden-num { opacity: 0; width: 0; margin: 0; padding: 0; overflow: hidden; font-size: 0; line-height: 0; }
+        .vol-separator { border: none; border-top: 2px solid #dee2e6; margin: 1.5rem 0 1rem; scroll-margin-top: 120px; }
+        span[id^="vol-"] { scroll-margin-top: 120px; }
+
+        /* coll=A apparatus notes */
+        .notes-divider {
+            border: none; border-top: 1px dashed #dee2e6;
+            margin: .6rem 0 .4rem;
+        }
+        .etext-note {
+            display: block; font-size: .82rem; color: #6c5a3a;
+            line-height: 1.6; margin-bottom: .08em;
+        }
+        .note-num {
+            display: inline-block; font-size: .65rem; color: #c8a96e;
+            width: 1.8em; text-align: right; margin-right: .55em;
+            user-select: none; vertical-align: baseline;
+        }
+        .circ-ref { color: #b05020; font-weight: 700; }
+        .page-break-label {
+            display: inline-block; font-size: .62rem; color: #adb5bd;
+            letter-spacing: .06em; text-transform: uppercase;
+            margin: .15rem .3rem .05rem 0; vertical-align: middle;
+        }
+
+        /* ── Toolbar ──────────────────────────────────────────────── */
+        #etext-toolbar {
+            position: sticky; top: 56px; z-index: 100;
+            background: #fff; border-bottom: 1px solid #dee2e6; padding: .5rem 1rem;
+        }
+        #etext-toolbar .btn { min-width: 145px; }
+        .meta-badges .badge { font-size: .8rem; }
+        .vol-jump { font-size: .8rem; cursor: pointer; }
+        .tib { font-size: 1.6rem; line-height: 2; }
+        .tib-toggle-btn { font-size: 0.8rem; padding: 4px 10px; line-height: 1.5; opacity: 0.65; transition: opacity 0.15s; }
+        .tib-toggle-btn:hover { opacity: 1; }
+        .tib-toggle-btn .toggle-label { font-weight: 600; letter-spacing: 0.02em; }
+    </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     <div class="container mt-4 mb-5">
+
+        <nav aria-label="breadcrumb" class="mb-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="etexts.html">Etexts</a></li>
+                <li class="breadcrumb-item active" id="breadcrumb-id" aria-current="page">—</li>
+            </ol>
+        </nav>
+
+        <!-- Error display -->
+        <div id="error-area"></div>
+
+        <!-- Main card (hidden until data loads) -->
+        <div id="main-card" class="card shadow-sm" style="display:none">
+
+            <!-- card header -->
+            <div class="card-header py-3">
+                <div style="width:100%;margin-bottom:.5rem">
+                    <h5 class="mb-0 fw-semibold">
+                        <span id="hdr-tib" class="script-text" data-lang="tib"></span>
+                    </h5>
+                </div>
+                <div style="width:100%;margin-bottom:.5rem">
+                    <div class="meta-badges d-flex flex-wrap gap-2">
+                        <span class="badge bg-primary" id="hdr-id">—</span>
+                        <span class="badge bg-secondary" id="hdr-rkts" style="display:none"></span>
+                        <span class="badge bg-info text-dark" id="hdr-sec"></span>
+                        <span class="badge bg-light text-dark border" id="hdr-coll"></span>
+                    </div>
+                </div>
+                <div style="width:100%">
+                    <div class="d-flex flex-wrap gap-2" id="vol-jump-links"></div>
+                </div>
+            </div>
+
+            <!-- toolbar -->
+            <div id="etext-toolbar">
+                <div class="d-flex flex-wrap gap-2 align-items-center">
+                    <button id="btn-pages" class="btn btn-sm btn-outline-secondary" onclick="togglePages()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="me-1" viewBox="0 0 16 16">
+                            <path d="M4 1h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H4z"/>
+                            <path d="M5 4h6v1H5zm0 2h6v1H5zm0 2h4v1H5z"/>
+                        </svg>Hide page markers
+                    </button>
+                    <button id="btn-lines" class="btn btn-sm btn-outline-secondary" onclick="toggleLines()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="me-1" viewBox="0 0 16 16">
+                            <path d="M1 3.5A.5.5 0 0 1 1.5 3h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 3.5zm0 4A.5.5 0 0 1 1.5 7h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 7.5zm0 4A.5.5 0 0 1 1.5 11h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1z"/>
+                        </svg>Hide line numbers
+                    </button>
+                    <button type="button" id="global-tib-toggle"
+                            class="btn btn-sm btn-outline-secondary tib-toggle-btn"
+                            data-mode="ewts" title="Show in Tibetan script">→ ཡིག</button>
+                    <div class="ms-auto d-flex align-items-center gap-3">
+                        <div class="text-muted small" id="range-info"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- etext body -->
+            <div class="card-body p-3">
+                <div id="etext-container">
+                    <div class="text-center text-muted py-4">
+                        <div class="spinner-border spinner-border-sm me-2" role="status"></div>
+                        Loading etext…
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer text-muted small d-flex justify-content-between flex-wrap gap-1">
+                <span id="footer-source"></span>
+                <span id="footer-detail"></span>
+            </div>
+
+        </div><!-- /.card -->
+    </div><!-- /.container -->
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">
+                &copy; <script>document.write(new Date().getFullYear())</script>
+                Resources for Kanjur and Tanjur Studies (rKTs).
+                Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+                <a href="about.html#access">Accessibility</a>.
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../tools/EwtsConverter.js"></script>
+
+    <script>
+    (function () {
+        'use strict';
+
+        /* ── Paths ──────────────────────────────────────────────────── */
+        const COLLS_URL   = '../data/general/collections.json';
+        const COLL_BASE   = '../data/collections';   // /{coll}/{coll}.xml
+        const ETEXT_BASE  = '../data/etexts';        // /{catNum}{coll}/{pad}.txt
+
+        /* ── EWTS helpers ───────────────────────────────────────────── */
+        function toUnicode(ewts) {
+            if (!ewts) return '';
+            if (window.jsEWTS) { try { return window.jsEWTS.fromWylie(ewts); } catch(e) {} }
+            return ewts;
+        }
+
+        /* ── HTML escape ────────────────────────────────────────────── */
+        function esc(s) {
+            return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+
+        /* ── Error display ──────────────────────────────────────────── */
+        function showError(msg) {
+            document.getElementById('error-area').innerHTML =
+                `<div class="alert alert-danger">${msg}</div>`;
+            document.getElementById('main-card').style.display = 'none';
+        }
+
+        /* ── URL param ──────────────────────────────────────────────── */
+        const id = (new URLSearchParams(window.location.search).get('id') || '').trim();
+        if (!id) { showError('No text ID provided (use ?id=D236).'); return; }
+
+        const collMatch = id.match(/^([A-Za-z]+)/i);
+        if (!collMatch) { showError('Invalid ID format.'); return; }
+        const coll = collMatch[1];
+
+        document.getElementById('breadcrumb-id').textContent = id;
+        document.title = 'rKTs – Etext ' + id;
+
+        /* ── Position → comparable integer ─────────────────────────── */
+        // Standard format: page * 1000 + (face=b ? 500 : 0) + line
+        // coll=A format:   folio * 1000 + line  (no face)
+        function posToInt(page, face, line) {
+            return page * 1000 + (face === 'b' ? 500 : 0) + (line || 0);
+        }
+        function posToIntA(folio, line) {
+            return folio * 1000 + (line || 0);
+        }
+
+        const CAT_PREFIX = { K:'1', T:'2', G:'3', B:'5' };
+        const CAT_GENRE  = { K:'Kanjur', T:'Tanjur', G:'Kanjur', B:'Kanjur' };
+
+        /* ── Detect coll=A etext format ─────────────────────────────── */
+        function isCollAEtextFormat(txt) {
+            const first = txt.trimStart().split(/\r?\n/).find(l => l.trim()) || '';
+            return /^\d+\.[n\d]/.test(first);
+        }
+
+        /* ── Parse etext segment ────────────────────────────────────── */
+        function parseSegment(txt, startInt, endInt) {
+            if (isCollAEtextFormat(txt)) {
+                // coll=A: "{folio}.{line}({sec}): text"  or  "{folio}.n{num}({sec}): note"
+                const reMain = /^(\d+)\.(\d+)\(([^)]*)\):\s*(.*)/;
+                const reNote = /^(\d+)\.n(\d+)\(([^)]*)\):\s*(.*)/;
+                const extracted = [];
+                const notesMap  = {};   // folio → [{num, text}]
+                txt.split(/\r?\n/).forEach(raw => {
+                    let m;
+                    if ((m = raw.match(reNote))) {
+                        const folio = parseInt(m[1], 10);
+                        if (!notesMap[folio]) notesMap[folio] = [];
+                        notesMap[folio].push({ num: m[2], text: m[4] });
+                    } else if ((m = raw.match(reMain))) {
+                        const folio = parseInt(m[1], 10);
+                        const line  = parseInt(m[2], 10);
+                        const lInt  = posToIntA(folio, line);
+                        if (lInt >= startInt && lInt <= endInt) {
+                            extracted.push({ folio, line, text: m[4], notesMap });
+                        }
+                    }
+                });
+                // Group by folio; attach notes to each folio group
+                const grouped = {};
+                extracted.forEach(l => {
+                    const key = String(l.folio);
+                    if (!grouped[key]) grouped[key] = { lines: [], notes: notesMap[l.folio] || [] };
+                    grouped[key].lines.push(l);
+                });
+                return { lines: extracted, folios: grouped, collA: true };
+            }
+
+            // Standard format: "{page}{face}{line}({sec}): text"
+            const re = /^(\d+)([ab])(\d+)\([^)]*\):\s*(.*)$/;
+            const extracted = [];
+            txt.split(/\r?\n/).forEach(raw => {
+                const m = raw.match(re);
+                if (!m) return;
+                const lPage = parseInt(m[1], 10);
+                const lFace = m[2];
+                const lLine = parseInt(m[3], 10);
+                const lText = m[4];
+                const lInt  = posToInt(lPage, lFace, lLine);
+                if (lInt >= startInt && lInt <= endInt) {
+                    extracted.push({ page: lPage, face: lFace, line: lLine, text: lText, folio: lPage + lFace });
+                }
+            });
+            // Group by folio
+            const grouped = {};
+            extracted.forEach(l => {
+                if (!grouped[l.folio]) grouped[l.folio] = [];
+                grouped[l.folio].push(l);
+            });
+            return { lines: extracted, folios: grouped, collA: false };
+        }
+
+        /* ── Render segments into #etext-container ──────────────────── */
+        function highlightCircRefs(text) {
+            return esc(text).replace(/[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]/g,
+                m => '<span class="circ-ref">' + m + '</span>');
+        }
+
+        function renderSegments(segments, cat, constituentTitle) {
+            const container = document.getElementById('etext-container');
+            const rangeInfo = document.getElementById('range-info');
+            const jumpLinks = document.getElementById('vol-jump-links');
+            const totalLines = segments.reduce((s, seg) => s + (seg.lines ? seg.lines.length : 0), 0);
+
+            // Range info in toolbar
+            let rangeParts = [];
+            segments.forEach(seg => {
+                if (!seg.error && seg.lines && seg.lines.length) {
+                    const it = seg.item;
+                    rangeParts.push(`Vol.\u00a0${seg.volno}: ${it.debp}${it.debf}${it.debl || ''}\u2013${it.finp}${it.finf}${it.finl || ''}`);
+                }
+            });
+            rangeInfo.textContent = rangeParts.join('  ');
+
+            // Volume jump links
+            segments.forEach(seg => {
+                const a = document.createElement('a');
+                a.href = '#vol-' + seg.volno;
+                a.className = 'badge bg-warning text-dark text-decoration-none vol-jump';
+                a.title = 'Jump to Vol. ' + seg.volno;
+                a.textContent = 'Vol.\u00a0' + seg.volno + (seg.volname ? '\u00a0\u00b7\u00a0' + seg.volname : '');
+                jumpLinks.appendChild(a);
+            });
+
+            let html = '';
+            if (totalLines === 0 && !segments.some(s => s.error)) {
+                html = '<div class="alert alert-warning">No etext lines found for the given page range.</div>';
+            }
+
+            segments.forEach((seg, si) => {
+                if (seg.error) {
+                    html += `<div class="alert alert-warning py-2 mb-2"><strong>Volume ${esc(String(seg.volno))}:</strong> ${seg.error}</div>`;
+                    return;
+                }
+                // Volume separator / anchor
+                if (si > 0) {
+                    html += `<hr class="vol-separator" id="vol-${esc(String(seg.volno))}">`;
+                } else {
+                    html += `<span id="vol-${esc(String(seg.volno))}"></span>`;
+                }
+                html += `<span class="folio-header vol-label page-marker">Vol.\u00a0${esc(String(seg.volno))}${seg.volname ? '\u00a0\u00b7\u00a0' + esc(seg.volname) : ''}</span>`;
+
+                if (!seg.folios || !Object.keys(seg.folios).length) {
+                    const pad = String(parseInt(seg.volno, 10)).padStart(3, '0');
+                    html += `<p class="text-muted fst-italic small">(No lines extracted for vol.\u00a0${esc(String(seg.volno))} &mdash;
+                        path: <code>${esc(ETEXT_BASE + '/' + CAT_PREFIX[cat] + coll + '/' + pad + '.txt')}</code>
+                        range: ${esc(seg.item.debp + seg.item.debf + (seg.item.debl || ''))}
+                        &ndash; ${esc(seg.item.finp + seg.item.finf + (seg.item.finl || ''))})</p>`;
+                    return;
+                }
+
+                if (seg.collA) {
+                    // coll=A: folios[key] = { lines: [...], notes: [...] }
+                    Object.entries(seg.folios).forEach(([folioKey, folioData]) => {
+                        const imgUrl = 'images.html?'
+                            + 'title='  + encodeURIComponent(constituentTitle)
+                            + '&rkts='  + encodeURIComponent(cat + seg.rkts)
+                            + '&coll='  + encodeURIComponent(coll)
+                            + '&vol='   + encodeURIComponent(seg.volref)
+                            + '&sec='   + encodeURIComponent(seg.item.sec || '')
+                            + '&page='  + encodeURIComponent(folioKey);
+                        html += `<a href="${esc(imgUrl)}" class="folio-header page-marker" title="Open manuscript image for folio ${esc(folioKey)}">${esc(folioKey)}</a>`;
+                        folioData.lines.forEach(l => {
+                            let displayText = l.text;
+                            let breakLabel  = '';
+                            if (displayText.startsWith('@@//')) {
+                                breakLabel  = '<span class="page-break-label">&#9656;&nbsp;page&nbsp;start</span>';
+                                displayText = displayText.slice(4).replace(/^\s*/, '');
+                            } else if (displayText.startsWith('@@')) {
+                                const tag = displayText.match(/^@@([^/\s]*)/)?.[1] || '';
+                                breakLabel  = '<span class="page-break-label">&#9656;&nbsp;' + esc(tag) + '</span>';
+                                displayText = displayText.replace(/^@@[^\s]*\s*/, '');
+                            }
+                            const cleanOriginal = l.text.replace(/^@@[^\s]*\s*/, '');
+                            html += breakLabel +
+                                `<span class="etext-line"><span class="line-num line-number">${esc(String(l.line))}</span>` +
+                                `<span class="script-text" data-lang="tib" data-original="${esc(cleanOriginal)}">` +
+                                highlightCircRefs(displayText) +
+                                '</span></span>';
+                        });
+                        if (folioData.notes && folioData.notes.length) {
+                            html += '<hr class="notes-divider">';
+                            folioData.notes.forEach(n => {
+                                html += `<span class="etext-note"><span class="note-num">${esc(n.num)}</span>` +
+                                    highlightCircRefs(n.text) + '</span>';
+                            });
+                        }
+                    });
+                } else {
+                    // Standard format: folios[key] = [line, ...]
+                    Object.entries(seg.folios).forEach(([folio, folioLines]) => {
+                        const imgUrl = 'images.html?'
+                            + 'title='  + encodeURIComponent(constituentTitle)
+                            + '&rkts='  + encodeURIComponent(cat + seg.rkts)
+                            + '&coll='  + encodeURIComponent(coll)
+                            + '&vol='   + encodeURIComponent(seg.volref)
+                            + '&sec='   + encodeURIComponent(seg.item.sec || '')
+                            + '&page='  + encodeURIComponent(folio);
+                        html += `<a href="${esc(imgUrl)}" class="folio-header page-marker" title="Open manuscript image for folio ${esc(folio)}">${esc(folio)}</a>`;
+                        folioLines.forEach(l => {
+                            html += `<span class="etext-line"><span class="line-num line-number">${esc(String(l.line))}</span><span class="script-text" data-lang="tib" data-original="${esc(l.text)}">${esc(l.text)}</span></span>`;
+                        });
+                    });
+                }
+            });
+
+            container.innerHTML = html;
+            // Apply Tibetan mode if already active
+            if (window.tibGlobalMode === 'unicode') applyTibMode('unicode');
+        }
+
+        /* ── Main load ──────────────────────────────────────────────── */
+        Promise.all([
+            fetch(COLL_BASE + '/' + encodeURIComponent(coll) + '/' + encodeURIComponent(coll) + '.xml')
+                .then(r => { if (!r.ok) throw new Error('XML not found: ' + coll + '.xml'); return r.text(); }),
+            fetch(COLLS_URL)
+                .then(r => r.ok ? r.json() : []).catch(() => [])
+        ])
+        .then(([xmlText, collections]) => {
+            // ── Parse catalog XML ────────────────────────────────────
+            const doc   = new DOMParser().parseFromString(xmlText, 'application/xml');
+            if (doc.querySelector('parsererror')) throw new Error('Failed to parse ' + coll + '.xml');
+
+            const t = (el, tag) => { const n = el.querySelector(tag); return n ? n.textContent.trim() : ''; };
+            const items = Array.from(doc.querySelectorAll('item'))
+                .filter(item => t(item, 'ref') === id)
+                .map(item => ({
+                    vol:  t(item,'vol'), sec:  t(item,'sec'),
+                    debp: parseInt(t(item,'debp') || '0', 10), debf: t(item,'debf'),
+                    debl: parseInt(t(item,'debl') || '0', 10),
+                    finp: parseInt(t(item,'finp') || '0', 10), finf: t(item,'finf'),
+                    finl: parseInt(t(item,'finl') || '0', 10),
+                    tib:  t(item,'tib'), cat: t(item,'cat'), rkts: t(item,'rkts')
+                }));
+
+            if (!items.length) throw new Error(`No entry found for ID <strong>${esc(id)}</strong> in ${esc(coll)}.xml`);
+
+            const tib  = items[0].tib;
+            const sec  = items[0].sec;
+            const cat  = items[0].cat;
+            const rkts = items[0].rkts;
+
+            // Derive genre from cat
+            const catGenre = CAT_GENRE[cat] || '';
+            const catNum   = CAT_PREFIX[cat] || cat;
+
+            // ── Find collection entry in collections.json ────────────
+            let collTitle = coll, collAlternative = '', constituentTitle = '';
+            let structure = null, exactMatch = false;
+            let fbTitle = coll, fbAlt = '', fbConstituents = [];
+
+            collections.forEach(col => {
+                if (col.sigla !== coll) return;
+                const colGenre = col.genre || '';
+                const isExact  = catGenre !== '' && colGenre === catGenre;
+                if (!exactMatch) {
+                    fbTitle        = col.title || coll;
+                    fbAlt          = col.alternative_title || '';
+                    fbConstituents = col.constituents || [];
+                }
+                if (isExact) {
+                    collTitle       = col.title || coll;
+                    collAlternative = col.alternative_title || '';
+                    const constituents = col.constituents || [];
+                    for (const con of constituents) {
+                        if (con.structure && con.structure.length) {
+                            structure        = con.structure;
+                            constituentTitle = con.title || '';
+                            break;
+                        }
+                    }
+                    exactMatch = true;
+                }
+            });
+            if (!exactMatch) {
+                collTitle       = fbTitle;
+                collAlternative = fbAlt;
+                for (const con of fbConstituents) {
+                    if (con.structure && con.structure.length) {
+                        structure        = con.structure;
+                        constituentTitle = con.title || '';
+                        break;
+                    }
+                }
+            }
+
+            // Build volref → volno / volname maps
+            const volnoMap   = {};
+            const volnameMap = {};
+            if (Array.isArray(structure)) {
+                structure.forEach(s => {
+                    volnoMap[s.volref]   = parseInt(s.volno, 10);
+                    volnameMap[s.volref] = s.volname || '';
+                });
+            }
+
+            // ── Populate header ──────────────────────────────────────
+            const tibEl = document.getElementById('hdr-tib');
+            tibEl.textContent       = tib;
+            tibEl.dataset.original  = tib;
+
+            document.getElementById('hdr-id').textContent   = id;
+            if (rkts) {
+                const rktsEl = document.getElementById('hdr-rkts');
+                rktsEl.textContent    = 'rKTs ' + rkts;
+                rktsEl.style.display  = '';
+            }
+            document.getElementById('hdr-sec').textContent  = sec;
+            document.getElementById('hdr-coll').textContent =
+                collTitle + (collAlternative ? ' ' + collAlternative : '');
+
+            document.getElementById('footer-source').innerHTML =
+                `Source: <em>${esc(collTitle)}</em> (${esc(coll)})${sec ? ' \u00b7 ' + esc(sec) : ''}`;
+            document.getElementById('footer-detail').innerHTML =
+                `<a href="detail.html?id=${encodeURIComponent(cat + rkts)}">View catalog entry</a>`;
+
+            document.getElementById('main-card').style.display = '';
+
+            // ── Fetch etext files for each item ──────────────────────
+            const segPromises = items.map(item => {
+                const volref = item.vol;
+                const volno  = volnoMap[volref];
+                if (volno == null) {
+                    return Promise.resolve({
+                        volno: '?', volnoFmt: '???', volref, volname: '', item, rkts,
+                        lines: [], folios: {}, error: `Volume reference "${esc(volref)}" not found in collections.json.`
+                    });
+                }
+                const volnoFmt   = String(parseInt(volno, 10)).padStart(3, '0');
+                const etextUrl   = ETEXT_BASE + '/' + catNum + coll + '/' + volnoFmt + '.txt';
+                const startInt   = posToInt(item.debp, item.debf, item.debl);
+                const endInt     = posToInt(item.finp, item.finf, item.finl);
+                return fetch(etextUrl)
+                    .then(r => {
+                        if (!r.ok) throw new Error('not found');
+                        return r.text();
+                    })
+                    .then(txt => {
+                        const { lines, folios, collA } = parseSegment(txt, startInt, endInt);
+                        return { volno, volnoFmt, volref, volname: volnameMap[volref] || '', item, rkts, lines, folios, collA, error: null };
+                    })
+                    .catch(() => ({
+                        volno, volnoFmt, volref, volname: volnameMap[volref] || '', item, rkts,
+                        lines: [], folios: {},
+                        error: `Etext file not found: <code>${esc(ETEXT_BASE + '/' + catNum + coll + '/' + volnoFmt + '.txt')}</code>`
+                    }));
+            });
+
+            Promise.all(segPromises).then(segments => {
+                renderSegments(segments, cat, constituentTitle);
+            });
+        })
+        .catch(err => showError(err.message));
+
+        /* ── Tibetan toggle ─────────────────────────────────────────── */
+        window.tibGlobalMode = 'ewts';
+
+        function applyTibMode(mode) {
+            document.querySelectorAll('.script-text[data-lang="tib"]').forEach(el => {
+                const original = el.dataset.original || el.textContent;
+                if (mode === 'unicode') {
+                    el.textContent = toUnicode(original);
+                    el.classList.add('tib');
+                } else {
+                    // Restore with circ-ref highlighting for etext lines
+                    if (el.closest('.etext-line')) {
+                        el.innerHTML = esc(original).replace(
+                            /[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]/g,
+                            m => '<span class="circ-ref">' + m + '</span>'
+                        );
+                    } else {
+                        el.textContent = original;
+                    }
+                    el.classList.remove('tib');
+                }
+            });
+            const btn = document.getElementById('global-tib-toggle');
+            if (btn) {
+                btn.dataset.mode = mode;
+                btn.title = mode === 'unicode' ? 'Show in Wylie (EWTS)' : 'Show in Tibetan script';
+                btn.innerHTML = mode === 'unicode' ? '→ Wylie' : '→ ཡིག';
+            }
+        }
+
+        document.addEventListener('click', e => {
+            const btn = e.target.closest('.tib-toggle-btn');
+            if (btn) {
+                window.tibGlobalMode = window.tibGlobalMode === 'ewts' ? 'unicode' : 'ewts';
+                applyTibMode(window.tibGlobalMode);
+            }
+        });
+
+        /* ── Toolbar toggle functions ───────────────────────────────── */
+        window.pagesHidden = false;
+        window.linesHidden = false;
+
+        window.togglePages = function () {
+            pagesHidden = !pagesHidden;
+            document.querySelectorAll('.page-marker').forEach(m => m.classList.toggle('hidden-marker', pagesHidden));
+            const btn = document.getElementById('btn-pages');
+            btn.classList.toggle('btn-secondary',         pagesHidden);
+            btn.classList.toggle('btn-outline-secondary', !pagesHidden);
+            btn.lastChild.textContent = pagesHidden ? 'Show page markers' : 'Hide page markers';
+        };
+
+        window.toggleLines = function () {
+            linesHidden = !linesHidden;
+            document.querySelectorAll('.line-number').forEach(n => n.classList.toggle('hidden-num', linesHidden));
+            document.getElementById('etext-container').classList.toggle('continuous-text', linesHidden);
+            const btn = document.getElementById('btn-lines');
+            btn.classList.toggle('btn-secondary',         linesHidden);
+            btn.classList.toggle('btn-outline-secondary', !linesHidden);
+            btn.lastChild.textContent = linesHidden ? 'Show line numbers' : 'Hide line numbers';
+        };
+
+    })();
+    </script>
+</body>
+</html>

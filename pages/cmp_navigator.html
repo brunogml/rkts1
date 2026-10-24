@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <style>
+        .nav-step {
+            display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.2rem;
+        }
+        .nav-step-badge {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 1.6rem; height: 1.6rem; border-radius: 50%;
+            background: #08088a; color: #fff; font-size: 0.72rem; font-weight: 700; flex-shrink: 0;
+        }
+        .nav-step-label {
+            font-size: 0.78rem; font-weight: 600; color: #495057;
+            text-transform: uppercase; letter-spacing: 0.06em;
+        }
+        .nav-select { font-size: 0.88rem; }
+        .nav-select:disabled { background-color: #f8f9fa; color: #adb5bd; cursor: not-allowed; }
+        #vol-info { font-size: 0.78rem; color: #6c757d; min-height: 1.2em; padding: 0.15rem 0; }
+        #sel-page optgroup { font-style: normal; font-weight: 600; color: #374151; }
+        .pages-loading { font-size: 0.8rem; color: #6c757d; }
+        #preview-strip {
+            background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 6px;
+            padding: 0.65rem 1rem; font-size: 0.82rem; color: #495057;
+            min-height: 3rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;
+        }
+        #preview-strip .pv-item  { display: flex; align-items: center; gap: 0.25rem; }
+        #preview-strip .pv-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.07em; color: #adb5bd; font-weight: 700; }
+        #preview-strip .pv-value { color: #212529; font-weight: 500; }
+        #preview-strip .pv-sep   { color: #dee2e6; font-size: 0.9rem; }
+        #preview-strip.empty     { color: #adb5bd; font-style: italic; }
+        #btn-open-viewer         { min-width: 200px; }
+        .step-connector          { width: 1px; height: 16px; background: #dee2e6; margin-left: 0.78rem; }
+        #folio-jump              { max-width: 120px; font-size: 0.85rem; }
+    </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Navigator for e-texts comparator</h2>
+                    </div>
+                    <div class="card-body">
+
+                        <p class="text-muted mb-4" style="font-size:0.9rem;">
+                            Browse canonical collections by volume and folio. Select a collection, then a volume,
+                            then a page — and open it directly in the image viewer.
+                        </p>
+
+                        <!-- Loading / error states -->
+                        <div id="init-loading" class="text-center py-3">
+                            <div class="spinner-border spinner-border-sm text-primary me-2"></div>
+                            <span class="text-muted small">Loading collections…</span>
+                        </div>
+                        <div id="init-error" class="alert alert-warning d-none"></div>
+
+                        <!-- Navigator (hidden until collections loaded) -->
+                        <div id="navigator" style="display:none">
+
+                            <!-- STEP 1 — Collection -->
+                            <div class="nav-step">
+                                <span class="nav-step-badge">1</span>
+                                <span class="nav-step-label">Collection</span>
+                            </div>
+                            <div class="mb-1">
+                                <select id="sel-collection" class="form-select nav-select" aria-label="Select collection">
+                                    <option value="">— Select a collection —</option>
+                                </select>
+                            </div>
+
+                            <div class="step-connector"></div>
+
+                            <!-- STEP 2 — Volume -->
+                            <div class="nav-step">
+                                <span class="nav-step-badge">2</span>
+                                <span class="nav-step-label">Volume</span>
+                            </div>
+                            <div class="mb-1">
+                                <select id="sel-volume" class="form-select nav-select" disabled aria-label="Select volume">
+                                    <option value="">— Select a volume —</option>
+                                </select>
+                            </div>
+                            <div id="vol-info" class="mb-1">&nbsp;</div>
+
+                            <div class="step-connector"></div>
+
+                            <!-- STEP 3 — Page -->
+                            <div class="nav-step">
+                                <span class="nav-step-badge">3</span>
+                                <span class="nav-step-label">Page / Folio</span>
+                            </div>
+                            <div class="row g-2 align-items-center mb-3">
+                                <div class="col-sm-8 col-md-6">
+                                    <select id="sel-page" class="form-select nav-select" disabled aria-label="Select page">
+                                        <option value="">— Select a page —</option>
+                                    </select>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-text" title="Jump to folio (e.g. 12b)">
+                                            <i class="bi bi-search"></i>
+                                        </span>
+                                        <input type="text" id="folio-jump" class="form-control"
+                                               placeholder="Jump to folio…"
+                                               title="Type a folio label (e.g. 12b) and press Enter"
+                                               disabled>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Preview strip -->
+                            <div id="preview-strip" class="mb-3 empty">
+                                <span id="preview-empty-msg">Complete the selection above to preview the target.</span>
+                                <span id="preview-content" style="display:none; width:100%;">
+                                    <span class="pv-item">
+                                        <span class="pv-label">Coll</span>
+                                        <span class="pv-value" id="pv-coll">—</span>
+                                    </span>
+                                    <span class="pv-sep">·</span>
+                                    <span class="pv-item">
+                                        <span class="pv-label">Set</span>
+                                        <span class="pv-value" id="pv-title">—</span>
+                                    </span>
+                                    <span class="pv-sep">·</span>
+                                    <span class="pv-item">
+                                        <span class="pv-label">Vol</span>
+                                        <span class="pv-value" id="pv-vol">—</span>
+                                    </span>
+                                    <span class="pv-sep">·</span>
+                                    <span class="pv-item">
+                                        <span class="pv-label">Folio</span>
+                                        <span class="pv-value" id="pv-page">—</span>
+                                    </span>
+                                    <span class="pv-sep ms-2">·</span>
+                                    <span class="pv-item ms-1">
+                                        <span class="pv-label">Section</span>
+                                        <span class="pv-value" id="pv-section">—</span>
+                                    </span>
+                                </span>
+                            </div>
+
+                            <!-- Open button -->
+                            <div class="d-flex align-items-center gap-3 flex-wrap">
+                                <button id="btn-open-viewer" class="btn btn-primary" disabled>
+                                    <i class="bi bi-images me-1"></i> Open in Image Viewer
+                                </button>
+                                <span id="error-msg" class="text-danger small" style="display:none;"></span>
+                                <span id="loading-msg" class="pages-loading" style="display:none;">
+                                    <span class="spinner-border spinner-border-sm me-1"></span>Loading pages…
+                                </span>
+                            </div>
+
+                            <hr class="my-4">
+                            <p class="text-center mt-2">
+                                <a href="etexts.html" class="btn btn-outline-secondary btn-sm">
+                                    <i class="bi bi-arrow-left me-1"></i>Back to E-texts Lab
+                                </a>
+                            </p>
+
+                        </div><!-- /navigator -->
+
+                    </div><!-- /card-body -->
+                </div><!-- /card -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">
+                &copy; <script>document.write(new Date().getFullYear())</script>
+                Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+                <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+                <a href="about.html#access">Accessibility</a>.
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    (function () {
+        'use strict';
+
+        /* ── Paths ────────────────────────────────────────────────────────── */
+        const COLLS_URL = '../data/general/collections.json';
+        const COLL_BASE = '../data/collections'; // /{sigla}/{conTitle}/{volref}.json
+
+        /* ── DOM refs ─────────────────────────────────────────────────────── */
+        const selCollection  = document.getElementById('sel-collection');
+        const selVolume      = document.getElementById('sel-volume');
+        const selPage        = document.getElementById('sel-page');
+        const folioJump      = document.getElementById('folio-jump');
+        const btnOpen        = document.getElementById('btn-open-viewer');
+        const volInfo        = document.getElementById('vol-info');
+        const loadingMsg     = document.getElementById('loading-msg');
+        const errorMsg       = document.getElementById('error-msg');
+        const previewStrip   = document.getElementById('preview-strip');
+        const previewEmpty   = document.getElementById('preview-empty-msg');
+        const previewContent = document.getElementById('preview-content');
+
+        /* ── State ────────────────────────────────────────────────────────── */
+        let NAV_COLLECTIONS = [];
+        let currentColl    = null;
+        let currentVol     = null;
+        let currentPages   = null;
+        let currentPageKey = null;
+
+        /* ── Helpers ──────────────────────────────────────────────────────── */
+        function esc(s) {
+            return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+        function showError(msg) {
+            errorMsg.textContent = msg;
+            errorMsg.style.display = msg ? 'inline' : 'none';
+        }
+        function setLoading(on) {
+            loadingMsg.style.display = on ? 'inline-flex' : 'none';
+        }
+        function setPreviewField(id, val) {
+            document.getElementById(id).textContent = val || '—';
+        }
+        function showPreview(on) {
+            if (on) {
+                previewStrip.classList.remove('empty');
+                previewEmpty.style.display   = 'none';
+                previewContent.style.display = 'block';
+            } else {
+                previewStrip.classList.add('empty');
+                previewEmpty.style.display   = 'inline';
+                previewContent.style.display = 'none';
+            }
+        }
+        function resetFrom(step) {
+            if (step === 'volume') {
+                selVolume.innerHTML = '<option value="">— Select a volume —</option>';
+                selVolume.disabled  = true;
+                currentVol          = null;
+                volInfo.innerHTML   = '&nbsp;';
+            }
+            selPage.innerHTML  = '<option value="">— Select a page —</option>';
+            selPage.disabled   = true;
+            folioJump.disabled = true;
+            currentPages       = null;
+            currentPageKey     = null;
+            showPreview(false);
+            btnOpen.disabled = true;
+            setLoading(false);
+            showError('');
+        }
+
+        /* ── Load & build NAV_COLLECTIONS ─────────────────────────────────── */
+        fetch(COLLS_URL)
+            .then(r => r.ok ? r.json() : Promise.reject('HTTP ' + r.status))
+            .catch(() => Promise.reject('Could not load collections data.'))
+            .then(collections => {
+                // Mirror PHP: keep entries with a reference constituent + text available
+                const raw = [];
+                for (const entry of collections) {
+                    let refConstituent = null;
+                    for (const con of (entry.constituents || [])) {
+                        if (con.isreferenceset === '1') { refConstituent = con; break; }
+                    }
+                    if (!refConstituent) continue;
+                    if ((entry.notes?.text_Text_Available ?? entry.notes?.['text_Text Available'] ?? '') !== 'true') continue;
+
+                    raw.push({
+                        sigla:    entry.sigla  || '',
+                        title:    entry.title  || '',
+                        genre:    entry.genre  || '',
+                        conTitle: refConstituent.title     || '',
+                        volumes:  refConstituent.structure || [],
+                    });
+                }
+
+                // Sort: sigla alphabetically; Kanjur before Tanjur within same sigla
+                const genreOrder = { 'Kanjur': 0, 'Tanjur': 1 };
+                raw.sort((a, b) => {
+                    const sc = a.sigla.localeCompare(b.sigla);
+                    if (sc !== 0) return sc;
+                    return (genreOrder[a.genre] ?? 2) - (genreOrder[b.genre] ?? 2);
+                });
+
+                NAV_COLLECTIONS = raw;
+
+                // Detect dual siglas (both Kanjur + Tanjur)
+                const siglaCounts = {};
+                for (const c of raw) siglaCounts[c.sigla] = (siglaCounts[c.sigla] || 0) + 1;
+
+                // Populate collection select
+                const frag = document.createDocumentFragment();
+                const placeholder = document.createElement('option');
+                placeholder.value = '';
+                placeholder.textContent = '— Select a collection —';
+                frag.appendChild(placeholder);
+
+                let lastSigla = null;
+                raw.forEach((c, idx) => {
+                    if (lastSigla !== null && lastSigla !== c.sigla) {
+                        const sep = document.createElement('option');
+                        sep.disabled = true;
+                        sep.textContent = '──────────────────────';
+                        frag.appendChild(sep);
+                    }
+                    lastSigla = c.sigla;
+
+                    const isDual = (siglaCounts[c.sigla] || 0) > 1;
+                    const genreLabel = isDual ? ` [${c.genre}]` : '';
+                    const opt = document.createElement('option');
+                    opt.value = idx;
+                    opt.textContent = `${c.sigla} – ${c.title}${genreLabel}`;
+                    frag.appendChild(opt);
+                });
+
+                selCollection.innerHTML = '';
+                selCollection.appendChild(frag);
+
+                document.getElementById('init-loading').style.display = 'none';
+                document.getElementById('navigator').style.display = '';
+            })
+            .catch(err => {
+                document.getElementById('init-loading').style.display = 'none';
+                const errEl = document.getElementById('init-error');
+                errEl.textContent = typeof err === 'string' ? err : 'Failed to load collections.';
+                errEl.classList.remove('d-none');
+            });
+
+        /* ── STEP 1: Collection selected ─────────────────────────────────── */
+        selCollection.addEventListener('change', function () {
+            resetFrom('volume');
+            const idx = parseInt(this.value, 10);
+            if (isNaN(idx) || idx < 0 || idx >= NAV_COLLECTIONS.length) {
+                currentColl = null;
+                return;
+            }
+            currentColl = NAV_COLLECTIONS[idx];
+
+            const vols = currentColl.volumes;
+            const frag = document.createDocumentFragment();
+            const ph   = document.createElement('option');
+            ph.value = ''; ph.textContent = '— Select a volume —';
+            frag.appendChild(ph);
+            vols.forEach((v, i) => {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.textContent = 'Vol. ' + v.volno + ' – ' + (v.volname || '');
+                frag.appendChild(opt);
+            });
+            selVolume.innerHTML = '';
+            selVolume.appendChild(frag);
+            selVolume.disabled = false;
+        });
+
+        /* ── STEP 2: Volume selected ─────────────────────────────────────── */
+        selVolume.addEventListener('change', function () {
+            resetFrom('page');
+            if (!currentColl || this.value === '') return;
+
+            const vidx = parseInt(this.value, 10);
+            currentVol = currentColl.volumes[vidx];
+            if (!currentVol) return;
+
+            volInfo.innerHTML = `<span class="text-muted">Volref: <code>${esc(currentVol.volref)}</code></span>`;
+
+            const url = COLL_BASE
+                + '/' + encodeURIComponent(currentColl.sigla)
+                + '/' + encodeURIComponent(currentColl.conTitle)
+                + '/' + encodeURIComponent(currentVol.volref) + '.json';
+
+            setLoading(true);
+            showError('');
+
+            fetch(url)
+                .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status + ' – ' + url); return r.json(); })
+                .then(data => {
+                    setLoading(false);
+                    currentPages = data;
+                    populatePageSelect(data);
+                })
+                .catch(err => {
+                    setLoading(false);
+                    showError('Could not load page data: ' + err.message);
+                });
+        });
+
+        /* ── Populate page select ────────────────────────────────────────── */
+        function populatePageSelect(data) {
+            const keys = Object.keys(data).map(Number).sort((a,b) => a-b);
+            if (!keys.length) { showError('No pages found for this volume.'); return; }
+
+            // Group by psection for optgroup display
+            const groups = [], groupMap = {};
+            keys.forEach(k => {
+                const rec = data[k];
+                const sec = rec.psection || '';
+                const pag = rec.pagination || String(k);
+                if (!groupMap[sec]) {
+                    groupMap[sec] = { section: sec, options: [] };
+                    groups.push(groupMap[sec]);
+                }
+                groupMap[sec].options.push({ key: k, pag, sec });
+            });
+
+            const frag = document.createDocumentFragment();
+            const ph   = document.createElement('option');
+            ph.value = ''; ph.textContent = '— Select a page —';
+            frag.appendChild(ph);
+
+            groups.forEach(g => {
+                const grp = document.createElement('optgroup');
+                grp.label = g.section || '(no section)';
+                g.options.forEach(o => {
+                    const opt = document.createElement('option');
+                    opt.value = o.key;
+                    opt.textContent = o.pag + (o.sec ? '  [' + o.sec + ']' : '');
+                    grp.appendChild(opt);
+                });
+                frag.appendChild(grp);
+            });
+
+            selPage.innerHTML = '';
+            selPage.appendChild(frag);
+            selPage.disabled   = false;
+            folioJump.disabled = false;
+        }
+
+        /* ── STEP 3: Page selected ───────────────────────────────────────── */
+        selPage.addEventListener('change', function () {
+            btnOpen.disabled = true;
+            showPreview(false);
+            currentPageKey = null;
+            if (!this.value || !currentPages) return;
+            const k   = parseInt(this.value, 10);
+            const rec = currentPages[k];
+            if (!rec) return;
+            currentPageKey = k;
+            updatePreview(rec);
+        });
+
+        function updatePreview(rec) {
+            if (!currentColl || !currentVol || !rec) { showPreview(false); return; }
+            setPreviewField('pv-coll',    currentColl.sigla + ' – ' + currentColl.title);
+            setPreviewField('pv-title',   currentColl.conTitle);
+            setPreviewField('pv-vol',     'Vol. ' + currentVol.volno + ' (' + (currentVol.volname || '') + ')');
+            setPreviewField('pv-page',    rec.pagination);
+            setPreviewField('pv-section', rec.psection || '—');
+            showPreview(true);
+            btnOpen.disabled = false;
+        }
+
+        /* ── Folio jump ──────────────────────────────────────────────────── */
+        folioJump.addEventListener('keydown', function (e) {
+            if (e.key !== 'Enter') return;
+            e.preventDefault();
+            const query = this.value.trim().toLowerCase();
+            if (!query || !currentPages) return;
+            const keys = Object.keys(currentPages).map(Number).sort((a,b) => a-b);
+            let found = null;
+            for (const k of keys) {
+                const pag = (currentPages[k].pagination || '').toLowerCase();
+                if (pag === query || pag.startsWith(query)) { found = k; break; }
+            }
+            if (found === null) {
+                showError('Folio "' + esc(this.value.trim()) + '" not found in this volume.');
+                return;
+            }
+            showError('');
+            selPage.value = String(found);
+            selPage.dispatchEvent(new Event('change'));
+            // Scroll selected option into view
+            try {
+                for (let j = 0; j < selPage.options.length; j++) {
+                    if (parseInt(selPage.options[j].value, 10) === found) {
+                        selPage.selectedIndex = j; break;
+                    }
+                }
+            } catch (_) {}
+        });
+
+        /* ── Open Viewer button ──────────────────────────────────────────── */
+        btnOpen.addEventListener('click', function () {
+            if (!currentColl || !currentVol || currentPageKey === null || !currentPages) return;
+            const rec = currentPages[currentPageKey];
+            if (!rec) return;
+            const params = new URLSearchParams();
+            params.set('coll',  currentColl.sigla);
+            params.set('title', currentColl.conTitle);
+            params.set('vol',   currentVol.volref);
+            params.set('page',  rec.pagination);
+            if (rec.psection) params.set('sec', rec.psection);
+            window.open('imgcmp.html?' + params.toString(), '_blank');
+        });
+
+    })();
+    </script>
+</body>
+</html>

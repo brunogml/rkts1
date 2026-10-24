@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs – Register</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+</head>
+<body class="page-register">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="page-heading">
+            <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="80">
+            <span class="page-kicker">Create a user account</span>
+            <h1>Register</h1>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-9">
+
+                <!-- Alert box -->
+                <div id="statusBox" class="alert d-none mb-3" role="alert"></div>
+
+                <!-- Success panel (hidden until registration completes) -->
+                <div id="successPanel" class="d-none">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2><i class="bi bi-check-circle me-2 text-success"></i>Registration submitted</h2>
+                        </div>
+                        <div class="card-body">
+                            <p>Your account has been created.</p>
+                            <a href="index.html" class="btn btn-primary btn-sm"><i class="bi bi-house me-1"></i>Back to Home</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Registration form -->
+                <div id="formPanel">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2><i class="bi bi-person-plus me-2"></i>Account details</h2>
+                        </div>
+                        <div class="card-body">
+                            <form id="regForm" autocomplete="off" novalidate>
+
+                                <div class="mb-3">
+                                    <label for="username" class="form-label">Username <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control form-control-sm" id="username"
+                                           required pattern="[A-Za-z0-9_\-]+"
+                                           placeholder="e.g. jsmith">
+                                    <div class="form-text">Letters, digits, hyphens and underscores only. Must be unique.</div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-6 mb-3">
+                                        <label for="password" class="form-label">Password <span class="text-danger">*</span></label>
+                                        <input type="password" class="form-control form-control-sm" id="password"
+                                               required minlength="6" placeholder="At least 6 characters">
+                                    </div>
+                                    <div class="col-sm-6 mb-3">
+                                        <label for="password2" class="form-label">Confirm password <span class="text-danger">*</span></label>
+                                        <input type="password" class="form-control form-control-sm" id="password2"
+                                               required placeholder="Repeat password">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control form-control-sm" id="email"
+                                           required placeholder="your@institution.edu">
+                                </div>
+
+                                <hr class="my-4">
+                                <h6 class="text-muted text-uppercase mb-3" style="font-size:.75rem;letter-spacing:.06em;">
+                                    <i class="bi bi-mortarboard me-1"></i>Scholar profile
+                                </h6>
+
+                                <div class="mb-3">
+                                    <label for="description" class="form-label">Short description <span class="text-danger">*</span></label>
+                                    <textarea class="form-control form-control-sm" id="description" rows="2"
+                                              required placeholder="e.g. PhD candidate specialising in Mongolian translations of the Kanjur"></textarea>
+                                    <div class="form-text">A sentence or two about your background.</div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="interests" class="form-label">Research interests / field <span class="text-danger">*</span></label>
+                                    <textarea class="form-control form-control-sm" id="interests" rows="2"
+                                              required placeholder="e.g. Mongolian canonical literature, Tibetan philology, manuscript studies"></textarea>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label for="affiliation" class="form-label">Affiliation <span class="text-muted">(optional)</span></label>
+                                    <input type="text" class="form-control form-control-sm" id="affiliation"
+                                           placeholder="e.g. University of Vienna – Department of South Asian, Tibetan and Buddhist Studies">
+                                </div>
+
+                                <div class="d-flex align-items-center gap-3">
+                                    <button type="submit" class="btn btn-primary btn-sm" id="submitBtn">
+                                        <i class="bi bi-person-check me-1"></i>Register
+                                    </button>
+                                    <span class="text-muted small">Already have an account? <a href="login.html">Sign in</a></span>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- /formPanel -->
+
+            </div>
+        </div><!-- /row -->
+    </div><!-- /container -->
+
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script>
+            Resources for Kanjur and Tanjur Studies (rKTs). Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+            <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    // ── Helpers ──────────────────────────────────────────────────────────────
+
+    function setStatus(msg, type) {
+        // type: 'danger' | 'success' | ''
+        const el = document.getElementById('statusBox');
+        if (!msg) { el.className = 'alert d-none'; return; }
+        el.className = 'alert alert-' + type;
+        el.innerHTML = msg;
+        el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function parseLoginTxt(text) {
+        return text.split('\n')
+            .map(l => l.trim()).filter(l => l.length > 0)
+            .map(l => {
+                const parts = l.split(';');
+                const u = s => s ? s.replace(/^"|"$/g, '') : '';
+                return { user: u(parts[0]||''), pass: u(parts[1]||''), email: u(parts[2]||''), level: parseInt(parts[3]||'0', 10) };
+            });
+    }
+
+    function serializeLoginTxt(records) {
+        return records.map(r => `"${r.user}";"${r.pass}";"${r.email}";${r.level}`).join('\n') + '\n';
+    }
+
+    function parseUsersXml(text) {
+        const doc = new DOMParser().parseFromString(text.trim(), 'application/xml');
+        if (doc.querySelector('parsererror')) throw new Error('Could not parse users.xml');
+        return doc;
+    }
+
+    function addUserToXml(doc, { username, description, interests, affiliation }) {
+        const root = doc.querySelector('users') || doc.documentElement;
+        const u = doc.createElement('user');
+        u.setAttribute('name', username);
+        const d = doc.createElement('description'); d.textContent = description; u.appendChild(d);
+        const i = doc.createElement('interests');   i.textContent = interests;   u.appendChild(i);
+        if (affiliation) { const a = doc.createElement('affiliation'); a.textContent = affiliation; u.appendChild(a); }
+        root.appendChild(u);
+        return doc;
+    }
+
+    const DATA_PATH   = '../data/general/';
+    const SAVE_SCRIPT = 'register_save.php';
+
+    async function readFile(path) {
+        const res = await fetch(path);
+        if (res.status === 404) return null;
+        if (!res.ok) throw new Error(`Cannot read ${path} (HTTP ${res.status})`);
+        return res.text();
+    }
+
+    async function writeFile(path, content) {
+        const res = await fetch(SAVE_SCRIPT, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ path, content })
+        });
+        if (!res.ok) throw new Error(`Cannot write ${path} (HTTP ${res.status})`);
+        const json = await res.json().catch(() => null);
+        if (json && json.error) throw new Error(json.error);
+    }
+
+    // ── Form submission ───────────────────────────────────────────────────────
+
+    document.getElementById('regForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        setStatus('', '');
+
+        const username    = document.getElementById('username').value.trim();
+        const password    = document.getElementById('password').value;
+        const password2   = document.getElementById('password2').value;
+        const email       = document.getElementById('email').value.trim();
+        const description = document.getElementById('description').value.trim();
+        const interests   = document.getElementById('interests').value.trim();
+        const affiliation = document.getElementById('affiliation').value.trim();
+
+        // Basic client-side checks
+        if (!/^[A-Za-z0-9_\-]+$/.test(username)) {
+            setStatus('Username may only contain letters, digits, hyphens and underscores.', 'danger'); return;
+        }
+        if (password.length < 6) {
+            setStatus('Password must be at least 6 characters.', 'danger'); return;
+        }
+        if (password !== password2) {
+            setStatus('Passwords do not match.', 'danger'); return;
+        }
+
+        const btn = document.getElementById('submitBtn');
+        btn.disabled = true;
+        btn.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span>Registering…';
+
+        try {
+            // 1. Read & check login.txt
+            const loginRaw = await readFile(DATA_PATH + 'login.txt');
+            let records = loginRaw ? parseLoginTxt(loginRaw) : [];
+            if (records.some(r => r.user.toLowerCase() === username.toLowerCase())) {
+                setStatus('That username is already taken. Please choose another.', 'danger');
+                btn.disabled = false;
+                btn.innerHTML = '<i class="bi bi-person-check me-1"></i>Register';
+                return;
+            }
+
+            // 2. Append to login.txt
+            records.push({ user: username, pass: password, email, level: 2 });
+            await writeFile(DATA_PATH + 'login.txt', serializeLoginTxt(records));
+
+            // 3. Read / create users.xml
+            const xmlRaw = await readFile(DATA_PATH + 'users.xml');
+            let doc = xmlRaw
+                ? parseUsersXml(xmlRaw)
+                : new DOMParser().parseFromString('<users/>', 'application/xml');
+            addUserToXml(doc, { username, description, interests, affiliation });
+            await writeFile(DATA_PATH + 'users.xml', new XMLSerializer().serializeToString(doc));
+
+            // 4. Show success
+            document.getElementById('formPanel').classList.add('d-none');
+            document.getElementById('successPanel').classList.remove('d-none');
+
+        } catch (err) {
+            console.error(err);
+            setStatus('<i class="bi bi-exclamation-triangle me-1"></i>Registration failed: ' + err.message, 'danger');
+            btn.disabled = false;
+            btn.innerHTML = '<i class="bi bi-person-check me-1"></i>Register';
+        }
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rKTs - Resources for Kanjur and Tanjur Studies - Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="../configuration/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../configuration/favicon-32x32.png">
+    <style>
+        @media (min-width: 992px) {
+            .nav-item.dropdown:hover .dropdown-menu { display: block; margin-top: 0; }
+        }
+ .button2 {
+  background-color: #08088a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+   </style>
+</head>
+<body class="page-collections">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: var(--light-gray)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="../configuration/rkts-logo.png" alt="rKTs logo" height="60">
+            </a>
+            <span style="color:#1d447a;font-weight:bold;">Resources for Kanjur and Tanjur Studies</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="etexts.html">E-text Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="zotero.html">Bibliography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="about.html#about">About</a></li>
+                            <li><a class="dropdown-item" href="about.html#news">News</a></li>
+                            <li><a class="dropdown-item" href="about.html#howto">How to</a></li>
+                            <li><a class="dropdown-item" href="about.html#copyright">Copyright</a></li>
+                            <li><a class="dropdown-item" href="about.html#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>rKTs E-text Repository</h2>
+                    </div>
+                                        <div class="card-body">
+                        <!-- Filter bar -->
+                        <div class="d-flex align-items-center flex-wrap gap-2 mb-2">
+                            <span class="text-muted small me-1" style="min-width:4.5rem">Quality:</span>
+                            <button class="btn btn-sm btn-primary filter-btn active" data-filter-type="quality" data-filter="all">All</button>
+                            <button class="btn btn-sm btn-outline-success filter-btn" data-filter-type="quality" data-filter="Selective">
+                                <span class="badge bg-success me-1">S</span>Selective
+                            </button>
+                            <button class="btn btn-sm btn-outline-danger filter-btn" data-filter-type="quality" data-filter="Expert">
+                                <span class="badge bg-danger me-1">E</span>Expert
+                            </button>
+                            <span class="ms-2 border-start ps-3">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#quality-info-modal" class="text-decoration-none text-muted small">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16" style="vertical-align:-2px">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                    </svg>
+                                    What do these labels mean?
+                                </a>
+                            </span>
+                        </div>
+                        <div class="d-flex align-items-center flex-wrap gap-2 mb-4">
+                            <span class="text-muted small me-1" style="min-width:4.5rem">Category:</span>
+                            <button class="btn btn-sm btn-primary cat-btn active" data-filter-type="category" data-filter="all">All</button>
+                            <button class="btn btn-sm btn-outline-secondary cat-btn" data-filter-type="category" data-filter="kanjur">Kanjur</button>
+                            <button class="btn btn-sm btn-outline-secondary cat-btn" data-filter-type="category" data-filter="canonical-collection">Canonical Collections</button>
+                            <button class="btn btn-sm btn-outline-secondary cat-btn" data-filter-type="category" data-filter="tanjur">Tanjur</button>
+                            <button class="btn btn-sm btn-outline-secondary cat-btn" data-filter-type="category" data-filter="old-tantra">Old Tantra</button>
+                            <button class="btn btn-sm btn-outline-secondary cat-btn" data-filter-type="category" data-filter="bon-canon">Bon Canon</button>
+                        </div>
+
+                        <div class="row g-3 mb-4" id="repo-cards">
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>C Cone Kanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Selective" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>D Derge Kanjur</span>
+                                        <span class="badge bg-success">Selective</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts based on the Esukhia input. Curated and editorially reviewed.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Selective" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>F Phugbrag Kanjur</span>
+                                        <span class="badge bg-success">Selective</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>H Lhasa Kanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts based on the ACIP/ALL input. Curated and editorially reviewed.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>He Hemis I Kanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col-md-4 repo-card" data-quality="Expert" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>J Lithang Kanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">e-texts based on the Adarsha  Input. Curated and editorially reviewed.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>L London Kanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>N Narthang Kanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Q Peking Kanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Selective" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>S Stog Kanjur</span>
+                                        <span class="badge bg-success">Selective</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Ts Tsarang Kanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Ty Tashiyangtse Kanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="kanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>V Ulaanbaatar Kanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+ 
+                           <div class="col-md-4 repo-card" data-quality="Expert" data-category="canonical-collection">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Ba Basgo Fragments</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col-md-4 repo-card" data-quality="Expert" data-category="canonical-collection">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Dm Dragmar Collection</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col-md-4 repo-card" data-quality="Expert" data-category="canonical-collection">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Go Gondhla Collection</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="col-md-4 repo-card" data-quality="Expert" data-category="canonical-collection">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Ng Namgyal Collection</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <div class="col-md-4 repo-card" data-quality="Selective" data-category="tanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>D Derge Tanjur</span>
+                                        <span class="badge bg-success">Selective</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="tanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>G Golden Tanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="tanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>N Narthang Tanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">	e-texts based on the ALL  Input. Curated and editorially reviewed</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="tanjur">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Q Peking Tanjur</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="old-tantra">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Gaz Anzom Chögar Nyingyü Chudün</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="old-tantra">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Gbr Vairocana Nyingyü</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="old-tantra">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Gdg Derge Nyingyü</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="old-tantra">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Gkh Kham Nyingyüs</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="old-tantra">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Gkk Khakong Nyingyü</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="old-tantra">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Glt Langthang Nyingyü Chudün</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Selective" data-category="old-tantra">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Gpb Paltsek Nyingyü</span>
+                                        <span class="badge bg-success">Selective</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="old-tantra">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Gtb Tsamdrak Nyingyü</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 repo-card" data-quality="Expert" data-category="old-tantra">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Gtn Rigkdzin Tsewang Norbu Nyingyü</span>
+                                        <span class="badge bg-danger">Expert</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-md-4 repo-card" data-quality="Selective" data-category="bon-canon">
+                                <div class="card h-100 text-center shadow-sm">
+                                    <div class="card-header fw-semibold d-flex justify-content-between align-items-center">
+                                        <span>Bkz Bon Katen</span>
+                                        <span class="badge bg-success">Selective</span>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <p class="card-text small text-muted">E-texts produced with BDRC's OCR application. Raw output; critical evaluation recommended.</p>
+                                        <a href="###" class="btn btn-outline-primary btn-sm mt-2">Open</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+ 
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Quality Info Modal -->
+    <div class="modal fade" id="quality-info-modal" tabindex="-1" aria-labelledby="quality-info-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="quality-info-label">E-text Quality Labels</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <h6 class="d-flex align-items-center gap-2 mb-2">
+                        <span class="badge bg-success">Selective</span>
+                        Selective Search <span class="text-muted fw-normal">(Recommended for Targeted Queries)</span>
+                    </h6>
+                    <p class="mb-2">This option allows you to search within a curated selection of e-texts from key canonical collections. These were chosen for their textual quality and their significance in representing distinct transmission traditions.</p>
+                    <ul>
+                        <li>For general searches, we recommend the <strong>Derge Kanjur</strong>, a well-maintained e-text representing the Tshal pa tradition.</li>
+                        <li>To explore the Them spangs ma transmission, use the <strong>Stog Kanjur</strong>. Please note that this version is OCR-based and may contain textual errors.</li>
+                        <li>For early canonical materials, consult the <strong>Namgyal collection</strong>, which predates the formal Kanjur compilations.</li>
+                        <li>The <strong>Phugbrag Kanjur</strong> reflects both early and later layers of transmission.</li>
+                        <li>E-texts for the <strong>Derge Tanjur</strong> are based on manual transcription and are generally reliable.</li>
+                        <li>Both <strong>Old Tantra</strong> and <strong>Bon Canon</strong> are OCR-based.</li>
+                    </ul>
+                    <p class="text-muted small">For best results, use short and distinctive phrases in your search.</p>
+
+                    <hr>
+
+                    <h6 class="d-flex align-items-center gap-2 mb-2 mt-3">
+                        <span class="badge bg-danger">Expert</span>
+                        Expert Search <span class="text-muted fw-normal">(Full Corpus Access)</span>
+                    </h6>
+                    <p class="mb-2">This mode provides access to all available e-texts across various canonical collections.</p>
+                    <p class="mb-1">Please note that the quality of texts varies:</p>
+                    <ul>
+                        <li><strong>Input</strong>: Manually entered and reviewed texts (highest quality)</li>
+                        <li><strong>OCR+</strong>: Machine-generated texts with multiple proofreading steps</li>
+                        <li><strong>OCR</strong>: Raw OCR output without further verification</li>
+                    </ul>
+                    <p class="mb-1">A search yielding no results in one collection does not necessarily mean the phrase is absent from the actual source.</p>
+                    <p class="text-muted small">Use short and distinctive phrases to improve search accuracy, and consider checking better-curated e-texts via the Selective Search option.</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">&copy; <script>document.write(new Date().getFullYear())</script> Resources for Kanjur and Tanjur Studies (rKTs). Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>. <a href="about.html#access">Accessibility</a>.</span>
+        </div>
+    </footer>
+    
+    <script src="../vendor/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('.repo-card').forEach(function(card) {
+            var category = card.getAttribute('data-category');
+            var headerSpan = card.querySelector('.card-header span:first-child');
+            var sigla = headerSpan ? headerSpan.textContent.trim().split(/\s+/)[0] : '';
+            var link = card.querySelector('a.btn');
+            if (link && link.getAttribute('href') === '###') {
+                link.href = 'etexts_repository2.html?sigla=' + encodeURIComponent(sigla)
+                          + '&category=' + encodeURIComponent(category);
+            }
+        });
+    </script>
+    <script>
+        var activeQuality = 'all';
+        var activeCategory = 'all';
+
+        function applyFilters() {
+            document.querySelectorAll('.repo-card').forEach(function(card) {
+                var qMatch = (activeQuality === 'all' || card.getAttribute('data-quality') === activeQuality);
+                var cMatch = (activeCategory === 'all' || card.getAttribute('data-category') === activeCategory);
+                card.style.display = (qMatch && cMatch) ? '' : 'none';
+            });
+        }
+
+        // Quality filter buttons
+        document.querySelectorAll('.filter-btn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                activeQuality = this.getAttribute('data-filter');
+                document.querySelectorAll('.filter-btn').forEach(function(b) {
+                    var f = b.getAttribute('data-filter');
+                    b.classList.remove('active', 'btn-primary', 'btn-success', 'btn-danger',
+                                       'btn-outline-success', 'btn-outline-danger', 'btn-outline-secondary');
+                    b.classList.add(f === 'Selective' ? 'btn-outline-success'
+                                  : f === 'Expert'   ? 'btn-outline-danger'
+                                  : 'btn-outline-secondary');
+                });
+                this.classList.remove('btn-outline-success', 'btn-outline-danger', 'btn-outline-secondary');
+                this.classList.add('active',
+                    activeQuality === 'Selective' ? 'btn-success'
+                  : activeQuality === 'Expert'   ? 'btn-danger'
+                  : 'btn-primary');
+                applyFilters();
+            });
+        });
+
+        // Category filter buttons
+        document.querySelectorAll('.cat-btn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                activeCategory = this.getAttribute('data-filter');
+                document.querySelectorAll('.cat-btn').forEach(function(b) {
+                    b.classList.remove('active', 'btn-primary', 'btn-secondary', 'btn-outline-secondary');
+                    b.classList.add('btn-outline-secondary');
+                });
+                this.classList.remove('btn-outline-secondary');
+                this.classList.add('active', activeCategory === 'all' ? 'btn-primary' : 'btn-secondary');
+                applyFilters();
+            });
+        });
+    </script>
+</body>
+</html>
