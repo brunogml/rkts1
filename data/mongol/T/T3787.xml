@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog>
+  <item>
+    <coll>Mmt</coll>
+    <ref>Mmt4269</ref>
+    <rnb>3107</rnb>
+    <mng />
+    <tib />
+    <skt />
+    <coloph />
+    <colophTitle />
+    <margin />
+    <note />
+    <locations>
+      <location>
+        <setid>MWMmt</setid>
+        <vol>1Mmt104</vol>
+        <sec>1</sec>
+        <debp>2</debp>
+        <debf>b</debf>
+        <debl />
+        <finp>3</finp>
+        <finf>a</finf>
+        <finl />
+      </location>
+    </locations>
+    <translators />
+    <bampos />
+    <chapters />
+  </item>
+  <item>
+    <coll>Mmt</coll>
+    <ref>Mmt4967</ref>
+    <rnb>3805</rnb>
+    <mng />
+    <tib />
+    <skt />
+    <coloph />
+    <colophTitle />
+    <margin />
+    <note />
+    <locations>
+      <location>
+        <setid>MWMmt</setid>
+        <vol>1Mmt221</vol>
+        <sec>1</sec>
+        <debp>626</debp>
+        <debf>b</debf>
+        <debl />
+        <finp>627</finp>
+        <finf>b</finf>
+        <finl />
+      </location>
+    </locations>
+    <translators />
+    <bampos />
+    <chapters />
+  </item>
+</catalog>

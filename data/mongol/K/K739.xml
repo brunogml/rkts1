@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Mmk</coll>
+    <ref>Mmk1141</ref>
+    <rnb>1141</rnb>
+    <mng>vinai-yin degedü γoul</mng>
+    <tib></tib>
+    <skt></skt>
+    <coloph></coloph>
+    <colophTitle></colophTitle>
+    <margin></margin>
+    <note></note>
+    <translators/>
+    <bampos/>
+    <chapters/>
+    <locations>
+      <location>
+        <setid>MW4CZ5370</setid>
+        <vol>1PD110374</vol>
+        <sec>1</sec>
+        <debp>128</debp>
+        <debf>a</debf>
+        <debl></debl>
+        <finp>363</finp>
+        <finf>a</finf>
+        <finl></finl>
+      </location>
+      <location>
+        <setid>MW4CZ5370</setid>
+        <vol>1PD110375</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl></debl>
+        <finp>228</finp>
+        <finf>a</finf>
+        <finl></finl>
+      </location>
+      <location>
+        <setid>MW4CZ5370</setid>
+        <vol>1PD110376</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl></debl>
+        <finp>249</finp>
+        <finf>b</finf>
+        <finl></finl>
+      </location>
+    </locations>
+  </item>
+</catalog>

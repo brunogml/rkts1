@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog>
+  <item>
+    <coll>Mmt</coll>
+    <ref>Mmt4364</ref>
+    <rnb>3202</rnb>
+    <mng>yogaCari-yin bisilγal-un mör</mng>
+    <tib />
+    <skt />
+    <coloph />
+    <colophTitle />
+    <margin />
+    <note />
+    <locations>
+      <location>
+        <setid>MWMmt</setid>
+        <vol>1Mmt118</vol>
+        <sec>1</sec>
+        <debp>5</debp>
+        <debf>a</debf>
+        <debl />
+        <finp>8</finp>
+        <finf>b</finf>
+        <finl />
+      </location>
+    </locations>
+    <translators />
+    <bampos />
+    <chapters />
+  </item>
+  <item>
+    <coll>Mmt</coll>
+    <ref>Mmt4511</ref>
+    <rnb>3349</rnb>
+    <mng>yogaCari-yin bisilγal-un mör</mng>
+    <tib />
+    <skt />
+    <coloph />
+    <colophTitle />
+    <margin />
+    <note />
+    <locations>
+      <location>
+        <setid>MWMmt</setid>
+        <vol>1Mmt121</vol>
+        <sec>1</sec>
+        <debp>241</debp>
+        <debf>b</debf>
+        <debl />
+        <finp>245</finp>
+        <finf>a</finf>
+        <finl />
+      </location>
+    </locations>
+    <translators />
+    <bampos />
+    <chapters />
+  </item>
+</catalog>

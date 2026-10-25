@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog>
+  <item>
+    <coll>Mmt</coll>
+    <ref>Mmt2261</ref>
+    <rnb>1099</rnb>
+    <mng>yeke kölgen-ü qoritu</mng>
+    <tib />
+    <skt />
+    <coloph />
+    <colophTitle />
+    <margin />
+    <note />
+    <locations>
+      <location>
+        <setid>MWMmt</setid>
+        <vol>1Mmt048</vol>
+        <sec>1</sec>
+        <debp>200</debp>
+        <debf>b</debf>
+        <debl />
+        <finp>202</finp>
+        <finf>b</finf>
+        <finl />
+      </location>
+    </locations>
+    <translators />
+    <bampos />
+    <chapters />
+  </item>
+  <item>
+    <coll>Mmt</coll>
+    <ref>Mmt4292</ref>
+    <rnb>3130</rnb>
+    <mng>yeke kölgen-ü qoritu</mng>
+    <tib />
+    <skt />
+    <coloph />
+    <colophTitle />
+    <margin />
+    <note />
+    <locations>
+      <location>
+        <setid>MWMmt</setid>
+        <vol>1Mmt105</vol>
+        <sec>1</sec>
+        <debp>217</debp>
+        <debf>a</debf>
+        <debl />
+        <finp>218</finp>
+        <finf>a</finf>
+        <finl />
+      </location>
+    </locations>
+    <translators />
+    <bampos />
+    <chapters />
+  </item>
+</catalog>

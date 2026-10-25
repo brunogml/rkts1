@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog>
+  <item>
+    <coll>Mmt</coll>
+    <ref>Mmt2304</ref>
+    <rnb>1142</rnb>
+    <mng>včir-un daγulal</mng>
+    <tib />
+    <skt />
+    <coloph />
+    <colophTitle />
+    <margin />
+    <note />
+    <locations>
+      <location>
+        <setid>MWMmt</setid>
+        <vol>1Mmt049</vol>
+        <sec>1</sec>
+        <debp>252</debp>
+        <debf>a</debf>
+        <debl />
+        <finp>252</finp>
+        <finf>a</finf>
+        <finl />
+      </location>
+    </locations>
+    <translators />
+    <bampos />
+    <chapters />
+  </item>
+  <item>
+    <coll>Mmt</coll>
+    <ref>Mmt4110</ref>
+    <rnb>2948</rnb>
+    <mng>včir-un daγulal</mng>
+    <tib />
+    <skt />
+    <coloph />
+    <colophTitle />
+    <margin />
+    <note />
+    <locations>
+      <location>
+        <setid>MWMmt</setid>
+        <vol>1Mmt087</vol>
+        <sec>1</sec>
+        <debp>73</debp>
+        <debf>b</debf>
+        <debl />
+        <finp>73</finp>
+        <finf>b</finf>
+        <finl />
+      </location>
+    </locations>
+    <translators />
+    <bampos />
+    <chapters />
+  </item>
+</catalog>

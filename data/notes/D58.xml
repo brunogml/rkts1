@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<notes>
+  <note id="5d680054-8382-40f9-a729-18c370d449e6" created="2026-08-01T16:16:08+02:00" updated="2026-08-01T16:16:08+02:00">
+    <user>bruno</user>
+    <folio>237a</folio>
+    <line>6</line>
+    <selected>rkyen phun sum</selected>
+    <note_body><![CDATA[blablabla]]></note_body>
+  </note>
+  <note id="4416dc3e-d2ab-4d7b-8d23-f3e7e667c508" created="2026-08-01T16:20:46+02:00" updated="2026-08-01T16:20:46+02:00">
+    <user>bruno</user>
+    <folio>237a</folio>
+    <line>3</line>
+    <selected>tshe dang ldan pa dga' bo</selected>
+    <note_body><![CDATA[dfadsfasdf]]></note_body>
+    <comment id="40aa64de-7349-4f1c-ab0c-8b71395e7638" created="2026-08-02T09:52:42+02:00" updated="2026-08-02T09:52:42+02:00">
+      <user>bruno2</user>
+      <note_body><![CDATA[<font color="#cc0000"><b>blablabla </b></font>blablabla]]></note_body>
+    </comment>
+    <comment id="1b04bf4e-95e9-4268-90c5-386ae2e3ad38" created="2026-08-02T09:55:45+02:00" updated="2026-08-02T09:55:45+02:00">
+      <user>bruno</user>
+      <note_body><![CDATA[blabla2 <font color="#0047ab"><u>blabla2</u></font>]]></note_body>
+    </comment>
+  </note>
+  <note id="577ab19d-35f4-4934-8be9-c5f4d3bf77b7" created="2026-08-01T16:25:58+02:00" updated="2026-08-02T09:58:35+02:00">
+    <user>bruno</user>
+    <folio>241a</folio>
+    <line>2</line>
+    <selected>as ni zos shing 'thungs p</selected>
+    <note_body><![CDATA[agsdgfdg <a href="https://tmpv.univie.ac.at/archives/759">dfgsdfgsfdg</a>&nbsp;]]></note_body>
+  </note>
+  <note id="a78058b6-f024-4f89-b760-3678045c3a1e" created="2026-08-03T16:57:13+02:00" updated="2026-08-03T16:57:13+02:00">
+    <user>bruno</user>
+    <folio>238b</folio>
+    <line>3</line>
+    <selected>ba lang gi lci ba</selected>
+    <category>general</category>
+    <sigla/>
+    <note_body><![CDATA[blablabla]]></note_body>
+  </note>
+</notes>
