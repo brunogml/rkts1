@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pedurma Editor — rKTs Collection A</title>
+<style>
+  /* ── Tokens ─────────────────────────────────────────────────────── */
+  :root {
+    --ink:      #1c1917;
+    --ink2:     #44403c;
+    --muted:    #78716c;
+    --rule:     #d6d3d1;
+    --rule2:    #e7e5e4;
+    --bg:       #fafaf9;
+    --surface:  #ffffff;
+    --accent:   #b45309;   /* warm amber — manuscript ink */
+    --accent2:  #d97706;
+    --note-bg:  #fffbeb;
+    --note-rule:#fde68a;
+    --out-bg:   #f0fdf4;
+    --out-rule: #bbf7d0;
+    --circ:     #b45309;
+    --sep-bg:   #fef3c7;
+    --sep-text: #92400e;
+    --header-h: 52px;
+    --col-min:  280px;
+    --mono: 'JetBrains Mono', 'Fira Mono', 'Cascadia Code', 'Consolas', monospace;
+    --serif: 'Noto Serif', 'Georgia', serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(--ink); font-family: var(--serif); font-size: 14px; }
+
+  /* ── Header ─────────────────────────────────────────────────────── */
+  #header {
+    height: var(--header-h);
+    background: var(--ink);
+    color: #fafaf9;
+    display: flex; align-items: center; gap: 1rem;
+    padding: 0 1rem;
+    flex-shrink: 0;
+  }
+  #header h1 { font-size: .95rem; font-weight: 600; letter-spacing: .03em; white-space: nowrap; }
+  #header h1 span { color: var(--accent2); }
+  .hfield { display: flex; align-items: center; gap: .4rem; font-size: .75rem; color: #a8a29e; }
+  .hfield label { white-space: nowrap; }
+  .hfield input, .hfield select {
+    background: #292524; border: 1px solid #44403c; color: #e7e5e4;
+    border-radius: 3px; padding: 2px 6px; font-size: .75rem; width: 64px;
+  }
+  .hfield input:focus, .hfield select:focus { outline: none; border-color: var(--accent2); }
+  #hdr-right { margin-left: auto; display: flex; align-items: center; gap: .6rem; }
+  .hbtn {
+    background: #44403c; border: 1px solid #57534e; color: #e7e5e4;
+    border-radius: 3px; padding: 3px 10px; font-size: .75rem; cursor: pointer;
+    white-space: nowrap; transition: background .12s;
+  }
+  .hbtn:hover { background: #57534e; }
+  .hbtn.accent { background: var(--accent); border-color: var(--accent2); color: #fff; }
+  .hbtn.accent:hover { background: var(--accent2); }
+
+  /* ── Layout ─────────────────────────────────────────────────────── */
+  #workspace {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: calc(100vh - var(--header-h));
+    gap: 0;
+  }
+
+  .pane {
+    display: flex; flex-direction: column;
+    border-right: 1px solid var(--rule);
+    overflow: hidden;
+    min-width: var(--col-min);
+  }
+  .pane:last-child { border-right: none; }
+
+  .pane-header {
+    height: 36px; flex-shrink: 0;
+    background: var(--surface);
+    border-bottom: 1px solid var(--rule);
+    display: flex; align-items: center; gap: .5rem;
+    padding: 0 .8rem;
+  }
+  .pane-title {
+    font-size: .68rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .09em; color: var(--muted);
+  }
+  .pane-hint { font-size: .65rem; color: #a8a29e; margin-left: .3rem; }
+  .pane-actions { margin-left: auto; display: flex; gap: .35rem; }
+  .pbtn {
+    font-size: .68rem; padding: 1px 7px; border: 1px solid var(--rule);
+    border-radius: 2px; background: #fff; color: var(--ink2); cursor: pointer;
+    transition: background .1s;
+  }
+  .pbtn:hover { background: var(--bg); border-color: var(--muted); }
+
+  /* ── Text pane ──────────────────────────────────────────────────── */
+  #pane-text { background: var(--surface); }
+
+  #text-area-wrap {
+    flex: 1 1 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #text-area-backdrop {
+    position: absolute; inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  #text-area-highlights {
+    font-family: var(--mono); font-size: .85rem; line-height: 1.85;
+    padding: .9rem 1rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: transparent;
+  }
+
+  #text-area-highlights .ref-mark {
+    background: #fde68a;
+    border-radius: 2px;
+    color: transparent;
+  }
+
+  #text-area {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    resize: none; border: none; outline: none;
+    background: transparent;
+    font-family: var(--mono); font-size: .85rem; line-height: 1.85;
+    color: var(--ink);
+    padding: .9rem 1rem;
+    overflow-y: auto;
+    tab-size: 2;
+    caret-color: var(--ink);
+  }
+
+  /* Image viewer (below text area) */
+  #img-resize-handle {
+    height: 5px; flex-shrink: 0; cursor: row-resize;
+    background: var(--rule2); transition: background .12s;
+  }
+  #img-resize-handle:hover, #img-resize-handle.dragging { background: var(--muted); }
+
+  #img-strip {
+    flex-shrink: 0; height: 260px;
+    background: #111; display: flex; flex-direction: column; overflow: hidden;
+  }
+  #img-toolbar {
+    height: 32px; flex-shrink: 0;
+    background: #1c1917; border-top: 1px solid #292524;
+    display: flex; align-items: center; gap: .4rem; padding: 0 .6rem;
+  }
+  #img-url-input {
+    flex: 1 1 0; min-width: 0;
+    background: #292524; border: 1px solid #44403c; color: #e7e5e4;
+    border-radius: 3px; padding: 2px 7px; font-size: .7rem;
+    font-family: var(--mono);
+  }
+  #img-url-input:focus { outline: none; border-color: var(--accent2); }
+  #img-url-input::placeholder { color: #57534e; }
+  .img-btn {
+    background: #44403c; border: 1px solid #57534e; color: #e7e5e4;
+    border-radius: 3px; padding: 1px 8px; font-size: .72rem; cursor: pointer;
+    white-space: nowrap; transition: background .1s; flex-shrink: 0; line-height: 1.7;
+  }
+  .img-btn:hover:not(:disabled) { background: #57534e; }
+  .img-btn:disabled { opacity: .35; cursor: default; }
+  #img-counter { font-size: .65rem; color: #78716c; white-space: nowrap; flex-shrink: 0; font-family: var(--mono); }
+  #img-frame {
+    flex: 1 1 0; overflow: hidden; position: relative; background: #0c0a09;
+  }
+  #img-osd { width: 100%; height: 100%; }
+  #img-placeholder {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    font-size: .72rem; color: #44403c; text-align: center; padding: 1rem; line-height: 1.6;
+    pointer-events: none;
+  }
+  #img-error {
+    position: absolute; inset: 0; display: none; align-items: center; justify-content: center;
+    font-size: .72rem; color: #b45309; text-align: center; padding: 1rem;
+  }
+
+  /* Note image viewer (below notes area) */
+  #note-img-resize-handle {
+    height: 5px; flex-shrink: 0; cursor: row-resize;
+    background: var(--rule2); transition: background .12s;
+  }
+  #note-img-resize-handle:hover, #note-img-resize-handle.dragging { background: var(--muted); }
+  #note-img-strip {
+    flex-shrink: 0; height: 260px;
+    background: #111; display: flex; flex-direction: column; overflow: hidden;
+  }
+  #note-img-toolbar {
+    height: 32px; flex-shrink: 0;
+    background: #1c1917; border-top: 1px solid #292524;
+    display: flex; align-items: center; gap: .4rem; padding: 0 .6rem;
+  }
+  #note-img-label { font-size: .65rem; color: #a8a29e; white-space: nowrap; flex-shrink: 0; }
+  #note-img-url-input {
+    flex: 1 1 0; min-width: 0;
+    background: #292524; border: 1px solid #44403c; color: #e7e5e4;
+    border-radius: 3px; padding: 2px 7px; font-size: .7rem;
+    font-family: var(--mono);
+  }
+  #note-img-url-input:focus { outline: none; border-color: var(--accent2); }
+  #note-img-url-input::placeholder { color: #57534e; }
+  #note-img-frame {
+    flex: 1 1 0; overflow: hidden; position: relative; background: #0c0a09;
+  }
+  #note-img-osd { width: 100%; height: 100%; }
+  #note-img-placeholder {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    font-size: .72rem; color: #44403c; text-align: center; padding: 1rem; line-height: 1.6;
+    pointer-events: none;
+  }
+  #note-img-error {
+    position: absolute; inset: 0; display: none; align-items: center; justify-content: center;
+    font-size: .72rem; color: #b45309; text-align: center; padding: 1rem;
+  }
+
+  /* ── Notes pane ─────────────────────────────────────────────────── */
+  #pane-notes { background: var(--note-bg); }
+
+  #notes-area-wrap {
+    flex: 1 1 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #notes-area-backdrop {
+    position: absolute; inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  #notes-area-highlights {
+    font-family: var(--mono); font-size: .82rem; line-height: 1.85;
+    padding: .9rem 1rem .9rem 1rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: transparent;
+  }
+
+  #notes-area-highlights .note-num {
+    background: #fde68a;
+    border-radius: 2px;
+    color: #92400e;
+  }
+
+  #notes-area {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    resize: none; border: none; outline: none;
+    background: transparent;
+    font-family: var(--mono); font-size: .82rem; line-height: 1.85;
+    color: var(--ink2);
+    padding: .9rem 1rem .9rem 2.4rem;
+    overflow-y: auto;
+    caret-color: var(--ink2);
+  }
+
+  /* ── Output pane ─────────────────────────────────────────────────── */
+  #pane-out { background: var(--out-bg); }
+  #out-body {
+    flex: 1 1 0; overflow-y: auto;
+    padding: .9rem 1rem;
+    font-family: var(--mono); font-size: .8rem; line-height: 1.85;
+    color: var(--ink2);
+    white-space: pre-wrap; word-break: break-all;
+  }
+
+  .out-line    { color: var(--ink); }
+  .out-note    { color: #7c6f3a; }
+  .out-sep     { color: #a8a29e; font-style: italic; }
+  .out-circ    { color: var(--circ); font-weight: 700; }
+  .out-err     { color: #dc2626; font-size: .72rem; }
+
+  /* ── Separator input styling ─────────────────────────────────────── */
+  /* We use a contenteditable div with custom rendering, but textarea is simpler — 
+     separator lines starting with === are visually marked via out pane only */
+
+  /* ── Resize handle between panes ─────────────────────────────────── */
+  /* Using CSS grid with resize not native — keep fixed thirds for now */
+
+  /* ── Status bar ─────────────────────────────────────────────────── */
+  #statusbar {
+    display: none; /* hidden; errors shown inline */
+  }
+
+  /* ── Scrollbar ───────────────────────────────────────────────────── */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+  /* ── Ref badge in hint area ──────────────────────────────────────── */
+  .circ-sample {
+    display: inline-block; font-size: .78rem;
+    color: var(--circ); font-weight: 700; margin: 0 2px;
+  }
+
+  /* ── Copy feedback ───────────────────────────────────────────────── */
+  #copy-toast {
+    position: fixed; bottom: 1.5rem; right: 1.5rem;
+    background: var(--ink); color: #fafaf9;
+    padding: .5rem 1rem; border-radius: 4px; font-size: .78rem;
+    opacity: 0; pointer-events: none;
+    transition: opacity .2s;
+  }
+  #copy-toast.show { opacity: 1; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────────────── -->
+<div id="header">
+  <h1>Pedurma&nbsp;<span>Editor</span></h1>
+  <div class="hfield">
+    <label for="f-folio">Start folio</label>
+    <input id="f-folio" type="number" value="1" min="1">
+  </div>
+  <div class="hfield">
+    <label for="f-sec">Section</label>
+    <input id="f-sec" type="text" value="1" style="width:48px">
+  </div>
+  <div class="hfield">
+    <label>Folio break</label>
+    <code style="color:#e7e5e4;font-size:.72rem;background:#292524;padding:1px 6px;border-radius:2px;">===</code>
+  </div>
+  <div id="hdr-right">
+    <button class="hbtn" id="btn-clear" title="Clear all panes">Clear</button>
+    <button class="hbtn" id="btn-load-sample" title="Load sample text">Sample</button>
+    <button class="hbtn accent" id="btn-copy" title="Copy output to clipboard">Copy output</button>
+  </div>
+</div>
+
+<!-- ── Workspace ───────────────────────────────────────────────────── -->
+<div id="workspace">
+
+  <!-- Text pane -->
+  <div class="pane" id="pane-text">
+    <div class="pane-header">
+      <span class="pane-title">Text</span>
+      <span class="pane-hint">Use <code>{1}</code> <code>{2}</code>… or <code>#</code> for note refs &nbsp;·&nbsp; <code>===</code> alone on a line = folio break</span>
+    </div>
+    <div id="text-area-wrap">
+      <div id="text-area-backdrop"><div id="text-area-highlights"></div></div>
+      <textarea id="text-area" spellcheck="false" placeholder="Enter text lines here.
+Use {1}, {2}… to mark footnote references.
+Start a line with === to begin a new folio.
+@@// at the start of a line marks a page beginning."></textarea>
+    </div>
+
+    <!-- Image viewer -->
+    <div id="img-resize-handle"></div>
+    <div id="img-strip">
+      <div id="img-toolbar">
+        <button class="img-btn" id="img-btn-prev" title="Previous image" disabled>&#8592;</button>
+        <input id="img-url-input" type="text" spellcheck="false"
+               placeholder="Image URL e.g. http://www.rswb.org/rkts/A/I1PD96784/1PD967840021.jpg">
+        <button class="img-btn" id="img-btn-next" title="Next image" disabled>&#8594;</button>
+        <span id="img-counter"></span>
+      </div>
+      <div id="img-frame">
+        <div id="img-osd"></div>
+        <div id="img-placeholder">Enter an image URL above to view the manuscript page.</div>
+        <div id="img-error">&#9888; Image could not be loaded.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notes pane -->
+  <div class="pane" id="pane-notes">
+    <div class="pane-header">
+      <span class="pane-title">Notes</span>
+      <span class="pane-hint">One note per line · positional (line 1 = <span class="circ-sample">①</span>, line 2 = <span class="circ-sample">②</span>…) · <code>===</code> to match folio break</span>
+      <div class="pane-actions">
+        <button class="pbtn" id="btn-sync-sep" title="Insert === separators in notes to match text pane">Sync breaks</button>
+      </div>
+    </div>
+    <div id="notes-area-wrap">
+      <div id="notes-area-backdrop"><div id="notes-area-highlights"></div></div>
+      <textarea id="notes-area" spellcheck="false" placeholder="Enter notes here, one per line.
+No numbers needed — position determines ①②③…
+Use === on a line to separate note groups between folio breaks."></textarea>
+    </div>
+
+    <!-- Note image viewer -->
+    <div id="note-img-resize-handle"></div>
+    <div id="note-img-strip">
+      <div id="note-img-toolbar">
+        <span id="note-img-label">Note img</span>
+        <input id="note-img-url-input" type="text" spellcheck="false"
+               placeholder="Auto-filled from text image URL (+1)">
+        <button class="img-btn" id="note-img-btn-load" title="Load note image">Load</button>
+      </div>
+      <div id="note-img-frame">
+        <div id="note-img-osd"></div>
+        <div id="note-img-placeholder">Note image appears here automatically.</div>
+        <div id="note-img-error">&#9888; Image could not be loaded.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Output pane -->
+  <div class="pane" id="pane-out">
+    <div class="pane-header">
+      <span class="pane-title">Output</span>
+      <span class="pane-hint" id="out-stats"></span>
+      <div class="pane-actions">
+        <button class="pbtn" id="btn-copy2">Copy</button>
+      </div>
+    </div>
+    <div id="out-body"></div>
+  </div>
+
+</div>
+
+<div id="copy-toast">Copied to clipboard</div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ── Circled number map ───────────────────────────────────────────── */
+  const CIRC = ['①','②','③','④','⑤','⑥','⑦','⑧','⑨','⑩',
+                '⑪','⑫','⑬','⑭','⑮','⑯','⑰','⑱','⑲','⑳'];
+
+  function toCirc(n) {
+    const i = parseInt(n, 10) - 1;
+    return (i >= 0 && i < CIRC.length) ? CIRC[i] : '{' + n + '}';
+  }
+
+  // Replace {N} notation with circled numbers in a text string
+  function applyRefs(text) {
+    return text.replace(/\{(\d+)\}/g, (_, n) => toCirc(n));
+  }
+
+  /* ── DOM refs ─────────────────────────────────────────────────────── */
+  const textArea  = document.getElementById('text-area');
+  const notesArea = document.getElementById('notes-area');
+  const outBody   = document.getElementById('out-body');
+  const outStats  = document.getElementById('out-stats');
+  const folioIn   = document.getElementById('f-folio');
+  const secIn     = document.getElementById('f-sec');
+
+  /* ── Backdrop highlight for {N} markers in text-area ─────────────── */
+  const hlDiv = document.getElementById('text-area-highlights');
+  const backdrop = document.getElementById('text-area-backdrop');
+
+  function updateHighlights() {
+    const text = textArea.value;
+    const safe = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    hlDiv.innerHTML = safe.replace(
+      /\{(\d+)\}|#/g,
+      (m) => '<mark class="ref-mark">' + m + '</mark>'
+    );
+    backdrop.scrollTop = textArea.scrollTop;
+  }
+
+  textArea.addEventListener('input', updateHighlights);
+  textArea.addEventListener('scroll', () => { backdrop.scrollTop = textArea.scrollTop; });
+  updateHighlights();
+
+  /* ── Backdrop note numbers for notes-area ────────────────────────── */
+  const notesHlDiv   = document.getElementById('notes-area-highlights');
+  const notesBackdrop = document.getElementById('notes-area-backdrop');
+
+  function updateNoteNumbers() {
+    const lines = notesArea.value.split(/\r?\n/);
+    let noteNum = 1;
+    const parts = lines.map(line => {
+      const safe = line.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      if (/^===\s*$/.test(line.trim())) {
+        // folio separator — reset counter, render as-is (transparent)
+        noteNum = 1;
+        return safe;
+      }
+      if (line.trim() === '') {
+        // blank line — no number
+        return safe;
+      }
+      const label = '{' + noteNum++ + '}';
+      return '<span class="note-num">' + label + '</span>' + safe;
+    });
+    notesHlDiv.innerHTML = parts.join('\n');
+    notesBackdrop.scrollTop = notesArea.scrollTop;
+  }
+
+  notesArea.addEventListener('input', updateNoteNumbers);
+  notesArea.addEventListener('scroll', () => { notesBackdrop.scrollTop = notesArea.scrollTop; });
+  updateNoteNumbers();
+
+  /* ── Core compile ─────────────────────────────────────────────────── */
+  function compile() {
+    const rawText  = textArea.value;
+    const rawNotes = notesArea.value;
+    const startFolio = Math.max(1, parseInt(folioIn.value, 10) || 1);
+    const sec        = (secIn.value.trim() || '1');
+
+    // Split text into folio blocks by === separator
+    const textBlocks  = splitByFolioSep(rawText);
+    const notesBlocks = splitByFolioSep(rawNotes);
+
+    let outputLines = [];
+    let totalTextLines = 0;
+    let totalNoteLines = 0;
+    let errors = [];
+
+    textBlocks.forEach((block, bi) => {
+      const folio = startFolio + bi;
+      const textLines  = block.split(/\r?\n/);
+      const notesLines = (notesBlocks[bi] || '').split(/\r?\n/).filter(l => l.trim() !== '');
+
+      // Pre-pass: expand bare # markers to {N} with a running counter per folio,
+      // skipping numbers already claimed by explicit {N} refs in the same block
+      const explicitNums = new Set(
+        [...block.matchAll(/\{(\d+)\}/g)].map(m => parseInt(m[1], 10))
+      );
+      let autoNum = 1;
+      const nextAutoNum = () => {
+        while (explicitNums.has(autoNum)) autoNum++;
+        return autoNum++;
+      };
+      const expandedLines = textLines.map(line =>
+        line.replace(/#/g, () => '{' + nextAutoNum() + '}')
+      );
+
+      // Emit text lines (skip blank lines at start/end, but keep internal)
+      let lineNum = 1;
+      const usedRefs = new Set(); // track which {N} refs appear in this folio
+
+      // Trim leading/trailing blank lines from the block
+      const trimmed = trimLines(expandedLines);
+
+      trimmed.forEach(raw => {
+        if (raw.trim() === '') {
+          // blank line within folio — skip (don't emit, don't increment)
+          return;
+        }
+        const withCirc = applyRefs(raw);
+        // Collect which note numbers are referenced
+        const refs = [...raw.matchAll(/\{(\d+)\}/g)].map(m => parseInt(m[1], 10));
+        refs.forEach(r => usedRefs.add(r));
+
+        outputLines.push({ type: 'line', folio, lineNum, sec, text: withCirc });
+        lineNum++;
+        totalTextLines++;
+      });
+
+      // Emit note lines for this folio
+      notesLines.forEach((noteLine, ni) => {
+        if (noteLine.trim() === '') return;
+        const noteNum = ni + 1;
+        const circ    = toCirc(noteNum);
+        outputLines.push({ type: 'note', folio, noteNum, sec, text: circ + noteLine.trim() });
+        totalNoteLines++;
+      });
+
+      // Warn if refs in text don't match notes provided
+      const maxRef = usedRefs.size ? Math.max(...usedRefs) : 0;
+      if (maxRef > notesLines.length) {
+        errors.push(`Folio ${folio}: text references note {${maxRef}} but only ${notesLines.length} note(s) provided.`);
+      }
+    });
+
+    // ── Render output ──────────────────────────────────────────────
+    let html = '';
+    let prevFolio = null;
+
+    outputLines.forEach(entry => {
+      if (entry.folio !== prevFolio) {
+        if (prevFolio !== null) html += '<br>';
+        prevFolio = entry.folio;
+      }
+      if (entry.type === 'line') {
+        const label = entry.folio + '.' + entry.lineNum + '(' + entry.sec + '):';
+        html += '<span class="out-line">' + escHtml(label) + ' ' + renderText(entry.text) + '</span>\n';
+      } else {
+        const label = entry.folio + '.n' + entry.noteNum + '(' + entry.sec + '):';
+        html += '<span class="out-note">' + escHtml(label) + ' ' + renderText(entry.text) + '</span>\n';
+      }
+    });
+
+    if (errors.length) {
+      html += '\n' + errors.map(e => '<span class="out-err">⚠ ' + escHtml(e) + '</span>').join('\n');
+    }
+
+    outBody.innerHTML = html || '<span class="out-sep">Output will appear here…</span>';
+
+    const folioCount = textBlocks.length;
+    outStats.textContent = folioCount + (folioCount === 1 ? ' folio' : ' folios') +
+      ' · ' + totalTextLines + ' lines · ' + totalNoteLines + ' notes';
+  }
+
+  /* ── Helpers ──────────────────────────────────────────────────────── */
+  function splitByFolioSep(text) {
+    // Split on lines that are exactly === (with optional whitespace)
+    const parts = text.split(/\n===[ \t]*\n?|\n===[ \t]*$|^===[ \t]*\n/m);
+    // More robustly: split by lines that are only ===
+    const lines = text.split(/\r?\n/);
+    const blocks = [];
+    let current = [];
+    lines.forEach(l => {
+      if (/^===\s*$/.test(l)) {
+        blocks.push(current.join('\n'));
+        current = [];
+      } else {
+        current.push(l);
+      }
+    });
+    blocks.push(current.join('\n'));
+    return blocks;
+  }
+
+  function trimLines(lines) {
+    let start = 0, end = lines.length - 1;
+    while (start <= end && lines[start].trim() === '') start++;
+    while (end >= start && lines[end].trim() === '') end--;
+    return lines.slice(start, end + 1);
+  }
+
+  function escHtml(s) {
+    return String(s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function renderText(text) {
+    // Highlight circled numbers in the output display
+    return escHtml(text).replace(
+      /[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]/g,
+      m => '<span class="out-circ">' + m + '</span>'
+    );
+  }
+
+  /* ── Sync separators button ───────────────────────────────────────── */
+  document.getElementById('btn-sync-sep').addEventListener('click', () => {
+    const textLines  = textArea.value.split(/\r?\n/);
+    const notesLines = notesArea.value.split(/\r?\n/);
+
+    // Count === in text
+    const textSepCount = textLines.filter(l => /^===\s*$/.test(l)).length;
+    const notesSepCount = notesLines.filter(l => /^===\s*$/.test(l)).length;
+
+    if (textSepCount === notesSepCount) {
+      showToast('Notes already have ' + notesSepCount + ' break(s) — no change needed.');
+      return;
+    }
+
+    if (notesSepCount > 0) {
+      showToast('Notes already have breaks — remove them first to re-sync.');
+      return;
+    }
+
+    // Insert === after every Nth note-line group based on text block structure
+    const textBlocks = splitByFolioSep(textArea.value);
+    // We don't know how to split the notes — just append the right number of ===
+    // Strategy: append === at the end of the current notes content for each missing break
+    let current = notesArea.value.trimEnd();
+    for (let i = 0; i < textSepCount; i++) {
+      current += '\n===\n';
+    }
+    notesArea.value = current;
+    compile();
+    showToast('Added ' + textSepCount + ' break(s) to notes pane.');
+  });
+
+  /* ── Clear ────────────────────────────────────────────────────────── */
+  document.getElementById('btn-clear').addEventListener('click', () => {
+    if (!textArea.value && !notesArea.value) return;
+    if (confirm('Clear all panes?')) {
+      textArea.value = '';
+      notesArea.value = '';
+      compile();
+    }
+  });
+
+  /* ── Sample ───────────────────────────────────────────────────────── */
+  document.getElementById('btn-load-sample').addEventListener('click', () => {
+    folioIn.value = '3';
+    secIn.value   = '1';
+    textArea.value =
+`@@// 'dul ba gzhi{1}
+/rgya gar skad du/_bi na ya bstu/_bod skad du/_'dul ba 
+gzhi / _bam po dang po/_dkon mchog gsum la phyag 'tshal lo/_/gang gis 
+'ching rnams yang dag rab bcad cing /_/mu stegs tshogs rnams thams cad 
+rab bcom ste/_/sde dang bcas pa'i bdud rnams nges bcom nas/_/byang 
+chub 'di brnyes de la phyag 'tshal lo/_/khyim don che chung spangs te dang por{2} 
+rab 'byung dka'/_/rab byung{3} thob nas yul spyad dag gis dga' thob dka'/_/
+mngon dga' ji bzhin don bskyed{4} yang dag byed pa dka'/_/ngur smrig{5} gos 
+'chang mkhas pa tshul las nyams pa dka'/_/gzhi rnams kyi spyi sdom la/ rab 
+'byung{6} gso sbyong gzhi dang ni/_/dgag dbye dbyar dang ko lpags gzhi/_/
+sman dang gos dang sra brkyang dang /_/ kau shAm bI{7} dang las kyi gzhi/_/dmar 
+ser can dang gang zag dang /_/spo dang gso sbyong bzhag{8} pa dang /_/gnas `;
+    notesArea.value =
+`mtshan byang 'di chos tshan 'di'i mtshan bod skad du smos pa ltar bkod/
+〈〈g.yung〉〉〈〈li〉〉〈〈pe〉〉〈〈co〉〉 po/
+〈〈snar〉〉〈〈zhol〉〉 'byung /
+〈〈snar〉〉〈〈zhol〉〉 skyed/
+〈〈g.yung〉〉〈〈pe〉〉 mrig
+〈〈snar〉〉〈〈zhol〉〉 byung /
+〈〈g.yung〉〉〈〈li〉〉〈〈pe〉〉〈〈co〉〉 sham be+e/[ 〈〈snar〉〉〈〈zhol〉〉 ko'u sham bi/
+〈〈g.yung〉〉〈〈pe〉〉〈〈snar〉〉〈〈zhol〉〉 gzhag (pod 'di'i dang du gso sbyong bzhag ces pa rnams 〈〈g.yung〉〉〈〈pe〉〉〈〈snar〉〉〈〈zhol〉〉 la gso sbyong gzhag ces 'khod kyang gsham du bsdur mchan du bkod med/)`;
+    compile();
+  });
+
+  /* ── Copy output ──────────────────────────────────────────────────── */
+  function copyOutput() {
+    // Build plain-text output (strip HTML)
+    const plain = buildPlainOutput();
+    navigator.clipboard.writeText(plain).then(() => showToast('Copied to clipboard'));
+  }
+
+  function buildPlainOutput() {
+    const rawText  = textArea.value;
+    const rawNotes = notesArea.value;
+    const startFolio = Math.max(1, parseInt(folioIn.value, 10) || 1);
+    const sec        = (secIn.value.trim() || '1');
+    const textBlocks  = splitByFolioSep(rawText);
+    const notesBlocks = splitByFolioSep(rawNotes);
+
+    let lines = [];
+    textBlocks.forEach((block, bi) => {
+      const folio = startFolio + bi;
+      const textLines  = block.split(/\r?\n/);
+      const notesLines = (notesBlocks[bi] || '').split(/\r?\n/).filter(l => l.trim() !== '');
+      const trimmed = trimLines(textLines);
+      let lineNum = 1;
+
+      if (bi > 0) lines.push('');
+
+      trimmed.forEach(raw => {
+        if (raw.trim() === '') return;
+        lines.push(folio + '.' + lineNum + '(' + sec + '): ' + applyRefs(raw));
+        lineNum++;
+      });
+
+      notesLines.forEach((noteLine, ni) => {
+        if (noteLine.trim() === '') return;
+        const noteNum = ni + 1;
+        lines.push(folio + '.n' + noteNum + '(' + sec + '): ' + toCirc(noteNum) + noteLine.trim());
+      });
+    });
+
+    return lines.join('\n');
+  }
+
+  document.getElementById('btn-copy').addEventListener('click',  copyOutput);
+  document.getElementById('btn-copy2').addEventListener('click', copyOutput);
+
+  /* ── Toast ────────────────────────────────────────────────────────── */
+  function showToast(msg) {
+    const t = document.getElementById('copy-toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2200);
+  }
+
+  /* ── Live update ──────────────────────────────────────────────────── */
+  let debounceTimer = null;
+  function scheduleCompile() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(compile, 80);
+  }
+
+  textArea.addEventListener('input',  scheduleCompile);
+  notesArea.addEventListener('input', scheduleCompile);
+  folioIn.addEventListener('input',   scheduleCompile);
+  secIn.addEventListener('input',     scheduleCompile);
+
+  /* ── Tab key → insert tab in textareas ───────────────────────────── */
+  [textArea, notesArea].forEach(ta => {
+    ta.addEventListener('keydown', e => {
+      if (e.key === 'Tab') {
+        e.preventDefault();
+        const s = ta.selectionStart, end = ta.selectionEnd;
+        ta.value = ta.value.slice(0, s) + '\t' + ta.value.slice(end);
+        ta.selectionStart = ta.selectionEnd = s + 1;
+        scheduleCompile();
+      }
+    });
+  });
+
+  /* ── Shared URL helpers ─────────────────────────────────────────── */
+  const OSD_PREFIX = 'https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/images/';
+
+  function parseImgUrl(url) {
+    // Split trailing digits before extension: "…/1PD967840021.jpg" → prefix, "0021", ".jpg"
+    const m = url.match(/^(.*?)(\d+)(\.[a-zA-Z]{2,5})$/);
+    if (!m) return null;
+    return { prefix: m[1], numStr: m[2], suffix: m[3] };
+  }
+  function buildImgUrl(p) { return p.prefix + p.numStr + p.suffix; }
+  function stepImgNum(numStr, delta) {
+    const n = parseInt(numStr, 10) + delta;
+    if (n < 1) return null;
+    return String(n).padStart(numStr.length, '0');
+  }
+  // Derive note URL = text URL + 1
+  function deriveNoteUrl(textUrl) {
+    const p = parseImgUrl(textUrl.trim());
+    if (!p) return '';
+    const next = stepImgNum(p.numStr, 1);
+    if (!next) return '';
+    return buildImgUrl({ prefix: p.prefix, numStr: next, suffix: p.suffix });
+  }
+
+  function makeOsdViewer(divId) {
+    return OpenSeadragon({
+      id:                    divId,
+      prefixUrl:             OSD_PREFIX,
+      showNavigationControl: true,
+      animationTime:         0.25,
+      blendTime:             0.1,
+      constrainDuringPan:    false,
+      maxZoomPixelRatio:     6,
+      minZoomImageRatio:     0.3,
+      visibilityRatio:       0.4,
+      defaultZoomLevel:      0,
+      tileSources:           null,
+      gestureSettingsMouse:  { scrollToZoom: true },
+    });
+  }
+
+  function loadOsdImage(osd, url, phEl, errEl) {
+    url = url.trim();
+    if (!url) return;
+    if (phEl) phEl.style.display = 'none';
+    if (errEl) errEl.style.display = 'none';
+    osd.addOnceHandler('open', function () {
+      if (phEl) phEl.style.display = 'none';
+    });
+    osd.addOnceHandler('open-failed', function () {
+      if (errEl) { errEl.style.display = 'flex'; }
+    });
+    osd.open({ type: 'image', url: url });
+  }
+
+  function makeResizeHandle(handleId, stripId, invert) {
+    // invert=true: dragging down grows the strip (notes pane, handle is above strip)
+    const handle = document.getElementById(handleId);
+    const strip  = document.getElementById(stripId);
+    let dragging = false, startY = 0, startH = 0;
+    handle.addEventListener('mousedown', e => {
+      dragging = true; startY = e.clientY; startH = strip.offsetHeight;
+      handle.classList.add('dragging');
+      document.body.style.cursor = 'row-resize';
+      document.body.style.userSelect = 'none';
+      e.preventDefault();
+    });
+    document.addEventListener('mousemove', e => {
+      if (!dragging) return;
+      const delta = e.clientY - startY;
+      // text pane: handle is between textarea (above) and strip (below)
+      // dragging DOWN = making textarea smaller = strip bigger
+      const newH = invert
+        ? Math.max(60, Math.min(window.innerHeight * 0.7, startH + delta))
+        : Math.max(60, Math.min(window.innerHeight * 0.7, startH - delta));
+      strip.style.height = newH + 'px';
+    });
+    document.addEventListener('mouseup', () => {
+      if (!dragging) return;
+      dragging = false;
+      handle.classList.remove('dragging');
+      document.body.style.cursor = '';
+      document.body.style.userSelect = '';
+    });
+  }
+
+  /* ── Text-pane image viewer ──────────────────────────────────────── */
+  (function () {
+    const urlInput = document.getElementById('img-url-input');
+    const btnPrev  = document.getElementById('img-btn-prev');
+    const btnNext  = document.getElementById('img-btn-next');
+    const counter  = document.getElementById('img-counter');
+    const phEl     = document.getElementById('img-placeholder');
+    const errEl    = document.getElementById('img-error');
+    const noteUrlInput = document.getElementById('note-img-url-input');
+
+    const osd = makeOsdViewer('img-osd');
+    let parsed = null;
+
+    function updateNav() {
+      if (!parsed) { btnPrev.disabled = true; btnNext.disabled = true; counter.textContent = ''; return; }
+      const n = parseInt(parsed.numStr, 10);
+      btnPrev.disabled = n <= 1;
+      btnNext.disabled = false;
+      counter.textContent = '#' + n;
+    }
+
+    function loadUrl(url) {
+      url = url.trim();
+      if (!url) return;
+      parsed = parseImgUrl(url);
+      loadOsdImage(osd, url, phEl, errEl);
+      updateNav();
+      // Auto-fill note image URL
+      const noteUrl = deriveNoteUrl(url);
+      if (noteUrl) {
+        noteUrlInput.value = noteUrl;
+        noteUrlInput.dispatchEvent(new Event('change'));
+      }
+    }
+
+    function navigate(delta) {
+      if (!parsed) return;
+      const newNum = stepImgNum(parsed.numStr, delta);
+      if (!newNum) return;
+      parsed.numStr = newNum;
+      const newUrl = buildImgUrl(parsed);
+      urlInput.value = newUrl;
+      loadUrl(newUrl);
+    }
+
+    urlInput.addEventListener('change', () => loadUrl(urlInput.value));
+    urlInput.addEventListener('keydown', e => { if (e.key === 'Enter') loadUrl(urlInput.value); });
+    btnPrev.addEventListener('click', () => navigate(-1));
+    btnNext.addEventListener('click', () => navigate(+1));
+
+    makeResizeHandle('img-resize-handle', 'img-strip', false);
+  })();
+
+  /* ── Note-pane image viewer ──────────────────────────────────────── */
+  (function () {
+    const urlInput = document.getElementById('note-img-url-input');
+    const btnLoad  = document.getElementById('note-img-btn-load');
+    const phEl     = document.getElementById('note-img-placeholder');
+    const errEl    = document.getElementById('note-img-error');
+
+    const osd = makeOsdViewer('note-img-osd');
+
+    function loadUrl(url) {
+      url = url.trim();
+      if (!url) return;
+      loadOsdImage(osd, url, phEl, errEl);
+    }
+
+    urlInput.addEventListener('change', () => loadUrl(urlInput.value));
+    urlInput.addEventListener('keydown', e => { if (e.key === 'Enter') loadUrl(urlInput.value); });
+    btnLoad.addEventListener('click', () => loadUrl(urlInput.value));
+
+    makeResizeHandle('note-img-resize-handle', 'note-img-strip', true);
+  })();
+
+  /* ── Init ─────────────────────────────────────────────────────────── */
+  compile();
+
+})();
+</script>
+</body>
+</html>
