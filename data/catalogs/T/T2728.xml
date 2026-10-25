@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4849</ref>
+    <rnb>1</rnb>
+    <tib>g.yu'i thang ma kras dgu</tib>
+    <skt/>
+    <coloph> g.yu'i thang ma kras dgu rdzogs so/ /bi ma las phan yul du gnya' la gtad do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95888</vol>
+        <sec>1</sec>
+        <debp>869</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>883</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2728</ref>
+    <rnb>2729</rnb>
+    <tib>g-yu'i thang ma kras dgu</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31414</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>523</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>531</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3518</ref>
+    <rnb>2737</rnb>
+    <tib>g.yu'i thang ma kras dgu</tib>
+    <skt/>
+    <coloph>g.yu'i thang ma kras dgu rdzogs so//bi ma las phan yul du gnya' la gtad do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3328</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>389</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>395</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212361</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>389</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>395</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4729</ref>
+    <rnb>2730</rnb>
+    <tib>g.yu'i thang ma kras dgu</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13246</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>426</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>433</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

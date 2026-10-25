@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5889</ref>
+    <rnb>1</rnb>
+    <tib>chos kyi sbyin pa'i bsngo ba</tib>
+    <skt/>
+    <coloph>bsngo ba bla chen po dgongs pa gsal gyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95961</vol>
+        <sec>1</sec>
+        <debp>1742</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1750</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4363</ref>
+    <rnb>3304</rnb>
+    <tib>chos kyi sbyin pa'i bsngo ba bzhugs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66238</vol>
+        <sec>sna tshogs</sec>
+        <debp>337</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>340</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4399</ref>
+    <rnb>3312</rnb>
+    <tib>chos kyi sbyin pa'i bsngo ba bzhugs</tib>
+    <skt/>
+    <coloph>bsngo ba bla chen dgongs pa rab gsal gyis mdzad pa rdzogs so</coloph>
+    <colophTitle>bsngo ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1525</vol>
+        <sec>mdo 'grel</sec>
+        <debp>334</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>337</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210260</vol>
+        <sec>mdo 'grel</sec>
+        <debp>334</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>337</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211564</vol>
+        <sec>mdo 'grel</sec>
+        <debp>334</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>337</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bla chen dgongs pa rab gsal</name>
+        <role>author</role>
+        <rid>bdr:P1523</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3955</ref>
+    <rnb>3950</rnb>
+    <tib>bla chen dgongs pa rab gsal gyis mdzad pa'i bsngo ba</tib>
+    <skt/>
+    <coloph>bsngo ba bla chen po dgongs pa gsal gyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31561</vol>
+        <sec>sgra skor</sec>
+        <debp>403</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>408</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4741</ref>
+    <rnb>3961</rnb>
+    <tib>bla chen dgongs pa rab gsal gyis mdzad pa'i bsngo ba</tib>
+    <skt/>
+    <coloph>bsngo ba bla chen po dgongs pa gsal gyis mdzad pa rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3475</vol>
+        <sec>mdo 'grel</sec>
+        <debp>314</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>317</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212508</vol>
+        <sec>mdo 'grel</sec>
+        <debp>314</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>317</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5941</ref>
+    <rnb>3943</rnb>
+    <tib>chos kyi sbyin pa'i bsngo ba</tib>
+    <skt/>
+    <coloph>rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13393</vol>
+        <sec>mdo 'grel</sec>
+        <debp>321</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>325</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

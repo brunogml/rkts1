@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5826</ref>
+    <rnb>1</rnb>
+    <tib>bya rog gi skad brtag par bya ba</tib>
+    <skt>kA ka dza ri ti</skt>
+    <coloph>'di lta bu'i bya rog gi spyod pa rdzogs so/ /paN+Di ta chen po dA na shi las/ yul dbus kyi yar klungs thang po tsha'i gtsug lag khang du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95959</vol>
+        <sec>1</sec>
+        <debp>1463</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1468</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3844</ref>
+    <rnb>3839</rnb>
+    <tib>bya rog gi skad brtag pa</tib>
+    <skt>ka ka dza ri ti</skt>
+    <coloph>'di lta bu'i bya rog gi spyod pa rdzogs so/ /paN+Di ta chen po dA na shi las/ yul dbus kyi yar klungs thang po tsha'i gtsug lag khang du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31548</vol>
+        <sec>bzo rig</sec>
+        <debp>304</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>306</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4621</ref>
+    <rnb>3840</rnb>
+    <tib>bya rog gi skad brtag par bya ba</tib>
+    <skt>kA ka tsA ri ti</skt>
+    <coloph>'di lta bu'i bya rog gi spyod pa rdzogs so/ /paN+Di ta chen po dA na shi las/ yul dbus kyi yar klungs thang po tsha'i gtsug lag khang du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3462</vol>
+        <sec>mdo 'grel</sec>
+        <debp>221</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>222</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212495</vol>
+        <sec>mdo 'grel</sec>
+        <debp>221</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>222</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5831</ref>
+    <rnb>3833</rnb>
+    <tib>bya rog gi skad brtag par bya ba</tib>
+    <skt>kA ka dza ri taM</skt>
+    <coloph>'di lta bu'i bya rog gi spyod pa rdzogs so/_/paN+Di ta chen po dA na shi las/_yul dbus kyi yar klungs thad po che'i gtsug lag khang du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13380</vol>
+        <sec>mdo 'grel</sec>
+        <debp>202</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>204</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dānaśīla</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

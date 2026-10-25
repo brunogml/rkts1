@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2387</ref>
+    <rnb>1</rnb>
+    <tib>dpal 'khor lo sdom pa'i sgrub thabs tshigs bcad sum cu pa</tib>
+    <skt>shrI tsakra saMba ra sA d+ha na triM shi kA pa da bad+d+ha ti</skt>
+    <coloph>slob dpon sprin gyi bzhon pa'i lhas mdzad pa 'di/ paN+Di ta tshul khrims 'byun ggnas blo gros kyis mdzad pa'i 'grel pa'i rgya dpe las legs par bltas te/ chos kyi rje rin po che sprul pa'i sku zhwa dmar cod paN 'dzin pa bzhi pa dpal chos kyi grags pa ye shes dpal bzang pop'i zhal snga nas kyi bka' drin bzhin du zhwa lu lo tsA ba d+harma b+ha dra zhes bgyi bas/ gzhis ka lhun grub gling du mi'i dbang po chen po kun dga' rin chen rgyal po pa'i bdag rkyen la brten na slegs par bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95856</vol>
+        <sec>1</sec>
+        <debp>1456</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1461</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1429</ref>
+    <rnb>373</rnb>
+    <tib>dpal 'khor lo sdom pa'i sgrub thabs tshigs bcad sum cu pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66053</vol>
+        <sec>rgyud</sec>
+        <debp>158</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>160</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1488</ref>
+    <rnb>382</rnb>
+    <tib>dpal 'khor lo sdom pa'i sgrub thabs tshigs bcad sum cu pa</tib>
+    <skt>shrI tsakra sam+pa ra sA d+ha na triM shi kA pa da pad+d+ha ti</skt>
+    <coloph>dpal 'khor lo sdom pa'i sgrub thabs tshigs bcad sum cu pa/_/slob dpon sprin gyi bzhon pa'i lhas mdzad pa 'di</coloph>
+    <colophTitle>dpal 'khor lo sdom pa'i sgrub thabs tshigs bcad sum cu pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1338</vol>
+        <sec>rgyud</sec>
+        <debp>159</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>161</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210073</vol>
+        <sec>rgyud</sec>
+        <debp>159</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>161</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211377</vol>
+        <sec>rgyud</sec>
+        <debp>159</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>161</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zha lu lo tsA ba d+harma pA la b+ha dra</name>
+        <role>translator</role>
+        <rid>bdr:P856</rid>
+      </translator>
+      <translator>
+        <name>slob dpon sprin gyi bzhon pa'i lha</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15142</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba146.20</ref>
+    <rnb>743</rnb>
+    <tib>dpal rdo rje chen po rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>4CZ75449</vol>
+        <sec>1</sec>
+        <debp>92</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>93</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Hg</coll>
+    <ref>Hg56-029</ref>
+    <rnb>113</rnb>
+    <tib>dpal rdo rje chen po rgyud kyi rgyal po</tib>
+    <skt>shrI badzra ma hA tan+t+ra rA dza</skt>
+    <coloph>dpal 'khor lo sdom pa'i rje chen po'i rgyud kyi rgyal po rdzogs so// //shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45315</setid>
+        <vol>2KG209217</vol>
+        <sec>1</sec>
+        <debp>163</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>165</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

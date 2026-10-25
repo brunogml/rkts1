@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2880</ref>
+    <rnb>1815</rnb>
+    <tib>gtor ma'i cho ga zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66104</vol>
+        <sec>rgyud</sec>
+        <debp>319</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>320</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2918</ref>
+    <rnb>1825</rnb>
+    <tib>gtor ma'i cho ga zhes bya ba</tib>
+    <skt>ba liM bi d+hi nA ma</skt>
+    <coloph>gtor ma'i cho ga zhes bya ba/ bram ze'i slob dpon ma Ni badz+rasa mdzad pa/ rgya gar gyi paN+Di ta dz+nyA na shrI dang / bod kyi lo tsA ba cog gru rab zhi bshes gnyen gyis bsgyur ba'o</coloph>
+    <colophTitle>gtor ma'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1389</vol>
+        <sec>rgyud</sec>
+        <debp>315</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>316</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210124</vol>
+        <sec>rgyud</sec>
+        <debp>315</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>316</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211428</vol>
+        <sec>rgyud</sec>
+        <debp>315</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>316</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2537</ref>
+    <rnb>1755</rnb>
+    <tib>gtor ma'i cho ga zhes bya ba</tib>
+    <skt>ba liM bi d+hi nA ma</skt>
+    <coloph>gtor ma'i cho ga rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3321</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>388</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>388</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212354</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>388</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>388</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3744</ref>
+    <rnb>1745</rnb>
+    <tib>gtor ma'i cho ga zhes bya ba</tib>
+    <skt>bi laM bi d+hi nA maH</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13239</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>365</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>365</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

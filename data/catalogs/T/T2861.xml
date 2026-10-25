@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4961</ref>
+    <rnb>1</rnb>
+    <tib>lha mchod pa'i rim pa</tib>
+    <skt>de wa pu tsa kra ma</skt>
+    <coloph>lha mchod pa'i rim pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>188</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>191</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2861</ref>
+    <rnb>2862</rnb>
+    <tib>lha mchod pa'i rim pa</tib>
+    <skt>de wa pu tsa kra ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>225</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>227</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3651</ref>
+    <rnb>2871</rnb>
+    <tib>lha mchod pa'i rim pa</tib>
+    <skt>de wa pu tsa kra ma</skt>
+    <coloph>lha mchod pa'i rim pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>170</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>171</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>170</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>171</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4862</ref>
+    <rnb>2863</rnb>
+    <tib>lha mchod pa'i rim pa</tib>
+    <skt>de l+wa pu tsa kra ma</skt>
+    <coloph>lha mchod pa'i rim pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>171</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>172</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

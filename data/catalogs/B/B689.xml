@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm137.41</ref>
+    <rnb>470</rnb>
+    <tib>lta ba seng ge sgra bsgrags</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4108</vol>
+        <sec>1</sec>
+        <debp>603</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>613</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks109.21</ref>
+    <rnb>730</rnb>
+    <tib>lta ba seng ge sgra bsgrags</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>seng ge</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75080</vol>
+        <sec>21</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>10</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz179.24</ref>
+    <rnb>524</rnb>
+    <tib>lta ba seng ge sgra bsgrags</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58714</vol>
+        <sec>24</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>10</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

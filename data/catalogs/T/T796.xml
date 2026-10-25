@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2840</ref>
+    <rnb>1</rnb>
+    <tib>maN+Dal gyi cho ga zhes bya ba</tib>
+    <skt>maN+Dala bi d+hi nA ma</skt>
+    <coloph>dngos kyi maN+Dala rdzogs so/ /rgya gar gyi mkhan po ka ma la rak+Shi tas/ /gshin rje gshed kyi rgyud bzhi brgya lnga bcu pa la brten nas maN+Dala gyi cho ga mdzad pa'o/ /lo tsA ba shrI pradz+nyA na kIrtis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95869</vol>
+        <sec>1</sec>
+        <debp>170</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>172</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G799</ref>
+    <rnb>801</rnb>
+    <tib>maN+Dala gyi cho ga zhes bya ba</tib>
+    <skt>maN+Da la bi d+hi nA ma</skt>
+    <coloph>dngos kyi maN+Dala rdzogs so/ /rgya gar gyi mkhan po ka ma la rak+Shi tas/ /gshin rje gshed kyi rgyud bzhi brgya lnga bcu pa la brten nas maN+Dala gyi cho ga mdzad pa'o/ /lo tsA ba shrI pradz+nyA na kIrtis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31382</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>88</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>89</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5087</ref>
+    <rnb>3088</rnb>
+    <tib>maN+Dala gyi cho ga zhes bya ba</tib>
+    <skt>ma d+ha la bi ti</skt>
+    <coloph>ma d+ha la gyi cho ga_/slob dpon rad+na a ka ra shan+tis mdzad pa'o/_rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13256</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>142</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>143</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>radna akaraśanti (ratnākaraśānti)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

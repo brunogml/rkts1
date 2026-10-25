@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3232</ref>
+    <rnb>1</rnb>
+    <tib>theg pa gsung gi sgron ma zhes bya ba</tib>
+    <skt>yA na wAk ora dI pa nA ma</skt>
+    <coloph>theg pa gsung gi sgron ma rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95871</vol>
+        <sec>1</sec>
+        <debp>1681</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1684</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2269</ref>
+    <rnb>1203</rnb>
+    <tib>theg pa gsung gi sgron ma zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66083</vol>
+        <sec>rgyud</sec>
+        <debp>261</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2316</ref>
+    <rnb>1213</rnb>
+    <tib>theg pa gsung gi sgron ma zhes bya ba</tib>
+    <skt>yA na wA ka pra dI pa nA ma</skt>
+    <coloph>theg pa gsung gi sgron ma rdzogs so// //</coloph>
+    <colophTitle>theg pa gsung gi sgron ma</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1368</vol>
+        <sec>rgyud</sec>
+        <debp>261</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210103</vol>
+        <sec>rgyud</sec>
+        <debp>261</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211407</vol>
+        <sec>rgyud</sec>
+        <debp>261</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1159</ref>
+    <rnb>1161</rnb>
+    <tib>theg pa gsung gi sgron ma zhes bya ba</tib>
+    <skt>yA na bA ka pra dI pa nA ma</skt>
+    <coloph>theg pa gsung gi sgron ma rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31386</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>358</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>359</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1951</ref>
+    <rnb>1168</rnb>
+    <tib>theg pa gsung gi sgron ma zhes bya ba</tib>
+    <skt>yA na bA ka pra dI pa nA ma</skt>
+    <coloph>theg pa gsung gi sgron ma rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3300</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>265</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>266</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212333</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>265</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>266</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3155</ref>
+    <rnb>1156</rnb>
+    <tib>theg pa gsung gi sgron ma zhes bya ba</tib>
+    <skt>yA na vA ka pra dI pa nA ma</skt>
+    <coloph>theg pa gsung gi sgron ma rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13218</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>276</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>277</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

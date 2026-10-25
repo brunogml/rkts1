@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.180</ref>
+    <rnb>183</rnb>
+    <tib>'phags pa gnam sa snang brgyad ces bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph>-</coloph>
+    <colophTitle/>
+    <margin/>
+    <note>rgya nag skad du: A rya pa ra yang gyang rta</note>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>580</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>587</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm116.111</ref>
+    <rnb>796</rnb>
+    <tib>'phags pa snang brgyad ces bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya pa ra ya ke ta na ma mahA na su tra</skt>
+    <coloph>'phags pa gnam sa snang brgyad ces bya ba theg po'i mdo rdzogs s+h+yo//</coloph>
+    <colophTitle>'phags pa gnam sa snang brgyad ces bya ba theg po'i mdo</colophTitle>
+    <margin>snang</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL1026</vol>
+        <sec>gzungs 'dus</sec>
+        <debp>361</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>366</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+    <note>This text is not found in the mainstream collections.</note>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.155</ref>
+    <rnb>627</rnb>
+    <tib/>
+    <skt/>
+    <coloph>zhus /_bdag /_//bkra shis//</coloph>
+    <colophTitle/>
+    <margin>snang brgyad</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>99 po</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+    <note>The first 7 folios of the text, that is ff.1-7/587-593, are missing, only the last folio is present. See Everding 2015, no.418.</note>
+  </item>
+</catalog>

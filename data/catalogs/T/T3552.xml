@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5693</ref>
+    <rnb>1</rnb>
+    <tib>'brel pa brtag pa'i 'grel pa</tib>
+    <skt>saM ban+d+ha pa rIk+Sha br-it+ti</skt>
+    <coloph>'brel ba brtag pa zhes bya ba'i 'grel pa/ smra ba'i seng ge slob dpon chos kyi grags mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95942</vol>
+        <sec>1</sec>
+        <debp>884</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>899</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4182</ref>
+    <rnb>3120</rnb>
+    <tib>'brel pa brtag pa'i 'grel pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66205</vol>
+        <sec>tshad ma</sec>
+        <debp>253</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>258</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4215</ref>
+    <rnb>3128</rnb>
+    <tib>'brel pa brtag pa'i 'grel pa</tib>
+    <skt>saM ban+d+ha pa rI k+Shabr-it+ti</skt>
+    <coloph>'brel pa brtag pa zhes bya ba'i 'grel pa/_smra ba'i seng ge slob dpon chen po chos kyi grags pas mdzad pa rdzogs so</coloph>
+    <colophTitle>'brel pa brtag pa zhes bya ba'i 'grel pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1490</vol>
+        <sec>mdo 'grel</sec>
+        <debp>256</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>261</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210225</vol>
+        <sec>mdo 'grel</sec>
+        <debp>256</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>261</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211529</vol>
+        <sec>mdo 'grel</sec>
+        <debp>256</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>261</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>smra ba'i seng ge slob dpon chen po chos kyi grags pa</name>
+        <role>author</role>
+        <rid>bdr:P6120</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3717</ref>
+    <rnb>3711</rnb>
+    <tib>'brel ba brtag pa'i 'grel pa</tib>
+    <skt>sam ban+d+ha pa ri ka b-it+ti</skt>
+    <coloph>'brel ba brtag pa zhes bya ba'i 'grel pa/ smra ba'i seng ge slob dpon chos kyi grags mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31520</vol>
+        <sec>mtshad ma</sec>
+        <debp>479</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>487</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4503</ref>
+    <rnb>3721</rnb>
+    <tib>'brel pa brtag pa'i 'grel pa</tib>
+    <skt>sam ban+d+ha pa rI k+Sha br-it+ti</skt>
+    <coloph>'brel ba brtag pa zhes bya ba'i 'grel pa/ smra ba'i seng ge slob dpon chos kyi grags mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3434</vol>
+        <sec>mdo 'grel</sec>
+        <debp>377</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>384</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212467</vol>
+        <sec>mdo 'grel</sec>
+        <debp>377</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>384</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5714</ref>
+    <rnb>3715</rnb>
+    <tib>'brel pa brtag pa'i 'grel pa</tib>
+    <skt>sam ban+d+ha pa ri ka brir+ri</skt>
+    <coloph>'brel ba brtag pa zhes bya ba'i 'grel pa/_smra ba'i seng ge slob dpon chos kyi grags pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13352</vol>
+        <sec>mdo 'grel</sec>
+        <debp>358</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>364</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>chos kyi grags pa/(dharmakīrti)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

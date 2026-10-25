@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4944</ref>
+    <rnb>1</rnb>
+    <tib>sems dpa'i phyag rgya zhes bya ba</tib>
+    <skt>sat+wa mu dra nA ma</skt>
+    <coloph>sems dpa'i phyag rgya zhes bya ba rim pa gnyis rgya cher gsal ba/ slob dpon chen po grub pa'i sa la 'gro ba 'god pa'i thugs rje can/ 'jig rten dbang phyug gi zhabs kyi ze'u 'bru spyi bos reg pa/ bsod snyoms pas bshad pa rdzogs so/ rje btsun shar phyogs pa nirba Na shrI'i zhabs dang / rmongs pa kun dga' snying po tA ra nA thas bsgyur ba'o/ sngon chad gangs ri'i khrod du ma byon pa'i/ gzhung bzang 'di ni bla ma'i zhal las thob/ shar phyogs mkhas pa'i gsung bzhin 'di bsgyur te/ rmongs pa bdag gis cha tsam 'tshal bas so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>79</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>92</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2844</ref>
+    <rnb>2845</rnb>
+    <tib>sems dpa'i phyag rgya zhes bya ba</tib>
+    <skt>sat+wa mu dra nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>168</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>176</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3634</ref>
+    <rnb>2854</rnb>
+    <tib>sems dpa'i phyag rgya zhes bya ba</tib>
+    <skt>sat+wa ma dra nA ma</skt>
+    <coloph>sems dpa'i phyag rgya zhes bya ba rim pa gnyis rgya cher gsal ba/ slob dpon chen po grub pa'i sa la 'gro ba 'god pa'i thugs rje can/ 'jig rten dbang phyug gi zhabs kyi ze'u 'bru spyi bos reg pa/ bsod snyoms pas bshad pa rdzogs so/ rje btsun shar phyogs pa nirba Na shrI'i zhabs dang / rmongs pa kun dga' snying po tA ra nA thas bsgyur ba'o/ sngon chad gangs ri'i khrod du ma byon pa'i/ gzhung bzang 'di ni bla ma'i zhal las thob/ shar phyogs mkhas pa'i gsung bzhin 'di bsgyur te/ rmongs pa bdag gis cha tsam 'tshal bas so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>128</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>134</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>128</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>134</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4845</ref>
+    <rnb>2846</rnb>
+    <tib>sems dpa'i phyag rgya zhes bya ba</tib>
+    <skt>sa t+wa mu dra nA ma</skt>
+    <coloph>sems kyi phyag rgya zhes bya ba rim pa gnyis rgya cher gsal ba/_slob dpon chen po grub pa'i sa la 'gro ba 'god pa'i thugs rje can/_'jig rten dbang phyug gi zhabs kyi ze'u 'bru la spyi bos reg pa/_bsod snyoms pas bshad pa rdzogs so/_rje btsun shar phyogs pa nirbA Na shrI'i zhabs dang /_rmongs pa kun dga' snying po tA ra nA thas bsgyur ba'o/_sngon chad gangs ri'i khrod du ma byon pa'i/_gzhung bzang 'di ni bla ma'i zhal las thob/_shar phyogs mkhas pa'i gsung bzhin 'di bsgyur te/_rmongs pa bdag gis cha tsam 'tshal bas so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>132</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>139</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>kun dga'i snying po/(ānandagarbha (tāranātha))</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>bsod snyoms pa/</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

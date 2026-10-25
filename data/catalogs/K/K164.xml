@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A182</ref>
+    <rnb>181</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya rat+na tsan dra pa ri pr-its+tshA nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so/ /rgya gar gyi mkhan po bi shud+d+ha sing+ha dang / lo tsA ba ban+de dge slong dpal gyis bsgyur/ rgya gar gyi mkhan po bi d+ya ka ra sing+ha dang / zhu chen gyi lo tsA ba ban+de de ba tsan dras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96842</vol>
+        <sec>1</sec>
+        <debp>433</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>451</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B173</ref>
+    <rnb>172</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-67</vol>
+        <sec>mdo sde</sec>
+        <debp>227</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>237</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba036.006</ref>
+    <rnb>171</rnb>
+    <tib>'phags pa khyi'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>ar+ya raD+Na tsan+Da da ra ka pa ri phrits+tsha nA ma ma hA yA na sU tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>1BL361</vol>
+        <sec>1</sec>
+        <debp>155</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>155</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.137</ref>
+    <rnb>139</rnb>
+    <tib>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A ry+a rat+na tsan+d+ra pa ri prits+tsha nA ma ma hA ya na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// rgya gar gyi mkhan po bi shud+d+ha sing+ng+ha dang / lo ts+tsha ba ban+de dge dpal gyis bsgyur/ rgya gar gyi mkhan po bid+ya kA ra sing+ng+ha dang / zhu chen gyi lo ts+tsha ba ban+de de ba tsaN+d+ras zhus te gtan la phab pa// //mang+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>367</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>379</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C804</ref>
+    <rnb>804</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105102</vol>
+        <sec>mdo</sec>
+        <debp>188</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>197</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-39</vol>
+        <sec>mdo</sec>
+        <debp>188</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>197</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz084-010</ref>
+    <rnb>594</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya rat+na tsan dra pa ri prid tsha nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// // rgya gar gyi mkhan po bi shud d+ha sing ha dang/ lo tsa ba ban d+he dge ba dpal gyis bsgyur/ rgya gar gyi mkhan po ba dya ka ra sing ha dang/ zhu chen gyi lo tsa ba ban d+he de wa tsan tras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-84</vol>
+        <sec>mdo sde</sec>
+        <debp>258</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>269</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D164</ref>
+    <rnb>165</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya rat+na tsan dra pa ri pr-its+tshA nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// rgya gar gyi mkhan po bi shud+d+ha sing ha dang / lots+tsha ba ban+de dge ba dpal gyis bsgyur/ rgya gar gyi mkhan po pid+yA ka ra sid+ha dang / zhu chen gyi lots+tsha ba ban+de de ba tsan dras zhus te gtan la phab pa</coloph>
+    <colophTitle>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0944</vol>
+        <sec>mdo sde</sec>
+        <debp>160</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>167</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6406</vol>
+        <sec>mdo sde</sec>
+        <debp>160</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>167</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20658</vol>
+        <sec>mdo sde</sec>
+        <debp>160</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>167</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9185</vol>
+        <sec>mdo sde</sec>
+        <debp>160</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>167</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po bi shud+d+ha sing ha</name>
+        <role>translator</role>
+        <rid>bdr:P8219</rid>
+      </translator>
+      <translator>
+        <name>lots+tsha ba ban+de dge ba dpal</name>
+        <role>translator</role>
+        <rid>bdr:P4263</rid>
+      </translator>
+      <translator>
+        <name>zhu chen gyi lots+tsha ba ban+de de ba tsan dra</name>
+        <role>revisor</role>
+        <rid>bdr:P8220</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd041-007</ref>
+    <rnb>81</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A rya ratna tsan dra pa ri pr-i ts+tshA nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so/ /rgya gar gyi mkhan po bi shud+d+ha sing+ha dang / lo ts+tsha ba ban+de dge slong dpal gyis bsgyur/ rgya gar gyi mkhan po bi d+ya ka ra sing+ha dang / zhu chen gyi lo ts+tsha ba ban+de de ba tsan dras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-41</vol>
+        <sec>mdo sde</sec>
+        <debp>222</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>233</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk036-010</ref>
+    <rnb>155</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya rat+na tsan dra pa ri prid tsha nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// // rgya gar gyi mkhan po bi shud d+ha sing ha dang/ lo tsa ba ban d+he dge ba dpal gyis bsgyur/ rgya gar gyi mkhan po ba d+ya ka ra sing ha dang/ zhu chen gyi lo tsa ba ban d+he de wa tsan tras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-36</vol>
+        <sec>mdo sde</sec>
+        <debp>267</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>280</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm5.16</ref>
+    <rnb>36</rnb>
+    <tib>[?] pa'i khye'u rin chen zla pas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>khye'u</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL915</vol>
+        <sec>mdo</sec>
+        <debp>382</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>382</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Volume is highly damaged, not all folios were photographed.</note>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr833</ref>
+    <rnb>881</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM75</vol>
+        <sec>mdo</sec>
+        <debp>239</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg134</ref>
+    <rnb>136</rnb>
+    <tib>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo </tib>
+    <skt>A rya ratna tsandra pa ri pritstsha nA ma ma hA ya na sU tra</skt>
+    <coloph>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// rgya gar gyi mkhan po bi shud+d+ha sing+ng +ha dang / lo ts+tsha ba ban+de dge dpal gyis bsgyur/ rgya gar gyi mkhan po bid+ya kA ra sing+ng+ha dang / zhu chen gyi lo ts+tsha ba ban+de de ba tsaN+d+ras zhus te gtan la phab pa// //mang+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>346</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>356</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F117</ref>
+    <rnb>120</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya rad+na tan tra pa ni prid tsha nA ma ma hA ya na su tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// rgya gar gyi mkhan po bi shud d9ha sing ha dang/ lo ts+tsha ba ban d+he dge dpal gyis bsgyur/ rgya gar gyi mkhan po byid r+ya ka ra sing ha dang/ zhu chen gyi lots+tsha ba ban de btsan tras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14075</vol>
+        <sec>mdo sde</sec>
+        <debp>78</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>89</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F380</ref>
+    <rnb>385</rnb>
+    <tib>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>a r+ya rad na tsan tra da ra ka pa ri phrid tsa na ma ma ha ya na su tra</skt>
+    <coloph>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo// rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14105</vol>
+        <sec>mdo sde2</sec>
+        <debp>57</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>63</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Go</coll>
+    <ref>Go26,16</ref>
+    <rnb>221</rnb>
+    <tib>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya ra n+da tsan dra da ra ka tsa ri prid tsa nA ma ma hA yA na sU tra</skt>
+    <coloph>dang zhus//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG5016</setid>
+        <vol>2KG212537</vol>
+        <sec>1</sec>
+        <debp>246</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>249</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Shorter version of Ratnacandrapariprccha, Rin chen zla bas zhus pa / Rin po che zla ba'i zhus pa (F): F 117, L 96, S 129, N 150, D 164, Q 831</note>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt030-010</ref>
+    <rnb>96</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya rat+na tsan dra pa ri prid tsha nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// // rgya gar gyi mkhan po bi shud d+ha sing ha dang/ lo tsa ba ban d+he dge ba dpal gyis bsgyur/ rgya gar gyi mkhan po ba dya ka ra sing ha dang/ zhu chen gyi lo tsa ba ban d+he de wa tsan tras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-2-14</vol>
+        <sec>mdo sde</sec>
+        <debp>229</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>240</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>H</coll>
+    <ref>H165</ref>
+    <rnb>167</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya rat+na tsan+d+ra pa ri pr-i ts+tshA nA ma ma hA yA na sU tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW26071</setid>
+        <vol>4085</vol>
+        <sec>mdo sde</sec>
+        <debp>252</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>264</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>He</coll>
+    <ref>He52.6</ref>
+    <rnb>92</rnb>
+    <tib>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>a rya rad+Na tsaN+d+ra da ra ka pa ri prits+tsha nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs s+h+yo</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45313</setid>
+        <vol>4CZ75309</vol>
+        <sec>mdo</sec>
+        <debp>154</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>160</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J108</ref>
+    <rnb>127</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya rad na tsan dra pa ri prits+tshA nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo/_rdzogs so//_//rgya gar gyi mkhan po bi shu d+ha sing ha dang/lo tsa ba ban de dge dge ba dpal gyis bsgyur/_rgya gar gyi mkhan po bi dyA ka ra sing+ha dang /_zhu chen gyi lo tsa ba ban de de ba tsan dras zhus te gtan la phab pa//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9921</vol>
+        <sec>mdo sde</sec>
+        <debp>164</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>171</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po bi shu d+ha sing ha</name>
+        <role>translator</role>
+        <rid>bdr:P8219</rid>
+      </translator>
+      <translator>
+        <name>lo tsa ba ban de dge ba dpal</name>
+        <role>translator</role>
+        <rid>bdr:P4263</rid>
+      </translator>
+      <translator>
+        <name>rgya gar gyi mkhan po bi dyA ka ra sing+ha</name>
+        <role>revisor</role>
+        <rid>bdr:P8213</rid>
+      </translator>
+      <translator>
+        <name>zhu chen gyi lo tsa ba ban de de ba tsan dra</name>
+        <role>revisor</role>
+        <rid>bdr:P8220</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>L</coll>
+    <ref>L96</ref>
+    <rnb>98</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya rad na tsan tra pa ri prid tsha nA ma ma hA yA na sU tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1026</vol>
+        <sec>mdo sde</sec>
+        <debp>227</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>238</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N150</ref>
+    <rnb>150</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>-</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so/ /rgya gar gyi mkhan po bi shud d+ha sing+ha dang / lo tsA ba ban+de dge ba dpal gyis bsgyur/ rgya gar gyi mkhan po bi d+yA ka ra sing+ha dang / zhus chen gyi lo tsA ba ban+de de ba tsan+tras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22703</setid>
+        <vol>5462</vol>
+        <sec>mdo sde</sec>
+        <debp>258</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>270</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5014</setid>
+        <vol>2KG212617</vol>
+        <sec>mdo sde</sec>
+        <debp>258</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>270</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.131</ref>
+    <rnb>603</rnb>
+    <tib>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya rat+na tsan+d+ra pa ri pr-i ts+tsha nA ma mahA ya na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so//_//rgya gar gyi mkhan po bi shu d+d+ha sing+ha dang/_lo tsA ba ban+de dge dpal gyis bsgyur/ rgya gar gyi mkhan po bid+ya kA ra sing+ha dang/_zhu chen gyi lo ts+tsha ba ban+de ba tsan+d+ras zhus te gtan la phab pa//_//mang+ga lam//</coloph>
+    <colophTitle/>
+    <margin>rin chen zla ba</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>76 te</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>12</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.164.</note>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng5.16</ref>
+    <rnb>36</rnb>
+    <tib>'phags pa khye'u rin cen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>a r+ya rad na tsan dra da ra ka pa ri prid tsa na ma ma ha ya na su tra</skt>
+    <coloph>'phags pa kye'u rin cen zla bas zhus pa zhes bya ba theg pa chen po'i mdo' / /rdzogs s+ho //</coloph>
+    <colophTitle/>
+    <margin>khye'u</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229035</vol>
+        <sec>mdo</sec>
+        <debp>267</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>270</finp>
+        <finf>b</finf>
+        <finl>9</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Seems to be a shorter version of rKTs164, D164. It differs not only in size, but also slightly in its title from the Derge version. The text itself differs greatly, but seems to be related. Similar versions are found in Lg5.18, He52.6, Hi54.2, F380, Go26.16.</note>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np014-010</ref>
+    <rnb>96</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya rat+na tsan dra pa ri prid tsha nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// // rgya gar gyi mkhan po bi shud d+ha sing ha dang/ lo tsa ba ban d+he dge ba dpal gyis bsgyur/ rgya gar gyi mkhan po ba d+ya ka ra sing ha dang/ zhu chen gyi lo tsa ba ban d+he de wa tsan tras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-14</vol>
+        <sec>mdo sde</sec>
+        <debp>259</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>271</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj053-007</ref>
+    <rnb>397</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya ratna tsan dra pa ri pri ts+tshA nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so/ /rgya gar gyi mkhan po bi shud+d+ha sing+ha dang / lo ts+tsha ba ban+de dge slong dpal gyis bsgyur/ rgya gar gyi mkhan po bi d+ya ka ra sing+ha dang / zhu chen gyi lo ts+tsha ba ban+de de ba tsan dras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-53</vol>
+        <sec>mdo sde</sec>
+        <debp>174</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>182</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz055-007</ref>
+    <rnb>394</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya rat+na tsan dra pa ri pri ts+tshA nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so/ /rgya gar gyi mkhan po bi shud+d+ha sing+ha dang / lo ts+tsha ba ban de dge slong dpal gyis bsgyur/ rgya gar gyi mkhan po bi d+ya ka ra sing+ha dang / zhu chen gyi lo ts+tsha ba ban de de ba tsan dras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-55</vol>
+        <sec>mdo sde</sec>
+        <debp>167</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>175</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q831</ref>
+    <rnb>884</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so|| rgya gar gyi mkhan po bi shud dha sing ha dang| lo ts+tsha ba ban de dge ba dpal gyis bsgyur|| ||rgya gar gyi mkhan po bid dhya+ka ra si-ng ha dang| zhu chen gyi lo ts+tsha ba ban de de ba tsan dras zhus te gtan la phab pa||</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96684</setid>
+        <vol>1PD106727</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>168</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>176</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW3CN1094</setid>
+        <vol>3CN1171</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>168</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>176</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R164</ref>
+    <rnb>165</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya rat+na tsan dra pa ri pr-i ts+tsA nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so/ /rgya gar gyi mkhan po bi shud+d+ha sing+ha dang / lo ts+tsa ba ban+de dge slong dpal gyis bsgyur/ rgya gar gyi mkhan po bi d+ya ka ra sing+ha dang / zhu chen gyi lo ts+tsa ba ban+de de ba tsan dras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17323</vol>
+        <sec>mdo sde</sec>
+        <debp>160</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>167</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S129</ref>
+    <rnb>177</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya rad+na tsan+d+ra pa ri prid tsha nA ma mahA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so/ /rgya gar gyi mkhan po bi shud+d+ha sing ha dang / lo tsa ba ban d+he dge slong dpal gyis bsgyur/ rgya gar gyi mkhan po bi d+ya ka ra sing ha dang / zhu chen gyi lo tsa ba ban d+he de wa tsan tras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3772</vol>
+        <sec>mdo sde</sec>
+        <debp>233</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>247</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty032-010</ref>
+    <rnb>153</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya rad+na tsan+d+ra pa ri prid tsha nA ma mahA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so/ /rgya gar gyi mkhan po bi shud+d+ha sing ha dang / lo tsa ba ban d+he dge slong dpal gyis bsgyur/ rgya gar gyi mkhan po bi d+ya ka ra sing ha dang / zhu chen gyi lo tsa ba ban d+he de wa tsan tras zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209894</vol>
+        <sec>mdo sde</sec>
+        <debp>245</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>257</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U164</ref>
+    <rnb>165</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so/ /rgya gar gyi mkhan po bi shud+d+ha sing ha dang / lo ts+tsha ba ban+de dge ba dpal gyis bsgyur/ rgya gar gyi mkhan po bi d+yA ka ra seng+ha dang / zhu chen gyi lo ts+tsha ba ban+de de ba tsan dras zhus te gtan la phab pa/</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL279</vol>
+        <sec>mdo sde</sec>
+        <debp>159</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>167</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5353</vol>
+        <sec>mdo sde</sec>
+        <debp>159</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>167</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V179</ref>
+    <rnb>179</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya rad na tsan tra pa ri prid tsha nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs s+ho/ rgya gar gyi mkhan po bi shud d+ha sa ha dang / lo ts+tsha ba ban d+he dge ba dpal gyis bsgyur/ rgya gar gyi mkhan po bid+yA ka ra sa ha dang / chen gyi lo ts+tsha ba ban+d+he wa tsan tras zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86292</vol>
+        <sec>mdo sde</sec>
+        <debp>215</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>225</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z160</ref>
+    <rnb>160</rnb>
+    <tib>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya rad+na pa ri prid tsha nA ma mahA yA na sU tra</skt>
+    <coloph>'phags pa rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// //rgya gar gyi mkhan po bi shud+d+ha sing ha dang / lo tsa ba ban d+he dge ba dpal gyis bsgyur/ rgya gar gyi mkhan po bad+ya ka ra sim ha dang / zhu chen gyi lo tsa ba ban d+he de wa tsan tras zhus te gtan la phab pa//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127520</vol>
+        <sec>mdo sde</sec>
+        <debp>295</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>306</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>viśuddhasiṃha</name>
+        <role>translator</role>
+        <rid>bdr:P8219</rid>
+      </translator>
+      <translator>
+        <name>dge ba dpal</name>
+        <role>translator</role>
+        <rid>bdr:P4263</rid>
+      </translator>
+    </translators>
+    <note>All folios marked as no. 400 plus should be corrected to 300 plus.</note>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg5.18</ref>
+    <rnb>38</rnb>
+    <tib>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>a r+ya rad na tsan tra da ra ka pa ri prid tsa na ma ma ha ya na su tra</skt>
+    <coloph>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo /_rdzogs s+ho //</coloph>
+    <colophTitle>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</colophTitle>
+    <margin>khye'u</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211178</vol>
+        <sec>mdo</sec>
+        <debp>309</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>312</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg35.18</ref>
+    <rnb>463</rnb>
+    <tib>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>ar+ya rad na tsan tra da ra ka pa ri prid tsa na ma ma ha ya na su tra</skt>
+    <coloph>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo /rdzogs s+h+yo//</coloph>
+    <colophTitle>'phags pa khye'u rin chen zla bas zhus pa zhes bya ba theg pa chen po'i mdo</colophTitle>
+    <margin>khye'u</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211207</vol>
+        <sec>mdo</sec>
+        <debp>279</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>283</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

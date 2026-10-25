@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3376</ref>
+    <rnb>2311</rnb>
+    <tib>khar+sa pA Ni'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>76</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>77</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3410</ref>
+    <rnb>2320</rnb>
+    <tib>khar+sa pA Ni'i sgrub thabs</tib>
+    <skt>khar+sa pA Ni sA d+ha naM</skt>
+    <coloph>po ta la'i kha sar+pa Na'i sgrub thabs slob dpon pad+ma 'byung gnas blo gros zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>po ta la'i khar+sa pA Ni'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>75</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>75</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>75</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon pad+ma 'byung gnas blo gros</name>
+        <role>author</role>
+        <rid>bdr:P0AT0388</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3025</ref>
+    <rnb>2241</rnb>
+    <tib>kha sar+pa Na'i sgrub thabs</tib>
+    <skt>kha sar+pa Na sA d+ha naM</skt>
+    <coloph>po ta la'i kha sar+pa Na'i sgrub thabs slob dpon pad+ma 'byung gnas blo gros zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>85</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>86</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>85</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>86</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4231</ref>
+    <rnb>2232</rnb>
+    <tib>kha sarpa Na'i sgrub thabs</tib>
+    <skt>kha sarpa Na sA d+ha naM</skt>
+    <coloph>po ta la'i kha sar+pa Ni'i sgrub thabs slob dpon pad+ma 'byung gnas blo gros zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>94</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>96</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>pad+ma 'byung gnas blo gros/(padmākaramati)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

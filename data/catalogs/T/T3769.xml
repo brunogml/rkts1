@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5932</ref>
+    <rnb>1</rnb>
+    <tib>lha dbang phyug gis tshogs bdag la gnang ba'i sa mu dra pha la'i sbyor ba kha sbyor ba kha bsgyur dang bcas pa</tib>
+    <skt/>
+    <coloph>de ltar slob dpon kun phan bdud rtsi byin gyis mdzad pa'i tshangs pa'i rig byed rgya mtsho'i yan lag 'dzin pa g.yo ba can dang / lha dbang phyugs gi tshogs bdag la gnang ba'i sa mu dra pha la'i sbyor ba sogs zur skol zab gnad can sna tshogs dang bcas sbyor pa kha bsgyur sdom pa sum brgyar nye ba'i bstan bcos 'di ni/ dus gsum rgyal ba kun gyi mkhyen brtse nus pa'i spyi gzugs rgyal ba'i dbang po thams cad mkhyen gzigs chen po'i bla'i sman pa/ deng dus bsil ldan gyi ljongs 'dir gso ba rig pa rig pa'i ring lugs 'dzin pa la 'gran ba'i zla thams cad dang bral ba yar stong dar mo sman rams pa blo bzang chos grags kyis 'di ltar sgyur cig zhes bka' stsan ut+pa la'i chun po ring du bcings te 'phags yul ma thu dar rgyal rigs mchog gi rigs las tshe'i rig byed 'dzin par ra gu nA thA dang / gtsang stong 'dar gyi skad gnyis pa ngag dbang phun tshogs lhun grub kyis rab byung bcu gcig pa'i nang gi don grub pa ces pas lug nag pas nye ba'i yar tshes dge bar phun sum tshogs lugs brgya'i mdun sa pho brang chen po po ta lar bsgyur cing zhus te gtan la phab pa'i yi ge pa ni nyang stong pa 'jam dbyangs dbang pos bgyis pa 'dis kyang 'gro ba mang po la phan par gyur cig</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95965</vol>
+        <sec>1</sec>
+        <debp>877</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>892</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4441</ref>
+    <rnb>3357</rnb>
+    <tib>lha dbang phyug gis tshogs bdag la gnang ba'i sa mu dra pha la'i sbyor ba kha sbyor ba kha bsgyur dang bcas pa</tib>
+    <skt/>
+    <coloph>de ltar slob dpon kun phan bdud rtsi byin gyis mdzad pa'i tshangs pa'i rig byed rgya mtsho'i yan lag 'dzin pa g.yo ba can dang /_lha dbang phyug gis tshogs bdag la gnang ba'i sa mu dra pha la'i sbyor ba sogs zur bskol zab gnad can sna tshogs dang bcas sbyor ba kha bsgyur sdom pa sum brgyar nye ba'i bstan bcos 'di ni</coloph>
+    <colophTitle>zur bskol zab gnad can sna tshogs dang bcas sbyor ba kha bsgyur sdom pa sum brgyar nye ba'i bstan bcos[/]</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1529</vol>
+        <sec>mdo 'grel</sec>
+        <debp>348</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>354</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210264</vol>
+        <sec>mdo 'grel</sec>
+        <debp>348</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>354</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211568</vol>
+        <sec>mdo 'grel</sec>
+        <debp>348</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>354</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgyal rigs mchog gi rigs las tshe'i rig byed 'dzin par gu nA tha</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ16901</rid>
+      </translator>
+      <translator>
+        <name>gtsang stod 'dar gyi skad gnyis pa ngag dbang phun tshogs lhun grub</name>
+        <role>translator</role>
+        <rid>bdr:P2947</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

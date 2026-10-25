@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4341</ref>
+    <rnb>1</rnb>
+    <tib>sgrub thabs kun las btus pa zhes bya ba</tib>
+    <skt>sA d+ha na sa mut+´s+tsha ya nA ma</skt>
+    <coloph>dam tshig gsum gyi rgyal po'i sgrub thabs rdzogs so/ /paN+Di ta chen po ku mu ta/ 'byung ba'i blo gros zhabs kyis mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95885</vol>
+        <sec>1</sec>
+        <debp>308</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>326</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3366</ref>
+    <rnb>2301</rnb>
+    <tib>sgrub thabs kun las btus pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>62</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>68</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3400</ref>
+    <rnb>2310</rnb>
+    <tib>sgrub thabs kun las btus pa zhes bya ba</tib>
+    <skt>sA d+ha na sa muts+tsha ya nA ma</skt>
+    <coloph>dam tshig gsum gyi rgyal po'i sgrub thabs rdzogs so/_/paN+Di ta chen po ku mu ta 'byung ba'i blo gros zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>dam tshig gsum gyi rgyal po'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>60</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>66</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>60</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>66</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>60</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>66</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta chen po ku mu ta 'byung ba'i blo gros</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15527</rid>
+      </translator>
+    </translators>
+    <note>The title for this is a little confusing as the incipit of the text gives a Tibetan and Sanskrit title but it's the one for a collection of sadhanas that starts with this one (D3400-D3644). The title of this text in particular is found in the colophon.</note>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2223</ref>
+    <rnb>2225</rnb>
+    <tib>sgrub thabs kun las btus pa zhes bya ba</tib>
+    <skt>sa d+ha na sa muts+tsha ya nA ma</skt>
+    <coloph>dam tshig gsum gyi rgyal po'i sgrub thabs rdzogs so/ /paN+Di ta chen po ku mu ta/ 'byung ba'i blo gros zhabs kyis mdzad pa'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31410</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>81</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>89</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3015</ref>
+    <rnb>2231</rnb>
+    <tib>sgrub thabs kun las btus pa zhes bya ba</tib>
+    <skt>sA d+ha na sa muts+tsha ya nA ma</skt>
+    <coloph>dam tshig gsum gyi rgyal po'i sgrub thabs rdzogs so/ /paN+Di ta chen po ku mu ta/ 'byung ba'i blo gros zhabs kyis mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>69</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>76</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>69</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>76</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4221</ref>
+    <rnb>2222</rnb>
+    <tib>sgrub thabs kun las btus pa zhes bya ba</tib>
+    <skt>sA d+ha na sa muts+tsha ya nA ma</skt>
+    <coloph>dam tshig gsum gyi rgyal po'i sgrub thabs rdzogs so/_/paN+Di ta chen po ku mu ta 'byung ba'i blo gros zhabs kyis mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>76</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>84</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>ka mu ta 'byung ba'i blo gros/(kumudākaramati)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

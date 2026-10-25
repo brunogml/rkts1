@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3247</ref>
+    <rnb>1</rnb>
+    <tib>bka' yang dag pa'i tshad ma zhes bya ba mkha' 'gro ma'i man ngag</tib>
+    <skt>A ha pra ma NA saM myag+nA ma DA ki n+yu pa de sha</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95871</vol>
+        <sec>1</sec>
+        <debp>1730</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1736</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2284</ref>
+    <rnb>1218</rnb>
+    <tib>bka' yang dag pa'i tshad ma zhes bya ba mkha' 'gro ma'i man ngag</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66083</vol>
+        <sec>rgyud</sec>
+        <debp>271</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>272</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2331</ref>
+    <rnb>1228</rnb>
+    <tib>bka' yang dag pa'i tshad ma zhes bya ba mkha' 'gro ma'i man ngag</tib>
+    <skt>A ha pra ma Na saM myag+nA ma DA ki n+yu pa de sha</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1368</vol>
+        <sec>rgyud</sec>
+        <debp>271</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>273</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210103</vol>
+        <sec>rgyud</sec>
+        <debp>271</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>273</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211407</vol>
+        <sec>rgyud</sec>
+        <debp>271</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>273</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

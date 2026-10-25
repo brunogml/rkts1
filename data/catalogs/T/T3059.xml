@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2071</ref>
+    <rnb>1</rnb>
+    <tib>bla ma dam pa la bstod pa</tib>
+    <skt/>
+    <coloph>lha'i yul mthar gnas pa'i shAkya'i dge long dge legs dpal mgon gyi gsol ba btab te ha ri puny+dza'i yul gyi shAkya'i dge slong chos kyi nyi ma zhes bya bs rnam par bkra ba bkod pa mgo la thob bo zhes/ bdag dang 'gro ba rnams la dge bar gyur cig</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95846</vol>
+        <sec>1</sec>
+        <debp>772</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>774</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1179</ref>
+    <rnb>71</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1317</vol>
+        <sec>bstod tshogs</sec>
+        <debp>258</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>258</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210052</vol>
+        <sec>bstod tshogs</sec>
+        <debp>258</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>258</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211356</vol>
+        <sec>bstod tshogs</sec>
+        <debp>258</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>258</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

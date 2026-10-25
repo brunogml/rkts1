@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm10.31</ref>
+    <rnb>257</rnb>
+    <tib>rin po che ral gri 'bar bas rgyud sde spros pa gcod pa zhes bya ba</tib>
+    <skt>dzwa la ma ta ri sa ta d+ha i rad pan tsa tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-11</vol>
+        <sec>rnying rgyud</sec>
+        <debp>348</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>350</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb038.009</ref>
+    <rnb>543</rnb>
+    <tib>rin po che ral gri 'bar bas rgyud sde spros pa gcod pa zhes bya ba</tib>
+    <skt>dz+wa ka ma ta ris tad+ha ya ri da pan tsa tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21643</vol>
+        <sec>1</sec>
+        <debp>66</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>68</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gsg</coll>
+    <ref>Gsg10.32</ref>
+    <rnb>239</rnb>
+    <tib>rin po che ral gri 'bar bas rgyud sde spros pa gcod pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG16449</setid>
+        <vol>1KG16494</vol>
+        <sec>tha</sec>
+        <debp>359</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>361</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

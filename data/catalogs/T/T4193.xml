@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3354</ref>
+    <rnb>2289</rnb>
+    <tib>stobs po che'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>57</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>58</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3388</ref>
+    <rnb>2298</rnb>
+    <tib>stobs po che'i sgrub thabs</tib>
+    <skt>ma hA ba la sA d+ha naM</skt>
+    <coloph>stobs po che'i sgrub thabs rdzogs so/ /paN+Di ta don yod rdo rje dang / khams pa lo tsA ba dge slong ba ris bsgyur cing zhus so</coloph>
+    <colophTitle>stobs po che'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>56</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>56</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>56</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta don yod rdo rje</name>
+        <role>translator</role>
+        <rid>bdr:P8224</rid>
+      </translator>
+      <translator>
+        <name>khams pa lo tsA ba dge slong ba ri</name>
+        <role>translator</role>
+        <rid>bdr:P3731</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3003</ref>
+    <rnb>2219</rnb>
+    <tib>stobs po che'i sgrub thabs</tib>
+    <skt>ma hA ba la sA d+ha naM</skt>
+    <coloph>stobs po che'i sgrub thabs rdzogs so/ /paN+Di ta don yod rdo rje dang / khams pa lo tsA ba dge slong ba ris bsgyur cing zhus so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>63</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>64</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>63</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>64</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4209</ref>
+    <rnb>2210</rnb>
+    <tib>stobs po che'i sgrub thabs</tib>
+    <skt>ma hA ba la sA d+ha naM</skt>
+    <coloph>stobs po che'i sgrub thabs rdzogs so/ /paN+Di ta don yod rdo rje dang / khams pa lo tsA ba dge slong ba ris bsgyur cing zhus so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>70</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>71</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>don yod rdo rje/(amoghavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

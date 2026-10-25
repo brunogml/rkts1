@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A716</ref>
+    <rnb>714</rnb>
+    <tib>klus byin pa'i gzungs klu'i snying po</tib>
+    <skt>nA ga dat+ta d+hA ra Ni nA ga hr-i da ya nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96874</vol>
+        <sec>1</sec>
+        <debp>1037</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1038</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D685</ref>
+    <rnb>696</rnb>
+    <tib>klus byin pa'i gzungs klu'i snying bo zhes bya ba</tib>
+    <skt>nA ga da t+ta d+hA ra Ni nA ga hr-i da ya nA ma</skt>
+    <coloph>klus byin pa'i gzungs klu'i snying po rdzogs so// klu sgrub zhabs kyis sa 'og nas spyan drangs/ /ces pa'ang kun khyab kyis bskul ba ltar bstan pa'i nyin byed kyis bsgyur ba'o// na mi rat+na tra yA ya/ 				&#13;
+oM ye ng+ha he tu bra b+ha wA he tu n+te ShA n+ta ga to d+ya wa da ta/ te ShA ny+tsa lo ni ro ng+ha e wAM bA hI ma hA shra ma NaHswA hA// //oM badzrA ye swA hA// dge'o/ /mang+ga laM</coloph>
+    <colophTitle>klus byin pa'i gzungs klu'i snying bo zhes bya ba</colophTitle>
+    <margin></margin>
+    <note>not in parphud edition</note>
+    <locations>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6438</vol>
+        <sec>rgyud</sec>
+        <debp>290</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>291</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20704</vol>
+        <sec>rgyud</sec>
+        <debp>290</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>291</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9217</vol>
+        <sec>rgyud</sec>
+        <debp>290</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>291</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bstan pa'i nyin byed</name>
+        <role>translator</role>
+        <rid>#</rid>
+      </translator>
+    </translators>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

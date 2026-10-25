@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt127.39</ref>
+    <rnb>4240</rnb>
+    <tib>gnyan sa btsal thabs gser thur</tib>
+    <skt/>
+    <coloph>dad ldan grogs po'i rkyen gyis bskul ba'i ngor/ dkar chag yi ge ris su bris pa 'di/ rig 'dzin mkha' 'gro rnams la mthol lo bshags/ bka' srung gnyan pos bka' chad ma btang cig dge bas 'gro kun rig 'dzin sa thob shog/</coloph>
+    <colophTitle/>
+    <margin>gnyan sa</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4820</vol>
+        <sec>39</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>5</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt31.5</ref>
+    <rnb>1455</rnb>
+    <tib>gnyan sa btsal thabs gser thur</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>gnyan sa</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4724</vol>
+        <sec>5</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

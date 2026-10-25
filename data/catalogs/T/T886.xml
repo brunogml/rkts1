@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2941</ref>
+    <rnb>1</rnb>
+    <tib>gshin rje gshed dmar po'i sgrub thabs</tib>
+    <skt>rak+ta ya mA ri sA d+ha naM</skt>
+    <coloph>gshin rje gshed dmar po'i sgrub pa'i thabs dpal rnam par snang mdzad srung bas mdzad pa rdzogs so/ /rgya gar gyi mkhan po bla ma rje btsun chen po nyi ma'i dbang po'i 'od zer gyi zhal snga nas/ chag lo tsA ba dge slong chos rje dpal gyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95869</vol>
+        <sec>1</sec>
+        <debp>1149</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1152</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G890</ref>
+    <rnb>892</rnb>
+    <tib>gshin rje gshed dmar po'i sgrub thabs</tib>
+    <skt>rak+ta ya mA ri sA d+ha naM</skt>
+    <coloph>gshin rje gshed dmar po'i sgrub pa'i thabs dpal rnam par snang mdzad srung bas mdzad pa rdzogs so/ /rgya gar gyi mkhan po bla ma rje btsun chen po nyi ma'i dbang po'i 'od zer snga nas/ chag lo tsA ba dge slong chos rje dpal gyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31382</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>531</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>533</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

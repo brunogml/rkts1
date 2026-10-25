@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G63</ref>
+    <rnb>63</rnb>
+    <tib>dpal shA kya thub pa'i bstod pa bcu pa zhes bya ba</tib>
+    <skt/>
+    <coloph>dpal shAkya thub pa'i bstod pa bcu pa zhes bya ba rdzogs so/ 'di ni dpal nags kyi rin po che'i zhabs kyis mdzad pa ste/ da ri drag pa rgya mtsho'i sde bsgyur//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31338</vol>
+        <sec>bstod tshogs</sec>
+        <debp>368</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>368</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N852</ref>
+    <rnb>63</rnb>
+    <tib>dpal shA kya thub pa'i bstod pa bcu pa zhes bya ba</tib>
+    <skt/>
+    <coloph>dpal shAkya thub pa'i bstod pa bcu pa zhes bya ba rdzogs so/ 'di ni dpal nags kyi rin po che'i zhabs kyis mdzad pa ste/ da ri drag pa rgya mtsho'i sde bsgyur</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3252</vol>
+        <sec>bstod tshogs</sec>
+        <debp>277</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>278</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212285</vol>
+        <sec>bstod tshogs</sec>
+        <debp>277</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>278</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2062</ref>
+    <rnb>62</rnb>
+    <tib>dpal shAkya thub pa'i bstod pa bcu pa</tib>
+    <skt/>
+    <coloph>dpal shAkya thub pa'i bstod pa bcu pa zhes bya ba rdzogs so/_'di ni dpal nags kyi rin po che'i zhabs kyis mdzad pa ste/_da ri drag pa rgya mtsho'i sdes bsgyur</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13170</vol>
+        <sec>bstod tshogs</sec>
+        <debp>294</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>295</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya mtsho sde/(daridrapa sāgarasena)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nags kyi rin po che/(śrīvanaratna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

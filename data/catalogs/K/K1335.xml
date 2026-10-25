@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.112</ref>
+    <rnb>114</rnb>
+    <tib>rgyal po rnam this sras kyis dpal phyag na rdo rjes rgyal po la bstod pa mdzad pa</tib>
+    <skt>bai shra ma Na badzra</skt>
+    <coloph>dpal phyag na rdo rjes rgyal po la bstod pa mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>249</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>250</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg108</ref>
+    <rnb>110</rnb>
+    <tib>rgyal po rnam this sras kyis dpal phyag na rdo rjes rgyal po la bstod pa mdzad pa</tib>
+    <skt>bai shra ma Na badzra</skt>
+    <coloph>dpal phyag na rdo rjes rgyal po la bstod pa mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>235</debp>
+        <debf>a</debf>
+        <debl>9</debl>
+        <finp>235</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.105</ref>
+    <rnb>577</rnb>
+    <tib>rgyal po rnam thos sras kyis dpal phyag na rdo rjes rgyal po la bstod pa mdzad pa</tib>
+    <skt>bai sh+ra ma Na badz+ra</skt>
+    <coloph>dpal phyag na rdo rjes rgyal po la bstod pa mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>56 ce</sec>
+        <debp>3</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>4</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Right part of folio ce 3 missing; it is glued together with the right part of folio ce 2. Rest of folio ce 3 is found later in the ms. See Everding 2015, no.137.</note>
+  </item>
+</catalog>

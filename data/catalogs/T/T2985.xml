@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5070</ref>
+    <rnb>1</rnb>
+    <tib>dpal tshogs kyi bdag po zhi ba'i sgrub thabs</tib>
+    <skt>shri ga na pa ti shan ta na sa d+ha na ma</skt>
+    <coloph>'di jo bos dngos grub 'byung ba'i rgyud la brten nas mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>768</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>771</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2985</ref>
+    <rnb>2986</rnb>
+    <tib>dpal tshogs kyi bdag po zhi ba'i sgrub thabs</tib>
+    <skt>shri ga na pa ti shan ta na sa d+ha na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>125</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>126</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3775</ref>
+    <rnb>2995</rnb>
+    <tib>dpal tshog kyi bdag po zhi ba'i sgrub thabs</tib>
+    <skt>shri ga na pa ti shan ta na sa d+ha na ma</skt>
+    <coloph>'di jo bos dngos grub 'byung ba'i rgyud la brten nas mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>91</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>92</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>91</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>92</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4986</ref>
+    <rnb>2987</rnb>
+    <tib>dpal tshogs kyi bdag po zhi ba'i sgrub thabs</tib>
+    <skt>shri ga na pa ti shan ta na sa d+ha na ma</skt>
+    <coloph>'di jo bos dngos grub 'byung ba'i rgyud la brten nas mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>97</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>99</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>jo bo</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

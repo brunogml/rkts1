@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.96</ref>
+    <rnb>98</rnb>
+    <tib>'phags pa gser 'od dam pa mdo sde dbang po'i rgyal po las g.yang skyabs zhes bya ba</tib>
+    <skt>A rya su warma sa ta na ma ma hA ya sU tra hu ye</skt>
+    <coloph>bkra shis dge legs 'phel</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>223</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>234</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg96</ref>
+    <rnb>98</rnb>
+    <tib>'phags pa gser 'od dam pa mdo sde dbang po'i rgyal po las g.yang skyabs zhes bya ba</tib>
+    <skt>A rya su warma sa ta na ma ma hA ya sU tra hu ye</skt>
+    <coloph>bkra shis</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>208</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>218</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.91</ref>
+    <rnb>563</rnb>
+    <tib>'phags pa gser 'od dam pa mdo sde'i dbang po'i rgyal po las g.yang skyabs zhes bya ba</tib>
+    <skt>Ar+ya su war+Na sa ta nA ma mAhA ya na sU tra hu ye</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin>g.yang</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>48 ge</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>6</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Texts breaks off after f.7/f.269, and it seems like the last part of this text with ff.270-273 is missing. A fragment of f.9/f.271 is found in the volume. See Everding 2015, no.385.</note>
+  </item>
+</catalog>

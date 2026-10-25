@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4805</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje phag mo'i sgrub thabs rim pa lnga pa zhes bya ba rngon pa'i gdams ngag</tib>
+    <skt>lub+d+ha ki pa de sha</skt>
+    <coloph>rdo rje phag mo'i sgrub thabs rim pa lnga pa zhes bya ba rngon pa'i gdams ngag rdzogs so/ /rje btsun bud+d+ha gup+ta'i zhal snga nas dang kun dga' snying pos g.yar khral du 'tshal ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>1293</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1306</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2683</ref>
+    <rnb>2684</rnb>
+    <tib>rngon pa'i man ngag</tib>
+    <skt>lub+d+ha ko pa ed sha</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31413</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>75</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>82</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3473</ref>
+    <rnb>2692</rnb>
+    <tib>rngon pa'i man ngag</tib>
+    <skt>lu b+d+ha ko pa de sha</skt>
+    <coloph> rdo rje phag mo'i sgrub thabs rim pa lnga pa zhes bya ba rngon pa'i gdams ngag rdzogs so/ /rje btsun bud+d+ha gup+ta'i zhal snga nas dang kun dga' snying pos g.yar khral du 'tshal ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3327</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>54</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>60</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212360</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>54</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>60</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4684</ref>
+    <rnb>2685</rnb>
+    <tib>rngon pa'i man ngag</tib>
+    <skt>lub+d+ha ko pa de sha</skt>
+    <coloph>rdo rje phag mo'i sgrub thabs rim pa lnga pa zhes bya ba rngon pa'i gdams ngag rdzogs so/_/rje btsun bud+d+ha gup+ta'i zhal snga nas dang /_kun dga' snying pos g.yar khral du 'tshal ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13245</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>57</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>63</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>kun dga' snying po/(ānandagarbha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

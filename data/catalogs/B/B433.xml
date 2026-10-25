@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm124.2</ref>
+    <rnb>277</rnb>
+    <tib>mkha' 'gro rin chen gsang skor g.yung drung rig pa'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4095</vol>
+        <sec>1</sec>
+        <debp>56</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>67</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks58.3</ref>
+    <rnb>437</rnb>
+    <tib>mkha' 'gro rin chen gsang skor g.yung drung rig pa'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>mkha' rgyud</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75029</vol>
+        <sec>3</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>15</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz158.2</ref>
+    <rnb>298</rnb>
+    <tib>mkha' 'gro rin chen gsang skor g.yung drung rig pa'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58693</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>11</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

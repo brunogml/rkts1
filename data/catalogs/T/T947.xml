@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3010</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i 'grel pa snying po mngon par rtogs pa zhes bya ba</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti TI kA sA ra no pi ka nA ma</skt>
+    <coloph>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i 'grel pa snying po mngon par rtogs pa zhes bya ba/ slob dpon chen po dpal gnyis med rdo rjes mdzad pa rdzogs so//rnal 'byor pa chen po pradz+nyA shrI dz+nyA na kIrtis rang 'gyur du byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95870</vol>
+        <sec>1</sec>
+        <debp>258</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>350</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G951</ref>
+    <rnb>953</rnb>
+    <tib>'phags pa 'jam dpal ye shes sems dpa'i mngon par rtogs pa zhes bya ba</tib>
+    <skt>Ar+ya dz+nyA na sat+wa many+dzu shrI no pi ka nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31383</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>186</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>188</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5415</ref>
+    <rnb>3416</rnb>
+    <tib>dam pa'i chos dran pa nye bar bzhag pa'i tshig le'ur byas pa</tib>
+    <skt>sad+d+harma smri t+yu pas+thA na kA ri kA</skt>
+    <coloph>dam pa'i chos dran pa nye bar gzhag pa'i 'gro ba drug gi tshig le'ur byas pa slob dpon btsun pa chos ldan rab 'byor dbyangs kyis mdzad pa rdzogs so/ /rgya gar gyi mkhan po d+harmA ka ra dang / zhus chen gyi lo tsA ba rtsangs de ben+d+ra rak+Shi tas bsgyur cing gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13290</vol>
+        <sec>mdo 'grel</sec>
+        <debp>100</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>105</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>chos ldan rab 'byor dbyangs/(dhārmikasubhūtighoṣa)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

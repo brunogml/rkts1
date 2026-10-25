@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt283.7</ref>
+    <rnb>7939</rnb>
+    <tib>sa bdag 'khrug bcos snang srid rgyan mdos kyi brgyan skong dngos grub snye ma</tib>
+    <skt/>
+    <coloph>rig 'dzin kun grol gsang ba rtsal gyis gter nas spyan drangs nas spel ba'o//</coloph>
+    <colophTitle/>
+    <margin>skong ba</margin>
+    <locations/>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt55.13</ref>
+    <rnb>2370</rnb>
+    <tib>sa bdag 'khrug bcos snang srid rgyan mdos kyi rgyan skong dngos grub snye ma</tib>
+    <skt/>
+    <coloph>rig 'dzin kun grol gsang ba rtsal gyis gter du spyan drangs nas spel ba'o//</coloph>
+    <colophTitle/>
+    <margin>skong ba</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4748</vol>
+        <sec>13</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

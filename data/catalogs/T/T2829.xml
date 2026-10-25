@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4932</ref>
+    <rnb>1</rnb>
+    <tib>gzhan gyi mi thub pa dang ri rab mchog ma rin po che bzang po'i bsgrub thabs</tib>
+    <skt>a pa ra tsi ta me du b+ho dang ka ra rad na b+ha la sa d+ha naM</skt>
+    <coloph>gnod sbyin yid 'phrog gi sgrub thabs/ slob dpon chen po in dra bo d+his mdzad pa rdzogs so/ /rgya gar gyi mkhan po kha che paNa chen dang / bod kyi lo tsA ba tshul khrims gzhon nus bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95891</vol>
+        <sec>1</sec>
+        <debp>1157</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1161</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2829</ref>
+    <rnb>2830</rnb>
+    <tib>gzhan gyis mi thub pa dang ri rab mchog ma rin po che bzang po'i bsgrub thabs</tib>
+    <skt>a pa ra tsi ta me ru b+ho dang ka ra rad na b+ha la sa d+ha naM</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31420</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>302</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>304</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3619</ref>
+    <rnb>2839</rnb>
+    <tib>gzhan gyi mi thu pa dang ri rab mchog ma rin po che bzang po'i sgrub thabs</tib>
+    <skt>a pa ra tsi ta me ru b+ho dang ka r rad na b+ha la sa d+ha naM</skt>
+    <coloph>gnod sbyin yid 'phrog gi sgrub thabs/ slob dpon chen po in dra bo d+hisa mdzad pa rdzogs so/ /rgya gar gyi mkhan po kha che paNa chen dang / bod kyi lo tsA ba tshul khrims gzhon nus bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>208</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>210</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212367</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>208</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>210</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4830</ref>
+    <rnb>2831</rnb>
+    <tib>gzhan gyis mi thub pa dang ri rab mchog ma rin po che bzang po'i bsgrub thabs</tib>
+    <skt>a pa ra tsi ta me ru b+ho dad ka ra rad na b+ha la sa d+ha naM</skt>
+    <coloph>gnod sbyin yid 'phrog gi sgrub thabs/ slob dpon chen po in dra bo d+hisa mdzad pa rdzogs so/ /rgya gar gyi mkhan po kha che paNa chen dang / bod kyi lo tsA ba tshul khrims gzhon nus bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13252</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>223</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>224</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>tshul khrims gzhon nu/(śīlakumāra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>indrabodi (indrabhūti)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

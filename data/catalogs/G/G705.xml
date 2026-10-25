@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm35.2</ref>
+    <rnb>606</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-36</vol>
+        <sec>rnying rgyud</sec>
+        <debp>6</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>12</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb045.019</ref>
+    <rnb>705</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>143</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>150</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

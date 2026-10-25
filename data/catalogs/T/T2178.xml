@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4299</ref>
+    <rnb>1</rnb>
+    <tib>gtum po chen po'i sgrub thabs</tib>
+    <skt>tsaN+Da ma hA ro Sha Na sA d+ha naM</skt>
+    <coloph>gtum po chen po'i sgrub thabs rdzogs so/ /paN+Di ta don yod rdo rje dang / khams pa lo tsA ba dge slong ba ris bsgyur cing zhus pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95885</vol>
+        <sec>1</sec>
+        <debp>184</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>185</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2181</ref>
+    <rnb>2183</rnb>
+    <tib>gtum po khro bo chen po'i sgrub thabs</tib>
+    <skt>tsaN+DA ma hA ro Sha Na sA d+ha naM</skt>
+    <coloph>gtum po chen po'i sgrub thabs rdzogs so/ /paN+Di ta don yod rdo rje dang / khams pa lo tsA ba dge slong ba ris bsgyur cing zhus pa'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31410</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>51</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>51</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

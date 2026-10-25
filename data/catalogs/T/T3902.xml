@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5252</ref>
+    <rnb>1</rnb>
+    <tib>las sna tshogs spyod pa'i man ngag</tib>
+    <skt>karmA bi sh+wa tsar+ya u pa de sha</skt>
+    <coloph>las sna tshogs spyod pa'i man ngag slob dpon seng ge go chas mdzad pa rdzogs so/ /rgya gar gyi mkhan po paN+Di ta dza ya nan+ta dang / bod kyi lo tsA ba dge slong rmongs pa'i gnyan po dgos 'dod thams cad 'byung bas bsgyur cing btan la phab pa'o/ 'di'i nang gi rdzas kha yar dang lag len la yig chung phran bu zur na yod lags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>1033</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1043</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3180</ref>
+    <rnb>3181</rnb>
+    <tib>las sna tshogs spyod pa'i man ngag</tib>
+    <skt>karmA bi sh+wa tsa r+ya u pa de sha</skt>
+    <coloph>las sna tshogs spyod pa'i man ngag slob dpon seng ge go chas mdzad pa rdzogs so/ /rgya gar gyi mkhan po paN+Di ta dza ya nan+ta dang / bod kyi lo tsA ba dge slong rmongs pa'i gnyan po dgos 'dod thams cad 'byung bas bsgyur cing btan la phab pa'o/ 'di'i nang gi rdzas kha yar dang lag len la yig chung phran bu zur na yod lags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>368</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>374</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3971</ref>
+    <rnb>3191</rnb>
+    <tib>las sna tshogs spyod pa'i man ngag</tib>
+    <skt>karmA bi shA tsar+ya u pa de sha</skt>
+    <coloph>las sna tshogs spyod pa'i man ngag slob dpon seng ge go chas mdzad pa rdzogs so/ /rgya gar gyi mkhan po paN+Di ta dza ya nan+ta dang / bod kyi lo tsA ba dge slong rmongs pa'i gnyan po dgos 'dod thams cad 'byung bas bsgyur cing btan la phab pa'o/ 'di'i nang gi rdzas kha yar dang lag len la yig chung phran bu zur na yod lags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>218</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>223</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>218</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>223</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5182</ref>
+    <rnb>3183</rnb>
+    <tib>las sna tshogs spyod pa'i man ngag</tib>
+    <skt/>
+    <coloph>las sna tshogs spyod pa'i man ngag slob dpon seng ge go chas mdzad pa rdzogs so/ /rgya gar gyi mkhan po paN+Di ta dza ya nan+ta dang / bod kyi lo tsA ba dge slong rmongs pa'i gnyan po dgos 'dod thams cad 'byung bas bsgyur cing btan la phab pa'o/ 'di'i nang gi rdzas kha yar dang lag len la yig chung phran bu zur na yod lags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>223</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>228</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>jayananta (jayānanda)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>seng ge go cha/(harivarman)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

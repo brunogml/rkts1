@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2418</ref>
+    <rnb>1</rnb>
+    <tib>gtor ma'i cho ga rin chen as+ma gar+b+ha</tib>
+    <skt/>
+    <coloph>dpal mkha' 'gro rgya mtsho'i rgyud kyi gtor ma'i cho ga rin po che asma gar+b+ha mkhas pa dza ya se nA'i gsung dpal ye shes rdo rjes bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95857</vol>
+        <sec>1</sec>
+        <debp>111</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>115</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1460</ref>
+    <rnb>404</rnb>
+    <tib>gtor ma'i cho ga rin chen a sma gar+b+ha</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66054</vol>
+        <sec>rgyud</sec>
+        <debp>36</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>38</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1518</ref>
+    <rnb>413</rnb>
+    <tib>gtor ma'i cho ga rin chen a sma gar+b+ha</tib>
+    <skt/>
+    <coloph>dpal mkha' 'gro rgya mtsho'i rgyud kyi gtor ma'i cho ga rin po che Asma ganbha mkhas pa dza ya se na'i gsung dpal ye shes rdo rjes bsgyur ba rdzogs so//</coloph>
+    <colophTitle>dpal mkha' 'gro rgya mtsho'i rgyud kyi gtor ma'i cho ga rin po che asma gan+b+ha</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1339</vol>
+        <sec>rgyud</sec>
+        <debp>36</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>37</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210074</vol>
+        <sec>rgyud</sec>
+        <debp>36</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>37</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211378</vol>
+        <sec>rgyud</sec>
+        <debp>36</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>37</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dpal ye shes rdo rje</name>
+        <role>translator</role>
+        <rid>bdr:P4307</rid>
+      </translator>
+      <translator>
+        <name>mkhas pa dza ya se na</name>
+        <role>author</role>
+        <rid>bdr:P7878</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G235</ref>
+    <rnb>235</rnb>
+    <tib>dpal mkha' 'gro rgya mtsho'i rgyud kyi gtor ma'i cho ga rin po che asma gar+b+ha</tib>
+    <skt/>
+    <coloph>dpal mkha' 'gro rgya mtsho'i rgyud kyi gtor ma'i cho ga rin po che asma gar+b+ha mkhas pa dza ya se nA'i gsung dpal ye shes rdo rjes bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31352</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>53</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>54</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1024</ref>
+    <rnb>235</rnb>
+    <tib>dpal mkha' 'gro rgya mtsho'i rgyud kyi gtor ma'i cho ga rin po che asma garbha</tib>
+    <skt/>
+    <coloph>dpal mkha' 'gro rgya mtsho'i rgyud kyi gtor ma'i cho ga rin po che asma gar+b+ha mkhas pa dza ya se nA'i gsung dpal ye shes rdo rjes bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3266</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>40</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>41</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212299</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>40</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>41</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2233</ref>
+    <rnb>233</rnb>
+    <tib>dpal mkha' 'gro rgya mtsho'i rgyud kyi gtor ma'i cho ga rin po che asma garb+ha</tib>
+    <skt/>
+    <coloph>dpal mkha' 'gro rgya mtsho'i rgyud kyi gtor ma'i cho ga rin po che asma gar+b+ha mkhas pa dza ya se nA'i gsung dpal ye shes rdo rjes bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13184</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>47</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>48</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>ye shes rdo rje/(jñānavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>jayasena</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

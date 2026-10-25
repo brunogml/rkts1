@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A346</ref>
+    <rnb>345</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan+da pra bra dz+yA sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so/ /rtsangs de ben dra rak+Shi tas zhus chen bgyis pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96855</vol>
+        <sec>1</sec>
+        <debp>724</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>731</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B335</ref>
+    <rnb>334</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-80</vol>
+        <sec>mdo sde</sec>
+        <debp>336</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>340</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba107.1</ref>
+    <rnb>580</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>1BL432</vol>
+        <sec>1</sec>
+        <debp>5</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C967</ref>
+    <rnb>967</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105115</vol>
+        <sec>mdo</sec>
+        <debp>306</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>309</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-52</vol>
+        <sec>mdo</sec>
+        <debp>306</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>309</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz076-008</ref>
+    <rnb>522</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan da pra bra dzya sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so// 'di bka' dang por gtogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-76</vol>
+        <sec>mdo sde</sec>
+        <debp>149</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>153</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D328</ref>
+    <rnb>329</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan+da pra bra dz+yA sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so// //rtsangs de ben dra ra k+Shi tas zhus chen bgyis pa</coloph>
+    <colophTitle>dga' bo rab tu byung ba'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0957</vol>
+        <sec>mdo sde</sec>
+        <debp>254</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>257</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6419</vol>
+        <sec>mdo sde</sec>
+        <debp>254</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>257</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20671</vol>
+        <sec>mdo sde</sec>
+        <debp>254</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>257</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9198</vol>
+        <sec>mdo sde</sec>
+        <debp>254</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>257</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd054-028</ref>
+    <rnb>246</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan+da pra bra dzyA sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so/ /rtsangs de ben dra rak+Shi tas zhus chen bgyis pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-54</vol>
+        <sec>mdo sde</sec>
+        <debp>320</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>323</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk028-008</ref>
+    <rnb>83</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan da pra bra dzya sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so// 'di bka' dang por gtogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-28</vol>
+        <sec>mdo sde</sec>
+        <debp>161</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>165</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm23.40</ref>
+    <rnb>222</rnb>
+    <tib>dga' bo rab tu byung ba 'i mdo'</tib>
+    <skt>nan ta pra bra dz+ya su tra</skt>
+    <coloph>dga' bo rab tu byung ba 'i mdo' /_rdzogs s+ho //</coloph>
+    <colophTitle>dga' bo rab tu byung ba 'i mdo'</colophTitle>
+    <margin>dga' bo</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL933</vol>
+        <sec>mdo</sec>
+        <debp>313</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>316</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr996</ref>
+    <rnb>1044</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM88</vol>
+        <sec>mdo</sec>
+        <debp>381</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>386</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F338</ref>
+    <rnb>343</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan da pra bra dz+ya su tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14100</vol>
+        <sec>mdo sde</sec>
+        <debp>163</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>167</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Go</coll>
+    <ref>Go25,14</ref>
+    <rnb>196</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo'</tib>
+    <skt>nan d+ha pra bra dz+ya su tram</skt>
+    <coloph>rgya gar gi mkhan po dar ma ka ra ba dang / lo tsa ba ban d+he rtsangs te ben dras zhus te / gtan la phab pa //</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG5016</setid>
+        <vol>2KG212536</vol>
+        <sec>1</sec>
+        <debp>269</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>271</finp>
+        <finf>a</finf>
+        <finl>9</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt022-008</ref>
+    <rnb>24</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan da pra bra dzya sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so// 'di bka' dang por gtogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-2-6</vol>
+        <sec>mdo sde</sec>
+        <debp>137</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>141</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>H</coll>
+    <ref>H332</ref>
+    <rnb>334</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>-</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so/ /rtsangs de ben+d+ra rak+Shi tas zhus chen bgyis pa/ </coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW26071</setid>
+        <vol>4098</vol>
+        <sec>mdo sde</sec>
+        <debp>389</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>393</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>He</coll>
+    <ref>He79.02</ref>
+    <rnb>275</rnb>
+    <tib/>
+    <skt/>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45313</setid>
+        <vol>4CZ75336</vol>
+        <sec>mdo</sec>
+        <debp>9</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>9</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>page missing</note>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J268</ref>
+    <rnb>290</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan da pra pra dz+yA sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs s+ho//_rtsangs de ben dra ra k+Shi tas zhus chen bgyis pa//</coloph>
+    <colophTitle>dga' bo rab tu byung ba'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9934</vol>
+        <sec>mdo sde</sec>
+        <debp>271</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>274</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rtsangs de ben dra ra k+Shi ta</name>
+        <role>revisor</role>
+        <rid>bdr:P8212</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>L</coll>
+    <ref>L31</ref>
+    <rnb>33</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan da pra bra dz+ya sU tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1018</vol>
+        <sec>mdo sde</sec>
+        <debp>125</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>128</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N313</ref>
+    <rnb>313</rnb>
+    <tib>dga'i bo rab tu byung ba'i mdo</tib>
+    <skt>-</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so/ /rtsangs de ben dra rak+Shi tas zhu chen bgyis pa/</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22703</setid>
+        <vol>5475</vol>
+        <sec>mdo sde</sec>
+        <debp>401</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>405</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5014</setid>
+        <vol>2KG212630</vol>
+        <sec>mdo sde</sec>
+        <debp>401</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>405</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng22.40</ref>
+    <rnb>217</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo'</tib>
+    <skt>nan da pra bra dz+ya su tra</skt>
+    <coloph>dga' bo rab tu byung ba'-i mdo' // rdzogs s+ho //</coloph>
+    <colophTitle/>
+    <margin>dga'</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229052</vol>
+        <sec>mdo</sec>
+        <debp>257</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>260</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np006-008</ref>
+    <rnb>24</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan da pra bra dzya sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so// 'di bka' dang por gtogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-6</vol>
+        <sec>mdo sde</sec>
+        <debp>149</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>153</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj068-028</ref>
+    <rnb>562</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan+da pra bra dzyA sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so/ /rtsangs de ben dra rak+Shi tas zhus chen bgyis pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-68</vol>
+        <sec>mdo sde</sec>
+        <debp>313</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>317</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz068-028</ref>
+    <rnb>558</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan+da pra bra dzyA sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so/ /rtsangs de ben dra rak+Shi tas zhus chen bgyis pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-68</vol>
+        <sec>mdo sde</sec>
+        <debp>270</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>273</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q994</ref>
+    <rnb>1047</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt/>
+    <coloph>'phags pa skyes bu dam pa'i mdo rdzogs s.ho|| ||rgya gar gyi mkhan po d+harmA ka ra dang lo ts+tsha ba ban de bzang skyong gyis bsgyur| |ban de dpal brtsegs kyis zhu chen bgyis||</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96684</setid>
+        <vol>1PD106740</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>263</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>265</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW3CN1094</setid>
+        <vol>3CN1184</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>263</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>265</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R328</ref>
+    <rnb>329</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nanda pra bra dzyA sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so/ /rtsangs de ben dra rak+Shi tas zhus chen bgyis pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17336</vol>
+        <sec>mdo sde</sec>
+        <debp>254</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>257</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S57</ref>
+    <rnb>105</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan da pra b+ha dz+a sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so/ /'di bka' dang por gtogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3764</vol>
+        <sec>mdo sde</sec>
+        <debp>147</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>151</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty024-008</ref>
+    <rnb>81</rnb>
+    <tib>dga' bo rab tu 'byung ba'i mdo</tib>
+    <skt>nan da pra bra dz+ya sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so// //'di dka' dang por gtogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209886</vol>
+        <sec>mdo sde</sec>
+        <debp>150</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>154</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U328</ref>
+    <rnb>329</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt/>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so/ /rtsangs de ben dra rak+Shi tas zhus chen bgyis pa/</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL292</vol>
+        <sec>mdo sde</sec>
+        <debp>254</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>257</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5366</vol>
+        <sec>mdo sde</sec>
+        <debp>254</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>257</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V105</ref>
+    <rnb>105</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo</tib>
+    <skt>nan da pra dz+ya sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs s+ho/ 'di bka' dang por gtogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86284</vol>
+        <sec>mdo sde</sec>
+        <debp>129</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>132</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z88</ref>
+    <rnb>88</rnb>
+    <tib>dga' bo rab tu 'byung ba'i mdo</tib>
+    <skt>nan+da pra b+ha dz+ya sU tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo rdzogs so// //'di bka' dang por gtogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127512</vol>
+        <sec>mdo sde</sec>
+        <debp>156</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>159</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>The colophon in D provides the name of a reviser.</note>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg23.10</ref>
+    <rnb>210</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo'</tib>
+    <skt>nan ta pra bra dz+ya su tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo' /_rdzogs s+ho //</coloph>
+    <colophTitle>dga' bo rab tu byung ba 'i mdo'</colophTitle>
+    <margin>dga' bo</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211196</vol>
+        <sec>mdo</sec>
+        <debp>316</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>319</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg53.10</ref>
+    <rnb>610</rnb>
+    <tib>dga' bo rab tu byung ba'i mdo'</tib>
+    <skt>nan ta phra bra dz+ya su tra</skt>
+    <coloph>dga' bo rab tu byung ba'i mdo' rdzogs+ho//</coloph>
+    <colophTitle>dga' bo rab tu byung ba'i mdo'</colophTitle>
+    <margin>dga'</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211222</vol>
+        <sec>mdo</sec>
+        <debp>251</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>253</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

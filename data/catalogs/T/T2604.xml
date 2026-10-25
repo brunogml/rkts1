@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4732</ref>
+    <rnb>1</rnb>
+    <tib>mi pham mgon po la bstod pa 'chi slu ma zhes bya ba</tib>
+    <skt/>
+    <coloph>mi pham mgon po la bstod pa 'chi slu ma zhes bya ba/ dpal 'jigs med grags pas sbyar ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>527</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>528</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2604</ref>
+    <rnb>2605</rnb>
+    <tib>mi pham mgon po la bstod pa'i 'chi slu ma zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31412</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>6</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3394</ref>
+    <rnb>2613</rnb>
+    <tib>mi pham mgon po la bstod pa 'chi slu ma</tib>
+    <skt/>
+    <coloph>mi pham mgon po la bstod pa 'chi slu ma zhes bya ba/ dpal 'jigs med grags pas sbyar ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>4</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>5</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212359</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>4</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>5</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4605</ref>
+    <rnb>2606</rnb>
+    <tib>mi pham mgon po la bstod pa'i 'chi slu ma zhes bya ba</tib>
+    <skt/>
+    <coloph>mi pham mgon po la bstod pa 'chi slu ma zhes bya ba/ dpal 'jigs med grags pas sbyar ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13244</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>4</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>'jigs med grags pa/(abhayakīrti)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

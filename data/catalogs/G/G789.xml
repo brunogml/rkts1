@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm43.8</ref>
+    <rnb>767</rnb>
+    <tib>gnod sbyin gyi sde dpon chen po 'phags pa lag na rdo rje gos sngon po can rdo rje rtse mo zhes bya ba'i rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-44</vol>
+        <sec>rnying rgyud</sec>
+        <debp>91</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>102</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt43.8</ref>
+    <rnb>774</rnb>
+    <tib>gnod sbyin gyi sde dpon chen po 'phags pa lag na rdo rje gos sngon po can rdo rje rtse mo zhes bya ba'i rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-43</vol>
+        <sec>rnying rgyud</sec>
+        <debp>78</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>87</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb049.021</ref>
+    <rnb>785</rnb>
+    <tib>gnod sbyin gyi sde dpon chen po 'phags pa lag na rdo rje gos sngon po can rdo rje rtse mo zhes bya ba'i rgyud kyi rgyal po</tib>
+    <skt>Ar+ya nI laM ba ra badzra pA Ni a hA yak+Sha se na pa ti badzra sha wa ra nA ma tan+t+ra rA dza</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>330</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>342</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>gtan la phab pa'i rtog pa ste le'u dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>335</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>gtan la dbab pa'i le'u gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>336</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>rdo rje rtse mo'i las kyi gzungs chen po'i le'u ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>342</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

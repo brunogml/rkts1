@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm135.8</ref>
+    <rnb>381</rnb>
+    <tib>rdzogs pa chen po zhang zhung snyan rgyud las mdo 'grel gsas ba'i sgron me</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4106</vol>
+        <sec>1</sec>
+        <debp>169</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>196</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks110.15</ref>
+    <rnb>753</rnb>
+    <tib>rdzogs pa chen po zhang zhung snyan rgyud kyi phyi lta ba spyi gcod gyi mdo 'grel gsal ba'i sgron ma</tib>
+    <skt/>
+    <coloph>mdo 'grel gsal ba'i sgron ma rnam grangs so so'i bye brag man ngag rgyas par bshad par rdzogs so // [7v] ces sprul pa'i sku'i gyer spungs gshen la gsung / gyer spungs nyid kyis / pha wa rgyal tig gsas chung la sogs / zhang zhung grub chen drug la rim rgyud / de nas gu ge blo ldan la sogs / 'khrul zhing drug la rgyud / de nas spang lha nam gshen / des lung sgom rtog med / des snyel sgom 'khrul med / des snyag sgom ri pa / des mtshan ldan u ri bsod rgyal / des kong tsa bkra dar / des co ston smon lam blo gros / des tre ston rgyal mtshan dpal / des mkhan po nyi dpal la / des gar tsha rtogs ldan bsod blo gros / de nas rim par rgyud nas bdag la'o // … spa ston bstan rgyal bzang po'i phyag dpe la zhal bshus pa bu dpe la zhal bshus so</coloph>
+    <colophTitle/>
+    <margin>ja spyi gcod</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75081</vol>
+        <sec>15</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>25</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>the colophon, although not entirely legible, mentions that the text was copied from the secondary copy (bu dpe) made from the personal copy of spa bstan-rgyal bzang-po. the title is listed in kgkc as rtsa rlung sngon 'gro 'phrul 'khor lde mig mdo 'grel gsal sgron, and in ntkc, man ngag 'phrul 'khor gyi lde mig mnyam bzhag sgom pa'i lag len mdo 'grel gsal ba'i sgron ma. however, these titles do not refer to a single text, but to the group of texts that includes 110.14, 110.15, and 110.16.</note>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz174.9</ref>
+    <rnb>422</rnb>
+    <tib>rdzogs pa chen po zhang zhung snyan rgyud las mdo 'grel gsal ba'i sgron ma</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58709</vol>
+        <sec>nya</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>22</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

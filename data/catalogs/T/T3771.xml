@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5934</ref>
+    <rnb>1</rnb>
+    <tib>mig 'byed mthong ba don ldan</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95965</vol>
+        <sec>1</sec>
+        <debp>898</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>906</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4443</ref>
+    <rnb>3359</rnb>
+    <tib>mig 'byed mthong ba don ldan bzhugs so</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1529</vol>
+        <sec>mdo 'grel</sec>
+        <debp>355</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>358</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210264</vol>
+        <sec>mdo 'grel</sec>
+        <debp>355</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>358</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211568</vol>
+        <sec>mdo 'grel</sec>
+        <debp>355</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>358</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3897</ref>
+    <rnb>3892</rnb>
+    <tib>mig 'byed mthong ba don ldan</tib>
+    <skt/>
+    <coloph>rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31556</vol>
+        <sec>sman dpyad</sec>
+        <debp>407</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>412</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4681</ref>
+    <rnb>3901</rnb>
+    <tib>mig 'byed mthong ba don ldan bzhugs so</tib>
+    <skt/>
+    <coloph>rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3470</vol>
+        <sec>mdo 'grel</sec>
+        <debp>324</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>328</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212503</vol>
+        <sec>mdo 'grel</sec>
+        <debp>324</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>328</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5883</ref>
+    <rnb>3885</rnb>
+    <tib>mig 'byed mthong ba don ldan</tib>
+    <skt/>
+    <coloph>rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13388</vol>
+        <sec>mdo 'grel</sec>
+        <debp>334</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>338</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>manthāna</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4700</ref>
+    <rnb>1</rnb>
+    <tib>byang chub chen po mdor bstan pa zhes bya ba</tib>
+    <skt>ma hA bo d+hi ud+de sha nA ma</skt>
+    <coloph>tshigs bcad 'di thams cad shi ha la'i dge slong nA ka taM gyis so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95886</vol>
+        <sec>1</sec>
+        <debp>923</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>932</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3723</ref>
+    <rnb>2659</rnb>
+    <tib>byang chub chen po mdor bstan pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66110</vol>
+        <sec>rgyud</sec>
+        <debp>107</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>110</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3757</ref>
+    <rnb>2668</rnb>
+    <tib>byang chub chen po mdor bstan pa</tib>
+    <skt>ma hA bo d+hi ud+de sha nA ma</skt>
+    <coloph>byang chub chen po mdor bstan pa rdzogs so</coloph>
+    <colophTitle>byang chub chen po mdor bstan pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1395</vol>
+        <sec>rgyud</sec>
+        <debp>106</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>110</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210130</vol>
+        <sec>rgyud</sec>
+        <debp>106</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>110</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211434</vol>
+        <sec>rgyud</sec>
+        <debp>106</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>110</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rmad du byung ba'i bsod nams</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>ye shes chen po'i dpung</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

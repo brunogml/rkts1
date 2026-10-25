@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4868</ref>
+    <rnb>1</rnb>
+    <tib>sgyu 'phrul dpe chung rang gnas kyi rim pa</tib>
+    <skt/>
+    <coloph>sgyu 'phrul dpe chung rang gnas kyi rim pa'o/ sgeg pa rdo rje mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95888</vol>
+        <sec>1</sec>
+        <debp>1227</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1237</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2450</ref>
+    <rnb>2452</rnb>
+    <tib>rta mchog gi sgrub thabs</tib>
+    <skt>pa ra mA sh+wa sA d+ha naM</skt>
+    <coloph>rta mchog gi sgrub thabs rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31410</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>346</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>346</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

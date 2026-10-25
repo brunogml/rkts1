@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm32.2</ref>
+    <rnb>440</rnb>
+    <tib>dpal rgyes pa rdo rje'i rgyud sangs rgyas thams cad kyi sku gsung thugs kyi gsang ba'i mdzod ces bya ba</tib>
+    <skt>Shri he badz+ra tan tra ra dza b+hud d+ha sar+ba ka ya bag tsi ta ko sha g+hu he na ma</skt>
+    <coloph>dpal dgyes pa rdo rje'i rgyud /_de bzhin gshegs pa thams cad kyi sku dang gsung dang/_thugs kyi gsang ba'i mdzod ces bya ba rdzogs+ho//_//_lo tsa ba dge ba'i blo gros kyis sgyur ba'o//</coloph>
+    <colophTitle>dpal dgyes pa rdo rje'i rgyud /_de bzhin gshegs pa thams cad kyi sku dang gsung dang/_thugs kyi gsang ba'i mdzod ces bya ba</colophTitle>
+    <margin>dgyes pa</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL942</vol>
+        <sec>rgyud</sec>
+        <debp>37</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>41</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>lo tsa ba dge ba'i blo gros</name>
+        <role>translator</role>
+        <rid>bdr:P1242</rid>
+      </translator>
+    </translators>
+    <bampos/>
+    <chapters/>
+    <note>This shorter text on the Hevajratantra is not found in other canonical collections.</note>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg125.3</ref>
+    <rnb>890</rnb>
+    <tib>dpal dgyes pa'i rdo rje'i rgyud sangs rgyas thams cad kyi sku gsung thugs kyi gsang ba'i mdzod ces bya ba</tib>
+    <skt>shri he badz+ra tan tra ra dza b+hud ta sa rba ka ya bag tsi ta ko sha g+hu h+ya na ma</skt>
+    <coloph>dpal dgyes pa rdo rje'i rgyud /_de bzhin gshegs pa thams cad kyi sku dang gsung dang/_thugs kyi gsang ba'i mdzod ces bya ba rdzogs+ho//_//_lo tsa ba dge ba'i blo gros kyis sgyur ba'o//</coloph>
+    <colophTitle>dpal dgyes pa rdo rje'i rgyud /_de bzhin gshegs pa thams cad kyi sku dang /_gsung dang /_thugs kyi gsang ba'i mdzod ces bya ba /_rdzogs s+ho //_//_lo tsha ba dge ba'i blo gros kyis bsgyur ba'o //</colophTitle>
+    <margin/>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>1ER1119</vol>
+        <sec>rgyud</sec>
+        <debp>104</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>107</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>lo tsha ba dge ba'i blo gros</name>
+        <role>translator</role>
+        <rid>bdr:P1242</rid>
+      </translator>
+    </translators>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

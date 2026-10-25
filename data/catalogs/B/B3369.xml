@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt127.26</ref>
+    <rnb>4227</rnb>
+    <tib>skyabs sems gsol 'debs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4820</vol>
+        <sec>26</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>3</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt280.14</ref>
+    <rnb>7731</rnb>
+    <tib>skyabs sems gsol 'debs</tib>
+    <skt/>
+    <coloph>'di yang thar bde dben ri la 'gru btsun g.yung drung rgyal gyis bris pas/ bla ma dam pa'i zhabs pad bskal brgyar brtan 'gyur cig/</coloph>
+    <colophTitle/>
+    <margin>skyabs sems gsol 'debs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4973</vol>
+        <sec>14</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>3</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt48.8</ref>
+    <rnb>2040</rnb>
+    <tib>skyabs sems gsol 'debs</tib>
+    <skt/>
+    <coloph>gyer spungs mtshan brgyad kyi gsol 'debs dmu tsha gyer med kyis mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4741</vol>
+        <sec>8</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>9</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

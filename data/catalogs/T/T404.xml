@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1223</ref>
+    <rnb>166</rnb>
+    <tib>ro sreg pa'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66041</vol>
+        <sec>rgyud</sec>
+        <debp>136</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>139</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1282</ref>
+    <rnb>174</rnb>
+    <tib>ro sreg pa'i cho ga</tib>
+    <skt>sha wa saM ga bi d+hiH</skt>
+    <coloph>slob dpon mkhas pa chen po ye shes snying po'i zhal snga nas mdzad pa/ ro sreg pa'i dbang du bya ba rdzogs so//</coloph>
+    <colophTitle>ro sreg pa'i dbang du bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1326</vol>
+        <sec>rgyud</sec>
+        <debp>134</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>137</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210061</vol>
+        <sec>rgyud</sec>
+        <debp>134</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>137</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211365</vol>
+        <sec>rgyud</sec>
+        <debp>134</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>137</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon mkhas pa chen po ye shes snying po</name>
+        <role>author</role>
+        <rid>bdr:P8175</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G408</ref>
+    <rnb>409</rnb>
+    <tib>ro bsreg cho ga</tib>
+    <skt>shal saM ga bi d+hi</skt>
+    <coloph>slob dpon mkhas pa chen po ye shes snying po'i zhal snga nas mdzad pa/ ro bsreg pa'i dbang du bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31360</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>618</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>622</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1199</ref>
+    <rnb>414</rnb>
+    <tib>ro bsreg cho ga</tib>
+    <skt>sha wa saM ga bi d+hi</skt>
+    <coloph>slob dpon mkhas pa chen po ye shes snying po'i zhal snga nas mdzad pa/ ro bsreg pa'i dbang du bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3274</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>460</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>463</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212307</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>460</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>463</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2404</ref>
+    <rnb>404</rnb>
+    <tib>ro bsreg cho ga</tib>
+    <skt>sha la saM ga bi d+hi</skt>
+    <coloph>slob dpon mkhas pa chen po ye shes snying po'i zhal snga nas mdzad pa/ ro bsreg pa'i dbang du bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13192</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>527</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>530</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>ye shes snying po/(jñānagarbha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

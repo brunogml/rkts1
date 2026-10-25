@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5461</ref>
+    <rnb>1</rnb>
+    <tib>tshigs su bcad pa gcig pa'i bshad pa</tib>
+    <skt>e ka gA thA b+hA ShaM</skt>
+    <coloph>tshigs su bcad pa gcig pa'i bshad pa/ bstan bcos tshigs su bcad pa bsdus pa las byung ba/ slob dpon dbyig gnyen gyi zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95910</vol>
+        <sec>1</sec>
+        <debp>905</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>908</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3954</ref>
+    <rnb>2891</rnb>
+    <tib>tshigs su bcad pa gcig pa'i bshad pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66144</vol>
+        <sec>mdo sde</sec>
+        <debp>66</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>67</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3988</ref>
+    <rnb>2900</rnb>
+    <tib>tshigs su bcad pa gcig pa'i bshad pa</tib>
+    <skt>e ka gA thA b+hA ShaM</skt>
+    <coloph>tshigs su bcad pa gcig pa'i bshad pa/_bstan bcos tshigs su bcad pa bsdus pa las byung ba/_slob dpon dbyig gnyen gyi zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle>tshigs su bcad pa gcig pa'i bshad pa/_bstan bcos tshigs su bcad pa bsdus pa las byung ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1429</vol>
+        <sec>mdo 'grel</sec>
+        <debp>63</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>64</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210164</vol>
+        <sec>mdo 'grel</sec>
+        <debp>63</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>64</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211468</vol>
+        <sec>mdo 'grel</sec>
+        <debp>63</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>64</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon dbyig gnyen</name>
+        <role>author</role>
+        <rid>bdr:P6119</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3491</ref>
+    <rnb>3485</rnb>
+    <tib>tshigs su bcad pa gcig pa'i bshad pa</tib>
+    <skt>e ka gA thA d+ha Sham</skt>
+    <coloph>tshigs su bcad pa gcig pa'i bshad pa/ bstan bcos tshigs su bcad pa bsdus pa las byung ba/ slob dpon dbyig gnyen gyi zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31459</vol>
+        <sec>mdo 'grel</sec>
+        <debp>93</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>95</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4277</ref>
+    <rnb>3497</rnb>
+    <tib>tshigs su bcad pa gcig pa'i bshad pa</tib>
+    <skt>e ka gA thA b+ha Sha ma</skt>
+    <coloph>tshigs su bcad pa gcig pa'i bshad pa/ bstan bcos tshigs su bcad pa bsdus pa las byung ba/ slob dpon dbyig gnyen gyi zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3373</vol>
+        <sec>mdo 'grel</sec>
+        <debp>72</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>73</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212406</vol>
+        <sec>mdo 'grel</sec>
+        <debp>72</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>73</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5488</ref>
+    <rnb>3489</rnb>
+    <tib>tshigs su bcad pa gcig pa'i bshad pa</tib>
+    <skt>e ka gA thA b+ha Sha ma</skt>
+    <coloph>tshigs su bcad pa gcig pa'i bshad pa/ bstan bcos tshigs su bcad pa bsdus pa las byung ba/ slob dpon dbyig gnyen gyi zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13291</vol>
+        <sec>mdo 'grel</sec>
+        <debp>79</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>81</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dbyig gnyen/(vasubandhu)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

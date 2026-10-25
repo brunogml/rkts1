@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5799</ref>
+    <rnb>1</rnb>
+    <tib>ri mo'i mtshan nyid</tib>
+    <skt>tsit+ta lak+Sha na</skt>
+    <coloph>ri mo'i mtshan nyid las/ tshad kyi le'u ste gsum pa'o/ tshangs pa'i tshad yig ji snyed pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95959</vol>
+        <sec>1</sec>
+        <debp>883</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>910</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3809</ref>
+    <rnb>3804</rnb>
+    <tib>ri mo'i mtshan nyid</tib>
+    <skt>tsit+ta lak+Sha NaM</skt>
+    <coloph>ri mo'i mtshan nyid las/ tshad kyi le'u ste gsum pa'o/ tshangs pa'i tshad yig ji snyed pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31548</vol>
+        <sec>bzo rig</sec>
+        <debp>11</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>25</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4597</ref>
+    <rnb>3815</rnb>
+    <tib>ri mo'i mtshan nyid</tib>
+    <skt>tsit+ta lak+Sha NaM</skt>
+    <coloph>ri mo'i mtshan nyid las/ tshad kyi le'u ste gsum pa'o/ tshangs pa'i tshad yig ji snyed pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3462</vol>
+        <sec>mdo 'grel</sec>
+        <debp>11</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>23</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212495</vol>
+        <sec>mdo 'grel</sec>
+        <debp>11</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>23</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5806</ref>
+    <rnb>3808</rnb>
+    <tib>ri mo'i mtshan nyid</tib>
+    <skt>tsit+ta lak+Sha naM</skt>
+    <coloph>ri mo'i mtshan nyid las/ tshad kyi le'u ste gsum pa'o/ tshangs pa'i tshad yig ji snyed pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13380</vol>
+        <sec>mdo 'grel</sec>
+        <debp>10</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>23</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

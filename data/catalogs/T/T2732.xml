@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4853</ref>
+    <rnb>1</rnb>
+    <tib>na mo rin chen mngon rdzogs zhes bya ba</tib>
+    <skt/>
+    <coloph>rin chen dra ba mngon rdzogs zhes bya ba mthar phyin pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95888</vol>
+        <sec>1</sec>
+        <debp>924</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>937</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2732</ref>
+    <rnb>2733</rnb>
+    <tib>rin chen dra ba mngon rdzogs zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31414</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>552</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>559</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3522</ref>
+    <rnb>2741</rnb>
+    <tib>rin chen dra ba mngon rdzogs</tib>
+    <skt/>
+    <coloph>na mo rin chen mngon rdzogs zhes bya ba mthar phyin pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3328</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>411</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>417</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212361</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>411</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>417</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4733</ref>
+    <rnb>2734</rnb>
+    <tib>rin chen dra ba mngon rdzogs zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13246</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>450</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>456</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

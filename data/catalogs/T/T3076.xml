@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1543</ref>
+    <rnb>487</rnb>
+    <tib>gtor ma bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66055</vol>
+        <sec>rgyud</sec>
+        <debp>117</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>118</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1600</ref>
+    <rnb>496</rnb>
+    <tib>gtor ma bya ba</tib>
+    <skt/>
+    <coloph>gtor ma'i cho ga a b+hi yu ka tas mdzad pa rdzogs so</coloph>
+    <colophTitle>gtor ma'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1340</vol>
+        <sec>rgyud</sec>
+        <debp>117</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>118</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210075</vol>
+        <sec>rgyud</sec>
+        <debp>117</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>118</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211379</vol>
+        <sec>rgyud</sec>
+        <debp>117</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>118</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>a b+hi yu ka ta</name>
+        <role>author</role>
+        <rid>bdr:P0AT0044</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G313</ref>
+    <rnb>313</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31352</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>566</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>567</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

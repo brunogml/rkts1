@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm116.38</ref>
+    <rnb>723</rnb>
+    <tib/>
+    <skt/>
+    <coloph>byang chub kyi ltung ba gshegs pa rdzogs s+h+yo//</coloph>
+    <colophTitle>byang chub kyi ltung ba gshegs pa</colophTitle>
+    <margin>ltung gshegs</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL1026</vol>
+        <sec>gzungs 'dus</sec>
+        <debp>117</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>119</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>This work is also found in other gzungs 'dus collections.</note>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.112</ref>
+    <rnb>584</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>ltung ba shags</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>62 che</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>3</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>In Everding 2015, this is identified as rKTs-K284/D284. This is impossible also as the work here is much shorter. See Everding 2015, no.323.</note>
+  </item>
+</catalog>

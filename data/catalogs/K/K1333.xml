@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.110</ref>
+    <rnb>112</rnb>
+    <tib>'phags pa mgon po nag po rta'i gzungs</tib>
+    <skt>A rya shrI ma hA kA la dhA ra Ni</skt>
+    <coloph>mi phyugs rta bang bcas pa'i bsrung ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>248</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>249</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg106</ref>
+    <rnb>108</rnb>
+    <tib>'phags pa mgon po nag po rta'i gzungs</tib>
+    <skt>A rya shrI ma hA kA la dhA ra Ni</skt>
+    <coloph>mi phyugs rta bang bcas pa'i bsrung ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>234</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>235</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.103</ref>
+    <rnb>575</rnb>
+    <tib>'phags pa mgon po nag po rta'i gzungs</tib>
+    <skt/>
+    <coloph>...rta dang bcas pa'i bsrung ba rdzogs so//</coloph>
+    <colophTitle/>
+    <margin>rta gzungs</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>56 ce</sec>
+        <debp>2</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>3</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Left part of folio ce 2 is missing; it is glued together with the right part of folio ce 3. See Everding 2015, no.393.</note>
+  </item>
+</catalog>

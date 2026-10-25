@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4022</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa de bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs dkar mo can gzhan gyis mi thub ma phyir bzlog pa zhes bya ba'i gzungs kyi sgrub thabs</tib>
+    <skt>Ar+ya ta thA ga toSj+NI Sha si tA ta pa tre nA ma a pa rA dzi ta d+hA ra Ni sA d+ha na ma</skt>
+    <coloph>'phags pa de bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs dkar mo can gzhan gyis mi thub pa phyir bzlog pa zhes bya ba'i gzungs kyi sgrub thabs/ slob dpon tsan+d+ra go mis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95883</vol>
+        <sec>1</sec>
+        <debp>555</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>560</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1918</ref>
+    <rnb>1920</rnb>
+    <tib>'phags pa de bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs dkar mo can gzhan gyis mi thub ma phyir bzlog pa zhes bya ba'i gzungs kyi sgrub thabs</tib>
+    <skt>Ar+ya ta thA ga toSh+NI Sha si tA ta pa tre ma/ a pa rA dzi ta d+ha ra Ni sA d+ha naM</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31408</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>267</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>268</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2709</ref>
+    <rnb>1926</rnb>
+    <tib>'phags pa de bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs dkar mo can gzhan gyis mi thub ma phyir bzlog pa zhes bya ba'i gzungs kyi sgrub thabs</tib>
+    <skt>Ar+ya ta thA ga toSh+NI Sha siM hA ta pa tre nA ma a pa rA dzi ta d+ha ra Ni sA d+ha naM</skt>
+    <coloph>'phags pa gdugs dkar mo can gyi sgrub thabs/ slob dpon tsan+d+ra go mis mdzad pa rdzags so/ /paN+Di ta ma hA dza na nyid kyi rang 'gyur yin gsung</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3322</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>195</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>196</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212355</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>195</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>196</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3916</ref>
+    <rnb>1917</rnb>
+    <tib>'phags pa de bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs dkar mo can gzhan gyis mi thub ma phyir bzlog pa zhes bya ba'i gzungs kyi sgrub thabs</tib>
+    <skt>Ar+ya ta thA ga toSh+NI Sha si tA ta pa tre nA ma/ a pa rA dzi ta d+ha ra Ni sA d+ha naM</skt>
+    <coloph>'phags pa gdugs dkar mo can gyi sgrub thabs/_slob dpon tsan+d+ra go mis mdzad pa rdzogs so/_/paN+Di ta ma hA dza na nyid kyi rang 'gyur yin gsung</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13240</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>210</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>211</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>candragomin</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

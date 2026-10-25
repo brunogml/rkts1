@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5057</ref>
+    <rnb>1</rnb>
+    <tib>bgegs kyi rgyal po'i sgrub thabs zhes bya ba</tib>
+    <skt>bI na ya kan rA dza sa d+ha nA ma</skt>
+    <coloph>dpal bgegs kyi rgyal po'i sgrub thabs zhes bya ba/ grub pa'i brtul zhugs brnyes pa/ slob dpon nag po spyod pa bas mdzad pa rdzogs so/ /paN+Di ta ga ya d+ha ra dang lo tsA ba gyi jo bla ba'i 'od zer gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>723</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>725</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2972</ref>
+    <rnb>2973</rnb>
+    <tib>bgegs kyi rgyal po'i sgrub thabs zhes bya ba</tib>
+    <skt>bI na ya ka na rA dza sa d+ha nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>108</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>109</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3762</ref>
+    <rnb>2982</rnb>
+    <tib>bgegs kyi rgyal po'i sgrub thabs</tib>
+    <skt>bI na ya ka na rA dza sa d+ha nA ma</skt>
+    <coloph>dpal bgegs kyi rgyal po'i sgrub thabs zhes bya ba/ grub pa'i brtul zhugs brnyes pa/ slob dpon nag po spyod pa bas mdzad pa rdzogs so/ /paN+Di ta ga ya d+ha ra dang lo tsA ba gyi jo bla ba'i 'od zer gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>80</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>81</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>80</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>81</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4973</ref>
+    <rnb>2974</rnb>
+    <tib>bgegs kyi rgyal po'i sgrub thabs zhes bya ba</tib>
+    <skt>bI na ya ka na rA dza sa d+ha nA ma</skt>
+    <coloph>dpal bgegs kyi rgyal po'i sgrub thabs zhes bya ba/_grub pa'i rtul zhugs brnyes pa/_slob dpon nag po spyod pa bas mdzad pa rdzogs so/_/paN+Di ta ga ya d+ha ra dang lo tsA ba gyi jo zla ba'i 'od zer gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>85</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>86</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gyi jo zla ba'i 'od zer/(candraprabha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nag po spyod pa/(kānha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

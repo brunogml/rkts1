@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm137.2</ref>
+    <rnb>431</rnb>
+    <tib>byang chub sems kyi thigs pa nyi shu rtsa gnyis pa rtsa ba'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4108</vol>
+        <sec>1</sec>
+        <debp>27</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>36</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks100.2</ref>
+    <rnb>608</rnb>
+    <tib>byang chub sems kyi thigs pa nyi shu rtsa gnyis pa rtsa ba'i rgyud phyi ma</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>byang thigs</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75071</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>9</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz178.2</ref>
+    <rnb>479</rnb>
+    <tib>byang chub sems kyi thigs pa nyi shu rtsa gnyis pa rtsa ba'i rgyud phyi ma</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58713</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

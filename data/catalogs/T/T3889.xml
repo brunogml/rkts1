@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5236</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa lag na rdo rje gos sngon can gyi cho ga zhes bya ba'i gzungs</tib>
+    <skt>Ar+ya nI lam+ba ra d+ha ra badzra pA Ni kal pa nA ma d+ha ra NI</skt>
+    <coloph>'phags pa lag na rdo rje gos sngon can gyi cho ga zhes bya ba'i gzungs rdzogs so/ /rgya brtson seng gi 'gyur te/ 'gyur rnying kho na lags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>954</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>957</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3164</ref>
+    <rnb>3165</rnb>
+    <tib>'phags pa lag na rdo rje gos sngon can gyi cho ga zhes bya ba'i gzungs</tib>
+    <skt>Ar+ya nI lAm+ba ra d+ha ra badzra pA Ni kal pa nA ma d+ha ra NI</skt>
+    <coloph>'phags pa lag na rdo rje gos sngon can gyi cho ga zhes bya ba'i gzungs rdzogs so/ /rgya brtson seng gi 'gyur te/ 'gyur rnying kho na lags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>327</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>329</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3955</ref>
+    <rnb>3175</rnb>
+    <tib>'phags pa lag na rdo rje gos sngon can gyi cho ga zhes bya ba'i gzungs</tib>
+    <skt>Ar+ya nI lAm+ba ra d+ha ra badzra pA Ni kal pa nA ma d+ha ra NI</skt>
+    <coloph>'phags pa lag na rdo rje gos sngon can gyi cho ga zhes bya ba'i gzungs rdzogs so/ /rgya brtson seng gi 'gyur te/ 'gyur rnying kho na lags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>194</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>195</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>194</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>195</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5166</ref>
+    <rnb>3167</rnb>
+    <tib>'phags pa lag na rdo rje gos sngon can gyi cho ga zhes bya ba'i gzungs</tib>
+    <skt/>
+    <coloph>'phags pa lag na rdo rje gos sngon can gyi cho ga zhes bya ba'i gzungs rdzogs so/_/rgya brtson seng ges 'gyur te/_'gyur rnying kho na lags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>197</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>198</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G2528</ref>
+    <rnb>2530</rnb>
+    <tib>dpal nor rgyun ma'i bastado pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31410</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>485</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>485</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4526</ref>
+    <rnb>2527</rnb>
+    <tib>dpal nor rgyun ma'i bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>442</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>443</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

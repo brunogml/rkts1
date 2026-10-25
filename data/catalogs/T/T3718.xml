@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5874</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje'i smon lam</tib>
+    <skt>badzra pra Ni d+hA naM</skt>
+    <coloph>dpal klu sgrub kyi zhal snga nas byung ba'i smon lam rdzogs so// rgya gar shar phyogs kyi paN+Di ta chen po dngos grub brnyes pa'i dbang phyug dpal nags kyi rin chen gyi zhal snga nas dang / de nyid kyi bka' drin las legs par sbyar ba'i tshul cung zad rig pa/ dge slong chos smra ba bsod nams rgya mtsho'i sde zhes bya bas dpal kun tu bzang po'i nags khrod du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95961</vol>
+        <sec>1</sec>
+        <debp>1670</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1673</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4348</ref>
+    <rnb>3289</rnb>
+    <tib>rdo rje'i smon lam</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66238</vol>
+        <sec>sna tshogs</sec>
+        <debp>318</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>319</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4384</ref>
+    <rnb>3297</rnb>
+    <tib>rdo rje'i smon lam</tib>
+    <skt>badzra pra Ni d+hA naM</skt>
+    <coloph>dpal klu sgrub zhabs kyis mdzad pa'i rdo rje'i smon lam rdzogs so</coloph>
+    <colophTitle>rdo rje'i smon lam</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1525</vol>
+        <sec>mdo 'grel</sec>
+        <debp>315</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>316</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210260</vol>
+        <sec>mdo 'grel</sec>
+        <debp>315</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>316</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211564</vol>
+        <sec>mdo 'grel</sec>
+        <debp>315</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>316</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dge slong chos smra ba bsod nams rgya mtsho'i sde</name>
+        <role>translator</role>
+        <rid>bdr:P208</rid>
+      </translator>
+      <translator>
+        <name>dpal klu sgrub</name>
+        <role>author</role>
+        <rid>bdr:P4954</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

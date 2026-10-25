@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Gns</coll>
+    <ref>Gns3.19</ref>
+    <rnb>48</rnb>
+    <tib>rje btsan dam pa</tib>
+    <skt></skt>
+    <coloph></coloph>
+    <colophTitle></colophTitle>
+    <margin></margin>
+    <note></note>
+    <locations>
+      <location>
+        <setid>MW1ER27</setid>
+        <vol>1ER236</vol>
+        <sec>ga</sec>
+        <debp>204</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>204</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb034.002</ref>
+    <rnb>414</rnb>
+    <tib>rje btsan dam pa</tib>
+    <skt>tsa ra sha ar thA</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21639</vol>
+        <sec>1</sec>
+        <debp>31</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>32</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Gtn</coll>
+    <ref>Gtn001.026</ref>
+    <rnb>26</rnb>
+    <tib>rje btsan dam pa</tib>
+    <skt>tsa ra sha ar thA</skt>
+    <coloph>lung dang man ngag gi don yi ge nyung yang// don rgya chen bsdus te// ma lus 'grel cing theg pa mtha' dag gi don bkod sa/ byang chub kyi sems bsam gtan nges pa'i rgyal po// rje btsan dam pardzogs+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2PD19896</setid>
+        <vol>2PD20015</vol>
+        <sec>1</sec>
+        <debp>193</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>193</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name/>
+        <setid>MW2PD19896</setid>
+        <vol>2PD20015</vol>
+        <sec>1</sec>
+        <debp>193</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name/>
+        <setid>MW2PD19896</setid>
+        <vol>2PD20015</vol>
+        <sec>1</sec>
+        <debp>193</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

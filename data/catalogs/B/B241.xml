@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm44.3</ref>
+    <rnb>138</rnb>
+    <tib>byams ma chen mo rtsa ba'i 'bum</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4015</vol>
+        <sec>1</sec>
+        <debp>144</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>201</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks145.2</ref>
+    <rnb>942</rnb>
+    <tib>byams ma chen mo rtsa ba'i 'bum</tib>
+    <skt/>
+    <coloph>rje 'brug khro tshang gis gter nas bton / bla ma gzhon la dngos grub tu babs / rim gyis brgyud nas gshen mkhan chen dpon slob la / rtogs ldan shes rgyal gyis zhus so // de la tshul rgyal bdag gis lung thob tsam byas so / byams ma chen mo rtsa ba'i 'bum rdzogs so / 'bum lnga bsdus pas rtsa tshig tshom zhig gda' 'o</coloph>
+    <colophTitle/>
+    <margin>rtsa 'bum</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75116</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>58</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz56.2</ref>
+    <rnb>150</rnb>
+    <tib>byams ma chen mo'i 'bum</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58591</vol>
+        <sec>kha</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>1</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58591</vol>
+        <sec>ga</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>48</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

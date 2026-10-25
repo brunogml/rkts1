@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4913</ref>
+    <rnb>1</rnb>
+    <tib>gshin rje gshed nag po'i dkyil 'khor kyi cho ga</tib>
+    <skt>kriSh+Na ya mA ri ma Na Da lo bA si ka</skt>
+    <coloph>gshin rje gshed nag po'i dkyil 'khor gyi cho ga slob dpon dpal 'dzin gyi mdzad pa rdzogs so/ /rgya gar gyi mkhan po a du la da sa dang /lo tsA ba dge slong 'phags pa shes rab kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95891</vol>
+        <sec>1</sec>
+        <debp>890</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>938</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2794</ref>
+    <rnb>2795</rnb>
+    <tib>gshin rje gshed nag po'i dkyil 'khor gyi cho ga</tib>
+    <skt>kriSh+Na ya mA ri maN Da lo pA si ka</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31420</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>97</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>125</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3584</ref>
+    <rnb>2804</rnb>
+    <tib>gshin rje gshed nag po'i dkyil 'khor gyi cho ga</tib>
+    <skt>kriSh+Na ya na nA ri maN Da lo pA si ka</skt>
+    <coloph>gshin rje gshed nag po'i dkyil 'khor gyi cho ga slob dpon dpal 'dzin gyi mdzad pa rdzogs so/ /rgya gar gyi mkhan po a du la da sa dang /lo tsA ba dge slong 'phags pa shes rab kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>67</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>88</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212367</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>67</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>88</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4795</ref>
+    <rnb>2796</rnb>
+    <tib>gshin rje gshed nag po'i dkyil 'khor gyi cho ga</tib>
+    <skt>kriSh+Na ya mA ri maN Da lo pA si ka</skt>
+    <coloph>dpal gshin rje gshed nag po'i dkyil 'khor gyi cho ga slob dpon dpal 'dzin gyis mdzad pa rdzogs so/_/rgya gar gyi mkhan po a du la da sa dang /_lo tsA ba dge slong 'phags pa shes rab kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13252</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>73</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>93</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>aduladasa (atulyadāsa)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>'phags pa shes rab/(āryajñāna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dpal 'dzin/(śrīdhara)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

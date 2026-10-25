@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5010</ref>
+    <rnb>1</rnb>
+    <tib>dpal ldan lha mo nag mo la bstod pa zhes bya ba</tib>
+    <skt>shrI de wi kA li stod tra nA ma</skt>
+    <coloph>dpal ldan lha mo la nam mkha' lding gi rgyal po gser mig can gyis yan lag bdun du bstod pa rdzogs so/ /paN+Di ta snying phreng can dang / lo tsA ba gyi ljang dbya dkar gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>426</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>428</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2917</ref>
+    <rnb>2918</rnb>
+    <tib>dpal ldan lha mo nag mo la bstod pa zhes bya ba</tib>
+    <skt>shrI de wi kA li stod tra nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>365</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>365</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3707</ref>
+    <rnb>2927</rnb>
+    <tib>dpal ldan lha mo nag mo la bstod pa zhes bya ba</tib>
+    <skt>shrI de wi kA li stod tra nA ma</skt>
+    <coloph>dpal ldan lha mo la nam mkha' lding gi rgyal po gser mig can gyis yan lag bdun du bstod pa rdzogs so/ /paN+Di ta snying phreng can dang / lo tsA ba gyi ljang dbya dkar gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>272</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>273</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>272</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>273</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4918</ref>
+    <rnb>2919</rnb>
+    <tib>dpal ldan lha mo nag mo la bstod pa zhes bya ba</tib>
+    <skt/>
+    <coloph>dpal ldan lha mo la nam mkha' lding gi rgyal po gser mig can gyis yan lag bdun du bstod pa rdzogs so/ /paN+Di ta snying phreng can dang / lo tsA ba gyi ljang dbya dkar gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>271</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>271</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>snying phreng can/(bukkamālin)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

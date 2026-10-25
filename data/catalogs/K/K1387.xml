@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm23.15</ref>
+    <rnb>197</rnb>
+    <tib/>
+    <skt/>
+    <coloph>'phags pa sdug bsngal brgyad sbyong zhes bya ba theg pa chen po'i mdo' rdzogs sho //</coloph>
+    <colophTitle>'phags pa sdug bsngal brgyad sbyong zhes bya ba theg pa chen po'i mdo'</colophTitle>
+    <margin>sdug bsngal</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL933</vol>
+        <sec>mdo</sec>
+        <debp>77</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>78</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>No title in Skt. or Tibetan; title is given only in the colophon. Text is not identified in mainstream traditions, but identical with He78.16, Lg29.21, Ng22.15.</note>
+  </item>
+  <item>
+    <coll>He</coll>
+    <ref>He78.16</ref>
+    <rnb>254</rnb>
+    <tib/>
+    <skt/>
+    <coloph>'phags pa sdug bsngal brgyad spong zhes bya ba theg pa chen po'i mdo// rdzogs s+h+yo</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45313</setid>
+        <vol>4CZ75335</vol>
+        <sec>mdo</sec>
+        <debp>92</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>93</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng22.15</ref>
+    <rnb>192</rnb>
+    <tib>'phags pa sdug bsngal brgyad sbyong ba zhes bya ba theg pa chen po'i mdo'</tib>
+    <skt/>
+    <coloph>'phags pa sdug bsngal brgyad sbyong ba zhes bya ba / theg pa chen po'i mdo' / rdzogs sho //</coloph>
+    <colophTitle/>
+    <margin>'da' ka</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229052</vol>
+        <sec>mdo</sec>
+        <debp>58</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>59</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>No title in Skt. or Tibetan; title taken from colophon. Text not identified in mainstream traditions, but identical with He78.16 and Lg29.21.</note>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg29.21</ref>
+    <rnb>301</rnb>
+    <tib/>
+    <skt/>
+    <coloph>'phags pa sdug sngal rgyad sbyong zhes bya ba theg pa chen po'i mdo' rdzogs s+ho//</coloph>
+    <colophTitle>'phags pa sdug sngal rgyad sbyong zhes bya ba theg pa chen po'i mdo'</colophTitle>
+    <margin>sdug sngal rgyad</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211202</vol>
+        <sec>mdo</sec>
+        <debp>79</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>79</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg59.21</ref>
+    <rnb>646</rnb>
+    <tib/>
+    <skt/>
+    <coloph>'phags pa sdug bsngal brgyad spong ba zhes bya ba theg pa chen po'i mdo' rdzogs s+h+yo//</coloph>
+    <colophTitle>'phags pa sdug bsngal brgyad spong ba zhes bya ba theg pa chen po'i mdo'</colophTitle>
+    <margin/>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211226</vol>
+        <sec>mdo</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>9</debl>
+        <finp>75</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

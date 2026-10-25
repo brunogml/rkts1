@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5873</ref>
+    <rnb>1</rnb>
+    <tib>byang chub sems dpa'i spyod pa la 'jug pa'i smon lam</tib>
+    <skt/>
+    <coloph>slob dpon zhi ba lhas mdzad pa/ byang chub sems dpa'i spyod pa la 'jug pa las 'byung ba'i smon lam rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95961</vol>
+        <sec>1</sec>
+        <debp>1661</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1669</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4347</ref>
+    <rnb>3288</rnb>
+    <tib>byang chub sems dpa'i spyod pa la 'jug pa'i smon lam bzhugs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66238</vol>
+        <sec>sna tshogs</sec>
+        <debp>315</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>318</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4383</ref>
+    <rnb>3296</rnb>
+    <tib>byang chub sems dpa'i spyod pa la 'jug pa'i smon lam bzhugs</tib>
+    <skt/>
+    <coloph>slob dpon chen po zhi ba lhas mdzad pa/_/byang chub sems dpa'i spyod pa la 'jug pa las byung ba'i smon lam rdzogs so</coloph>
+    <colophTitle>byang chub sems dpa'i spyod pa la 'jug pa las byung ba'i smon lam</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1525</vol>
+        <sec>mdo 'grel</sec>
+        <debp>312</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>315</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210260</vol>
+        <sec>mdo 'grel</sec>
+        <debp>312</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>315</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211564</vol>
+        <sec>mdo 'grel</sec>
+        <debp>312</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>315</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon chen po zhi ba lha</name>
+        <role>author</role>
+        <rid>bdr:P6161</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3942</ref>
+    <rnb>3937</rnb>
+    <tib>byang chub sems dpa'i spyod pa la 'jug pa'i smon lam</tib>
+    <skt/>
+    <coloph>slob dpon zhi ba lhas mdzad pa/ byang chub sems dpa'i spyod pa la 'jug pa las 'byung ba'i smon lam rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31561</vol>
+        <sec>sgra skor</sec>
+        <debp>373</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>377</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4728</ref>
+    <rnb>3948</rnb>
+    <tib>byang chub sems dpa'i spyod pa la 'jug pa'i smon lam bzhugs</tib>
+    <skt/>
+    <coloph>slob dpon zhi ba lhas mdzad pa/ byang chub sems dpa'i spyod pa la 'jug pa las 'byung ba'i smon lam rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3475</vol>
+        <sec>mdo 'grel</sec>
+        <debp>293</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>297</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212508</vol>
+        <sec>mdo 'grel</sec>
+        <debp>293</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>297</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5929</ref>
+    <rnb>3931</rnb>
+    <tib>byang chub sems dpa'i spyod pa la 'jug pa las 'byung ba'i smon lam</tib>
+    <skt/>
+    <coloph>slob dpon chen po zhi ba lhas mdzad pa/_byang chub sems dpa'i spyod pa la 'jug pa las 'byung ba'i smon lam rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13393</vol>
+        <sec>mdo 'grel</sec>
+        <debp>300</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>304</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zhi ba lha/(śāntideva)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

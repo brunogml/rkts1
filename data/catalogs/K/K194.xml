@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A212</ref>
+    <rnb>211</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya dza ya ma ti nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96844</vol>
+        <sec>1</sec>
+        <debp>681</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>683</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B203</ref>
+    <rnb>202</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-69</vol>
+        <sec>mdo sde</sec>
+        <debp>336</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>337</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C834</ref>
+    <rnb>834</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105104</vol>
+        <sec>mdo</sec>
+        <debp>309</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-41</vol>
+        <sec>mdo</sec>
+        <debp>309</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz092-003</ref>
+    <rnb>675</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya dza ya ma tir nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-92</vol>
+        <sec>mdo sde</sec>
+        <debp>6</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>7</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D194</ref>
+    <rnb>195</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya dza ya ma ti nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0946</vol>
+        <sec>mdo sde</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6408</vol>
+        <sec>mdo sde</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20660</vol>
+        <sec>mdo sde</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9187</vol>
+        <sec>mdo sde</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd043-014</ref>
+    <rnb>111</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A rya dza ya ma ti nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-43</vol>
+        <sec>mdo sde</sec>
+        <debp>357</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>358</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk044-003</ref>
+    <rnb>236</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya dza ya ma tir nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-44</vol>
+        <sec>mdo sde</sec>
+        <debp>7</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm23.16</ref>
+    <rnb>198</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo'</tib>
+    <skt>a r+ya dzA ya mar tir na ma ma ha ya na su tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo' //_rdzogs s+ho //</coloph>
+    <colophTitle>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo'</colophTitle>
+    <margin>rgyal</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL933</vol>
+        <sec>mdo</sec>
+        <debp>78</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>79</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr863</ref>
+    <rnb>911</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM77</vol>
+        <sec>mdo</sec>
+        <debp>403</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>404</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F168</ref>
+    <rnb>171</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>ar+ya dzra ya ma tir nA ma ma hA ya na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhe bya ba theg pa chen po'i mdo// rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14080</vol>
+        <sec>mdo sde</sec>
+        <debp>58</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>59</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F263</ref>
+    <rnb>267</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya dzA ya ma ra tir nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14092</vol>
+        <sec>mdo sde</sec>
+        <debp>257</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>258</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Go</coll>
+    <ref>Go13,21</ref>
+    <rnb>77</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG5016</setid>
+        <vol>2KG212524</vol>
+        <sec>1</sec>
+        <debp>200</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>201</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt038-003</ref>
+    <rnb>177</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya dza ya ma tir nA ma ma hA yA na sU tra</skt>
+    <coloph>phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-3-5</vol>
+        <sec>mdo sde</sec>
+        <debp>6</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>6</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>H</coll>
+    <ref>H195</ref>
+    <rnb>197</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya dza ya ma ti nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo rdzogs so// </coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW26071</setid>
+        <vol>4087</vol>
+        <sec>mdo sde</sec>
+        <debp>396</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>397</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>He</coll>
+    <ref>He78.17</ref>
+    <rnb>255</rnb>
+    <tib>'phags pa rgyal ba'i glo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>ar+ya dzA yA ma tiH na ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo// rdzogs s+h+yo</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45313</setid>
+        <vol>4CZ75335</vol>
+        <sec>mdo</sec>
+        <debp>93</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>94</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J138</ref>
+    <rnb>157</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya dza ya ma ti nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo/_rdzogs so//</coloph>
+    <colophTitle>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9923</vol>
+        <sec>mdo sde</sec>
+        <debp>282</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>282</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>L</coll>
+    <ref>L153</ref>
+    <rnb>157</rnb>
+    <tib>'phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1034</vol>
+        <sec>mdo sde</sec>
+        <debp>7</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>8</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N180</ref>
+    <rnb>180</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>-</skt>
+    <coloph>'phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22703</setid>
+        <vol>5464</vol>
+        <sec>mdo sde</sec>
+        <debp>403</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>404</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5014</setid>
+        <vol>2KG212619</vol>
+        <sec>mdo sde</sec>
+        <debp>403</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>404</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng22.16</ref>
+    <rnb>193</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba'-i theg pa chen po'i mdo'</tib>
+    <skt>A r+ya dzA yA mar tir na ma ma hA ya na su tra</skt>
+    <coloph>'phags pa rgyal ba'-i blo gros zhes bya ba theg pa chen po'i mdo' rdzogs s+ho //</coloph>
+    <colophTitle/>
+    <margin>rgyal</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229052</vol>
+        <sec>mdo</sec>
+        <debp>59</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>59</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np022-003</ref>
+    <rnb>177</rnb>
+    <tib>'phags pa rgyal ba'i blo groskyis zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya dza ya ma tir nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-22</vol>
+        <sec>mdo sde</sec>
+        <debp>7</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj057-014</ref>
+    <rnb>428</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya dza ya ma ti nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-57</vol>
+        <sec>mdo sde</sec>
+        <debp>297</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>298</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz057-014</ref>
+    <rnb>424</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya dza ya ma ti nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-57</vol>
+        <sec>mdo sde</sec>
+        <debp>266</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>266</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q861</ref>
+    <rnb>914</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph>'phags pa rgyal ba'i blo gros [kyis zhus pa] zhes bya ba theg pa chen po'i mdo||rdzogs s.ho||</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96684</setid>
+        <vol>1PD106729</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>260</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>261</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW3CN1094</setid>
+        <vol>3CN1173</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>260</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>261</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R194</ref>
+    <rnb>195</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A r+ya dza ya ma ti nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17325</vol>
+        <sec>mdo sde</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S210</ref>
+    <rnb>258</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+yA dza ya ma ti ra nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3780</vol>
+        <sec>mdo sde</sec>
+        <debp>6</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>7</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty040-003</ref>
+    <rnb>233</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+yA dza ya ma ti ra nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209902</vol>
+        <sec>mdo sde</sec>
+        <debp>6</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>7</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U194</ref>
+    <rnb>195</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL281</vol>
+        <sec>mdo sde</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5355</vol>
+        <sec>mdo sde</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V259</ref>
+    <rnb>259</rnb>
+    <tib>'phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>ar+ya dza ya ma tir nA ma ma jA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo rdzogs+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86300</vol>
+        <sec>mdo sde</sec>
+        <debp>6</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z241</ref>
+    <rnb>241</rnb>
+    <tib>'phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya dza ya ma ti ra nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa rgyal ba'i blo gros kyis zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// //oM ye d+harma he tu pra b+ha wA he tun te ShAn ta thA ga to d+ya wa dat+ra/ te Shany+tsa yo ni ro d+ha e waM bA dI mahA shra ma Na s+wAhA//.</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127528</vol>
+        <sec>mdo sde</sec>
+        <debp>6</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>The inclusion of the ye dharma formula, also found in S, suggests that this was copied from a collection that had the text placed at the end of a volume. The phrasing of the title differs slightly in D; S and V concur with Z.</note>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg29.22</ref>
+    <rnb>302</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo'</tib>
+    <skt>ar+ya dza' yA mar tir na ma ma ha ya na su tra</skt>
+    <coloph>'phags pa'i rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo' rdzogs s+ho //</coloph>
+    <colophTitle>'phags pa'i rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo'</colophTitle>
+    <margin>rgyal ba'i blo gros</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211202</vol>
+        <sec>mdo</sec>
+        <debp>79</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>80</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg59.22</ref>
+    <rnb>647</rnb>
+    <tib>'phags pa rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo'</tib>
+    <skt>a r+ya dz+wa yA mar tir na ma ma hA ya na su tra</skt>
+    <coloph>'phags pa'i rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo' rdzogs s+h+yo//</coloph>
+    <colophTitle>'phags pa'i rgyal ba'i blo gros zhes bya ba theg pa chen po'i mdo'</colophTitle>
+    <margin/>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211226</vol>
+        <sec>mdo</sec>
+        <debp>75</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>75</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

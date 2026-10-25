@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5028</ref>
+    <rnb>1</rnb>
+    <tib>dpal nag po chen po byin brlabs can gyi sgrub pa'i thabs zhes bya ba</tib>
+    <skt>ma hA kA la shri a d+hiSh+Tha wa ti sa ta na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>501</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>521</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2935</ref>
+    <rnb>2936</rnb>
+    <tib>dpal nag po chen po byin brlabs can gyi sgrub pa'i thabs zhes bya ba</tib>
+    <skt>ma hA kA la shri a d+hiSh+Tha wa ti sa ta na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>12</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3725</ref>
+    <rnb>2945</rnb>
+    <tib>dpal nag po chen po byin brlabs can gyi sgrub pa'i thabs zhes bya ba</tib>
+    <skt>ma hA kA ka la shri a d+hiSh+Tha wa ti sa ta na ma</skt>
+    <coloph>dpal nag po chen po'i sgrub thabs/ dpal sha ba ri pa chen pos mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta a ta ya badz+ra dang / bod kyi lo tsA ba phur bu 'od kyis bsgyur cin zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>11</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>11</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4936</ref>
+    <rnb>2937</rnb>
+    <tib>dpal nag po chen po byin brlabs can gyi sgrub pa'i thabs zhes bya ba</tib>
+    <skt>ma hA kA la shri a d+hiSh+Tha wa ti sa ta na ma</skt>
+    <coloph>dpal nag po chen po'i sgrub thabs/_dpal sha ba ri pa chen pos mdzad pa rdzogs so/_/rgya gar gyi paN+Di ta a ta ya badzra dang /_bod kyi lo tsA ba phur bu 'od kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>10</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>atayavajra (advayavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>phur bu 'od/(kīlaprabha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>śabari(śābari)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

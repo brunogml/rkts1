@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G2916</ref>
+    <rnb>2917</rnb>
+    <tib>dpal lha mo nag mo la bstod pa zhes bya ba</tib>
+    <skt>shrI de wi kA li stod tra nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>364</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>365</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3706</ref>
+    <rnb>2926</rnb>
+    <tib>dpal lha mo nag mo la bstod pa zhes bya ba</tib>
+    <skt>shrI de wi kA li stod tra nA ma</skt>
+    <coloph>dpal ldan lha mo la a b+ha yas zhal gzigs dus bstod pa/ paN+Di ta shra ta ka ra varma dang / gu ru yon tan shi las gu ge tho ling du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>272</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>272</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>272</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>272</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4917</ref>
+    <rnb>2918</rnb>
+    <tib>dpal lha mo nag mo la bstod pa zhes bya ba</tib>
+    <skt>shrI de wi kA li stod tra nA ma</skt>
+    <coloph>dpal ldan lha mo la a b+ha yas zhal gzigs dus bstod pa/ paN+Di ta shra ta ka ra varma dang / gu ru yon tan shi las gu ge tho ling du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>270</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>271</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>yon tan shi la/(guṇaśīla)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>śratakaravarma (śraddhākaravarman)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>abhaya</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

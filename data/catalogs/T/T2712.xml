@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G2712</ref>
+    <rnb>2713</rnb>
+    <tib>ku ru ku l+le'i man ngag</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31413</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>294</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>295</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3502</ref>
+    <rnb>2721</rnb>
+    <tib>ku ru ku l+le'i man ngag</tib>
+    <skt/>
+    <coloph>bla ma'i man ngag rdzogs so/ /paN+Di ta don yod rdo rje dang / lo tsA ba rin chen rdo rjes bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3327</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>211</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>212</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212360</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>211</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>212</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4713</ref>
+    <rnb>2714</rnb>
+    <tib>ku ru ku l+le'i man ngag</tib>
+    <skt/>
+    <coloph>bla ma'i man ngag rdzogs so/ /paN+Di ta don yod rdo rje dang / lo tsA ba rin chen rdo rjes bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13245</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>220</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>221</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>don yod rdo rje/(amoghavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>rin chen rdo rje/(ratnavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

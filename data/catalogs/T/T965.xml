@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3027</ref>
+    <rnb>1</rnb>
+    <tib>ro'i rab gnas cho ga</tib>
+    <skt/>
+    <coloph>sdom pa bzang pos mdzad pa 'bro lo tsA ba d+harmA b+his bsgyur ba ro'i rab gnas cho ga rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95870</vol>
+        <sec>1</sec>
+        <debp>447</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>450</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G969</ref>
+    <rnb>971</rnb>
+    <tib>bdun tshigs kyi cho ga</tib>
+    <skt/>
+    <coloph>sdom pa bzang pos mdzad pa 'bro lo tsA ba d+harmA b+his bsgyur ba ro'i rab gnas cho ga rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31383</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>231</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>233</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

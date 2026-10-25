@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4927</ref>
+    <rnb>1</rnb>
+    <tib>gshin rje gshed dmar po'i 'khrul 'khor gyi de nyid bshad pa zhes bya ba'i bsgrub thabs</tib>
+    <skt>rak ta yA mA ri yan tra tA ni rat sha ka na ma sa d+ha naM</skt>
+    <coloph>gshin rje gshed dmar po'i 'khrul 'khor gyi de nyid nges par bshad pa zhes bya ba'i bsgrub thabs/ gnas brtan mkhas pa chen po/ byang chub snying pos mdzad pa rdzogs so/ /rgya gar mkhan po bla ma rje btsun/ nyi ma'i snying po'i 'od zer zhal sngon nas/ chag lo tsA ba dge slong chos rje dpal gyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95891</vol>
+        <sec>1</sec>
+        <debp>1127</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1135</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2814</ref>
+    <rnb>2815</rnb>
+    <tib>gshin rje gshed dmar po'i 'khrul 'khor gyi de nyid bshad pa zhes bya ba'i bsgrub thabs</tib>
+    <skt>rak ta yA mA ri yan tra tA nir ta sha ka na ma sa d+ha naM</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31420</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>258</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>262</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3604</ref>
+    <rnb>2824</rnb>
+    <tib>gshin rje gshed dmar po'i 'khrul 'khor gyi de nyid nges par bshad pa zhes bya ba'i bsgrub thabs</tib>
+    <skt>rak ta yA mA ri yan tra tA nir ta sha ka na ma sa d+ha naM</skt>
+    <coloph>gshin rje gshed dmar po'i 'khrul 'khor gyi de nyid nges par bshad pa zhes bya ba'i bsgrub thabs/ gnas brtan mkhas pa chen po/ byang chub snying pos mdzad pa rdzogs so/ /rgya gar mkhan po bla ma rje btsun/ nyi ma'i snying po'i 'od zer zhal sngon nas/ chag lo tsA ba dge slong chos rje dpal gyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>181</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>184</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212367</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>181</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>184</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4815</ref>
+    <rnb>2816</rnb>
+    <tib>gshin rje gshed dmar po'i 'khrul 'khor gyi de nyid bshad pa zhes bya ba'i bsgrub thabs</tib>
+    <skt>rak+ta yA mA ri ya na tra tA nir ta sha ka na ma sa d+ha naM</skt>
+    <coloph>gshin rje gshed dmar po'i 'khrul 'khor gyi de nyid nges par bshad pa zhes bya ba'i bsgrub thabs/_gnas brtan mkhas pa chen po/_byang chub snying pos mdzad pa rdzogs so/_/rgya gar mkhan po bla ma rje btsun/_nyi ma'i snying po'i 'od zer zhal snga nas/_chag lo tsA ba dge slong chos rje dpal gyis bsgyur cing zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13252</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>190</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>193</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nyi ma'i snying po'i 'od zer/(ravigarbhaprabha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>byang chub snying po/(bodhigarbha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4976</ref>
+    <rnb>1</rnb>
+    <tib>bde ba'i 'byung gnas dpal ldan rje btsun ma la bstod pa</tib>
+    <skt/>
+    <coloph>di mtshan yongs su grags pa rin po ches gsungs pa rdzogs so/ /bod kyi sgra bsgyur gyi lo tsA ba gnyan dge slong d+harma kirtis rang 'gyur du gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>245</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>252</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2876</ref>
+    <rnb>2877</rnb>
+    <tib>bde ba'i 'byung gnas dpal ldan rje btsun ma la bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>251</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3666</ref>
+    <rnb>2886</rnb>
+    <tib>bde ba'i 'byung gnas dpal ldan rje btsun pa la bstod pa</tib>
+    <skt/>
+    <coloph>'di mtshan yongs su grags pa rin po ches gsungs pa rdzogs so/ /bod kyi sgra bsgyur gyi lo tsA ba gnyan dge slong d+harma kirtisa ras 'gyur du gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>187</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>190</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>187</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>190</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4877</ref>
+    <rnb>2878</rnb>
+    <tib>bde ba'i 'byung gnas dpal ldan rje btsun ma la bstod pa</tib>
+    <skt/>
+    <coloph>'di mtshan yongs su grags pa rin po ches gsungs pa rdzogs so/ /bod kyi sgra bsgyur gyi lo tsA ba gnyan dge slong d+harma kirtisa ras 'gyur du gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>189</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>190</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mtshan yongs su grags pa rin po che/</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

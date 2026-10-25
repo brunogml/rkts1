@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3120</ref>
+    <rnb>1</rnb>
+    <tib>dam tshig gi rgyan</tib>
+    <skt>sa ma yA laM kA ra</skt>
+    <coloph>dam tshig gi rgyan rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95870</vol>
+        <sec>1</sec>
+        <debp>1584</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1589</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2161</ref>
+    <rnb>1102</rnb>
+    <tib>dam tshig gi rgyan</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66081</vol>
+        <sec>rgyud</sec>
+        <debp>182</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>183</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2209</ref>
+    <rnb>1112</rnb>
+    <tib>dam tshig gi rgyan</tib>
+    <skt>sa ma yA laM kA ra</skt>
+    <coloph>dam tshig gi rgyan rdzogs so</coloph>
+    <colophTitle>dam tshig gi rgyan</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1366</vol>
+        <sec>rgyud</sec>
+        <debp>180</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>182</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210101</vol>
+        <sec>rgyud</sec>
+        <debp>180</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>182</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211405</vol>
+        <sec>rgyud</sec>
+        <debp>180</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>182</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1057</ref>
+    <rnb>1059</rnb>
+    <tib>dam tshig gi rgyan</tib>
+    <skt>sa ma ya a laM kA rA</skt>
+    <coloph>dam tshig gi rgyan rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31384</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>271</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>273</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1849</ref>
+    <rnb>1066</rnb>
+    <tib>dam tshig gi rgyan</tib>
+    <skt>sa ma ya a laM kA ra</skt>
+    <coloph>dam tshig gi rgyan rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3298</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>197</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>199</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212331</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>197</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>199</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3053</ref>
+    <rnb>1054</rnb>
+    <tib>dam tshig gi rgyan</tib>
+    <skt>s ma ya a laM kA ra</skt>
+    <coloph>dam tshig gi rgyan rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13216</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>224</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>226</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

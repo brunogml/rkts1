@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>N</coll>
+    <ref>N1963</ref>
+    <rnb>1180</rnb>
+    <tib>rdo rje phag mo'i sgrub thabs</tib>
+    <skt>badzra bA rA hI sA d+ha naM</skt>
+    <coloph>rdo rje phag mo'i sgrub thabs rje btsun ka ma la shrIs mdzad pa rdzos so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3300</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>274</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>275</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212333</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>274</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>275</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3167</ref>
+    <rnb>1168</rnb>
+    <tib>rdo rje phag mo'i sgrub thabs</tib>
+    <skt>badzra bA rA hi s+wa d+ha naM</skt>
+    <coloph>rdo rje phag mo'i sgrub thabs rje btsun ka ma la shrIs mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13218</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>286</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>287</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>kamalaśrī</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1443</ref>
+    <rnb>387</rnb>
+    <tib>sbyin sreg gi cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66053</vol>
+        <sec>rgyud</sec>
+        <debp>257</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>260</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1502</ref>
+    <rnb>396</rnb>
+    <tib>bram ze nyi mdzad rdo rjes mdzad pa'i sbyin sreg</tib>
+    <skt/>
+    <coloph>bram ze chen po nyin mdzad rdo rje rin pa ji lta ba bzhin du sbyar ba rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1338</vol>
+        <sec>rgyud</sec>
+        <debp>256</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>259</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210073</vol>
+        <sec>rgyud</sec>
+        <debp>256</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>259</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211377</vol>
+        <sec>rgyud</sec>
+        <debp>256</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>259</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bram ze chen po nyin mdzad rdo rje</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15145</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1007</ref>
+    <rnb>219</rnb>
+    <tib>sbyin sreg gi cho ga</tib>
+    <skt/>
+    <coloph>bram ze chen po nyin mdzad rdo rjes rim par ji lta ba bzhin du sbyar ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3265</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>280</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>284</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212298</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>280</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>284</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2217</ref>
+    <rnb>217</rnb>
+    <tib>sbyin sreg gi cho ga</tib>
+    <skt/>
+    <coloph>bram ze chen po nyin mdzad rdo rjes rim par ji lta ba bzhin du sbyar ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13183</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>269</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>273</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nyin mdzad rdo rje/(divākaravajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

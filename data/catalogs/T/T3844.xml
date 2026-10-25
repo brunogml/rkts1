@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5165</ref>
+    <rnb>1</rnb>
+    <tib>grub thob brgyad cu rtsa bzhi'i rtogs pa'i snying po dang de'i don 'grel</tib>
+    <skt/>
+    <coloph>grub thob brgyad cu rtsa bzhi'i rtogs pa'i snying po slob dpon dpa' bo 'od gsal gyis phyogs gcig tu bsdus shing / de'i don 'grel pa bla ma a b+h+ya shrI bshad pa ste/ bla ma mi nyag lo tsA bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>562</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>670</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3090</ref>
+    <rnb>3091</rnb>
+    <tib>grub thob brgyad cu rtsa bzhi'i do ha 'grel pa</tib>
+    <skt/>
+    <coloph>grub thob brgyad cu rtsa bzhi'i rtogs pa'i snyind po slob dpon dpa' bo 'od gsal gyis phyogs gcig tu bsdus shing / de'i don 'grel pa bla ma a b+h+ya shrI bshad pa ste/ bla ma mi nyag lo tsA bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>102</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>185</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3881</ref>
+    <rnb>3101</rnb>
+    <tib>grub thob brgyad cu rtsa bzhi'i do ha 'grel pa</tib>
+    <skt/>
+    <coloph>grub thob brgyad cu rtsa bzhi'i rtogs pa'i snyind po slob dpon dpa' bo 'od gsal gyis phyogs gcig tu bsdus shing / de'i don 'grel pa bla ma a b+h+ya shrI bshad pa ste/ bla ma mi nyag lo tsA bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>102</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>111</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>102</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>111</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5092</ref>
+    <rnb>3093</rnb>
+    <tib>grub thob brgyad cu rtsa bzhi'i rtogs brjod do ha 'grel pa dang bcas pa</tib>
+    <skt/>
+    <coloph>grub thob brgyad cu rtsa bzhi'i rtogs pa'i snying po slob dpon dpa' bo 'od gsal gyis phyogs gcig tu bsdus shing /_de'i don 'grel pa bla ma a b+h+ya shrIs bshad pa ste/_bla ma mi nyag lo tsA bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>68</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>abhyaśrī (abhayaśrī)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dpa' bo 'od gsal/(vīraprabhāsvara)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

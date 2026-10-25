@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3219</ref>
+    <rnb>1</rnb>
+    <tib>lta ba mdor bsdus pa zhes bya ba</tib>
+    <skt>dr-iSh+Ti saM k+Shep+ta nA ma</skt>
+    <coloph>rje na ro pa'i lta ba mdor bsdus pa zhes bya ba rdzogs so/ /lo tsA ba mar pa chos kyi blo gros kyis bsgyur cing zhus pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95871</vol>
+        <sec>1</sec>
+        <debp>1626</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1630</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2257</ref>
+    <rnb>1198</rnb>
+    <tib>lta ba mdor bsdus pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66083</vol>
+        <sec>rgyud</sec>
+        <debp>244</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>245</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2304</ref>
+    <rnb>1208</rnb>
+    <tib>lta ba mdor bsdus pa zhes bya ba</tib>
+    <skt>dr-iSh+Ti saM k+Ship+ta nA ma</skt>
+    <coloph>rje na ro pa'i lta ba mdor bsdus pa zhes bya ba rdzogs so/ /lo tsA ba mar pa chos kyi blo gros kyis bsgyur cing zhus pa'o</coloph>
+    <colophTitle>rje na ro ba'i lta ba mdor bsdus pa zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1368</vol>
+        <sec>rgyud</sec>
+        <debp>244</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>245</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210103</vol>
+        <sec>rgyud</sec>
+        <debp>244</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>245</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211407</vol>
+        <sec>rgyud</sec>
+        <debp>244</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>245</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>lo tsA ba mar pa chos kyi blo gros</name>
+        <role>translator</role>
+        <rid>bdr:P2636</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5106</ref>
+    <rnb>1</rnb>
+    <tib>rten 'brel snying po'i sngags them zhib mor bkod pa</tib>
+    <skt/>
+    <coloph>rten 'brel snying po'i sngags them zhib mor bkod pa zhes bya ba/ lo tsA ba tshul khrims rgyal bas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>1272</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1273</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3024</ref>
+    <rnb>3025</rnb>
+    <tib>rten 'brel snying po'i sngags them zhib mor bkod pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31423</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>252</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>252</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3814</ref>
+    <rnb>3034</rnb>
+    <tib>rten 'brel snying po'i sngags them zhib mor bkod pa</tib>
+    <skt/>
+    <coloph>rten 'brel snying po'i sngags them zhib mor bkod pa zhes bya ba/ lo tsA ba tshul khrims rgyal bas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3337</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>209</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>210</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212370</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>209</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>210</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5025</ref>
+    <rnb>3026</rnb>
+    <tib>rten 'brel snying po'i sngags them zhib mor bkod pa zhes bya ba</tib>
+    <skt/>
+    <coloph>rten 'brel snying po'i sngags them zhib mor bkod pa zhes bya ba/ lo tsA ba tshul khrims rgyal bas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13255</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>210</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>210</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nag tsho tshul khrims rgyal ba/(śīlajaya)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>atiśa (atīśa)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

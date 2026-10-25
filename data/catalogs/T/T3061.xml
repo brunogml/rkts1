@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2243</ref>
+    <rnb>1</rnb>
+    <tib>mchog gi dang po'i sangs rgyas las byung ba rgyud kyi rgyal po dpal dus kyi 'khor lo zhes bya ba</tib>
+    <skt>pa ra ma A di bud+d+ha ud+d+h-i ta shrI kA la tsakra nA ma tan+t+ra rA dzA</skt>
+    <coloph>mchog gi dang po'i sangs rgyas las phyung ba rgyud kyi rgyal po dpal dus kyi 'khor lo zhes bya ba rdzogs so/ /kha che'i paN+Di ta so ma nA tha dang/ bod kyi lo ts+tsha ba 'bro dge slong shes rab grags kyis bsgyur cing zhus te gtan la phab pa las/ dus phyis yon tan phul du byung ba dpag tu med pas spras pa'i bla ma dam pa chos kyi rgyal po'i bka' lung dang/ dpon chen shAkya bzang po'i gsung bzhin du/ mkhas pa chen po zhang ston mdo sde dpal dang / dus kyi 'khor lo'i tshul khong du chud pa'i dge slong tshul khrims dar gyis don gyi cha la legs par dpyad cing bskul te/ legs par sbyar gyi brda sprod pa'i bstan bcos rig pa'i dge slong shong ston gyis/ dpal sa skya'i gtsug lag khang chen por yul dbus kyi rgya dpe gnyis la gtugs shing legs par bcos te gtan la phab pa'o/ /gang gis thugs dgongs rnam par dag pa yis/ /'di la bskul zhing mthun rkyen bsgrubs pa dang/ /bdag gis 'bad las bsod nams gang thob des/ /kun gyis 'di rtogs sangs rgyas sar gnas shog</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95851</vol>
+        <sec>1</sec>
+        <debp>3</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>253</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1287</ref>
+    <rnb>231</rnb>
+    <tib>mchog gi dang po'i sangs rgyas las phyung ba rgyud kyi rgyal po dpal dus kyi 'khor lo zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66042</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>105</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1346</ref>
+    <rnb>240</rnb>
+    <tib>mchog gi dang po'i sangs rgyas las phyung ba rgyud kyi rgyal po dpal dus kyi 'khor lo zhes bya ba</tib>
+    <skt>pa ra ma A di bud+d+ha ud+d+h+r-i ta shrI kA la tsakra nA ma tan+t+ra rA dzA</skt>
+    <coloph>mchog gi dang po'i sangs rgyas las phyung ba/_rgyud kyi rgyal po dpal dus kyi 'khor lo zhes bya ba rdzogs so</coloph>
+    <colophTitle>mchog gi dang po'i sangs rgyas las phyung ba/_rgyud kyi rgyal po dpal dus kyi 'khor lo zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1327</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>107</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210062</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>107</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211366</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>107</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bod kyi lo tsA ba 'bro dge slong shes rab grags</name>
+        <role>translator</role>
+        <rid>bdr:P2553</rid>
+      </translator>
+      <translator>
+        <name>kha che'i pa N+Di ta so ma nA tha</name>
+        <role>translator</role>
+        <rid>bdr:P7084</rid>
+      </translator>
+      <translator>
+        <name>legs par sbyar ba'i skad kyis brda sprod pa'i bstan bcos rig pa'i dge slong shong ston</name>
+        <role>revisor</role>
+        <rid>bdr:P3244</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

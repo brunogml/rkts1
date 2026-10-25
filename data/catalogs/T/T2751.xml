@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4872</ref>
+    <rnb>1</rnb>
+    <tib>skabs 'grel bye brag rnam par bshad pa zhes bya ba</tib>
+    <skt/>
+    <coloph>slob dpon sti ra ma ti sbyar ba'i/ skabs 'grel bye brag rnam par bshad pa zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95888</vol>
+        <sec>1</sec>
+        <debp>1255</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1275</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2751</ref>
+    <rnb>2752</rnb>
+    <tib>skabs 'grel bye brag rnam par bshad pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31414</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>733</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>745</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3541</ref>
+    <rnb>2760</rnb>
+    <tib>skabs 'grel bye brag tu bshad pa</tib>
+    <skt/>
+    <coloph>slob dpon sti ra ma ti sbyar ba'i skabs 'grel bye brag rnam par bshad pa zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3328</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>561</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>570</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212361</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>561</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>570</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4752</ref>
+    <rnb>2753</rnb>
+    <tib>skabs 'grel bye brag rnam par bshad pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13246</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>601</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>611</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>sthiramati</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

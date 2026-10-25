@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm44.4</ref>
+    <rnb>817</rnb>
+    <tib>ka ma ra dza sku mngon du dbyung ba che mchog 'jigs byed ngan sngags kyi rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-45</vol>
+        <sec>rnying rgyud</sec>
+        <debp>15</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>18</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb050.042</ref>
+    <rnb>835</rnb>
+    <tib>ku ma ra dza sku mngon du dbyung ga che mchog 'jigs byed ngan sngags kyi rgyud ces bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21655</vol>
+        <sec>1</sec>
+        <debp>310</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>314</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>gleng gzhi'i le'u ste skabs dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21655</vol>
+        <sec>1</sec>
+        <debp>310</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>skabs gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21655</vol>
+        <sec>1</sec>
+        <debp>311</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>skabs gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21655</vol>
+        <sec>1</sec>
+        <debp>312</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>skabs bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21655</vol>
+        <sec>1</sec>
+        <debp>312</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>skabs lnga pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21655</vol>
+        <sec>1</sec>
+        <debp>313</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

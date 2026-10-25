@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba118.2</ref>
+    <rnb>608</rnb>
+    <tib>ko'u shi kas zhus pa zhes bya ba theg pa chen pa'i mdo</tib>
+    <skt>kau shi ka pa ri pri ts+tsha nA ma ma hA yA na sU tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>1BL443</vol>
+        <sec>1</sec>
+        <debp>104</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>119</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba119.2</ref>
+    <rnb>611</rnb>
+    <tib>ko'u shI kas zhus pa zhes bya ba theg pa chen po'i</tib>
+    <skt>kau shI ka pa ri prits+tsha nA ma ma hA yA na sU tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>1BL444</vol>
+        <sec>1</sec>
+        <debp>101</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>115</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>He</coll>
+    <ref>He83.01</ref>
+    <rnb>293</rnb>
+    <tib>ko'u shi kas zhus pa zhes bya ba theg pa chen pa'i mdo</tib>
+    <skt/>
+    <coloph>brgya byin gyis zhus pa'i mdo</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45313</setid>
+        <vol>4CZ75340</vol>
+        <sec>mdo</sec>
+        <debp>114</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>130</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng11.13</ref>
+    <rnb>96</rnb>
+    <tib>ko 'u shi kas zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt/>
+    <coloph>brgya byin gyis zhus pa'i mdo' // // rdzogs s+ho //</coloph>
+    <colophTitle/>
+    <margin>ko'u shi ka</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229041</vol>
+        <sec>mdo</sec>
+        <debp>289</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>299</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>No title in Skt.</note>
+  </item>
+</catalog>

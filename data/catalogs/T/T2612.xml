@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4740</ref>
+    <rnb>1</rnb>
+    <tib>tshigs bcad bcu pa zhes bya ba lam gyi rim pa</tib>
+    <skt>dA shag thA nA ma mA rga kra ma</skt>
+    <coloph>ces tshigs bcad bcu pa zhes bya ba lam gyi rim pa'o/ /slob dpon bud+d+ha gup+tasa nye bar sbyar ba'o/ bla ma de nyid la legs par brten cing nyan nas/ slar yang de nyid kyi slob ma pur+Na badz+ra la zhus te tA ra nA thas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>653</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>656</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2612</ref>
+    <rnb>2613</rnb>
+    <tib>tshigs bcad bcu pa zhes bya ba lam gyi rim pa</tib>
+    <skt>dA sha ga thAn mArga kra ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31412</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>86</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>88</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3402</ref>
+    <rnb>2621</rnb>
+    <tib>tshigs bcad bcu pa zhes bya ba lam gyi rim pa</tib>
+    <skt>dA sha ga thA nA ma mArga kra ma</skt>
+    <coloph>ces tshigs bcad bcu pa zhes bya ba lam gyi rim pa'o/ /slob dpon bud+d+ha gup+tas nye bar sbyar ba'o/ bla ma de nyid la legs par brten cing nyan nas/ slar yang de nyid kyi slob ma pur+Na badz+ra la zhus te tA ra nA thas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>59</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>61</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212359</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>59</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>61</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4613</ref>
+    <rnb>2614</rnb>
+    <tib>tshigs bcad bcu pa zhes bya ba lam gyi rim pa</tib>
+    <skt>dA shag thA nA ma mArga kra ma</skt>
+    <coloph>ces tshigs bcad bcu pa zhes bya ba lam gyi rim pa'o/_/slob dpon bud+d+ha gup+tas nye bar sbyar ba'o/_bla ma de nyid la legs par brten cing nyan nas/_slar yang de nyid kyi slob ma pur+N+Na badzra la zhus te tA ra nA thas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13244</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>58</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>59</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>buddhagupta</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

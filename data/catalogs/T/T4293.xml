@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2865</ref>
+    <rnb>866</rnb>
+    <tib>dpal rdo rje 'jigs byed kyi bstod pa</tib>
+    <skt>shrI badzra b+hai ra ba stu ti</skt>
+    <coloph>dpal rdo rje 'jigs byed kyi bstod pa/ paN+Di ta don yod rdo rjes mdzad pa rdzogs so/ /paN+Di ta de nyid dang / zhang lo tsA ba she rab bla mas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13214</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>246</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>246</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>don yod rdo rje/(amoghavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>shes rab bla ma/(prajñāguru)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>don yod rdo rje/(amoghavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

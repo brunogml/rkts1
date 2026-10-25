@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5765</ref>
+    <rnb>1</rnb>
+    <tib>ka lA pa'i mdo dang 'brel pa'i si la sogs pa'i rnam dbye'i bya ba</tib>
+    <skt>ka lA pa sU tra saM ban+d+ha s+yA di bi b+hak+ti pra kri ya</skt>
+    <coloph>'di ni paN+Di ta chen po mAM hi ka wis bkod pa ste si la sogs pa'i bya ba rnams rdzogs sio// zhes pa mkhas pa'i dbang po dpal ldan blo gros brtan pa'i legs par bshad pa pha dang / bla ma dam pa chos grags dpal bzang po'i bka' lung dang / mthun rkyen phun sum tshogs pa la brten nas sgra rig pa'i dge slong lo tsA ba blo gros rgyal mtshan dang / blo gros dpal bzang pos legs par bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95954</vol>
+        <sec>1</sec>
+        <debp>1173</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1288</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4253</ref>
+    <rnb>3193</rnb>
+    <tib>ka lA pa'i mdo dang 'brel ba'i si la sogs pa'i rnam dbye'i bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66227</vol>
+        <sec>sgra mdo</sec>
+        <debp>54</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>98</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4288</ref>
+    <rnb>3201</rnb>
+    <tib>ka lA pa'i mdo dang 'brel ba'i si la sogs pa'i rnam dbye'i bya ba</tib>
+    <skt>ka lA pa sU tra saM ban+d+ha s+yA di bi b+ha k+ti pra kri ya</skt>
+    <coloph>'di ni paN+Di ta chen po mAM hi ka wis bkod pa ste si la sogs pa'i bya ba rnams rdzogs so</coloph>
+    <colophTitle>si la sogs pa'i bya ba rnams</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1512</vol>
+        <sec>mdo 'grel</sec>
+        <debp>54</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>97</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210247</vol>
+        <sec>mdo 'grel</sec>
+        <debp>54</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>97</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211551</vol>
+        <sec>mdo 'grel</sec>
+        <debp>54</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>97</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dge slong lo tsA ba blo gros rgyal mtshan</name>
+        <role>translator</role>
+        <rid>bdr:P2085</rid>
+      </translator>
+      <translator>
+        <name>blo gros dpal bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15585</rid>
+      </translator>
+      <translator>
+        <name>paN+Di ta chen po mAM hi ka wi</name>
+        <role>author</role>
+        <rid>bdr:P4CZ16865</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

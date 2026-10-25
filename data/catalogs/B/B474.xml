@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks107.1</ref>
+    <rnb>703</rnb>
+    <tib>gsas mkhar zhi ba g.yung drung yongs rdzogs bsgrub thabs kyi dkyil 'khor</tib>
+    <skt/>
+    <coloph>de nas dkyil 'khor zhal bsgyur la / khro bo dbang chen drag po sku rdzogs bskyed pa'i bsgrub pa bya'o / gsas mkhar rin po che spyi spungs thig le dbyings kyi dkyil 'khor / gsas 'khor dbyings kyi phrin las zhes bya ba rdzogs so / dang ra khyung rdzong nas rma ston srol 'dzin gyis gter nas gdan drangs nas / bri ston nyi ma rgyal mtshan la brgyud / de nas me gnyos rnam gnyis bcas rim par brgyud nas bdag la'o</coloph>
+    <colophTitle/>
+    <margin>zhi ba</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75078</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>68</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>contains unnumbered chapter divisions. the colophon says that the treasure text was transmitted to bri-ston nyi-ma rgyal-mtshan, and from him by degrees by way of both me and gnyos down to 'myself.' this text is listed in brgyud rim, p. 234: yang gter bdag gis lung bstan nas / rma ston gyis dwang ra khyung rdzong nas zhi ba g.yung drung yongs rdzogs (here it is listed as a subsidiary text to the gsang ba bsen thub).</note>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz152.1</ref>
+    <rnb>267</rnb>
+    <tib>gsas mkhar zhi ba g.yung drung yongs rdzogs pa'i gzhung</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58687</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>124</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

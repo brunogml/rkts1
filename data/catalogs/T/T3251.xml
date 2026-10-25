@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5377</ref>
+    <rnb>1</rnb>
+    <tib>sems brtag pa</tib>
+    <skt>tsit+ta pa rIk+Sha</skt>
+    <coloph>sems brtag pa slob dpon tshul khrims 'phags pas mdzad pa rdzogs so/ /paN+Di ta ka na ka dang / lo tsA ba chos 'bar gyis zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95908</vol>
+        <sec>1</sec>
+        <debp>1867</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1870</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3873</ref>
+    <rnb>2809</rnb>
+    <tib>sems brtag pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66140</vol>
+        <sec>dbu ma</sec>
+        <debp>303</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>304</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3906</ref>
+    <rnb>2818</rnb>
+    <tib>sems brtag pa</tib>
+    <skt>tsit+ta pa rIk+Sha</skt>
+    <coloph>sems brtag pa slob dpon tshul khrims 'phags pas mdzad pa rdzogs so</coloph>
+    <colophTitle>sems brtag pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1425</vol>
+        <sec>mdo 'grel</sec>
+        <debp>305</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>306</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210160</vol>
+        <sec>mdo 'grel</sec>
+        <debp>305</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>306</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211464</vol>
+        <sec>mdo 'grel</sec>
+        <debp>305</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>306</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta ka na ka</name>
+        <role>translator</role>
+        <rid>bdr:P8187</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba chos 'bar</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ10557</rid>
+      </translator>
+      <translator>
+        <name>slob dpon tshul khrims 'phags pa</name>
+        <role>author</role>
+        <rid>bdr:P4CZ16759</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3305</ref>
+    <rnb>3299</rnb>
+    <tib>sems brtag pa</tib>
+    <skt>tsit+ta pa rik+Sha</skt>
+    <coloph>sems brtag pa slob dpon tshul khrims 'phags pas mdzad pa rdzogs so/ /paN+Di ta ka na ka dang / lo tsA ba chos 'bar gyis zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31454</vol>
+        <sec>mdo 'grel</sec>
+        <debp>517</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>518</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4091</ref>
+    <rnb>3311</rnb>
+    <tib>sems brtag pa</tib>
+    <skt>tsit+ta pa rIk+Sha</skt>
+    <coloph>sems brtag pa slob dpon tshul khrims 'phags pas mdzad pa rdzogs so/ /paN+Di ta ka na ka dang / lo tsA ba chos 'bar gyis zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3368</vol>
+        <sec>mdo 'grel</sec>
+        <debp>430</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>431</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212401</vol>
+        <sec>mdo 'grel</sec>
+        <debp>430</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>431</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5302</ref>
+    <rnb>3303</rnb>
+    <tib>sems brtags pa</tib>
+    <skt>tsit+ta pa rik+Sha</skt>
+    <coloph>sems brtag pa slob dpon tshul khrims 'phags pas mdzad pa rdzogs so/ /paN+Di ta ka na ka dang / lo tsA ba chos 'bar gyis zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13286</vol>
+        <sec>mdo 'grel</sec>
+        <debp>414</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>414</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>tshul khrims 'phags pa/(udgataśīla)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

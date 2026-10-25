@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt212.41</ref>
+    <rnb>6020</rnb>
+    <tib>rig 'dzin gsang ba'i sgrub pa sku gsum dgongs pa 'dus pa las ser zlog las kyi kha tshar</tib>
+    <skt/>
+    <coloph>bdag 'dra o rgyan bde chen gling pa rtsal gyis kong yul dpal gyi bon ri'i dbus phug gsang ba yongs rdzong nas gter du spyan drangs te/ slar lha brag mched gsum gyi ru lag g.yu mtshor babs pa'o//</coloph>
+    <colophTitle/>
+    <margin>ser zlog</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4905</vol>
+        <sec>41</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>6</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt281.62</ref>
+    <rnb>7860</rnb>
+    <tib>rig 'dzin gsang ba'i sgrub pa sku gsum dgongs pa 'dus pa las ser bzlog las kyi kha tshar</tib>
+    <skt/>
+    <coloph>bdag 'dra o rgyan bde chen gling pa rtsal gyis kong yul dpal gyi bon ri'i dbus phugs (phug) gsang ba yang rdzong nas gter du spyan drangs te slar lha brag mched gsum gyi ru lag g.yu mtshor phab pa'o//</coloph>
+    <colophTitle/>
+    <margin>ser bzlog</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4974</vol>
+        <sec>62</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

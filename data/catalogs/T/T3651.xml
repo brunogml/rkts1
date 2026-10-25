@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5801</ref>
+    <rnb>1</rnb>
+    <tib>grub thob brgyad cu'i mngon par rtogs pa</tib>
+    <skt/>
+    <coloph>mi phab zla ba dang / b+ha ba b+ha tra dang / dge'i go cha dang / gnas bzhi'i dngos grub dang bcas pa/ bal po'i yul gyi bu lon khed mnyams nas/ lo nyis brgya lnga bcu rtsa gcig na wa zla'i nag phyogs kyi tshes drug nyin par skar ma lag la/ dge slong dpal sdes sems can thams cad kyi don du bris pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95959</vol>
+        <sec>1</sec>
+        <debp>926</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>932</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4282</ref>
+    <rnb>3222</rnb>
+    <tib>grub thob brgyad bcu'i mngon par rtogs pa bzhugs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66234</vol>
+        <sec>sna tshogs</sec>
+        <debp>16</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>17</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4317</ref>
+    <rnb>3230</rnb>
+    <tib>grub thob brgyad bcu'i mngon par rtogs pa bzhugs</tib>
+    <skt/>
+    <coloph>rang rang gi las dang rjes su mthun pa'i tshul 'dzin pa bcu phrag brgyad dang bzhi'i go rim rdzogs so</coloph>
+    <colophTitle>rang rang gi las dang rjes su mthun pa'i tshul 'dzin pa bcu phrag brgyad dang bzhi'i go rim</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1521</vol>
+        <sec>mdo 'grel</sec>
+        <debp>15</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>17</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210256</vol>
+        <sec>mdo 'grel</sec>
+        <debp>15</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>17</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211560</vol>
+        <sec>mdo 'grel</sec>
+        <debp>15</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>17</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4624</ref>
+    <rnb>3843</rnb>
+    <tib>grub thob brgyad bcu'i mngon par rtogs pa bzhugs</tib>
+    <skt/>
+    <coloph>mi phab zla ba dang / b+ha ba b+ha tra dang / dge'i go cha dang / gnas bzhi'i dngos grub dang bcas pa/ bal po'i yul gyi bu lon khed mnyams nas/ lo nyis brgya lnga bcu rtsa gcig na wo zla'i nag phyogs kyi tshes drug nyin par skar ma lag la/ dge slong dpal sdes sems can thams cad kyi don du bris pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3462</vol>
+        <sec>mdo 'grel</sec>
+        <debp>383</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>385</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212495</vol>
+        <sec>mdo 'grel</sec>
+        <debp>383</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>385</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

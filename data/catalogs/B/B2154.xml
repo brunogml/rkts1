@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt19.54</ref>
+    <rnb>780</rnb>
+    <tib>sbyin sreg</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>sbyin sreg</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4712</vol>
+        <sec>54</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt30.22</ref>
+    <rnb>1448</rnb>
+    <tib>sbyin sreg</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>sbyin sreg</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4723</vol>
+        <sec>22</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt37.14</ref>
+    <rnb>1586</rnb>
+    <tib>sbyin sregs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>sbyin sregs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4730</vol>
+        <sec>14</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>5</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

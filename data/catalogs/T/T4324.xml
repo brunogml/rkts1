@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3303</ref>
+    <rnb>2238</rnb>
+    <tib>sgrol ma dkar mo sgrub pa'i thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>29</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>30</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3337</ref>
+    <rnb>2247</rnb>
+    <tib>sgrol ma dkar mo sgrub pa'i thabs</tib>
+    <skt>sI ta tA rA sA d+ha naM</skt>
+    <coloph>sgrol ma dkar mo'i sgrub thabs/ slob dpon yid bzhin gi nor bu rgyal pos mdzad pa rdzogs so/ /paN+Di ta don yod rdo rje dang / khams pa lo tsA ba dge slong ba ris bsgyur cing zhus pa'o</coloph>
+    <colophTitle>sgrol ma dkar mo'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>27</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>28</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>27</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>28</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>27</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>28</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta don yod rdo rje</name>
+        <role>translator</role>
+        <rid>bdr:P8224</rid>
+      </translator>
+      <translator>
+        <name>khams pa lo tsA ba dge slong ba ri</name>
+        <role>translator</role>
+        <rid>bdr:P3731</rid>
+      </translator>
+      <translator>
+        <name>slob dpon yid bzhin nor bu rgyal po</name>
+        <role>author</role>
+        <rid>bdr:P0AT0054</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2952</ref>
+    <rnb>2168</rnb>
+    <tib>sgrol ma dkar mo'i sgrub pa'i thabs</tib>
+    <skt>sI ta tA ra sA d+ha naM</skt>
+    <coloph>sgrol ma dkar mo'i sgrub thabs/ slob dpon yid bzhin gi nor bu rgyal pos mdzad pa rdzogs so/ /paN+Di ta don yod rdo rje dang / khams pa lo tsA ba dge slong ba ris bsgyur cing zhus pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>31</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>31</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>31</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>31</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4158</ref>
+    <rnb>2159</rnb>
+    <tib>sgrol ma dkar mo'i sgrub pa'i thabs</tib>
+    <skt>si ta tA ra sA d+ha naM</skt>
+    <coloph>sgrol ma dkar mo'i sgrub thabs slob dpon yid bzhin gyi nor bu rgyal pos mdzad pa rdzogs so/_/paN+Di ta don yod rdo rje dang /_khams pa lo tsA ba dge slong ba ris bsgyur cing zhus pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>34</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>35</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>don yod rdo rje/(amoghavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>yid bzhin nor bu'i rgyal po/(cintāmaṇirāja)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

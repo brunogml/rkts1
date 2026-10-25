@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G3884</ref>
+    <rnb>3879</rnb>
+    <tib>'phags pa shes rab kyi pha rol tu phyin pa tshigs su bcad pa chen po zhes bya ba</tib>
+    <skt>Ar+ya pradz+nya pa ra mi ta ma hA pa r ama ta ma hA pa ri pritsha nA ma</skt>
+    <coloph>shes rab kyi pha rol tu phyin pa tshigs su bcad pa chen mo zhes bya ba/ 'phags pa AR+Ya de bas mdzad pa rdzogs so/ /paN+Di ta chen po mi pham mgon pos sgra rang 'gyur du mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31553</vol>
+        <sec>rdor gcod</sec>
+        <debp>517</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>520</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5871</ref>
+    <rnb>3873</rnb>
+    <tib>'phags pa shes rab kyi pha rol tu phyin pa tshigs su bcad pa chen po zhes bya ba</tib>
+    <skt>Ar+ya pradz+nya pa ra mi ta/ ma hA pa ri pri tsha nA ma</skt>
+    <coloph>shes rab kyi pha rol tu phyin pa tshigs su bcad pa chen mo zhes bya ba/_'phags pa Ar+ya de bas mdzad pa rdzogs so/_/paN+Di ta chen po mi pham mgon pos sgra rang 'gyur du mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13385</vol>
+        <sec>mdo 'grel</sec>
+        <debp>423</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>426</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>āryadeva</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

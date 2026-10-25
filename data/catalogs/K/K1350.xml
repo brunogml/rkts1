@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.151</ref>
+    <rnb>153</rnb>
+    <tib>phyir zlog pa ngan sngags kyi 'khor lo zhes bya ba</tib>
+    <skt/>
+    <coloph>mang+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>450</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>457</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg148</ref>
+    <rnb>150</rnb>
+    <tib>phyir zlog pa ngan sngags kyi 'khor lo zhes bya ba</tib>
+    <skt/>
+    <coloph>mang+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>422</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>428</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.144</ref>
+    <rnb>616</rnb>
+    <tib>phyir zlog pa ngan sngags kyi 'khor lo zhes bya ba</tib>
+    <skt>pa tra gi ra ra man+t+ra b+hi r+ba tsa kra nA ma</skt>
+    <coloph>mang+ga laM//gcig zhus//</coloph>
+    <colophTitle/>
+    <margin>rnam rgyal bzlog pa</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>88 ni</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.163.</note>
+  </item>
+</catalog>

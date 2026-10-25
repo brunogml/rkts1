@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3733</ref>
+    <rnb>2669</rnb>
+    <tib>maN+Dala gyi cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66110</vol>
+        <sec>rgyud</sec>
+        <debp>127</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>127</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3767</ref>
+    <rnb>2678</rnb>
+    <tib>maN+Dala gyi cho ga</tib>
+    <skt>maN+Dal bi d+hiH</skt>
+    <coloph>maN+Dal gyi cho ga kha che'i paN chen gyis mdzad pa rdzogs so</coloph>
+    <colophTitle>maN+Dal gyi cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1395</vol>
+        <sec>rgyud</sec>
+        <debp>127</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>127</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210130</vol>
+        <sec>rgyud</sec>
+        <debp>127</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>127</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211434</vol>
+        <sec>rgyud</sec>
+        <debp>127</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>127</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gnubs byams pa'i dpal</name>
+        <role>translator</role>
+        <rid>bdr:P4007</rid>
+      </translator>
+      <translator>
+        <name>kha che'i paN chen</name>
+        <role>author</role>
+        <rid>bdr:P1518</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3375</ref>
+    <rnb>2594</rnb>
+    <tib>maN+Dala gyi cho ga</tib>
+    <skt>maN+Dal bi d+hi</skt>
+    <coloph>maN+Dala gyi cho ga rdzogs so// gnubs byams pa'i dpal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3325</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>343</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>344</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212358</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>343</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>344</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4146</ref>
+    <rnb>3366</rnb>
+    <tib>spyod pa bsdus pa'i sgron ma</tib>
+    <skt>tsAr+ya sang gra hA pra dI pa</skt>
+    <coloph>spyod pa bsdus pa'i sgron ma slob don mkhas pa chen po dpal mar me mdzad ye shes kyi mdzad pa rdzogs so/ /rgya gar gyi mkhan po paN+Di ta dI paM ka ra shrI dz+nyA na de nyid dang / lo tsA ba dge slong tshul khrims rgyal pas bsgyur cing zhus pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3370</vol>
+        <sec>mdo 'grel</sec>
+        <debp>360</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>361</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212403</vol>
+        <sec>mdo 'grel</sec>
+        <debp>360</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>361</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4586</ref>
+    <rnb>2587</rnb>
+    <tib>maN+Dala gyi cho ga</tib>
+    <skt>maN+Da la bi d+hi</skt>
+    <coloph>maN+Dala gyi cho ga rdzogs so//gnubs byams pa'i dpal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13243</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>345</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>346</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

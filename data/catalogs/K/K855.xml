@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm24.16</ref>
+    <rnb>245</rnb>
+    <tib/>
+    <skt/>
+    <coloph>shis pa brjod pa'i le 'u zhes bya ba /_rdzogs s+h+yo //</coloph>
+    <colophTitle>shis pa brjod pa'i le 'u zhes bya ba</colophTitle>
+    <margin>shis</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL934</vol>
+        <sec>mdo</sec>
+        <debp>28</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>31</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Text seems to be appended to the previous text; no title in Skt. or Tib.; title taken from colophon. Besides similarities in He, Lg, and Ng, this concurs also with F239, but is not found in mainstream collections.</note>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F239</ref>
+    <rnb>243</rnb>
+    <tib/>
+    <skt/>
+    <coloph>shis par brjod pa'i le'u zhes bya ba rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14090</vol>
+        <sec>mdo sde</sec>
+        <debp>375</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>378</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng22.63</ref>
+    <rnb>240</rnb>
+    <tib>shis pa brjod pa'i le'u zhes bya ba</tib>
+    <skt/>
+    <coloph>shis pa brjod pa'i le'u zhes bya ba // rdzogs s+ho //</coloph>
+    <colophTitle/>
+    <margin>dkra shis</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229052</vol>
+        <sec>mdo</sec>
+        <debp>325</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>327</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Text appended to He65.21. No title in Skt. or Tib.; title taken from colophon. Besides Lg19.9, this concurs also with F239, but is not found in mainstream collections.</note>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg19.10</ref>
+    <rnb>179</rnb>
+    <tib/>
+    <skt/>
+    <coloph>shis par brjod pa'-i le'u zhes bya ba rdzogs s+ho //</coloph>
+    <colophTitle>shis par brjod pa'-i le'u zhes bya ba</colophTitle>
+    <margin>shis par rjod pa</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211192</vol>
+        <sec>mdo</sec>
+        <debp>12</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>14</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg49.10</ref>
+    <rnb>588</rnb>
+    <tib/>
+    <skt/>
+    <coloph>shis pa brjod pa'i le'u zhes bya ba rdzogs s+h+yo//</coloph>
+    <colophTitle>shis pa brjod pa'i le'u zhes bya ba</colophTitle>
+    <margin>bshis par brjod pa</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211219</vol>
+        <sec>mdo</sec>
+        <debp>14</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>16</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

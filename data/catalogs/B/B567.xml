@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks191.11</ref>
+    <rnb>1260</rnb>
+    <tib>bum pa'i ti ka lcags 'phrang gi gter ma</tib>
+    <skt/>
+    <coloph>phung bon bdag gi [bdag] phyi rabs don du zhus / … khod spung bdag gis mang mkhar lcags la sbas / phyi rabs brdol ba'i smon lam gdab / dpon gsas khyung rgod rtsal nas spa tshangs la rim gyis brgyud</coloph>
+    <colophTitle/>
+    <margin>bum pa</margin>
+    <locations/>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt143.15</ref>
+    <rnb>4504</rnb>
+    <tib>bum pa'i ti ka lcags 'phrang gi gter ma</tib>
+    <skt/>
+    <coloph>khod spungs bdag gis mang mkhar brag la sbas/ phyi rabs rdol ba'i smon lam btab/ (?) dpon gsas khyung rgod nas spa tshang la rim gyis brgyud/ bon gyi bstan pa dar bar shog/</coloph>
+    <colophTitle/>
+    <margin>bum chog</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4836</vol>
+        <sec>15</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

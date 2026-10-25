@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4766</ref>
+    <rnb>1</rnb>
+    <tib>lam khyer gyi chos gsum zhes bya ba</tib>
+    <skt>d+ha na d+harma trai ya nA ma</skt>
+    <coloph>khyad 'phags lam khyer gyi chos gsum zhes bya ba/ yes shes kyi DA ki mas mdzad pa rdzogs so/ /lo tsA ba glan dar ma bla gros kyis bsgyur ba'o/ DA ki de nyid la gser srang lnga brgya phul nas zhus te/ bdag khung po rnal 'byor pas nyams su myong bar byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>874</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>877</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2641</ref>
+    <rnb>2642</rnb>
+    <tib>lam khyer gyi chos gsum zhes bya ba</tib>
+    <skt>d+ha na d+harma trai ya nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31412</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>245</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>249</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3431</ref>
+    <rnb>2650</rnb>
+    <tib>lam khyer gyi chos gsum</tib>
+    <skt>d+ha na d+harma trai ya nA ma</skt>
+    <coloph>khyad 'phags lam khyer gyi chos gsum zhes bya ba/ yes shes kyi DA ki mas mdzad pa rdzogs so/ /lo tsA ba glan dar ma bla gros kyis bsgyur ba'o/ DA ki de nyid la gser srang lnga brgya phul nas zhus te/ bdag khung po rnal 'byor pas nyams su myong bar byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>156</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>157</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212359</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>156</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>157</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4642</ref>
+    <rnb>2643</rnb>
+    <tib>lam khyer gyi chos gsum zhes bya ba</tib>
+    <skt>d+ha na d+harma trai ya nA ma</skt>
+    <coloph>khyad 'phags lam khyer gyi chos gsum zhes bya ba/_yes shes kyi DA ki mas mdzad pa rdzogs so/_/lo tsA ba glan dar ma bla gros kyis bsgyur ba'o/_DA ki de nyid la gser srang lnga brgya phul nas zhus te/_bdag khyung po rnal 'byor pas nyams su myong bar byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13244</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>163</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>164</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>glan darma blo gros/(dharmamati)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>ye shes kyi DAki ma/(jñānaḍākinī)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

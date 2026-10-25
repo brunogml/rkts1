@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb047.006</ref>
+    <rnb>723</rnb>
+    <tib>byang chub sems kyi phur pa rdzogs pa chen po theg pa'i yang zhun rgyud kyi rgyal po chen po</tib>
+    <skt>bod+hi tsit+ta kI la ya A ti yo ga bi to ta ma la ma hA rA dza tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21652</vol>
+        <sec>1</sec>
+        <debp>87</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>112</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>byang chub sems kyi phur pa'i don ston pa dang sdud pa po'i zhus lan bstan pa ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21652</vol>
+        <sec>1</sec>
+        <debp>111</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>byang chub sems kyi phur pa yongs su gtad pa'i le'u ste bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21652</vol>
+        <sec>1</sec>
+        <debp>112</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

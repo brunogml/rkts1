@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5166</ref>
+    <rnb>1</rnb>
+    <tib>man ngag rin chen 'phreng ba</tib>
+    <skt>rat+na mA la nA ma</skt>
+    <coloph>man ngag rin chen 'phreng ba'i gzhung chung ngu rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>671</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>675</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3091</ref>
+    <rnb>3092</rnb>
+    <tib>rin chen 'phreng ba zhes bya ba</tib>
+    <skt>rat+na mA la nA ma</skt>
+    <coloph>man ngag rin chen 'phreng ba'i gzhung chung ngu rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>186</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>188</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3882</ref>
+    <rnb>3102</rnb>
+    <tib>rin chen 'phreng ba zhes bya ba</tib>
+    <skt>rat+na mA la nA ma</skt>
+    <coloph>man ngag rin chen 'phreng ba'i gzhung chung ngu rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>111</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>112</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>111</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>112</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5093</ref>
+    <rnb>3094</rnb>
+    <tib>rin chen 'phreng ba zhes bya ba</tib>
+    <skt>rat+na mA la nA ma</skt>
+    <coloph>man ngag rin chen 'phreng ba'i gzhung chung ngu rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>114</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>115</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dhamadhuma (dharmadhūma)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2543</ref>
+    <rnb>1</rnb>
+    <tib>bdun tshigs kyi cho ga</tib>
+    <skt/>
+    <coloph>slob dpon chen po nag pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95858</vol>
+        <sec>1</sec>
+        <debp>747</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>749</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>A</coll>
+    <ref>A4966</ref>
+    <rnb>1</rnb>
+    <tib>bdun tshigs kyi cho ga</tib>
+    <skt>a ti bi ti</skt>
+    <coloph>bdun tshigs kyi cho ga rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>206</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>209</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1584</ref>
+    <rnb>528</rnb>
+    <tib>bdun tshigs kyi cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66056</vol>
+        <sec>rgyud</sec>
+        <debp>268</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>268</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1640</ref>
+    <rnb>537</rnb>
+    <tib>bdun tshigs kyi cho ga</tib>
+    <skt/>
+    <coloph>slob dpon chen po nag po pas mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1341</vol>
+        <sec>rgyud</sec>
+        <debp>268</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>268</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210076</vol>
+        <sec>rgyud</sec>
+        <debp>268</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>268</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211380</vol>
+        <sec>rgyud</sec>
+        <debp>268</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>268</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon chen po nag po pa</name>
+        <role>author</role>
+        <rid>bdr:P3299</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G516</ref>
+    <rnb>517</rnb>
+    <tib>bdun tshigs kyi cho ga</tib>
+    <skt/>
+    <coloph>slob dpon chen po nag pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31362</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>397</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>398</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1307</ref>
+    <rnb>523</rnb>
+    <tib>bdun tshigs kyi cho ga</tib>
+    <skt/>
+    <coloph>slob dpon chen po nag pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3276</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>304</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>176</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212309</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>304</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>176</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3656</ref>
+    <rnb>2876</rnb>
+    <tib>bdun tshigs kyi cho ga</tib>
+    <skt>a ti bi ti</skt>
+    <coloph>bdun tshigs kyi cho ga rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>175</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>176</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>175</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>176</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2512</ref>
+    <rnb>512</rnb>
+    <tib>bdun tshigs kyi cho ga</tib>
+    <skt/>
+    <coloph>slob dpon chen po nag pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13194</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>337</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>338</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nag po/(kṛṣṇa)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4867</ref>
+    <rnb>2868</rnb>
+    <tib>bdun tshigs kyi cho ga</tib>
+    <skt>a ti bi ti</skt>
+    <coloph>bdun tshigs kyi cho ga rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>176</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>177</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

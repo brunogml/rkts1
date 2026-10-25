@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm138.2</ref>
+    <rnb>480</rnb>
+    <tib>spyi rgyud chen po nam mkha' dkar po ye khri mtha' sel gyi rgyud las gnas pa gzhi'i bam po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4109</vol>
+        <sec>1</sec>
+        <debp>117</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>148</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks101.1</ref>
+    <rnb>630</rnb>
+    <tib>spyi rgyud chen po nam mkha' dkar po ye khri mtha' sel gyi rgyud las gnas pa gzhi'i bam po</tib>
+    <skt/>
+    <coloph> bder gshegs dgongs pa'i bcud / sangs rgyas kun gyi snying / rje ri khrod pa'i thugs kyi thigs pa / dbus phyogs yar lha sham po'i gangs khrod du / [28r] sprul sku lung ston lha gnyan la / mjal res tha ma la brgyud pa lags so / des bdag lung sgom 'khor lo rgyal po la brgyud pa'o …</coloph>
+    <colophTitle/>
+    <margin>gzhi'i bam po</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75072</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>28</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz180.2</ref>
+    <rnb>535</rnb>
+    <tib>spyi rgyud chen po nam mkha' dkar po ye khri mtha' sel gyi rgyud las gnas pa gzhi'i bam po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58715</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>26</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

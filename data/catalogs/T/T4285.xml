@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1847</ref>
+    <rnb>789</rnb>
+    <tib>sbyor ba yan lag drug pa zhes bya ba'i 'grel pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66075</vol>
+        <sec>rgyud</sec>
+        <debp>287</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>288</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1900</ref>
+    <rnb>799</rnb>
+    <tib>sbyor ba yan lag drug pa zhes bya ba'i 'grel pa</tib>
+    <skt>Sha Ta saM ga yo ga nA ma TI kA</skt>
+    <coloph>dpal gsang ba 'dus pa'i sbyor ba yan lag drug pa zhes bya ba'i 'grel pa slob dpon sangs rgyas ye shes zhabs kyi lugs paN+Di ta smri tis mdzad pa rdzogs so//</coloph>
+    <colophTitle>dpal gsang ba 'dus pa'i sbyor ba yan lag drug pa zhes bya ba'i 'grel pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1360</vol>
+        <sec>rgyud</sec>
+        <debp>286</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>287</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210095</vol>
+        <sec>rgyud</sec>
+        <debp>286</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>287</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211399</vol>
+        <sec>rgyud</sec>
+        <debp>286</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>287</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta smr-i ti</name>
+        <role>author</role>
+        <rid>bdr:P4849</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1558</ref>
+    <rnb>775</rnb>
+    <tib>sbyor ba yan lag drug pa zhes bya ba'i 'grel pa</tib>
+    <skt>Sha TaM ga nA ma TI kA</skt>
+    <coloph>dpal gsang ba 'dus pa'i sbyor ba yan lag drug pa zhes bya ba'i 'grel pa slob dpon sangs rgyas ye shes zhabs kyi lugs/ paN+Di ta smi tis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3293</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>330</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>331</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>330</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>331</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2764</ref>
+    <rnb>765</rnb>
+    <tib>sbyor ba yan lag drug pa zhes bya ba'i 'grel pa</tib>
+    <skt>Sha TaM ga nA ma TI ka</skt>
+    <coloph>dpal gsang ba 'dus pa'i sbyor ba yan lag drug pa zhes bya ba'i 'grel pa slob dpon sangs rgyas ye shes zhabs kyi lugs/_paN+Di ta smri tis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13211</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>348</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>349</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>smṛti</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5114</ref>
+    <rnb>1</rnb>
+    <tib>'khor ba rtsad nas gcod pa rdo rje sems dpa'i gdam ngag</tib>
+    <skt>saM sa ra mu la tshe d+ha badzra sa ta d+he sha</skt>
+    <coloph>'khor ba rtsad nas gcod pa rdo rje sems dpa'i man ngag zhes bya ba/ slob dpon shrI sing has mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>11</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>14</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3032</ref>
+    <rnb>3033</rnb>
+    <tib>'khor ba rtsad nas gcod pa rdo rje sems dpa'i man ngag</tib>
+    <skt>saM sa ra mu la tshe d+ha badzra sa ta d+he sha</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31424</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>5</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3822</ref>
+    <rnb>3042</rnb>
+    <tib>'khor ba rtsad nas gcod pa rdo rje sems dpa'i gdam ngag</tib>
+    <skt>saM sa ra mu la tshe d+ha badzra sa ta d+he sha</skt>
+    <coloph>'khor ba rtsad nas gcod pa rdo rje sems dpa'i man ngag zhes bya ba/ slob dpon shrI sing has mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3338</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>5</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>6</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212371</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>5</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>6</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5033</ref>
+    <rnb>3034</rnb>
+    <tib>'khor ba rtsad nas gcod pa rdo rje sems dpa'i man ngag</tib>
+    <skt>saM sa ra mu la tshe d+ha badzra sa ta d+he sha</skt>
+    <coloph>'khor ba brtsad nas gcod pa'i rdo rje sems dpa'i man ngag zhes bya ba/_slob dpon shrI sing has mdzad pa'o/_/rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13256</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>4</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>5</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>śrisiṅṅa (śrīsiṁha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

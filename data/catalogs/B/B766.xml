@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks31.3</ref>
+    <rnb>83</rnb>
+    <tib>gshed 'dul hom bzhengs drag po'i sri khung rko ba dbus</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>ma tang bzhengs</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75002</vol>
+        <sec>3</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks31.4</ref>
+    <rnb>84</rnb>
+    <tib>gshed 'dul hom bzhengs drag po'i sri khung rko ba dbus</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>hom</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75002</vol>
+        <sec>4</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>15</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

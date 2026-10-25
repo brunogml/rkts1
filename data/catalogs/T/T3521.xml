@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C4150</ref>
+    <rnb>3087</rnb>
+    <tib>slob ma la springs pa'i spring yig</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66204</vol>
+        <sec>spring yig</sec>
+        <debp>46</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>53</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4183</ref>
+    <rnb>3096</rnb>
+    <tib>slob ma la springs pa'i spring yig</tib>
+    <skt>shri Sh+ya le kha</skt>
+    <coloph>slob ma la springs pa'i phrin yig slob dpon chen po tsan dra go mis mdzad pa rdzogs so</coloph>
+    <colophTitle>slob ma la springs pa'i phrin yig</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1489</vol>
+        <sec>mdo 'grel</sec>
+        <debp>46</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>53</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210224</vol>
+        <sec>mdo 'grel</sec>
+        <debp>46</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>53</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211528</vol>
+        <sec>mdo 'grel</sec>
+        <debp>46</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>53</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po sarba dz+nya de ba</name>
+        <role>translator</role>
+        <rid>bdr:P00KG07267</rid>
+      </translator>
+      <translator>
+        <name>zhu chen gyi lo tsA ba ban de dpal brtsegs rak+Shi ta</name>
+        <role>translator</role>
+        <rid>bdr:P8182</rid>
+      </translator>
+      <translator>
+        <name>slob dpon chen po tsan dra go mi</name>
+        <role>author</role>
+        <rid>bdr:P7599</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3413</ref>
+    <rnb>3407</rnb>
+    <tib>slob ma la spring pa'i spring yig</tib>
+    <skt>shik+Sha le kha</skt>
+    <coloph>slob ma la springs pa'i spring yig slob dpon chen po tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi mkhan po sarba dz+nyA de ba dang / zhus chen gyi lo tsA ba ban+de dpal brtsegs rak+Shi tas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31458</vol>
+        <sec>mdo 'grel</sec>
+        <debp>89</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>98</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3686</ref>
+    <rnb>3680</rnb>
+    <tib>slob ma la springs pa'i spring yig</tib>
+    <skt>shik+Sha le kha</skt>
+    <coloph>slob ma la springs pa'i 'phrin yig slob dpon chen po tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi mkhan po sarba dz+nyA de ba dang / zhu chen gyi lo tsA ba ban+de dpal rtsegs rak+Shi tas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31519</vol>
+        <sec>skyes rabs</sec>
+        <debp>356</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>365</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4199</ref>
+    <rnb>3419</rnb>
+    <tib>slob ma la springs pa'i spring yig</tib>
+    <skt>shi k+Sha le kha</skt>
+    <coloph>slob ma la springs pa'i spring yig slob dpon chen po tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi mkhan po sarba dz+nyA de ba dang / zhus chen gyi lo tsA ba ban+de dpal brtsegs rak+Shi tas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3372</vol>
+        <sec>mdo 'grel</sec>
+        <debp>70</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>78</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212405</vol>
+        <sec>mdo 'grel</sec>
+        <debp>70</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>78</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4472</ref>
+    <rnb>3690</rnb>
+    <tib>slob ma la springs pa'i spring yig</tib>
+    <skt>shik+Sha le kha</skt>
+    <coloph>slob ma la springs pa'i 'phrin yig slob dpon chen po tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi mkhan po sarba dz+nyA de ba dang / zhu chen gyi lo tsA ba ban+de dpal rtsegs rak+Shi tas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3433</vol>
+        <sec>mdo 'grel</sec>
+        <debp>286</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>294</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212466</vol>
+        <sec>mdo 'grel</sec>
+        <debp>286</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>294</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5410</ref>
+    <rnb>3411</rnb>
+    <tib>slob ma la springs pa'i spring yig</tib>
+    <skt>shik+Sha le kha</skt>
+    <coloph>slob ma la springs pa'i spring yig slob dpon chen po tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi mkhan po sarba dz+nyA de ba dang / zhus chen gyi lo tsA ba ban+de dpal brtsegs rak+Shi tas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13290</vol>
+        <sec>mdo 'grel</sec>
+        <debp>81</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>89</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>candragomi (candragomin)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5683</ref>
+    <rnb>3684</rnb>
+    <tib>slob ma la springs pa'i spring yig</tib>
+    <skt>shik+Sha ke kha</skt>
+    <coloph>slob ma la springs pa'i 'phrin yig slob dpon chen po tsan+d+ra go mis mdzad pa rdzogs so/_/rgya gar gyi mkhan po sarba dz+nyA de ba dang /_zhu chen gyi lo tsA ba ban+de dpal brtsegs rak+Shi tas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13351</vol>
+        <sec>mdo 'grel</sec>
+        <debp>290</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>298</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>candragomin</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

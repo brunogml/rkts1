@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5237</ref>
+    <rnb>1</rnb>
+    <tib>mkha' lding gi sgrub thabs</tib>
+    <skt>ga ru Ta sA d+ha na</skt>
+    <coloph>mkha' lding gi sgrub thabs rdzogs so/ /'di'i rgya skad dus kyi 'khor lo'i rgyud tshig las bkol ba kho na yin pa ste/ jo nang lo tsA ba blo gros dpal dang / sa bzang blo gros rgyal mtshan gyi 'gyur gsar ji ltar bris so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>958</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>960</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3165</ref>
+    <rnb>3166</rnb>
+    <tib>mkha' lding gi sgrub thabs</tib>
+    <skt>ga ru Da sA d+ha naM</skt>
+    <coloph>mkha' lding gi sgrub thabs rdzogs so/ /'di'i rgya skad dus kyi 'khor lo'i rgyud tshig las bkol ba kho na yin pa ste/ jo nang lo tsA ba blo gros dpal dang / sa bzang blo gros rgyal mtshan gyi 'gyur gsar ji ltar bris so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>329</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>329</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3956</ref>
+    <rnb>3176</rnb>
+    <tib>mkha' lding gi sgrub thabs</tib>
+    <skt>ga ru da sA d+ha na</skt>
+    <coloph>mkha' lding gi sgrub thabs rdzogs so/ /'di'i rgya skad dus kyi 'khor lo'i rgyud tshig las bkol ba kho na yin pa ste/ jo nang lo tsA ba blo gros dpal dang / sa bzang blo gros rgyal mtshan gyi 'gyur gsar ji ltar bris so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>195</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>195</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>195</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>195</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5167</ref>
+    <rnb>3168</rnb>
+    <tib>mkha' lding gi sgrub thabs</tib>
+    <skt/>
+    <coloph>mkha' lding gi sgrub thabs rdzogs so/_/'di'i rgya skad dus kyi 'khor lo'i rgyud tshig las bkol ba kho na yin pa ste/_jo nang lo tsA ba blo gros dpal dang /_sa bzang blo gros rgyal mtshan gyis 'gyur gsar ji lta bar bris so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>198</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>199</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>sa bzang blo gros rgyal mtshan/(matidhvaja)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>jo nang blo gros dpal/(matiśrī)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

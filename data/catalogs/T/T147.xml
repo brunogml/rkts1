@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2326</ref>
+    <rnb>1</rnb>
+    <tib>dpal 'khor lo sdom pa'i bstod pa don thams cad grub pa rnam dag gtsug gi nor bu zhes bya ba</tib>
+    <skt>shri tsakra saM ba ra sto tra sarba ar+tha sid+d+hi bi shud+d+ha tsU Da ma Ni nA ma</skt>
+    <coloph>dpal ldan 'khor lo sdom pa'i bstod pa don thams cad grub pa rnam dag gtsug gi nor bu zhes bya ba rgyal po mchog gi dngos grub thob pa/ /slob dpon dA ri ka pas mdzad pa rdzogs so/ /yul kha che'i mkhan po d+harma badz+ra dang bod kyi lo tsA ba rgya brtson 'grus seng ges bsgyur ba'o/ /slad kyi rgya gar gyi mkhan po thun mong gi dngos grub brnyes pa'i paN+Di ta mu ku mA ra badz+ra dang / / bod kyi lo tsA ba dge slong nyi ma'i rdo rjes rgya gar shar phyogs kyi grong khyer mnga' ldan du bsgyur cing zhus te dag par byas so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95856</vol>
+        <sec>1</sec>
+        <debp>479</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>491</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1369</ref>
+    <rnb>313</rnb>
+    <tib>dpal 'khor lo sdom pa'i bstod pa/_don thams cad 'grub pa rnam dag gtsug gi nor bu zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66052</vol>
+        <sec>rgyud</sec>
+        <debp>194</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>198</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1428</ref>
+    <rnb>322</rnb>
+    <tib>dpal 'khor lo sdom pa'i bstod pa/_don thams cad 'grub pa rnam dag gtsug gi nor bu zhes bya ba</tib>
+    <skt>shrI tsa kra saM ba ra sto tra sarba ar+tha sid+d+hi bi shud+d+ha tsU Da ma Ni nA ma</skt>
+    <coloph>dpal 'khor lo sdom pa'i bstod pa don thams cad grub pa rnam dag gtsug gi nor bu zhes bya ba rgyal po mchog gi dngos grub thob pa/ slob dpon dA ri ka pas mdzad pa rdzogs so// //yul kha che'i mkhan po dharmA badzra dang/ bod kyi lo tsA ba rgya brtson 'grus seng ges bsgyur ba'o/ /slad kyi rgya gar gyi mkhan po thun mong gi dngos grub brnyes pa'i paN+Di ta ku mA ra badzra dang/ bod kyi lo tsA ba dge slong nyi ma'i rdo rjes rgya gar shar phyogs kyi grong khyer mnga' ldan du bsgyur cing zhus te dag par byas so//</coloph>
+    <colophTitle>dpal 'khor lo sdom pa'i bstod pa don thams cad grub pa rnam dag gtsug gi nor bu zhes bya ba rgyal po mchog gi dngos grub thob pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1337</vol>
+        <sec>rgyud</sec>
+        <debp>193</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>197</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210072</vol>
+        <sec>rgyud</sec>
+        <debp>193</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>197</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211376</vol>
+        <sec>rgyud</sec>
+        <debp>193</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>197</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bod kyi lo tsA ba rgya brtson 'grus seng ge</name>
+        <role>translator</role>
+        <rid>bdr:P4104</rid>
+      </translator>
+      <translator>
+        <name>yul kha che'i mkhan po d+har+m+mA badzra</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15108</rid>
+      </translator>
+      <translator>
+        <name>rgya gar gyi mkhan po thun mong gi dngos grub brnyes pa'i paN+Di ta ku mA ra badzra</name>
+        <role>translator</role>
+        <rid>bdr:P8208</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba dge slong nyi ma'i rdo rje</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15123</rid>
+      </translator>
+      <translator>
+        <name>slob dpon dA ri ka pa</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15083</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G149</ref>
+    <rnb>149</rnb>
+    <tib>dpal 'khor lo sdom pa'i bstod pa don thams cad 'grub pa rnam dag gtsug gi nor bu zhes bya ba</tib>
+    <skt>shrI tsakra saM ba ra sto tra sarba ar+tha sid+hi bi shud+d+ha tsU Da ma Ni nA ma</skt>
+    <coloph>dpal ldan 'khor lo sdom pa'i bstod pa don thams cad grub pa rnam dag gtsug gi nor bu zhes bya ba rgyal po mchog gi dngos grub thob pa/ /slob dpon dA ri ka pas mdzad pa rdzogs so/ /yul kha che'i mkhan po d+harma badz+ra dang bod kyi lo tsA ba rgya brtson 'grus seng ges bsgyur ba'o/ /slad kyi rgya gar gyi mkhan po thun mong gi dngos grub brnyes pa'i paN+Di ta mu ku mA ra badz+ra dang / / bod kyi lo tsA ba dge slong nyi ma'i rdo rjes rgya gar shar phyogs kyi grong khyer mnga' ldan du bsgyur cing zhus te dag par byas so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31350</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>299</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>306</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N937</ref>
+    <rnb>149</rnb>
+    <tib>dpal 'khor lo sdom pa'i bstod pa don thams cad 'grub pa rnam dag gtsug gi nor bu zhes bya ba</tib>
+    <skt>shrI tsakra saM ba ra sto tra sarba ar+tha si d+hi bi shud+d+ha tsU Da ma Ni nA ma</skt>
+    <coloph>dpal ldan 'khor lo sdom pa'i bstod pa don thams cad grub pa rnam dag gtsug gi nor bu zhes bya ba rgyal po mchog gi dngos grub thob pa/ /slob dpon dA ri ka pas mdzad pa rdzogs so/ /yul kha che'i mkhan po d+harma badz+ra dang bod kyi lo tsA ba rgya brtson 'grus seng ges bsgyur ba'o/ /slad kyi rgya gar gyi mkhan po thun mong gi dngos grub brnyes pa'i paN+Di ta mu ku mA ra badz+ra dang / / bod kyi lo tsA ba dge slong nyi ma'i rdo rjes rgya gar shar phyogs kyi grong khyer mnga' ldan du bsgyur cing zhus te dag par byas so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3264</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>231</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>236</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212297</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>231</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>236</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2147</ref>
+    <rnb>147</rnb>
+    <tib>dpal 'khor lo sdom pa'i bstod pa don thams cad 'grub pa rnam dag gtsug gi nor bu zhes bya ba</tib>
+    <skt>shrI tsakra saM ba ra sto tra sarba ar+tha si d+hi bi shud+d+ha tsu Da ma Ni nA ma</skt>
+    <coloph>dpal ldan 'khor lo sdom pa'i bstod pa don thams cad grub pa rnam dag gtsug gi nor bu zhes bya ba rgyal po mchog gi dngos grub thob pa/ /slob dpon dA ri ka pas mdzad pa rdzogs so/ /yul kha che'i mkhan po d+harma badz+ra dang bod kyi lo tsA ba rgya brtson 'grus seng ges bsgyur ba'o/ /slad kyi rgya gar gyi mkhan po thun mong gi dngos grub brnyes pa'i paN+Di ta mu ku mA ra badz+ra dang / / bod kyi lo tsA ba dge slong nyi ma'i rdo rjes rgya gar shar phyogs kyi grong khyer mnga' ldan du bsgyur cing zhus te dag par byas so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13182</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>249</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>254</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>brtson 'grus seng ge/(vīryasiṁha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>kumāravajra</name>
+        <role>revisor</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nyi ma'i rdo rje/(sūryavajra)</name>
+        <role>revisor</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dārika</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2863</ref>
+    <rnb>1</rnb>
+    <tib>tshogs kyi 'khor lo'i cho ga zhes bya ba</tib>
+    <skt>ga Na tsakra bi d+hI nA Ma</skt>
+    <coloph>tshogs kyi 'khor lo'i rim pa slob dpon nag po zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95869</vol>
+        <sec>1</sec>
+        <debp>264</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>271</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G822</ref>
+    <rnb>824</rnb>
+    <tib>tshogs kyi 'khor lo'i cho ga zhes bya ba</tib>
+    <skt>ga Na tsakra bi d+hi nA ma</skt>
+    <coloph>tshogs kyi 'khor lo'i rim pa slob dpon nag po zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31382</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>124</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>128</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

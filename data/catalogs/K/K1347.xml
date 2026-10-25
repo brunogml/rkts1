@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.148</ref>
+    <rnb>150</rnb>
+    <tib>'phags pa de bzhin gshegs pa'i tshug gtor nas byung ba'i gdugs nag mo can zhes bya ba'i gzungs</tib>
+    <skt>A rya khriSNa uSNi sha nA ma dhA ra Ni</skt>
+    <coloph>'phags pa de bzhin gshegs pa'i tshug gtor nas byung ba'i gdugs nag mo can zhes bya ba'i gzungs rdzogs so// shu bha mastu sarba dza ga tam</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>435</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>439</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg145</ref>
+    <rnb>147</rnb>
+    <tib>'phags pa de bzhin gshegs pa'i tshug gtor nas byung ba'i gdugs nag mo can zhes bya ba'i gzungs</tib>
+    <skt>A rya khriSNa uSNi sha nA ma dhA ra Ni</skt>
+    <coloph>'phags pa de bzhin gshegs pa'i tshug gtor nas byung ba'i gdugs nag mo can zhes bya ba'i gzungs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>410</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>413</finp>
+        <finf>b</finf>
+        <finl>9</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.141</ref>
+    <rnb>613</rnb>
+    <tib>'phags pa de bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs nag mo can zhes bya ba'i gzungs</tib>
+    <skt>Ar+ya kriSh+Na uSh+NI Sha nA ma d+hA ra Ni</skt>
+    <coloph>'phags pa de bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs nag mo can zhes bya ba'i gzungs rdzogs so//_zhus dag/_//shu b+ha mas+tu sar+ba dza ga taM//</coloph>
+    <colophTitle/>
+    <margin>gtsug nag</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>85 de</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>5</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.407.</note>
+  </item>
+</catalog>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm137.46</ref>
+    <rnb>475</rnb>
+    <tib>man ngag 'khor ba dong sprugs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4108</vol>
+        <sec>1</sec>
+        <debp>643</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>681</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks109.25</ref>
+    <rnb>734</rnb>
+    <tib>man ngag 'khor ba dong sprugs</tib>
+    <skt/>
+    <coloph>zhod ston dngos grub grags kyis / khom mthing lha khang gi dkor khang nas / ke tshang sgo chung bco lnga bod pa'i dbus ma nas bton pa'o / dge'o / …</coloph>
+    <colophTitle/>
+    <margin>dong sprugs</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75080</vol>
+        <sec>25</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>34</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz179.30</ref>
+    <rnb>530</rnb>
+    <tib>man ngag 'khor ba dong sprugs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58714</vol>
+        <sec>30</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>32</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

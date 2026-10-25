@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A370</ref>
+    <rnb>369</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba</tib>
+    <skt>ka na ka bar+Na pUrba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96859</vol>
+        <sec>1</sec>
+        <debp>144</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>157</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B360</ref>
+    <rnb>359</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-84</vol>
+        <sec>mdo sde</sec>
+        <debp>64</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>71</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba078.7</ref>
+    <rnb>486</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>1BL403</vol>
+        <sec>1</sec>
+        <debp>203</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>208</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C989</ref>
+    <rnb>989</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105119</vol>
+        <sec>mdo</sec>
+        <debp>58</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>64</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-56</vol>
+        <sec>mdo</sec>
+        <debp>58</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>64</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz086-003</ref>
+    <rnb>608</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka barNa pU ra ba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-86</vol>
+        <sec>mdo sde</sec>
+        <debp>292</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>301</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D350</ref>
+    <rnb>351</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka bar+Na pUrba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle>gser mdog gi sngon gyi sbyor ba zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0961</vol>
+        <sec>mdo sde</sec>
+        <debp>50</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6423</vol>
+        <sec>mdo sde</sec>
+        <debp>50</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20675</vol>
+        <sec>mdo sde</sec>
+        <debp>50</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9202</vol>
+        <sec>mdo sde</sec>
+        <debp>50</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd058-004</ref>
+    <rnb>268</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka barNa pUrba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-58</vol>
+        <sec>mdo sde</sec>
+        <debp>64</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>70</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk038-003</ref>
+    <rnb>169</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka barNa pU ra ba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-38</vol>
+        <sec>mdo sde</sec>
+        <debp>299</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>308</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr1021</ref>
+    <rnb>1069</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM92</vol>
+        <sec>mdo</sec>
+        <debp>80</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>89</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F169</ref>
+    <rnb>172</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>na karna pU ra ba yo ga nA ma</skt>
+    <coloph>gser mdog gi sbyor ba zhes bya ba rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14080</vol>
+        <sec>mdo sde</sec>
+        <debp>59</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>67</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Go</coll>
+    <ref>Go24,05</ref>
+    <rnb>166</rnb>
+    <tib>gser mdog gi sngon gi spyod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG5016</setid>
+        <vol>2KG212535</vol>
+        <sec>1</sec>
+        <debp>104</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>109'</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt032-003</ref>
+    <rnb>110</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka barNa pU ra ba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-2-16</vol>
+        <sec>mdo sde</sec>
+        <debp>245</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>253</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>H</coll>
+    <ref>H358</ref>
+    <rnb>360</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>-</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so// </coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW26071</setid>
+        <vol>4102</vol>
+        <sec>mdo sde</sec>
+        <debp>79</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>87</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J289</ref>
+    <rnb>312</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt/>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so//_//lan cig zhus te dag go//_skar mas zhus te dag go//</coloph>
+    <colophTitle>gser mdog gi sngon gyi sbyor ba zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9938</vol>
+        <sec>mdo sde</sec>
+        <debp>52</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>58</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N337</ref>
+    <rnb>337</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>-</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22703</setid>
+        <vol>5479</vol>
+        <sec>mdo sde</sec>
+        <debp>76</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>85</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5014</setid>
+        <vol>2KG212634</vol>
+        <sec>mdo sde</sec>
+        <debp>76</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>85</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np016-003</ref>
+    <rnb>110</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka bar+Na pU ra ba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-16</vol>
+        <sec>mdo sde</sec>
+        <debp>272</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>281</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj072-004</ref>
+    <rnb>584</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka barNa pUrba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-72</vol>
+        <sec>mdo sde</sec>
+        <debp>59</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>66</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz072-004</ref>
+    <rnb>580</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka barNa pUrba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-72</vol>
+        <sec>mdo sde</sec>
+        <debp>54</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>60</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q1019</ref>
+    <rnb>1072</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt/>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhe-s bya ba rdzogs s.ho||</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96684</setid>
+        <vol>1PD106744</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>52</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>57</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+      <location>
+        <setid>MW3CN1094</setid>
+        <vol>3CN1188</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>52</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>57</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R350</ref>
+    <rnb>351</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka barNa pUrba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17340</vol>
+        <sec>mdo sde</sec>
+        <debp>50</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S143</ref>
+    <rnb>191</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka bar+Na puU ra ba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3774</vol>
+        <sec>mdo sde</sec>
+        <debp>271</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>280</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty034-003</ref>
+    <rnb>167</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka bar+Na puU ra ba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209896</vol>
+        <sec>mdo sde</sec>
+        <debp>261</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>270</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U350</ref>
+    <rnb>351</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt></skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so//</coloph>
+    <colophTitle></colophTitle>
+    <margin></margin>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL296</vol>
+        <sec>mdo sde</sec>
+        <debp>50</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5370</vol>
+        <sec>mdo sde</sec>
+        <debp>50</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V193</ref>
+    <rnb>193</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>kan ka bar+Na pur ba yo ga nA ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86294</vol>
+        <sec>mdo sde</sec>
+        <debp>231</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>238</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z174</ref>
+    <rnb>174</rnb>
+    <tib>gser mdog gi sngon gyi sbyor ba zhes bya ba</tib>
+    <skt>ka na ka bar+Na pUr ba yo ga na ma</skt>
+    <coloph>gser mdog gi sngon gyi sbyor ba zhes bya ba rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127522</vol>
+        <sec>mdo sde</sec>
+        <debp>280</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>289</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

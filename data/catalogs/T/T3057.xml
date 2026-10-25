@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2067</ref>
+    <rnb>1</rnb>
+    <tib>tshogs kyi dbang phyug gi bstod pa</tib>
+    <skt>ga Ne sh+wa ra s+ya sta baH</skt>
+    <coloph>slob dpon nags kyi rin chen zhabs kyis mdzad pa yang dag par gang'o// di ni dngos grub brnyes pa'i dbang phyug paN+DI ta chen po de nyid kyis dpal bal po'i yul gyi grong khyer chen po ye rang gi dgon pa go bi tsan+dra nas/ dngos grub mchog gi bka' drin gyis btsa' ba'i phyir skyes su stsal ba/ dge slong rnal 'byor spyod pa rgya mtsho'i sde zhes bya ba'i spyi bor thob pa las/ mi 'phrog pa'i gus pa dang yid dga' ba mu med pas/ skal pa chen po snyim par gzung zhing yi dam du bgyis te/ nor bu rgyas pa'i gtsug lag khang chen por bod skad du bsgyur nas gzhan la sbyin par bya ba'i chos su bgyis pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95846</vol>
+        <sec>1</sec>
+        <debp>754</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>756</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1175</ref>
+    <rnb>67</rnb>
+    <tib>tshogs kyi dbang phyug gi bstod pa</tib>
+    <skt>ga Ne sh+war s+ya stabaH</skt>
+    <coloph>tshogs kyi dbang phyug gi bstod pa zhes bya ba/_slob dpon dpal nags kyi rin chen zhabs kyis mdzad pa yang dag par gang ba'o/_/'di ni dngos grub brnyes pa'i dbang phyug paN+Di ta chen po de nyid kyis dpal bal po'i yul gyi grong khyer chen po ye rang gi dgon pa shrI go bi tsan+d+ra nas/_/dngos grub mchog gi bka' drin gyis btsa' ba'i phyir skyes su stsal ba/_dge slong rnal 'byor spyod pa rgya mtsho'i sde zhes bya ba'i spyi bor thob pa las/_mi 'phrogs pa'i gus pa dang yid dga' ba mu med pas/_skal pa chen po'i snyim par gzung zhing yi dam du bgyis te/_nor bu rgyas pa'i gtsug lag khang chen por bod kyi skad du bsgyur nas gzhan la'ang sbyin par bya ba'i chos su bgyis pa'o/_/'dis 'jig rten dang 'jig rten las 'das pa'i mngon par 'dod pa mtha' dag bdag dang gzhan du 'byor bar gyur cig</coloph>
+    <colophTitle>tshogs kyi dbang phyug gi bstod pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1317</vol>
+        <sec>bstod tshogs</sec>
+        <debp>253</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>253</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210052</vol>
+        <sec>bstod tshogs</sec>
+        <debp>253</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>253</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211356</vol>
+        <sec>bstod tshogs</sec>
+        <debp>253</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>253</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dge slong rnal 'byor spyod pa rgya mtsho'i sde</name>
+        <role>translator</role>
+        <rid>bdr:P208</rid>
+      </translator>
+      <translator>
+        <name>slob dpon dpal nags kyi rin chen</name>
+        <role>author</role>
+        <rid>bdr:P207</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

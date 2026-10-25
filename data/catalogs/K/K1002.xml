@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba185.7</ref>
+    <rnb>1202</rnb>
+    <tib>'phags pa rigs sngags kyi rgyal po kun nas 'od ces bya ba'i snying po</tib>
+    <skt>Ar+ya sa man+ta pra b+ha nA ma h+ri da ya</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>4CZ75488</vol>
+        <sec>1</sec>
+        <debp>148</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>150</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Hi</coll>
+    <ref>Hi49.06</ref>
+    <rnb>76</rnb>
+    <tib>'phags pa rigs sngags kyi rgyal po kun nas 'od ces bya ba'i snying po</tib>
+    <skt>ar+ya sa man+ta pra b+ha nA</skt>
+    <coloph>'phags pa rig sngags kyi rgyal po kun nas 'od ces bya ba'i gzungs rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45314</setid>
+        <vol>1BL157</vol>
+        <sec>gzungs</sec>
+        <debp>178</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>180</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

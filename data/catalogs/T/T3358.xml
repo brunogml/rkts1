@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5493</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa lang dkar gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan zhes bya ba</tib>
+    <skt>Ar+ya lang+ka a ba tA ra nA ma ma hA yA na sU tra br-it+ti ta thA ga ta h+r-i da ya a lang+ka ra nA ma</skt>
+    <coloph>'phags pa lang+ka ra gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan zhes bya ba/ rgya'i mkhan po dz+nyA na badz+rasa mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95915</vol>
+        <sec>1</sec>
+        <debp>3</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>803</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3986</ref>
+    <rnb>2923</rnb>
+    <tib>'phags pa lang kar gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66153</vol>
+        <sec>mdo sde</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>317</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4019</ref>
+    <rnb>2932</rnb>
+    <tib>'phags pa lang kar gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan zhes bya ba</tib>
+    <skt>Ar+ya lang+ka a ba tA ra nA ma ma hA yA na sU tra br-it+ti ta thA ga ta hr-i da ya a lang+ka ra nA ma</skt>
+    <coloph>'phags pa lang kar gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan zhes bya ba rgya'i mkhan po dz+nyA na badzras mdzad pa rdzogs so</coloph>
+    <colophTitle>'phags pa lang kar gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1438</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210173</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211477</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya'i mkhan po dz+nyA na badzra</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15139</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3523</ref>
+    <rnb>3517</rnb>
+    <tib>'phags pa lang ka ra gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan</tib>
+    <skt>Ar+ya lang+kA ba tA ra nA ma ma hA yA na sU tra br-it+ti ta thA ga ta h+r-i da yA lang+kA ra nA ma</skt>
+    <coloph>'phags pa lang+ka ra gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan zhes bya ba/ rgya'i mkhan po dz+nyA na badz+ras mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31468</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>444</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4309</ref>
+    <rnb>3529</rnb>
+    <tib>'phags pa lang kar gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan zhes bya ba</tib>
+    <skt>Ar+ya lang+kA ba tA ra nA ma ma hA yA na sU tra br-it+ti ta thA ga ta hri da yA lang+kA ra nA ma</skt>
+    <coloph>'phags pa lang+ka ra gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan zhes bya ba/ rgya'i mkhan po dz+nyA na badz+rasa mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3382</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>361</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212415</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>361</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5520</ref>
+    <rnb>3521</rnb>
+    <tib>'phags pa lang kar gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan zhes bya ba</tib>
+    <skt>Sr+ya lang+kA ba tA ra nA ma ma hA yA na sU tra br-it+ti ta thA ga ta h+r-i da yA lang+kA ra nA ma</skt>
+    <coloph>'phags pa lang kar gshegs pa zhes bya ba theg pa chen po'i mdo'i 'grel pa de bzhin gshegs pa'i snying po'i rgyan zhes bya ba/_rgya'i mkhan po dz+nyA na badzras mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13300</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>363</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>jñānavajra</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

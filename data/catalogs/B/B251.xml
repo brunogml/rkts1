@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks147.3</ref>
+    <rnb>952</rnb>
+    <tib>gleg bam</tib>
+    <skt/>
+    <coloph>stobs lnga rdzogs s.ho // [smaller letters:] slob dpon jo mkhar la zug sgom rngos grub grags kyis zhus so / bkra shis par shog / zhal sro bar shog / [even smaller letters:] ma dpe ci bzhin bris pas byin che'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75118</vol>
+        <sec>3</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>38</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz72.3</ref>
+    <rnb>223</rnb>
+    <tib>glegs bam</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58607</vol>
+        <sec>ga</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>43</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

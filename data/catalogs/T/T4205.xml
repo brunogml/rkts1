@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3392</ref>
+    <rnb>2327</rnb>
+    <tib>ha ri ha ri ha ri la zhon par gyur pa'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>89</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>90</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3426</ref>
+    <rnb>2336</rnb>
+    <tib>ha ri ha ri ha ri la zhon par gyur pa'i sgrub thabs</tib>
+    <skt>ha ri ha ri ha ri bA ha nod+b+ha bA sA d+ha naM</skt>
+    <coloph>ha ri ha ri ha ri la zhon par gyur pa'i 'jig rten dbang phyug gi sgrub thabs rdzogs pa'i sangs rgyas kyis gsungs pa rdzogs so</coloph>
+    <colophTitle>ha ri ha ri ha ri la zhon par gyur pa'i 'jig rten dbang phyug gi sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>87</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>88</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>87</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>88</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>87</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>88</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rdzogs pa'i sangs rgyas</name>
+        <role>author</role>
+        <rid>bdr:P0AT0029</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3041</ref>
+    <rnb>2257</rnb>
+    <tib>ha ri ha ri ha ri la zhon par gyur pa'i sgrub thabs</tib>
+    <skt>ha ri ha ri ha ri ba ha no de b+ha bA sA d+ha naM</skt>
+    <coloph>ha ri ha ri ha ri la zhon par gyur pa'i 'jig rten dbang phyug gi sgrub thabs rdzogs pa'i sangs rgyas kyis gsungs pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>101</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>102</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>101</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>102</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4247</ref>
+    <rnb>2248</rnb>
+    <tib>ha ri ha ri ha ri la zhon par gyur pa'i sgrub thabs</tib>
+    <skt>ha ri ha ri ha ri ba ha na de b+ha bA sA d+ha naM</skt>
+    <coloph>ha ri ha ri ha ri la zhon par gyur pa'i 'jig rten dbang phyug gi sgrub thabs rdzogs pa'i sangs rgyas kyis gsungs pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>111</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>112</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rdzogs pa'i sangs rgyas</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

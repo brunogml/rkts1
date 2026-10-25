@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A503</ref>
+    <rnb>502</rnb>
+    <tib>dpal ldan gshin rje'i gshed dmar po'i rgyud kyi rgyal po zhes bya ba</tib>
+    <skt>shrI mAM rak+ta ya mA ri tan+t+ra rA dza nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96866</vol>
+        <sec>1</sec>
+        <debp>1015</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1089</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D478</ref>
+    <rnb>481</rnb>
+    <tib>dpal ldan gshin rje'i gshed dmar po'i rgyud kyi rgyal po zhes bya ba</tib>
+    <skt>shrI maM ra k+ta ya mA ri tan+t+ra rA dza nA ma</skt>
+    <coloph>dpal ldan gshin rje'i gshed dmar po'i rgyud kyi rgyal po rdzogs so// //skad gnyis smra ba chen po thar pa lots+tsha ba'i bka' drin gyis bskyangs pa/ bod kyi lo ts+tsha ba shAkya'i dge slong rin chen grub kyis/ chos kyi rje khro phu lots+tsha ba'i gdan sa gnas gsar dgon par bsgyur cing zhus te gtan la phab pa// //rgyud 'di 'gyur las 'bad pa'i bsod nams kyis/ /nag po'i rtsa lag ma lus kun bcom ste/ /bstan pa'i bya ba yid bzhin 'grub pa dang / /mthar thug 'jam pa'i rdo rje nyid gyur cig /rgyud kyi rgyal po chen po 'di sngar bu ston rin chen grub kyis rang 'gyur du mdzad pa la/ rgyud kyi don la mkhas pa'i dam pa 'ga' zhig gis gzhung 'khrug pa dang 'gyur ma bde ba'i dogs gnas dpyad gzhir mdzad par brten/ rgya dpe rnyed na 'gyur bcos byed dgos dpal rig pa 'dzin pa'i dbang phyug mchog gi bkas bskul te/ ne pA la'i yul nas rgya dpe btsal nas/ 'gyur rnying la rgya dper tshigs bcad yod pa tshig lhug tu byas pa 'ga' zhig dang / tshig mi bde ba ltar snang yang don la mi 'gal ba rnams rang sor bzhag cing / 'khrug sdeb par 'os pa 'ga' zhig snang yang rgyud gnyen por gyur pas mchan bkod tsam las rngo ma thogs/ gzhan mi bcos su mi rung ba rnams blo nus dang ji ltar 'tsham par legs par bcos shing gtan la phab ste/ thub bstan chos 'khor gyi dgon par chos smra ba bstan pa'i nyin byed kyis zhu chen bgyis pa tshul bzhin ma rtogs pa sogs kyis nongs pa mchis na 'jam pa'i rdo rje nyid la bshags shing / dge bas dpal ldan bla ma'i zhabs pad brtan cing / bdag kyang 'chi bdag gi bdud las rnam par rgyal zhing bstan pa'i bya ba mthar phyin pa dang / mthar thug dpal ldan dus dgra'i dbang po'i go 'phang myur du thob par gyur cig</coloph>
+    <colophTitle>dpal ldan gshin rje'i gshed dmar po'i rgyud kyi rgyal po</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6430</vol>
+        <sec>rgyud</sec>
+        <debp>303</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>336</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9209</vol>
+        <sec>rgyud</sec>
+        <debp>303</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>336</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bod kyi lo ts+tsha ba shAkya'i dge slong rin chen grub</name>
+        <role>translator</role>
+        <rid>bdr:P155</rid>
+      </translator>
+      <translator>
+        <name>chos smra ba bstan pa'i nyin byed</name>
+        <role>revisor</role>
+        <rid>#</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

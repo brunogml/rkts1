@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5449</ref>
+    <rnb>1</rnb>
+    <tib>tsha tsha gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph>slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyi zhal snga nas mdzadpa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95910</vol>
+        <sec>1</sec>
+        <debp>706</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>708</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3943</ref>
+    <rnb>2879</rnb>
+    <tib>pha rol tu phyin pa'i theg pa'i tsha tsha gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66143</vol>
+        <sec>dbu ma</sec>
+        <debp>267</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>267</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3976</ref>
+    <rnb>2888</rnb>
+    <tib>pha rol tu phyin pa'i theg pa'i tsha tsha gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph>pha rol tu phyin pa'i theg pa'i sAts+tsha gdab pa'i cho ga_/slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyi zhal snga nas mdzad pa rdzogs s+ho</coloph>
+    <colophTitle>pha rol tu phyin pa'i theg pa'i sAts+tsha gdab pa'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1428</vol>
+        <sec>mdo 'grel</sec>
+        <debp>256</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>256</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210163</vol>
+        <sec>mdo 'grel</sec>
+        <debp>256</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>256</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211467</vol>
+        <sec>mdo 'grel</sec>
+        <debp>256</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>256</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon mkhas pa chen po dpal mar me mdzad ye shes</name>
+        <role>author</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3404</ref>
+    <rnb>3398</rnb>
+    <tib>pha rol tu phyin pa'i theg pa'i sAts+tsha gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph>pha rol tu phyin pa'i theg pa'i sAts+tsha gdab pa'i cho ga /slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyi zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31458</vol>
+        <sec>mdo 'grel</sec>
+        <debp>51</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>52</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4162</ref>
+    <rnb>3382</rnb>
+    <tib>pha rol tu phyin pa'i theg pa'i tsha tsha gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph>pha rol tu phyin pa'i theg pa'i sAts+tsha gdabs pa'i cho ga /slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyi zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3371</vol>
+        <sec>mdo 'grel</sec>
+        <debp>287</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>288</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212404</vol>
+        <sec>mdo 'grel</sec>
+        <debp>287</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>288</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4190</ref>
+    <rnb>3410</rnb>
+    <tib>pha rol tu phyin pa'i theg pa'i tsha tsha gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph>pha rol tu phyin pa'i theg pa'i sAts+tsha gdab pa'i cho ga /slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyi zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3372</vol>
+        <sec>mdo 'grel</sec>
+        <debp>41</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>41</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212405</vol>
+        <sec>mdo 'grel</sec>
+        <debp>41</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>41</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5373</ref>
+    <rnb>3374</rnb>
+    <tib>pha rol tu phyin pa'i theg pa'i sAts+tsha gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph>pha rol tu phyin pa'i theg pa'i sAts+tsha gdabs pa'i cho ga_/slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyi zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13289</vol>
+        <sec>mdo 'grel</sec>
+        <debp>301</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>302</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5401</ref>
+    <rnb>3402</rnb>
+    <tib>pha rol tu phyin pa'i theg pa'i sAts+tsha gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph>pha rol tu phyin pa'i theg pa'i sAts+tsha gdab pa'i cho ga /slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyi zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13290</vol>
+        <sec>mdo 'grel</sec>
+        <debp>48</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>49</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

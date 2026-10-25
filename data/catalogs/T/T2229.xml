@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3375</ref>
+    <rnb>2310</rnb>
+    <tib>'phags pa khar+sa pA Ni 'jig rten dbang phyug gi sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>75</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>75</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3409</ref>
+    <rnb>2319</rnb>
+    <tib>'phags pa khar+sa pA Ni 'jig rten dbang phyug gi sgrub thabs</tib>
+    <skt>Ar+ya kharma pA Ni lo ke sh+wa ra sA d+ha naM</skt>
+    <coloph>'phags pa 'jig rten dbang phyug kha sar+pa Na'i sgrub thabs slob dpon rnyog pa med pas mdzad pa rdzogs so</coloph>
+    <colophTitle>'phags pa 'jig rten dbang phyug khar+sa pA Ni'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>73</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>73</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>73</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>73</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>73</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>73</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon rnyog pa med pa</name>
+        <role>author</role>
+        <rid>bdr:P0AT0057</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2232</ref>
+    <rnb>2234</rnb>
+    <tib>'phags pa kha sarpa Ni 'jig rten dbang phyug gi sgrub thabs</tib>
+    <skt>Ar+ya kha sarpa Ni lo ke sh+wa ra sA d+ha naM</skt>
+    <coloph>'phags pa 'jig rten dbang phyug kha sar+pa Na'i sgrub thabs slob dpon rnyog pa med pas mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31410</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>98</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>98</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3024</ref>
+    <rnb>2240</rnb>
+    <tib>'phags pa kha sarpa Na 'jig rten dbang phyug gi sgrub thabs</tib>
+    <skt>Ar+ya kha sar+pa Ni lo ke sh+wa ra sA d+ha naM</skt>
+    <coloph>'phags pa 'jig rten dbang phyug kha sar+pa Na'i sgrub thabs slob dpon rnyog pa med pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>84</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>85</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>84</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>85</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4230</ref>
+    <rnb>2231</rnb>
+    <tib>'phags pa kha sarpa Na 'jig rten dbang phyug gi sgrub thabs</tib>
+    <skt>Ar+ya kha sarpa Ni lo ke sh+wa ra sA d+ha naM</skt>
+    <coloph>'phags pa 'jig rten dbang phyug kha sarba Na'i sgrub thabs slob dpon rnyogs pa med pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>93</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>94</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rnyogs pa med pa/(niṣkalaṅka)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

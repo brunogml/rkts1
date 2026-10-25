@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A1110</ref>
+    <rnb>1108</rnb>
+    <tib>bkra shis kyi tshigs su bcad pa</tib>
+    <skt>maM ga la gA thA</skt>
+    <coloph>dkon mchog gsum dang mdzad pa bcu gnyis kyi bkra shis kyi tshigs su bcad pa rdzogs so/ rgya gar gyi mkhan po dzi na mi tra dang / zhu chen gyi lo tsA ba ban+de ye shes sdes bsgyur cing zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96881</vol>
+        <sec>1</sec>
+        <debp>959</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>962</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F454</ref>
+    <rnb>459</rnb>
+    <tib>dpal gsang ba chen po rdo rje'i rgyud kyi rgyal po</tib>
+    <skt>shrI ma hA g+hu h+ya badzra tsan+t+ra rA dza</skt>
+    <coloph>rdzogs s+ho// //bla ma kh ras pa ne sang/ chogs dga'i 'byung nas mkhas pa chen pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14114</vol>
+        <sec>rgyud2</sec>
+        <debp>287</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>300</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

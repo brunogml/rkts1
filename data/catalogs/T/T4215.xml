@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3512</ref>
+    <rnb>2447</rnb>
+    <tib>shes rab kyi pha rol tu phyin ma dkar mo'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>186</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>188</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3546</ref>
+    <rnb>2456</rnb>
+    <tib>shes rab kyi pha rol tu phyin ma dkar mo'i sgrub thabs</tib>
+    <skt>shuklu pradz+nyA pA ra mi tA sA d+ha naM</skt>
+    <coloph>shes rab kyi pha rol tu phyin ma dkar mo'i sgrub thabs rdzogs so/ /paN+Di ta dpal ldan pad+ma 'phel gyi zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>shes rab kyi pha rol tu phyin ma dkar mo'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>182</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>183</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>182</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>183</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>182</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>183</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta dpal ldan pad+ma 'phel</name>
+        <role>author</role>
+        <rid>bdr:P0AT0063</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3162</ref>
+    <rnb>2378</rnb>
+    <tib>shes rab kyi pha rol tu phyin ma dkar mo'i sgrub thabs</tib>
+    <skt>shuklu pradz+nyA pA ra mi tA sA d+ha naM</skt>
+    <coloph>shes rab kyi pha rol tu phyin ma dkar mo'i sgrub thabs rdzogs so/ /paN+Di ta dpal ldan pad+ma 'phel gyi zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>219</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>220</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>219</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>220</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4368</ref>
+    <rnb>2369</rnb>
+    <tib>shes rab kyi pha rol tu phyin ma dkar mo'i sgrub thabs</tib>
+    <skt>shu kra pradz+nyA pA ra mi tA sA d+ha nAM</skt>
+    <coloph>shes rab kyi pha rol tu phyin ma dkar mo'i sgrub thabs rdzogs so/ /paN+Di ta dpal ldan pad+ma 'phel gyi zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>236</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>237</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>pad+ma 'phal/(padmavardha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

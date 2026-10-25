@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.104</ref>
+    <rnb>106</rnb>
+    <tib>'phags pa dngos grub 'byung thugs kyi rkang 'gro dang g.yul las rgyal ba'i gzungs</tib>
+    <skt>A rya a pa ra ci ta ghi rad na si ti nA ma</skt>
+    <coloph>gnod sbyin a pa ra ci ta rkang 'gro 'phel zhing lug nad zhi bar byed pa'i gzungs le'u bco brgyad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>246</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>246</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg104</ref>
+    <rnb>106</rnb>
+    <tib>'phags pa dngos grub 'byung thugs kyi rkang 'gro dang g.yul las rgyal ba'i gzungs</tib>
+    <skt>A rya a pa ra ci ta ghi rad na si ti nA ma</skt>
+    <coloph>gnod sbyin a pa ra ci ta rkang 'gro 'phel zhing lug nad zhi bar byed pa'i gzungs le'u bco brgyad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>231</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>233</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.99</ref>
+    <rnb>571</rnb>
+    <tib>'phags pa dngos grub 'byung ba thugs kyi nor bdag rkang 'gro dang g.yul las rgyal ba'i gzungs</tib>
+    <skt>Ar+ya a pa ra tsi ta g+hi rad na si ti nA ma</skt>
+    <coloph>gnod sbyin a pa ra tsi ta rkang 'gro 'phel zhing lug nad zhi bar byed pa'i gzungs le'i bco brgyad pa rdzogs so//_mang+ga laM//</coloph>
+    <colophTitle/>
+    <margin>lug gzungs</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>55 cu</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.389.</note>
+  </item>
+</catalog>

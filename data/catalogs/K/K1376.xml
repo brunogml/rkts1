@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.109</ref>
+    <rnb>111</rnb>
+    <tib>'phags pa re manta zhes bya ba'i gzungs</tib>
+    <skt>A rya re manta nA ma dhA ra Ni</skt>
+    <coloph>dpal A rya re manta zhes bya ba'i gzungs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>248</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>248</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.102</ref>
+    <rnb>574</rnb>
+    <tib>... re man+ta zhes bya ba'i gzungs</tib>
+    <skt/>
+    <coloph>dpal Ar+ya re man+ta zhes bya ba'i...</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>56 ce</sec>
+        <debp>2</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Left part of folio ce 2 is missing; it is glued together with the right part of folio ce 3. See Everding 2015, no.392.</note>
+  </item>
+</catalog>

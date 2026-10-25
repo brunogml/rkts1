@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.150</ref>
+    <rnb>152</rnb>
+    <tib>gtsug gtor dkar mo'i zlog</tib>
+    <skt/>
+    <coloph>gtsug gtor dkar mo'i zlog rdzogs so// //mang+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>447</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>450</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg147</ref>
+    <rnb>149</rnb>
+    <tib>gtsug gtor dkar mo'i zlog</tib>
+    <skt/>
+    <coloph>gtsug gtor dkar mo'i zlog rdzogs so// //mang+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>419</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>422</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.143</ref>
+    <rnb>615</rnb>
+    <tib>gtsug tor dkar mo'i zlog sgyur</tib>
+    <skt/>
+    <coloph>gtsug tor dkar mo'i zlog sgyur rdzogs so//_zhus dag/_//mang+ga laM/</coloph>
+    <colophTitle/>
+    <margin>bzlog bsgyur</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>87 do</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>First and last folios are damaged. The overall folio count on first folio is missing, but it seems that here one number, either f.507 or f.508 is counted twice. See Everding 2015, no.162.</note>
+  </item>
+</catalog>

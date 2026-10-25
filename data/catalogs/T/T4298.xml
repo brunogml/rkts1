@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2077</ref>
+    <rnb>1018</rnb>
+    <tib>dpal bcom ldan 'das ral pa gcig pa'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66080</vol>
+        <sec>rgyud</sec>
+        <debp>171</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>172</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2125</ref>
+    <rnb>1028</rnb>
+    <tib>dpal bcom ldan 'das ral pa gcig pa'i sgrub thabs</tib>
+    <skt>shrI e ka dza TI b+ha ga wAn sA d+ha na</skt>
+    <coloph>rgya gar gyi slob dpon chen po shrI badzra k'i rti'i zhal snga nas mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1365</vol>
+        <sec>rgyud</sec>
+        <debp>171</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>172</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210100</vol>
+        <sec>rgyud</sec>
+        <debp>171</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>172</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211404</vol>
+        <sec>rgyud</sec>
+        <debp>171</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>172</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi slob dpon chen po shrI badzra kIrti</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15362</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1770</ref>
+    <rnb>987</rnb>
+    <tib>dpal bcom ldan 'das ral pa gcig pa'i sgrub thabs</tib>
+    <skt>shrI e ka dzA Ti b+ha ga bAn sA d+he naM</skt>
+    <coloph>rgya gar gyi slob dpon chen po shrI badz+ra kIrti zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3297</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>192</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>193</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212330</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>192</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>193</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2976</ref>
+    <rnb>977</rnb>
+    <tib>dpal bcom ldan 'das ral pa gcig pa'i sgrub thabs</tib>
+    <skt>shrI e ka dzA Ti b+ha ga bAn sA d+ha naM</skt>
+    <coloph>rgya gar gyi slob dpon chen po shrI badzra kIrti'i zhal snga nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13215</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>208</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>209</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>vajrakīrti</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

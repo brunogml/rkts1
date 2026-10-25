@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm35.7</ref>
+    <rnb>611</rnb>
+    <tib>rdo rje phur pa'i rtsa ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-36</vol>
+        <sec>rnying rgyud</sec>
+        <debp>225</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>228</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gkh</coll>
+    <ref>Gkh033.005</ref>
+    <rnb>355</rnb>
+    <tib>rdo rje phur pa'i rtsa ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17382</setid>
+        <vol>1KG81305</vol>
+        <sec>5</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>5</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb045.022</ref>
+    <rnb>708</rnb>
+    <tib>rdo rje phur pa'i rtsa ba</tib>
+    <skt>badzra kI la ya mU la</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>343</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>346</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd7.4</ref>
+    <rnb>213</rnb>
+    <tib>'phags pa snang ba mtha' yas zhes bya ba gzungs</tib>
+    <skt>A rya a mi tA bha nA ma ma dhA ra NI</skt>
+    <coloph>'phags pa snang ba mtha' yas zhes bya ba gzungs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220164</vol>
+        <sec>Ra</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F584</ref>
+    <rnb>588</rnb>
+    <tib/>
+    <skt/>
+    <coloph>nad thams cad zhi bar byed pa'i gzungs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14126</vol>
+        <sec>rgyud</sec>
+        <debp>175</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>175</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

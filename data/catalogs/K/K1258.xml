@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ts</coll>
+    <ref>Ts05.11</ref>
+    <rnb>69</rnb>
+    <tib>gtsor bla ma'i yon tan bzung ba'i rgyud</tib>
+    <skt>gu ru gu na d+ha na ma tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN1302</setid>
+        <vol>3CN1308</vol>
+        <sec>rgyud</sec>
+        <debp>291</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>314</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>colophon incl. concluding verses illegible</note>
+  </item>
+  <item>
+    <coll>Ts</coll>
+    <ref>Ts10.8</ref>
+    <rnb>100</rnb>
+    <tib>gtsor bla ma'i yon tan bzung ba'i rgyud</tib>
+    <skt>g+hu ru g+hu na d+ha ra na ma tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN1302</setid>
+        <vol>3CN1313</vol>
+        <sec>rgyud</sec>
+        <debp>199</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>199</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>fols 200a-225a missing</note>
+  </item>
+</catalog>

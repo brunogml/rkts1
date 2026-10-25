@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba172.8a</ref>
+    <rnb>889</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>4CZ75475</vol>
+        <sec>1</sec>
+        <debp>203</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>205</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb055.006</ref>
+    <rnb>940</rnb>
+    <tib>rdo rje bdud rtsi'i rgyud</tib>
+    <skt>badzra a mr-i ta tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21660</vol>
+        <sec>1</sec>
+        <debp>330</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>346</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

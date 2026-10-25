@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5032</ref>
+    <rnb>1</rnb>
+    <tib>nag po chen po'i bstod pa</tib>
+    <skt/>
+    <coloph>bram ze sa ra has zhal gzigs dus su rtags kyis sgo nas bstod pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>531</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>532</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>A</coll>
+    <ref>A5033</ref>
+    <rnb>1</rnb>
+    <tib>nag po chen po'i bstod pa</tib>
+    <skt/>
+    <coloph>dpal sha ba ri pas mgon po'i zhal gzigs pa'i dus su don gyi sgo nas bstod pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>533</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>535</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2939</ref>
+    <rnb>2940</rnb>
+    <tib>nag po chen po'i bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>15</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>16</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

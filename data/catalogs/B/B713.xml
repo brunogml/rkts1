@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm138.4</ref>
+    <rnb>482</rnb>
+    <tib>dgos 'dod gsal byed bshad gzhi'i mchong</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4109</vol>
+        <sec>1</sec>
+        <debp>236</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>311</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks101.4</ref>
+    <rnb>633</rnb>
+    <tib>dgos 'dod gsal byed bshad gzhi'i mchong</tib>
+    <skt/>
+    <coloph>sprul sku lung ston lha gnyan la mjal res tha ma la brgyud pa lags so // des [75r] lung sgom 'khor lo rgyal po la brgyud pa lags so // thugs rgyud yi ge ris su bkod gyur pa / bla ma yi dam mkha' 'gro bon skyong la / 'gal 'khrul nongs pa ci mchis bzod par gsol / phyi rabs rjes 'jug 'ga' la smin par shog / dgos 'dod gsal byed bshad gzhi'i mchong … rdzogs chen bla med […] / 'brel byas 'tshos pa'i mkha' mnyam sems can rnams / …</coloph>
+    <colophTitle/>
+    <margin>bshad gzhi'i mchong</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75072</vol>
+        <sec>4</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>75</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz180.4</ref>
+    <rnb>537</rnb>
+    <tib>dgos 'dod gsal byed bshad gzhi'i mchong zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58715</vol>
+        <sec>4</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>61</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

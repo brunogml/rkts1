@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3163</ref>
+    <rnb>1</rnb>
+    <tib>gsang ba dam pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95871</vol>
+        <sec>1</sec>
+        <debp>421</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>423</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2204</ref>
+    <rnb>1145</rnb>
+    <tib>gsang ba dam pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66082</vol>
+        <sec>rgyud</sec>
+        <debp>141</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>141</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2251</ref>
+    <rnb>1155</rnb>
+    <tib>gsang ba dam pa</tib>
+    <skt/>
+    <coloph>gsang ba dam pa rdzogs so//</coloph>
+    <colophTitle>gsang ba dam pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1367</vol>
+        <sec>rgyud</sec>
+        <debp>141</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>141</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210102</vol>
+        <sec>rgyud</sec>
+        <debp>141</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>141</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211406</vol>
+        <sec>rgyud</sec>
+        <debp>141</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>141</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1100</ref>
+    <rnb>1102</rnb>
+    <tib>gsang ba dam pa</tib>
+    <skt/>
+    <coloph>gsang ba dom pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31385</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>193</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>193</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1892</ref>
+    <rnb>1109</rnb>
+    <tib>gsang ba dam pa</tib>
+    <skt/>
+    <coloph>gsang ba dom pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3299</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>149</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>150</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212332</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>149</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>150</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3096</ref>
+    <rnb>1097</rnb>
+    <tib>gsang ba dam pa</tib>
+    <skt/>
+    <coloph>gsang ba dam pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13217</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>154</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>154</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

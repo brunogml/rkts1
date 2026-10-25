@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm43.11</ref>
+    <rnb>770</rnb>
+    <tib>rdo rje khyung nag gsang ba rin po che'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-44</vol>
+        <sec>rnying rgyud</sec>
+        <debp>109</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>112</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt43.11</ref>
+    <rnb>777</rnb>
+    <tib>rdo rje khyung nag gsang ba rin po che'i rgyud ces bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-43</vol>
+        <sec>rnying rgyud</sec>
+        <debp>93</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>95</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb049.024</ref>
+    <rnb>788</rnb>
+    <tib>rdo rje khyung nag gsang ba rin po che'i rgyud ces bya ba</tib>
+    <skt>badzra ga ru Da kA la gu h+ya rad na nA ma tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>350</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>352</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>gleng gzhi'i le'u ste dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>350</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>gleng bslangs pa'i le'u ste gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>350</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>sgrub pa sngon du bya ba'i le'u ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>350</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>bsgom pa'i rim pa'i le'u ste bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>350</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>gsang sngags bstan pa'i le'u ste lnga pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>351</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>6</rn>
+        <name>don kun 'dus pa'i le'u ste drug pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>351</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>7</rn>
+        <name>bstod tshig bskul ba'i le'u ste bdun pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>352</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>8</rn>
+        <name>drod nyams nyams kyi le'u ste brgyad pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>352</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>9</rn>
+        <name>rgyud yongs su bzung ba'i le'u ste dgu pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>352</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

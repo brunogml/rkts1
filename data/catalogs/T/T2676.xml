@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4801</ref>
+    <rnb>1</rnb>
+    <tib>rnal 'byor ma'i sgrub thabs</tib>
+    <skt/>
+    <coloph>rnal 'byor ma'i sgrub thabs dpal gnyis su med pa'i rdo rjes mdzad pa lha bcu gsum pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>1256</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1278</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2676</ref>
+    <rnb>2677</rnb>
+    <tib>rnal 'byor ma'i bsgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31413</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>41</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>53</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3466</ref>
+    <rnb>2685</rnb>
+    <tib>rnal 'byor ma'i sgrub thabs</tib>
+    <skt/>
+    <coloph>rnal 'byor ma'i sgrub thabs dpal gnyis su med pa'i rdo rjes mdzad pa lha bcu gsum pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3327</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>31</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>39</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212360</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>31</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>39</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4677</ref>
+    <rnb>2678</rnb>
+    <tib>rnal 'byor ma'i bsgrub thabs</tib>
+    <skt/>
+    <coloph>rnal 'byor ma'i sgrub thabs dpal gnyis su med pa'i rdo rjes mdzad pa lha bcu gsum pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13245</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>30</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>40</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gnyis su med pa'i rdo rje/(advayavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

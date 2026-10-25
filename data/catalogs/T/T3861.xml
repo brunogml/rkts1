@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5190</ref>
+    <rnb>1</rnb>
+    <tib>dpal rnam par snang mdzad kyi sgrub thabs</tib>
+    <skt>shrI bai ro tsa na sA d+ha naM</skt>
+    <coloph>dpal rnam par snang mdzad kyi sgrub thabs rdzogs so/ /gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>789</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>790</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3118</ref>
+    <rnb>3119</rnb>
+    <tib>dpal rnam par snang mdzad kyi sgrub thabs</tib>
+    <skt>shrI bai ro tsa na sA d+ha naM</skt>
+    <coloph>dpal rnam par snang mdzad kyi sgrub thabs rdzogs so/ /gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>249</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>249</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3909</ref>
+    <rnb>3129</rnb>
+    <tib>dpal rnam par snang mdzad kyi sgrub thabs</tib>
+    <skt>shrI ba ra tsa na sA d+ha naM</skt>
+    <coloph>dpal rnam par snang mdzad kyi sgrub thabs rdzogs so/ /gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>150</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>150</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>150</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>150</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5120</ref>
+    <rnb>3121</rnb>
+    <tib>dpal rnam par snang mdzad kyi sgrub thabs</tib>
+    <skt/>
+    <coloph>dpal rnam par snang mdzad kyi sgrub thabs rdzogs so/ /gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>153</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>153</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

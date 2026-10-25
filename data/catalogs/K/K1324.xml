@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.95</ref>
+    <rnb>97</rnb>
+    <tib>'phags pa gser 'od dam pa mdo sde dbang po'i rgyal po las nor phyugs skyong zhing spel ba zhes bya ba'i gzungs</tib>
+    <skt>A rya rad na dhA ra Ni</skt>
+    <coloph>'phags pa gser 'od dam pa mdo sde'i dbang po'i rgyal po las/ tshe rabs thams cad du yo byad phun sum tshogs pa'i le'u ste bcu bdun pa rdzogs so// mangga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>218</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>223</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg95</ref>
+    <rnb>97</rnb>
+    <tib>'phags pa gser 'od dam pa mdo sde dbang po'i rgyal po las nor phyugs skyong zhing spel ba zhes bya ba'i gzungs</tib>
+    <skt>A rya rad na dhA ra Ni</skt>
+    <coloph>'phags pa gser 'od dam pa mdo sde'i dbang po'i rgyal po las/ tshe rabs thams cad du yo byad phun sum tshogs pa'i le'u ste bcu bdun pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>203</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>208</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.90</ref>
+    <rnb>562</rnb>
+    <tib>'phas pa gser 'od dam pa mdo sde'i dbang po'i rgyal po las nor phyugs skyong zhing spel ba zhes bya ba'i gzungs</tib>
+    <skt>Ar+ya rad na d+ha ra Ni</skt>
+    <coloph>'phas pa gser 'od dam pa mdo sde'i dbang po'i rgyal po las/_tshe rabs thams cad du yo byad phun sum tshogs pa'i le'u ste bcu bdun pa rdzogs so//_// zhus dags go/_//mang+ga laM//_//bkra shis//_//dge'o//</coloph>
+    <colophTitle/>
+    <margin>nor lha</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>47 ge</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>6</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.384.</note>
+  </item>
+</catalog>

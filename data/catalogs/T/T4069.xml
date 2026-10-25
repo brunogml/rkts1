@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3880</ref>
+    <rnb>2816</rnb>
+    <tib>byang chub kyi sems bsgom pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66141</vol>
+        <sec>dbu ma</sec>
+        <debp>16</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>19</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3913</ref>
+    <rnb>2825</rnb>
+    <tib>byang chub kyi sems bsgom pa</tib>
+    <skt>bo d+hi tsit+ta b+hA ba na</skt>
+    <coloph>zhes pa slob dpon ka ma la shI la'i zhabs kyis mdzad pa byang chub kyi sems bsgom pa rdzogs so</coloph>
+    <colophTitle>byang chub kyi sems bsgom pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1426</vol>
+        <sec>mdo 'grel</sec>
+        <debp>16</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>19</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210161</vol>
+        <sec>mdo 'grel</sec>
+        <debp>16</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>19</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211465</vol>
+        <sec>mdo 'grel</sec>
+        <debp>16</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>19</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zha lu lo tsA ba dge slong d+har+m+ma pA la b+ha dra</name>
+        <role>translator</role>
+        <rid>bdr:P856</rid>
+      </translator>
+      <translator>
+        <name>slob dpon ka ma la shI la</name>
+        <role>author</role>
+        <rid>bdr:P7641</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm135.25</ref>
+    <rnb>398</rnb>
+    <tib>rdzogs pa chen po zhang zhung snyan rgyud las 'od gsal sems kyi me long</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4106</vol>
+        <sec>1</sec>
+        <debp>489</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>501</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks110.29</ref>
+    <rnb>767</rnb>
+    <tib>'od gsal sems kyi me long</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75081</vol>
+        <sec>29</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>10</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>on 10v2, the words: 'di'i bka' srungs yum sras lnga / rgyal po dang sman gyi gyis. this gives the name of the guardian. We find written in small script the information that the text was prepared for the sake of rig-'dzin mi-'gyur bde-chen snying-po by rong-phrug g.yung-nam (… skyabs gnas rig 'dzin bde chen snying po nyid kyis phyag dpe'i phyir du / rong phrug g.yung nam bdag gis bris pa'i…).</note>
+  </item>
+</catalog>

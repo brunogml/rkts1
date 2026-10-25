@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt110.1</ref>
+    <rnb>3756</rnb>
+    <tib>mkhyen gsol rnam dag chu rgyun</tib>
+    <skt/>
+    <coloph>ces pa'i tshul 'di ni lha srung mnyes shing bar chod zhi ba'i phyir/ gshen gyi drang srong shes rab rgyal mtshan gyis bkra shis sman ri'i khrod du sbyar ba dge'o/</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4803</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>10</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt87.7</ref>
+    <rnb>3186</rnb>
+    <tib>mkhyen gsol rnam dag chu rgyun</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>las byang</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4780</vol>
+        <sec>7</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>11</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt88.3</ref>
+    <rnb>3383</rnb>
+    <tib>mkhyen gsol rnam dag chu rgyun</tib>
+    <skt/>
+    <coloph>ces pa'i tshul 'di ni lha srung mnyes shing bar chod zhi ba'i ched du/ gshen gyi drang srong shes rab rgyal mtshan gyis bkra shis sman ri'i khrod du sbyar ba'o//</coloph>
+    <colophTitle/>
+    <margin>mkhyen gsol</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4781</vol>
+        <sec>3</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>11</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

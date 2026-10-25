@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm29.59</ref>
+    <rnb>368</rnb>
+    <tib/>
+    <skt/>
+    <coloph>dran pa skyed pa zhes bya ba'i gzungs //_rdzogs s+ho //</coloph>
+    <colophTitle>dran pa skyed pa zhes bya ba'i gzungs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL939</vol>
+        <sec>mdo</sec>
+        <debp>238</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>238</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Text does not contain proper opening.</note>
+  </item>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm116.53</ref>
+    <rnb>738</rnb>
+    <tib/>
+    <skt/>
+    <coloph>dran pa bskyed pa zhes bya ba'i gzungs rdzogs s+h+yo//</coloph>
+    <colophTitle>dran pa bskyed pa zhes bya ba'i gzungs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL1026</vol>
+        <sec>gzungs 'dus</sec>
+        <debp>147</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>147</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>No proper opening.</note>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F577</ref>
+    <rnb>581</rnb>
+    <tib/>
+    <skt/>
+    <coloph>dran pa bskyed pa'i gzungs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14126</vol>
+        <sec>rgyud</sec>
+        <debp>167</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>167</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng46.56</ref>
+    <rnb>399</rnb>
+    <tib/>
+    <skt/>
+    <coloph>dran pa skyed pa zhes bya ba'i gzungs rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229076</vol>
+        <sec>mdo</sec>
+        <debp>170</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>170</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>No proper opening.</note>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg29.91</ref>
+    <rnb>371</rnb>
+    <tib/>
+    <skt/>
+    <coloph>dran pa bskyed pa zhes bya ba'i gzungs rdzogs s+ho //</coloph>
+    <colophTitle>dran pa bskyed pa zhes bya ba'i gzungs</colophTitle>
+    <margin>dran skyed</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211202</vol>
+        <sec>mdo</sec>
+        <debp>266</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>266</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg59.91</ref>
+    <rnb>716</rnb>
+    <tib/>
+    <skt/>
+    <coloph>dran pa bskyed pa zhes bya ba'i gzungs rdzogs+ho//</coloph>
+    <colophTitle>dran pa bskyed pa zhes bya ba'i gzungs</colophTitle>
+    <margin/>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211226</vol>
+        <sec>mdo</sec>
+        <debp>229</debp>
+        <debf>b</debf>
+        <debl>9</debl>
+        <finp>230</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

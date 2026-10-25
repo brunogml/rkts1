@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4993</ref>
+    <rnb>1</rnb>
+    <tib>zhal bzhi pa'i dam tshig dngos grub bsgrub pa'i thabs zhes bya ba</tib>
+    <skt>tsa turmu kha sa ma ya sid+d+hi sA d+ha nA ma</skt>
+    <coloph>zhal gyi u pa de sha 'di/ rak+Shi ta yis mdzad pa las/ gnyan lo dar ma grags kyis bsgyur</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>374</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>376</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2900</ref>
+    <rnb>2901</rnb>
+    <tib>zhal bzhi pa'i dam tshig dngos grub bsgrub pa'i thabs zhes bya ba</tib>
+    <skt>tsa turmu kha sa ma ya sid+d+hi sA d+ha nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>345'</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>346</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3690</ref>
+    <rnb>2910</rnb>
+    <tib>zhal bzhi pa'i dam tshig dngos grub bsgrub pa'i thabs</tib>
+    <skt>tsa turma kha sa ma ya sA d+ha nA ma</skt>
+    <coloph>zhal gyi u pa de sha 'di/ rak+Shi ta yis mdzad pa las/ gnyan lo dar ma grags kyis bsgyur</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>260</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>260</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>260</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>260</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4901</ref>
+    <rnb>2902</rnb>
+    <tib>zhal bzhi pa'i dam tshig dngos grub bsgrub pa'i thabs zhes bya ba</tib>
+    <skt>tsa turmu kha sa ma ya sid+d+hi sA d+ha nA ma</skt>
+    <coloph>zhal gyi u pa de sha 'di/ rak+Shi ta yis mdzad pa las/ gnyan lo dar ma grags kyis bsgyur</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>259</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>259</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rakṣita</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

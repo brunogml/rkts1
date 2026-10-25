@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G2653</ref>
+    <rnb>2654</rnb>
+    <tib>dpal 'khor lo sdom pa'i man ngag</tib>
+    <skt>shrI sam+ba ro pa de sha</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31412</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>346</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>353</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3443</ref>
+    <rnb>2662</rnb>
+    <tib>dpal 'khor lo sdom pa'i man ngag</tib>
+    <skt>shrI sam+ba ro pa de sha</skt>
+    <coloph>dpal ldan rnal 'byor gyi dbang phyug dril bu zhabs kyis mdzad pa'i dpal sdom pa'i man ngag 'di ni rdzogs so/ /lugs gnyis kyi dbang phyug dam pa dpal ldan rnam rgyal grags pa'i gsung gis mkhas pa gnas brtan chen po/ dpal gyis nags kyi rin chen gyi spyan sngar/ 'gos lo tsA ba gzhin nu dpal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>230</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>235</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212359</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>230</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>235</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4654</ref>
+    <rnb>2655</rnb>
+    <tib>dpal 'khol lo sdom pa'i man ngag</tib>
+    <skt>shrI sam+ba ro pa de sha</skt>
+    <coloph>dpal ldan rnal 'byor gyi dbang phyug dril bu zhabs kyis mdzad pa'i dpal sdom pa'i man ngag 'di ni rdzogs so/_/lugs gnyis kyi dbang phyug dam pa dpal ldan rnam rgyal grags pa'i gsung gis mkhas pa gnas brtan chen po dpal gyis nags kyi rin chen gyi spyan sngar/_'gos lo tsA ba gzhon nu dpal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13244</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>243</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>250</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>'gos gzhon nu dpal/(kumāraśrī)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nags kyi rin chan/(vanaratna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dril bu zhabs/(ghaṇṭāpāda)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

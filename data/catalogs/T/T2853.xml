@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4953</ref>
+    <rnb>1</rnb>
+    <tib>sgrol ma U gra'i mchod pa'i cho ga zhes bya ba</tib>
+    <skt>u gra tA ra pU dzA bi d+hi nA ma</skt>
+    <coloph>sgrol ma u gra'i mchod pa'i cho ga rdzogs so/ /rdo rje gdan gyi mkhan po shrI sha ri pu tra ma hA swa mi'i zhal mnga' nas mdzad de/ rang 'gyur du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>158</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>160</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2853</ref>
+    <rnb>2854</rnb>
+    <tib>sgrol ma u gra'i mchod pa'i cho ga zhes bya ba</tib>
+    <skt>u gra tA ra pU dzA bi d+hi nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>214</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>215</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3643</ref>
+    <rnb>2863</rnb>
+    <tib>sgrol ma u gra'i mchod pa'i cho ga zhes bya ba</tib>
+    <skt>u gra tA ra pA dzA bi d+hi nA ma</skt>
+    <coloph>sgrol ma u gra'i mchod pa'i cho ga rdzogs so/ /rdo rje gdan gyi mkhan po shrI sha ri pu tra ma hA swa mi'i zhal mnga' nas mdzad de/ rang 'gyur du bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>161</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>162</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>161</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>162</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4854</ref>
+    <rnb>2855</rnb>
+    <tib>sgrol ma u gra'i mchod pa'i cho ga zhes bya ba</tib>
+    <skt>u gra tA ra bU dzA bi d+hi nA ma</skt>
+    <coloph>sgrol ma u gra'i mchod pa'i cho ga rdzogs so/ /rdo rje gdan gyi mkhan po shrI sha ri pu tra ma hA swa mi'i zhal mnga' nas mdzad de/ rang 'gyur du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>163</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>163</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>śariputramahāsvami (śāriputramahāsvāmin)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>śariputramahāsvami (śāriputramahāsvāmin)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

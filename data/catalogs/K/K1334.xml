@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.111</ref>
+    <rnb>113</rnb>
+    <tib>dpal phyag na rdo rje chen po khams gsum la dbang bsgyur ba</tib>
+    <skt>shrI ma hA yogi ni</skt>
+    <coloph>-</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>249</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>249</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg107</ref>
+    <rnb>109</rnb>
+    <tib>dpal phyag na rdo rje chen po khams gsum la dbang bsgyur ba</tib>
+    <skt>shrI ma hA yogi ni</skt>
+    <coloph>-</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>235</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>235</finp>
+        <finf>a</finf>
+        <finl>9</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.104</ref>
+    <rnb>576</rnb>
+    <tib>dpal nag po chen po khams gsum la dbang sgyur ba</tib>
+    <skt>shrI mahA yo gi ni</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>56 ce</sec>
+        <debp>3</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>3</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Left part of folio ce 2 is missing; it is glued together with the right part of folio ce 3. Rest of folio ce 3 is found later in the ms. See Everding 2015, no.394.</note>
+  </item>
+</catalog>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4614</ref>
+    <rnb>1</rnb>
+    <tib>'phags ma sgrol ma 'jigs pa brgyad las skyob pa zhes bya ba'i sgrub pa'i thabs</tib>
+    <skt>Ar+ya tA rASh+Ta b+ha ya tra ta nA ma sA d+ha naM</skt>
+    <coloph>'phags ma sgrol ma 'jigs pa brgyad las skyob pa zhes bya ba'i sgrol ma'i sgrub thabs slob dpon chen po tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi mkhan po dI paM kA ra shrI dz+nyA na dang / bod kyi lo tsA ba tshul khrims rgyal bas bsgyur ba las/ slad kyi rgya gar gyi mkhan po byang chub sems dpa' dA na shrI dang / bod kyi lo tsA ba mal gyi blo gros grags pas bcos te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95885</vol>
+        <sec>1</sec>
+        <debp>1343</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1348</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>A</coll>
+    <ref>A4629</ref>
+    <rnb>1</rnb>
+    <tib>'jigs pa brgyad las skyob pa bzhugs</tib>
+    <skt/>
+    <coloph>'jigs pa brgyad las skyob pa slob dpon mkhas pa dpal mar me mdzad ye shes kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95885</vol>
+        <sec>1</sec>
+        <debp>1467</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1469</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3638</ref>
+    <rnb>2573</rnb>
+    <tib>'phags ma sgrol ma 'jigs pa brgyad las skyob pa zhes bya ba'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>291</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>293</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3672</ref>
+    <rnb>2583</rnb>
+    <tib>'phags ma sgrol ma 'jigs pa brgyad las skyob pa zhes bya ba'i sgrub thabs</tib>
+    <skt>Ar+ya tA rASh+Ta b+ha ya tra ta nA ma sA d+ha naM</skt>
+    <coloph>'phags ma sgrol ma 'jigs pa brgyad las skyob pa zhes bya ba'i sgrol ma'i sgrub thabs slob dpon chen po tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi mkhan po dI paM kA ra shrI dz+nyA na dang / bod kyi lo tsA ba tshul khrims rgyal bas bsgyur ba las/ slad kyi rgya gar gyi mkhan po byang chub sems dpa' dA na shrI dang / bod kyi lo tsA ba mal gyi blo gros grags pas bcos te gtan la phab pa'o//</coloph>
+    <colophTitle>'phags pa 'jigs pa brgyad las skyob pa zhes bya ba'i sgrol ma'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>284</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>286</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>284</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>286</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>284</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>286</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po dI paM ka ra shrI dz+nyA na</name>
+        <role>translator</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba tshul khrims rgyal ba</name>
+        <role>translator</role>
+        <rid>bdr:P3456</rid>
+      </translator>
+      <translator>
+        <name>rgya gar gyi mkhan po byang chub sems dpa' dA na shI la</name>
+        <role>revisor</role>
+        <rid>bdr:P3214</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba mal gyo blo gros grags pa</name>
+        <role>revisor</role>
+        <rid>bdr:P3088</rid>
+      </translator>
+      <translator>
+        <name>slob dpon chen po tsan+d+ra go mi</name>
+        <role>author</role>
+        <rid>bdr:P7599</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2496</ref>
+    <rnb>2498</rnb>
+    <tib>'phags ma sgrol ma 'jigs pa brgyad las skyob pa zhes bya ba'i sgrub thabs</tib>
+    <skt>Ar+ya tA ra aSh+Ta b+ha ya ta ta nA ma sA dA naM</skt>
+    <coloph>'phags ma sgrol ma 'jigs pa brgyad las skyob pa zhes bya ba'i sgrol ma'i sgrub thabs slob dpon chen po tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi mkhan po dI paM kA ra shrI dz+nyA na dang / bod kyi lo tsA ba tshul khrims rgyal bas bsgyur ba las/ slad kyi rgya gar gyi mkhan po byang chub sems dpa' dA na shrI dang / bod kyi lo tsA ba mal gyi blo gros grags pas bcos te gtan la phab pa'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31410</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>406</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>409</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3287</ref>
+    <rnb>2504</rnb>
+    <tib>'phags ma sgrol ma 'jigs pa brgyad las skyob pa zhes bya ba'i sgrub thabs</tib>
+    <skt>Ar+ya tA ra aSh+Ta b+ha ya tra ta nA ma sA d+ha naM</skt>
+    <coloph>'phags ma sgrol ma 'jigs pa brgyad las skyob pa zhes bya ba'i sgrol ma'i sgrub thabs slob dpon chen po tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi mkhan po dI paM kA ra shrI dz+nyA na dang / bod kyi lo tsA ba tshul khrims rgyal bas bsgyur ba las/ slad kyi rgya gar gyi mkhan po byang chub sems dpa' dA na shrI dang / bod kyi lo tsA ba mal gyi blo gros grags pas bcos te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>335</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>337</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>335</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>337</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4494</ref>
+    <rnb>2495</rnb>
+    <tib>'phags ma sgrol ma 'jigs pa brgyad las skyob pa zhes bya ba'i sgrub thabs</tib>
+    <skt>Ar+ya tA ra aSh+Ta ba ya tra ta nA ma sA d+ha nA ma</skt>
+    <coloph>'phags ma sgrol ma 'jigs pa brgyad las skyob pa zhes bya ba'i sgrol ma'i sgrub thabs slob dpon chen po tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi mkhan po dI paM kA ra shrI dz+nyA na dang / bod kyi lo tsA ba tshul khrims rgyal bas bsgyur ba las/ slad kyi rgya gar gyi mkhan po byang chub sems dpa' dA na shrI dang / bod kyi lo tsA ba mal gyi blo gros grags pas bcos te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>373</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>375</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dānaśrī</name>
+        <role>revisor</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>mal gyo blo gros grags pa/</name>
+        <role>revisor</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>(candragomin)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

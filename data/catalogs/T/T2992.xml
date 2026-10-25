@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5077</ref>
+    <rnb>1</rnb>
+    <tib>'dod pa'i dbang phyug gi bstod pa</tib>
+    <skt/>
+    <coloph>dam tshig 'dzin la dngos grub lus stsol zhes bstod do/ bla ma chen po tsan+d+ra pas mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>791</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>792</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2992</ref>
+    <rnb>2993</rnb>
+    <tib>'dod pa'i dbang phyug gi bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>134</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>134</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3782</ref>
+    <rnb>3002</rnb>
+    <tib>'dod pa'i dbang phyug gi bstod pa</tib>
+    <skt/>
+    <coloph>dam tshig 'dzin la dngos grub lus stsol zhes bstod do/ bla ma chen po tsan+d+ra pas mdzad do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>97</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>98</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>97</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>98</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4993</ref>
+    <rnb>2994</rnb>
+    <tib>'dod pa'i dbang phyug gi bstod pa</tib>
+    <skt/>
+    <coloph>dam tshig 'dzin la dngos grub lus stsol zhes bstod do/_bla ma chen po tsan+d+ra pas mdzad do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>104</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>104</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>candra</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

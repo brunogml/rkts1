@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4898</ref>
+    <rnb>1</rnb>
+    <tib>phyag rgya bzhi pa'i bsam gtan</tib>
+    <skt/>
+    <coloph>phyag rgya bzhi pa'i bsam gtan rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95889</vol>
+        <sec>1</sec>
+        <debp>538</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>551</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2777</ref>
+    <rnb>2778</rnb>
+    <tib>phyag rgya bzhi pa'i bsam gtan</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31415</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>279</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>286</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3567</ref>
+    <rnb>2786</rnb>
+    <tib>phyag rgya bzhi pa'i bsam gtan</tib>
+    <skt/>
+    <coloph>phyag rgya bzhi pa'i bsam gtan rdzogso</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3329</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>233</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>238</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212362</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>233</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>238</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4778</ref>
+    <rnb>2779</rnb>
+    <tib>phyag rgya bzhi pa'i bsam gtan</tib>
+    <skt/>
+    <coloph>phyag rgya bzhi pa'i bsam gtan rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13247</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>232</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>238</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

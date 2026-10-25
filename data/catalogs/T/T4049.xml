@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2852</ref>
+    <rnb>1787</rnb>
+    <tib>rdo rje sngon po can gyi chu gtor</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66104</vol>
+        <sec>rgyud</sec>
+        <debp>243</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>244</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2891</ref>
+    <rnb>1797</rnb>
+    <tib>rdo rje sngon po can gyi chu gtor</tib>
+    <skt/>
+    <coloph>rdo rje gos sngon po can gyi chu gtor gyi cho ga slob dpon 'gro bzangs snying pos mdzad pa rdzogs so</coloph>
+    <colophTitle>rdo rje gos sngon po can gyi chu gtor gyi cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1389</vol>
+        <sec>rgyud</sec>
+        <debp>241</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>242</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210124</vol>
+        <sec>rgyud</sec>
+        <debp>241</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>242</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211428</vol>
+        <sec>rgyud</sec>
+        <debp>241</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>242</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po paN+Di ta te dza nge ba</name>
+        <role>revisor</role>
+        <rid>bdr:P7230</rid>
+      </translator>
+      <translator>
+        <name>bod kyi sgra bsgyur gyi lo tsA ba dge slong shes rab</name>
+        <role>revisor</role>
+        <rid>bdr:P3709</rid>
+      </translator>
+      <translator>
+        <name>slob dpon 'gro bzangs snying po</name>
+        <role>author</role>
+        <rid>bdr:P7218</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2510</ref>
+    <rnb>1729</rnb>
+    <tib>phyag na rdo rje gos sngon po can gyi gtor ma'i cho ga</tib>
+    <skt/>
+    <coloph>khro bo rgyal po chen po gos sngon po can gyi sgrub thabs slob dpon 'gro bzang snying po'i zhal snga nas kyis mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta te dza de ba dang / bod kyi lo tsA ba dge slong 'phags pa shes rab kyis bsgyur cing gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3321</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>317</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>318</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212354</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>317</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>318</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3717</ref>
+    <rnb>1718</rnb>
+    <tib>phyag na rdo rje gos sngon po can gyi gtor ma'i cho ga</tib>
+    <skt>badzra pA Ni a wa ba liM ta bi d+hi</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13239</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>292</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>293</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>'phags pa shes rab/(ārya prajñā)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>'gro bzangs snying po/(sugatigarbha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

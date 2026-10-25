@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3342</ref>
+    <rnb>2277</rnb>
+    <tib>so so 'brang ba chen mo'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>54</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>54</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3376</ref>
+    <rnb>2286</rnb>
+    <tib>so so 'brang ba chen mo'i sgrub thabs</tib>
+    <skt>ma hA pra ti sA ra sA d+ha naM</skt>
+    <coloph>so sor 'brang ma'i sgrub thabs rdzogs so/ /paN+Di ta don yod rdo rje dang / khams pa lo tsA ba dge slong ba ris bsgyur cing zhus so</coloph>
+    <colophTitle>so so 'brang ma'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>52</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>52</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>52</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>52</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>52</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>52</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta don yod rdo rje</name>
+        <role>translator</role>
+        <rid>bdr:P8224</rid>
+      </translator>
+      <translator>
+        <name>khams pa lo tsA ba dge slong ba ri</name>
+        <role>translator</role>
+        <rid>bdr:P3731</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2991</ref>
+    <rnb>2207</rnb>
+    <tib>so sor 'brang ma chen mo'i sgrub thabs</tib>
+    <skt>ma hA pra ti sA ra sA d+ha naM</skt>
+    <coloph>so sor 'brang ma'i sgrub thabs rdzogs so/ /paN+Di ta don yod rdo rje dang / khams pa lo tsA ba dge slong ba ris bsgyur cing zhus so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>59</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>60</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>59</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>60</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4197</ref>
+    <rnb>2198</rnb>
+    <tib>so sor 'brang ma chen mo'i sgrub thabs</tib>
+    <skt>ma hA pra ti sA ra sA d+ha naM</skt>
+    <coloph>so sor 'brang ma'i sgrub thabs rdzogs so/ /paN+Di ta don yod rdo rje dang / khams pa lo tsA ba dge slong ba ris bsgyur cing zhus so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>66</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>67</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>don yod rdo rje/(amoghavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

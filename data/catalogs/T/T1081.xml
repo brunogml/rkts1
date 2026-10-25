@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3149</ref>
+    <rnb>1</rnb>
+    <tib>dga' gcugs lnga pa</tib>
+    <skt>pri Na pany+tsa ka</skt>
+    <coloph>dga' gcugs lnga pa/ slob dpon mai tri pas mdzad pa rdzogs so/ /bla ma phyag na'i zhal snga nas dang / lo tsA ba rma ban gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95871</vol>
+        <sec>1</sec>
+        <debp>326</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>327</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2190</ref>
+    <rnb>1131</rnb>
+    <tib>dga' gcugs lnga pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66082</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2237a</ref>
+    <rnb>1141</rnb>
+    <tib>dga' gcugs lnga pa</tib>
+    <skt>pri Na pany+tsa ka</skt>
+    <coloph>dga' gcugs lnga pa slob dpon mai tri pas mdzad pa rdzogs so</coloph>
+    <colophTitle>dga' gcugs lnga pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1367</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210102</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211406</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bla ma phyag na</name>
+        <role>translator</role>
+        <rid>bdr:P8232</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba rma ban</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ10557</rid>
+      </translator>
+      <translator>
+        <name>slob dpon mai tri pa</name>
+        <role>author</role>
+        <rid>bdr:P44</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1086</ref>
+    <rnb>1088</rnb>
+    <tib>dga' bcugs lnga pa</tib>
+    <skt>pri Na pany+tsa ka</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31385</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>154</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>154</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1878</ref>
+    <rnb>1095</rnb>
+    <tib>dga' bcugs lnga pa</tib>
+    <skt>pri Na pany+tsa ka</skt>
+    <coloph>dga' bcugs lnga pa/ slob dpon mai tri pas mdzad pa rdzogs so/ /bla ma phyag na'i zhal snga nas dang / lo tsA ba rma ban gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3299</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>120</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>120</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212332</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>120</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>120</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3082</ref>
+    <rnb>1083</rnb>
+    <tib>dga' bcugs lnga pa</tib>
+    <skt>pri Na pany+tsa ka</skt>
+    <coloph>dga' bcugs lnga pa/ slob dpon mai tri pas mdzad pa rdzogs so/ /bla ma phyag na'i zhal snga nas dang / lo tsA ba rma ban gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13217</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>124</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>124</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>maitrīpa</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

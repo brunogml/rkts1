@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2923</ref>
+    <rnb>1</rnb>
+    <tib>dpal gshin rje gshed po'i rtsa ba'i sngags don rdo rje rab tu 'byed pa zhes bya ba</tib>
+    <skt/>
+    <coloph>'phags pa 'jams dpal gyi rtog pa thams cad bsdus par 'gyur pa/ rdo rje rab tu 'byed pa zhes bya ba'i cho ga zhib mo las/ slob dpon dpal ldan sgeg pa'i rdo rje yis/ /las dang dngos grub cho ga zhib mo slob dpon rigs pa bzang pos de la phan pa'i le'u gcig mdzad pa dang bcas pa rdzogs so/ /rgya gar gyi mkhan po dpal u pa ya shrI mi tra dang / rong zom chos kyi bzang pos bsgyur te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95869</vol>
+        <sec>1</sec>
+        <debp>800</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>971</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1965</ref>
+    <rnb>907</rnb>
+    <tib>dpal gshin rje gshed po'i rtsa ba'i sngags don rdo rje rab tu 'byed pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66079</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>70</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2014</ref>
+    <rnb>917</rnb>
+    <tib>dpal gshin rje gshed po'i rtsa ba'i sngags don rdo rje rab tu 'byed pa zhes bya ba</tib>
+    <skt>shrI ya mAn+ta ka badzra pra b+hed nA ma mU la man+t+rAr+tha</skt>
+    <coloph>'phags pa 'jam dpal gyi rtog pa thams cad bsdus par gyur pa/ rdo rje rab tu 'byed pa zhes bya ba'i cho ga zhib mo las/ slob dpon dpal ldan sgeg pa'i rdo rjes/ las dang dngos grub kyi cho ga zhib mo slob dpon rigs pa bzang pos de la phan pa'i le'u gcig mdzad pa dang bcas pa rdzogs so// //rgya gar gyi mkhan po dpal au pA ya shrI mi tra dang/ rong zom chos kyi bzang pos bsgyur te gtan la phab pa// //</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1364</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>69</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210099</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>69</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211403</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>69</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po dpal u pA ya shrI mi tra</name>
+        <role>translator</role>
+        <rid>bdr:P2JM132</rid>
+      </translator>
+      <translator>
+        <name>rong zom chos kyi bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P3816</rid>
+      </translator>
+      <translator>
+        <name>slob dpon dpal ldan sgeg pa'i rdo rje</name>
+        <role>author</role>
+        <rid>bdr:P8248</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G870</ref>
+    <rnb>872</rnb>
+    <tib>dpal gshin rje gshed po'i rtsa ba'i sngags don rdo rje rab tu 'byed pa zhes bya ba</tib>
+    <skt>shrI ya mAn+ta ka badzra pra b+he da nA ma mU la man trAr+tha</skt>
+    <coloph>'phags pa 'jams dpal gyi rtog pa thams cad bsdus par 'gyur pa/ rdo rje rab tu 'byed pa zhes bya ba'i cho ga/ /zhib mo las slob dpon dpal ldan sged pa'i rdo rje yis/ /las dang dngos grub cho ge zhib mo slob dpon rigs bzang pos/ / de la phan pa'i le'u gcig mdzad pa dang bcas pa rdzogs so/ /rgya gar gi mkhan po dpal u pa ya shrI mi tra dang / rong zom chos kyi bzang pos bsgyur te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31382</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>316</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>413</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1662</ref>
+    <rnb>878</rnb>
+    <tib>dpal gshin rje gshed po'i rtsa ba'i sngags don rdo rje rab tu 'byed pa zhes bya ba</tib>
+    <skt>shrI ya mAn+ta ka badzra pra b+he da nA ma mU la man trAr+tha</skt>
+    <coloph>'phags pa 'jams dpal gyi rtog pa thams cad bsdus par 'gyur pa/ rdo rje rab tu 'byed pa zhes bya ba'i cho ga/ /zhib mo las slob dpon dpal ldan sged pa'i rdo rje yis/ /las dang dngos grub cho ge zhib mo slob dpon rigs bzang pos/ / de la phan pa'i le'u gcig mdzad pa dang bcas pa rdzogs so/ /rgya gar gi mkhan po dpal u pa ya shrI mi tra dang / rong zom chos kyi bzang pos bsgyur te gtan la phab pa/</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3296</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>224</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>305</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212329</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>224</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>305</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2867</ref>
+    <rnb>868</rnb>
+    <tib>dpal gshin rje gshed po'i rtsa ba'i sngags don rdo rje rab tu 'byed pa zhes bya ba</tib>
+    <skt>shrI ya mAn+ta ka badzra pra b+he da nA ma mU la man trAr+tha</skt>
+    <coloph>'phags pa 'jams dpal gyi rtog pa thams cad bsdus par gyur pa/_rdo rje rab tu 'byed pa zhes bya ba'i cho ga zhib mo las slob dpon dpal ldan sgeg pa'i rdo rje yis/_/las dang dngos grub cho ga zhib mo slob dpon rigs bzang pos/_/_de la phan pa'i le'u gcig mdzad pa dang bcas pa rdzogs so/_/rgya gar gyi mkhan po dpal u pa ya shrI mi tra dang /_rong zom chos kyi bzang pos bsgyur te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13214</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>247</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>330</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>chos kyi bzang po/(dharmabhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>sgeg pa'i rdo rje/(līlāvajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

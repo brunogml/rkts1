@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4847</ref>
+    <rnb>1</rnb>
+    <tib>las shan lta ba'i sgron mazhes bya ba</tib>
+    <skt/>
+    <coloph>las shan lta ba'i sgron ma zhes bya ba/ bzhad pa rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95888</vol>
+        <sec>1</sec>
+        <debp>853</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>862</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2726</ref>
+    <rnb>2727</rnb>
+    <tib>las shan lta ba'i sgron ma zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31414</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>515</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>520</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3516</ref>
+    <rnb>2735</rnb>
+    <tib>las shan lta ba'i sgron ma</tib>
+    <skt/>
+    <coloph>las shan lta ba'i sgron ma zhes bya ba/ bzhad pa rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3328</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>383</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>387</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212361</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>383</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>387</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4727</ref>
+    <rnb>2728</rnb>
+    <tib>las shan lta ba'i sgron ma zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13246</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>419</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>424</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bzhad pa'i rdo rje/(hasavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

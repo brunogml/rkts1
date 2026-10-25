@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt285.17</ref>
+    <rnb>8016</rnb>
+    <tib>ma cig srid pa rgyal mo bka' gsang dbang gi lha mo'i rgyud she thun 'bar ba'i 'phreng ba</tib>
+    <skt/>
+    <coloph>bdag 'dra mi 'gyur gsang sngags grags pa can nam/ rig 'dzin kun grol gsang ba rtsal gyis sa lug zla ba 7pa'i tshes 10yi nyi ma dang po 'char dus mnyam du zangs brag rin chen 'bar ba nas zab mo rin chen gter du spyan drangs//</coloph>
+    <colophTitle/>
+    <margin>rgyud</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4978</vol>
+        <sec>17</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>46</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz193.4</ref>
+    <rnb>621</rnb>
+    <tib>ma gcig srid pa rgyal mo bka' gsang dbang gi lha mo'i rgyud she thun 'bar ba'i 'phreng ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58728</vol>
+        <sec>ga</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>11</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

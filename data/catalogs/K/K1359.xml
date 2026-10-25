@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.181</ref>
+    <rnb>184</rnb>
+    <tib>'phags pa bkra shis brtsegs zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A rya mangga la ku Ta nA ma ma hA yA na su tra</skt>
+    <coloph>'phags pa bkra shis brtsegs pa chen po'i mdo las cho ga dang bcas pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>587</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>593</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm116.112</ref>
+    <rnb>797</rnb>
+    <tib>'phags pa bkra shis brtsegs pa chen po zhes bya ba'i mdo</tib>
+    <skt>Ar+ya a ra mu khyi na ma mahA ya na su tra</skt>
+    <coloph>'phags pa bkra shis brtsegs pa'i mdo cho ga dang bcas pa rdzogs s+h+yo//_//rgya gar gi mkhan po 'dzi na mi tra dang/_zhu chen gyi lo ts+tsha ba ban de ye shes sdes bsgyur cing zhus te gtan la phab pa'o//</coloph>
+    <colophTitle>'phags pa bkra shis brtsegs pa'i mdo cho ga dang bcas pa</colophTitle>
+    <margin>bkra shis</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL1026</vol>
+        <sec>gzungs 'dus</sec>
+        <debp>366</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>370</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gi mkhan po 'dzi na mi tra</name>
+        <role>translator</role>
+        <rid>bdr:P8209</rid>
+      </translator>
+      <translator>
+        <name>zhu chen gyi lo ts+tsha ba ban de ye shes sde</name>
+        <role>translator</role>
+        <rid>bdr:P8205</rid>
+      </translator>
+    </translators>
+    <note>The text has the ye dharma hetu formula added at the end.</note>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg158</ref>
+    <rnb>160</rnb>
+    <tib>bkra shis brtsegs pa'i mdo</tib>
+    <skt/>
+    <coloph>'phags pa bkra shis brtsegs pa chen po'i mdo las cho ga dang bcas pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>479</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>489</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.156</ref>
+    <rnb>628</rnb>
+    <tib>'phags pa bkra shis brtsegs pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya mang+ga la kuTa nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa bkra shis brtsegs pa chen po'i mdo las cho ga dang bcas pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin>bkra shis</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>100 phi</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.419.</note>
+  </item>
+</catalog>

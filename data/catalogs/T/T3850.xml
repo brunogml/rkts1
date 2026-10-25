@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>N</coll>
+    <ref>N3890</ref>
+    <rnb>3110</rnb>
+    <tib>bstod pa rin po che bdun pa</tib>
+    <skt>sap+ta mi rat+na sto tra</skt>
+    <coloph>dpal ldan bla ma nags kyi rin po che'i bstod pa rin po che bdun pa rdzogs so/ /'di ni ma ga d+ha'i yul du byung ba'i dge brnyen nyi ma zhes bya bas mdzad pa'o/ bstod pa'i yul dam pa paN+Di ta chen po de nyid kyi spyan sngar dA ri drangs rgya mtsho'i sde zhes bya bas bal yul ye rang gi grong khyer chen po'i 'dab dpal go bo tsan+d+ra'i gtsug lag khang du bsgyur ba las phyis cung zad kyang bcos so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>132</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>132</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>132</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>132</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5101</ref>
+    <rnb>3102</rnb>
+    <tib>bstod pa rin po che bdun pa</tib>
+    <skt>sap+ta mi rat+na sto traM</skt>
+    <coloph>dpal ldan bla ma nags kyi rin po che'i bstod pa rin po che bdun pa rdzogs so/_/'di ni ma ga d+ha'i yul du byung ba'i dge bsnyen nyi ma zhes bya bas mdzad pa'o/_bstod pa'i yul dam pa paN+Di ta chen po de nyid kyi spyan sngar dA ri drangs rgya mtsho'i sde zhes bya bas bal yul ye rang gi grong khyer chen po'i 'dab dpal go bi tsan+d+ra'i gtsug lag khang du bsgyur ba las phyis cung zad kyang bcos so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>134</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>135</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nyi ma/(sūrya)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nyi ma/(sūrya)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

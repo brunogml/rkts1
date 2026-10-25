@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm15.1</ref>
+    <rnb>25</rnb>
+    <tib>'dus pa rin po che'i rgyud dri ma med pa gzi brjid rab tu 'bar ba'i mdo las ston pas theg pa bzhi pa srid gshen gyi bon bstan pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD3986</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>69</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks3.1</ref>
+    <rnb>10</rnb>
+    <tib>'dus pa rin po che'i rgyud dri ma med pa gzi brjid rab tu 'bar ba'i mdo las ston pas theg pa bzhi pa srid gshen gyi bon gtan la phabs pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ74974</vol>
+        <sec>ga</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>54</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz16.1</ref>
+    <rnb>24</rnb>
+    <tib>'dus pa rin po che'i rgyud dri ma med pa gzi brjid rab tu 'bar ba'i mdo las ston pas theg pa bzhi pa srid gshen gyi bon bstan pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58551</vol>
+        <sec>ga1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>56</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

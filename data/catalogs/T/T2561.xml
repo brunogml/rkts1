@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4683</ref>
+    <rnb>1</rnb>
+    <tib>sprin gyi sgron ma tshogs kyi bdag po sgrub pa'i thabs zhes bya ba</tib>
+    <skt>me g+ha a lo ka ga Na pa ti sA d+ha naM na ma</skt>
+    <coloph>'phags pa tshogs kyi bdag po chags pa rdo rje'i dam tshig gi bstod pa paN+Di ta dI paM kA ra shrI dz+nyA nas mdzad pa rdzogs so/ paN+Di ta de nyid dang lo tsA ba nag tsho tshul khrims rgyal bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95886</vol>
+        <sec>1</sec>
+        <debp>807</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>810</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3706</ref>
+    <rnb>2642</rnb>
+    <tib>sprin gyi sgron ma tshogs kyi bdag po sgrub pa'i thabs zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66110</vol>
+        <sec>rgyud</sec>
+        <debp>75</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>76</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3740</ref>
+    <rnb>2651</rnb>
+    <tib>sprin gyi sgron ma tshogs kyi bdag po sgrub pa'i thabs zhes bya ba</tib>
+    <skt>me g+ha a lo ka ga Na pa ti sA d+ha naM nA ma</skt>
+    <coloph>tshogs kyi bdag po sprin gyi sgron ma'i sgrub thabs slob dpon bram ze rin chen rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle>tshogs kyi bdag po sprin gyi sgron ma'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1395</vol>
+        <sec>rgyud</sec>
+        <debp>75</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>76</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210130</vol>
+        <sec>rgyud</sec>
+        <debp>75</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>76</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211434</vol>
+        <sec>rgyud</sec>
+        <debp>75</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>76</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi paN+Di ta dI paM ka ra shrI dz+nyA na</name>
+        <role>translator</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba nag tsho tshul khrims rgyal ba</name>
+        <role>translator</role>
+        <rid>bdr:P3456</rid>
+      </translator>
+      <translator>
+        <name>slob dpon bram ze rin chen rdo rje</name>
+        <role>author</role>
+        <rid>bdr:P5006</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4562</ref>
+    <rnb>2563</rnb>
+    <tib>sprin gyi sgron ma tshogs kyi bdag po sgrub pa'i thabs zhes bya ba</tib>
+    <skt>me g+ha A lo ka ga Na pa ti sA d+ha nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13243</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>290</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>291</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rin chen rdo rje/(ratnavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4926</ref>
+    <rnb>1</rnb>
+    <tib>gshin rje gshed dmar lha lnga'i mngon par rtogs pa dngos grub kyi snye ma zhes bya ba</tib>
+    <skt>ya man+ta ka rak+ta dE wa pany+tsa b+hi sa ma yA sid d+hi many+dza ri nA ma</skt>
+    <coloph>gshin rje gshed dmar po lha lnga'i mngon par rtogs pa dngos grub kyi snye ma zhes bya ba/ rdo rje theg pa'i slob dpon gsang bas byin gyi zhal mnga' nas mdzad pa dge'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95891</vol>
+        <sec>1</sec>
+        <debp>1111</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1126</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2813</ref>
+    <rnb>2814</rnb>
+    <tib>gshin rje gshed dmar lha lnga'i mngon par rtogs pa</tib>
+    <skt>ya man+ta ka rak+ta dE wa pany+tsa b+hi sa ma yA sid d+hi many+dza ri nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31420</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>249</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>258</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3603</ref>
+    <rnb>2823</rnb>
+    <tib>gshin rje gshed dmar lha lnga'i mngon rtogs dngos grub kyi snye ma</tib>
+    <skt>ya man+ta ka rak+ta dza wa pany+tsa b+hi sa a yA sid d+hi many+dza ri nA ma</skt>
+    <coloph>gshin rje gshed dmar po lha lnga'i mngon par rtogs pa dngos grub kyi snye ma zhes bya ba/ rdo rje theg pa'i slob dpon gsang bas byin gyi zhal mnga' nas mdzad pa dge'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>174</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>181</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212367</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>174</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>181</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4814</ref>
+    <rnb>2815</rnb>
+    <tib>gshin rje gshed dmar lha lnga'i mngon par rtogs pa</tib>
+    <skt>ya man+ta ka rak+ta dE wa pany+tsa b+hi sa ma yA sid d+hi many+tsa ri nA ma</skt>
+    <coloph>gshin rje gshed dmar po'i lha lnga'i mngon par rtogs pa dngos grub kyi snye ma zhes bya ba/_rdo rje theg pa'i slob dpon gsang bas byin gyi zhal mnga' nas mdzad pa dge'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13252</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>183</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>190</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gsang bas byin/(guhyadatta)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2745</ref>
+    <rnb>1</rnb>
+    <tib>rim pa lnga'i rnam par bshad pa</tib>
+    <skt>pan+tsa kra ma pi ba ra Na</skt>
+    <coloph>mdor byas pa'i sgrub thabs kyi rnam par bshad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95864</vol>
+        <sec>1</sec>
+        <debp>20</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>63</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1784</ref>
+    <rnb>728</rnb>
+    <tib>rim pa lnga'i rnam par bshad pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66068</vol>
+        <sec>rgyud</sec>
+        <debp>8</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>25</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1839</ref>
+    <rnb>738</rnb>
+    <tib>rim pa lnga'i rnam par bshad pa</tib>
+    <skt>pany+tsa kra ma bi pa ra Na</skt>
+    <coloph>rim pa lnga dang rnam par dag pa'i rim pa rnam par bshad pa li la badzra zhabs kyis mdzad pa rdzogs so//_rgya gar gyi mkhan po chen po de nyid dang /_bod kyi lo tsA ba dge slong dar ma blo gros kyis bsgyur ro</coloph>
+    <colophTitle>rim pa lnga dang rnam par dag pa'i rim pa rnam par bshad pa li la badzra zhabs kyis mdzad pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1353</vol>
+        <sec>rgyud</sec>
+        <debp>8</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>24</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210088</vol>
+        <sec>rgyud</sec>
+        <debp>8</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>24</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211392</vol>
+        <sec>rgyud</sec>
+        <debp>8</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>24</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>li la badzra</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15286</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba dge slong dar ma blo gros</name>
+        <role>translator</role>
+        <rid>bdr:P8203</rid>
+      </translator>
+      <translator>
+        <name>li la badzra</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15286</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

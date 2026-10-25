@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5036</ref>
+    <rnb>1</rnb>
+    <tib>dpal nag po chen po'i bstod pa 'phreng 'dzin chos kyi nyin byed</tib>
+    <skt/>
+    <coloph>dpal sa skya lo tsA ba shAkya'i dge slong rig sngags 'chang 'jam dbyangs kun dga' bsod nams grags pa rgyal mtshan dpal bzang pos/ me mkha' rgya mtsho lo dag pa'i gzhir bzhags nas lo drug cu bskor brgyad dang nyag ma nyi shu bsre ba kun 'dul ces bya ba me mo phag gi lo nag pa zla ba'i tshes gcig gi nyin/ mkhan chen chos kyi rje bsod nams lhun grub legs pa'i 'byung gnas rgyal mtshan dpal bzang po'i bka' gnang ba bzhin/ dpal sa skya bzhi thog tu dag par bsgyur ro/ rgya skad ma dag pas da dung cung zad dpyad par bya rgyu yod do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>544</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>549</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2943</ref>
+    <rnb>2944</rnb>
+    <tib>nag po chen po phyag gnyis pa'i bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>20</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>22</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3733</ref>
+    <rnb>2953</rnb>
+    <tib>dpal nag po chen po'i bstod pa phreng 'dzin</tib>
+    <skt/>
+    <coloph>dpal sa skya lo tsA ba shAkya'i dge slong rig sngags 'chang 'jam dbyangs kun dga' bsod nams grags pa rgyal mtshan dpal bzang pos/ me mkha' rgya mtsho lo dag pa'i gzhir bzhags nas lo drug cu bskor brgyad dang nyag ma nyi shu bsre ba kun 'dul ces bya ba me mo phag gi lo nag pa zla ba'i tshes gcig gi nyin/ mkhan chen chos kyi rje bsod nams lhun grub legs pa'i 'byung gnas rgyal mtshan dpal bzang po'i bka' gnang ba bzhin/ dpal sa skya bzhi thog tu dag par bsgyur ro/ rgya skad ma dag pas da dung cung zad dpyad par bya rgyu yod do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>17</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>19</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>17</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>19</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4944</ref>
+    <rnb>2945</rnb>
+    <tib>nag po chen po phyag gnyis pa'i bstod pa</tib>
+    <skt/>
+    <coloph>dpal sa skya lo tsA ba shAkya'i dge slong rig sngags 'chang 'jam dbyangs kun dga' bsod nams grags pa rgyal mtshan dpal bzang pos/ me mkha' rgya mtsho lo dag pa'i gzhir bzhags nas lo drug cu bskor brgyad dang nyag ma nyi shu bsre ba kun 'dul ces bya ba me mo phag gi lo nag pa zla ba'i tshes gcig gi nyin/ mkhan chen chos kyi rje bsod nams lhun grub legs pa'i 'byung gnas rgyal mtshan dpal bzang po'i bka' gnang ba bzhin/ dpal sa skya bzhi thog tu dag par bsgyur ro/ rgya skad ma dag pas da dung cung zad dpyad par bya rgyu yod do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>16</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>18</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>'jam dbyangs kun dga' bsod nams grags pa rgyal mtshan dpal bzang po/(mañjughoṣānandapuṇyakīrtidhvajaśrībhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dam pa chos kyi nyin byen/(saddharmāditya)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

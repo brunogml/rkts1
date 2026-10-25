@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4745</ref>
+    <rnb>1</rnb>
+    <tib>dpa' bo gcig pa'i gtor ma'i cho ga</tib>
+    <skt>e ka bi ra ba la ba d+ha</skt>
+    <coloph>dpa' bo cig pa'i gtor ma'i cho ga slob dpon gar pa ri pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>698</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>701</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2617</ref>
+    <rnb>2618</rnb>
+    <tib>dpa' bo gcig pa'i gtor ma'i cho ga</tib>
+    <skt>e ka bi ra ba la ba d+ha</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31412</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>116</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>118</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3407</ref>
+    <rnb>2626</rnb>
+    <tib>dpa' bo cig pa'i gtor ma'i cho ga</tib>
+    <skt>e ka bi ra ba la ba d+ha</skt>
+    <coloph>dpa' bo cig pa'i gtor ma'i cho ga slob dpon gar pa ri pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>77</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>78</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212359</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>77</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>78</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4618</ref>
+    <rnb>2619</rnb>
+    <tib>dpa' bo gcig pa'i sbyin sreg gi cho ga</tib>
+    <skt>e ka bi ra ba la ba d+ha</skt>
+    <coloph>dpa' bo cig pa'i gtor ma'i cho ga slob dpon gar pa ri pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13244</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>76</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>77</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>blog ston seng ge rgyal mtshan/(siṁhadhvaja)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>garvaripāda</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

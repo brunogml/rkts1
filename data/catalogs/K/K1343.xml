@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.140</ref>
+    <rnb>142</rnb>
+    <tib>-</tib>
+    <skt/>
+    <coloph>byang chub sems dpa'i rgyud las rtogs pa'i dang po'i le'u rdzogs so// //man+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>392</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>394</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg137</ref>
+    <rnb>139</rnb>
+    <tib>byang chub sems dpa'i rgyud</tib>
+    <skt/>
+    <coloph>byang chub sems dpa'i rgyud las rtogs pa'i dang po'i le'u rdzogs so// //man+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>370</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>372</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.133</ref>
+    <rnb>605</rnb>
+    <tib/>
+    <skt/>
+    <coloph>byang chub sems dpa'i rgyud las rtogs pa dang po'i le'u rdzogs so//_gcig zhus/_mang+ga laM//</coloph>
+    <colophTitle/>
+    <margin>stag zhus</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>78 thi</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.401.</note>
+  </item>
+</catalog>

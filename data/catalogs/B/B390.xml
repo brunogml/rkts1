@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm129.1</ref>
+    <rnb>316</rnb>
+    <tib>ka ba nag po man ngag rtsa ba'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4100</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>78</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks35.1</ref>
+    <rnb>192</rnb>
+    <tib>ka ba nag po man ngag rtsa ba'i rgyud</tib>
+    <skt/>
+    <coloph>dpe rgan 'di'i rgyud pa ni / 'gar ston jo sras nyi ma rtse la / tshul byung dad tshul gnyis kyis zhus / de la 'a zha dbal sgom yab sras gnyis kyis zhus / de la bdag gsa' bod rang gi zhus / shog ser cho bo la zhal bshus / dpe 'di zhe tsha yin / … ka ba nag po rtsa ba'i rgyud kyi le'u sum cu dgu pa 'di bzhengs mkhan / dam pa g.yung drung tshul khrims dbang rgyal gyis bka' gnang bab tshe 'tsho byed zhar bsod ris</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75006</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>71</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>our colophon contains a textual lineage, and tells us that the present manuscript was constructed at the order of dam-pa g.yung-drung tshul-khrims dbang-rgyal (there are a number of bonpos with this or a similar name, but it is entirely possible that this could be the author of ytkc). brgyud rim, p. 284, gives the title ka ba nag po 'brug gsas kyi rgyud, in 39 chaps.</note>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz165.1</ref>
+    <rnb>331</rnb>
+    <tib>ka ba nag po man ngag rtsa ba'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58700</vol>
+        <sec>ka</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>64</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

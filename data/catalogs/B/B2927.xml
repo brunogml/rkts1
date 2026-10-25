@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt185.9</ref>
+    <rnb>5344</rnb>
+    <tib>thugs dam rgyud skong</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>sngags sde</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4878</vol>
+        <sec>9</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt38.4</ref>
+    <rnb>1591</rnb>
+    <tib>thugs dam rgyud skong</tib>
+    <skt/>
+    <coloph>ces pa'i rgyud skong 'di yang gsang sngags pas bris pa'o//</coloph>
+    <colophTitle/>
+    <margin>brgyud bskang</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4731</vol>
+        <sec>4</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt64.31</ref>
+    <rnb>2716</rnb>
+    <tib>thugs dam rgyud bskang</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>rgyud skong</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4757</vol>
+        <sec>31</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

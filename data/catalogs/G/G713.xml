@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm35.14</ref>
+    <rnb>618</rnb>
+    <tib>rdo rje phur pa chen po ma mo mngon du bkol ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-36</vol>
+        <sec>rnying rgyud</sec>
+        <debp>265</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>280</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm35.19</ref>
+    <rnb>623</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-36</vol>
+        <sec>rnying rgyud</sec>
+        <debp>350</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>352</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt35.10</ref>
+    <rnb>627</rnb>
+    <tib>rdo rje phur pa chen po ma mo mngon du bkol ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-35</vol>
+        <sec>rnying rgyud</sec>
+        <debp>235</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>246</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb046.002</ref>
+    <rnb>713</rnb>
+    <tib>rdo rje phur pa chen po ma mo mngon du bkol ba</tib>
+    <skt>ka ma la bi ri sid ta m a hA badzra kI lo kI la ya</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21651</vol>
+        <sec>1</sec>
+        <debp>6</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>6</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>thams cad kyi gzhi bstan pa'i le'u ste dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21651</vol>
+        <sec>1</sec>
+        <debp>8</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>sems can thams cad la chos bshad pa'i bskal pa dang dang bde bar gshegs pa'i byin gyis rlabs kyis bstan pa'i le'u ste gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21651</vol>
+        <sec>1</sec>
+        <debp>9</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>rdo rje phur pa dbyings kyi rgyud las/ ru tra btul ba'i le'u ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21651</vol>
+        <sec>1</sec>
+        <debp>10</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>'phrin las khog dbub pa'i le'u ste bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21651</vol>
+        <sec>1</sec>
+        <debp>13</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>'dzab bya zhing lha 'dre'i srog gi snying po gang yin/ rtags gang yin bstan pa'i le'u ste lnga pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21651</vol>
+        <sec>1</sec>
+        <debp>15</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>6</rn>
+        <name>tshogs bya ba'i le'u ste drug pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21651</vol>
+        <sec>1</sec>
+        <debp>14</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

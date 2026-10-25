@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>N</coll>
+    <ref>N4010</ref>
+    <rnb>3230</rnb>
+    <tib>shes rab kyi pha rol tu phyin pa'i snying po zhes bya ba'i 'grel pa</tib>
+    <skt>pradz+nyA pA ra mi tA h+r-i da ya nA ma TI kA</skt>
+    <coloph>shes rab kyi pha rol tu phyin pa'i snying po zhes bya ba'i 'grel pa/ slob dpon ka ma la shI las mdzad pa rdzogs so/ /rgya gar gyi mkhan po kun ma ra shi ba tra dang / bod kyi lo tsA ba 'phags pa shes rab kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3355</vol>
+        <sec>mdo 'grel</sec>
+        <debp>340</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>342</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212388</vol>
+        <sec>mdo 'grel</sec>
+        <debp>340</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>342</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5221</ref>
+    <rnb>3222</rnb>
+    <tib>shes rab kyi pha rol tu phyin pa'i snyin po zhes bya ba'i 'grel pa</tib>
+    <skt>pradz+nyA pA ra mi tA h+r-i da ya nA ma TI kA</skt>
+    <coloph>shes rab kyi pha rol tu phyin pa'i snying po'i 'grel pa/_slob dpon ka ma la shI las mdzad pa rdzogs so/_/rgya gar gyi mkhan po ku ma ra shi ba tra dang /_bod kyi lo tsA ba 'phags pa shes rab kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13273</vol>
+        <sec>mdo 'grel</sec>
+        <debp>330</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>333</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>kumaraśivatra (kumāraśrībhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>'phags pa shes rab/(āryapraja)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>kamalaśīla</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

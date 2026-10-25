@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2290</ref>
+    <rnb>1224</rnb>
+    <tib>dpal 'khor lo sdom pa'i man ngag zhal nas snyan du brgyud pa yid bzhin nor bu zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66083</vol>
+        <sec>rgyud</sec>
+        <debp>299</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>302</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2337</ref>
+    <rnb>1234</rnb>
+    <tib>dpal 'khor lo sdom pa'i man ngag zhal nas snyan du brgyud pa yid bzhin nor bu zhes bya ba</tib>
+    <skt>shrI tsakra sam+ba ro pa de sha mu kha kar+Na pa ram+pa ra tsin+tA ma Ni nA ma</skt>
+    <coloph>yid bzhin nor bu zhes bya ba mkha' 'gro ma'i gsang tshig til+li pas bkod pa rdzogs so/ /rtsigs kyi rgya bdud dang bcas pa nA ro paN+Di ta'i zhal snga nas dang / lo tsA ba mar pa chos kyi blo gros kyis puSh+pa ha ri'i gnas su bsgyur ba'o</coloph>
+    <colophTitle>go bar byed pa'i snying po brgya pa rnam par bshad pa zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1368</vol>
+        <sec>rgyud</sec>
+        <debp>299</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>302</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210103</vol>
+        <sec>rgyud</sec>
+        <debp>299</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>302</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211407</vol>
+        <sec>rgyud</sec>
+        <debp>299</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>302</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

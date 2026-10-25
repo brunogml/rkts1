@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1842</ref>
+    <rnb>784</rnb>
+    <tib>de kho na nyid bcu pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66075</vol>
+        <sec>rgyud</sec>
+        <debp>234</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>254</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1895</ref>
+    <rnb>794</rnb>
+    <tib>de kho na nyid bcu pa</tib>
+    <skt>da sha ta t+t+wA</skt>
+    <coloph>de kho na nyid bcu pa slob dpon rgyan pas mdzad pa rdzogs so// //bod kyi lo tsA ba dge slong dar ma grags kyis bsgyur cing zhus te gtan la phab pa'o// //</coloph>
+    <colophTitle>de kho na nyid bcu pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1360</vol>
+        <sec>rgyud</sec>
+        <debp>234</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>253</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210095</vol>
+        <sec>rgyud</sec>
+        <debp>234</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>253</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211399</vol>
+        <sec>rgyud</sec>
+        <debp>234</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>253</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bod kyi lo tsA ba dge slong dar ma grags</name>
+        <role>translator</role>
+        <rid>bdr:P2614</rid>
+      </translator>
+      <translator>
+        <name>slob dpon rgyan pa</name>
+        <role>author</role>
+        <rid>bdr:P0AT0021</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1553</ref>
+    <rnb>770</rnb>
+    <tib>de kho na nyid bcu pa</tib>
+    <skt>da sha tat+wA</skt>
+    <coloph>de kho na nyid bcu pa slob dpon rgyan pas mdzad pa rdzogs so/ /bod kyi lo tsA ba dge slong dar ma grags kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3293</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>265</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>290</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>265</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>290</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2759</ref>
+    <rnb>760</rnb>
+    <tib>de kho na nyid bcu pa</tib>
+    <skt>da sha tat+t+wa</skt>
+    <coloph>de kho na nyid bcu pa slob dpon rgyan pas mdzad pa rdzogs so/ /bod kyi lo tsA ba dge slong dar ma grags kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13211</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>280</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>305</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>darma grags/(dharmakīrti)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>rgyan pa/(alaṁkāra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

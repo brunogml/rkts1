@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm49.18</ref>
+    <rnb>177</rnb>
+    <tib>g.yung drung gtsang ma gsang ba'i gzungs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4020</vol>
+        <sec>1</sec>
+        <debp>197</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>208</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks150.3</ref>
+    <rnb>975</rnb>
+    <tib>g.yung drung gtsang ma'i gsang gzungs</tib>
+    <skt/>
+    <coloph>khyung rgod rtsal gyis zangs zangs lha brag nas gter ma bton pa lags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75121</vol>
+        <sec>3</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>12</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz66.6</ref>
+    <rnb>198</rnb>
+    <tib>g.yung drung gtsang ma gsang ba'i gzungs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58601</vol>
+        <sec>6</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>10</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

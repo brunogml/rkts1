@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>N</coll>
+    <ref>N2359</ref>
+    <rnb>1577</rnb>
+    <tib>rje btsun thugs rje chen po la bstod pa</tib>
+    <skt>b+haT+Ta ra ka ma hA kA ru Ni ka sto tra</skt>
+    <coloph>rje btsun thugs rje chen po la bstod pa dge slong ma dpal mos mdzad pa rdzags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3321</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>181</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>181</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212354</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>181</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>181</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3561</ref>
+    <rnb>1562</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug gi bstod pa</tib>
+    <skt>Ar+ya a ba lo ki te sh+wa ra sto tra</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug gi bstod pa/_dge slong ma dpal mos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13239</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>143</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>144</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dpal mo/(lakṣmī)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

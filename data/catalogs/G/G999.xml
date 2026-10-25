@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Gtn</coll>
+    <ref>Gtn008.005</ref>
+    <rnb>144</rnb>
+    <tib>rdzogs pa chen po kun tu bzang po ye shes gsal bar ston pa'i phyi ma gsang ba'i rgyud ces bya ba</tib>
+    <skt>san ti mahA sa man+ta b+ha dra bi ta gu h+ye nA ma tan tra</skt>
+    <coloph>rgya gar gyi mkhan po gu ru shri sing ha dang/ lo ts+tsha ba rdo rje yang dbang gter gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2PD19896</setid>
+        <vol>2PD20021</vol>
+        <sec>1</sec>
+        <debp>31</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>32</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>rgyud phyi ma las le'u dang po</name>
+        <setid>MW2PD19896</setid>
+        <vol>2PD20021</vol>
+        <sec>1</sec>
+        <debp>32</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>rgyud phyi ma las le'u gnyis pa</name>
+        <setid>MW2PD19896</setid>
+        <vol>2PD20021</vol>
+        <sec>1</sec>
+        <debp>32</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>rgyud phyi ma las le'u gsum pa</name>
+        <setid>MW2PD19896</setid>
+        <vol>2PD20021</vol>
+        <sec>1</sec>
+        <debp>32</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>rdzogs pa chen po kun tu bzang po ye shes gsal bar ston pa'i rgyud phyi ma las/ le'u bzhi pa</name>
+        <setid>MW2PD19896</setid>
+        <vol>2PD20021</vol>
+        <sec>1</sec>
+        <debp>32</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

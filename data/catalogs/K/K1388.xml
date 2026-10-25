@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm28.45</ref>
+    <rnb>305</rnb>
+    <tib/>
+    <skt/>
+    <coloph>klu'-i rgyal po sog ma myed kyi gzungs /_rdzogs s+ho //</coloph>
+    <colophTitle/>
+    <margin>sog</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL938</vol>
+        <sec>mdo</sec>
+        <debp>189</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>195</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name/>
+        <role>translator</role>
+        <rid>bdr:</rid>
+      </translator>
+      <translator>
+        <name/>
+        <role>translator</role>
+        <rid>bdr:</rid>
+      </translator>
+    </translators>
+    <note>No title in Skt. or Tib. but title given colophon; this work is not found in the mainstream collections but concurs with Lg28.11, Ng28.45.</note>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng28.45</ref>
+    <rnb>306</rnb>
+    <tib>klu'i rgyal po sog ma myed kyi gzungs</tib>
+    <skt/>
+    <coloph>klu'i rgyal po sog ma myed kyi gzungs / rdzogs s+hO //</coloph>
+    <colophTitle/>
+    <margin>sog</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229058</vol>
+        <sec>mdo</sec>
+        <debp>124</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>129</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>No title in Skt. or Tib.; title taken from colophon; this work is not found in the mainstream collections, but concurs with Lg28.11.</note>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg28.11</ref>
+    <rnb>271</rnb>
+    <tib/>
+    <skt/>
+    <coloph>klu'i rgyal po sog ma myed kyi gzungs /_/rdzogs s+ho //</coloph>
+    <colophTitle>klu'i rgyal po sog ma myed kyi gzungs</colophTitle>
+    <margin>sog ma med</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211201</vol>
+        <sec>mdo</sec>
+        <debp>28</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>33</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg88.46</ref>
+    <rnb>870</rnb>
+    <tib/>
+    <skt/>
+    <coloph>klu'i rgyal po sog ma myed kyi gzungs //_rdzogs s+wo //</coloph>
+    <colophTitle>klu'i rgyal po sog ma myed kyi gzungs</colophTitle>
+    <margin/>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211233</vol>
+        <sec>mdo</sec>
+        <debp>158</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>163</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

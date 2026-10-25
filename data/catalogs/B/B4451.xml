@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt242.18</ref>
+    <rnb>6698</rnb>
+    <tib>sgra bla'i rgyal mo'i bka' bsgo</tib>
+    <skt/>
+    <coloph>ces sgra bla'i rgyal mo'i la bka' bsgo ba 'di/ gshen gyi drang srong shes rab rgyal mtshan gyis sman ri'i khrod du sbyar ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4935</vol>
+        <sec>18</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt87.28</ref>
+    <rnb>3207</rnb>
+    <tib>sgra bla'i rgyal mo'i bska' bsgo</tib>
+    <skt/>
+    <coloph>sgra bla'i rgyal mo'i bka' bsgo ba/ shes rab rgyal mtshan gyis sman ri'i khrod du sbyar ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4780</vol>
+        <sec>28</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>3</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

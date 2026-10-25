@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5923</ref>
+    <rnb>1</rnb>
+    <tib>su pra'i mtha' rin chen 'byung gnas zhes bya ba</tib>
+    <skt>su pad+mA ka ra Na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95965</vol>
+        <sec>1</sec>
+        <debp>293</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>322</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5894</ref>
+    <rnb>3896</rnb>
+    <tib>su pa'i mtha' rin chen 'byung gnas zhes bya ba</tib>
+    <skt>su pan+ta rat+na ka ra nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13389</vol>
+        <sec>mdo 'grel</sec>
+        <debp>446</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>460</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

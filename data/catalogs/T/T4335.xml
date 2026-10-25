@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1714</ref>
+    <rnb>658</rnb>
+    <tib>gtor ma'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66059</vol>
+        <sec>rgyud</sec>
+        <debp>266</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>266</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1770</ref>
+    <rnb>668</rnb>
+    <tib>gtor ma'i cho ga</tib>
+    <skt>ba liM bi d+hiH</skt>
+    <coloph>'di ni gtor ma'i cho ga'o/_/bla ma'i man ngag bskyud par gyur pa'i nyes pa dang /_/rmongs pa las ni 'khrul pa'i nongs gang 'dir chags pa/_/rnam dag thugs rje shin tu zhi zhing gshin gyur pa'i/_/dpal ldan rdo rje mkha' 'gro'i tshogs la yang dag 'chags/_/rnal 'byor nam mkha'i sgrub thabs rnam dag bgyis 'di las/_/bsod nams gang zhig bdag gis rab tu thob gyur pa/_/de yis 'jig rten dka' ba med pa'i bde ba dang /_/yang dag ldan pa kun du bzang po nyid gyur cig_/'di ni dud pa'i sol ba ma'i cho ga ste dpal nags kyi rin chen zhabs kyis mdzad pa'o/_/grub pa'i zhal gyi sbrang rtsis rab tu myos pa yis/_/gar byed de ni dpal ldan rgya mtsho'i sde zhes pa/_/bsnyengs bral sgreg pa'i bkra shis yi ge'i kA ma lar/_/chags pas kun dgar gyur pa'i glu dbyangs 'di blangs so/_/paN+Di ta chen po de nyid kyi bka' drin gyis 'tsho ba'i btsun pa bsod nams rgya mtsho'i sdes bsgyur ba'o</coloph>
+    <colophTitle>'di ni gtor ma'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1344</vol>
+        <sec>rgyud</sec>
+        <debp>266</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>267</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210079</vol>
+        <sec>rgyud</sec>
+        <debp>266</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>267</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211383</vol>
+        <sec>rgyud</sec>
+        <debp>266</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>267</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>btsun pa bsod nams rgya mtsho'i sde</name>
+        <role>translator</role>
+        <rid>bdr:P208</rid>
+      </translator>
+      <translator>
+        <name>dpal nags kyi rin chen</name>
+        <role>author</role>
+        <rid>bdr:P207</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

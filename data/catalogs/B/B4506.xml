@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt283.9</ref>
+    <rnb>7941</rnb>
+    <tib>'khrug bcos rin chen phreng ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>rin chen phreng ba</margin>
+    <locations/>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt87.86</ref>
+    <rnb>3265</rnb>
+    <tib>'khrug bcos rin chen 'phring ba</tib>
+    <skt/>
+    <coloph>sa bdag 'khrug bcos zhes bya ba'i bon/ pha 'ong g.yag ro nas go bde 'phags pa'i (pas) gter nas gdan drangs pa lags s+ho//</coloph>
+    <colophTitle/>
+    <margin>'khrug bcos</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4780</vol>
+        <sec>86</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>12</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

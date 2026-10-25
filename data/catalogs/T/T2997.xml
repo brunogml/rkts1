@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5082</ref>
+    <rnb>1</rnb>
+    <tib>nor lha gsang ba'i bsgrub thabs</tib>
+    <skt>rad na bde ba g+hu h+ya sa d+ha naM</skt>
+    <coloph>nor lha rgyal po yab yum gyi gsang ba'i sgrub thabs rdzogs so/ /rgya gar gyi mkhan po b+hi na ya tsan+d+ra dang / bod kyi lo tsA ba dge slong chos kyi shes rab kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>823</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>825</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2997</ref>
+    <rnb>2998</rnb>
+    <tib>nor lha gsang ba'i sgrub thabs</tib>
+    <skt>rad na de ba g+hu h+ya sa d+ha naM</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>150</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>151</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3787</ref>
+    <rnb>3007</rnb>
+    <tib>nor lha gsang ba'i sgrub thabs</tib>
+    <skt>rad na ba de ba gU h+ya sa d+ha naM</skt>
+    <coloph>nor lha rgyal po yab yum gyi gsang ba'i sgrub thabs rdzogs so/ /rgya gar gyi mkhan po b+hi na ya tsan+d+ra dang / bod kyi lo tsA ba dge slong chos kyi shes rab kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>107</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>108</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>107</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>108</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4998</ref>
+    <rnb>2999</rnb>
+    <tib>nor lha gsang ba'i sgrub thabs</tib>
+    <skt>rad na de ba g+hu h+ya sa d+ha naM</skt>
+    <coloph>nor lha rgyal po yab yum gyi gsang ba'i sgrub thabs rdzogs so/ /rgya gar gyi mkhan po b+hi na ya tsan+d+ra dang / bod kyi lo tsA ba dge slong chos kyi shes rab kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>115</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>116</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>chos kyi shes rab/(dharmaprajñā)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

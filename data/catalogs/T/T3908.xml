@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G3420</ref>
+    <rnb>3414</rnb>
+    <tib>dge ba bcu'i las kyi lam bstan pa</tib>
+    <skt>da sha ku sha pa karma pa thA nirde sha</skt>
+    <coloph>dge ba bcu'i las kyi lam bstan pa zhes bya ba/ slob dpon bram ze'i btsun pa chos ldan rab 'byor dbyangs kyis zhal snga nas mdzad pa rdzogs so/ /rgya gar gyi mkhan po bud+d+ha ka ra varma dang / lo tsA ba dge slong chos kyi shes rab kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31458</vol>
+        <sec>mdo 'grel</sec>
+        <debp>120</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>124</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5417</ref>
+    <rnb>3418</rnb>
+    <tib>dge ba bcu'i las kyi lam bstan pa</tib>
+    <skt>da sha ku sha pa karma pa thA ni rde sha</skt>
+    <coloph>dge ba bcu'i las kyi lam bstan pa zhes bya ba/_slob dpon bram ze'i btsun pa chos ldan rab 'byor dbyangs kyi zhal snga nas mdzad pa rdzogs so/_/rgya gar gyi mkhan po bud+d+ha ka ra warma dang /_bod kyi lo tsA ba dge slong chos kyi shes rab kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13290</vol>
+        <sec>mdo 'grel</sec>
+        <debp>106</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>109</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>buddhākaravarma (buddhākaravarman)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>chos ldan rab 'byor dbyangs/(dhārmikasubhūtighoṣa)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

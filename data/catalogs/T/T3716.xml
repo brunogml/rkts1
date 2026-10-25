@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5872</ref>
+    <rnb>1</rnb>
+    <tib>sbyin pa'i rabs kyi smon lam</tib>
+    <skt/>
+    <coloph>sbyin pa'i rabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95961</vol>
+        <sec>1</sec>
+        <debp>1655</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1660</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4346</ref>
+    <rnb>3287</rnb>
+    <tib>sbyin pa'i rabs kyi smon lam bzhugs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66238</vol>
+        <sec>sna tshogs</sec>
+        <debp>314</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>315</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4382</ref>
+    <rnb>3295</rnb>
+    <tib>sbyin pa'i rabs kyi smon lam bzhugs</tib>
+    <skt/>
+    <coloph>sbyin pa'i rabs rdzogs so</coloph>
+    <colophTitle>sbyin pa'i rabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1525</vol>
+        <sec>mdo 'grel</sec>
+        <debp>310</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>312</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210260</vol>
+        <sec>mdo 'grel</sec>
+        <debp>310</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>312</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211564</vol>
+        <sec>mdo 'grel</sec>
+        <debp>310</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>312</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5927</ref>
+    <rnb>3929</rnb>
+    <tib>sbyin pa'i rabs kyi smon lam</tib>
+    <skt/>
+    <coloph>sbyin pa'i rab rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13393</vol>
+        <sec>mdo 'grel</sec>
+        <debp>299</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>299</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

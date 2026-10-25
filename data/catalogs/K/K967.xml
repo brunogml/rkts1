@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm45.8</ref>
+    <rnb>566</rnb>
+    <tib>las rnams pa zhi pa'i tshogs zhes bya ba 'byung po 'dul ba bya zhes bya ba'i man ngag</tib>
+    <skt>ka ma ra tsa du ba ra da na u pa ta sha na ma tra tsa sa na</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin>'byung po</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL955</vol>
+        <sec>rgyud</sec>
+        <debp>279</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>283</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name/>
+        <role>translator</role>
+        <rid>bdr:</rid>
+      </translator>
+      <translator>
+        <name/>
+        <role>translator</role>
+        <rid>bdr:</rid>
+      </translator>
+    </translators>
+    <note>This work is not found in the mainstream collections but documented for Newark/Bathang (Ne) and Hemis (Hg55-01).</note>
+  </item>
+  <item>
+    <coll>Hg</coll>
+    <ref>Hg55-01</ref>
+    <rnb>84</rnb>
+    <tib>las rnams bzhi'i tshogs zhes bya ba 'byung po 'dul bar byed pa'i man ngag</tib>
+    <skt>kar ma tsa tu ra ba dan u pa ta sha na ma pra tsa sa na</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45315</setid>
+        <vol>2KG209216</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>5</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

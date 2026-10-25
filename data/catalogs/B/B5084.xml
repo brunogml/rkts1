@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm140.1</ref>
+    <rnb>513</rnb>
+    <tib>rdzogs pa chen po nam mkha' spyi gcod lta ba'i klong</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4111</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>85</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt115.1</ref>
+    <rnb>3893</rnb>
+    <tib>rdzogs pa chen pa nam mkha' spyi gcod lta ba'i klong</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>gzhung</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4808</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>106</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz183.1</ref>
+    <rnb>569</rnb>
+    <tib>rdzogs pa chen pa nam mkha' spyi gcod lta ba'i klong zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58718</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>70</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

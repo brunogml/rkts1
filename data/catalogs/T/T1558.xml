@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3661</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa 'jig rten dbang phyug la klu'i rgyal po nor rgyas kyi bus bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95882</vol>
+        <sec>1</sec>
+        <debp>462</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>463</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2694</ref>
+    <rnb>1629</rnb>
+    <tib>spyan ras gzigs dbang mgon po mchog la bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66104</vol>
+        <sec>rgyud</sec>
+        <debp>114</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>114</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2735a</ref>
+    <rnb>1639</rnb>
+    <tib>spyan ras gzigs dbang mgon po mchog la bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle>'phags pa 'jig rten dbang phyug la/_klu'i rgyal po nor rgyas kyi bus bstod pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1389</vol>
+        <sec>rgyud</sec>
+        <debp>114</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>114</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210124</vol>
+        <sec>rgyud</sec>
+        <debp>114</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>114</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211428</vol>
+        <sec>rgyud</sec>
+        <debp>114</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>114</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bsod nams rnam par rgyal ba</name>
+        <role>translator</role>
+        <rid>bdr:P993</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1566</ref>
+    <rnb>1567</rnb>
+    <tib>'phags pa 'jig rten dbang phyug la klu'i rgyal po nor rgyas kyis bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31407</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>247</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>247</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3559</ref>
+    <rnb>1560</rnb>
+    <tib>'phags pa 'jig rten dbang phyug la klu'i rgyal po nor rgyas kyis bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13239</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>142</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>142</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bsod nams rnam par rgyal ba/(puṇyavijaya)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nags kyi rin chen/(vanaratna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>klu'i rgyal po nor rgyas/(nāgarāja vāsuki)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

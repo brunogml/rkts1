@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm105.12</ref>
+    <rnb>214</rnb>
+    <tib>sa srid pa'i rgyal pos zhus pa'i klu gnyan sa bdag gi pang kong</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4076</vol>
+        <sec>1</sec>
+        <debp>337</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>380</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks63.5</ref>
+    <rnb>449</rnb>
+    <tib>sa srid pa'i rgyal mo'i zhus pa'i klu gnyan sa bdag gi pang kong</tib>
+    <skt/>
+    <coloph>klu gnyan sa bdag gi spang skong las / byin brlabs phan yon bstan pa'i le'u ste brgyad pa'o // klu gnyan sa bdag gi spang skong rdzogs so // bkra shis par shog</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75034</vol>
+        <sec>5</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>32</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>the eight chapter titles listed here correspond very closely to the eight chapter titles of the text listed in ytkc, pp. 194-195, with the title sa bdag gi spa bkong, a gter ma of the two a-tsa-ra at bsam-yas dkor-khong [~dkor-khang?]. however, the following passage from brgyud rim, says that it was found at bsam-yas skor-khang by the three a-tsa-ra.</note>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz133.12</ref>
+    <rnb>251</rnb>
+    <tib>sa srid pa'i rgyal mos zhus pa'i klu gnyan sa bdag gi pang kong</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58668</vol>
+        <sec>12</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>36</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

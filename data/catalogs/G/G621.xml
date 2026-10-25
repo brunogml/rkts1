@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm26.18</ref>
+    <rnb>458</rnb>
+    <tib>gshin rje nag po'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-27</vol>
+        <sec>rnying rgyud</sec>
+        <debp>370</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>376</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt26.17</ref>
+    <rnb>472</rnb>
+    <tib>gshin rje nag po'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-26</vol>
+        <sec>rnying rgyud</sec>
+        <debp>359</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>364</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb041.007</ref>
+    <rnb>621</rnb>
+    <tib>gshin rje nag po'i rgyud</tib>
+    <skt>kr-iSh+Na ya ma ri tan+t+ra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21646</vol>
+        <sec>1</sec>
+        <debp>96</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>103</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

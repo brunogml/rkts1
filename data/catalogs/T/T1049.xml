@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3117</ref>
+    <rnb>1</rnb>
+    <tib>sngags kyi rgyan gyi sgrub thabs</tib>
+    <skt>man+t+rA laM kA ra sA d+ha naM</skt>
+    <coloph>sngags kyi rgyan nA gArdzu nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95870</vol>
+        <sec>1</sec>
+        <debp>1571</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1575</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2158</ref>
+    <rnb>1099</rnb>
+    <tib>sngags kyi rgyan gyi sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66081</vol>
+        <sec>rgyud</sec>
+        <debp>178</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>180</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2206</ref>
+    <rnb>1109</rnb>
+    <tib>sngags kyi rgyan gyi sgrub thabs</tib>
+    <skt>man+t+rA laM kA ra sA d+ha naM</skt>
+    <coloph>dge slod nA gA rdzu nas mdzad pa rdzogs so//</coloph>
+    <colophTitle>sngags kyi rgyan</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1366</vol>
+        <sec>rgyud</sec>
+        <debp>177</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>178</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210101</vol>
+        <sec>rgyud</sec>
+        <debp>177</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>178</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211405</vol>
+        <sec>rgyud</sec>
+        <debp>177</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>178</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nA gArju na</name>
+        <role>author</role>
+        <rid>bdr:P4954</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1054</ref>
+    <rnb>1056</rnb>
+    <tib>sngags kyi rgyan gyi sgrub thabs</tib>
+    <skt>man+t+rA laM ka ra sa d+ha na</skt>
+    <coloph>ngags kyi rgyan nA gA rdzu nas mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31384</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>266</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>268</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1846</ref>
+    <rnb>1063</rnb>
+    <tib>sngags kyi rgyan gyi sgrub thabs</tib>
+    <skt>man+t+rA laM kA ra sA d+ha na</skt>
+    <coloph>ngags kyi rgyan nA gA rdzu nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3298</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>193</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>195</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212331</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>193</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>195</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3050</ref>
+    <rnb>1051</rnb>
+    <tib>sngags kyi rgyan gyi sgrub thabs</tib>
+    <skt>man+t+ra laM ka ra sA d+ha na</skt>
+    <coloph>sngags kyi rgyan nA gA rdzu nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13216</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>220</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>221</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>klu sgrub/(nāgārjuna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

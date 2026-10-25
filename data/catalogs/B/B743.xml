@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm135.7</ref>
+    <rnb>380</rnb>
+    <tib>rdzogs pa chen po zhang zhung snyan rgyud las 'khrul 'khor lde mig</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4106</vol>
+        <sec>1</sec>
+        <debp>165</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>168</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks110.14</ref>
+    <rnb>752</rnb>
+    <tib>rdzogs pa chen po zhang zhung snyan rgyud kyi lta ba spyi gcod gyi 'khrul 'khor lde mig</tib>
+    <skt/>
+    <coloph>sprul pa'i sku yis gsung ste / lta ba spyi gcod du bsten pa / 'khrul 'khor lde mig gis man ngag rdzogs so</coloph>
+    <colophTitle/>
+    <margin>cha spyi gcod</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75081</vol>
+        <sec>14</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz174.8</ref>
+    <rnb>421</rnb>
+    <tib>rdzogs pa chen po zhang zhung snyan rgyud las 'khrul 'khor lde mig</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58709</vol>
+        <sec>ja</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

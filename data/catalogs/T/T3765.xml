@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>D</coll>
+    <ref>D4437</ref>
+    <rnb>3353</rnb>
+    <tib>rtsa brtag cing gtan la 'bebs pa'i rab tu dbye ba</tib>
+    <skt/>
+    <coloph>zhes drang srong chen po da nan+d+ra ste sbyin pa'i dbang ba'i mdzad pa'i rtsa ba rtag cing gtan la 'bebs pa'i rab tu dbye ba rdzogs so</coloph>
+    <colophTitle>rtsa ba rtag cing gtan la 'bebs pa'i rab tu dbye ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1529</vol>
+        <sec>mdo 'grel</sec>
+        <debp>294</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>298</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210264</vol>
+        <sec>mdo 'grel</sec>
+        <debp>294</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>298</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211568</vol>
+        <sec>mdo 'grel</sec>
+        <debp>294</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>298</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>drang srong chen po da nan+d+ra ste sbyin pa'i dbang ba</name>
+        <role>author</role>
+        <rid>bdr:P0AT0091</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

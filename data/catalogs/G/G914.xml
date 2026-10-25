@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Gbr</coll>
+    <ref>Gbr005.13</ref>
+    <rnb>98</rnb>
+    <tib>man ngag lung gi rtsa ba lnga rdo rje sems pas gsungs pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW21519</setid>
+        <vol>0581</vol>
+        <sec>13</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb054.005</ref>
+    <rnb>910</rnb>
+    <tib>man ngag lung gi rtsa ba lnga rdo rje sems pas gsungs pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21659</vol>
+        <sec>1</sec>
+        <debp>30</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>34</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

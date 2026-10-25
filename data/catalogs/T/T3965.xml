@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2446</ref>
+    <rnb>1380</rnb>
+    <tib>tshogs kyi 'khor lo'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66084</vol>
+        <sec>rgyud</sec>
+        <debp>247</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>248</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2493</ref>
+    <rnb>1390</rnb>
+    <tib>tshogs kyi 'khor lo'i cho ga</tib>
+    <skt>ga Na tsakra bi d+hiH</skt>
+    <coloph>paN+Di ta bzang po sbyin pas tshogs kyi 'khor lo mdzad pa rdzogs so// //rgya gar gyi mkhan po shAkya shrI bha dra dang/ bod kyi lo tsA ba dge slong kun dga' rgyal mtshan dpal bzang pos bsgyur ba'o//</coloph>
+    <colophTitle>tshogs kyi 'khor lo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1369</vol>
+        <sec>rgyud</sec>
+        <debp>247</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>249</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210104</vol>
+        <sec>rgyud</sec>
+        <debp>247</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>249</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211408</vol>
+        <sec>rgyud</sec>
+        <debp>247</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>249</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po shAkya shrI b+ha dra</name>
+        <role>translator</role>
+        <rid>bdr:P1518</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba dge slong kun dga' rgyal mtshan dpal bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P1056</rid>
+      </translator>
+      <translator>
+        <name>paN+Di ta bzang po sbyin pa</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15451</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2115</ref>
+    <rnb>1332</rnb>
+    <tib>tshogs kyi 'khor lo'i cho ga</tib>
+    <skt>ga Na tsakra bi d+hi</skt>
+    <coloph>paN+Di ta bzang po sbyin pas tshogs kyi 'khor lo mdzad pa rdzogs so/ /rgya gar gyi mkhan po shAkya shrI b+ha drA dang / bod kyi lo tsA ba dge slong kun dga' rgyal mtshan dpal bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3301</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>267</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>269</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>267</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>269</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3319</ref>
+    <rnb>1320</rnb>
+    <tib>tshogs kyi 'khor lo'i cho ga</tib>
+    <skt>ga Na tsakra bi d+hi</skt>
+    <coloph>paN+Di ta bzang po sbyin pas tshogs kyi 'khor lo mdzad pa rdzogs so/ /rgya gar gyi mkhan po shAkya shrI b+ha drA dang / bod kyi lo tsA ba dge slong kun dga' rgyal mtshan dpal bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13219</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>307</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>309</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>kun dga' rgyal mtshan dpal bzang po/(ānandadhvajaśrībhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>bzang po sbyin pa/(bhadradatta)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

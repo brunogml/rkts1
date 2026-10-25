@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3180</ref>
+    <rnb>1</rnb>
+    <tib>ka kha'i do ha zhes bya ba</tib>
+    <skt>ka kha s+ya do ha nA ma</skt>
+    <coloph>ka kha'i do ha zhes bya ba/ rnal 'byor gyi dbang phyug chen po dpal bram ze chen pos sA ra ha'i zhal snga nas gsungs pa rdzogs so/ /yul ko sa lar sku 'khrungs pa'i bla ma rnal 'byor pa chen po bai ro tsa na badz+ra'i zhal snga nas rang 'gyur du gsungs pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95871</vol>
+        <sec>1</sec>
+        <debp>1091</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1097</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2219</ref>
+    <rnb>1160</rnb>
+    <tib>ka kha'i do ha zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66083</vol>
+        <sec>rgyud</sec>
+        <debp>56</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>58</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2266</ref>
+    <rnb>1170</rnb>
+    <tib>ka kha'i do ha zhes bya ba</tib>
+    <skt>ka kha s+ya do ha nA ma</skt>
+    <coloph>ka kha do ha zhes bya ba rnal 'byor gyi dbang phyug chen po dpal bram ze chen po sa ra ha'i zhal snga nas gsungs pa rdzogs so// //yul ko sa lar sku 'khrungs pa'i bla ma rnal 'byor pa chen po bee ro tsa na badzra'i zhal snga nas rang 'gyur du gsungs pa'o//</coloph>
+    <colophTitle>ka kha do ha zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1368</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>57</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210103</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>57</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211407</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>57</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bla ma rnal 'byor pa chen po bai ro tsa na badzra</name>
+        <role>translator</role>
+        <rid>bdr:P2CZ7929</rid>
+      </translator>
+      <translator>
+        <name>rnal 'byor gyi dbang phyug chen po dpal bram ze chen po sa ra ha</name>
+        <role>author</role>
+        <rid>bdr:P6160</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1117</ref>
+    <rnb>1119</rnb>
+    <tib>ka kha'i do hA zhes bya ba</tib>
+    <skt>ka kha s+ya do hA nA mA</skt>
+    <coloph>ka kha'i do ha zhes bya ba/ rnal 'byor gyi dbang phyug chen po sA ra ha'i zhal snga nas gsung pa rdzogs so/ /yul ko sa lar sku 'khrungs pa'i bla ma rnal 'byor pa chen po bai ro tsa na badz+ra'i zhal snga nas rang 'gyur du gsungs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31386</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>72</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>75</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1909</ref>
+    <rnb>1126</rnb>
+    <tib>ka kha'i do hA zhes bya ba</tib>
+    <skt>ka kha s+ya do hA nA ma</skt>
+    <coloph>ka kha'i do ha zhes bya ba/ rnal 'byor gyi dbang phyug chen po sA ra ha'i zhal snga nas gsung pa rdzogs so/ /yul ko sa lar sku 'khrungs pa'i bla ma rnal 'byor pa chen po bai ro tsa na badz+ra'i zhal snga nas rang 'gyur du gsungs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3300</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>55</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>57</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212333</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>55</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>57</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3113</ref>
+    <rnb>1114</rnb>
+    <tib>ka kha'i do hA zhes bya ba</tib>
+    <skt>ka kha s+ya do hA nA mA</skt>
+    <coloph>ka kha'i do ha zhes bya ba/_rnal 'byor gyi dbang phyug chen po sA ra ha'i zhal snga nas gsung pa rdzogs so/_/yul ko sa lar sku 'khrungs pa'i bla ma rnal 'byor pa chen po bai ro tsa na badzra'i zhal snga nas rang 'gyur du gsungs pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13218</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>66</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>68</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>saraha</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

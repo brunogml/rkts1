@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.147</ref>
+    <rnb>149</rnb>
+    <tib>'phags pa tshe dpag tu med pa thams cad kyi snying po</tib>
+    <skt>A rya a pa ri mi ta a yurdznyA na sarba hri da ya</skt>
+    <coloph>'phags pa tshe dpag tu med pa thams cad kyi snying po rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>434</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>435</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg144</ref>
+    <rnb>146</rnb>
+    <tib>'phags pa tshe dpag tu med pa thams cad kyi snying po</tib>
+    <skt>A rya a pa ri mi ta a yurdznyA na sarba hri da ya</skt>
+    <coloph>'phags pa tshe dpag tu med pa thams cad kyi snying po rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>409</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>409</finp>
+        <finf>b</finf>
+        <finl>9</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.140</ref>
+    <rnb>612</rnb>
+    <tib>'phags pa tshe dpag tu med pa thams cad kyi snying po</tib>
+    <skt>Ar+ya a pa ri mi ta A yur dz+nyA na sar+ba hri dA ya</skt>
+    <coloph>'phags pa tshe dpag tu med pa thams cad kyi snying po rdzogs so//</coloph>
+    <colophTitle/>
+    <margin>tshe snying</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>84 du</sec>
+        <debp>7</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.406.</note>
+  </item>
+</catalog>

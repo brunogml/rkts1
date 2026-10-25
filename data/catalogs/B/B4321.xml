@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm132.12</ref>
+    <rnb>360</rnb>
+    <tib>gnam lcags srog gi se gdar dra ba dmar nag</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4103</vol>
+        <sec>1</sec>
+        <debp>240</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>264</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt81.3</ref>
+    <rnb>3069</rnb>
+    <tib>gnam lcags srog gi se gdar dra ba dmar nag gi rgyud</tib>
+    <skt/>
+    <coloph>srog gi se gdar za 'gram 'di/ 'jad kyi rma ston srol 'dzin gyis/ gsang brag rgya bo nas bstan pa'i dngos grub tu bsnyems nas/ bru ston nyi rgyal la brgyud pa'o//</coloph>
+    <colophTitle/>
+    <margin>rgyud</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4774</vol>
+        <sec>3</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>26</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz171.2</ref>
+    <rnb>381</rnb>
+    <tib>gnam lcags srog gi se gdar dra ba dmar nag gi rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58706</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>21</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

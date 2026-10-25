@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm126.13</ref>
+    <rnb>305</rnb>
+    <tib>kun bzang bka' yi thigs pa ye shes chen po a dkar gsal ba'i lung</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4097</vol>
+        <sec>1</sec>
+        <debp>232</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>307</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks106.4</ref>
+    <rnb>694</rnb>
+    <tib>kun bzang a dkar gsal ba 'od kyi lung</tib>
+    <skt/>
+    <coloph>phyi skor la brgya dang cu gnyis yod dam / kun tu bzang po'i bon skor rdzogs so / spa gro'i gter / ku sas bton pa'o</coloph>
+    <colophTitle/>
+    <margin>kun bzang lung</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75077</vol>
+        <sec>4</sec>
+        <debp>40</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>97</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>the text is composed of various sections. the colophon implies that this text brings to an end the cycle of kun tu bzang po which began at the very beginning of this volume (in fact, this only brings to an end the outer cycle, the phyi skor; the text that follows belongs to the inner cycle, the nang skor). however, see the note to 106.5. compare "gsal-ba 'od-kyi gling" in das, dictionary, p. 1305 ("gsal-ba 'od-kyi gling, the birthplace of gshen-rab the founder of the bon religion of tibet"), and also sfhb, pp. 601.7; 623.5.</note>
+  </item>
+</catalog>

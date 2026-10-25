@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5846</ref>
+    <rnb>1</rnb>
+    <tib>lta ba'i rim pa bshad pa</tib>
+    <skt/>
+    <coloph>lta ba'i rim pa'i man ngag /dka' ba dpal rtsegs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95960</vol>
+        <sec>1</sec>
+        <debp>643</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>649</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4320</ref>
+    <rnb>3261</rnb>
+    <tib>lta ba'i rim pa bshad pa bzhugs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66235</vol>
+        <sec>sna tshogs</sec>
+        <debp>235</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>237</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4356</ref>
+    <rnb>3269</rnb>
+    <tib>lta ba'i rim pa bshad pa bzhugs</tib>
+    <skt/>
+    <coloph>lta ba'i rim pa'i man ngag ka ba dpal brtsegs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>lta ba'i rim pa'i man ngag ka ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1522</vol>
+        <sec>mdo 'grel</sec>
+        <debp>236</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>238</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210257</vol>
+        <sec>mdo 'grel</sec>
+        <debp>236</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>238</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211561</vol>
+        <sec>mdo 'grel</sec>
+        <debp>236</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>238</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dpal brtsegs</name>
+        <role>author</role>
+        <rid>bdr:P8182</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3856</ref>
+    <rnb>3851</rnb>
+    <tib>lta ba'i rim pa bshad pa</tib>
+    <skt/>
+    <coloph>lta ba'i rim pa'i man ngag /dka' ba dpal rtsegs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31549</vol>
+        <sec>sgra sbyor</sec>
+        <debp>181</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>184</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4641</ref>
+    <rnb>3860</rnb>
+    <tib>lta ba'i rim pa bshad pa bzhugs</tib>
+    <skt/>
+    <coloph>lta ba'i rim pa'i man ngag /dka' ba dpal rtsegs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3463</vol>
+        <sec>mdo 'grel</sec>
+        <debp>137</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>140</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212496</vol>
+        <sec>mdo 'grel</sec>
+        <debp>137</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>140</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5843</ref>
+    <rnb>3845</rnb>
+    <tib>lta ba'i rim pa bshad pa</tib>
+    <skt/>
+    <coloph>lta ba'i rim pa'i man ngag_/dka' ba dpal rtsegs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13381</vol>
+        <sec>mdo 'grel</sec>
+        <debp>139</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>142</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dka' ba dpal brtsegs</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>N</coll>
+    <ref>N3664</ref>
+    <rnb>2884</rnb>
+    <tib>'phags ma sgrol ma la bstod</tib>
+    <skt>ar+ya ta ra stod tra</skt>
+    <coloph>slob dpon ak+Sho b+h+ya badz+ras mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>184</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>185</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>184</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>185</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4875</ref>
+    <rnb>2876</rnb>
+    <tib>'phags ma sgrol ma la bstod pa</tib>
+    <skt>ar+ya ta ra stod tra</skt>
+    <coloph>slob dpon ak+Sho b+h+ya badzras mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>186</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>187</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>akṣobhyavajra</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

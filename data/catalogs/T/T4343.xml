@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>N</coll>
+    <ref>N3663</ref>
+    <rnb>2883</rnb>
+    <tib>'phags ma sgrol ma la bstod pa</tib>
+    <skt>ar+ya ta ra stod tra</skt>
+    <coloph>'phags ma sgrol ma la bstod pa slob dpon mar me mdzad bzang pos mdzad pa rdzogs so/ /kha che'i mkhan po bud+d+ha ka ra varma dang / lo tsA ba dge slong chos kyi ye shes kyis bsgyur zhing zhus pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>184</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>184</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>184</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>184</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4874</ref>
+    <rnb>2875</rnb>
+    <tib>'phags ma sgrol ma la bstod pa</tib>
+    <skt>ar+ya ta ra stod tra</skt>
+    <coloph>'phags ma sgrol ma la bstod pa slob dpon mar me mdzad bzang pos mdzad pa rdzogs so/_/kha che'i mkhan po bud+d+ha ka ra warma dang /_lo tsA ba dge slong chos kyi ye shes kyis bsgyur zhing zhus pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>185</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>185</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bhudtakaravarma (buddhākaravarman)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>chos kyi ye shes/(dharmajñāna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>mar me mdzad bzang po/(dīpaṁkarabhadra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

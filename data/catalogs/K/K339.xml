@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A358</ref>
+    <rnb>357</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung bam po gcig po</tib>
+    <skt>karma bi b+hang+ga nA ma d+harma gran+tha</skt>
+    <coloph>las kyi rnam par 'gyur ba bam po gcig pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96855</vol>
+        <sec>1</sec>
+        <debp>867</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>894</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B347</ref>
+    <rnb>346</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-80</vol>
+        <sec>mdo sde</sec>
+        <debp>399</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>417</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba100.9</ref>
+    <rnb>562</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma pi bang ka nA ma d+harma pa ri ya ya</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>1BL425</vol>
+        <sec>1</sec>
+        <debp>265</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>285</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C978</ref>
+    <rnb>978</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105115</vol>
+        <sec>mdo</sec>
+        <debp>358</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>371</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-52</vol>
+        <sec>mdo</sec>
+        <debp>358</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>371</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz106-010</ref>
+    <rnb>762</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi bang ka nA ma d+harma pa ri ya ya</skt>
+    <coloph>las rnam par 'gyur ba bam po gcig pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-106</vol>
+        <sec>mdo sde</sec>
+        <debp>149</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>166</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D339</ref>
+    <rnb>340</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi b+hang+ga nA ma d+ha rma gran+tha</skt>
+    <coloph>las kyi rnam par 'gyur ba bam po gcig pa rdzogs so</coloph>
+    <colophTitle>las kyi rnam par 'gyur ba bam po gcig pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0957</vol>
+        <sec>mdo sde</sec>
+        <debp>298</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6419</vol>
+        <sec>mdo sde</sec>
+        <debp>298</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20671</vol>
+        <sec>mdo sde</sec>
+        <debp>298</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9198</vol>
+        <sec>mdo sde</sec>
+        <debp>298</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd054-039</ref>
+    <rnb>257</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi b+hangga nA ma d+harma grantha</skt>
+    <coloph>las kyi rnam par 'gyur ba bam po cig rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-54</vol>
+        <sec>mdo sde</sec>
+        <debp>374</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>388</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk058-010</ref>
+    <rnb>323</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi bang ka nA ma d+harma pa ri ya ya</skt>
+    <coloph>las rnam par 'gyur ba bam po gcig pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-58</vol>
+        <sec>mdo sde</sec>
+        <debp>188</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>208</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr1008</ref>
+    <rnb>1056</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM88</vol>
+        <sec>mdo</sec>
+        <debp>451</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>469</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt052-010</ref>
+    <rnb>264</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi bang ka nA ma d+harma pa ri ya ya</skt>
+    <coloph>las rnam par 'gyur ba bam po gcig pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-3-19</vol>
+        <sec>mdo sde</sec>
+        <debp>141</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>157</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>H</coll>
+    <ref>H345</ref>
+    <rnb>347</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW26071</setid>
+        <vol>4098</vol>
+        <sec>mdo sde</sec>
+        <debp>490</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>510</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J279</ref>
+    <rnb>301</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi b+hang ga nA ma d+ha rma gran tha</skt>
+    <coloph>las kyi rnam par 'gyur ba rdzogs so//</coloph>
+    <colophTitle>las kyi rnam par 'gyur ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9934</vol>
+        <sec>mdo sde</sec>
+        <debp>316</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>328</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>L</coll>
+    <ref>L213</ref>
+    <rnb>222</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1048</vol>
+        <sec>mdo sde</sec>
+        <debp>136</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>151</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N324</ref>
+    <rnb>324</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>-</skt>
+    <coloph>las kyi rnam par 'gyur ba rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22703</setid>
+        <vol>5475</vol>
+        <sec>mdo sde</sec>
+        <debp>464</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>481</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5014</setid>
+        <vol>2KG212630</vol>
+        <sec>mdo sde</sec>
+        <debp>464</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>481</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np036-010</ref>
+    <rnb>264</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi bang ka nA ma d+harma pa ri ya ya</skt>
+    <coloph>las rnam par 'gyur ba bam po gcig pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-36</vol>
+        <sec>mdo sde</sec>
+        <debp>153</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>171</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj068-039</ref>
+    <rnb>573</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi b+hang+ga nA ma d+harma gran+tha</skt>
+    <coloph>las kyi rnam par 'gyur ba bam po cig rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-68</vol>
+        <sec>mdo sde</sec>
+        <debp>368</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>381</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz068-039</ref>
+    <rnb>569</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi b+hang+ga nA ma d+harma gran+tha</skt>
+    <coloph>las kyi rnam par 'gyur ba bam po cig rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-68</vol>
+        <sec>mdo sde</sec>
+        <debp>317</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>329</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q1006</ref>
+    <rnb>1059</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt/>
+    <coloph>las kyi rnam par 'gyur ba rdzogs s.ho|| dge'o … bha wa+ntu||</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96684</setid>
+        <vol>1PD106740</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>310</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>322</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW3CN1094</setid>
+        <vol>3CN1184</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>310</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>322</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R339</ref>
+    <rnb>340</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi b+hangga nA ma d+harma gran+tha</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17336</vol>
+        <sec>mdo sde</sec>
+        <debp>298</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S298</ref>
+    <rnb>346</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi bang ka nA ma d+harma pa ri ya ya</skt>
+    <coloph>las rnam par 'gyur ba bam po gcig pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3794</vol>
+        <sec>mdo sde</sec>
+        <debp>148</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>165</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty054-010</ref>
+    <rnb>320</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>karma bi bang ka nA ma d+harma pa ri ya ya</skt>
+    <coloph>las rnam par 'gyur ba bam po gcig pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209916</vol>
+        <sec>mdo sde</sec>
+        <debp>148</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>165</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U339</ref>
+    <rnb>340</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt></skt>
+    <coloph>las kyi rnam par 'gyur ba rdzogs so//</coloph>
+    <colophTitle></colophTitle>
+    <margin></margin>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL292</vol>
+        <sec>mdo sde</sec>
+        <debp>298</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5366</vol>
+        <sec>mdo sde</sec>
+        <debp>298</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V344</ref>
+    <rnb>344</rnb>
+    <tib>las kyi rnam par 'gyur ba zhes bya ba'i chos kyi gzhung</tib>
+    <skt>kar ma bi bang ka nA ma d+har ma pa ri ya ya</skt>
+    <coloph>las rnam par 'gyur ba bam po gcig pa/ rdzogs s+h+yo</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86314</vol>
+        <sec>mdo sde</sec>
+        <debp>136</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>151</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z308</ref>
+    <rnb>308</rnb>
+    <tib>las kyi rnam par 'gyar ba zhes bya ba'i chos kyi gzhung bam po gcig</tib>
+    <skt>karma bi bang ka nA ma d+harma pa ri ya ya</skt>
+    <coloph>las rnam par 'gyur ba bam po gcig pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127542</vol>
+        <sec>mdo sde</sec>
+        <debp>127</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>141</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

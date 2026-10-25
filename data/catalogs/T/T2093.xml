@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4212</ref>
+    <rnb>1</rnb>
+    <tib>mdor bsdus pa'i dzam+b+ha la'i sgrub thabs</tib>
+    <skt>saM k+Shio+ta dzam+b+ha la sA d+ha naM</skt>
+    <coloph>mdor bsdus pa'i dzam+b+ha la'i sgrub thabs/ dA las deg slong tshul khrims rgyal mtshan gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95884</vol>
+        <sec>1</sec>
+        <debp>870</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>872</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3237</ref>
+    <rnb>2172</rnb>
+    <tib>mdor bsdus pa'i dzam+b+ha la'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66107</vol>
+        <sec>rgyud</sec>
+        <debp>26</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>27</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3271</ref>
+    <rnb>2181</rnb>
+    <tib>mdor bsdus pa'i dzam+b+ha la'i sgrub thabs</tib>
+    <skt>saM k+Ship+ta dzam+b+ha la sA d+ha naM</skt>
+    <coloph>mdor bsdus pa'i dzam+b+ha la'i sgrub thabs/ dA las deg slong tshul khrims rgyal mtshan gyis bsgyur ba'o</coloph>
+    <colophTitle>mdor bsdus pa'i dzam+b+ha la'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1392</vol>
+        <sec>rgyud</sec>
+        <debp>24</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>24</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210127</vol>
+        <sec>rgyud</sec>
+        <debp>24</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>24</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211431</vol>
+        <sec>rgyud</sec>
+        <debp>24</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>24</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dA</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15533</rid>
+      </translator>
+      <translator>
+        <name>dge slong tshul khrims rgyal mtshan</name>
+        <role>translator</role>
+        <rid>bdr:P6453</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2096</ref>
+    <rnb>2098</rnb>
+    <tib>mdor bsdus pa'i dzam+b+ha la'i sgrub thabs</tib>
+    <skt>si Sh+ki pa ta dzam+b+ha la sA dha naM</skt>
+    <coloph>mdor bsdus pa'i dzam+b+ha la'i sgrub thabs/ dA las deg slong tshul khrims rgyal mtshan gyis bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31409</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>383</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>384</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2888</ref>
+    <rnb>2104</rnb>
+    <tib>mdor bsdus pa'i dzam+bha la'i sgrub thabs</tib>
+    <skt>saM k+Shi pa ta dzam+b+ha la sA d+ha naM</skt>
+    <coloph>mdor bsdus pa'i dzam+b+ha la'i sgrub thabs/ dA las deg slong tshul khrims rgyal mtshan gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3323</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>292</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>292</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212356</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>292</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>292</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4094</ref>
+    <rnb>2095</rnb>
+    <tib>mdor bsdus pa'i dzam+b+ha la'i sgrub thabs</tib>
+    <skt>saM Sh+ki pa ra dzam+b+ha la sA d+ha naM</skt>
+    <coloph>mdor bsdus pa'i dzam+b+ha la'i sgrub thabs/_dA las dge slong tshul khrims rgyal mtshan gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13241</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>307</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>307</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>tshul khrims rgyal mtshan/(śīladhvaja)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

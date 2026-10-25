@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5162</ref>
+    <rnb>1</rnb>
+    <tib>tshogs kyi 'khor lo'i mchod pa'i rim pa zhes bya ba</tib>
+    <skt>g+ha hA tsakra bid ti na ma kraM maM</skt>
+    <coloph>yod byad rgyal ba'i khab nas sbyar/ bdag ni rin chen khri rkang la/ sku dang sku'i rten byas nas/ mkha' 'gro ma d+ha ma d+hu ma gnyis kyis tshogs kyi 'khor lo lan brgyad cu rtsa bzhi'i bar du mdzad nas/ lag len du bya ba ni paN+Di ta suR+Ya smis mdzad/ tshogs kyi 'khor lo'i rim par bsdus pa zhes bya ba rdzogs so/ /paN+Di ta a ba shrI dang / lo tsA ba me nyag gis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>395</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>405</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3087</ref>
+    <rnb>3088</rnb>
+    <tib>tshogs kyi 'khor lo'i mchod pa'i rim pa zhes bya ba</tib>
+    <skt>g+ha gA tsakra bid ti na ma kraM maM</skt>
+    <coloph>yod byad rgyal ba'i khab nas sbyar/ bdag ni rin chen khri rkang la/ sku dang sku'i rten byas nas/ mkha' 'gro ma d+ha ma d+hu ma gnyis kyis tshogs kyi 'khor lo lan brgyad cu rtsa bzhi'i bar du mdzad nas/ lag len du bya ba ni paN+Di ta suR+Ya smis mdzad/ tshogs kyi 'khor lo'i rim par bsdus pa zhes bya ba rdzogs so/ /paN+Di ta a ba shrI dang / lo tsA ba me nyag gis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31424</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>214</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>220</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5089</ref>
+    <rnb>3090</rnb>
+    <tib>tshogs kyi 'khor lo'i mchod pa'i rim pa zhes bya ba</tib>
+    <skt>g+ha gaha tsakra pid ti na ma kra maM</skt>
+    <coloph>yod byad rgyal ba'i khab nas sbyar/_bdag ni rin chen khri rkang la/_sku dang sku'i rten byas nas/_mkha' 'gro ma d+ha ma d+hu ma gnyis kyis tshogs kyi 'khor lo lan brgyad cu rtsa bzhi'i bar du mdzad nas/_lag len du bya ba ni paN+Di ta sur+ya ra smis mdzad/_tshogs kyi 'khor lo'i cho ga rim par bsdus pa zhes bya ba rdzogs so/_/paN+Di ta a bya shrI dang /_lo tsA ba me nyag gis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13256</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>149</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>154</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>abyaśri (abhayaśrī)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>suryarasmi (sūryaraśmi)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3495</ref>
+    <rnb>2430</rnb>
+    <tib>o Di yA na'i 'od zer can gyi sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>173</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>173</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3529</ref>
+    <rnb>2439</rnb>
+    <tib>o Di yA na'i 'od zer can gyi sgrub thabs</tib>
+    <skt>o Di yA na mA rI ts+yai sA d+ha naM</skt>
+    <coloph>sku mdog dmar mo phyag bcu gnyis pa o Di yA na'i 'od zer can gyi sgrub thabs rdzogs so/ /slob dpon lhan cig skyes pa'i rol pas mdzad do//</coloph>
+    <colophTitle>sku mdog dmar mo phyag bcu gnyis pa o Di yA na'i 'od zer can gyi sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>171</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>171</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>171</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>171</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>171</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>171</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon lhan cig skyes pa'i rol pa</name>
+        <role>author</role>
+        <rid>bdr:P4CZ10579</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3145</ref>
+    <rnb>2361</rnb>
+    <tib>o Di yA na'i 'od zer can gyi sgrub thabs</tib>
+    <skt>o Di yA na mA rI ts+yai sA d+ha naM</skt>
+    <coloph>sku mdog dmar mo phyag bcu gnyis pa o Di yA na'i 'od zer can gyi sgrub thabs rdzogs so/ /slob dpon lhan cig skyes pa'i rol pas mdzad do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>205</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>206</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>205</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>206</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4351</ref>
+    <rnb>2352</rnb>
+    <tib>o Di yA na'i 'od zer can gyi sgrub thabs</tib>
+    <skt>o DI yA na mA rI ts+yai sA d+ha naM</skt>
+    <coloph>sku mdog dmar mo phyag bcu gnyis pa o Di yA na'i 'od zer can gyi sgrub thabs rdzogs so/ /slob dpon lhan cig skyes pa'i rol pas mdzad do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>221</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>222</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>lhan cig skyes pa'i rol pa/(sahajalalita)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

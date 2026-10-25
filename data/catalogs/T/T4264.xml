@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2427</ref>
+    <rnb>1361</rnb>
+    <tib>dbang gi rim pa mdor bsdus pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66084</vol>
+        <sec>rgyud</sec>
+        <debp>155</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>156</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2474</ref>
+    <rnb>1371</rnb>
+    <tib>dbang gi rim pa mdor bsdus pa</tib>
+    <skt>saM k+Ship+ta a b+hi She ka kra ma</skt>
+    <coloph>dbang gi don bsdus pa slob dpon dpal shes rab gsang ba'i zhal snga nas kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>dbang gi don mdor bsdus pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1369</vol>
+        <sec>rgyud</sec>
+        <debp>155</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>156</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210104</vol>
+        <sec>rgyud</sec>
+        <debp>155</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>156</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211408</vol>
+        <sec>rgyud</sec>
+        <debp>155</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>156</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon dpal shes rab gsang ba</name>
+        <role>author</role>
+        <rid>bdr:P10154</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1266</ref>
+    <rnb>481</rnb>
+    <tib>dbang gi rim pa mdor bsdus pa</tib>
+    <skt>saM sh+ki bA b+hi She k+k+ra ma</skt>
+    <coloph>dbang gi rim pa mdor bsdus pa/ slob dpon chen po dpal shes rab gsang bas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3275</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>212</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>214</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212308</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>212</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>214</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2471</ref>
+    <rnb>471</rnb>
+    <tib>dbang gi rim pa mdor bsdus pa</tib>
+    <skt>saM sh+ki bA b+hi Shek+k+ra ma</skt>
+    <coloph>dbang gi rim pa mdor bsdus pa/ slob dpon chen po dpal shes rab gsang bas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13193</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>216</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>217</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>shes rab gsang ba/(prajñāgupta)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

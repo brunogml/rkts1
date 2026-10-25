@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2896</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje 'jigs byed kyi sgrub thabs zhes bya ba</tib>
+    <skt>badzra b+hai ra wa sA d+ha nA ma</skt>
+    <coloph>rdo rje 'jigs byed kyi sgrub thabs slob dpon a sho ka shrIsa mdzad pa rdzogs so/ /paN+Di ta d+harma shrI mi tra dang lo tsA ba chos kyi bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95869</vol>
+        <sec>1</sec>
+        <debp>594</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>596</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>A</coll>
+    <ref>A3527</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje 'jigs byed kyi sgrub thabs zhes bya ba</tib>
+    <skt>badzra b+hai ra ba sA d+ha na nA ma</skt>
+    <coloph>rdo rje 'jigs byed kyi sgrub thabs slob dpon a sho ka shrIsa mdzad pa rdzogs so/ /paN+Di ta d+harma shrI mi tra dang lo tsA ba chos kyi bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95878</vol>
+        <sec>1</sec>
+        <debp>1043</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1045</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2804</ref>
+    <rnb>2805</rnb>
+    <tib>rdo rje 'jigs byed kyi sgrub thabs zhes bya ba</tib>
+    <skt>badzra b+hE ra ba s+wa d+ha nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31420</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>194</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>195</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3594</ref>
+    <rnb>2814</rnb>
+    <tib>rdo rje 'jigs byed kyi sgrub thabs zhes bya ba</tib>
+    <skt>badzra b+he ra ba s+wa d+ha nA ma</skt>
+    <coloph>rdo rje 'jigs byed kyi sgrub thabs zhes bya ba slob dpon a sho ka shrIsa mdzad pa rdzogs so/ /paN+Di ta d+harma shrI mi tra dang /lo tsA ba chos kyi bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>136</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>136</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212367</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>136</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>136</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4805</ref>
+    <rnb>2806</rnb>
+    <tib>rdo rje 'jigs byed kyi sgrub thabs zhes bya ba</tib>
+    <skt>badzra b+hE ra ba sA d+ha nA ma</skt>
+    <coloph>rdo rje 'jigs byed kyi sgrub thabs slob dpon a sho ka shrIs mdzad pa rdzogs so/_/paN+Di ta d+harma shrI mi tra dang /_lo tsA ba chos kyi bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13252</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>145</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>146</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>chos kyi bzang po/(dharmabhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>aśokaśrī</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

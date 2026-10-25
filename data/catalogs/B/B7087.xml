@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt212.64</ref>
+    <rnb>6043</rnb>
+    <tib>rig 'dzin gsang sgrub kyi gsol 'debs byin rlabs char rgyun</tib>
+    <skt/>
+    <coloph>gsol ba btab nas sku gsum 'bru sbyang byed/ bde chen gling des shel brag tshal du bgyis/ dge des gshen bstan rgyas 'gyur cig 'brel thob bde chen bon sku thob phyir bsngo//</coloph>
+    <colophTitle/>
+    <margin>gsol 'debs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4905</vol>
+        <sec>64</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>3</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt281.19</ref>
+    <rnb>7817</rnb>
+    <tib>rig 'dzin gsang sgrub kyi gsol 'debs byin rlabs char rgyun</tib>
+    <skt/>
+    <coloph>gsol ba gdab nas sku gsum 'bru sbyang byed/ bde chen gling des shel brag tshal du bgyis/ dge des gshen bstan kun tu rgyas gyur te/ 'brel thog bde chen bon sku 'thob phyir bsngo//</coloph>
+    <colophTitle/>
+    <margin>gsol 'debs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4974</vol>
+        <sec>19</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

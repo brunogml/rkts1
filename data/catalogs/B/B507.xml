@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm133.3</ref>
+    <rnb>364</rnb>
+    <tib>kun 'dul lcags lha</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4104</vol>
+        <sec>1</sec>
+        <debp>151</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>233</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks152.4</ref>
+    <rnb>988</rnb>
+    <tib>kun 'dul lcags lha</tib>
+    <skt/>
+    <coloph>kun 'dul chen po'i mchod 'bum gyi gsas mkhar gyis / g.yung drung gshen rab brgya rtsa brgyad kyi smon lam rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin>lcags lha</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75123</vol>
+        <sec>4</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>54</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>note that the elemental deities here correspond to the chinese, rather than the indian, set of elements in traditional physics.</note>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz172.3</ref>
+    <rnb>392</rnb>
+    <tib>kun 'dul lcags lha</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58707</vol>
+        <sec>ga</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>68</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

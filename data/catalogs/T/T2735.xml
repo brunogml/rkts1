@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4856</ref>
+    <rnb>1</rnb>
+    <tib>lam rnam par bkod pa sangs rgyas gsang ba'i man ngag</tib>
+    <skt/>
+    <coloph>mang yul khri babs su/ dz+nyA na ku ma ras bsgyur ba/ lam rnam par bkod pa/ sangs rgyas gsang ba'i man ngag rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95888</vol>
+        <sec>1</sec>
+        <debp>959</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1043</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2735</ref>
+    <rnb>2736</rnb>
+    <tib>lam rnam par bkod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31414</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>571</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>620</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3525</ref>
+    <rnb>2744</rnb>
+    <tib>lam rnam par bkod pa/ sangs rgyas gsang ba'i man ngag</tib>
+    <skt/>
+    <coloph>mang yul khri babs su/ dz+nyA na ku ma ras bsgyur ba/ lam rnam par bkod pa/ sangs rgyas gsang ba'i man ngag rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3328</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>426</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>466</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212361</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>426</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>466</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4736</ref>
+    <rnb>2737</rnb>
+    <tib>lam rnam par bkod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13246</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>465</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>506</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>sangs rgyas gsang ba/(buddhaguhya)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

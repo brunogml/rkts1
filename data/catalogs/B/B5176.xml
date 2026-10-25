@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt122.3</ref>
+    <rnb>3990</rnb>
+    <tib>ge khod rdza 'dzab kyi lag len zin chung</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>rdza 'dzab</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4815</vol>
+        <sec>3</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt190.7</ref>
+    <rnb>5491</rnb>
+    <tib>ge khod rdza 'dzab kyi lag len zin chung</tib>
+    <skt/>
+    <coloph>zhes ge khod rdzas kyi lag len zin chung 'di'ang*/ de phyir grogs kyis bskul ngor sngon gyi lag len rnams dang slob dpon gyi zhal rgyun bzhin bcas snying dbus su rol nas/ kha btsun hri hro ming gis bris par dpyod ldan longs na tshogs la bzod par gsol//</coloph>
+    <colophTitle/>
+    <margin>rdza 'dzab zin chung</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4883</vol>
+        <sec>7</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

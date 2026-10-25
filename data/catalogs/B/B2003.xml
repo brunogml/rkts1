@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt15.9</ref>
+    <rnb>617</rnb>
+    <tib>dam bca'</tib>
+    <skt/>
+    <coloph>ces dam bca'i shog chung 'di yang tshe snying pas 'phral du bris pa'o//</coloph>
+    <colophTitle/>
+    <margin>bse ru</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4708</vol>
+        <sec>9</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>1</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt280.25</ref>
+    <rnb>7741</rnb>
+    <tib>dam bca'</tib>
+    <skt/>
+    <coloph>mkha' 'gro 'od ldan 'bar mas dbal bon g.yung drung rtsal la brgyud/ g.yung drung dbang rgyal mchog gis bka' chab spyi bor blangs nas yang (yongs) la spel ba'o//</coloph>
+    <colophTitle/>
+    <margin>dam bca'</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4973</vol>
+        <sec>23</sec>
+        <debp>3</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>4</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

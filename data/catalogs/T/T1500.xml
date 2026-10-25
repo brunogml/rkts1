@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3597</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa phyag na rdo rje gos sngon can gyi gzungs kyi 'grel pa zhes bya ba</tib>
+    <skt>Ar+ya nI lAm+ba ra d+ha ra badzra pA Ni d+hA ra NI bi br-it+ti nA ma</skt>
+    <coloph>dpal phyag na rdo rje gos sngon po can gyi gzungs kyi 'grel pa/ rig pa'i gnas thams cad la mkhas pa'i paN+Di ta chen po karma badz+ras mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95881</vol>
+        <sec>1</sec>
+        <debp>381</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>394</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2632</ref>
+    <rnb>1567</rnb>
+    <tib>'phags pa phyag na rdo rje gos sngon can gyi gzungs kyi 'grel pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66102</vol>
+        <sec>rgyud</sec>
+        <debp>137</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>142</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2676</ref>
+    <rnb>1577</rnb>
+    <tib>'phags pa phyag na rdo rje gos sngon can gyi gzungs kyi 'grel pa zhes bya ba</tib>
+    <skt>Ar+ya nI lA mA ra d+ha ra badzra pA Ni d+hA ra NI bi br-i t+ti nA ma</skt>
+    <coloph>dpal phyag na rdo rje gos sngon po can gyi gzungs kyi 'grel pa/ rig pa'i gnas thams cad la mkhas pa'i paN+Di ta chen po karma badz+rasa mdzad pa rdzogs so</coloph>
+    <colophTitle>dpal phyag na rdo rje gos sngon po can gyi gzungs kyi 'grel pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1387</vol>
+        <sec>rgyud</sec>
+        <debp>137</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>142</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210122</vol>
+        <sec>rgyud</sec>
+        <debp>137</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>142</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211426</vol>
+        <sec>rgyud</sec>
+        <debp>137</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>142</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rig pa'i gnas thams cad la mkhas pa'i paN+Di ta chen po karma badzra</name>
+        <role>author</role>
+        <rid>bdr:P7603</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1505</ref>
+    <rnb>1507</rnb>
+    <tib>'phags pa phyag na rdo rje gos sngon po can gyi gzungs kyi 'grel pa zhes bya ba</tib>
+    <skt>Ar+ya nI lAm+b+ha ra d+ha ra badzra pA Ni d+hA ra Ni ni pe br-it+ti nA ma</skt>
+    <coloph>dpal phyag na rdo rje gos sngon po can gyi gzungs kyi 'grel pa/ rig pa'i gnas thams cad la mkhas pa'i paN+Di ta chen po karma badz+ras mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31405</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>194</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>201</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2297</ref>
+    <rnb>1514</rnb>
+    <tib>'phags pa phyag na rdo rje gos sngon po can gyi gzungs kyi 'grel pa zhes bya ba</tib>
+    <skt>Ar+ya nI lA m+ba ra d+ha ra badzra pA Ni d+hA ra NI pe brit+ti nA ma</skt>
+    <coloph>dpal phyag na rdo rje gos sngon po can gyi gzungs kyi 'grel pa/ rig pa'i gnas thams cad la mkhas pa'i paN+Di ta chen po karma badz+ras mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3319</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>147</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>152</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212352</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>147</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>152</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3501</ref>
+    <rnb>1502</rnb>
+    <tib>'phags pa phyag na rdo rje gos sngon po can gyi gzungs kyi 'grel pa zhes bya ba</tib>
+    <skt>Ar+ya nI lAm+ba ra d+ha ra badzra pA Ni d+ha ra Ni ni be bri ti nA ma</skt>
+    <coloph>dpal phyag na rdo rje gos sngon po can gyi gzungs kyi 'grel pa/ rig pa'i gnas thams cad la mkhas pa'i paN+Di ta chen po karma badz+rasa mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13237</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>153</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>158</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>karmavajra</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

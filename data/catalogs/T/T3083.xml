@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2672</ref>
+    <rnb>1</rnb>
+    <tib>rjes su gnang ba'i cho ga</tib>
+    <skt>a nu dz+nyA bi d+hiH</skt>
+    <coloph>'di ni rjes su gnang ba'i cho ga'o// dngos grub brnyes pa'i paN+DI ta chen po shrI bana rat+na'i zhal snga nas mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95859</vol>
+        <sec>1</sec>
+        <debp>1682</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1685</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1712</ref>
+    <rnb>656</rnb>
+    <tib>rjes su gnang ba'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66059</vol>
+        <sec>rgyud</sec>
+        <debp>264</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>265</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1768</ref>
+    <rnb>666</rnb>
+    <tib>rjes su gnang ba'i cho ga</tib>
+    <skt>a nu dz+nyA bi d+hiH</skt>
+    <coloph>'di ni rjes su gnang ba'i cho ga'o//___dngos grub brnyes pa'i paN+Di ta chen po shrI ba na rat+na'i zhal snga nas mdzad pa'o</coloph>
+    <colophTitle>'di ni rjes su gnang ba'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1344</vol>
+        <sec>rgyud</sec>
+        <debp>265</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>266</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210079</vol>
+        <sec>rgyud</sec>
+        <debp>265</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>266</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211383</vol>
+        <sec>rgyud</sec>
+        <debp>265</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>266</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dngos grub brnyes pa'i paN+Di ta chen po shrI ba na rat+na</name>
+        <role>author</role>
+        <rid>bdr:P207</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

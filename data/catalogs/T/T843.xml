@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2888</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje 'jigs byed kyi sgrub thabs</tib>
+    <skt>badzra b+hai ra wa sA d+ha na</skt>
+    <coloph>sgrub pa'i cho ga slob dpon zhi ba'i ye shes kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95869</vol>
+        <sec>1</sec>
+        <debp>506</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>508</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1930</ref>
+    <rnb>872</rnb>
+    <tib>rdo rje 'jigs byed kyi sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66078</vol>
+        <sec>rgyud</sec>
+        <debp>156</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>157</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1981</ref>
+    <rnb>882</rnb>
+    <tib>rdo rje 'jigs byed kyi sgrub thabs</tib>
+    <skt>badzra b+hai ra wa sA d+ha na</skt>
+    <coloph>slob dpon manydzu shrI dz+nyA nas mdzad pa/ zhang 'or ston pa shes rab bsod nams kyis bsgyur ba rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1363</vol>
+        <sec>rgyud</sec>
+        <debp>159</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>159</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210098</vol>
+        <sec>rgyud</sec>
+        <debp>159</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>159</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211402</vol>
+        <sec>rgyud</sec>
+        <debp>159</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>159</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zhang 'or ston pa shes rab bsod nams</name>
+        <role>translator</role>
+        <rid>bdr:P0RK737</rid>
+      </translator>
+      <translator>
+        <name>slob dpon many+dzu shrI dz+nyA</name>
+        <role>author</role>
+        <rid>bdr:P4CZ10575</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G847</ref>
+    <rnb>849</rnb>
+    <tib>rdo rje 'jigs byed kyi sgrub thabs</tib>
+    <skt>badzra b+hai ra wa sA d+ha na</skt>
+    <coloph>slob dpon many+dzu shrI dz+nyA nas mdzad pa/ zhang 'or ston pa shes rab bsod nams kyis bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31382</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>240</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>241</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1639</ref>
+    <rnb>856</rnb>
+    <tib>rdo rje 'jigs byed kyi sgrub thabs</tib>
+    <skt>badzra b+hai ra wa sA d+ha na</skt>
+    <coloph>slob dpon many+dzu shrI dz+nyA nas mdzad pa/ zhang 'or ston pa shes rab bsod nams kyis bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3296</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>170</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>171</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212329</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>170</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>171</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2844</ref>
+    <rnb>845</rnb>
+    <tib>rdo rje 'jigs byed kyi sgrub thabs</tib>
+    <skt>badzra b+hai ra wa sA d+ha na</skt>
+    <coloph>slob dpon many+dzu shrI dz+nyA nas mdzad pa/ zhang 'or ston pa shes rab bsod nams kyis bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13214</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>192</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>193</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>shes rab bsod nams/(prajñāpuṇya)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>mañjuśrījñāna</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

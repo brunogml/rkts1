@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5234</ref>
+    <rnb>1</rnb>
+    <tib>gnod sbyin gyi ded dpon chen po gos sngon po can gyi sgrub thabs</tib>
+    <skt>ma hA yak+Sha sya na a d+hi pa ti nI la bA sa na sA d+ha ni</skt>
+    <coloph>gnod sbyin gyi ded dpon chen po gos sngon can gyi sgrub thabs/ slob dpon dI na ka ra badz+ra gyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>946</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>948</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3162</ref>
+    <rnb>3163</rnb>
+    <tib>gnod sbyin gyi ded dpon chen po gos sngon can gyi sgrub thabs</tib>
+    <skt>ma hA yak+Sha s+ya na a d+hi pa ti nI laM bA sa na sA d+ha naM</skt>
+    <coloph>gnod sbyin gyi ded dpon chen po gos sngon can gyi sgrub thabs/ slob dpon dI na ka ra badz+ra gyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>321</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>322</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3953</ref>
+    <rnb>3173</rnb>
+    <tib>gnod sbyin gyi ded dpon chen po gos sngon can gyi sgrub thabs</tib>
+    <skt>ma hA yak+Sha s+ya na a d+hi pa ti nI la bA sa na sA d+ha na</skt>
+    <coloph>gnod sbyin gyi ded dpon chen po gos sngon can gyi sgrub thabs/ slob dpon dI na ka ra badz+ra gyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>191</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>192</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>191</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>192</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5164</ref>
+    <rnb>3165</rnb>
+    <tib>gnod sbyin gyi sde dpon chen po gos sngon po can gyi sgrub thabs</tib>
+    <skt/>
+    <coloph>gnod sbyin gyi ded dpon chen po gos sngon can gyi sgrub thabs/_slob dpon dI nA ka ra badzra gyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>195</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>196</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dīnākaravajra (dinakaravajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

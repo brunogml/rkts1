@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt133.29</ref>
+    <rnb>4358</rnb>
+    <tib>'tsho ba zas kyi cha rkyen</tib>
+    <skt/>
+    <coloph>bla ma rin po che bon zhig khyung nag gi dka' thub bcud len gyi skor/ ma ye shes mkha' 'gros lung bstan pa/ 'tsho ba zas kyi cha rkyen zhes bya ba rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4826</vol>
+        <sec>29</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>14</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt165.4</ref>
+    <rnb>4935</rnb>
+    <tib>'tsho ba zas kyi cha rkyen</tib>
+    <skt/>
+    <coloph>bla ma rin po che bon zhig khyung nag gi dka' thub bcud len gyis bskor (gyi skor) rdzogs so/ mu tsug smar ro//</coloph>
+    <colophTitle/>
+    <margin>zas</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4858</vol>
+        <sec>4</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>23</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm139.2</ref>
+    <rnb>502</rnb>
+    <tib>mu med bdal ba'i gsal sgron</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4110</vol>
+        <sec>1</sec>
+        <debp>5</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>20</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks105.2</ref>
+    <rnb>684</rnb>
+    <tib>mu med bdal ba'i gsal sgron</tib>
+    <skt/>
+    <coloph>zab don man ngag 'phrul gyi sgron ma zhes / rjes 'jug don phyir se zhig kho bo yis / 'dir bkod 'gal 'khrul ra chod ci [15v] mchis gang / bder gshegs rig 'dzin mkha' 'gro rnams la bzhags / dge byung 'gro kun byang chub myur thob shog / sems can don la dar rgyas bkra shis shog</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75076</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>15</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

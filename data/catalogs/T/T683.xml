@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2726</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje sems dpa' mchod pa'i cho ga</tib>
+    <skt>badzra sat+wa pU dza bi d+hiH</skt>
+    <coloph>rdo rje sems dpa' mchod pa'i cho ga/ slob dpon chen po nag po pa'i zhal snga nas bla ma'i man ngag las bzung ste mdzad pa rdzogs so/ /rgya gar gyi mkhan po nag po'i zhal snga nas dang bod kyi lo tsA ba 'gos khug pa lhas btsas kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95863</vol>
+        <sec>1</sec>
+        <debp>709</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>718</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1765</ref>
+    <rnb>709</rnb>
+    <tib>rdo rje sems dpa' mchod pa'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66066</vol>
+        <sec>rgyud</sec>
+        <debp>259</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>262</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1820</ref>
+    <rnb>719</rnb>
+    <tib>rdo rje sems dpa' mchod pa'i cho ga</tib>
+    <skt>badzra sat+wa pU dza bid+hiH</skt>
+    <coloph>rdo rje sems dpa' mchod pa'i chog/ slob dpon chen po nag po pa'i zhal snga nas bla ma'i man ngag las bzung ste mdzad pa rdzogs so// //rgya gar gyi mkhan po slob dpon nag po pa'i zhal snga nas/ bod kyi lo tsA ba 'gos khug pa lhas btsas kyis bsgyur ba//</coloph>
+    <colophTitle>rdo rje sems dpa' mchod pa'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1351</vol>
+        <sec>rgyud</sec>
+        <debp>258</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>261</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210086</vol>
+        <sec>rgyud</sec>
+        <debp>258</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>261</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211390</vol>
+        <sec>rgyud</sec>
+        <debp>258</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>261</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bod kyi lo tsA ba 'gos khug pa lhas btsas</name>
+        <role>translator</role>
+        <rid>bdr:P3458</rid>
+      </translator>
+      <translator>
+        <name>slob dpon chen po nag po</name>
+        <role>author</role>
+        <rid>bdr:P3299</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G687</ref>
+    <rnb>689</rnb>
+    <tib>dpal rdo rje sems dpa' mchod pa'i cho ga</tib>
+    <skt>badzra sat+wa bU dza bi d+hi</skt>
+    <coloph>rdo rje sems dpa' mchod pa'i cho ga/ slob dpon chen po nag po pa'i zhal snga nas bla ma'i man ngag las bzung ste mdzad pa rdzogs so/ /rgya gar gyi mkhan po nag po'i zhal snga nas dang bod kyi lo tsA ba 'gos khug pa lhas btsas kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>313</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>317</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1479</ref>
+    <rnb>696</rnb>
+    <tib>dpal rdo rje sems dpa' mchod pa'i cho ga</tib>
+    <skt>badzra sat+wa pU dza bid+hi</skt>
+    <coloph>rdo rje sems dpa' mchod pa'i cho ga/ slob dpon chen po nag po pa'i zhal snga nas bla ma'i man ngag las bzung ste mdzad pa rdzogs so/ /rgya gar gyi mkhan po nag po'i zhal snga nas dang bod kyi lo tsA ba 'gos khug pa lhas btsas kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3286</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>239</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>242</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212319</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>239</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>242</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2684</ref>
+    <rnb>685</rnb>
+    <tib>dpal rdo rje sems dpa' mchod pa'i cho ga</tib>
+    <skt>badzra sat+wa pU dza bi d+hi</skt>
+    <coloph>rdo rje sems dpa' mchod pa'i cho ga/ slob dpon chen po nag po pa'i zhal snga nas bla ma'i man ngag las bzung ste mdzad pa rdzogs so/ /rgya gar gyi mkhan po nag po'i zhal snga nas dang bod kyi lo tsA ba 'gos khug pa lhas btsas kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13204</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>242</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>246</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>lhas btsas/(devasūta)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nag po pa/(kṛṣṇa)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nag po pa/(kṛṣṇa)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm33.17</ref>
+    <rnb>579</rnb>
+    <tib>mkha' 'gro ma las rgya mtsho phyi ma'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-34</vol>
+        <sec>rnying rgyud</sec>
+        <debp>361</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>374</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt33.17</ref>
+    <rnb>592</rnb>
+    <tib>mkha' 'gro ma las rgya mtsho phyi ma'i rgyud ces bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-33</vol>
+        <sec>rnying rgyud</sec>
+        <debp>343</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>352</finp>
+        <finf>b</finf>
+        <finl>9</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb045.011</ref>
+    <rnb>697</rnb>
+    <tib>mkha' 'gro ma las rgya mtsho phyi ma'i rgyud ces bya ba</tib>
+    <skt>DA ki nI karma ku ru sa taM tan tra na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>85</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>98</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>mkha' 'gro ma phyi bsgrub pa'i le'u ste dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>86</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>mkha' spyod ma'i le'u ste gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>88</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>mkha' 'gro ma sa spyod bsgrub pa'i le'u ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>89</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>ting nge 'dzin gyi bcud len phyi 'byung ba rgyun gcod pa'i le'u ste bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>91</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>nang gi bcud len gyi le'u ste lnga pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>91</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>6</rn>
+        <name>gsang ba rgyun 'byung ba gcod pa'i le'u ste drug pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>93</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>7</rn>
+        <name>'chi rtags dang/ 'chi slu dang/ 'pho ba'i le'u ste bdun pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>96</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>8</rn>
+        <name>tsaN+Da li bsgom pa'i le'u ste brgyad pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>98</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

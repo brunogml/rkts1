@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt54.23</ref>
+    <rnb>2290</rnb>
+    <tib>cha lag</tib>
+    <skt/>
+    <coloph>zhes pa 'di'ang kun grol drug pa 'gro 'dul gling pas phab pa dge'o</coloph>
+    <colophTitle/>
+    <margin>cha lag</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4747</vol>
+        <sec>23</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt62.17</ref>
+    <rnb>2628</rnb>
+    <tib>cha lag</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>bse ru'o</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4755</vol>
+        <sec>17</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>1</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

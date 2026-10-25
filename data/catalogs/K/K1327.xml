@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.99</ref>
+    <rnb>101</rnb>
+    <tib>gnod sbyin gzhan gyis mi thub pa yang dag shes kyi gzungs</tib>
+    <skt>a kSa a pa ra bi shud dha nA ma dhA ra Ni</skt>
+    <coloph>a pa ra yang dag shes kyi gzungs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>240</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>241</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg99</ref>
+    <rnb>101</rnb>
+    <tib>gnod sbyin gzhan gyis mi thub pa yang dag shes kyi gzungs</tib>
+    <skt>a kSa a pa ra bi shud dha nA ma dhA ra Ni</skt>
+    <coloph>a pa ra yang dag shes kyi gzungs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>224</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>226</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.94</ref>
+    <rnb>566</rnb>
+    <tib>gnod sbyin gzhan gyis mi thub pa yang dag shes kyi gzungs</tib>
+    <skt>yag+Sha a pa ra bi shud d+ha nA ma d+hA ra Ni</skt>
+    <coloph>a pa ra yang dag shes kyi gzungs rdzogs so//_sar+ba mang+ga laM//_zhus dag shu b+haM//</coloph>
+    <colophTitle/>
+    <margin>yang dag shes</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>51 ngu</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.386.</note>
+  </item>
+</catalog>

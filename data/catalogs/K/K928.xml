@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A1131a</ref>
+    <rnb>1129</rnb>
+    <tib>rdo rje khros pas zhe sdang gcod</tib>
+    <skt/>
+    <coloph>rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96886</vol>
+        <sec>1</sec>
+        <debp>631</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>635</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U843</ref>
+    <rnb>842</rnb>
+    <tib>rdo rje khros pas zhes dang gcod</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5394</vol>
+        <sec>rnying rgyud</sec>
+        <debp>222</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>223</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V393</ref>
+    <rnb>393</rnb>
+    <tib>rdo rje khros pas zhe sdang gcod</tib>
+    <skt/>
+    <coloph>rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86321</vol>
+        <sec>rnying rgyud</sec>
+        <debp>243</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>245</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4822</ref>
+    <rnb>1</rnb>
+    <tib>byA la'i man ngag</tib>
+    <skt/>
+    <coloph>gya gar gyi slob dpon bud+d+ha gup+ta'i zhal snga nas dang / dge tshul kun dga' snying pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>1583</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1584</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2701</ref>
+    <rnb>2702</rnb>
+    <tib>man ngag</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31413</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>269</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>269</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3491</ref>
+    <rnb>2710</rnb>
+    <tib>bya la'i man ngag</tib>
+    <skt/>
+    <coloph>byA la'i man ngag / rgya gar gyi slob dpon bud+d+ha gup+ta'i zhal snga nas dang / dge tshul kun dga' snying pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3327</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>196</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>196</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212360</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>196</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>196</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4702</ref>
+    <rnb>2703</rnb>
+    <tib>man ngag</tib>
+    <skt/>
+    <coloph>byA la'i man ngag go_/rgya gar gyi slob dpon bud+d+ha gup+ta'i zhal snga nas dang /_dge tshul kun dga' snying pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13245</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>203</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>203</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>kun dga' snying po/(ānandagarbha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>vyāla (vyāḍi)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

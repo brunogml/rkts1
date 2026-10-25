@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm16.3</ref>
+    <rnb>349</rnb>
+    <tib>khro bo'i lha tshogs rnams la phyag 'thsal ba'i cho ga</tib>
+    <skt>kro d+ha de ba sha ta na mo bi ti</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-17</vol>
+        <sec>rnying rgyud</sec>
+        <debp>277</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>294</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt16.3</ref>
+    <rnb>362</rnb>
+    <tib>khro bo'i lha tshogs rnams la phyag 'thsal ba'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-16</vol>
+        <sec>rnying rgyud</sec>
+        <debp>307</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>322</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb039.020</ref>
+    <rnb>586</rnb>
+    <tib>khro bo'i lha tshogs rnams la phyag 'thsal ba'i cho ga</tib>
+    <skt>kro d+ha de ba sha ta na mo bi ti</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21644</vol>
+        <sec>3</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>20</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gsg</coll>
+    <ref>Gsg16.3</ref>
+    <rnb>312</rnb>
+    <tib>khro bo'i lha tshogs rnams la phyag 'thsal ba'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG16449</setid>
+        <vol>1KG16500</vol>
+        <sec>ma</sec>
+        <debp>286</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>303</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

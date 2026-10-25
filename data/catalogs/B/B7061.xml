@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt212.37</ref>
+    <rnb>6016</rnb>
+    <tib>rig 'dzin gsang ba'i rgyud las 'od zer 'khyil pa bdud rtsi sman gyi sgrub thabs zil mngar 'chi med stong ldan</tib>
+    <skt/>
+    <coloph>bdag 'dra o rgyan bde chen gling pas/ kong yul gyer ri'i yongs rdzong dpal gyi phug nas drangs pa dge legs 'phel//</coloph>
+    <colophTitle/>
+    <margin>sgrub thabs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4905</vol>
+        <sec>37</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>6</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt281.58</ref>
+    <rnb>7856</rnb>
+    <tib>rig 'dzin gsang ba'i rgyud las 'od zer 'khyil ba'i bdud rtsi sman gyi bsgrub thabs lag len 'chi med zil mngar stong ldan</tib>
+    <skt/>
+    <coloph>bdag 'dra o rgyan bde chen gling pas kong yul gyer ri'i yang rdzong nga dpal gyi phug nas drongs pa dge legs 'phel</coloph>
+    <colophTitle/>
+    <margin>bsgrub thabs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4974</vol>
+        <sec>57</sec>
+        <debp>4</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

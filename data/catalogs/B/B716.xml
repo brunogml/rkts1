@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm138.9</ref>
+    <rnb>487</rnb>
+    <tib>man ngag rin po che thun mong gi bon bdun</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4109</vol>
+        <sec>1</sec>
+        <debp>375</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>426</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks101.7</ref>
+    <rnb>636</rnb>
+    <tib>man ngag rin po che thun mong gi bon bdun</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>thun mong bon bdun</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75072</vol>
+        <sec>7</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>47</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz180.12</ref>
+    <rnb>545</rnb>
+    <tib>man ngag rin po che thun mong gi bon bdun</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58715</vol>
+        <sec>12</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

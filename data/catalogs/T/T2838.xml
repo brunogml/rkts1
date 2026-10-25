@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3781</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa yi ge drug pa'i sgrub thabs</tib>
+    <skt>Ar+ya Sha TA k+Sha ra sA d+ha naM</skt>
+    <coloph>'phags pa yi ge drug pa'i thabs rdzogs sa/ slob dpon chen po pU dza badz+ras mdzad pa'o/ /rgya gar gyi mkhan po dI paM ka ra shrI dz+nyA dang / lo tsA ba dge slong shAkya blo gros kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95882</vol>
+        <sec>1</sec>
+        <debp>711</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>714</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>A</coll>
+    <ref>A4938</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa yi ge drug pa'i sgrub thabs</tib>
+    <skt>Ar+ya Sha Ta k+Sha ra sA d+ha naM</skt>
+    <coloph>yi ge drug pa'i sgrub thabs slob dpon chen po dpal mar me mdzad kyis mdzad pa rdzogs so/ /jo bo rje lha gcig gis dpal gyi yer par mdzad do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>50</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>52</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2838</ref>
+    <rnb>2839</rnb>
+    <tib>'phags pa yi ge drug pa'i sgrub thabs</tib>
+    <skt>Ar+ya Sha Ta k+Sha ra sA d+ha naM</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>151</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>152</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3628</ref>
+    <rnb>2848</rnb>
+    <tib>'phags pa yi ge drug pa'i sgrub thabs</tib>
+    <skt>Ar+ya Sha TA k+Sha ra sA d+ha naM</skt>
+    <coloph>yi ge drug pa'i sgrub thabs slob dpon chen po dpal mar me mdzad kyis mdzad pa rdzogs so/ /jo bo rje lha gcig gis dpal gyi yer par mdzad do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>118</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>119</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>118</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>119</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4839</ref>
+    <rnb>2840</rnb>
+    <tib>'phags pa yi ge drug pa'i sgrub thabs</tib>
+    <skt>Ar+ya Sha Ta k+Sha ra sA d+ha naM</skt>
+    <coloph>yi ge drug pa'i sgrub thabs slob dpon chen po dpal mar me mdzad kyis mdzad pa rdzogs so/_/jo bo rje lha gcig gis dpal gyi yer par mdzad</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>122</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>123</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mar me mdzad/(dīpaṁkara)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3941</ref>
+    <rnb>2877</rnb>
+    <tib>ltung ba bshags pa'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66143</vol>
+        <sec>dbu ma</sec>
+        <debp>266</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>266</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3974</ref>
+    <rnb>2886</rnb>
+    <tib>ltung ba bshags pa'i cho ga</tib>
+    <skt>A pat+ti de sha nabi d+hi</skt>
+    <coloph>ltung ba bshags pa'i cho ga slob dpon dpal mar me mdzad ye shes kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>ltung ba bshags pa'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1428</vol>
+        <sec>mdo 'grel</sec>
+        <debp>255</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>255</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210163</vol>
+        <sec>mdo 'grel</sec>
+        <debp>255</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>255</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211467</vol>
+        <sec>mdo 'grel</sec>
+        <debp>255</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>255</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po mar me mdzad ye shes</name>
+        <role>translator</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba dge slong tshul khrims rgyal ba</name>
+        <role>translator</role>
+        <rid>bdr:P3456</rid>
+      </translator>
+      <translator>
+        <name>slob dpon dpal mar me mdzad ye shes</name>
+        <role>author</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4158</ref>
+    <rnb>3378</rnb>
+    <tib>ltung ba bshags pa'i cho ga</tib>
+    <skt>A pat+ti de sha na bi d+hi</skt>
+    <coloph>ltung ba bshags pa'i cho ga slob dpon mar me mdzad ye shes kyis mdzad pa rdzogs so/ /rgya gar gyi mkhan po de nyid dang / bod kyi lo tsA ba dge slong tshul khrims rgyal bas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3371</vol>
+        <sec>mdo 'grel</sec>
+        <debp>284</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>284</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212404</vol>
+        <sec>mdo 'grel</sec>
+        <debp>284</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>284</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5369</ref>
+    <rnb>3370</rnb>
+    <tib>ltung ba bshags pa'i cho ga</tib>
+    <skt>a pat+ti de sha na bi d+hi</skt>
+    <coloph>ltung ba bshags pa'i cho ga slob dpon mar me mdzad ye shes kyis mdzad pa rdzogs so/ /rgya gar gyi mkhan po de nyid dang / bod kyi lo tsA ba dge slong tshul khrims rgyal bas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13289</vol>
+        <sec>mdo 'grel</sec>
+        <debp>297</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>297</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

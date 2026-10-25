@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks104.5</ref>
+    <rnb>673</rnb>
+    <tib>zil gnon 'jig med rtogs 'jom gyi gzungs</tib>
+    <skt/>
+    <coloph>zil gnon 'jigs med rtog 'joms kyi gzungs rdzogs so // le'u ste gnyis pa'o…</coloph>
+    <colophTitle/>
+    <margin>rtog 'joms</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75075</vol>
+        <sec>5</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>17</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz173.7</ref>
+    <rnb>401</rnb>
+    <tib>zil gnon 'jigs med rtog 'joms gyi gzungs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58708</vol>
+        <sec>kha</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>14</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

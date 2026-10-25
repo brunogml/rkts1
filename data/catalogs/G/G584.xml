@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm14.40</ref>
+    <rnb>342</rnb>
+    <tib>rdo rje sems dpa'i dgongs pa tshi gsum pa'i rgyud</tib>
+    <skt>bu d+ha badzra sa twa sa ma ti na ma tri na ma tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-15</vol>
+        <sec>rnying rgyud</sec>
+        <debp>389</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>392</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt14.40</ref>
+    <rnb>354</rnb>
+    <tib>sangs rgyas rdo rje sems dpa'i dgongs pa tshig gsum pa'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-14</vol>
+        <sec>rnying rgyud</sec>
+        <debp>333</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>337</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb039.018</ref>
+    <rnb>584</rnb>
+    <tib>sangs rgyas rdo rje sems dpa'i dgongs pa tshig gsum pa'i rgyud</tib>
+    <skt>b+hu d+ha badzra sa s+wa sa ma ti na m a ti na ma tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21644</vol>
+        <sec>1</sec>
+        <debp>37</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>41</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>sangs rgyas rdo rje sems dpa'i gsang lam bstan pa'i le'u ste dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21644</vol>
+        <sec>1</sec>
+        <debp>39</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>rdo rje sems dpa'i zhal chems gsum pa'i le'u ste gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21644</vol>
+        <sec>1</sec>
+        <debp>41</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+    </chapters>
+  </item>
+  <item>
+    <coll>Gsg</coll>
+    <ref>Gsg14.39</ref>
+    <rnb>305</rnb>
+    <tib>sangs rgyas rdo rje sems dpa'i dgongs pa tshig gsum pa'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG16449</setid>
+        <vol>1KG16498</vol>
+        <sec>pha</sec>
+        <debp>399</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>403</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

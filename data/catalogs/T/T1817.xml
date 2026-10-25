@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2955</ref>
+    <rnb>1890</rnb>
+    <tib>byung po 'gugs pa'i sgrub pa rdo rje lcags kyu zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66105</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>55</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2993</ref>
+    <rnb>1900</rnb>
+    <tib>byung po 'gugs pa'i sgrub pa rdo rje lcags kyu zhes bya ba</tib>
+    <skt/>
+    <coloph>slob dpon ye shes rdo rjes mdzad pa rdzogs so//</coloph>
+    <colophTitle>'byung po 'gugs pa'i bsgrub pa rdo rje lcags kyu zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1390</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210125</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211429</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon ye shes rdo rje</name>
+        <role>author</role>
+        <rid>bdr:P7148</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1820</ref>
+    <rnb>1822</rnb>
+    <tib>'byung po 'gugs pa'i sgrub pa rdo rje lcags kyu zhes bya ba</tib>
+    <skt/>
+    <coloph>slob dpon ye shes rdo rjes mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31408</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>74</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2610</ref>
+    <rnb>1828</rnb>
+    <tib>byung po 'gugs pa'i sgrub pa rdo rje lcags kyu zhes bya ba</tib>
+    <skt/>
+    <coloph>slob dpon ye shes rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3322</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>59</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>59</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212355</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>59</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>59</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3818</ref>
+    <rnb>1819</rnb>
+    <tib>'byung po 'gugs pa'i sgrub pa rdo rje lcags kyu zhes bya ba</tib>
+    <skt/>
+    <coloph>'byung po 'gugs pa'i sgrub pa rdo rje lcags kyu zhes bya ba/_slob dpon ye shes rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13240</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>61</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>61</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>ye shes rdo rje/(jñānavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm27.1</ref>
+    <rnb>80</rnb>
+    <tib>srid pa khams gsum sems can skye 'chi'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD3998</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>148</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks60.1</ref>
+    <rnb>440</rnb>
+    <tib>srid pa khams gsum sems can skye 'chi yis mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>khams gsum skye 'chi mdo</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75031</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>126</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz29.1</ref>
+    <rnb>73</rnb>
+    <tib>srid pa khams gsum sems can skye 'chi yis mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58564</vol>
+        <sec>ka</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>122</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

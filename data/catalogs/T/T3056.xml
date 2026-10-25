@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2065</ref>
+    <rnb>1</rnb>
+    <tib>rje btsun 'jig rten dbang phyug seng ge'i sgra la bstod pa</tib>
+    <skt>siM ha nA da lo ke sh+wa ra b+haT+TA ra ka s+ya stu ti</skt>
+    <coloph>dpal mthu stobs ldan pa snyan ngag mkhan gyi bdag po gnyis skyes srung bas byas pa// rje btsun 'jig rten dbang phyug seng+ge'i sgra la bstod pa rdzogs so// dpal ldan bla ma dam pa rgyal ba spyan snga rin po che'i bka' bzhin zha lu lo tsA ba dge slong d+ha rma pA la b+ha dras bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95846</vol>
+        <sec>1</sec>
+        <debp>744</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>747</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1173</ref>
+    <rnb>65</rnb>
+    <tib>rje btsun 'jig rten dbang phyug seng ge sgra la bstod pa</tib>
+    <skt>si ha nA da lo ke shra ra b+han+TA ra kas+ya stu ti</skt>
+    <coloph>rje btsun 'jig rten dbang phyug seng ge'i sgra la bstod pa rdzogs so//_dpal ldan bla ma dam pa rgyal ba spyan snga rin po che'i bka' bzhin zha lu lo tsA ba dge slongad+har+m+ma pA la b+ha dras bsgyur ba'o</coloph>
+    <colophTitle>rje btsun 'jig rten dbang phyug seng ge sgra la bstod pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1317</vol>
+        <sec>bstod tshogs</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210052</vol>
+        <sec>bstod tshogs</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211356</vol>
+        <sec>bstod tshogs</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zha lu lo tsA ba dge slongad+har+m+ma pA la b+ha dras</name>
+        <role>translator</role>
+        <rid>bdr:P856</rid>
+      </translator>
+      <translator>
+        <name>rje btsun 'jig rten dbang phyug seng ge</name>
+        <role>author</role>
+        <rid>bdr:P0AT0356</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

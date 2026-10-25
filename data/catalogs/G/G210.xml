@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Gdg</coll>
+    <ref>Gdg014.13</ref>
+    <rnb>217</rnb>
+    <tib>sangs rgyas thams cad kyi sras gcig po/ gsang ba gcod pa sa bon gyi rgyud</tib>
+    <skt>bud+d+ha sarba pu trae ka/ g+hu h+yA pu ri sa ma tan+t+ra nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1ER7</setid>
+        <vol>1ER186</vol>
+        <sec>rnying rgyud</sec>
+        <debp>159</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>168</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW21939</setid>
+        <vol>6334</vol>
+        <sec>rnying rgyud</sec>
+        <debp>159</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>168</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb017.013</ref>
+    <rnb>210</rnb>
+    <tib>sangs rgya thams cad kyi sras gcig po/ gsang ba gcod pa sa bon gyi rgyud ces bya ba</tib>
+    <skt>bud+d+ha sarba pu trae ka/ g+hu h+yA pu ri sa ma tan+t+ra nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21622</vol>
+        <sec>1</sec>
+        <debp>228</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>240</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>le'u dang po</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21622</vol>
+        <sec>1</sec>
+        <debp>230</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>le'u gnyis pa</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21622</vol>
+        <sec>1</sec>
+        <debp>235</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>le'u gsum pa</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21622</vol>
+        <sec>1</sec>
+        <debp>236</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>le'u bzhi pa</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21622</vol>
+        <sec>1</sec>
+        <debp>238</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>le'u lnga pa</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21622</vol>
+        <sec>1</sec>
+        <debp>238</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>6</rn>
+        <name>le'u drug pa</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21622</vol>
+        <sec>1</sec>
+        <debp>239</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

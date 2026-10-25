@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5837</ref>
+    <rnb>1</rnb>
+    <tib>lung du ston pa'i rtsa ba sum cu pa zhes bya ba</tib>
+    <skt>byA ka ra Na mU la triM shad nA ma</skt>
+    <coloph>byA ka ra Na rtsa ba'i sho lo ka sum cu pa zhes bya ba slob dpon a nus mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95960</vol>
+        <sec>1</sec>
+        <debp>397</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>401</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4312</ref>
+    <rnb>3253</rnb>
+    <tib>lung du ston pa'i rtsa ba sum cu pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66235</vol>
+        <sec>sna tshogs</sec>
+        <debp>160</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>161</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4348</ref>
+    <rnb>3261</rnb>
+    <tib>lung du ston pa'i rtsa ba sum cu pa zhes bya ba</tib>
+    <skt>byA ka ra Na mU la triM shad nA ma</skt>
+    <coloph>byA ka ra Na rtsa ba'i sh+lo ka sum cu pa zhes bya ba slob dpon a nus mdzad pa rdzogs so//_//byA ka ra Na rtsa ba brgyad ba las/_kun du bzang po'i byA ka ra Na dang po'i skabs te lnga pa'o</coloph>
+    <colophTitle>byA ka ra Na rtsa ba brgyad ba las/_kun du bzang po'i byA ka ra Na dang po'i skabs te lnga pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1522</vol>
+        <sec>mdo 'grel</sec>
+        <debp>160</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>161</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210257</vol>
+        <sec>mdo 'grel</sec>
+        <debp>160</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>161</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211561</vol>
+        <sec>mdo 'grel</sec>
+        <debp>160</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>161</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon a nu</name>
+        <role>author</role>
+        <rid>bdr:P5788</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3847</ref>
+    <rnb>3842</rnb>
+    <tib>lung du ston pa rtsa ba sum cu pa zhes bya ba</tib>
+    <skt>byA ka ra Na mU la tri shad nA ma</skt>
+    <coloph>byA ka ra Na rtsa ba'i sho lo ka sum cu pa zhes bya ba slob dpon a nus mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31549</vol>
+        <sec>sgra sbyor</sec>
+        <debp>46</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>48</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4632</ref>
+    <rnb>3851</rnb>
+    <tib>lung du ston pa'i rtsa ba sum cu pa zhes bya ba</tib>
+    <skt>byA ka ra Na mU la triM shad nA ma</skt>
+    <coloph>byA ka ra Na rtsa ba'i sho lo ka sum cu pa zhes bya ba slob dpon a nus mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3463</vol>
+        <sec>mdo 'grel</sec>
+        <debp>37</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>38</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212496</vol>
+        <sec>mdo 'grel</sec>
+        <debp>37</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>38</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5834</ref>
+    <rnb>3836</rnb>
+    <tib>lung du ston pa rtsa ba sum cu pa zhes bya ba</tib>
+    <skt>byA ka ra Na mU la tri sha da nA ma</skt>
+    <coloph>byA ka ra Na rtsa ba'i sho lo ka sum cu pa zhes bya ba slob dpon a nus mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13381</vol>
+        <sec>mdo 'grel</sec>
+        <debp>38</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>39</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>anu</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

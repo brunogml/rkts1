@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2556</ref>
+    <rnb>1490</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66097</vol>
+        <sec>rgyud</sec>
+        <debp>71</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>72</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2600</ref>
+    <rnb>1500</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti no pi ka</skt>
+    <coloph>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs rdzogs so//</coloph>
+    <colophTitle>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1382</vol>
+        <sec>rgyud</sec>
+        <debp>67</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>68</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210117</vol>
+        <sec>rgyud</sec>
+        <debp>67</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>68</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211421</vol>
+        <sec>rgyud</sec>
+        <debp>67</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>68</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2221</ref>
+    <rnb>1438</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti no pi ka</skt>
+    <coloph>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3314</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>55</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>57</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212347</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>55</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>57</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3425</ref>
+    <rnb>1426</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti no pi ka</skt>
+    <coloph>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13232</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>63</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>65</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rdo rje las grub/(vajrakarmasiddha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

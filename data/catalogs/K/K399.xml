@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A422</ref>
+    <rnb>421</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so/ /rgya gar gyi mkhan po ga ya d+ha ra dang / lo tsA ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96862</vol>
+        <sec>1</sec>
+        <debp>678</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>682</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B413</ref>
+    <rnb>412</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-88</vol>
+        <sec>rgyud</sec>
+        <debp>68</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>71</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba146.7</ref>
+    <rnb>730</rnb>
+    <tib>dpal mkha' 'gro ma'i xxx ba'i rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>4CZ75449</vol>
+        <sec>1</sec>
+        <debp>59</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>61</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C44</ref>
+    <rnb>44</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105067</vol>
+        <sec>rgyud</sec>
+        <debp>52</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>54</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-4</vol>
+        <sec>rgyud</sec>
+        <debp>52</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>54</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz054-006</ref>
+    <rnb>91</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>sh+rI badzra DA ki nI gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// rgya gar gyi mkhan po ga ya d+ha ra dang/ lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-54</vol>
+        <sec>rgyud</sec>
+        <debp>14</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>16</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz054-015</ref>
+    <rnb>100</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>sh+rI badzra DA ki nI gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// rgya gar gyi mkhan po ga ya d+ha ra dang/ lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-54</vol>
+        <sec>rgyud</sec>
+        <debp>36</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>38</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D399</ref>
+    <rnb>401</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// //rgya gar gyi mkhan po ga ya d+ha ra dang / lots+tsha ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0964</vol>
+        <sec>rgyud</sec>
+        <debp>230</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>231</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6426</vol>
+        <sec>rgyud</sec>
+        <debp>230</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>231</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20692</vol>
+        <sec>rgyud</sec>
+        <debp>230</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>231</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9205</vol>
+        <sec>rgyud</sec>
+        <debp>230</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>231</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po ga ya d+ha ra</name>
+        <role>translator</role>
+        <rid>bdr:P8151</rid>
+      </translator>
+      <translator>
+        <name>lots+tsha ba dge slong shAkya ye shes</name>
+        <role>translator</role>
+        <rid>bdr:P3285</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd081-026</ref>
+    <rnb>636</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badz+ra DA ki gu gya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// rgya gar gyi mkhan po ga ya d+ha ra dang/ lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-81</vol>
+        <sec>rgyud</sec>
+        <debp>281</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>284</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk091-027</ref>
+    <rnb>398</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>sh+rI badzra DA ki nI gu hya tan+t+ra rA dza</skt>
+    <coloph>dpal mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// rgya gar gyi mkhan po ga ya d+ha ra dang/ lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-91</vol>
+        <sec>rgyud</sec>
+        <debp>274</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>277</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk091-018</ref>
+    <rnb>389</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>sh+rI badzra DA ki nI gu hya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// rgya gar gyi mkhan po ga ya d+ha ra dang/ lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-91</vol>
+        <sec>rgyud</sec>
+        <debp>247</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>249</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm34.10</ref>
+    <rnb>471</rnb>
+    <tib>dpal rdo rje mkha' 'gro ma'i gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shir badz+ra d+ha ki ni g+ha ha tan tra ra tsa</skt>
+    <coloph>dpal mkha' 'gro gsang ba rgyud kyi rgyal po rdzogs+ho//_//rgya gar gyi mkhan po g+ha ya d+ha ra dang/_lo tsa ba dge slong shAk+ya ye shes kyis bsgyur ba'o//</coloph>
+    <colophTitle>dpal mkha' 'gro gsang ba rgyud kyi rgyal po</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL944</vol>
+        <sec>rgyud</sec>
+        <debp>186</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>188</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po g+ha ya d+ha ra</name>
+        <role>translator</role>
+        <rid>bdr:P8151</rid>
+      </translator>
+      <translator>
+        <name>lo tsa ba dge slong shAk+ya ye shes</name>
+        <role>translator</role>
+        <rid>bdr:P3285</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr44</ref>
+    <rnb>44</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM4</vol>
+        <sec>rgyud</sec>
+        <debp>70</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>72</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt071-006</ref>
+    <rnb>377</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>sh+rI badzra DA ki nI gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// rgya gar gyi mkhan po ga ya d+ha ra dang/ lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-8-3</vol>
+        <sec>rgyud</sec>
+        <debp>13</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>16</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt071-015</ref>
+    <rnb>386</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>sh+rI badzra DA ki nI gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// rgya gar gyi mkhan po ga ya d+ha ra dang/ lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-8-3</vol>
+        <sec>rgyud</sec>
+        <debp>35</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>38</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Hg</coll>
+    <ref>Hg56-022</ref>
+    <rnb>106</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45315</setid>
+        <vol>2KG209217</vol>
+        <sec>1</sec>
+        <debp>133</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>133</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>fragment</note>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J388</ref>
+    <rnb>416</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs+ho/rgya gar gyi mkhan po gA ya d+ha ra dang/lo ts+tsha ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9954</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>48</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>50</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po gA ya d+ha ra</name>
+        <role>translator</role>
+        <rid>bdr:P3302</rid>
+      </translator>
+      <translator>
+        <name>lo ts+tsha ba dge slong shAkya ye shes</name>
+        <role>translator</role>
+        <rid>bdr:P3285</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>L</coll>
+    <ref>L278</ref>
+    <rnb>290</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1055</vol>
+        <sec>rgyud</sec>
+        <debp>164</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>166</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>L</coll>
+    <ref>L287</ref>
+    <rnb>299</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1055</vol>
+        <sec>rgyud</sec>
+        <debp>182</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>184</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np040-027</ref>
+    <rnb>339</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki nI gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// rgya gar gyi mkhan po ga ya d+ha ra dang/ lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-40</vol>
+        <sec>rgyud</sec>
+        <debp>265</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>268</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np040-018</ref>
+    <rnb>330</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki nI gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// rgya gar gyi mkhan po ga ya d+ha ra dang/ lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-40</vol>
+        <sec>rgyud</sec>
+        <debp>239</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>241</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj082-026</ref>
+    <rnb>635</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki gu gya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// rgya gar gyi mkhan po ga ya d+ha ra dang/ lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-82</vol>
+        <sec>rgyud</sec>
+        <debp>258</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>261</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz082-026</ref>
+    <rnb>631</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>sh+rI badzra DA ki gu gya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// rgya gar gyi mkhan po ga ya d+ha ra dang/ lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-82</vol>
+        <sec>rgyud</sec>
+        <debp>227</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>228</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q44</ref>
+    <rnb>44</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs s+ho // // rgya gar gyi mkhan po g'a ya dha ra dang /lo ts+tsha ba dge slong shAkya ye shes kyis bsgyur ba'o // (nga, 49b8-50a1)</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96684</setid>
+        <vol>1PD106656</vol>
+        <sec>rgyud</sec>
+        <debp>48</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>50</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW3CN1094</setid>
+        <vol>3CN1100</vol>
+        <sec>rgyud</sec>
+        <debp>48</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>50</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gāyadhara</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>shAkya ye shes/</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R399</ref>
+    <rnb>401</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki gu gya tan+tra rA dza</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17343</vol>
+        <sec>rgyud</sec>
+        <debp>230</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>231</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S361</ref>
+    <rnb>410</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki nI gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so/ /rgya gar gyi mkhan po ga ya d+ha ra dang / lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3801</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>14</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>17</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ts</coll>
+    <ref>Ts03.16</ref>
+    <rnb>28</rnb>
+    <tib>dpal rdo rje mkha' 'gro ma'i gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badz+ra Da ki gu hya tan+t+ra rA dza</skt>
+    <coloph>dpal mkha' 'gro ma'i gsang ba'i rgyud kyi rgyal po// //rdzogs s+h+yo// //rgya gar gyi mkhan po g+ha ya d+ha ra dang/ lo tstsha wa dge slong shAkya ye shes kyis bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN1302</setid>
+        <vol>3CN1306</vol>
+        <sec>rgyud</sec>
+        <debp>242</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>244</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty058-006</ref>
+    <rnb>383</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki nI gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so/ /rgya gar gyi mkhan po ga ya d+ha ra dang / lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209920</vol>
+        <sec>rgyud</sec>
+        <debp>14</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>16</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U401</ref>
+    <rnb>401</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL300</vol>
+        <sec>rgyud</sec>
+        <debp>230</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>231</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5374</vol>
+        <sec>rgyud</sec>
+        <debp>230</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>231</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V430</ref>
+    <rnb>430</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so/ rgya gar gyi mkhan po ga ya d+ha ra dang / lo ts+tsha ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86324</vol>
+        <sec>rgyud</sec>
+        <debp>183</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>185</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V439</ref>
+    <rnb>439</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal mkha' 'gro gsang ba rgyud kyi rgyal po rdzogs so/ rgya gar gyi mkhan po ga ya d+ha ra dang / lo ts+tsha ba dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86324</vol>
+        <sec>rgyud</sec>
+        <debp>203</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>205</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z371</ref>
+    <rnb>372</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki nI gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// //rgya gar gyi mkhan po ga ya d+ha ra dang / lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127549</vol>
+        <sec>rgyud</sec>
+        <debp>13</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>15</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gayadhara</name>
+        <role>translator</role>
+        <rid>bdr:P3302</rid>
+      </translator>
+      <translator>
+        <name>śākya ye shes</name>
+        <role>translator</role>
+        <rid>bdr:P3285</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z380</ref>
+    <rnb>381</rnb>
+    <tib>dpal rdo rje mkha' 'gro gsang ba'i rgyud kyi rgyal po</tib>
+    <skt>shrI badzra DA ki gu h+ya tan+t+ra rA dza</skt>
+    <coloph>dpa' bo mkha' 'gro gsang ba'i rgyud kyi rgyal po rdzogs so// //rgya gar gyi mkhan po ga ya d+ha ra dang / /lo tsa ba dge slong shAkya ye shes kyis bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127549</vol>
+        <sec>rgyud</sec>
+        <debp>34</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>37</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gayadhara</name>
+        <role>translator</role>
+        <rid>bdr:P3302</rid>
+      </translator>
+      <translator>
+        <name>śākya ye shes</name>
+        <role>translator</role>
+        <rid>bdr:P3285</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

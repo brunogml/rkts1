@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5231</ref>
+    <rnb>1</rnb>
+    <tib>dpal he ru ka rje btsun gyi sgrub thabs mdor bsdus pa</tib>
+    <skt>shrI he ru ka b+ha TA rA ga saMk+Ship+ta sA d+ha naM</skt>
+    <coloph>rje btsun dpal he ru ka'i sgrub thabs mdor bsdus pa nag po rdo rjes mdzad pa'o/ /'gos 'gyur la rgya dpe'i steng nas zhus dag byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>935</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>939</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3159</ref>
+    <rnb>3160</rnb>
+    <tib>dpal he ru ka rje btsun gyi sgrub thabs mdor bsdus pa</tib>
+    <skt>shrI he ru ka b+haT+TA ra ga saM k+Ship+ta sA d+ha naM</skt>
+    <coloph>rje btsun dpal he ru ka'i sgrub thabs mdor bsdus pa nag po rdo rjes mdzad pa'o/ /'gos 'gyur la rgya dpe'i steng nas zhus dag byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>316</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>318</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3950</ref>
+    <rnb>3170</rnb>
+    <tib>dpal he ru ka rje btsun gyi sgrub thabs mdor bsdus pa</tib>
+    <skt>shrI he ru ka b+ha TA rA ga saMk+Ship+ta sA d+ha naM</skt>
+    <coloph>rje btsun dpal he ru ka'i sgrub thabs mdor bsdus pa nag po rdo rjes mdzad pa'o/ /'gos 'gyur la rgya dpe'i steng nas zhus dag byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>188</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>190</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>188</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>190</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5161</ref>
+    <rnb>3162</rnb>
+    <tib>dpal he ru ka rje btsun gyi sgrub thabs mdor bsdus pa</tib>
+    <skt>shrI he ru ka b+haT+TA rA ga saMk+Ship+ta sA d+ha naM</skt>
+    <coloph>rje btsun dpal he ru ka'i sgrub thabs mdor bsdus pa nag po rdo rjes mdzad pa'o/ /'gos 'gyur la rgya dpe'i steng nas zhus dag byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>191</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>193</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nag po rdo rje/(kṛṣṇavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

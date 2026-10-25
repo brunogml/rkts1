@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4830</ref>
+    <rnb>1</rnb>
+    <tib>'jig rten gsum las rnam par rgyal ba 'phags ma sgrol ma sgrub pa'i thabs zhes bya ba</tib>
+    <skt>Ar+ya bi dza ya trai lo kya tA ra sa da na ma</skt>
+    <coloph>rje btsun sgrol ma khams gsum las rnam par rgyal ba'i bsgrub thabs yon tan gzungs can/ slob dpon po dge slong klu grub kyis mdzad pa las/ dus phyis shAkya'i dge bsnyen brtul zhugs spyod pa'i bai ro tsa na badz+ra'i zhal snga nas/ ra bsgyur du bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>1616</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1624</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2709</ref>
+    <rnb>2710</rnb>
+    <tib>'jig rten gsum las rnam par rgyal ba 'phags ma sgrol ma sgrub pa'i thabs zhes bya ba</tib>
+    <skt>ar+ya bi dza ya trai lo kya tA ra sa da ma ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31413</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>285</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>289</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3499</ref>
+    <rnb>2718</rnb>
+    <tib>'jig rten gsum las rnam par rgyal ba 'phags ma sgrol ma sgrub pa'i thabs</tib>
+    <skt>ar+ya bi dza ya trai lo kya tA ra sa da na ma</skt>
+    <coloph>rje btsun sgrol ma khams gsum las rnam par rgyal ba'i bsgrub thabs yon tan gzungs can/ slob dpon po dge slong klu grub kyis mdzad pa las/ dus phyis shAkya'i dge bsnyen brtul zhugs spyod pa'i bai ro tsa na badz+ra'i zhal snga nas/ ra bsgyur du bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3327</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>205</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>209</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212360</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>205</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>209</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4710</ref>
+    <rnb>2711</rnb>
+    <tib>'jig rten gsum las rnam par rgyal ba 'phags ma sgrol ma bsgrub pa'i thabs zhes bya ba</tib>
+    <skt>ar+ya bi dza ya trai lo kya tA ra sa da na ma</skt>
+    <coloph>rje btsun sgrol ma khams gsum las rnam par rgyal ba'i bsgrub thabs yon tan gzungs can/_slob dpon chen po dge slong klu grub kyis mdzad pa las/_dus phyis shAkya'i dge bsnyen brtul zhugs spyod pa'i bai ro tsa na badzra'i zhal snga nas/_ra 'gyur du bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13245</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>214</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>217</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>klu sgrub/(nāgārjuna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

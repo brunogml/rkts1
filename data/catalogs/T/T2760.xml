@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4881</ref>
+    <rnb>1</rnb>
+    <tib>sgyu 'phrul khro bo'i dbang bskur ba dkyil 'khor rdo rje las kyi rim pa zhes bya ba</tib>
+    <skt>a b+hi Shiny+tsa mA yA dzA la badzra kro d+ha maN+Da la karma prA la na maH</skt>
+    <coloph>sgyur 'phrul dra ba khro ba'i dkyil 'khor dbang rab gnas kyi bsgrub thabs/ khro bo rdo rje las rim/ bud+ha g+hu h+yas mdzad pa 'di yongs su rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95889</vol>
+        <sec>1</sec>
+        <debp>374</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>402</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2760</ref>
+    <rnb>2761</rnb>
+    <tib>sgyu 'phrul khro bo'i dbang bskur ba dkyil 'khor rdo rje las kyi rim pa zhes bya ba</tib>
+    <skt>a b+hi Shiny+tsa mA yA dzA la badzra kro d+ha maN+Da la/ karma pra la na maH</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31415</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>191</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>206</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3550</ref>
+    <rnb>2769</rnb>
+    <tib>sgyur 'phrul khro ba'i dbang bskur ba dkyil 'khor rdo rje las kyi rim pa zhes bya ba</tib>
+    <skt>a b+hi Shiny+tsa mA yA dzI la badzra kro d+ha maN+Da la karma prA la na maH</skt>
+    <coloph>sgyur 'phrul dra ba khro ba'i dkyil 'khor dbang rab gnas kyi bsgrub thabs/ khro bo rdo rje las rim/ bud+ha g+hu h+yas mdzad pa 'di yongs su rdzogs so/</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3329</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>170</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>182</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212362</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>170</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>182</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4761</ref>
+    <rnb>2762</rnb>
+    <tib>sgyu 'phrul khro bo'i dbang bskur ba dkyil 'khor rdo rje las kyi rim pa zhes bya ba</tib>
+    <skt>a b+hi Shiny+tsa mA yA dzA la badzra gro d+ha maN+Da la/ karma prA la na maH</skt>
+    <coloph>sgyur 'phrul dra ba khro bo'i dkyil 'khor dbang rab gnas kyi bsgrub thabs/_khro bo rdo rje las rim bud d+ha g+hu h+yas mdzad pa 'di yongs su rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13247</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>166</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>180</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>buddhaguhya</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

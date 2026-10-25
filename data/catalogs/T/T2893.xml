@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4987</ref>
+    <rnb>1</rnb>
+    <tib>gtum po'i sgrub thabs</tib>
+    <skt>tsan d+ha ma ha ro sha na sa dra na</skt>
+    <coloph>gtum po'i sgrub thabs/ rdo rje gdan pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>344</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>345</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2893</ref>
+    <rnb>2894</rnb>
+    <tib>rtum po'i sgrub thabs</tib>
+    <skt>tsan d+ha ma ha ro sha na sa dra na</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>327</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>328</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

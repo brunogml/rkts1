@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>N</coll>
+    <ref>N4230</ref>
+    <rnb>3450</rnb>
+    <tib>maN+Dala gyi cho ga</tib>
+    <skt>maN+Da la bi d+hi</skt>
+    <coloph>bla ma dang sangs rgyas dang byang chub sems dpa' la sogs pa'i mdun du bsnyen bkur byas pa'i maN+Dala gyi cho ga / dngos grub brnyes pa'i slob dpon mkhas pa chen po rin chen 'byung gnas sbas pa'i zhal snga nas mdzad pa rdzogs so/ /mtshan yongs su grags par gyur pa slob dpon rdo rje gdan pas mdzad pa lags/ zhus chen gyi lo tsA ba dge slong dar ma grags kyis bsgyur cing zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3372</vol>
+        <sec>mdo 'grel</sec>
+        <debp>154</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>155</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212405</vol>
+        <sec>mdo 'grel</sec>
+        <debp>154</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>155</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4583</ref>
+    <rnb>2584</rnb>
+    <tib>maN+Dala gyi cho ga</tib>
+    <skt>maN+Da la bi d+hi</skt>
+    <coloph>maN+Dal gyi cho ga dngos grub brnyes pa'i slob dpon mkhas pa chen po rin chen 'byung gnas sbas pa'i zhal snga nas mdzad pa rdzogs so/_/mtshan yongs su grags par gyur pa dge bshes rdo rje gdan pas mdzad pa lags so/_zhu chen gyi lo tsA ba dge slong dar ma grags kyis bsgyur cing zhus te gtan la phab pa/_pha rol tu phyin pa'i theg pa'i maN+Dal gyi cho ga'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13243</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>332</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>333</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rin chen 'byung gnas sbas pa/(ratnākaragupta)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

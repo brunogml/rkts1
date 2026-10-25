@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1521</ref>
+    <rnb>465</rnb>
+    <tib>rdo rje rnal 'byor ma'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66055</vol>
+        <sec>rgyud</sec>
+        <debp>10</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>10</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1579</ref>
+    <rnb>474</rnb>
+    <tib>rdo rje rnal 'byor ma'i sgrub thabs</tib>
+    <skt>badzra yo gi nI sA d+ha naM</skt>
+    <coloph>las dang po pa'i sgom pa mdor bsdus pa dpal nA ro pa'i zhal gyi brgyud pa rjes su gnang ba rdzogs so// //rgya gar gyi mkhan po dpal su ma ti k'irti'i zhal snga nas dang/ bod kyi lo tsA ba dge slong pradz+nyA k'irtis bsgyur ba'o// //</coloph>
+    <colophTitle>las dang po pa'i sgom pa mdor bsdus pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1340</vol>
+        <sec>rgyud</sec>
+        <debp>10</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>10</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210075</vol>
+        <sec>rgyud</sec>
+        <debp>10</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>10</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211379</vol>
+        <sec>rgyud</sec>
+        <debp>10</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>10</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po dpal su ma ti kIrti</name>
+        <role>translator</role>
+        <rid>bdr:P8893</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba dge slong pradz+nyA kIrti</name>
+        <role>translator</role>
+        <rid>bdr:P1245</rid>
+      </translator>
+      <translator>
+        <name>dpal nA ro pa</name>
+        <role>author</role>
+        <rid>bdr:P3085</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1081</ref>
+    <rnb>292</rnb>
+    <tib>rdo rje rnal 'byor ma'i sgrub thabs</tib>
+    <skt>badzra yo gi ni sA d+ha naM</skt>
+    <coloph>las dang po pa'i bsgom pa mdor bsdus pa dpal na ro pa'i zhal gyi brgyud pa rjes su gnang pa rdzogs so/ /rgya gar gyi mkhan po dpal su ma ti kIrti'i zhal snga nas/ bod kyi lo tsA ba dge slong pradz+nya kIrtis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3266</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>284</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>285</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212299</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>284</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>285</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2290</ref>
+    <rnb>290</rnb>
+    <tib>rdo rje rnal 'byor ma'i sgrub thabs</tib>
+    <skt>badzra yo gi ni sA d+ha naM</skt>
+    <coloph>las dang po pa'i bsgom pa mdor bsdus pa dpal na ro pa'i zhal gyi brgyud pa rjes su gnang pa rdzogs so/ /rgya gar gyi mkhan po dpal su ma ti kIrti'i zhal snga nas/ bod kyi lo tsA ba dge slong pradz+nya kIrtisa bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13184</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>309</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nāḍapāda</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

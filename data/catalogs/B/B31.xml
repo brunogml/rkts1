@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm19.3</ref>
+    <rnb>46</rnb>
+    <tib>dus pa rin po che'i rgyud dri ma med pa gzi brjid rab tu 'bar ba'i mdo las 'gro 'dul 'od zer sras sprul pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD3990</vol>
+        <sec>1</sec>
+        <debp>98</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>165</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks7.3</ref>
+    <rnb>31</rnb>
+    <tib>'dus pa rin po che'i rgyud dri ma med pa gzi brjid rab tu 'bar ba'i mdo las 'gro 'dul 'od zer sras sprul pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ74978</vol>
+        <sec>ja</sec>
+        <debp>76</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>127</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz20.3</ref>
+    <rnb>45</rnb>
+    <tib>'dus pa rin po che'i rgyud dri ma med pa gzi brjid rab tu 'bar ba'i mdo las 'gro 'dul 'od zer sras sprul pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58555</vol>
+        <sec>ja3</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

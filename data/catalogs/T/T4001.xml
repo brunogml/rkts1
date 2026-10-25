@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1766</ref>
+    <rnb>710</rnb>
+    <tib>gtor ma'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66066</vol>
+        <sec>rgyud</sec>
+        <debp>262</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>263</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1821</ref>
+    <rnb>720</rnb>
+    <tib>gtor ma'i cho ga</tib>
+    <skt/>
+    <coloph>slob dpon nag pos mdzad pa yin/ /rdzogs so/</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1351</vol>
+        <sec>rgyud</sec>
+        <debp>261</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>262</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210086</vol>
+        <sec>rgyud</sec>
+        <debp>261</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>262</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211390</vol>
+        <sec>rgyud</sec>
+        <debp>261</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>262</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon nag po</name>
+        <role>author</role>
+        <rid>bdr:P3299</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1480</ref>
+    <rnb>697</rnb>
+    <tib>gtor ma'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3286</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>242</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>244</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212319</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>242</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>244</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2685</ref>
+    <rnb>686</rnb>
+    <tib>gtor ma'i cho ga</tib>
+    <skt/>
+    <coloph>bdag drin bla ma'i rgyud dang ni/ blo dman rnams la phan gdags phyir/ bla ma dam pa'i man ngag bzhin/ gtor ma'i cho ga bris pa yin/ dpal ldan gsang 'dus gtor ma 'dis/ lam la gnas dang 'bras myong gis/ tshogs rdzogs sdug bsngal bsal ba'i phyir/ slob dpon nag pos mdzad pa yin/ rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13204</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>246</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>247</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nag po/(kṛṣṇa)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

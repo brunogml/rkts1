@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2554</ref>
+    <rnb>1</rnb>
+    <tib>dpal rdo rje bdud rtsi'i rgyud kyi rgyal po chen po'i rgya cher 'grel pa zhes bya ba</tib>
+    <skt>shrI badzra a mr-i ta ma hA tan+t+ra rA dz+nyASh+TI kA nA Ma</skt>
+    <coloph>rdo rje bdud rtsi'i rgyud kyi rgyal po rgya cher 'grel pa bdud rtsi 'dzag pa zhes bya ba dngos grub thob pa'i slob dpon chen po b+ha gos mdzad pa rdzogs so/ /gzhung gi tshad ni tshigs su bcad pa stong sum brgya yong ngo/ rgya gar gyi mkhan po tA ra pA la dang / bod kyi lo tsA ba la la chings (chims)yon tan 'bar gyis bsgyur cing zhus te gtan la phab pa/ phyis paN+Di ta shI la ku dz+ha badz+ra dang / klog skya shes rab brtsegs kyis bal yul du gtugs te gtan la phab po</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95858</vol>
+        <sec>1</sec>
+        <debp>1013</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1144</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1595</ref>
+    <rnb>539</rnb>
+    <tib>dpal rdo rje bdud rtsi'i rgyud kyi rgyal po chen po'i rgya cher 'grel pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66057</vol>
+        <sec>rgyud</sec>
+        <debp>53</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1651</ref>
+    <rnb>548</rnb>
+    <tib>dpal rdo rje bdud rtsi'i rgyud kyi rgyal po chen po'i rgya cher 'grel pa zhes bya ba</tib>
+    <skt>shrI badzra a mr-i ta ma hA tan+t+ra rA dz+nyA Sh+TI kA nA ma</skt>
+    <coloph>rdo rje bdud rtsi'i rgyud kyi rgyal po rgya cher 'grel pa bdud rtsi 'dzag pa zhes bya ba dngos grub thob pa'i slob dpon chen po bha gos mdzad pa rdzogs so// //gzhung gi tshad ni tshigs su bcad pa stong sum brgya yod do// //rgya gar gyi mkhan po tA ra pA la dang/ bod kyi lo tsA ba la chings yon tan 'bar gyis bsgyur cing zhus te gtan la phab pa/ phyis paN+Di ta sh'i la ku dzha badzra dang/ klog skya shes rab brtsegs kyis bal yul du gtugs te gtan la phab pa// //</coloph>
+    <colophTitle>rdo rje bdud rtsi'i rgyud kyi rgyal po rgya cher 'grel pa bdud rtsi 'dzag pa zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1342</vol>
+        <sec>rgyud</sec>
+        <debp>53</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210077</vol>
+        <sec>rgyud</sec>
+        <debp>53</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211381</vol>
+        <sec>rgyud</sec>
+        <debp>53</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po tA ra pA la</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15203</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba la chings yon tan 'bar</name>
+        <role>translator</role>
+        <rid>bdr:P8148</rid>
+      </translator>
+      <translator>
+        <name>paN+Di ta shI la ku dz+ha badzra</name>
+        <role>revisor</role>
+        <rid>bdr:P4CZ15204</rid>
+      </translator>
+      <translator>
+        <name>klog skya shes rab brtsegs</name>
+        <role>revisor</role>
+        <rid>bdr:P1582</rid>
+      </translator>
+      <translator>
+        <name>dngos grub thob pa'i slob dpon chen po b+ha go</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15202</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G527</ref>
+    <rnb>528</rnb>
+    <tib>dpal rdo rje bdud rtsi'i rgyud kyi rgyal po chen po'i rgya cher 'grel pa zhes bya ba</tib>
+    <skt>shrI badzrA mri ta ma hA tan+t+ra rA dzA s+ya TI kA nA ma</skt>
+    <coloph>rdo rje bdud rtsi'i rgyud kyi rgyal po rgya cher 'grel pa bdud rtsi 'dzag pa zhes bya ba dngos grub thob pa'i slob dpon chen po b+ha gos mdzad pa rdzogs so/ /gzhung gi tshad ni tshigs su bcad pa stong sum brgya yong ngo/ rgya gar gyi mkhan po tA ra pA la dang / bod kyi lo tsA ba la la chings (chims)yon tan 'bar gyis bsgyur cing zhus te gtan la phab pa/ phyis paN+Di ta shAi la ku dz+ha badz+ra dang / klog skya shes rab brtsegs kyis bal yul du gtugs te gtan la phab po</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31363</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>75</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>148</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1318</ref>
+    <rnb>534</rnb>
+    <tib>dpal rdo rje bdud rtsi'i rgyud kyi rgyal po chen po'i rgya cher 'grel pa zhes bya ba</tib>
+    <skt>shrI badzrA mri ta ma hA tan+t+ra rA dzA s+ya TI kA nA ma</skt>
+    <coloph>rdo rje bdud rtsi'i rgyud kyi rgyal po rgya cher 'grel pa bdud rtsi 'dzag pa zhes bya ba dngos grub thob pa'i slob dpon chen po b+ha gos mdzad pa rdzogs so/ /gzhung gi tshad ni tshigs su bcad pa stong sum brgya yong ngo/ rgya gar gyi mkhan po tA ra pA la dang / bod kyi lo tsA ba la la chings (chims)yon tan 'bar gyis bsgyur cing zhus te gtan la phab pa/ phyis paN+Di ta shI la ku dz+ha badz+ra dang / klog skya shes rab brtsegs kyis bal yul du gtugs te gtan la phab po</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3277</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>61</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>120</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212310</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>61</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>120</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2523</ref>
+    <rnb>523</rnb>
+    <tib>dpal rdo rje bdud rtsi'i rgyud kyi rgyal po chen po'i rgya cher 'grel pa zhes bya ba</tib>
+    <skt>shrI badzrA mri ta ma hA tant+t+ra rA dzA s+ya TI kA nA ma</skt>
+    <coloph>rdo rje bdud rtsi'i rgyud kyi rgyal po rgya cher 'grel pa bdud rtsi 'dzag pa zhes bya ba dngos grub thob pa'i slob dpon chen po b+ha gos mdzad pa rdzogs so/ /gzhung gi tshad ni tshigs su bcad pa stong sum brgya yong ngo/ rgya gar gyi mkhan po tA ra pA la dang / bod kyi lo tsA ba la la chings (chims)yon tan 'bar gyis bsgyur cing zhus te gtan la phab pa/ phyis paN+Di ta shAi la ku dz+ha badz+ra dang / klog skya shes rab brtsegs kyis bal yul du gtugs te gtan la phab po</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13195</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>61</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>119</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>yon tan 'bar/(guṇajvāla)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>b+ha go/(bhagavat)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

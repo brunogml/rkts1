@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2018</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje 'chang chen po'i bstod pa</tib>
+    <skt>ma hA badzra d+ha ra sto tra</skt>
+    <coloph>rdo rje 'chang chen po'i bstod pa / phyag na rdo rjes mdzad pa rdzogso// rje btsun gnas brtan chen po dpal rdo rje 'chang gi sku can spyan snga rin po che'i zhal snga nas kyis bka' bzhin zhwa lu lo tsA ba d+harma pA las dpal gdan sa thel gyi yang dgon du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95846</vol>
+        <sec>1</sec>
+        <debp>221</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>223</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1126</ref>
+    <rnb>18</rnb>
+    <tib>rdo rje 'chang chen po'i bstod pa</tib>
+    <skt>ma hA ba dzra d+ha ra sto tra</skt>
+    <coloph>rdo rje 'chang chen po'i bstod pa/_phyag na rdo rjes mdzad pa rdzogs so//_//rje btsun gnas brtan chen po dpal rdo rje 'chang gi sku can spyan snga nas kyi bka' bzhin zha lu lo tsA ba d+harma pA las dpal gdan sa thel gyi yang dgon du bsgyur ba'o</coloph>
+    <colophTitle>rdo rje 'chang chen po'i bstod pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1317</vol>
+        <sec>bstod tshogs</sec>
+        <debp>75</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>76</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210052</vol>
+        <sec>bstod tshogs</sec>
+        <debp>75</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>76</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211356</vol>
+        <sec>bstod tshogs</sec>
+        <debp>75</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>76</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zha lu lo tsA ba d+harma pA la</name>
+        <role>translator</role>
+        <rid>bdr:P856</rid>
+      </translator>
+      <translator>
+        <name>phyag na rdo rje</name>
+        <role>author</role>
+        <rid>bdr:P8232</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

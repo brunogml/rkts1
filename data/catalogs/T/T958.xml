@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3020</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt>Ar+ya many+dzu shrI nA ma sang+gI ti sA d+ha na nA ma</skt>
+    <coloph>'jam dpal gyi sgrub thabs zhi ba 'od kyi rim pa zhes bya ba rdzogs so/ /sdom pa bzang po'i thugs dam/ lo tsA ba dar ma b+his bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95870</vol>
+        <sec>1</sec>
+        <debp>401</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>411</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>A</coll>
+    <ref>A3519</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs zhes bya ba</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti sA d+ha ni nA Ma</skt>
+    <coloph>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i dkyil 'khor gyi sgrub thabs/ u rgyan gyi slob dpon shrI a wa d+hu tI pa chen pos mdzad pa rdzogs so/ /rgya gar gyi mkhan po d+harmA shrI mi tra dang / bod kyi lo tsA ba dge slong chos kyi bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95878</vol>
+        <sec>1</sec>
+        <debp>983</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>994</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>A</coll>
+    <ref>A3520</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti no pi ka</skt>
+    <coloph>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95878</vol>
+        <sec>1</sec>
+        <debp>995</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1000</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2060</ref>
+    <rnb>1001</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66080</vol>
+        <sec>rgyud</sec>
+        <debp>143</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>146</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2108</ref>
+    <rnb>1011</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt>Ar+ya many+dzu shrI nA ma sang+gI ti sA d+ha na nA ma</skt>
+    <coloph>'jam dpal gyi sgrub thabs zhi ba 'od kyi rim pa zhes bya ba rdzogs so// //sdom pa bzang po'i thugs dam/ lo tsA ba dar ma bzhis bsgyur ba'o//</coloph>
+    <colophTitle>'jam dpal gyi sgrub thabs zhi ba 'od kyi rim pa zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1365</vol>
+        <sec>rgyud</sec>
+        <debp>143</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>146</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210100</vol>
+        <sec>rgyud</sec>
+        <debp>143</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>146</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211404</vol>
+        <sec>rgyud</sec>
+        <debp>143</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>146</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>lo tsA ba dar ma b+hi</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15361</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G962</ref>
+    <rnb>964</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti sA d+ha nA ma</skt>
+    <coloph>'jam dpal gyi sgrub thabs zhi ba 'od kyi rim pa zhes bya ba rdzogs so/ /sdom pa bzang po'i thugs dam/ lo tsA ba d+harmA b+has bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31383</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>212</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>217</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1754</ref>
+    <rnb>970</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti sA d+ha na nA ma</skt>
+    <coloph>'jam dpal gyi sgrub thabs zhi ba 'od kyi rim pa zhes bya ba rdzogs so/ /sdom pa bzang po'i thugs dam/ lo tsA ba d+harmA b+has bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3297</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>159</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>163</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212330</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>159</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>163</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2959</ref>
+    <rnb>960</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti sA d+ha nA ma</skt>
+    <coloph>'jam dpal gyi sgrub thabs zhi ba 'od kyi rim pa zhes bya ba rdzogs so/_/sdom pa bzang po'i thugs dam/_lo tsA ba d+harmA b+his bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13215</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>171</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>175</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>sdom pa bzang po/(saṁvarabhadra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

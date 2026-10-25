@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5306</ref>
+    <rnb>1</rnb>
+    <tib>rten cing 'brel par 'byung ba'i snying po'i rnam par bshad pa</tib>
+    <skt>pra ti t+ya samut+pa da h+r-i da ya byA khya na</skt>
+    <coloph>rten cing 'brel par 'byung ba'i snying po'i rnam par bshad pa/ slob dpon klu sgrub kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95902</vol>
+        <sec>1</sec>
+        <debp>404</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>411</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3240</ref>
+    <rnb>3235</rnb>
+    <tib>rten cing 'brel par 'byung ba'i snying po'i rnam par bshad pa</tib>
+    <skt>pra tit+ya samut+pA da h+ri da ya bya khya na</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31442</vol>
+        <sec>mdo 'grel</sec>
+        <debp>224</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>227</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3471</ref>
+    <rnb>3465</rnb>
+    <tib>rten cing 'brel par 'byung ba'i snying po'i rnam par bshad pa</tib>
+    <skt>pra ti t+ya sa mut+pA da h+r-i da ya bya khyA na</skt>
+    <coloph>rten cing 'brel par 'byung ba'i snying po'i rnam par bshad pa/ slob dpon 'phags pa klu sgrub kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31458</vol>
+        <sec>mdo 'grel</sec>
+        <debp>262</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>265</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

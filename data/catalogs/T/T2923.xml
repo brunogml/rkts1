@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5016</ref>
+    <rnb>1</rnb>
+    <tib>byin gyis brlabs pa'i nag po chen po'i gsang ba'i sgrub thabs zhes bya ba</tib>
+    <skt>a d+hiSh+Tha na ma ma hA kA la gu ya sa d+ha naM na ma</skt>
+    <coloph>byin gyis brlabs pa'i nag po chen po'i gsang ba'i sgrub thabs 'phags pa klu byang kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>450</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>452</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2923</ref>
+    <rnb>2924</rnb>
+    <tib>byin gyis brlabs pa'i nag po chen po'i gsang ba'i sgrubs zhes bya ba</tib>
+    <skt>a d+hiSh+Tham na ma ma hA kA la gu ya sa d+ha ni na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>375</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>376</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3713</ref>
+    <rnb>2933</rnb>
+    <tib>byin gyis brlabs pa'i nag po chen po'i gsang ba'i sgrub thabs zhes bya ba</tib>
+    <skt>a b+hiSh+Tha na ma ma hA kA la gu ya sa d+ha naM na ma</skt>
+    <coloph>byin gyis brlabs pa'i nag po chen po'i gsang ba'i sgrub thabs 'phags pa klu byang kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>279</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>280</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>279</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>280</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4924</ref>
+    <rnb>2925</rnb>
+    <tib>byin gyis brlabs pa'i nag po chen po'i gsang ba'i sgrub thabs zhes bya ba</tib>
+    <skt>a d+hiSh+Tha na ma ma hA kA la gu ya sa d+ha naM na ma</skt>
+    <coloph>byin gyis brlabs pa'i nag po chen po'i gsang ba'i sgrub thabs 'phags pa klu byang gis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>277</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>278</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>klu byang /(nāgabodhi)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

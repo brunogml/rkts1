@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4922</ref>
+    <rnb>1</rnb>
+    <tib>'chi ba blu ba'i bsdus don</tib>
+    <skt/>
+    <coloph>slob dpon ngag gi dbang phyug grags pas mdzad pa'i 'chi ba blu ba'i bsdus don rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95891</vol>
+        <sec>1</sec>
+        <debp>1036</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1040</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>A</coll>
+    <ref>A4923</ref>
+    <rnb>1</rnb>
+    <tib>'chi ba blu ba'i bsdus don</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95891</vol>
+        <sec>1</sec>
+        <debp>1041</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1048</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2805</ref>
+    <rnb>2806</rnb>
+    <tib>'chi ba blu ba'i bsdus don</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31420</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>196</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>198</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3595</ref>
+    <rnb>2815</rnb>
+    <tib>slob dpon nga dbang grags pas mdzad pa'i 'chi blu</tib>
+    <skt/>
+    <coloph>slob dpon ngag gi dbang phyug grags pas mdzad pa'i 'chi ba blu ba'i bsdus don rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>136</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>138</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212367</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>136</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>138</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4806</ref>
+    <rnb>2807</rnb>
+    <tib>'chi ba blu ba'i bsdus don</tib>
+    <skt/>
+    <coloph>slob dpon ngag gi dbang phyug grags pas mdzad pa'i 'chi ba blu ba'i bsdus don rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13252</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>146</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>147</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>ngag gi dbang phyug grags pa/(vāgīśvarakīrti)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

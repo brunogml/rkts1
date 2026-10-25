@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm132.10</ref>
+    <rnb>358</rnb>
+    <tib>gsang sngags kyi gnad don bcu gsum ma bu 'grel</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4103</vol>
+        <sec>1</sec>
+        <debp>191</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>223</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt224.27</ref>
+    <rnb>6322</rnb>
+    <tib>gsang sngags kyi gnad don bcu gsum ma bu 'grel dang bcas pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>gsang sngags skabs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4917</vol>
+        <sec>27</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>27</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz170.7</ref>
+    <rnb>379</rnb>
+    <tib>gsang sngags kyi gnad don bcu gsum ma bu 'grel dang bcas pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58705</vol>
+        <sec>7</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>26</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3287</ref>
+    <rnb>1</rnb>
+    <tib>ma hA su kha ti'i glu</tib>
+    <skt/>
+    <coloph>ma hA su kha ti'i glu rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95872</vol>
+        <sec>1</sec>
+        <debp>66</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>67</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2324</ref>
+    <rnb>1258</rnb>
+    <tib>ma hA su kha ta'i glu</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66084</vol>
+        <sec>rgyud</sec>
+        <debp>9</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>9</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2371</ref>
+    <rnb>1268</rnb>
+    <tib>ma hA su kha ta'i glu</tib>
+    <skt/>
+    <coloph>ma hA su kha tI glu rdzogs so//</coloph>
+    <colophTitle>ma hA su kha ta'i glu</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1369</vol>
+        <sec>rgyud</sec>
+        <debp>9</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>10</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210104</vol>
+        <sec>rgyud</sec>
+        <debp>9</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>10</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211408</vol>
+        <sec>rgyud</sec>
+        <debp>9</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>10</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1203</ref>
+    <rnb>1205</rnb>
+    <tib>ma hA su kha ta'i glu</tib>
+    <skt/>
+    <coloph>ma hA su kha ti'i glu rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31387</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>12</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>12</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1995</ref>
+    <rnb>1212</rnb>
+    <tib>ma hA su kha ta'i glu</tib>
+    <skt/>
+    <coloph>ma hA su kha ti'i glu rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3301</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>10</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>11</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>10</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>11</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3199</ref>
+    <rnb>1200</rnb>
+    <tib>ma hA su kha ta'i glu</tib>
+    <skt/>
+    <coloph>ma hA su kha ti'i glu rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13219</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>11</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>12</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

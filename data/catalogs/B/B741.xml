@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks110.12</ref>
+    <rnb>750</rnb>
+    <tib>rdzogs pa chen po zhang zhung snyan rgyud kyi lta ba spyi gcod kyi rtsa ba'i glad [~klad] don, rgyud bu chung bcu gnyis</tib>
+    <skt/>
+    <coloph>sprul pa'i sku'i las can gshen la bsten / … sprul pa'i [9r] sku nyid nam mkha' la dgongs pa mkha' la gzha' yal ba bzhin du gshegs so / gyer spungs nyid dgongs pa mkha' ltar grol lo / de nas rim par rgyud nas da lta bdag ngo sho tshul rgyal 'o</coloph>
+    <colophTitle/>
+    <margin>nga spyi gcod</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75081</vol>
+        <sec>12</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>9</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>in this colophon, "myself" is identified as ngo-sho tshul-rgyal (tshul-khrims rgyal-mtshan), the ultimate recipient of the lineage (probably the spiritual great-grandfather of tre-ston rgyal-mtshan dpal in the zhang zhung snyan rgyud lineage supplied in brgyud rim; if so, he must have flourished in about 1400).</note>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz174.6</ref>
+    <rnb>419</rnb>
+    <tib>rdzogs pa chen po zhang zhung snyan rgyud las rgyud bu chung bcu gnyis</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58709</vol>
+        <sec>ca</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

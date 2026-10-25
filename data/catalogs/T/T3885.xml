@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5232</ref>
+    <rnb>1</rnb>
+    <tib>dpal phyag na rdo rje'i sgrub thabs</tib>
+    <skt>shrI badzra pA Ni ma hA tsaN+Da sA d+ha na</skt>
+    <coloph>dpal phyag na rdo rje'i sgrub thabs/ slob dpon bud+d+ha kIrtis mdzad pa rdzogs so//lo chen gyis bsgyur ba'i 'gyur rnying la zhus dag tsam bgyis pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>940</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>942</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3160</ref>
+    <rnb>3161</rnb>
+    <tib>dpal phyag na rdo rje'i sgrub thabs</tib>
+    <skt>shrI badzra pA ni ma hA tsaN+Da sA d+ha naM</skt>
+    <coloph>dpal phyag na rdo rje'i sgrub thabs/ slob dpon bud+d+ha kIrtIs mdzad pa rdzogs so/ /lo chen gyis bsgyur ba'i 'gyur rnying la zhus dag tsam bgyis pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>319</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>320</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3951</ref>
+    <rnb>3171</rnb>
+    <tib>dpal phyag na rdo rje'i sgrub thabs</tib>
+    <skt>shrI badzra pA Ni ma hA tsit+ta A d+ha na</skt>
+    <coloph>dpal phyag na rdo rje'i sgrub thabs/ slob dpon bud+d+ha kIrtis mdzad pa rdzogs so//lo chen gyis bsgyur ba'i 'gyur rnying la zhus dag tsam bgyis pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>190</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>191</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>190</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>191</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5162</ref>
+    <rnb>3163</rnb>
+    <tib>dpal gtum po chen po phyag na rdo rje'i sgrub thabs</tib>
+    <skt>ma hA su kha s+wa d+ha naM</skt>
+    <coloph>dpal phyag na rdo rje'i sgrub thabs/ slob dpon bud+d+ha kIrtisa mdzad pa rdzogs so// lo chen gyis bsgyur ba'i 'gyur rnying la zhus dag tsam bgyis pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>193</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>194</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>lo tsA ba chen po/(dhīmatpraja)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>buddhakīrti</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

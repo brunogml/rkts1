@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3927</ref>
+    <rnb>2863</rnb>
+    <tib>spyod pa bsdus pa'i sgron ma</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66142</vol>
+        <sec>dbu ma</sec>
+        <debp>320</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>321</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3960</ref>
+    <rnb>2872</rnb>
+    <tib>spyod pa bsdus pa'i sgron ma</tib>
+    <skt>tsAr+ya saM gra ha pra dI pa</skt>
+    <coloph>spyod pa bsdus pa'i sgron ma slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>spyod pa bsdus pa'i sgron ma</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1427</vol>
+        <sec>mdo 'grel</sec>
+        <debp>312</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>313</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210162</vol>
+        <sec>mdo 'grel</sec>
+        <debp>312</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>313</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211466</vol>
+        <sec>mdo 'grel</sec>
+        <debp>312</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>313</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po paN+Di ta dI paM ka ra shrI dz+nyA na</name>
+        <role>translator</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba dge slong tshul khrims rgyal ba</name>
+        <role>translator</role>
+        <rid>bdr:P3456</rid>
+      </translator>
+      <translator>
+        <name>slob dpon mkhas pa chen po dpal mar me mdzad ye shes</name>
+        <role>author</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

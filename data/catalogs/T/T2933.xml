@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5026</ref>
+    <rnb>1</rnb>
+    <tib>byin gyis brlabs pa'i nag po'i sgrub thabs</tib>
+    <skt>sa thi s+tha na ma hA kA la s+wa da na ma</skt>
+    <coloph>nag po chen po phyag drug pa'i sgrub thabs/ dpal sha ba ri dbang phyug gis zhal mngon sum gzigs nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>484</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>493</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2933</ref>
+    <rnb>2934</rnb>
+    <tib>byin gyis brlabs pa'i nag po chen po 'i sgrub thabs zhes bya ba</tib>
+    <skt>sa thi s+tha na ma hA kA la s+wa da na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>391</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>397</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3723</ref>
+    <rnb>2943</rnb>
+    <tib>byin gyis brlabs pa'i nag po'i sgrub thabs zhes bya ba</tib>
+    <skt>sa thi s+tha na ma hA kA la swa da na ma</skt>
+    <coloph>nag po chen po phyag drug pa'i sgrub thabs/ dpal sha ba ri dbang phyug gis zhal mngon sum gzigs nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>289</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>293</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>289</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>293</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4934</ref>
+    <rnb>2935</rnb>
+    <tib>byin gyis brlabs pa'i nag po'i sgrub thabs zhes bya ba</tib>
+    <skt>sa thi s+tha na ma hA kA la s+wa da na ma</skt>
+    <coloph>nag po chen po phyag drug pa'i sgrub thabs/_dpal sha ba ri dbang phyug gis zhal mngon sum du gzigs nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>287</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>291</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>śavari (śābarīśvara)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

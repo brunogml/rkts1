@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1212</ref>
+    <rnb>155</rnb>
+    <tib>kye rdo rje phyag gnyis pa'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66041</vol>
+        <sec>rgyud</sec>
+        <debp>97</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>99</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G398</ref>
+    <rnb>398</rnb>
+    <tib>kye rdo rje phyag gnyis pa'i sgrub thabs</tib>
+    <skt>he badzra d+wi b+hu dza sA d+ha naM</skt>
+    <coloph>kye rdo rje phyag gnyis pa'i sgrub thabs rdzogs so/ mkhas pa chen po tA ra shrI'i zhal snga nas mdzad pa bal po'i paN+Di ta su ma ti kIrti dang / bod kyi lo tsA ba mar pa chos dbang gis bsgyur pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31360</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>564</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>566</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

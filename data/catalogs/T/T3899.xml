@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5249</ref>
+    <rnb>1</rnb>
+    <tib>rnal 'byor gyi glu</tib>
+    <skt>yo ga gI ta</skt>
+    <coloph>zhes pa rnal 'byor gyi glu/ slob dpon chen po bde ba chen po'i rdo rje'i zhabs kyi'o/ rgya gar gyi paN+Di ta gang ba'i rdo rje'i zhal snga nas las 'grel pa dang bcas pa mnyan nas/ g.yar khral du bsgyur ba po ni tA ra nA tha'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>1009</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1013</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3177</ref>
+    <rnb>3178</rnb>
+    <tib>rnal 'byor gyi glu</tib>
+    <skt>yo ga gi ta</skt>
+    <coloph>zhes pa rnal 'byor gyi glu/ slob dpon chen po bde ba chen po'i rdo rje'i zhabs kyi'o/ rgya gar gyi paN+Di ta gang ba'i rdo rje'i zhal snga nas las 'grel pa dang bcas pa mnyan nas/ g.yar khral du bsgyur ba po ni tA ra nA tha'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>354</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>356</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3968</ref>
+    <rnb>3188</rnb>
+    <tib>rnal 'byor gyi glu</tib>
+    <skt>yo ga gI ta</skt>
+    <coloph>zhes pa rnal 'byor gyi glu/ slob dpon chen po bde ba chen po'i rdo rje'i zhabs kyi'o/ rgya gar gyi paN+Di ta gang ba'i rdo rje'i zhal snga nas las 'grel pa dang bcas pa mnyan nas/ g.yar khral du bsgyur ba po ni tA ra nA tha'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>209</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>211</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>209</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>211</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5179</ref>
+    <rnb>3180</rnb>
+    <tib>rnal 'byor gyi glu</tib>
+    <skt/>
+    <coloph>zhes pa rnal 'byor gyi glu/_slob dpon chen po bde ba chen po'i rdo rje'i zhabs kyi'o/_rgya gar gyi paN+Di ta gang ba'i rdo rje'i zhal snga nas la 'grel pa dang bcas pa mnyan nas/_g.yar khral du bsgyur ba po ni tA ra nA tha'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>214</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>215</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gang ba'i rdo rje/(pūrṇavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>bde ba chen po'i rdo rje/(mahāsukhatāvajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C4246b</ref>
+    <rnb>3186</rnb>
+    <tib>'jam dpal gyi sgra brda sprod pa'i skabs lnga pa'i rkang pa gnyis pa'i rnam par 'grel pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66225</vol>
+        <sec>sgra mdo</sec>
+        <debp>245</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>296</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4281</ref>
+    <rnb>3194</rnb>
+    <tib>'jam dpal gyi sgra brda sprod pa'i skabs lnga pa'i rkang pa gnyis pa'i rnam par 'grel pa</tib>
+    <skt/>
+    <coloph>zhes pa sA d+hu kIr+t+ti'i 'jam dpal gyi sgra brda sprod pa dpal ldan ka ling+ga'i dbang phyug byang chub sems dpa'i yul gyi slob dpon rgyal po'i lhas rnam par bkod pa stong phrag brgyad pa las skabs lnga pa'i rkang pa gnyis pa'i 'grel pa rdzogs so</coloph>
+    <colophTitle>rnam par bkod pa stong phrag brgyad pa las skabs lnga pa'i rkang pa gnyis pa'i 'grel pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1510</vol>
+        <sec>mdo 'grel</sec>
+        <debp>231</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>278</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210245</vol>
+        <sec>mdo 'grel</sec>
+        <debp>231</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>278</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211549</vol>
+        <sec>mdo 'grel</sec>
+        <debp>231</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>278</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zha lu lo tsA ba dge slong d+harmA pA la b+ha dra</name>
+        <role>translator</role>
+        <rid>bdr:P856</rid>
+      </translator>
+      <translator>
+        <name>slob dpon rgyal po'i lha</name>
+        <role>author</role>
+        <rid>bdr:P4CZ16863</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2070</ref>
+    <rnb>1</rnb>
+    <tib>skyes pa rabs kyi bstod pa</tib>
+    <skt>dzA ta ka sta ba</skt>
+    <coloph>skyes pa rabs kyi bstod pa slob dpon ye shes grags kyis mdzad pa'o// 'di rgya dpe las bod kyi skad du zhwa lu lo tsA ba dge slong d+harma pA la b+ha dras bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95846</vol>
+        <sec>1</sec>
+        <debp>765</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>771</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1178</ref>
+    <rnb>70</rnb>
+    <tib>skyes pa rabs kyi bstod pa</tib>
+    <skt>dzA ta ka sta ba</skt>
+    <coloph>'di ni rgya dpe las bod kyi skad du/_zhwa lu lo tsA ba dge slong d+harma pA la b+ha dras bsgyur ba'o//_byung cha shas bag tsam bkod bdag legs pa las byung /_tshogs yangs pa rab dang rgyas pa gus pa stug po'i cha yis bdag_/de yis shin tu gzhan phan nges dga' rang gi don la gus pa zhan/_/thams cad mkhyen pa gzhan don la mkhas theg pa gcig par skye bo rnams gyuracig_/skyes rabs kyi bstod pa slob dpon ye shes grags pas mdzad pa'o</coloph>
+    <colophTitle>skyes pa rabs kyi bstod pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1317</vol>
+        <sec>bstod tshogs</sec>
+        <debp>255</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>257</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210052</vol>
+        <sec>bstod tshogs</sec>
+        <debp>255</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>257</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211356</vol>
+        <sec>bstod tshogs</sec>
+        <debp>255</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>257</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zhwa lu lo tsA ba dge slong d+harma pA la b+ha dra</name>
+        <role>translator</role>
+        <rid>bdr:P856</rid>
+      </translator>
+      <translator>
+        <name>slob dpon ye shes grags pa</name>
+        <role>author</role>
+        <rid>bdr:P0ER0006</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

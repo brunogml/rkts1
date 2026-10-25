@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt113.19</ref>
+    <rnb>3856</rnb>
+    <tib>'khrul gzhi rtsad gcod</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>lung drug</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4806</vol>
+        <sec>11</sec>
+        <debp>38</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>40</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz178.15</ref>
+    <rnb>492</rnb>
+    <tib>'khrul gzhi rtsad gcod</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58713</vol>
+        <sec>15</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>1</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4783</ref>
+    <rnb>1</rnb>
+    <tib>mngon par rtogs pa'i snying po</tib>
+    <skt>a b+hi sA ma ye h+ri ta ya</skt>
+    <coloph>dz+nyA na shrI'i mngon par rtogs pa'i snying po/ bla ma kha che dgon pa bas mdzad pa/ paN+Di ta de nyid dang / lo tsA ba dge slong 'phags pa shes rab kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>1187</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1194</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2658</ref>
+    <rnb>2659</rnb>
+    <tib>mngon par rtogs pa'i snying po</tib>
+    <skt>a b+hi sA ma ye h+ri ta ya</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31412</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>369</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>374</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3448</ref>
+    <rnb>2667</rnb>
+    <tib>mngon par rtogs pa'i snying po</tib>
+    <skt>a b+hi sA ma ye h+ri da ya</skt>
+    <coloph>dz+nyA na shrI'i mngon par rtogs pa'i snying po/ bla ma kha che dgon pa bas mdzad pa/ paN+Di ta de nyid dang / lo tsA ba dge slong 'phags pa shes rab kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>244</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>247</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212359</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>244</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>247</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4659</ref>
+    <rnb>2660</rnb>
+    <tib>mngon par rtogs pa'i snying po</tib>
+    <skt>a b+hi sA ma ye h+ri ta ya</skt>
+    <coloph>dz+nyA na shrI'i mngon par rtogs pa'i snying po/ bla ma kha che dgon pa bas mdzad pa/ paN+Di ta de nyid dang / lo tsA ba dge slong 'phags pa shes rab kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13244</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>260</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>263</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>'phags pa shes rab/(āryaprajñā (āryaprajñā jñānaśrīmitra))</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dgon pa pa/(āraṇyaka)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

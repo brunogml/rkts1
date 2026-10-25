@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt212.35</ref>
+    <rnb>6014</rnb>
+    <tib>rig 'dzin gsang ba'i rgyad las sun zlog shes rab dngul gyi a lung</tib>
+    <skt/>
+    <coloph>tshe dbang gsang sngags grags pas yongs rdzong dpal gyi phug nas drangs pa'o//</coloph>
+    <colophTitle/>
+    <margin>sun zlog</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4905</vol>
+        <sec>35</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt281.55</ref>
+    <rnb>7853</rnb>
+    <tib>rig 'dzin gsang ba'i rgyud las sun zlog shes rab dngul gyi a lung</tib>
+    <skt/>
+    <coloph>mi 'gyur tshe dbang gsang sngags grags pas yong rdzong dpal gyi phug nas drangs pa'o</coloph>
+    <colophTitle/>
+    <margin>sun bzlog</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4974</vol>
+        <sec>55</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>5</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

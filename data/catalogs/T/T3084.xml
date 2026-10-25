@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2673</ref>
+    <rnb>1</rnb>
+    <tib>dud sol ma'i sgrub thabs</tib>
+    <skt>d+hU mang+gA ri sA d+ha naM</skt>
+    <coloph>dngos grub brnyes pa'i paN+DI ta chen po shrI ba na rat+na'i zhal snga nas mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95859</vol>
+        <sec>1</sec>
+        <debp>1686</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1688</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1713</ref>
+    <rnb>657</rnb>
+    <tib>dud sol ma'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66059</vol>
+        <sec>rgyud</sec>
+        <debp>265</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>266</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1769</ref>
+    <rnb>667</rnb>
+    <tib>dud sol ma'i sgrub thabs</tib>
+    <skt>d+hU mang+gA ri sA d+ha naM</skt>
+    <coloph>oM a kA ro mu khaM sarba d+harmA NAM Ad+ya nut+pan+na twAta ces bya bas spros pa med pa'i ngang du gnas par bya ba 'di ni dud pa'i sol ba ma sgrub pa'i thabs yin no//__dngos grub brnyes pa'i slob dpon chen po dpal nags kyi rin chen zhabs kyis mdzad pa'o</coloph>
+    <colophTitle>dud pa'i sol ba ma sgrub pa'i thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1344</vol>
+        <sec>rgyud</sec>
+        <debp>266</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>266</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210079</vol>
+        <sec>rgyud</sec>
+        <debp>266</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>266</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211383</vol>
+        <sec>rgyud</sec>
+        <debp>266</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>266</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dngos grub brnyes pa'i slob dpon chen po dpal nags kyi rin chen</name>
+        <role>author</role>
+        <rid>bdr:P207</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

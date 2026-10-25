@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3492</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo dang bsres pa</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti bi d+hi sU tra pi tri tra</skt>
+    <coloph>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo don mdor bsgyur pa'i cho ga sgyu 'phrul dra ba'i rgyud le'u khri drug stong las rdo rje glur blangs pa'i le'u yi sgrub thabs mdo dang bsras pa/ slob dpon 'jam dpal bshes gnyen gyis mdzad pa/ rgya gar gyi mkhan po su badz+ra dang / bod kyi lo tsA ba chos kyi shes rab kyis bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95878</vol>
+        <sec>1</sec>
+        <debp>134</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>141</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>A</coll>
+    <ref>A3512</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo dang bsres pa</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti bi d+hi sU tra pin+t+ri ta</skt>
+    <coloph>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo'i don mdor bsdus pa'i cho ga / slob dpon 'jam dpal bshes gnyen gyis mdzad pa/ sgyu 'phrul dra ba'i rgyud le'u drug stong pa las/ rdo rje glu gar blangs pa'i le'u'i sgrub thabs mdo dang bsres pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95878</vol>
+        <sec>1</sec>
+        <debp>819</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>826</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2528</ref>
+    <rnb>1462</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo dang bsres pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66096</vol>
+        <sec>rgyud</sec>
+        <debp>32</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>34</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2572</ref>
+    <rnb>1472</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo dang bsres pa</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti bi d+hi sU tra pi tri tra</skt>
+    <coloph>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo don mdor bsgyur pa'i cho ga sgyu 'phrul dra ba'i rgyud le'u khri drug stong las rdo rje glur blangs pa'i le'u yi sgrub thabs mdo dang bsras pa/ slob dpon 'jam dpal bshes gnyen gyis mdzad pa/ rgya gar gyi mkhan po su badz+ra dang / bod kyi lo tsA ba chos kyi shes rab kyis bsgyur ba rdzogs so</coloph>
+    <colophTitle>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i mdo don mdor bsdus pa'i cho ga sgyu 'phrul dra ba'i rgyud le'u khri drug stong pa las rdo rje glur blangs pa'i le'u'i sgrub thabs mdo dang bsres pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1381</vol>
+        <sec>rgyud</sec>
+        <debp>32</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>34</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210116</vol>
+        <sec>rgyud</sec>
+        <debp>32</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>34</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211420</vol>
+        <sec>rgyud</sec>
+        <debp>32</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>34</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po su badzra</name>
+        <role>translator</role>
+        <rid>bdr:P3891</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba chos kyi shes rab</name>
+        <role>translator</role>
+        <rid>bdr:P3890</rid>
+      </translator>
+      <translator>
+        <name>slob dpon 'jam dpal bshes gnyen</name>
+        <role>author</role>
+        <rid>bdr:P8398</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1403</ref>
+    <rnb>1405</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo dang bsres pa</tib>
+    <skt>Ar+ya amny+dzu shrI nA ma saM gI ti bi d+hi sU tra pi t+wi tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31399</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>44</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>47</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2195</ref>
+    <rnb>1412</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo dang bsres pa</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti bi d+hi sU tra bi tri tra</skt>
+    <coloph>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo don mdor bsgyur pa'i cho ga sgyu 'phrul dra ba'i rgyud le'u khri drug stong las rdo rje glur blangs pa'i le'u yi sgrub thabs mdo dang bsras pa/ slob dpon 'jam dpal bshes gnyen gyis mdzad pa/ rgya gar gyi mkhan po su badz+ra dang / bod kyi lo tsA ba chos kyi shes rab kyis bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3313</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>35</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>38</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212346</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>35</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>38</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3399</ref>
+    <rnb>1400</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo dang bsres pa</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti bi d+hi sU tra pi tri tra</skt>
+    <coloph>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i cho ga mdo don mdor bsdus pa'i cho ga sgyu 'phrul dra ba'i rgyud le'u khri drug stong las rdo rje glur blangs pa'i le'u yi sgrub thabs mdo dang bsres pa/_slob dpon 'jam dpal bshes gnyen gyis mdzad pa/_rgya gar gyi mkhan po su badzra dang /_bod kyi lo tsA ba chos kyi shes rab kyis bsgyur ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13231</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>39</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>42</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>chos kyi shes rab/(dharmaprajñā)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>'jam dpal bshes gnyen/(mañjuśrīmitra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

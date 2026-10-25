@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5368</ref>
+    <rnb>1</rnb>
+    <tib>'dus byas dang 'dus ma byas rnam par nges pa zhes bya ba</tib>
+    <skt>saM skr-i ta a saM skr-i ta bi ni Sh+tsa ya nA ma</skt>
+    <coloph>dus byas dang 'dus ma byas rnam par nges pa zhes bya ba/ shAkya'i dge slong paN+Di ta gnas brtan chen po stobs cu dpal bshes gnyen gyis mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95908</vol>
+        <sec>1</sec>
+        <debp>293</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>864</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3864</ref>
+    <rnb>2800</rnb>
+    <tib>'dus byas dang 'dus ma byas rnam par nges pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66139</vol>
+        <sec>dbu ma</sec>
+        <debp>109</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>314</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3897</ref>
+    <rnb>2809</rnb>
+    <tib>'dus byas dang 'dus ma byas rnam par nges pa zhes bya ba</tib>
+    <skt>saM skr-i ta a saM skr-i ta bi ni Sh+tsa ya nA ma</skt>
+    <coloph>'dus byas dang 'dus ma byas rnam par nges pa zhes bya ba/_shAkya'i dge slong paN+Di ta gnas brtan chen po stobs bcu dpal bshes gnyen gyis mdzad pa rdzogs so</coloph>
+    <colophTitle>'dus byas dang 'dus ma byas rnam par nges pa zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1424</vol>
+        <sec>mdo 'grel</sec>
+        <debp>109</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>317</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210159</vol>
+        <sec>mdo 'grel</sec>
+        <debp>109</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>317</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211463</vol>
+        <sec>mdo 'grel</sec>
+        <debp>109</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>317</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>shAkya'i dge slong paN+Di ta gnas brtan chen po stobs bcu dpal bshes gnyen</name>
+        <role>author</role>
+        <rid>bdr:P4CZ73591</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3878</ref>
+    <rnb>3873</rnb>
+    <tib>'dus byas dang 'dus ma byas rnam par nges pa zhes bya ba</tib>
+    <skt>saM skr-i ta a saM skr-i ta bi niSh+tsa ya nA ma</skt>
+    <coloph>'dus byas dang 'dus ma byas rnam par nges pa zhes bya ba/ shAkya'i dge slong paN+Di ta gnas brtan chen po stobs cu dpal bshes gnyen gyis mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31553</vol>
+        <sec>rdor gcod</sec>
+        <debp>6</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>323</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4663</ref>
+    <rnb>3882</rnb>
+    <tib>'dus byas dang 'dus ma byas rnam par nges pa zhes bya ba</tib>
+    <skt>saM skr-i ta a saM skr-i ta bi ni Sh+tsa ya nA ma</skt>
+    <coloph>'dus byas dang 'dus ma byas rnam par nges pa zhes bya ba/ shAkya'i dge slong paN+Di ta gnas brtan chen po stobs cu dpal bshes gnyen gyis mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3467</vol>
+        <sec>mdo 'grel</sec>
+        <debp>6</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>256</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212500</vol>
+        <sec>mdo 'grel</sec>
+        <debp>6</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>256</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5865</ref>
+    <rnb>3867</rnb>
+    <tib>'dus byas dang 'dus ma byas rnam par nges pa zhes bya ba</tib>
+    <skt>saM skr-i ta a saM skri ta bi niSh+tsa ya nA ma</skt>
+    <coloph>'dus byas dang 'dus ma byas rnam par nges pa zhes bya ba/ shAkya'i dge slong paN+Di ta gnas brtan chen po stobs cu dpal bshes gnyen gyis mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13385</vol>
+        <sec>mdo 'grel</sec>
+        <debp>5</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>270</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>stobs bcu dpal bshes gnyen/(daśabalaśrīmitra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

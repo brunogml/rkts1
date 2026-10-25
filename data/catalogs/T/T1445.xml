@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3539</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti sA d+ha na nA ma</skt>
+    <coloph>bcom ldan 'das 'jam dpal gyi sgrub pa'i thabs/ slob dpon so ma shrIsa mdzad pa rdzogs so/ /rgya gar gyi mkhan po chen po paN+Di ta ma hA dz+nyA na dang / bod kyi lo tsA ba dge slong gzhon nu 'od kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95878</vol>
+        <sec>1</sec>
+        <debp>1092</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1136</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1450</ref>
+    <rnb>1452</rnb>
+    <tib>'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i sgrub thabs zhes bya ba</tib>
+    <skt>Ar+ya many+dzu shrI nA ma saM gI ti sA d+ha nA ma</skt>
+    <coloph>bcom ldan 'das 'jam dpal gyi sgrub pa'i thabs/ slob dpon so ma shrIs mdzad pa rdzogs so/ /rgya gar gyi mkhan po chen po paN+Di ta ma hA dz+nyA na dang / bod kyi lo tsA ba dge slong gzhon nu 'od kyis bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31400</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>139</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>162</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

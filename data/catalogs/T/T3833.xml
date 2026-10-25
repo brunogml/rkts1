@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5151</ref>
+    <rnb>1</rnb>
+    <tib>rlung skyon sel ba'i go rims</tib>
+    <skt/>
+    <coloph>slob dpon chen po 'bir ba pas mdzad pa'i rlung skyon sel ba'i go rim ye ger bkod pa/ bod yul du rnal 'byor gyi dbang phyug a mo g+ha badz+rasa rang 'gyur du mdzad cing gsungs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>320</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>331</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3078</ref>
+    <rnb>3079</rnb>
+    <tib>rlung skyon sel ba'i go rim</tib>
+    <skt/>
+    <coloph>slob dpon chen po 'bir ba pas mdzad pa'i rlung skyon sel ba'i go rim ye ger bkod pa/ bod yul du rnal 'byor gyi dbang phyug a mo g+ha badz+ras rang 'gyur du mdzad cing gsungs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31424</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>176</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>180</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3867</ref>
+    <rnb>3087</rnb>
+    <tib>rlung skyon sel ba'i go rim</tib>
+    <skt/>
+    <coloph>slob dpon chen po 'bir ba pas mdzad pa'i rlung skyon sel ba'i go rim ye ger bkod pa/ bod yul du rnal 'byor gyi dbang phyug a mo g+ha badz+ras rang 'gyur du mdzad cing gsungs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3338</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>113</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>115</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212371</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>113</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>115</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5078</ref>
+    <rnb>3079</rnb>
+    <tib>rlung skyon sel ba'i go rim</tib>
+    <skt/>
+    <coloph>slob dpon chen po 'bir wa pas mdzad pa'i rlung skyon sel ba'i go rim ye ger bkod pa'o/_bod yul du rnal 'byor gyi dbang phyug chen po a mo g+ha badzras rang 'gyur du mdzad cing gsungs s</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13256</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>124</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>128</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>virūpa</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

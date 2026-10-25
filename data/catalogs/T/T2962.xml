@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5047</ref>
+    <rnb>1</rnb>
+    <tib>gnod sbyin nag po chen po'i sgrub thabs zhes bya ba</tib>
+    <skt>ka la yak+Sha ma hA sa d+ha na nA ma</skt>
+    <coloph>gnod sbyin nag po'i sgrub thabs/ slob dpon chen po las kyi rdo rjes kong kha na'i 'od ma'i tshal du/ rang gi slob ma rje btsun chen po thang lo pas gsol ba btab nas mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta wa la tsan+d+ra dang / bod kyi lo tsA ba glan chung dar ma tshul khrims kyis gus par bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>641</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>648</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2962</ref>
+    <rnb>2963</rnb>
+    <tib>gnod sbyin nag po chen po'i sgrub thabs zhes bya ba</tib>
+    <skt>ka la yak+Sha ma hA sa d+ha na nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>67</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>70</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3752</ref>
+    <rnb>2972</rnb>
+    <tib>gnod sbyin nag po chen po'i sgrub thabs zhes bya ba</tib>
+    <skt>ka la yak+Sha ma hA sa d+ha na nA ma</skt>
+    <coloph>gnod sbyin nag po'i sgrub thabs/ slob dpon chen po las kyi rdo rjes kong kha na'i 'od ma'i tshal du/ rang gi slob ma rje btsun chen po thang lo pas gsol ba btab nas mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta wa la tsan+d+ra dang / bod kyi lo tsA ba glan chung dar ma tshul khrims kyis gus par bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>51</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>53</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>51</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>53</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4963</ref>
+    <rnb>2964</rnb>
+    <tib>gnod sbyin nag po chen po'i sgrub thabs zhes bya ba</tib>
+    <skt>ka la yak+Sha ma hA sa d+ha na na ma</skt>
+    <coloph>gnod sbyin nag po'i sgrub thabs/ slob dpon chen po las kyi rdo rjes kong kha na'i 'od ma'i tshal du/ rang gi slob ma rje btsun chen po thang lo pas gsol ba btab nas mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta wa la tsan+d+ra dang / bod kyi lo tsA ba glan chung dar ma tshul khrims kyis gus par bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>56</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>58</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>valacandra (bhadracandra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>las kyi rdo rje/(karmavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

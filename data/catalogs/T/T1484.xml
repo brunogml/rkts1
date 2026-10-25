@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3581</ref>
+    <rnb>1</rnb>
+    <tib>rgyan dam pa sna tshogs pa rim par phye ba bkod pa</tib>
+    <skt/>
+    <coloph>rgya gar gyi mkhan po s+thi ra ma tis yo ga'i gzhung rgyud phyi nang las nges don mdor bsdus te mdzad pa/ rgyan dam pa'i le'u bam po gcig tu byas pa rdzogs so/ /cog ro klu'i rgyal mtshan gyis skad phyi mo dang thug pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95879</vol>
+        <sec>1</sec>
+        <debp>1631</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1693</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1489</ref>
+    <rnb>1491</rnb>
+    <tib>rgyan dam pa sna tshogs pa rim par phye ba bkod pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31402</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>431</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>465</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3485</ref>
+    <rnb>1486</rnb>
+    <tib>rgyan dam pa sna tshogs pa rim par phye ba bkod pa zhes bya ba</tib>
+    <skt/>
+    <coloph>rgya gar gyi mkhan po s+thi ra ma tis yo ga'i gzhung rgyud phyi nang las nges don mdor bsdus te mdzad pa/_rgyan dam pa'i le'u bam po gcig tu byas pa rdzogs so/_/cog gru klu'i rgyal mtshan gyis skad phyi mo dang thug pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13234</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>351</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>381</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>klu'i rgyal mtshan/(nāgadhvaja)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>sthiramati</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

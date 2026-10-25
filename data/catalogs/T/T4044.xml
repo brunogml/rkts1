@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1982</ref>
+    <rnb>924</rnb>
+    <tib>gshin rje gshed dmar po'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66079</vol>
+        <sec>rgyud</sec>
+        <debp>120</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>121</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2031</ref>
+    <rnb>934</rnb>
+    <tib>gshin rje gshed dmar po'i sgrub thabs</tib>
+    <skt>rak+ta ya mA ri sA d+ha naM</skt>
+    <coloph>gshin rje gshed dmar po'i sgrub thabs dpal rnam par snang mdzad srung bas mdzad pa rdzogs so// // rgya gar gyi mkhan po bla ma rje btsun chen po nyi ma'i dbang po'i 'od zer gyi zhal snga nas tshag lo tsA ba dge slong chos rje dpal gyis bsgyur cing zhus te gtan la phab pa'o//</coloph>
+    <colophTitle>gshin rje gshed dmar po'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1364</vol>
+        <sec>rgyud</sec>
+        <debp>119</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>120</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210099</vol>
+        <sec>rgyud</sec>
+        <debp>119</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>120</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211403</vol>
+        <sec>rgyud</sec>
+        <debp>119</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>120</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>tshag lo tsA ba dge slong chos rje dpal</name>
+        <role>translator</role>
+        <rid>bdr:P1025</rid>
+      </translator>
+      <translator>
+        <name>dpal rnam par snang mdzad srung ba</name>
+        <role>author</role>
+        <rid>bdr:P2CZ7929</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1682</ref>
+    <rnb>898</rnb>
+    <tib>gshin rje gshed dmar po'i sgrub thabs</tib>
+    <skt>rak+ta ya mA ri sA d+ha naM</skt>
+    <coloph>gshin rje gshed dmar po'i sgrub pa'i thabs dpal rnam par snang mdzad srung bas mdzad pa rdzogs so/ /rgya gar gyi mkhan po bla ma rje btsun chen po nyi ma'i dbang po'i 'od zer snga nas/ chag lo tsA ba dge slong chos rje dpal gyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3296</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>391</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>392</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212329</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>391</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>392</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2887</ref>
+    <rnb>888</rnb>
+    <tib>gshin rje gshed dmar po'i sgrub thabs</tib>
+    <skt>rak+ta ya mA ri sA d+ha naM</skt>
+    <coloph>gshin rje gshed dmar po'i sgrub pa'i thabs dpal rnam par snang mdzad srung bas mdzad pa rdzogs so/_/rgya gar gyi mkhan po bla ma rje btsun chen po nyi ma'i dbang po'i 'od zer gyi zhal snga nas dang /_chag lo tsA ba dge slong chos rje dpal gyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13214</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>427</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>429</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>chos rje dpal/(dharmasvāmiśrī)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nyi ma'i dbang po'i 'od zer/(ravīndraprabhā)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>rnam par snang mdzad srung ba/(vairocanarakṣita)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

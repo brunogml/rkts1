@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2812</ref>
+    <rnb>1</rnb>
+    <tib>rgya che ba'i tshig bsdus pa zhes bya ba rab tu gnas pa'i cho ga</tib>
+    <skt>bi Sha da pa da saM gra ho nA ma pra tiSh+ThA bi d+hi</skt>
+    <coloph>zhes bya ba slob dpon dpal kA ca zhabs kyis mdad pa rdzogs so// 'di bod kyi skad du/ dri ma med pa mkhyen brtse'i dban gphyug / chos kyi rje chen po rgyal dbang sprul sku rin po che'i zhal snga nas kyis bka' bzhin/ zha lu lo tsA ba dge slong d+harma pA la b+ha dras/ sa skyong dam pa dpon chen kun dga' bsod nams rin chen dbang gi rgyal po'i bdag rkyen las/ dben gnas dpal e waM chos 'khor du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95868</vol>
+        <sec>1</sec>
+        <debp>58</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>83</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1853</ref>
+    <rnb>795</rnb>
+    <tib>rgya che ba'i tshig bsdus pa zhes bya ba rab tu gnas pa'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66076</vol>
+        <sec>rgyud</sec>
+        <debp>21</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>31</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1906</ref>
+    <rnb>805</rnb>
+    <tib>rgya che ba'i tshig bsdus pa zhes bya ba rab tu gnas pa'i cho ga</tib>
+    <skt>bi Sha da pa da saM gra ho nA ma pra tiSh+ThA bi d+hi</skt>
+    <coloph>ces pa rgya che ba'i tshig bsdus pa zhes bya ba rab tu gnas pa'i cho ga slob dpon dpal kA tsa zhabs kyis mdzad pa 'di rdzogs so//_'di bod kyi skad du/_dri ma med pa'i mkhyen brtse'i dbang phyug_/chos kyi rje chen po rgyal dbang sprul sku rin po che'i zhal snga nas kyi bka' bzhin/_zha lu lo tsA ba dge slong d+harma pA la b+ha dras/_/sa skyong dam pa dpon chen kun dga' bsod nams rin chen dbang gi rgyal po'i bdag rkyen las/_/bden gnas dpal e waM chos 'khor du bsgyur ba'o</coloph>
+    <colophTitle>ces pa rgya che ba'i tshig bsdus pa zhes bya ba rab tu gnas pa'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1361</vol>
+        <sec>rgyud</sec>
+        <debp>21</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>31</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210096</vol>
+        <sec>rgyud</sec>
+        <debp>21</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>31</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211400</vol>
+        <sec>rgyud</sec>
+        <debp>21</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>31</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zha lu lo tsA ba dge slong d+harma pA la b+ha dra</name>
+        <role>translator</role>
+        <rid>bdr:P856</rid>
+      </translator>
+      <translator>
+        <name>slob dpon dpal kA tsa zhabs</name>
+        <role>author</role>
+        <rid>bdr:P0AT0023</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

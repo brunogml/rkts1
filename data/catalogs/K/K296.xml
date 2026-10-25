@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A314</ref>
+    <rnb>313</rnb>
+    <tib>gzhon nu'i dpe'i mdo</tib>
+    <skt>ku mA ra dr-iSh+TAn+ta sU tra</skt>
+    <coloph>gzhon nu'i dpe'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96854</vol>
+        <sec>1</sec>
+        <debp>796</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>800</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B303</ref>
+    <rnb>302</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-79</vol>
+        <sec>mdo sde</sec>
+        <debp>364</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>366</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba100.11</ref>
+    <rnb>564</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>1BL425</vol>
+        <sec>1</sec>
+        <debp>323</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>323</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C935</ref>
+    <rnb>935</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105114</vol>
+        <sec>mdo</sec>
+        <debp>350</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>352</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-51</vol>
+        <sec>mdo</sec>
+        <debp>350</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>352</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz106-014</ref>
+    <rnb>766</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku Ma ra triSh+Ta na ta sU tra</skt>
+    <coloph>gzhon nu dpe'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-106</vol>
+        <sec>mdo sde</sec>
+        <debp>205</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>207</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D296</ref>
+    <rnb>297</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku mA ra dr-i Sh+TAn+ta sU tra</skt>
+    <coloph>gzhon nu dpe'i mdo rdzogs so</coloph>
+    <colophTitle>gzhon nu dpe'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0956</vol>
+        <sec>mdo sde</sec>
+        <debp>295</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>297</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6418</vol>
+        <sec>mdo sde</sec>
+        <debp>295</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>297</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20670</vol>
+        <sec>mdo sde</sec>
+        <debp>295</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>297</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9197</vol>
+        <sec>mdo sde</sec>
+        <debp>295</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>297</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd053-009</ref>
+    <rnb>214</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku mA ra dr-iSh+TAnta sU tra</skt>
+    <coloph>gzhon nu'i dpe'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-53</vol>
+        <sec>mdo sde</sec>
+        <debp>420</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>423</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk058-014</ref>
+    <rnb>327</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku Ma ra triSh+Ta na ta sU tra</skt>
+    <coloph>gzhon nu dpe'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-58</vol>
+        <sec>mdo sde</sec>
+        <debp>256</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>258</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm23.32</ref>
+    <rnb>214</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku ma ra tri shan ta su tra</skt>
+    <coloph>gzhon nu dpe'i mdo' rdzogs s+ho //</coloph>
+    <colophTitle>gzhon nu dpe'i mdo'</colophTitle>
+    <margin>gzho nu</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL933</vol>
+        <sec>mdo</sec>
+        <debp>112</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr964</ref>
+    <rnb>1012</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM87</vol>
+        <sec>mdo</sec>
+        <debp>461</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>463</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Go</coll>
+    <ref>Go35,12</ref>
+    <rnb>278</rnb>
+    <tib>gzho nu dpe'i mdo'</tib>
+    <skt>kun la ri sh+han ta su tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG5016</setid>
+        <vol>2KG212546</vol>
+        <sec>1</sec>
+        <debp>190</debp>
+        <debf>b</debf>
+        <debl>9</debl>
+        <finp>192</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>dupicated Go23,12</note>
+  </item>
+  <item>
+    <coll>Go</coll>
+    <ref>Go23,12</ref>
+    <rnb>154</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku ma ra tri shwan ta su tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG5016</setid>
+        <vol>2KG212534</vol>
+        <sec>1</sec>
+        <debp>64</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>65</finp>
+        <finf>b</finf>
+        <finl>9</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt052-014</ref>
+    <rnb>268</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku Ma ra triSh+Ta na ta sU tra</skt>
+    <coloph>gzhon nu dpe'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-3-19</vol>
+        <sec>mdo sde</sec>
+        <debp>196</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>198</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>H</coll>
+    <ref>H299</ref>
+    <rnb>301</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>-</skt>
+    <coloph>gzhon nu dpe'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW26071</setid>
+        <vol>4097</vol>
+        <sec>mdo sde</sec>
+        <debp>549</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>551</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>He</coll>
+    <ref>He78.33</ref>
+    <rnb>271</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku ma ra tri shan+ta su tra</skt>
+    <coloph>gzhonu dpe'i mdo/ /rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45313</setid>
+        <vol>4CZ75335</vol>
+        <sec>mdo</sec>
+        <debp>143</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>146</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J237</ref>
+    <rnb>258</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku mA ra dr-i Sh+TAn+ta sU tra</skt>
+    <coloph>gzhon nu'i dpe'i mdo rdzogs so//</coloph>
+    <colophTitle>gzhon nu'i dpe'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9933</vol>
+        <sec>mdo sde</sec>
+        <debp>326</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>327</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>L</coll>
+    <ref>L217</ref>
+    <rnb>226</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1048</vol>
+        <sec>mdo sde</sec>
+        <debp>188</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>190</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N281</ref>
+    <rnb>281</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>-</skt>
+    <coloph>gzhon nu dpe'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22703</setid>
+        <vol>5474</vol>
+        <sec>mdo sde</sec>
+        <debp>458</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>460</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5014</setid>
+        <vol>2KG212629</vol>
+        <sec>mdo sde</sec>
+        <debp>458</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>460</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng22.32</ref>
+    <rnb>209</rnb>
+    <tib>gzhon nu'i dpe'i mdo'</tib>
+    <skt>ku ma ra tri shan tu su tra</skt>
+    <coloph>gzhon nu'i dpe'i mdo' rdzogs s+ho //</coloph>
+    <colophTitle/>
+    <margin>gzhon nu</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229052</vol>
+        <sec>mdo</sec>
+        <debp>89</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>90</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np036-014</ref>
+    <rnb>268</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku Ma ra triSh+Ta na ta sU tra</skt>
+    <coloph>gzhon nu dpe'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-36</vol>
+        <sec>mdo sde</sec>
+        <debp>214</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>217</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj067-009</ref>
+    <rnb>530</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku mA ra driSh+TAn+ta sU tra</skt>
+    <coloph>gzhon nu'i dpe'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-67</vol>
+        <sec>mdo sde</sec>
+        <debp>364</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>366</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz067-009</ref>
+    <rnb>526</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku mA ra driSh+TAn+ta sU tra</skt>
+    <coloph>gzhon nu'i dpe'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-67</vol>
+        <sec>mdo sde</sec>
+        <debp>340</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>342</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q962</ref>
+    <rnb>1015</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt/>
+    <coloph>gzhon nu dpe'i mdo rdzogs s.ho||</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96684</setid>
+        <vol>1PD106739</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>324</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>325</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW3CN1094</setid>
+        <vol>3CN1183</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>324</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>325</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R296</ref>
+    <rnb>297</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku mA ra dr-iShTAn+ta sU tra</skt>
+    <coloph>gzhon nu'i dpe'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17335</vol>
+        <sec>mdo sde</sec>
+        <debp>295</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>297</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S302</ref>
+    <rnb>350</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku mA r-i draSh+TAM ta sU tra</skt>
+    <coloph>gzhon nu dpe'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3794</vol>
+        <sec>mdo sde</sec>
+        <debp>208</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>210</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty054-014</ref>
+    <rnb>324</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku mA r-i draSh+TAM ta sU tra</skt>
+    <coloph>gzhon nu dpe'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209916</vol>
+        <sec>mdo sde</sec>
+        <debp>207</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>210</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U296</ref>
+    <rnb>297</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt/>
+    <coloph>gzhon nu dpe'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL291</vol>
+        <sec>mdo sde</sec>
+        <debp>295</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>297</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5365</vol>
+        <sec>mdo sde</sec>
+        <debp>295</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>297</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V348</ref>
+    <rnb>348</rnb>
+    <tib>gzhon nu dpe'i mdo</tib>
+    <skt>ku mA ri tra Sh+TA ta sU tra</skt>
+    <coloph>gzhon nu dpe'i mdo rdzogs s+h+yo</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86314</vol>
+        <sec>mdo sde</sec>
+        <debp>188</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>190</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z312</ref>
+    <rnb>312</rnb>
+    <tib>gzhon nu'i dpe'i mdo</tib>
+    <skt>ku mA ra dr-iSh+TAM ta sU tra</skt>
+    <coloph>gzhon nu dpe'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127542</vol>
+        <sec>mdo sde</sec>
+        <debp>178</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>180</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg29.37</ref>
+    <rnb>317</rnb>
+    <tib>gzhon nu dpe'i mdo'</tib>
+    <skt>ku ma ra tri shan ta su tra</skt>
+    <coloph>gzhon nu dpe'i mdo' rdzogs s+ho //</coloph>
+    <colophTitle>gzhon nu dpe'i mdo'</colophTitle>
+    <margin>gzhun nu dpe'i mdo'</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211202</vol>
+        <sec>mdo</sec>
+        <debp>110</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>112</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg59.37</ref>
+    <rnb>662</rnb>
+    <tib/>
+    <skt/>
+    <coloph>gzho nu dpe'i mdo' rdzogs s+h+yo//</coloph>
+    <colophTitle>gzho nu dpe'i mdo'</colophTitle>
+    <margin/>
+    <note>Beginning of text is missing.</note>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211226</vol>
+        <sec>mdo</sec>
+        <debp>89</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>89</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

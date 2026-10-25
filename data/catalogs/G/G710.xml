@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm35.10</ref>
+    <rnb>614</rnb>
+    <tib>rdo rje phur pa rtsa ba thugs kyi rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-36</vol>
+        <sec>rnying rgyud</sec>
+        <debp>231</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>245</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt35.7</ref>
+    <rnb>624</rnb>
+    <tib>rdo rje phur pa rtsa ba thugs kyi rgyud ces bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-35</vol>
+        <sec>rnying rgyud</sec>
+        <debp>207</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>218</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gkh</coll>
+    <ref>Gkh028.006</ref>
+    <rnb>275</rnb>
+    <tib>rdo rje phur pa rtsa ba thugs kyi rgyud ces bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17382</setid>
+        <vol>1KG81300</vol>
+        <sec>6</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>19</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb045.024</ref>
+    <rnb>710</rnb>
+    <tib>rdo rje phur pa rtsa ba thugs kyi rgyud ces bya ba</tib>
+    <skt>badzra kI la ya mU la tsit+ta nA ma tan+t+ra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>349</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>363</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>gling gzhi'i le'u ste dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>349</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>dregs pa btul nas cho 'phrul bstan pa'i le'u ste gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>350</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>dpal rdo rje gzhon nu'i rtsa ba'i don dngos su bstan pa'i le'u ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>352</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>sras mchog lnga'i sngags dang dbyug brdeg bdug cing byin gyis brlabs par mdzad pa'i le'u ste bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>353</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>'phrin las bsgrub pa'i don bsdus te bstan pa'i le'u ste lnga pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>354</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>6</rn>
+        <name>slob dpon dang/ gnas dang/ 'khor dang/ yo byad dang/ sgrub pa'i dus tshod bstan pa'i le'u ste drug pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>357</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>7</rn>
+        <name>bsgral ba'i zhing bcu bstan pa'i le'u ste bdun pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>358</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>8</rn>
+        <name>dgra bgegs kyi ling ga bca' ba'i le'u ste brgyad pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>359</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>9</rn>
+        <name>dbang dang dam tshig bstan pa'i le'u ste dgu pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>359</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>10</rn>
+        <name>mthar thug de kho na nyid phur pa byang chub sems su bsgrub pa'i le'u ste bcu pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>360</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>11</rn>
+        <name>drod tshad dang rtags kyi le'u ste bcu gcig pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>361</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>12</rn>
+        <name>gsang sngags kyi rgyud gang du dar zhing spyod par 'gyur ba'i lung bstan pa'i le'u ste bcu gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>362</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>13</rn>
+        <name>bstod pa'i le'u ste bcu gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>363</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>14</rn>
+        <name>rgyud gzung zhing gtad pa'i le'u ste bcu bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21650</vol>
+        <sec>1</sec>
+        <debp>363</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

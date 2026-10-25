@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>F</coll>
+    <ref>F241</ref>
+    <rnb>245</rnb>
+    <tib>don dam par bstod pa</tib>
+    <skt>pa ra ma ar+tha sra pa</skt>
+    <coloph>don dam par bstod pa/ blo dpon klu grub kyis mdzad pa rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14090</vol>
+        <sec>mdo sde</sec>
+        <debp>380</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>380</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F391</ref>
+    <rnb>396</rnb>
+    <tib>don dam par bstod pa</tib>
+    <skt>pa ra ma ar tha sta ba</skt>
+    <coloph>don dam par bstod pa slob dpon klu grub kyis mdzad rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14106</vol>
+        <sec>mdo sde</sec>
+        <debp>339</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>340</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

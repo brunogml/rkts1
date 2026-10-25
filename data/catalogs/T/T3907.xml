@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G3385</ref>
+    <rnb>3379</rnb>
+    <tib>snying po bsdu pa zhes bya ba</tib>
+    <skt>saM gra ha gar+b+ha nA ma</skt>
+    <coloph>snying po bsdu pa zhes bya ba/ slob dpon chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /paN+Di ta de nyid dang/ lo tsA ba dge slong tshul khrims 'byung gnas zhi bas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31458</vol>
+        <sec>mdo 'grel</sec>
+        <debp>10</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>11</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5382</ref>
+    <rnb>3383</rnb>
+    <tib>snying po bsdu ba zhes bya ba</tib>
+    <skt>saM gra ha gar+b+ha nA ma</skt>
+    <coloph>snying po bsdu pa zhes bya ba/ slob dpon chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /paN+Di ta de nyid dang/ lo tsA ba dge slong tshul khrims 'byung gnas zhi bas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13290</vol>
+        <sec>mdo 'grel</sec>
+        <debp>9</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>10</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

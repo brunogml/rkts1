@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5062</ref>
+    <rnb>1</rnb>
+    <tib>bgegs bdag chen po'i sku bri ba'i man ngag yid bzhin nor bu zhes bya ba</tib>
+    <skt>ma hA bi na ya ka rU pa u pa de sha rad na nA ma</skt>
+    <coloph>bgegs bdag chen po'i sku bri ba'i man ngag /yid bzhin nor bu zhes bya ba/ slob dpon chen po nag po pas mdzad pa rdzogs so/ /paN+Di ta chen po ga ya d+ha ra dang / lo tsA ba gyi jo zla ba'i 'od zer gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>738</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>740</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2977</ref>
+    <rnb>2978</rnb>
+    <tib>bgegs bdag chen po'i sku bri ba'i man ngag yid bzhin nor bu zhes bya ba</tib>
+    <skt>ma hA bi na ya ka rU pa u pa de sha rad na nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>113</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>114</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3767</ref>
+    <rnb>2987</rnb>
+    <tib>bgegs bdag chen po'i sku bri ba'i man ngag yid bzhin nor bu zhes bya ba</tib>
+    <skt>ma hA bi na ya ka rU pa u pa de sha rad na nA ma</skt>
+    <coloph>bgegs bdag chen po'i sku bri ba'i man ngag /yid bzhin nor bu zhes bya ba/ slob dpon chen po nag po pas mdzad pa rdzogs so/ /paN+Di ta chen po ga ya d+ha ra dang / lo tsA ba gyi jo zla ba'i 'od zer gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>83</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>84</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>83</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>84</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4978</ref>
+    <rnb>2979</rnb>
+    <tib>bgegs bdag chen po'i sku bri ba'i man ngag yid bzhin nor bu zhes bya ba</tib>
+    <skt>ma hA bi na ya ka rI pa u pa de sha rad na nA ma</skt>
+    <coloph>bgegs bdag chen po'i sku bri ba'i man ngag yid bzhin nor bu zhes bya ba/_slob dpon chen po nag po pas mdzad pa rdzogs so/_/paN+Di ta chen po ga ya d+ha ra dang /_lo tsA ba gyi jo zla ba'i 'od zer gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>89</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>89</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gyi jo zla ba'i 'od zer/(candraprabha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nag po/(kṛṣṇa)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks190.30</ref>
+    <rnb>1214</rnb>
+    <tib>khro bo gnam lcags thog mda'i rgyud las ge khod this drug gi dmar zlog</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>dmar bzlog</margin>
+    <locations/>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz167.5</ref>
+    <rnb>354</rnb>
+    <tib>khro bo gnam lcags thog mda' yang gsang gi rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58702</vol>
+        <sec>ka'o2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>20</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

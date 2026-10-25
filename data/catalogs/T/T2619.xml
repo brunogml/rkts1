@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4747</ref>
+    <rnb>1</rnb>
+    <tib>dpal 'khor lo sdom pa'i sbyin bsreg gi cho ga</tib>
+    <skt>shrI tsakra saM ba ra ho ma bI d+hi</skt>
+    <coloph>slob dpon pun+d+ha ri a nan das mdzad pa/ sbyin bsreg gi cho ga le'u rdzogs so/ /rgya gar gyi mkhan po sa bi ta chen po su ma ti kIrti dang / lo tsA ba dge slong seng rgyal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>712</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>730</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2619</ref>
+    <rnb>2620</rnb>
+    <tib>dpal 'khor lo sdom pa'i sbyin bsreg gi cho ga</tib>
+    <skt>shri cakra saM ba ra ho ma bI d+hi</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31412</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>126</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>137</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3409</ref>
+    <rnb>2628</rnb>
+    <tib>dpal 'khor lo sdom pa'i sbyin bsreg gi cho ga</tib>
+    <skt>shrI tsakra saM ba ra ho ma bI d+hi</skt>
+    <coloph>slob dpon pun+d+ha ri nan das mdzad pa/ sbyin bsreg gi cho ga le'u rdzogs so/ /rgya gar gyi mkhan po sa bi ta chen po su ma ti kIrti dang / lo tsA ba dge slong seng rgyal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>82</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>90</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212359</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>82</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>90</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4620</ref>
+    <rnb>2621</rnb>
+    <tib>dpal 'khor lo sdom pa'i sbyin srag gi cho ga</tib>
+    <skt>shrI tsakra saM ba ra ho ma bI d+hi</skt>
+    <coloph>slob dpon pun d+ha ri nan tas mdzad pa/_sbyin sreg gi le'u rdzogs so/_/rgya gar gyi mkhan po sa bi ta chen po su ma ti kIrti dang /_lo tsA ba dge slong seng rgyal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13244</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>82</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>91</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>seng ge rgyal mtshan/(siṁhadhvaja)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>pundharinanta (sundarīnanda)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4905</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje bdud rtsi gsum gyi mngon par rtogs pa</tib>
+    <skt>badzrA mI b+hi sa ma ya tri ta yaM</skt>
+    <coloph>slob dpon byA la'i zhabs dngos grub brnyes pas mdzad pa d+harma'i zhal snga nas kyi rim pa dpal sgyu 'phrul chen mo'i man ngag rdzogs so/ ma hA ma ya'i man ngag dang po 'di rgyal ba kun gyi ngo bo bud+ha nA tha'i gsung las tA ra nA thas bsgyur ba'o/ phyi ma'i gu ru'i rdo rje'i spun ni wANa shrI las glegs baM steng nas zhus pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95889</vol>
+        <sec>1</sec>
+        <debp>602</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>611</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2784</ref>
+    <rnb>2785</rnb>
+    <tib>rdo rje bdud rtsi gsum gyi mngon par rtogs pa</tib>
+    <skt>badzra mI b+hi sa ma ya tri ta yaM</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31415</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>311</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>316</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3574</ref>
+    <rnb>2793</rnb>
+    <tib>rdo rje bdud rtsi gsum gyi mngon par rtogs pa</tib>
+    <skt>badzra mI b+hi sa ma ya tri ta yaM</skt>
+    <coloph>rdo rje bdud rtsi gzhan gsum gyi mngon par rtogs pa/ rgya gar shar phyogs gyi paN+Di ta chen po nags kyi rin chen gyi zhal snga nas/ rdo rje bdud rtsi'i rgyud las phyung ba ste/ pan chen de nyid dang gzhon nu dpal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3329</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>258</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212362</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>258</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4785</ref>
+    <rnb>2786</rnb>
+    <tib>rdo rje bdud rtsi gsum gyi mngon par rtogs pa</tib>
+    <skt>badzrA mI b+hi sa ma ya tri ta yaM</skt>
+    <coloph>rdo rje bdud rtsi gzhan gsum gyi mngon par rtogs pa/ rgya gar shar phyogs gyi paN+Di ta chen po nags kyi rin chen gyi zhal snga nas/ rdo rje bdud rtsi'i rgyud las phyung ba ste/ pan chen de nyid dang gzhon nu dpal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13247</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>257</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gzhon nu dpal/(kumāraśrī)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nags kyi rin chen/(vanaratna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nags kyi rin chen/(vanaratna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

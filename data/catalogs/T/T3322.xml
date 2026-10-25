@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5455</ref>
+    <rnb>1</rnb>
+    <tib>sangs rgyas rjes su dran pa'i 'grel pa</tib>
+    <skt>bud+d+ha a nu smr-i ti br-it+ti</skt>
+    <coloph>sangs rgyas rjes su dran pa'i 'grel pa/ slob dpon thog med kyis mdzad pa rdzogs so/ /rgya gar gyi mkhan po dzi ta shrI b+ha dra dang / bod kyi lo tsA ba dge slong shAkya 'od kyi bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95910</vol>
+        <sec>1</sec>
+        <debp>753</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>763</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3949</ref>
+    <rnb>2885</rnb>
+    <tib>sangs rgyas rjes su dran pa'i 'grel ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66144</vol>
+        <sec>mdo sde</sec>
+        <debp>11</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>15</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3982</ref>
+    <rnb>2894</rnb>
+    <tib>sangs rgyas rjes su dran pa'i 'grel ba</tib>
+    <skt>bud+d+ha a nu smr-i ti br-it+ti</skt>
+    <coloph>sangs rgyas rjes su dran pa'i 'grel pa/_slob dpon thogs med kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>sangs rgyas rjes su dran pa'i 'grel pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1429</vol>
+        <sec>mdo 'grel</sec>
+        <debp>11</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>15</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210164</vol>
+        <sec>mdo 'grel</sec>
+        <debp>11</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>15</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211468</vol>
+        <sec>mdo 'grel</sec>
+        <debp>11</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>15</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po a dzi ta shrI b+ha dra</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ16770</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba dge slong shAkya 'od</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ16819</rid>
+      </translator>
+      <translator>
+        <name>slob dpon thogs med</name>
+        <role>author</role>
+        <rid>bdr:P6117</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3485</ref>
+    <rnb>3479</rnb>
+    <tib>sangs rgyas rjes su dran pa'i 'grel pa</tib>
+    <skt>bud+d+hA nu smr-i ti br-it+ti</skt>
+    <coloph>sangs rgyas rjes su dran pa'i 'grel pa/ slob dpon thog med kyis mdzad pa rdzogs so/ /rgya gar gyi mkhan po dzi ta shrI b+ha dra dang / bod kyi lo tsA ba dge slong shAkya 'od kyi bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31459</vol>
+        <sec>mdo 'grel</sec>
+        <debp>16</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>21</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4271</ref>
+    <rnb>3491</rnb>
+    <tib>sangs rgyas rjes su dran pa'i 'grel ba</tib>
+    <skt>bud+d+hA nu smr-i ti br-it+ti</skt>
+    <coloph>sangs rgyas rjes su dran pa'i 'grel pa/ slob dpon thog med kyis mdzad pa rdzogs so/ /rgya gar gyi mkhan po dzi ta shrI b+ha dra dang / bod kyi lo tsA ba dge slong shAkya 'od kyi bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3373</vol>
+        <sec>mdo 'grel</sec>
+        <debp>13</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>17</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212406</vol>
+        <sec>mdo 'grel</sec>
+        <debp>13</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>17</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5482</ref>
+    <rnb>3483</rnb>
+    <tib>sangs rgyas rjes su dran pa'i 'grel pa</tib>
+    <skt>bud+d+hA nu srmi ti br-it+ti</skt>
+    <coloph>sangs rgyas rjes su dran pa'i 'grel pa/_slob dpon thogs med kyis mdzad pa rdzogs so/_/rgya gar gyi mkhan po a dzi ta shrI b+ha drA dang /_bod kyi lo tsA ba dge slong shAkya 'od kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13291</vol>
+        <sec>mdo 'grel</sec>
+        <debp>14</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>18</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>thogs med/(asaṅga)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm29.95</ref>
+    <rnb>404</rnb>
+    <tib>bdud rtsi'i zhes bya ba'i gzungs</tib>
+    <skt>a mri ta b+he'i shad dz+ya na ma da ra ni</skt>
+    <coloph>bdud rtsi sman zhes bya ba'i gzungs //_//rdzogs s+ho //</coloph>
+    <colophTitle>bdud rtsi sman zhes bya ba'i gzungs</colophTitle>
+    <margin>bdun rtsi sman</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL939</vol>
+        <sec>mdo</sec>
+        <debp>303</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>304</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>This work seems to be found only in Sutra collections.</note>
+  </item>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm116.102</ref>
+    <rnb>787</rnb>
+    <tib>bdud rtsi sman zhes bya ba'i gzungs</tib>
+    <skt>a mri ta b+he'i sh+ya dzya ma da ra ni</skt>
+    <coloph>bdud rtsi sman zhes bya ba'i gzungs rdzogs s+h+yo//</coloph>
+    <colophTitle>bdud rtsi sman zhes bya ba'i gzungs</colophTitle>
+    <margin>rdu rtsi</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL1026</vol>
+        <sec>gzungs 'dus</sec>
+        <debp>288</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>288</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Other than here, this work seems to be found only in Sutra collections.</note>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng46.91</ref>
+    <rnb>434</rnb>
+    <tib>bdud rtsi sman zhes bya ba'i gzungs</tib>
+    <skt>a mri ta b+he 'i shad dz+ya na ma da ra ni</skt>
+    <coloph>bdud rtsi sman zhes bya ba'i gzungs rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229076</vol>
+        <sec>mdo</sec>
+        <debp>225</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>225</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>This work seems to be found only in Sutra collections.</note>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg29.126</ref>
+    <rnb>406</rnb>
+    <tib>bdud rtsi sman zhes bya ba'i gzungs</tib>
+    <skt>a mri ta b+he'i shang dz+ya na ma da ra ni</skt>
+    <coloph>bdud rtsi sman zhes bya ba 'i gzungs rdzogs s+ho //</coloph>
+    <colophTitle>bdud rtsi sman zhes bya ba 'i gzungs</colophTitle>
+    <margin>bdud rtsi sman</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211202</vol>
+        <sec>mdo</sec>
+        <debp>323</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>323</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg59.126</ref>
+    <rnb>751</rnb>
+    <tib>bdud rtsi sman zhes bya ba'i gzungs</tib>
+    <skt>a rmri ta b+he 'i shang dz+ya na ma da ra ni</skt>
+    <coloph>bdud rtsi sman zhes bya ba'i gzungs rdzogs+ho//</coloph>
+    <colophTitle>bdud rtsi sman zhes bya ba'i gzungs</colophTitle>
+    <margin/>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211226</vol>
+        <sec>mdo</sec>
+        <debp>280</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>280</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

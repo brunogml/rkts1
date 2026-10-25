@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5090</ref>
+    <rnb>1</rnb>
+    <tib>reg 'bigs ma'i bsgrub thabs</tib>
+    <skt>b+ha ya shu la stam b+ha san tsa na</skt>
+    <coloph>slob dpon ar+ya d+he bas mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>860</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>862</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3005</ref>
+    <rnb>3006</rnb>
+    <tib>reg 'bigs ma'i bsgrub thabs</tib>
+    <skt>b+ha ya shu la stam b+ha san tsa na</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>166</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>167</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3795</ref>
+    <rnb>3015</rnb>
+    <tib>reg 'bigs ma'i sgrub thabs</tib>
+    <skt>b+ha ya shu la sta ma b+ha sa na tsa na</skt>
+    <coloph>slob dpon ar+ya d+he bas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>119</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>120</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>119</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>120</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5006</ref>
+    <rnb>3007</rnb>
+    <tib>reg 'bigs ma'i bsgrub thabs</tib>
+    <skt>b+ha ya shu la stam b+ha san tsa na</skt>
+    <coloph>slob dpon ar+ya d+he bas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>128</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>128</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>aryadheva (āryadeva)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

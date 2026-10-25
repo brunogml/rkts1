@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2027</ref>
+    <rnb>1</rnb>
+    <tib>mdzad pa bcu gnyis kyi tshul la bstod pa</tib>
+    <skt>d+wI da sha kA ra nA ma na ya sto tra</skt>
+    <coloph>mdzad pa bcu gnyis kyi tshul la bstod pa zhes bya ba slob dpon klu sgrub gyi mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95846</vol>
+        <sec>1</sec>
+        <debp>255</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>257</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1082</ref>
+    <rnb>26</rnb>
+    <tib>mdzad pa bcu gnyis kyi tshul la bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66032</vol>
+        <sec>bstod tshogs</sec>
+        <debp>94</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>95</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1135</ref>
+    <rnb>27</rnb>
+    <tib>mdzad pa bcu gnyis kyi tshul la bstod pa</tib>
+    <skt>d+vI da sha kA ra nA ma ya sto tra</skt>
+    <coloph>mdzad pa bcu gnyis kyi tshul la bstod pa zhes bya ba slob dpon chen po 'phags pa klu sgrub kyis mdzad pa rdzogs so//</coloph>
+    <colophTitle>mdzad pa bcu gnyis kyi tshul la bstod pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1317</vol>
+        <sec>bstod tshogs</sec>
+        <debp>82</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>83</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210052</vol>
+        <sec>bstod tshogs</sec>
+        <debp>82</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>83</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211356</vol>
+        <sec>bstod tshogs</sec>
+        <debp>82</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>83</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon chen po 'phags pa klu sgrub</name>
+        <role>author</role>
+        <rid>bdr:P4954</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G26</ref>
+    <rnb>26</rnb>
+    <tib>mdzad pa bcu gnyis kyi tshul la bstod pa zhes bya ba</tib>
+    <skt>d+wI da sha kA ra nA ma na yA sto traM</skt>
+    <coloph>mdzad pa bcu gnyis kyi tshul la bstod pa zhes bya ba slob dpon klu sgrub gyi mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31338</vol>
+        <sec>bstod tshogs</sec>
+        <debp>118</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>119</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N815</ref>
+    <rnb>26</rnb>
+    <tib>mdzad pa bcu gnyis kyi tshul la bstod pa zhes bya ba</tib>
+    <skt>d+wId sha kA ra nA ma na yA sto traM</skt>
+    <coloph>mdzad pa bcu gnyis kyi tshul la bstod pa zhes bya ba slob dpon klu sgrub gyi mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3252</vol>
+        <sec>bstod tshogs</sec>
+        <debp>91</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>92</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212285</vol>
+        <sec>bstod tshogs</sec>
+        <debp>91</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>92</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2026</ref>
+    <rnb>26</rnb>
+    <tib>mdzad pa bcu gnyis kyi tshul la bstod pa zhes bya ba</tib>
+    <skt>d+wI da sha kA ra nA ma na ya sto traM</skt>
+    <coloph>mdzad pa bcu gnyis kyi tshul la bstod pa zhes bya ba slob dpon klu sgrub kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13170</vol>
+        <sec>bstod tshogs</sec>
+        <debp>95</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>96</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>klu sgrub/(nāgārjuna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

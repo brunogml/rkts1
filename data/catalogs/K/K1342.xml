@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.139</ref>
+    <rnb>141</rnb>
+    <tib>'phags pa stag mos zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A rya su ba bu ba rmi taM nA ma sU tra</skt>
+    <coloph>'phags pa stag mos zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// //mang+ga laM mastu</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>385</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>391</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg136</ref>
+    <rnb>138</rnb>
+    <tib>'phags pa stag mos zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>A rya su ba bu ba rmi taM nA ma sU tra</skt>
+    <coloph>'phags pa stag mos zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so// //mang+ga laM mastu</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>363</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>370</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.134</ref>
+    <rnb>606</rnb>
+    <tib>'phags pa stag mos zhus pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya su ba bu ba rmi tam nA ma sU tra</skt>
+    <coloph>'phags pa stag mos zhus pa zhes bya ba theg pa chen po'i mdo rdzogs so//_//zhus//_mang+ga lam mas+tu//</coloph>
+    <colophTitle/>
+    <margin>stag zhus</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>79 thi</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>b</finf>
+        <finl>9</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.402.</note>
+  </item>
+</catalog>

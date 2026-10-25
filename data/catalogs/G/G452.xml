@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Gbr</coll>
+    <ref>Gbr004.6</ref>
+    <rnb>64</rnb>
+    <tib>rdzogs pa chen po bar do gsang ba'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW21519</setid>
+        <vol>0580</vol>
+        <sec>2</sec>
+        <debp>9</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>11</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm4.15</ref>
+    <rnb>83</rnb>
+    <tib>rdzogs pa chen po bar do gsang ba'i rgyud zhes bya ba</tib>
+    <skt>san ti ma hA da mu ri nA ma tan tra gu h+ya</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-5</vol>
+        <sec>rnying rgyud</sec>
+        <debp>216</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>219</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt4.15</ref>
+    <rnb>92</rnb>
+    <tib>rdzogs pa chen po bar do gsang ba'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-4</vol>
+        <sec>rnying rgyud</sec>
+        <debp>198</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>200</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb035.011b</ref>
+    <rnb>452</rnb>
+    <tib>rdzogs pa chen po bar do gsang ba'i rgyud ces bya ba</tib>
+    <skt>san ti ma hA dmu ri nA ma tan+t+ra gu h+ya</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21640</vol>
+        <sec>2</sec>
+        <debp>66</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>68</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>gleng gzhi'i le'u ste dang po</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21640</vol>
+        <sec>2</sec>
+        <debp>66</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>bar do'i snang lugs kyi le'u ste gnyis pa</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21640</vol>
+        <sec>2</sec>
+        <debp>66</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>'pho ba gnang gi le'u ste gsum pa</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21640</vol>
+        <sec>2</sec>
+        <debp>67</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>srid pa bar do'i le'u ste bzhi pa</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21640</vol>
+        <sec>2</sec>
+        <debp>67</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>rgyud gzung ba'i le'u ste lnga pa</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21640</vol>
+        <sec>2</sec>
+        <debp>68</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+    </chapters>
+  </item>
+  <item>
+    <coll>Gsg</coll>
+    <ref>Gsg4.15</ref>
+    <rnb>84</rnb>
+    <tib>rdzogs pa chen po bar do gsang ba'i rgyud zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG16449</setid>
+        <vol>1KG16488</vol>
+        <sec>nga</sec>
+        <debp>225</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>227</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

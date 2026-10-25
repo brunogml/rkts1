@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5067</ref>
+    <rnb>1</rnb>
+    <tib>dpal tshogs kyi bdag po'i 'khor lo'i gsal byed</tib>
+    <skt>shri ga Na pa ti tsakra sUr+ya</skt>
+    <coloph>dpal tshogs kyi bdag po'i 'khor lo'i gsal byed/ slob dpon chen po Doma b+hi he ru kas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>756</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>760</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2982</ref>
+    <rnb>2983</rnb>
+    <tib>dpal tshogs kyi bdag po'i 'khor lo'i gsal byed</tib>
+    <skt>shri ga Na pa ti tsakra sUr+ya</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>119</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>121</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3772</ref>
+    <rnb>2992</rnb>
+    <tib>dpal tshogs kyi bdag po'i 'khor lo'i gsal byed</tib>
+    <skt>shri ga Na pa ti tsakra sUr+ya</skt>
+    <coloph>dpal tshogs kyi bdag po'i 'khor lo'i gsal byed/ slob dpon chen po Doma b+hi he ru kas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>88</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>89</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>88</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>89</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4983</ref>
+    <rnb>2984</rnb>
+    <tib>dpal tshogs kyi bdag po'i 'khor lo'i gsal byed</tib>
+    <skt>shri ga Na pa ti tsakra sUr+ya</skt>
+    <coloph>dpal tshogs kyi bdag po'i 'khor lo'i gsal byed/ slob dpon chen po Doma b+hi he ru kas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>94</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>95</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>ḍoṁbhiheruka (ḍombiheruka)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

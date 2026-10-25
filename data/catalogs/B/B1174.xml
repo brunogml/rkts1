@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks80.29</ref>
+    <rnb>544</rnb>
+    <tib>gu ru drag po'i tshogs skang rin chen phreng ba</tib>
+    <skt/>
+    <coloph>slob dpon pad+ma'i thugs bcud sdus / stang chen dmu tsha gyer med kyis / phyi rabs las ldan gshen la brgyud pa dge legs 'phel bar shog …</coloph>
+    <colophTitle/>
+    <margin>tshogs skang</margin>
+    <locations/>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt62.21</ref>
+    <rnb>2632</rnb>
+    <tib>gu ru drag po'i tshogs bskangs rin chen phreng ba</tib>
+    <skt/>
+    <coloph>rig 'dzin drag po'i cha lag las/ tshogs mchod rin chen phreng ba zhes bya ba/ dben pa'i gnas su rdo rje rtsal gyis sbyar/ 'gal ba bshags cing dge ba'i rtsa ba bsngo//</coloph>
+    <colophTitle/>
+    <margin>tshogs bskangs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4755</vol>
+        <sec>21</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

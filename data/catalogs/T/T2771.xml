@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4892</ref>
+    <rnb>1</rnb>
+    <tib>zhi ba'i lha rgyud ces bya ba</tib>
+    <skt>de ba shAn ti nA ma tan tra</skt>
+    <coloph>slob dpon bi ma la mi tras/ zhang dz+nyA na la gnang / rgyud thams cad kyi 'grel pa/ lung dam pa'i bcud/ man ngag mtha' dag gi snying po/ rnal 'byor gyi lam dam pa/ log pa'i rtog pa zhi bar byed pa/ zhi ba rtog pa'i lha rgyud do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95889</vol>
+        <sec>1</sec>
+        <debp>484</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>493</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2771</ref>
+    <rnb>2772</rnb>
+    <tib>zhi ba'i lha rgyud zhes bya ba</tib>
+    <skt>de be shAn ti nA ma tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31415</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>249</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>254</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3561</ref>
+    <rnb>2780</rnb>
+    <tib>zhi ba'i lha rgyud zhes bya ba</tib>
+    <skt>de ba shAn ti nA ma tan tra</skt>
+    <coloph>slob dpon bi ma la mi tras/ zhang dz+nyA na la gnang / rgyud thams cad kyi 'grel pa/ lung dam pa'i bcud/ man ngag mtha' dag gi snying po/ rnal 'byor gyi lam dam pa/ log pa'i rtog pa zhi bar byed pa/ zhi ba rtog pa'i lha rgyud do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3329</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>212</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>216</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212362</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>212</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>216</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4772</ref>
+    <rnb>2773</rnb>
+    <tib>zhi ba'i lha rgyud zhes bya ba</tib>
+    <skt>de ba shA na ti nA ma tan+t+ra</skt>
+    <coloph>slob dpon bi ma la mi tras/_zhang dz+nyA na la gnang /_rgyud thams cad kyi 'grel pa/_lung dam pa'i bcud man ngag mtha' dag gi snying po/_rnal 'byor gyi lam dam pa/_log pa'i rtog pa zhi bar byed pa/_zhi ba rtog pa'i lha rgyud do</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13247</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>210</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>215</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>vimalamitra</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>jñāna</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

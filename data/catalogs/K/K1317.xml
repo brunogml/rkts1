@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.18</ref>
+    <rnb>18</rnb>
+    <tib/>
+    <skt/>
+    <coloph>sdig sgribs kun 'joms pa'i rtsa ba'i sngags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>71</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>71</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg18</ref>
+    <rnb>18</rnb>
+    <tib>sdig sgribs kun 'joms pa'i rtsa ba'i sngags</tib>
+    <skt/>
+    <coloph>sdig sgribs kun 'joms pa'i rtsa ba'i sngags so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>60</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>61</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

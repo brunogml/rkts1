@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>N</coll>
+    <ref>N968</ref>
+    <rnb>180</rnb>
+    <tib>yi ge bdun pa'i sgrub thabs</tib>
+    <skt>sap+ta a k+Sha ra sA d+ha naM</skt>
+    <coloph>yi ge bdun pa'i sgrub thabs slob dpon rgyal dka' zla bas btus pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3265</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>12</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>13</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212298</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>12</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>13</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2178</ref>
+    <rnb>178</rnb>
+    <tib>yi ge bdun pa'i sgrub thabs</tib>
+    <skt>sap+ta ak+Sha ra sA d+ha naM</skt>
+    <coloph>yi ge bdun pa'i sgrub thabs slob dpon rgyal dka' zla bas btus pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13183</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>13</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>14</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgyal dka' zla ba/(durjayacandra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

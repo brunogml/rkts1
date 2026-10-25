@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>H</coll>
+    <ref>H344</ref>
+    <rnb>346</rnb>
+    <tib>rnam 'byed chung ba</tib>
+    <skt>-</skt>
+    <coloph>las kyi rnam par 'gyur ba rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW26071</setid>
+        <vol>4098</vol>
+        <sec>mdo sde</sec>
+        <debp>455</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>490</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N323</ref>
+    <rnb>323</rnb>
+    <tib>las rnam par 'byed pa</tib>
+    <skt>-</skt>
+    <coloph>las rnam par 'byed pa rdzogs so/ /</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22703</setid>
+        <vol>5475</vol>
+        <sec>mdo sde</sec>
+        <debp>434</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>464</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5014</setid>
+        <vol>2KG212630</vol>
+        <sec>mdo sde</sec>
+        <debp>434</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>464</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

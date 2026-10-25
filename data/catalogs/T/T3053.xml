@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2045</ref>
+    <rnb>1</rnb>
+    <tib>dpal ldan rje btsun byang chub chen po'i bstod pa</tib>
+    <skt>shrI mAn+ma hA bo d+hi b+haT+TA ra ka sya sto traM</skt>
+    <coloph>dpal ldan rje btsun byang chub chen po'i bstod pa mchog sred kyis mdzad pa rdzogs so// 'di yang gangs can skad nyid du// rje btsun sprul pa'i sku mchog gi// bka' bzhin zhwa lu lo tsA ba// dge slong chos skyong bzang pos bsgyur</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95846</vol>
+        <sec>1</sec>
+        <debp>571</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>573</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1153</ref>
+    <rnb>45</rnb>
+    <tib>dpal ldan rje btsun byang chub chen po'i bstod pa</tib>
+    <skt>shrI mAn+ma hA bo d+hi b+han+tA ra ka sya sto traM</skt>
+    <coloph>dpal ldan rje btsun byang chub chen po'i bstod pa mchog sred kyi zhal snga nas mdzad pa'o/_'di yang gangs can skad nyid du/_rje btsun sprul pa'i sku mchog gi/_bka' bzhin zha lu lo tsA ba/_dge slong chos skyong bzang pos bsgyur</coloph>
+    <colophTitle>dpal ldan rje btsun byang chub chen po'i bstod pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1317</vol>
+        <sec>bstod tshogs</sec>
+        <debp>195</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>195</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210052</vol>
+        <sec>bstod tshogs</sec>
+        <debp>195</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>195</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211356</vol>
+        <sec>bstod tshogs</sec>
+        <debp>195</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>195</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zha lu lo tsA ba dge slong chos skyong bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P856</rid>
+      </translator>
+      <translator>
+        <name>mchog sred</name>
+        <role>author</role>
+        <rid>bdr:P7875</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

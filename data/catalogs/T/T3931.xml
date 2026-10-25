@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G3821</ref>
+    <rnb>3816</rnb>
+    <tib>AR+Ya bya ka ra Na'i nang nas 'byung ba/ gza' dang rgyu skar gyi rang bzhin bshad pa</tib>
+    <skt/>
+    <coloph>AR+Ya sha ru laM kar+Na'i nang nas gza' skar gyi ltas 'byung pa btus pa/ ltas dang mtshan ma dge bar gyur cig rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31548</vol>
+        <sec>bzo rig</sec>
+        <debp>178</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>204</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4607</ref>
+    <rnb>3825</rnb>
+    <tib>AR+Ya bya ka ra Na'i nang nas 'byung ba</tib>
+    <skt/>
+    <coloph>AR+Ya sha ru laM kar+Na'i nang nas gza' skar gyi ltas 'byung pa btus pa/ ltas dang mtshan ma dge bar gyur cig rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3462</vol>
+        <sec>mdo 'grel</sec>
+        <debp>138</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>157</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212495</vol>
+        <sec>mdo 'grel</sec>
+        <debp>138</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>157</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5816</ref>
+    <rnb>3818</rnb>
+    <tib>A rya bya ka ra Na'i nang nas 'byung ba gza' dang rgyu skar gyi rang bzhin bshad pa</tib>
+    <skt/>
+    <coloph>Ar+ya sha ru laM kar+Na'i nang nas gza' skar gyi ltas 'byung ba btus pa/_ltas dang mtshan ma dge bar gyur cig rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13380</vol>
+        <sec>mdo 'grel</sec>
+        <debp>119</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>137</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

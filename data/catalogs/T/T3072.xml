@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1485</ref>
+    <rnb>429</rnb>
+    <tib>rdo rje rnal 'byor ma la mchod ba mdor bsdur pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66054</vol>
+        <sec>rgyud</sec>
+        <debp>183</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>184</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1543</ref>
+    <rnb>438</rnb>
+    <tib>rdo rje rnal 'byor ma la mchod ba mdor bsdur pa</tib>
+    <skt/>
+    <coloph>rdo rje rnal 'byor ma mchod pa la sogs pa mdor bsdus pa rdzogs so</coloph>
+    <colophTitle>rdo rje rnal 'byor ma mchod pa la sogs pa mdor bsdus pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1339</vol>
+        <sec>rgyud</sec>
+        <debp>182</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>184</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210074</vol>
+        <sec>rgyud</sec>
+        <debp>182</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>184</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211378</vol>
+        <sec>rgyud</sec>
+        <debp>182</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>184</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar kyi mkhan po badzra pA Ni</name>
+        <role>translator</role>
+        <rid>bdr:P8232</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba mtshur</name>
+        <role>translator</role>
+        <rid>bdr:P3074</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

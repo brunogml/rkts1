@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G3888</ref>
+    <rnb>3883</rnb>
+    <tib>las kyi sgrib pa thams cad rnam par 'thag par byed pa'i cho ga zhes bya ba sman bla'i sgrub thab</tib>
+    <skt>sarba karma A ba ra Na bi shud+d+ha ka ra bi d+hi</skt>
+    <coloph>las kyi sgrib pa thams cad rnam par 'thag par byed pa'i cho ga /slob dpon chen po dpal mar me mdzad ye shes kyi zhal snga nas mdzad pa rdzogs so/ /paN+Di ta de nyid dang lo tsA ba nag tsho tshul khrims rgyal bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31553</vol>
+        <sec>rdor gcod</sec>
+        <debp>583</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>584</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4672</ref>
+    <rnb>3892</rnb>
+    <tib>las kyi sgrib pa thams cad rnam par 'thag par byed pa'i cho ga zhes bya ba sman bla'i sgrub tha</tib>
+    <skt/>
+    <coloph>las kyi sgrib pa thams cad rnam par 'thag par byed pa'i cho ga /slob dpon chen po dpal mar me mdzad ye shes kyi zhal snga nas mdzad pa rdzogs so/ /paN+Di ta de nyid dang lo tsA ba nag tsho tshul khrims rgyal bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3467</vol>
+        <sec>mdo 'grel</sec>
+        <debp>447</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>448</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212500</vol>
+        <sec>mdo 'grel</sec>
+        <debp>447</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>448</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5874</ref>
+    <rnb>3876</rnb>
+    <tib>las kyi sgrib pa thams cad rnam par 'thag par byed pa'i cho ga</tib>
+    <skt>sarba karma A ba ra Na bi shud+dha ka ra bi d+hi</skt>
+    <coloph>las kyi sgrib pa thams cad rnam par 'thag par byed pa'i cho ga_/slob dpon chen po dpal mar me mdzad ye shes kyi zhal snga nas mdzad pa rdzogs so/_/paN+Di ta de nyid dang lo tsA ba nag tsho tshul khrims rgyal bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13385</vol>
+        <sec>mdo 'grel</sec>
+        <debp>475</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>476</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

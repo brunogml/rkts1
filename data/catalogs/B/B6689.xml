@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt195.1</ref>
+    <rnb>5623</rnb>
+    <tib>dmar mo'i dmar zlog</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4888</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt195.14</ref>
+    <rnb>5636</rnb>
+    <tib>dmar mo'i dmar zlog</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>dmar zlog</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4888</vol>
+        <sec>14</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>12</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

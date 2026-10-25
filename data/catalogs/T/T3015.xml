@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5098</ref>
+    <rnb>1</rnb>
+    <tib>bla ma nang gi sgrub pa</tib>
+    <skt/>
+    <coloph>bla ma nang gi sgrub pa dpal na ro pas mdzad pa rdzogs so/ /paN+Di ta bi bu ti tsan+d+rasa sgra rang 'gyur du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>891</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>895</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3015</ref>
+    <rnb>3016</rnb>
+    <tib>bla ma sgrubs pa</tib>
+    <skt>gu ru mi ti na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31423</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>38</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>39</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3805</ref>
+    <rnb>3025</rnb>
+    <tib>bla ma sgrubs pa</tib>
+    <skt>gu ru mi ti na ma</skt>
+    <coloph>bla ma nang gi sgrub pa dpal na ro pas mdzad pa rdzogs so/ /paN+Di ta bi bu ti tsan+d+ras sgra rang 'gyur du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3337</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>31</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>32</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212370</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>31</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>32</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5016</ref>
+    <rnb>3017</rnb>
+    <tib>bla ma sgrubs pa</tib>
+    <skt>gu ru mi ti na ma</skt>
+    <coloph>bla ma nang gi sgrubs pa dpal na ro pas mdzad pa rdzogs so/_/paN+Di ta bi bu ti tsan+t+ras sgra rang 'gyur du bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13255</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>31</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>32</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nāḍapāda</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2046</ref>
+    <rnb>1</rnb>
+    <tib>sangs rgyas kyi bstod pa bcu pa</tib>
+    <skt>bud+d+ha sta ba da sha</skt>
+    <coloph>dpal shAkya thub pa'i bstod pa bcu pa zhes bya ba rdzogs so// 'di ni dpal nags kyi rin po che'i zhabs kyis mdzad pa ste/ pan+DI ta chen po de nyid kyi bka' drin gyid 'tsho ba'i dA ri dra pa rgya mtsho'i sdes bsgyur ba'i yi ge pa ni blo dang ldan pa byams pa kun dga'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95846</vol>
+        <sec>1</sec>
+        <debp>574</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>576</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1119</ref>
+    <rnb>63</rnb>
+    <tib>sangs rgyas kyi bstod pa bcu pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66032</vol>
+        <sec>bstod tshogs</sec>
+        <debp>295</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>295</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1120</ref>
+    <rnb>64</rnb>
+    <tib>sangs rgyas kyi bstod pa bcu pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66032</vol>
+        <sec>bstod tshogs</sec>
+        <debp>295</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>296</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1154</ref>
+    <rnb>46</rnb>
+    <tib>sangs rgyas kyi bstod pa bcu pa</tib>
+    <skt>bud+d+ha sta ba da sha</skt>
+    <coloph>dpal shAkya thub pa'i bstod pa bcu pa zhes bya ba rdzogs so//_'di ni dpal nags kyi rin po che'i zhabs kyis mdzad pa ste/_paN+Di ta chen po de nyid kyi bka' drin gyis 'tsho ba'i dA ri dra pa rgya mtsho'i sdes bsgyur ba'i yi ge pa ni blo dang ldan pa byams pa kun dga'o</coloph>
+    <colophTitle>sangs rgyas kyi bstod pa bcu pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1317</vol>
+        <sec>bstod tshogs</sec>
+        <debp>195</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>196</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210052</vol>
+        <sec>bstod tshogs</sec>
+        <debp>195</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>196</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211356</vol>
+        <sec>bstod tshogs</sec>
+        <debp>195</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>196</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dA ri dra pa rgya mtsho'i sde</name>
+        <role>translator</role>
+        <rid>bdr:P0AT0004</rid>
+      </translator>
+      <translator>
+        <name>dpal nags kyi rin po che</name>
+        <role>author</role>
+        <rid>bdr:P207</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks142.1</ref>
+    <rnb>935</rnb>
+    <tib>g.yung drung bon gyi bka' brten 'gyur gyi sde tshan bsgrigs tshul gyi dkar chags nyung thus gshen bstan pad mo rgyas byed nyi 'od</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>dkar chag</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75113</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>51</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz200.1</ref>
+    <rnb>669</rnb>
+    <tib>g.yung drung bon gyi bka' brten 'gyur gyi sde tshan bsgrigs tshul gyi dkar chags nyung thus gshen bstan pad mo rgyas byed nyi 'od</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58735</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>57</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A472</ref>
+    <rnb>471</rnb>
+    <tib>phrin las thams cad 'byung ba 'dus pa don dam pa las phyi ma'i rgyud kyi rgyal po</tib>
+    <skt>sa mA dza pa ra mAr+tha sarba karmo da ya ut+ta ra tan+t+ra rA dza</skt>
+    <coloph>rgya gar lho phyogs rasmI shwa ra'i ljongs su sku 'phrungs pa rdo rje theg pa la mkhas shing grub pa brnyes pa'i rje btsun bud+d+ha gup+ta la rgyud 'di zhib mor nyan cing bsgyur bar bla ba rnams tho re long nge ba bsgyur zhing / dka' gnas rnams la reg zig gi rim pa mang du byas nas brtag dpyad mang du bgyis pa las/ slad nas rgya gar gyi mkhan po ni rbA Na shrI'i zhal snga nas dang / rgyal khams pa tA ra nA thas dang / yang slad kyis paN+Di ta pUr+Na badz+ra'i spyan sngar 'grel pa so so dang zhib tu sbyar te rgyal khams pa tA ra nA thas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96864</vol>
+        <sec>1</sec>
+        <debp>998</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1029</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D449</ref>
+    <rnb>451</rnb>
+    <tib>phrin las thams cad 'byung ba 'dus pa don dam pa las phyi ma'i rgyud kyi rgyal po</tib>
+    <skt>sa mA dza pa ra mA tha sarba karmod ya ut+ta ratan+t+ra rA dza</skt>
+    <coloph>phrin las thams cad 'byung ba sgrol ma 'dus pa don dam pa zhes bya ba/ rnal 'byor ma'i rgyud kyi rgyal po las rtog pa phyi ma gsang ba nges par bstan pa ji snyed pa rdzogs te/ sgrol ma 'byung ba'i rtog pa ji snyed pa rdzogs so// //rgya gar lho phyogs ras+m+wi shwa ra 'i ljongs su sku 'khrungs pa rdo rje theg pa la mkhas shing grub pa brnyes pa'i rje btsun bud+d+ha gup+ta la rgyud 'di zhib mor nyan cing sgyur bar bla ba rnams tho re long nge ba bsgyur zhing / dka' gnas rnams la reg zig gi rim pa mang du byas nas brtag dpyad mang du bgyis pa las/ slad nas rgya gar gyi mkhan po ni rbA Na shrI'i zhabs dang / yang slad kyis paN+Di ta pUr+Na badzra'i spyan sngar 'grel pa so so dang zhib tu sbyar te rgyal khams pa tA ra na thas bsgyur ba'o</coloph>
+    <colophTitle>phrin las thams cad 'byung ba sgrol ma 'dus pa don dam pa zhes bya ba/ rnal 'byor ma'i rgyud kyi rgyal po las rtog pa phyi ma gsang ba nges par bstan pa ji snyed pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6428</vol>
+        <sec>rgyud</sec>
+        <debp>295</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>309</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9207</vol>
+        <sec>rgyud</sec>
+        <debp>295</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>309</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgyal khams pa tA ra na tha</name>
+        <role>translator</role>
+        <rid>#</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

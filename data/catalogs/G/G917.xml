@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb054.008</ref>
+    <rnb>913</rnb>
+    <tib>dam tshig bkod pas gzhi'i rgyud rin po che'i rgyan zhes bya ba</tib>
+    <skt>sa ma yA agra dzA tan+t+ra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21659</vol>
+        <sec>1</sec>
+        <debp>78</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>79</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>sangs rgyas brda'i le'u ste dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21659</vol>
+        <sec>1</sec>
+        <debp>78</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>brda' don gyi le'u ste gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21659</vol>
+        <sec>1</sec>
+        <debp>79</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>brda sgra don gyi le'u ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21659</vol>
+        <sec>1</sec>
+        <debp>79</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

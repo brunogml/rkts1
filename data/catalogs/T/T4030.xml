@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3102</ref>
+    <rnb>2037</rnb>
+    <tib>rab tu gnas pa'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66105</vol>
+        <sec>rgyud</sec>
+        <debp>319</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>321</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3139</ref>
+    <rnb>2047</rnb>
+    <tib>rab tu gnas pa'i cho ga</tib>
+    <skt>pra tiSh+Tha bi byeH</skt>
+    <coloph>rab tu gnas pa'i cho ga thun mong pa paN+Di dpal su ma ti kIrtisa mdzad pa rdzogs so/ /mkhas pa de nyid dang lo tsA ba pradz+nyA kIrtisa bsgyur ba'o</coloph>
+    <colophTitle>rab tu gnas pa'i cho ga thun mong pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1390</vol>
+        <sec>rgyud</sec>
+        <debp>320</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>321</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210125</vol>
+        <sec>rgyud</sec>
+        <debp>320</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>321</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211429</vol>
+        <sec>rgyud</sec>
+        <debp>320</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>321</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta dpal su ma ti kIrti</name>
+        <role>translator</role>
+        <rid>bdr:P8893</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba pradz+nyA kIrti</name>
+        <role>translator</role>
+        <rid>bdr:P1245</rid>
+      </translator>
+      <translator>
+        <name>paN+Di ta dpal su ma ti kIrti</name>
+        <role>author</role>
+        <rid>bdr:P8893</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2754</ref>
+    <rnb>1970</rnb>
+    <tib>rab tu gnas pa'i cho ga</tib>
+    <skt>pra tiSh+Tha bi d+hi</skt>
+    <coloph>rab tu gnas pa'i cho ga thun mong pa paN+Di dpal su ma ti kIrtis mdzad pa rdzogs so/ /mkhas pa de nyid dang lo tsA ba pradz+nyA kIrtis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3322</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>347</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>349</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212355</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>347</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>349</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3960</ref>
+    <rnb>1961</rnb>
+    <tib>rab tu gnas pa'i cho ga</tib>
+    <skt>pra tiSh+Tha bi d+hi</skt>
+    <coloph>rab tu gnas pa'i cho ga thun mong pa paN+Di ta dpal su ma ti kIrtis mdzad pa rdzogs so/_/mkhas pa de nyid dang lo tsA ba pradz+nyA kIrtis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13240</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>381</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>383</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>sumatikīrti</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

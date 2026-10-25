@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm49.12</ref>
+    <rnb>171</rnb>
+    <tib>sa bdag dbang chen gyi rgyud las bshags 'bum bdud rtsi 'khyil pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4020</vol>
+        <sec>1</sec>
+        <debp>160</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>170</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt84.10</ref>
+    <rnb>3128</rnb>
+    <tib>sa bdag dbang chen gyi rgyud las bshags 'bum bdud rtsi 'khyil ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>bshags 'bum</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4777</vol>
+        <sec>10</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>10</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz65.12</ref>
+    <rnb>192</rnb>
+    <tib>sa bdag dbang chen gyi rgyud las bshags 'bum bdud rtsi 'khyil ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58600</vol>
+        <sec>12</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

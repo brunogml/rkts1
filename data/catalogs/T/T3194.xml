@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5318</ref>
+    <rnb>1</rnb>
+    <tib>lag pa'i tshad kyi 'grel pa</tib>
+    <skt>hastA b+ha ba br-it+ti</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95902</vol>
+        <sec>1</sec>
+        <debp>838</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>843</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3815</ref>
+    <rnb>2751</rnb>
+    <tib>lag pa'i tshad kyi 'grel pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66128</vol>
+        <sec>dbu ma</sec>
+        <debp>22</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>23</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3849</ref>
+    <rnb>2760</rnb>
+    <tib>lag pa'i tshad kyi 'grel pa</tib>
+    <skt>hastA b+ha ba brat+ti</skt>
+    <coloph>rab tu byed pa lag pa'i tshad kyi 'grel pa slob dpon 'phags pa'i lhas mdzad pa rdzogs so</coloph>
+    <colophTitle>rab tu byed pa lag pa'i tshad kyi 'grel pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1413</vol>
+        <sec>mdo 'grel</sec>
+        <debp>22</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>24</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210148</vol>
+        <sec>mdo 'grel</sec>
+        <debp>22</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>24</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211452</vol>
+        <sec>mdo 'grel</sec>
+        <debp>22</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>24</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po dA na shI la</name>
+        <role>translator</role>
+        <rid>bdr:P8210</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba dge slong dpal 'byor snying po</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ16747</rid>
+      </translator>
+      <translator>
+        <name>zhu chen gyi lo tsA ba dge slong dpal brtsegs rak+Shi ta</name>
+        <role>revisor</role>
+        <rid>bdr:P8182</rid>
+      </translator>
+      <translator>
+        <name>slob dpon 'phags pa lha</name>
+        <role>author</role>
+        <rid>bdr:P7401</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3252</ref>
+    <rnb>3246</rnb>
+    <tib>lag pa'i tshad kyi 'grel pa</tib>
+    <skt>hastAp+ta ba br-it+ti</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31443</vol>
+        <sec>mdo 'grel</sec>
+        <debp>27</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>29</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4038</ref>
+    <rnb>3258</rnb>
+    <tib>lag pa'i tshad kyi 'grel pa</tib>
+    <skt>hastA b+ha ba brat+ti</skt>
+    <coloph>rab tu byed pa lag pa'i tshad kyi 'grel pa slob dpon 'phags pa'i lhas mdzad pa rdzogs so/ /rgya gar gyi mkhan po dA na shrI la dang / lo tsA ba dge slong dpal 'byor snying pos bsgyur cing / zhus chen gyi lo tsA ba dge slong dpal brtsegs rak+Shi tas zhus nas gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3357</vol>
+        <sec>mdo 'grel</sec>
+        <debp>21</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>23</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212390</vol>
+        <sec>mdo 'grel</sec>
+        <debp>21</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>23</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5249</ref>
+    <rnb>3250</rnb>
+    <tib>lag pa'i tshad kyi 'grel pa</tib>
+    <skt>ha s+tA b+ha ba brit+ti</skt>
+    <coloph>rab tu byed pa lag pa'i tshad kyi 'grel pa slob dpon 'phags pa'i lhas mdzad pa rdzogs so/_/rgya gar gyi mkhan po dA na shrI la dang /_lo tsA ba dge slong dpal 'byor snying pos bsgyur cing /_zhu chen gyi lo tsA ba dge slong dpal brtsegs rak+Shi tas zhus nas gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13275</vol>
+        <sec>mdo 'grel</sec>
+        <debp>24</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>26</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dpal brtsegs/</name>
+        <role>revisor</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>'phags pa lha/(āryadeva)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

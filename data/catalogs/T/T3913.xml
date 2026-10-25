@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G3439</ref>
+    <rnb>3433</rnb>
+    <tib>'dod pa'i yon tan rnam pa lnga'i nyes dmigs bshad pa</tib>
+    <skt/>
+    <coloph>'dod pa'i yon tan rnam pa lnga'i nyes dmigs bshad pa slob dpon dbyig nyen gyis mdzad pa rdzogs so/ /rgya gar gyi mkhan po d+harma shrI b+ha dra dang / zhu chen gyi lo tsA ba dge slong rin chen bzang pos bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31458</vol>
+        <sec>mdo 'grel</sec>
+        <debp>189</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>189</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5436</ref>
+    <rnb>3437</rnb>
+    <tib>'dod pa'i yon tan rnam pa lnga'i nyes dmigs bshad pa</tib>
+    <skt/>
+    <coloph>'dod pa'i yon tan rnam pa lnga'i nyes dmigs bshad pa slob dpon dbyig nyen gyis mdzad pa rdzogs so/ /rgya gar gyi mkhan po d+harma shrI b+ha dra dang / zhu chen gyi lo tsA ba dge slong rin chen bzang pos bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13290</vol>
+        <sec>mdo 'grel</sec>
+        <debp>159</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>160</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dbyig gnyen/(vasubandhu)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

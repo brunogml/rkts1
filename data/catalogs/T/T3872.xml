@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5210</ref>
+    <rnb>1</rnb>
+    <tib>gtsug tor 'khor los bsgyur ba'i sgrub thabs</tib>
+    <skt>uSh+NI Sha tsakra warti sA d+ha naM</skt>
+    <coloph>gtsug gtor 'khor los bsgyur ba'i sgrub thabs rdzogs so/ /gsar 'gyur yin no</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>854</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>856</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3929</ref>
+    <rnb>3149</rnb>
+    <tib>gtsug gtor 'khor los bsgyur ba'i sgrub thabs</tib>
+    <skt>uSh+Ni Sha tsakra wa ti sA d+ha naM</skt>
+    <coloph>gtsug gtor 'khor los bsgyur ba'i sgrub thabs rdzogs so/ /gsar 'gyur yin no</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>165</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>166</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>165</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>166</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5140</ref>
+    <rnb>3141</rnb>
+    <tib>gtsug tor 'khor los bsgyur ba'i sgrab thabs</tib>
+    <skt>uSh+NI Sha tsakra warti sA d+ha naM</skt>
+    <coloph>gtsug gtor 'khor los bsgyur ba'i sgrub thabs rdzogs so/ /gsar 'gyur yin no</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>168</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>168</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

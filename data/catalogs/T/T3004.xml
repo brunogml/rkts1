@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5089</ref>
+    <rnb>1</rnb>
+    <tib>khro bo reg tshig gi bsgrub pa'i thabs zhes bya ba</tib>
+    <skt>b+ha ya na kro ta sa tsa na na ma</skt>
+    <coloph>brdzus skyes kyi slob dpon ar+ya d+he bas/ mu stegs pa'i sbyor ba rnams bshig pa'i phyir mdzad pa rdzogs so/ /rgya gar gyi mkhan po rdo rje gdan dang / bod kyi lo tsA ba ba ri bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>850</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>859</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3004</ref>
+    <rnb>3005</rnb>
+    <tib>khro bo reg tshig gi bsgrub pa'i thabs zhes bya ba</tib>
+    <skt>b+ha ya na kro ta sa tsa na na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>161</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>166</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3794</ref>
+    <rnb>3014</rnb>
+    <tib>khro bo reg tshig gi sgrub thabs zhes bya ba</tib>
+    <skt>b+ha ya na kro ta sa tsa na na ma</skt>
+    <coloph>brdzus skyes kyi slob dpon ar+ya d+he bas/ mu stegs pa'i sbyor ba rnams bshig pa'i phyir mdzad pa rdzogs so/ /rgya gar gyi mkhan po rdo rje gdan dang / bod kyi lo tsA ba ba ri bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>115</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>119</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>115</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>119</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5005</ref>
+    <rnb>3006</rnb>
+    <tib>khro bo reg tshig gi bsgrub pa'i thabs zhes bya ba</tib>
+    <skt>b+ha ya na kro ta sa tsa na na ma</skt>
+    <coloph>rdzus skyes kyi slob dpon ar+ya d+he bas/_mu stegs pa'i sbyor ba rnams bshig pa'i phyir mdzad pa rdzogs so/_/rgya gar gyi mkhan po rdo rje gdan pa dang bod kyi lo tsA ba ba ri bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>123</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>128</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rdo rje gdan pa/(vajrāsana)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>aryadheva (āryadeva)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

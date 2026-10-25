@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4919</ref>
+    <rnb>1</rnb>
+    <tib>dpal rdo rje 'jigs byed kyi rgyud kyi 'grel pa man ngag dang ldan pa'i rgyan</tib>
+    <skt>shri badzra b+hai ra ba tan tra bri ti a laM ka ra u pa d+he sha na ma</skt>
+    <coloph>rgya gar gyi mkhan po las kyi rdo rje dang / dge slong ku ma ra shi las bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95891</vol>
+        <sec>1</sec>
+        <debp>980</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1013</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2800</ref>
+    <rnb>2801</rnb>
+    <tib>dpal rdo rje 'jigs byed kyi rgyud kyi 'grel pa man ngag dang ldan pa'i rgyan zhes bya ba</tib>
+    <skt>shri badzra b+hai ra ba tan tra bri ti a laM ka ra u pa d+he sha na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31420</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>149</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>168</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3590</ref>
+    <rnb>2810</rnb>
+    <tib>dpal rdo rje 'jigs byed kyi rgyud kyi 'grel pa man ngag dang ldan pa'i rgyan zhes bya ba</tib>
+    <skt>shri badzra b+hai ra ba tan tra bri ti a laM ka ra u pa d+he sha na ma</skt>
+    <coloph>rgya gar gyi mkhan po las kyi rdo rje dang / dge slong ku ma ra shi las bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>104</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>118</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212367</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>104</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>118</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4801</ref>
+    <rnb>2802</rnb>
+    <tib>dpal rdo rje 'jigs byed kyi rgyud kyi 'grel pa man ngag dang ldan pa'i rgyan zhes bya ba</tib>
+    <skt>shri badzra b+hai ra ba tan tra bri ti a laM ka ra u pa d+he sha na ma</skt>
+    <coloph>rgya gar gyi mkhan po las kyi rdo rje dang / dge slong ku ma ra shi las bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13252</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>109</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>125</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>las kyi rdo rje/(karmavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>lalitavajra</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

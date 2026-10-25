@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5152</ref>
+    <rnb>1</rnb>
+    <tib>'chi med grub pa'i dkyil 'khor zhes bya ba</tib>
+    <skt>a ta sid+d+hi man+d+ha la b+hi ti na ma</skt>
+    <coloph>paN+Di ta chen po i te ba'i zhal mnga' nas/ bod kyi dmar lo tsA ba ge dror bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>332</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>334</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3868</ref>
+    <rnb>3088</rnb>
+    <tib>'chi med grub pa'i dkyil 'khor zhes bya ba</tib>
+    <skt>a mr-i ta sid+d+hi man+b+ha ti na ma</skt>
+    <coloph>paN+Di ta chen po i te ba'i zhal mnga' nas/ bod kyi dmar lo tsA ba ge dror bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3338</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>115</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>116</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212371</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>115</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>116</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5079</ref>
+    <rnb>3080</rnb>
+    <tib>'chi med grub pa'i dkyil 'khor zhes bya ba</tib>
+    <skt>a mr-i ta si d+hi man+d+ha la b+hi ti na ma</skt>
+    <coloph>de phyir spros pas dbang chog 'di bkod do/_/rdzogs so/_/paN+Di ta chen po i te ba'i zhal mnga' nas/_bod kyi dmar lo tsA ba te dror bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13256</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>128</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>129</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dbu ma zla ba/(mādhyamika candra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

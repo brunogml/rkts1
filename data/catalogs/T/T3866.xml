@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5197</ref>
+    <rnb>1</rnb>
+    <tib>nor 'dzin ma'i rtog pa</tib>
+    <skt>bA su d+hA ri NI kalpa</skt>
+    <coloph>bcom ldan 'das ma nor rgyun ma'i rtog pa rdzogs so/ /'gyur rnying dngos yin no</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>807</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>810</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3125</ref>
+    <rnb>3126</rnb>
+    <tib>nor 'dzin ma'i rtog pa</tib>
+    <skt>ba su d+hA ri Ni kalpa</skt>
+    <coloph>bcom ldan 'das ma nor rgyun ma'i rtog pa rdzogs so/ /'gyur rnying dngos yin no</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>255</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>256</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3916</ref>
+    <rnb>3136</rnb>
+    <tib>nor 'dzin ma'i rtog pa</tib>
+    <skt>bA sad+dA rinI kalpa</skt>
+    <coloph>bcom ldan 'das ma nor rgyun ma'i rtog pa rdzogs so/ /'gyur rnying dngos yin no</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>153</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>154</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>153</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>154</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5127</ref>
+    <rnb>3128</rnb>
+    <tib>nor 'dzin ma'i rtog pa</tib>
+    <skt/>
+    <coloph>bcom ldan 'das ma nor rgyun ma'i rtog pa rdzogs so/ /'gyur rnying dngos yin no</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>156</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>157</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

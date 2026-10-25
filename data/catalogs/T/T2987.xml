@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5072</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa tshogs kyi bdag po'i sbyin sreg gi cho ga</tib>
+    <skt>Ar+ya ga na pa ti/ ho ma bi d+hi</skt>
+    <coloph>sbyin sreg gi cho ga rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>775</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>777</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2987</ref>
+    <rnb>2988</rnb>
+    <tib>'phags pa tshogs kyi bdag po'i sbyin sreg gi cho ga</tib>
+    <skt>Ar+ya ga na pa ti/ ho ma bi d+hi</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>127</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>128</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3777</ref>
+    <rnb>2997</rnb>
+    <tib>'phags pa tshogs kyi bdag po'i sbyin sreg gi cho ga</tib>
+    <skt/>
+    <coloph>tshogs kyi bdag po'i sbyin sreg gi cho ga rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>93</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>93</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>93</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>93</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4988</ref>
+    <rnb>2989</rnb>
+    <tib>'phags pa tshogs kyi bdag po'i sbyin sreg gi cho ga</tib>
+    <skt>ar+ya ga na pa ti/ ho ma bi d+hi</skt>
+    <coloph>tshogs kyi bdag po'i sbyin sreg gi cho ga rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>99</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>100</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

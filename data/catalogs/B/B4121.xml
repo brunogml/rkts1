@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt67.23</ref>
+    <rnb>2859</rnb>
+    <tib>dbyen sel dkar gtor</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4760</vol>
+        <sec>23</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>5</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt67.24</ref>
+    <rnb>2860</rnb>
+    <tib>bka' gsang mkha' 'gro'i snyan rgyud gu ru'i thugs bcud las mkha' 'gro seng gdong 'khros ma'i rgyud las man ngag rno ba'i spu gri'i dngos gzhi'i le'u</tib>
+    <skt/>
+    <coloph>ces mkha' 'gro gnad kyi man ngag mkha' 'gro mas snyigs ma'i kho bo 'phags btsun byang chub mtshan gyi snyan du brgyud pa'o//</coloph>
+    <colophTitle/>
+    <margin>man ngag</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4760</vol>
+        <sec>24</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>10</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2693</ref>
+    <rnb>1628</rnb>
+    <tib>dpal 'phags pa spyan ras gzigs dbang phyug la bstod pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66104</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2735</ref>
+    <rnb>1638</rnb>
+    <tib>dpal 'phags pa spyan ras gzigs dbang phyug la bstod pa zhes bya ba</tib>
+    <skt>shrI AR+yA ba lo ke te sh+wa ra s+ya stu ti nA ma</skt>
+    <coloph>dge slong ma zla mdzes kyis bstod pa mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1389</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210124</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211428</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dge slong bsod nams rnam rgyal</name>
+        <role>translator</role>
+        <rid>bdr:P993</rid>
+      </translator>
+      <translator>
+        <name>dge slong ma zla mdzes</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15506</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3558</ref>
+    <rnb>1559</rnb>
+    <tib>dpal 'phags pa spyan ras gzigs dbang phyug la bstod pa zhes bya ba</tib>
+    <skt>shrI Ar+ya a ba lo ki te sh+wa ra s+ya stu ti nA ma</skt>
+    <coloph>bcom ldan 'phags pa spyan ras gzigs dbang bstod phyag 'tshal/_dge slong ma zla mdzes kyis bstod pa mdzad pa rdzogs so/_/'di ni rgya gar shar phyogs kyi btsun pa tsan+d+ra shrI'i ngag las 'byung ba dang rgya dpe bstun nas dge slong bsod nams rnam rgyal gyis bsgyur ba'o/_/spyan ras gzigs dbang mgon po mchog la bstod pa yi/_bsod nams gang zhing zla ba dung ltar nges/_rgyal ba kun gyi sras kyi thu bo de ltar bur/_sdug bsngal 'gro la mi 'jigs rtsol ba nyid gyur cig_/ral pa 'chang zhing shin tu zhib yangs pa'i spyan/_rtag par rab tu dang ba zla ba'i dkyil 'khor zhal/_lha dang lha min rnams kyis zhabs kyi 'dam skyes la/_phyag byas nor bu pad+ma las byung mgon por 'dud/_'phags pa 'jig rten dbang phyug la/_klu'i rgyal po nor rgyas kyis bstod pa/_dpal nags kyi rin chen gyi zhal sngar bsod nams rnam par rgyal bas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13239</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>141</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>142</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bsod nams rnam rgyal/(puṇyavijaya)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>zla mdzes/(candraśrī)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

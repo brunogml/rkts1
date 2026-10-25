@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5051</ref>
+    <rnb>1</rnb>
+    <tib>rje btsun dpal nag po chen po'i sgrub thabs man ngag mdor bsdus pa</tib>
+    <skt>b+haT+Ta rak shrI ma hA kA la sa d+hO na pa de sha sang+k+Ship+ta</skt>
+    <coloph>rje btsun dpal nag po chen po'i sgrub thabs man ngag mdor bsdus pa zhes bya ba grub pa'i slob dpon shAn+ti'i gup+ta'i zhabs kyis mdzad pa rdzogs so/ /shar phyogs gau ra'i paN+Di ta nirba Na shrI dang / slob dpon pUr+Na badz+ra'i zhabs dang / rmongs pa kun dga' snying pos bsgyur nas slar yang rgya dpe dang gtug te 'bru zhus yang yang byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>668</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>683</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2966</ref>
+    <rnb>2967</rnb>
+    <tib>rje btsun dpal nag po chen po'i sgrub thabs man ngag mdor bsdus pa</tib>
+    <skt>b+haT+Ta ra ka shrI ma hA kA la sa d+hO na pa de sha sad+k+Shap+ta</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>80</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>88</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3756</ref>
+    <rnb>2976</rnb>
+    <tib>nag po chen po'i sgrub thabs man ngag mdor bsdus pa</tib>
+    <skt>b+hat+ta ka shrI ma hA kA la sa d+ho na pa de sha sad+k+Ship+ta</skt>
+    <coloph>rje btsun dpal nag po chen po'i sgrub thabs man ngag mdor bsdus pa zhes bya ba grub pa'i slob dpon shAn+ti'i gup+ta'i zhabs kyis mdzad pa rdzogs so/ /shar phyogs gau ra'i paN+Di ta nirba Na shrI dang / slob dpon pUr+Na badz+ra'i zhabs dang / rmongs pa kun dga' snying pos bsgyur nas slar yang rgya dpe dang gtug te 'bru zhus yang yang byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>60</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>67</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>60</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>67</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4967</ref>
+    <rnb>2968</rnb>
+    <tib>rje btsun dpal nag po chen po'i sgrub thabs man ngag mdor bsdus pa</tib>
+    <skt>b+haT+Ta rak shrI ma hA kA la sa d+hA no pa de shas sang+k+Ship+ta</skt>
+    <coloph>ces pa rje btsun nag po chen po'i sgrub thabs man ngag mdor bsdus pa zhes bya ba grub pa'i slob dpon shAn+ti gup+ta'i zhabs kyis mdzad pa rdzogs so/_/shar phyogs gau ra'i paN+Di ta ni rbAN shrI dang /_slob dpon pUr+N+Na badzra'i zhabs dang /_rmongs pa kun dga' snying pos bsgyur nas/_slar yang rgya dpe dang gtugs te 'bru zhus yang yang byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>64</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>70</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>pūrṇṇavajra (pūrṇavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>śāntigupta</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

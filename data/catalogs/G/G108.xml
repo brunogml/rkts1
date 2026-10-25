@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Gbr</coll>
+    <ref>Gbr002.17</ref>
+    <rnb>25</rnb>
+    <tib>spyod pa nyi zla dang mnyam pa'i rgyud kyi bka' 'grel</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW21519</setid>
+        <vol>0578</vol>
+        <sec>1</sec>
+        <debp>42</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>45</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gdg</coll>
+    <ref>Gdg006.15</ref>
+    <rnb>117</rnb>
+    <tib>spyod pa nyi zla dang mnyam pa'i rgyud ky-i dka' 'grel</tib>
+    <skt>tsar+ya sUr+ya tsan+d+ra sa ma tan+t+ra s+ya pany+dzi ka</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1ER7</setid>
+        <vol>1ER178</vol>
+        <sec>rnying rgyud</sec>
+        <debp>67</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>70</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW21939</setid>
+        <vol>6326</vol>
+        <sec>rnying rgyud</sec>
+        <debp>67</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>70</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gkh</coll>
+    <ref>Gkh022.007</ref>
+    <rnb>216</rnb>
+    <tib>spyod pa nyi zla dang mnyam pa'i rgyud kyi dka' 'grel</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17382</setid>
+        <vol>1KG81294</vol>
+        <sec>7</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>5</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb008.006</ref>
+    <rnb>109</rnb>
+    <tib>spyod pa nyi zla dang mnyam pa'i rgyud ky-i dka' 'grel</tib>
+    <skt>tsar+ya sUr+ya tsan+d+ra sa ma tan+t+ra s+ya pany+dzi ka</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21613</vol>
+        <sec>1</sec>
+        <debp>207</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>210</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

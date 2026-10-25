@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A383</ref>
+    <rnb>382</rnb>
+    <tib>'phags pa byams pa'i mdo zhes bya ba</tib>
+    <skt>Ar+ya mai trI sU traM nA ma</skt>
+    <coloph>'phags pa byams pa'i mdo rdzogs s+ho// //thub dbang mchog dang rgyal ba byams pa yi/ /bstan pa gsal byed mdo sde'i dbang po 'di/ /yon tan dang ldan sing ga gling yul gyi/ /stong phrag mang po'i dge 'du kun gyi gtso/ /mar me mdzad slob rdo rje gdan bzhugs pa/ /paN chen A nan da shrI yon tan can/ /dge slong chos kyi spyan can skad gnyis mkhas/ /bstan la phan 'dod bzang po de nyid dang / /de'i legs gtugs dge slong lung rigs 'dzin/ /skad gnyis smra ba mchog gi rjes 'jug pa/ /kun dga' rgyal mtshan thub bstan dpal bzang pos/ /ston pa 'das nas lo stong brgyad brgya dang / /lnga bcu lhag pa'i zla ba bcu 'das dus/ /chos kyi rgyal po ha shang mnga' gsol tshe/ /me lug dgun zla ra ba'i yar ngo la/ /dpal ldan bla ma kun dga' seng ge yi/ /skun drin la brten dpal ldan sa skyar ni/ /sgra don ji bzhin legs par bsgyur ba yin/ /'phags nor rgyan ldan skyes bu dam pa rnams/ /dam chos rin chen 'di la gtsug rgyan mdzod/ /nyon mongs nad can phrag dog rab rib can/ /chos sman 'di sten nad med mig gsal 'gyur/ /dge ba 'di gzhan ma lus legs bsdoms te/ /bla ma thub dbang byams pa mgon la sogs/ /sangs rgyas kun mnyes rnam dag rgya chen zhing /rnam dag rab bsgrubs bstan pa mchog bsgrubs nas/ /phyogs bcu'i zhing rdul snyed kyi sprul pa yis/ /sems can thams cad bstan la dad byas shing / /sangs rgyas bstan pa rab tu rgyas byas te/ /sangs rgyas sku gsum ye shes myur thob shog_/shes bya mtha' yas rab tu zab phyir dang / /shes byed tshad can rab tu rtogs sla'i phyir/ /'khrul par gyur na rab tu sems dge ba'i phyir/ /skye bo mkhas rnams rab tu bzod mdzad rigs/ /rgya dpe dang legs par btugs so/ /phyogs dus thams cad du bkra shis dang bde legs kyis khyab par gyur cig</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96859</vol>
+        <sec>1</sec>
+        <debp>848</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>865</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B351</ref>
+    <rnb>350</rnb>
+    <tib>byams pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-82</vol>
+        <sec>mdo sde</sec>
+        <debp>367</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>377</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr1012</ref>
+    <rnb>1060</rnb>
+    <tib>byams pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM90</vol>
+        <sec>mdo</sec>
+        <debp>443</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>454</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

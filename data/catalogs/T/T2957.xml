@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5042</ref>
+    <rnb>1</rnb>
+    <tib>dpal nag po chen po'i gsang ba'i man ngag ces bya ba</tib>
+    <skt>shri na ma u pa d+he sha</skt>
+    <coloph>dpal nag po chen po'i gsang ba'i man ngag /slob dpon ro langs bde bas gdams pa rdzogs so/ /bram ze chen po la rim par brgyud nas/ tshul shes sgyur ba'i man ngag gi rgyud do/ mgon po 'di man ngag gi dbang du byas pa yin pas/ sgrub thag nye'o rdzogs so/ bla ma rin chen 'od pa'i phyag dpe la/ bla ma sang 'od pa'i zhal zhus so/ de'i dpe la dag par byas te/ rim par ban chung gis kyang zhal zhus so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>594</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>600</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2957</ref>
+    <rnb>2958</rnb>
+    <tib>dpal nag po chen po'i gsang ba'i man ngag ces bya ba</tib>
+    <skt>shri na ma u pa d+je sha/ ma hA ka la sa ma ya</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>43</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>46</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3747</ref>
+    <rnb>2967</rnb>
+    <tib>dpal nag po chen po'i gsang ba'i man ngag</tib>
+    <skt>shri na ma u pa d+he sha ma hA ka la sa ma ya</skt>
+    <coloph>dpal nag po chen po'i gsang ba'i man ngag /slob dpon ro langs bde bas gdams pa rdzogs so/ /bram ze chen po la rim par brgyud nas/ tshul shes sgyur ba'i man ngag gi rgyud do/ mgon po 'di man ngag gi dbang du byas pa yin pas/ sgrub thag nye'o rdzogs so/ bla ma rin chen 'od pa'i phyag dpe la/ bla ma sang 'od pa'i zhal zhus so/ de'i dpe la dag par byas te/ rim par ban chung gis kyang zhal zhus so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>34</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>36</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>34</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>36</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4958</ref>
+    <rnb>2959</rnb>
+    <tib>dpal nag po chen po'i gsang ba'i man ngag ces bya ba</tib>
+    <skt>shri na ma u pa d+he sha/ ma hA la sa ma ya</skt>
+    <coloph>dpal nag po chen po'i gsang ba'i man ngag_/slob dpon ro langs bde bas gdams pa rdzogs so/_/bram ze chen po la rim par rgyud nas/_tshul shes bsgyur ba'i man ngag gi rgyud do/_mgon po 'di man ngag gi dbang du byas pa yin pas/_sgrub thag nye'o rdzogs so/_bla ma rin chen 'od pa'i phyag dpe la/_bla ma sang 'od pa'i zhal zhus so/_de'i dpe la dag par byas te/_rim par ban chung gis kyang zhal zhus so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>39</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>42</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>sang 'od pa/(śuddhiprabha)</name>
+        <role>revisor</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>ro langs bde ba/(sukhavetāla)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

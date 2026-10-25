@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3114</ref>
+    <rnb>2049</rnb>
+    <tib>yi ge drug pa'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66106</vol>
+        <sec>rgyud</sec>
+        <debp>174</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>174</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3151</ref>
+    <rnb>2059</rnb>
+    <tib>yi ge drug pa'i sgrub thabs</tib>
+    <skt>Sha Ta k+Sha ra sA d+ha naM</skt>
+    <coloph>'phags pa yi ge drug pa rig chen po rje btsun 'jig rten dbang phyug gi gdams ngag / rgyud nas 'ongs pa'i sgrub thabs kyi cho ga /dge slong tshul khrims rgyal mtshan gyis bsgyur ba'o</coloph>
+    <colophTitle>'phags pa yi ge drug pa rig pa chen po rje btsun 'jig rten dbang phyug gi gdams ngag rgyud nas 'ongs pa'i sgrub thabs kyi cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1391</vol>
+        <sec>rgyud</sec>
+        <debp>174</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>175</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210126</vol>
+        <sec>rgyud</sec>
+        <debp>174</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>175</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211430</vol>
+        <sec>rgyud</sec>
+        <debp>174</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>175</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dge slong tshul khrims rgyal mtshan</name>
+        <role>translator</role>
+        <rid>bdr:P6453</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2766</ref>
+    <rnb>1982</rnb>
+    <tib>yi ge grub pa'i sgrub thabs</tib>
+    <skt>Sha Ta k+Sha ra sA d+ha naM</skt>
+    <coloph>'phags pa yi ge drug pa rig chen po rje btsun 'jig rten dbang phyug gi gdams ngag / rgyud nas 'ongs pa'i sgrub thabs kyi cho ga /dge slong tshul khrims rgyal mtshan gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3323</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>203</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>204</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212356</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>203</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>204</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3972</ref>
+    <rnb>1973</rnb>
+    <tib>yi ge grub pa'i sgrub thabs</tib>
+    <skt>Sha Ta k+Sha ra sA d+ha naM</skt>
+    <coloph>'phags pa yi ge drug pa rig chen po rje btsun 'jig rten dbang phyug gi gdams ngag_/rgyud nas 'ongs pa'i sgrub thabs kyi cho ga'o/_/dge slong tshul khrims rgyal mtshan gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13241</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>215</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>216</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>tshul khrims rgyal mtshan/(śīladhvaja)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

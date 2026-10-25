@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3883</ref>
+    <rnb>2819</rnb>
+    <tib>bsgom pa'i rim pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66141</vol>
+        <sec>dbu ma</sec>
+        <debp>42</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>56</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3916</ref>
+    <rnb>2828</rnb>
+    <tib>bsgom pa'i rim pa</tib>
+    <skt>b+hA ba na kra ma</skt>
+    <coloph>bsgom pa'i rim pa A tsAr+ya ka ma la shI las bar du mdzad pa rdzogs so</coloph>
+    <colophTitle>bsgom pa'i rim pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1426</vol>
+        <sec>mdo 'grel</sec>
+        <debp>42</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210161</vol>
+        <sec>mdo 'grel</sec>
+        <debp>42</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211465</vol>
+        <sec>mdo 'grel</sec>
+        <debp>42</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po pradz+nyA warma</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15493</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba ban+de ye shes sde</name>
+        <role>translator</role>
+        <rid>bdr:P8205</rid>
+      </translator>
+      <translator>
+        <name>A tsAr+ya ka ma la shI la</name>
+        <role>author</role>
+        <rid>bdr:P7641</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4100</ref>
+    <rnb>3320</rnb>
+    <tib>bsgom pa'i rim pa</tib>
+    <skt>b+ha ba nA kra ma</skt>
+    <coloph>sgom pa'i rim pa A tsAR+Ya ka ma la shI las bar du mdzad pa rdzogs sa/ /rgya gar gyi mkhan po pradz+nyA varma dang / lo tsA ba ban+de ye shes sdes bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3369</vol>
+        <sec>mdo 'grel</sec>
+        <debp>44</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>59</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212402</vol>
+        <sec>mdo 'grel</sec>
+        <debp>44</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>59</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5311</ref>
+    <rnb>3312</rnb>
+    <tib>sgom pa'i rim pa</tib>
+    <skt>b+hA ba nA kra ma</skt>
+    <coloph>sgom pa'i rim pa A tsAr+ya ka ma la shI las bar du mdzad pa rdzogs so/_/rgya gar gyi mkhan po pradz+nyA warma dang /_lo tsA ba ban+de ye shes sdes bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13287</vol>
+        <sec>mdo 'grel</sec>
+        <debp>45</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>60</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>prajñāvarma (prajñāvarman )</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>kamasīla (kamalaśīla)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

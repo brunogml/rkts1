@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4839</ref>
+    <rnb>1</rnb>
+    <tib>de kho na nyid nges pa'i rgya cher bshad pa'i 'grel pa</tib>
+    <skt/>
+    <coloph>dpal gsang ba'i snying po de kho na nyid nges pa las/ slob dpon nyi ma'i seng ge'i 'od kyis mdzad pa'i rgya cher bshad pa'i 'grel pa/ rgya gar gyi mkhan po pra swa ta la/ sgyur byed kyi lo tsA ba pad+ma ru tshes gsang ba'i dbang mnos nas bsgyur te/ dge bar shog</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95888</vol>
+        <sec>1</sec>
+        <debp>429</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>769</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2718</ref>
+    <rnb>2719</rnb>
+    <tib>dpal gsang ba'i snying po de kho na nyid nges pa'i rgya cher bshad pa'i 'grel pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31414</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>265</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>473</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3508</ref>
+    <rnb>2727</rnb>
+    <tib>dpal gsang ba'i snying po de kho na nyid nges pa'i rgya cher bshad pa'i 'grel pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3328</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>189</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>350</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212361</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>189</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>350</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4719</ref>
+    <rnb>2720</rnb>
+    <tib>dpal gsang ba'i snying po de kho na nyid nges pa rgya cher bshad pa'i 'grel pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13246</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>208</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>382</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>padmaruche (padmaruci)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nyi ma'i seng ge'i 'od/(sūryasiṁhaprabha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

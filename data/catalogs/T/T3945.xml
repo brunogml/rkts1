@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G3055</ref>
+    <rnb>3056</rnb>
+    <tib>rdo rje bzlas pa'i yi ge sna</tib>
+    <skt/>
+    <coloph>slob dpon chen po bir ba pas mdzad pa'i 'chi mid grub pa'i rdo rje bzlas pa'i ye ge sna/ rnal 'byor gyi dbang phyug a mo g+ha badz+ras mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31424</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>112</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>112</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3845</ref>
+    <rnb>3065</rnb>
+    <tib>'chi med grub pa'i rdo rje bzlas pa'i yi ge sna</tib>
+    <skt/>
+    <coloph>slob dpon chen po bir ba pas mdzad pa'i 'chi mid grub pa'i rdo rje bzlas pa'i ye ge sna/ rnal 'byor gyi dbang phyug a mo g+ha badz+ras mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3338</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>70</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>70</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212371</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>70</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>70</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3866a</ref>
+    <rnb>3086</rnb>
+    <tib>dngos gzhi drug cu rtsa brgyad kyi dmigs</tib>
+    <skt/>
+    <coloph>dngos gzhi drug cu rtsa brgyad kyi dmigs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3338</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>112</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>113</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212371</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>112</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>113</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

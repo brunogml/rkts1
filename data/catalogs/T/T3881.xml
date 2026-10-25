@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5228</ref>
+    <rnb>1</rnb>
+    <tib>dpal 'khor lo sdom pa gnyis su med pa dpa' bo'i sgrub thabs</tib>
+    <skt/>
+    <coloph>dpal bde mchog 'khor lo dpa' bo gnyis su med pa'i sgom thabs/ dngos grub brnyes pa slob dpon rin chen rdo rjes mdzad pa rdzogs so/ /rgya gar gyi mkhan po rab 'byor zhi ba dang / bod kyi lo tsA ba ting 'dzin bzang pos bsgyur cing zhus te gtan la phab pa'o/ 'gyur rnying na'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>922</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>926</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3156</ref>
+    <rnb>3157</rnb>
+    <tib>dpal 'khor lo sdom pa gnyis su med pa dpa' bo'i sgrub thabs</tib>
+    <skt>shri tsakra saM b+ha ra a dra ya bI ra sA d+ha na</skt>
+    <coloph>kho dpal bde mchog 'khor lo dpa' bo gnyis su med pa'i sgom thabs/ dngos grub brnyes pa slob dpon rin chen rdo rjes mdzad pa rdzogs so/ /rgya gar gyi mkhan po rab 'byor zhi ba dang / bod kyi lo tsA ba ting 'dzin bzang pos bsgyur cing zhus te gtan la phab pa'o/ 'gyur rnying na'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>309</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>311</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3947</ref>
+    <rnb>3167</rnb>
+    <tib>dpal 'khor lo sdom pa gnyis su med pa dpa' bo'i sgrub thabs</tib>
+    <skt>shri tsakra saM b+ha ra a d+wa a bI ra sA d+ha na</skt>
+    <coloph>khodpal bde mchog 'khor lo dpa' bo gnyis su med pa'i sgom thabs/ dngos grub brnyes pa slob dpon rin chen rdo rjes mdzad pa rdzogs so/ /rgya gar gyi mkhan po rab 'byor zhi ba dang / bod kyi lo tsA ba ting 'dzin bzang pos bsgyur cing zhus te gtan la phab pa'o/ 'gyur rnying na'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>184</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>186</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>184</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>186</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5158</ref>
+    <rnb>3159</rnb>
+    <tib>dpal 'khor lo sdom pa gnyis su med pa dpa' po'i sgrub thabs</tib>
+    <skt>shri tsakra saM b+ha ra a d+wa ya bI ra sA d+ha na</skt>
+    <coloph>dpal bde mchog 'khor lo dpa' bo gnyis su med pa'i sgom thabs/_dngos grub brnyes pa slob dpon rin chen rdo rjes mdzad pa rdzogs so/_/rgya gar gyi mkhan po rab 'byor zhi ba dang /_bod kyi lo tsA ba ting 'dzin bzang pos bsgyur cing zhus te gtan la phab pa'o/_'gyur rnying kho na'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>187</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>189</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>ting 'dzin bzang po/(samādhibhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>rab 'byor zhi ba/(subhūtiśānti)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>rin chen rdo rje/(ratnavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

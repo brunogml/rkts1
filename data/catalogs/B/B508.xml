@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm133.5</ref>
+    <rnb>366</rnb>
+    <tib>kun 'joms rgyal po chu lha'i gzungs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4104</vol>
+        <sec>1</sec>
+        <debp>368</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>507</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks152.5</ref>
+    <rnb>989</rnb>
+    <tib>kun 'joms rgyal po chu lha yi gzungs</tib>
+    <skt/>
+    <coloph>kun 'jom rgyal po'i rgyud las / gzhan phan gto 'bum bsdus pa rdzogs s+ho…</coloph>
+    <colophTitle/>
+    <margin>chu lha</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75123</vol>
+        <sec>5</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>92</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz172.5</ref>
+    <rnb>394</rnb>
+    <tib>kun 'joms rgyal po chu lha yi gzungs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58707</vol>
+        <sec>ca'o</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>107</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5088</ref>
+    <rnb>1</rnb>
+    <tib>bcom ldan 'das dpal rdo rje gnod mdzes khro bo'i rgyal po chen po sdang ba thams cad rnam par 'joms pa'i bsgrub thabs</tib>
+    <skt>shri b+ha g+ha ban badzra su b+ha ma ha kro d+ha ra dzA sarba duSh+Ta bi d+ha ra sa d+ha na</skt>
+    <coloph>bcom ldan 'das dpal rdo rje gnod mdzes khro bo'i rgyal po chen po sdang ba thams cad rnam par 'joms pa'i sgrub thabs/ slob dpon pradz+nyA rak+Shira tas mdzad pa rdzogs so/ /kha che'i mkhan po b+ha dra bo d+hi dang / a tsar+ya mar pa chos kyi dbang phyug gis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>843</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>849</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3003</ref>
+    <rnb>3004</rnb>
+    <tib>bcom ldan 'das dpal rdo rje gnod mdzes khro bo'i rgyal po chen po sdang ba thams cad rnam par 'joms pa'i bsgrub thabs</tib>
+    <skt>shri b+ha g+ha ban badzra su b+ha ma ha kro d+ha ra dzA sarba duSh+Ta bi d+ha ra sa d+ha na</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>157</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>160</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3793</ref>
+    <rnb>3013</rnb>
+    <tib>rdo rje gnod mdzes khro bo rgyal po'i sgrub thabs</tib>
+    <skt>shri b+ha g+ha ba na badzra su b+ha ma ha kro d+ha ra dzA sarba duSh+Tha bi d+ha ra sa d+ha na</skt>
+    <coloph>bcom ldan 'das dpal rdo rje gnod mdzes khro bo'i rgyal po chen po sdang ba thams cad rnam par 'joms pa'i sgrub thabs/ slob dpon pradz+nyA rak+Shira tas mdzad pa rdzogs so/ /kha che'i mkhan po b+ha dra bo d+hi dang / a tsar+ya mar pa chos kyi dbang phyug gis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>113</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>115</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>113</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>115</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5004</ref>
+    <rnb>3005</rnb>
+    <tib>bcom ldan 'das dpal rdo rje gnod mdzes khro bo'i rgyal po chen po sdang ba thams cad rnam par 'joms pa'i bsgrub thabs</tib>
+    <skt>shri b+ha g+ha ban badzra sup+ta ma ha kro d+ha ra dzA sarba duSh+ta bi d+ha ra sa d+ha na</skt>
+    <coloph>bcom ldan 'das dpal rdo rje gnod mdzes khro bo'i rgyal po chen po sdang ba thams cad rnam par 'joms pa'i bsgrub thabs/_slob dpon pradz+nyA rak+Shir tas mdzad pa rdzogs so/_/kha che'i mkhan po b+ha dra bo d+hi dang /_a tsar+ya mar pa chos kyi dbang phyug gis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>121</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>123</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mar pa chos kyi dbang phyug(dharmeśvara)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>prajñārakṣita</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

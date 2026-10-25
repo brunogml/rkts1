@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G2647</ref>
+    <rnb>2648</rnb>
+    <tib>thabs lam sgom pa'i rnal 'byor</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31412</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>294</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>294</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3437</ref>
+    <rnb>2656</rnb>
+    <tib>thabs lam sgom pa'i rnal 'byor</tib>
+    <skt/>
+    <coloph>mkha' 'gro ma ni gu ma'i zhal gdams so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>190</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>190</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212359</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>190</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>190</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4648</ref>
+    <rnb>2649</rnb>
+    <tib>thabs lam sgom pa'i rnal 'byor</tib>
+    <skt/>
+    <coloph>mkha' 'gro ma ni gu ma'i zhal gdams so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13244</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>200</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>200</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mkha' 'gro ma ni gu ma/(ḍākinī nigu)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,981 @@
+<list>
+<locref><ref>D604</ref><vol>rgyud, pha</vol><p>269a3-287a7</p><voln>90</voln><json>0975</json><psection>rgyud</psection></locref>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>269a</pag></ref>
+<align><coll>A</coll><ref>A632</ref><setid>1PD96682</setid><vol>1PD96873</vol><sec>1</sec><pag>888</pag><user>BL</user></align>
+<align><coll>C</coll><ref>C296</ref><setid>1PD96685</setid><vol>1PD105078</vol><sec>rgyud</sec><pag>5b</pag><user>BL</user></align>
+<align><coll>Cz</coll><ref>Cz064-040</ref><setid>EAP570-4-1</setid><vol>EAP570-4-1-64</vol><sec>rgyud</sec><pag>309a</pag><user>BL</user></align>
+<align><coll>Dd</coll><ref>Dd092-048</ref><setid>EAP570-5-1</setid><vol>EAP570-5-1-92</vol><sec>rgyud</sec><pag>350a</pag><user>BL</user></align>
+<align><coll>Dk</coll><ref>Dk101-040</ref><setid>EAP570-1-1</setid><vol>EAP570-1-1-101</vol><sec>rgyud</sec><pag>362b</pag><user>BL</user></align>
+<align><coll>Dm</coll><ref>Dm44.2</ref><setid>1BL10</setid><vol>1BL954</vol><sec>rgyud</sec><pag>123a</pag><user>BL</user></align>
+<align><coll>Dm</coll><ref>Dm38.5</ref><setid>1BL10</setid><vol>1BL948</vol><sec>rgyud</sec><pag>180a</pag><user>BL</user></align>
+<align><coll>Dr</coll><ref>Dr293</ref><setid>NPM1</setid><vol>NPM15</vol><sec>rgyud</sec><pag>7b</pag><user>BL</user></align>
+<align><coll>F</coll><ref>F490</ref><setid>1KG13607</setid><vol>1KG14121</vol><sec>rgyud</sec><pag>1b</pag><user>BL</user></align>
+<align><coll>Gt</coll><ref>Gt081-039</ref><setid>EAP039-1-1</setid><vol>EAP039-1-1-8-13</vol><sec>rgyud</sec><pag>298b</pag><user>BL</user></align>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>332a</pag><user>BL</user></align>
+<align><coll>Hg</coll><ref>Hg50-002</ref><setid>4CZ45315</setid><vol>I2KG209211a</vol><sec>1</sec><pag>25a</pag><user>BL</user></align>
+<align><coll>Hg</coll><ref>Hg28-001</ref><setid>4CZ45315</setid><vol>I2KG209189</vol><sec>1</sec><pag>1b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>4a</pag><user>BL</user></align>
+<align><coll>L</coll><ref>L452</ref><setid>3CN981</setid><vol>3CN1065</vol><sec>rgyud</sec><pag>279a</pag><user>BL</user></align>
+<align><coll>N</coll><ref>N552</ref><setid>22703</setid><vol>5495</vol><sec>rgyud</sec><pag>304a</pag><user>BL</user></align>
+<align><coll>Np</coll><ref>Np050-040</ref><setid>EAP310-2-1</setid><vol>EAP310-2-1-50</vol><sec>rgyud</sec><pag>324b</pag><user>BL</user></align>
+<align><coll>Pj</coll><ref>Pj093-048</ref><setid>EAP570-6-1</setid><vol>EAP570-6-1-93</vol><sec>rgyud</sec><pag>310b</pag><user>BL</user></align>
+<align><coll>Pz</coll><ref>Pz093-048</ref><setid>EAP570-7-1</setid><vol>EAP570-7-1-93</vol><sec>rgyud</sec><pag>267a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>4a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>269a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>300a</pag><user>BL</user></align>
+<align><coll>Ty</coll><ref>Ty068-039</ref><setid>2KG209840</setid><vol>2KG209930</vol><sec>rgyud</sec><pag>309a</pag><user>BL</user></align>
+<align><coll>U</coll><ref>U605</ref><setid>29468</setid><vol>5385</vol><sec>rgyud</sec><pag>269a</pag><user>BL</user></align>
+<align><coll>V</coll><ref>V631</ref><setid>1KG14700</setid><vol>1KG86334</vol><sec>rgyud</sec><pag>273b</pag><user>BL</user></align>
+<align><coll>Z</coll><ref>Z574</ref><setid>1PD127393</setid><vol>1PD127559</vol><sec>rgyud</sec><pag>320a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>269b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>332b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>4b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>4b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>269b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>300b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>270a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>333b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>5a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>5a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>270a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>301a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>270b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>334a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>5b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>5b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>270b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>302a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>271a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>335a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>6a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>6a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>271a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>302b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>271b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>335b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>6b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>6b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>271b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>303a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>272a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>336b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>7a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>7a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>272a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>304a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>272b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>337a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>8a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>7b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>272b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>304b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>273a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>338a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>8b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>8a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>273a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>305b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>273b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>338b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>9a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>8b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>273b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>306b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>274a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>339b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>9b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>9a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>274a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>307a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>274b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>340a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>10a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>9b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>274b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>308a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>275a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>341a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>10b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>10a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>275a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>308b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>275b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>341b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>11a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>10b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>275b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>309a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>276a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>342b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>12a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>11a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>276a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>310a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>276b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>343b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>12b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>11b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>276b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>310b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>277a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>344a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>13a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>12a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>277a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>311b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>277b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>345a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>13b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>12b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>277b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>312a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>278a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>345b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>14a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>13a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>278a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>313a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>278b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>346b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>14b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>13b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>278b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>313b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>279a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>347a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>15a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>14a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>279a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>314b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>279b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>348a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>15b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>14b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>279b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>315b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>280a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>348b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>16a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>15a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>280a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>316a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>280b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>349b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>17a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>15b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>280b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>316b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>281a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>350b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>17b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>16a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>281a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>317b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>281b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>351a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>18a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>16b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>281b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>318a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>282a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>352a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>18b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>17a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>282a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>319a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>282b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>352b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>19a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>17b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>282b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>319b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>283a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>353b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>19b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>18a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>283a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>320a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>283b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>354a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>20a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>18b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>283b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>321a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>284a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>354b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>20b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>19a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>284a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>321b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>284b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>355b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>21a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>19b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>284b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>322a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>285a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>356a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>21b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>20a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>285a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>323a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>285b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>357a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>22a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>20b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>285b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>323b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>286a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>357b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>22b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>21a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>286a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>324b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>286b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>358b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>23a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>21b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>286b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>325a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0975</vol><sec>rgyud</sec><pag>287a</pag></ref>
+<align><coll>F</coll><ref></ref><setid>1KG13607</setid><vol>1KG14121</vol><sec>rgyud</sec><pag>84a</pag><user>BL</user></align>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>359a</pag><user>BL</user></align>
+<align><coll>J</coll><ref></ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>56b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>23b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>22a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17354</vol><sec>rgyud</sec><pag>287a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>326a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>1b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>360a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>24a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>22a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>1b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>326b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>2a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>360a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>24a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>22b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>2a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>327a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>2b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>361a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>24b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>23a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>2b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>327b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>3a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>361b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>25a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>23b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>3a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>328a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>3b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>362b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>25b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>24a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>3b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>329a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>4a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>363a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>26a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>24b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>4a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>329b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>4b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>364a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>26b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>25a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>4b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>330b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>5a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>364b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>27a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>25b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>5a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>331a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>5b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>365b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>27b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>26a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>5b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>331b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>6a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>366a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>28a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>26b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>6a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>332b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>6b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>367a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>28b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>27a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>6b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>333a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>7a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>367b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>29a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>27b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>7a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>334a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>7b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>368b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>29b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>28a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>7b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>334b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>8a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>369a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>29b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>28b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>8a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>335b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>8b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>370a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>30a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>29a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>8b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>336a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>9a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>370b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>30b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>29b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>9a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>337a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>9b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>371b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>31a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>30a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>9b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>337b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>10a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>372a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>31b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>30b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>10a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>338b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>10b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>373a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>32a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>31a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>10b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>339a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>11a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>373b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>32b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>31b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>11a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>340a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>11b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>374b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>33a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>32a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>11b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>340b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>12a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>375a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>33b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>32b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>12a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>341a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>12b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>376a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>34a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>33a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>12b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>342a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>13a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>376b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>34b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>33b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>13a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>342b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>13b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>377b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>35a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>34a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>13b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>343b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>14a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>378a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>35b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>34b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>14a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>344a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>14b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>379a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>36a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>35a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>14b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>344b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>15a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>379b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>36b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>35b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>15a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>345b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>15b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>380b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>37a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>36a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>15b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>346a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>16a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>381a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>37b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>36b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>16a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>347a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>16b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>382a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>38a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>37a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>16b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>347b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>17a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>383a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>38b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>37b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>17a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>348b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>17b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>383b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>39a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>38a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>17b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>349a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>18a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>384b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>39b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>38b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>18a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>349b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>18b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>385a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>40a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>39a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>18b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>350b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>19a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>386a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>40b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>39b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>19a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>351a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>19b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>386b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>41a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>40a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>19b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>352a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>20a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>387b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>41b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>40b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>20a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>352b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>20b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>388a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>42a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>41a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>20b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>353a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>21a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>389a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>42b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>41b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>21a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>354a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>21b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>389b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>43a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>42a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>21b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>354b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>22a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>390b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>43b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>42b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>22a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>355b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>22b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>391a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>44a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>43a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>22b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>356a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>23a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>392a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>44b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>43b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>23a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>357a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>23b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>392b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>45a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>44a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>23b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>357b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>24a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>393b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>45b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>44b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>24a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>358b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>24b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>394a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>45b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>45a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>24b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>359a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>25a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>395a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>46a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>45b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>25a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>359b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>25b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>395b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>46b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>46a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>25b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>360b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>26a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>396b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>47a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>46b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>26a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>361a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>26b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>397a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>47b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>47a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>26b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>362a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>27a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>398a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>48a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>47b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>27a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>362b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>27b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>398b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>48b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>48a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>27b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>363b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>28a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>399a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>49a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>48b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>28a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>364a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>28b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>400a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>49b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>49a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>28b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>364b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>29a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>400b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>50a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>49a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>29a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>365b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>29b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>401b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>50b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>49b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>29b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>366a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>30a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>402b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>51a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>50a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>30a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>367a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>30b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>403a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>51b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>50b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>30b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>367b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>31a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>404a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>52a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>51a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>31a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>368b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>31b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>404b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>52b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>51b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>31b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>369a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>32a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>405b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>53a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>52a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>32a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>370a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>32b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>406b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>53b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>52b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>32b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>370b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>33a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>407a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>54a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>53a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>33a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>371a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>33b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>408a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>54b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>53b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>33b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>372a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>34a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>408b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>55a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>54a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>34a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>372b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>34b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>409b</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>55b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>54b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>34b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>373b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>35a</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>410a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>56a</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>55a</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>35a</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>374a</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW22084</setid><vol>0976</vol><sec>rgyud</sec><pag>35b</pag></ref>
+<align><coll>H</coll><ref>H581</ref><setid>26071</setid><vol>4116</vol><sec>rgyud</sec><pag>411a</pag><user>BL</user></align>
+<align><coll>J</coll><ref>J614(a)</ref><setid>4CZ7445</setid><vol>1KG9965</vol><sec>rgyud 'bum</sec><pag>56b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q291</ref><setid>1PD96684</setid><vol>1PD106667</vol><sec>rgyud</sec><pag>55b</pag><user>BL</user></align>
+<align><coll>R</coll><ref>R604</ref><setid>2PD17098</setid><vol>2PD17355</vol><sec>rgyud</sec><pag>35b</pag><user>BL</user></align>
+<align><coll>S</coll><ref>S561</ref><setid>22083</setid><vol>3811</vol><sec>rgyud 'bum</sec><pag>375a</pag><user>BL</user></align>
+</item>
+
+</list>

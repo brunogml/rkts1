@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5139</ref>
+    <rnb>1</rnb>
+    <tib>'chi med grub pa'i gsang ba rdo rje bzlas pa</tib>
+    <skt/>
+    <coloph>slob dpon chen po bir ba pas mdzad pa'i 'chi med grub pa'i rdo rje bzlas pa'i rnam bzhag / bod yul du rnal 'byor gyi dbang phyug a mo g+ha badz+ras mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>245</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>246</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5059</ref>
+    <rnb>3060</rnb>
+    <tib>'chi med grub pa'i gsang ba rdo rje bzlas pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13256</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>98</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>99</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>amoghavajra</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

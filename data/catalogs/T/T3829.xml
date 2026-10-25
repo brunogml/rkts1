@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G3073</ref>
+    <rnb>3074</rnb>
+    <tib>nyi ma dben pa'i skyon bcos pa'i thabs kyi man ngag</tib>
+    <skt/>
+    <coloph>'bir wa pa'i nyi ma dben pa'i skyon bcos pa'i thabs kyi man ngag go</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31424</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>169</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>170</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3863</ref>
+    <rnb>3082</rnb>
+    <tib>nyi ma dben pa'i skyon bcos pa'i thabs kyi man ngag</tib>
+    <skt/>
+    <coloph>'bir wa pa'i nyi ma dben pa'i skyon bcos pa'i thabs kyi man ngag go</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3338</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>109</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>109</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212371</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>109</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>109</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5074</ref>
+    <rnb>3075</rnb>
+    <tib>nyi ma dben skyon bcos pa'i thabs kyi man ngag</tib>
+    <skt/>
+    <coloph>'bir wa pa'i nyi ma dben pa'i skyon bcos pa'i thabs kyi man ngag go</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13256</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>121</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>122</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>virūpa</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>D</coll>
+    <ref>D4457</ref>
+    <rnb>3373</rnb>
+    <tib>'phags pa skye ba dran pa'i gzungs</tib>
+    <skt/>
+    <coloph>'phags pa skye ba dran pa'i gzungs rdzogs so</coloph>
+    <colophTitle>'phags pa skye ba dran pa'i gzungs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1530</vol>
+        <sec>mdo 'grel</sec>
+        <debp>265</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>265</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210265</vol>
+        <sec>mdo 'grel</sec>
+        <debp>265</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>265</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211569</vol>
+        <sec>mdo 'grel</sec>
+        <debp>265</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>265</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>d+harmA b+ha dra</name>
+        <role>translator</role>
+        <rid>bdr:P856</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4700</ref>
+    <rnb>3920</rnb>
+    <tib>'phags pa skye ba dran pa'i gzungs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3472</vol>
+        <sec>mdo 'grel</sec>
+        <debp>275</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>275</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212505</vol>
+        <sec>mdo 'grel</sec>
+        <debp>275</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>275</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

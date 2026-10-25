@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5240</ref>
+    <rnb>1</rnb>
+    <tib>rang byin gyis brlab pa'i nag po chen po'i sgrub thabs</tib>
+    <skt>s+wA d+hiSh+Tha na ma hA kA la sA d+ha naM</skt>
+    <coloph>rang byin gyis brlab pa'i nag po chen po'i sgrub thabs rdzogs so/ /gsar 'gyur yin no</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>966</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>969</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3168</ref>
+    <rnb>3169</rnb>
+    <tib>rang byin gyis brlab pa'i nag po chen po'i sgrub thabs</tib>
+    <skt>s+wA d+hiSh+Tha na ma hA kA ka sA d+ha naM</skt>
+    <coloph>rang byin gyis brlab pa'i nag po chen po'i sgrub thabs rdzogs so/ /gsar 'gyur yin no</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>332</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>333</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3959</ref>
+    <rnb>3179</rnb>
+    <tib>rang byin gyis brlab pa'i nag po chen po'i sgrub thabs</tib>
+    <skt>s+wa d+hiSh+Tha na ma hA kA la sA d+ha naM</skt>
+    <coloph>rang byin gyis brlab pa'i nag po chen po'i sgrub thabs rdzogs so/ /gsar 'gyur yin no</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>196</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>197</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>196</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>197</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5170</ref>
+    <rnb>3171</rnb>
+    <tib>rang byin gyis brlab pa'i nag po chen sgrub thabs</tib>
+    <skt/>
+    <coloph>rang byin gyis brlab pa'i nag po chen po'i sgrub thabs rdzogs so/ /gsar 'gyur yin no</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>200</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>201</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

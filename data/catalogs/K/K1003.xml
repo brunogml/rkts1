@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba185.8</ref>
+    <rnb>1203</rnb>
+    <tib>phyir mi ldog pa 'phags pa rgyal ba can zhes bya ba'i gzungs</tib>
+    <skt>Ar+ya bi dza ya pA ti na ma pa tang gi rA</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>4CZ75488</vol>
+        <sec>1</sec>
+        <debp>150</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>152</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Hi</coll>
+    <ref>Hi49.07</ref>
+    <rnb>77</rnb>
+    <tib>phyir ldog pa 'phags pa rgyal ba can zhes bya ba'i gzungs</tib>
+    <skt>ar+ya bi dza ya pA ti nA ma pra dang gi ri</skt>
+    <coloph>phyir ldog pa 'phags pa rgyal ba can zhes bya ba'i gzungs rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45314</setid>
+        <vol>1BL157</vol>
+        <sec>gzungs</sec>
+        <debp>180</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>182</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

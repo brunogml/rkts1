@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G2934</ref>
+    <rnb>2935</rnb>
+    <tib>nag po chen po'i sgrub thabs zhes bya ba</tib>
+    <skt>a thiSh+Tha na ma hA ka la sa d+ha na maH</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>398</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>400</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3724</ref>
+    <rnb>2944</rnb>
+    <tib>nag po chen po'i sgrub thabs zhes bya ba</tib>
+    <skt>a thiSh+Tha na ma hA ka la sa d+ha na na maH</skt>
+    <coloph>mgon po chen po'i byin gyis brlabs pa'i sgrub thabs/ sa ra has mdzad pa rdzogs so/ /rgya gar gyi bla ma a ta ya badz+ra dang/ lo ts+tsha ba shangs pa tshul khrims mgon gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>293</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>295</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>293</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>295</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4935</ref>
+    <rnb>2936</rnb>
+    <tib>nag po chen po'i sgrub thabs zhes bya ba</tib>
+    <skt>a thiSh+Tha na ma hA ka la sa d+ha na na maH</skt>
+    <coloph>nag po chen pos byin gyis brlabs pa'i sgrub thabs/_sa ra has mdzad pa rdzogs so/_/rgya gar gyi bla ma a ta ya badzra dang/_lo tsA ba shangs pa tshul khrims mgon gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>291</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>292</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>atayavajra (advayavajra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>shangs pa tshul khrims mgon/(śīlanātha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>saraha</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

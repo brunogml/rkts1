@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt27.96</ref>
+    <rnb>1351</rnb>
+    <tib>gshang rabs dun rtse zil gnon</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>gshang rabs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4720</vol>
+        <sec>96</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt5.6</ref>
+    <rnb>115</rnb>
+    <tib>gshang rabs dun rtse zil gnon</tib>
+    <skt/>
+    <coloph>de ltar gshang rabs dun rtse zil gnon 'di/ dgra bgegs bdud srin zil gyis gnon pa'i phyir/ gsang ba'i mkha' 'gros sprul sku drung mu mu tri wer lo/ me sbrul lo la snyan du brgyud pa'o//</coloph>
+    <colophTitle/>
+    <margin>gshang rabs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4698</vol>
+        <sec>6</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>3</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

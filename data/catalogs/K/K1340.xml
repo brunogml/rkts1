@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.117</ref>
+    <rnb>119</rnb>
+    <tib>-</tib>
+    <skt/>
+    <coloph>phyi rabs kyi gang zag rnams kyis kyang 'di la klog 'don byed pa gal che gsungs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>254</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>258</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg114</ref>
+    <rnb>116</rnb>
+    <tib>phyi rabs kyi gang zag rnams kyis kyang 'di la klog 'don byed pa gal che</tib>
+    <skt/>
+    <coloph>phyi rabs kyi gang zag rnams kyis kyang 'di la klog 'don byed pa gal che gsungaso</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>244</debp>
+        <debf>a</debf>
+        <debl>9</debl>
+        <finp>244</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

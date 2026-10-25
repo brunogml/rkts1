@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>L</coll>
+    <ref>L198a</ref>
+    <rnb>204</rnb>
+    <tib>bkra shis dam pa</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1042</vol>
+        <sec>mdo sde</sec>
+        <debp>347</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>348</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S279</ref>
+    <rnb>327</rnb>
+    <tib/>
+    <skt/>
+    <coloph>bkra shis dam pa des kyang der 'dir bde legs shog</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3788</vol>
+        <sec>mdo sde</sec>
+        <debp>373</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>373</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty048-006</ref>
+    <rnb>302</rnb>
+    <tib/>
+    <skt/>
+    <coloph>bkra shis dam pa des kyang der 'dir bde legs shog</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209910</vol>
+        <sec>mdo sde</sec>
+        <debp>386</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>386</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z289</ref>
+    <rnb>289</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127536</vol>
+        <sec>mdo sde</sec>
+        <debp>380</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>380</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>No title is given at the beginning or end of the text. This work is not included in Tshal pa. The same Sanskrit phrases at the end of the volume are also found in S. This work is not listed in Pagel and Gaffney 1996, but it is found in L: mdo, a (vol. 60), 347b6-348a5.</note>
+  </item>
+</catalog>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5624</ref>
+    <rnb>1</rnb>
+    <tib>ye d+harmA'i 'grel pa</tib>
+    <skt>ye d+harmASh+Ti ka</skt>
+    <coloph>'di ni slob rtag pa'i rdo rje'i gsung pa gzhon nus bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95938</vol>
+        <sec>1</sec>
+        <debp>1446</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1449</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4116</ref>
+    <rnb>3053</rnb>
+    <tib>ye d+harmA'i 'grel ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66198</vol>
+        <sec>'dul ba</sec>
+        <debp>252</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>253</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4149</ref>
+    <rnb>3062</rnb>
+    <tib>ye d+harmA'i 'grel ba</tib>
+    <skt>ye d+ha rmASh+TI ka</skt>
+    <coloph>zhes bya ba ni zung du 'jug pa gsung ba'i tshul can yang dag par rdzogs pa'i sangs rgyas te/_phyin ci ma log par gsung ba'i tshul can gyi tshangs pa'i cho ga'o/_/'di ni slob dpon rtag pa'i rdo rjes gsungs pa gzhon nus bsgyur ba'o</coloph>
+    <colophTitle>zung du 'jug pa gsung ba'i tshul can yang dag par rdzogs pa'i sangs rgyas te/_phyin ci ma log par gsung ba'i tshul can gyi tshangs pa'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1483</vol>
+        <sec>mdo 'grel</sec>
+        <debp>253</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>254</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210218</vol>
+        <sec>mdo 'grel</sec>
+        <debp>253</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>254</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211522</vol>
+        <sec>mdo 'grel</sec>
+        <debp>253</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>254</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gzhon nu</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15220</rid>
+      </translator>
+      <translator>
+        <name>slob dpon rtag pa'i rdo rje</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15116</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

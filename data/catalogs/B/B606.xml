@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks191.52</ref>
+    <rnb>1301</rnb>
+    <tib>stag la me 'bar gyi rnga rabs</tib>
+    <skt/>
+    <coloph>khyung po 'bum sde grags pa'i phyag dpe</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations/>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt143.63</ref>
+    <rnb>4552</rnb>
+    <tib>stag la me 'bar gyi rnga rabs</tib>
+    <skt/>
+    <coloph>phyi nang gsang gsum rnga rabs 'di sprul sku kyu ra rnal 'byor gyis pom ra'i gter nas thon pa dge'o//</coloph>
+    <colophTitle/>
+    <margin>rnga rabs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4836</vol>
+        <sec>63</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>3</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

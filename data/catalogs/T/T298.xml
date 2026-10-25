@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2488</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje rnal 'byor ma la bstod pa</tib>
+    <skt>badzra yo gi nI sto tra</skt>
+    <coloph>mkha' spyod ma dkar mo'i stod pa/ paN+Di ta dI paM ka ras mdzad pa rdzogs so/ /paN+Di ta de nyid dang/ /lo tsA ba rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95857</vol>
+        <sec>1</sec>
+        <debp>1052</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1054</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>A</coll>
+    <ref>A2495</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje rnal 'byor ma la bstod pa</tib>
+    <skt>badzra yo gi nI sto tra</skt>
+    <coloph>dpal rdo rje rnal 'byor ma la bstod pa paN+Di ta chen po dI paM ka ra shrI dz+nyA nas mdzad pa rdzogs so/ paN+Di ta de nying dang / lo tsA ba khu ne tsos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95857</vol>
+        <sec>1</sec>
+        <debp>1089</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1091</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1529</ref>
+    <rnb>473</rnb>
+    <tib>rdo rje rnal 'byor ma la bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66055</vol>
+        <sec>rgyud</sec>
+        <debp>103</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1587</ref>
+    <rnb>482</rnb>
+    <tib>rdo rje rnal 'byor ma la bstod pa</tib>
+    <skt>badzra yo gi nI sto tra</skt>
+    <coloph>mkha' spyod ma dkar mo'i bstod pa/ paN+Di ta dI pam ka ras mdzad pa rdzogs so// //paN+Di ta de nyid dang/ lo tsA ba rin chen bzang pos bsgyur ba'o//</coloph>
+    <colophTitle>mkha' spyod ma dkar mo'i bstod pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1340</vol>
+        <sec>rgyud</sec>
+        <debp>103</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210075</vol>
+        <sec>rgyud</sec>
+        <debp>103</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211379</vol>
+        <sec>rgyud</sec>
+        <debp>103</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta dI paM ka ra</name>
+        <role>translator</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba rin chen bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P753</rid>
+      </translator>
+      <translator>
+        <name>paN+Di ta dI paM ka ra</name>
+        <role>author</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G300</ref>
+    <rnb>300</rnb>
+    <tib>rdo rje rnal 'byor ma la bstod pa</tib>
+    <skt>badzra yo gi ni sto tra</skt>
+    <coloph>mkha' spyod ma dkar mo'i stod pa/ paN+Di ta dI paM ka ras mdzad pa rdzogs so/ /paN+Di ta de nyid dang/ /lo tsA ba rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31352</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>543</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>545</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1089</ref>
+    <rnb>300</rnb>
+    <tib>rdo rje rnal 'byor ma la bstod pa</tib>
+    <skt>badzra yo gi ni sto tra</skt>
+    <coloph>mkha' spyod ma dkar mo'i stod pa/ paN+Di ta dI paM ka ras mdzad pa rdzogs so/ /paN+Di ta de nyid dang/ /lo tsA ba rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3266</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>385</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>385</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212299</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>385</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>385</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2298</ref>
+    <rnb>298</rnb>
+    <tib>rdo rje rnal 'byor ma la bstod pa</tib>
+    <skt>badzra yo gi ni sto tra</skt>
+    <coloph>mkha' spyod ma dkar mo'i stod pa/ paN+Di ta dI paM ka ras mdzad pa rdzogs so/ /paN+Di ta de nyid dang/ /lo tsA ba rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13184</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>420</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>421</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rin chen bzang po/(ratnabhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dīpaṁkara</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

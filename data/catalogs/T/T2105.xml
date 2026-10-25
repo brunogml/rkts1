@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4224</ref>
+    <rnb>1</rnb>
+    <tib>gshin rje gshed nag po'i sgrub thabs</tib>
+    <skt>kr-iSh+Na ya mA ri sA d+ha naM</skt>
+    <coloph>gshin rje gshed nag po'i sgrub thabs/ a b+ha ya la sogs pa'i zhal snga nas dge slong tshul khrims rgyal mtshan gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95884</vol>
+        <sec>1</sec>
+        <debp>902</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>905</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2108</ref>
+    <rnb>2110</rnb>
+    <tib>gshin rje gshed nag po'i sgrub thabs</tib>
+    <skt>kr-iSh+Na ya mA ri sA d+ha naM</skt>
+    <coloph>gshin rje gshed nag po'i sgrub thabs/ a b+ha ya la sogs pa'i zhal snga nas dge slong tshul khrims rgyal mtshan gyis bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31409</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>391</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>392</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

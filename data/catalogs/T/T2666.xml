@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4791</ref>
+    <rnb>1</rnb>
+    <tib>shrI ba san ta ti la ka zhes bya ba</tib>
+    <skt/>
+    <coloph>slon dpon nag po'i zhal snga nas kyi mdzad pa'i ba san ta ti la la zhes bya ba rdzogs so/ /rgya gar gyi paN+Di ta g+ha ya d+ha ra dang / lo tsA ba 'gos lha btsas kyis bsgyur te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>1177</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1199</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2666</ref>
+    <rnb>2667</rnb>
+    <tib>shrI ba san ta ti la ka zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31413</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>13</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3456</ref>
+    <rnb>2675</rnb>
+    <tib>shri ba san ta ti la kazhes bya ba</tib>
+    <skt/>
+    <coloph>slon dpon nag po'i zhal snga nas kyi mdzad pa'i ba san ta ti la la zhes bya ba rdzogs so/ /rgya gar gyi paN+Di ta g+ha ya d+ha ra dang / lo tsA ba 'gos lha btsas kyis bsgyur te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3327</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>11</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212360</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>11</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4667</ref>
+    <rnb>2668</rnb>
+    <tib>shrI ba san ta ti la ka zhes bya ba</tib>
+    <skt/>
+    <coloph>slon dpon nag po'i zhal snga nas kyis mdzad pa'i ba san ta ti la ka zhes bya ba rdzogs so/_/rgya gar gyi paN+Di ta g+ha ya d+ha ra dang /_lo tsA ba 'gos lha btsas kyis bsgyur te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13245</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>11</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nag po/(kṛṣṇa)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

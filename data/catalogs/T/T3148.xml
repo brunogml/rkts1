@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5271</ref>
+    <rnb>1</rnb>
+    <tib>brgyad stong pa'i dka' 'grel snying po mchog ces bya ba</tib>
+    <skt>Ar+ya aSh+Ta sa ha sri ka pradz+nyA pA ra mi tA pany+dzi ka sA rot+ta ma nA ma</skt>
+    <coloph>'phags pa shes rab kyi pha rol tu phyin pa brgyad stong pa'i bka' 'grel snying po mchog ces bya ba rgyal po'i slob dpon mkhas pa chen po rin chen 'byung gnas zhi ba'i zhal snga nas kyis mdzad pa rdzogs so/ /paN+Di ta shrI su b+hu ti shan+ti dang / lo tsA ba shAkyi blo gros kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95898</vol>
+        <sec>1</sec>
+        <debp>711</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1317</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3769</ref>
+    <rnb>2705</rnb>
+    <tib>shes rab kyi pha rol tu phyin pa brgyad stong pa'i dka' 'grel snying po mchog</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66120</vol>
+        <sec>shes phyin</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>236</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3803</ref>
+    <rnb>2714</rnb>
+    <tib>shes rab kyi pha rol tu phyin pa brgyad stong pa'i dka' 'grel snying po mchog</tib>
+    <skt>Ar+ya aSh+Ta sa ha sri ka pradz+nyA pA ra mi tA pany+dzi ka sA rot+ta ma nA ma</skt>
+    <coloph>'phags pa shes rab kyi pha rol tu phyin pa brgyad stong pa'i dka' 'grel snying po mchog ces bya ba rgyal po'i slob dbon mkhas pa chen po rin chen 'byung gnas zhi ba'i zhal snga nas kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>'phags pa shes rab kyi pha rol tu phyin pa brgyad stong pa'i dka' 'grel snying po mchog ces bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1405</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>230</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210140</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>230</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211444</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>230</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta su b+hU ti shAn ti</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15090</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba shAkya blo gros</name>
+        <role>translator</role>
+        <rid>bdr:P8216</rid>
+      </translator>
+      <translator>
+        <name>rgyal po'i slob dbon mkhas pa chen po rin chen 'byung gnas</name>
+        <role>author</role>
+        <rid>bdr:P00EGS1016642</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3204</ref>
+    <rnb>3199</rnb>
+    <tib>'phags pa shes rab kyi pha rol tu phyin pa brgyad stong pa'i bka' 'grel snying po mchog ces bya ba</tib>
+    <skt>Ar+ya aSh+Ta sa ha sri ka pradz+nyA pa ra mi ta pany+dzi ka sA rod ta ma nA ma</skt>
+    <coloph>'phags pa shes rab kyi pha rol tu phyin pa brgyad stong pa'i bka' 'grel snying po mchog ces bya ba rgyal po'i slob dpon mkhas pa chen po rin chen 'byung gnas zhi ba'i zhal snga nas kyis mdzad pa rdzogs so/ /paN+Di ta shrI su b+hu ti shan+ti dang / lo tsA ba shAkyi blo gros kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31435</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>336</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3989</ref>
+    <rnb>3209</rnb>
+    <tib>'phags pa shes rab kyi pha rol tu phyin pa brgyad stong pa'i bka' 'grel snying po mchog ces bya ba</tib>
+    <skt>Ar+ya aSh+Ta sa ha sri ka pradz+nyA pA ra mi ta pany+dzi ka sA rod ta ma nA ma</skt>
+    <coloph>'phags pa shes rab kyi pha rol tu phyin pa brgyad stong pa'i bka' 'grel snying po mchog ces bya ba rgyal po'i slob dpon mkhas pa chen po rin chen 'byung gnas zhi ba'i zhal snga nas kyis mdzad pa rdzogs so/ /paN+Di ta shrI su b+hu ti shan+ti dang / lo tsA ba shAkyi blo gros kyis bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3349</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212382</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5200</ref>
+    <rnb>3201</rnb>
+    <tib>'phags pa shes rab kyi pha rol tu phyin pa brgyad stong pa'i dka' 'grel snying po mchog ces bya ba</tib>
+    <skt>Ar+ya aSh+Ta sa ha sri ka pradz+nyA pA ra mi ta pany+dzi ka sA rod ta ,a mA ,a</skt>
+    <coloph>'phags pa shes rab kyi pha rol tu phyin pa brgyad stong pa'i bka' 'grel snying po mchog ces bya ba rgyal po'i slob dpon mkhas pa chen po rin chen 'byung gnas zhi ba'i zhal snga nas kyis mdzad pa rdzogs so/_/paN+Di ta shrI su b+hu ti shan+ti dang /_lo tsA ba shAkya blo gros kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13267</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>253</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>shAkya blo gros/(śākyamati)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>rin chen 'byung gnas zhi ba/(ratnākaraśānti)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

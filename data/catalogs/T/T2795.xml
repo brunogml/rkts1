@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G2795</ref>
+    <rnb>2796</rnb>
+    <tib>gshin rje gshed nag po'i mngon par rtogs pa'i rim pa</tib>
+    <skt>krisna ya ma a ri a bI sa ma ya kra ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31420</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>126</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>125</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3585</ref>
+    <rnb>2805</rnb>
+    <tib>gshin rje gshed nag po'i mngon pa rtogs pa'i rim pa</tib>
+    <skt>kris+na ya na a ri a pI sa ma ya kra ma</skt>
+    <coloph>slob dpon mkhas pa dngal 'dzin gyis mdzad pa rdzogs so//rgya gar gyi mkhn po pa NI ta shan ti b+hang hra dang / lo tsha ba dge slong tshul khrims rgyal bas bsgyur cing zhus te gtan la pab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>89</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>95</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212367</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>89</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>95</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4796</ref>
+    <rnb>2797</rnb>
+    <tib>gshin rje nag po'i mngon par rtogs pa'i rim pa</tib>
+    <skt>krisna ya ma a ri a bI sa ma ya kra ma</skt>
+    <coloph>slob dpon mkhas pa dpal 'dzin gyis mdzad pa rdzogs so//_rgya gar gyi mkhan po paN+Di ta shan ti b+ha da tra dang /_lo tsa ba dge slong tshul khrims rgyal bas bsgyur cing zhus te gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13252</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>93</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>100</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>tshul khrims rgyal ba/(śīlajaya)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>śantibhadtra (śāntibhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dpal 'dzin/(śrīdhara)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

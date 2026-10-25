@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3022</ref>
+    <rnb>1</rnb>
+    <tib>'jam dpal gyi dkyil 'khor gyi cho ga</tib>
+    <skt/>
+    <coloph>rgyud kyi rgyal po 'jam dpal gyi dkyil 'khor gyi cho ga bla ma sdom pa bzang pos mdzad pa rdzog so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95870</vol>
+        <sec>1</sec>
+        <debp>419</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>424</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2062</ref>
+    <rnb>1003</rnb>
+    <tib>'jam dpal gyi dkyil 'khor gyi cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66080</vol>
+        <sec>rgyud</sec>
+        <debp>148</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>149</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2110</ref>
+    <rnb>1013</rnb>
+    <tib>'jam dpal gyi dkyil 'khor gyi cho ga</tib>
+    <skt/>
+    <coloph>rgyud kyi rgyal po 'jam dpal gyi dkyil 'khor gyi cho ga bla ma sdom pa bzang pos mdzad pa rdzogs so/</coloph>
+    <colophTitle>rgyud kyi rgyal po 'jam dpal gyi dkyil 'khor gyi cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1365</vol>
+        <sec>rgyud</sec>
+        <debp>148</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>149</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210100</vol>
+        <sec>rgyud</sec>
+        <debp>148</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>149</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211404</vol>
+        <sec>rgyud</sec>
+        <debp>148</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>149</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bla ma sdom pa bzang po</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15360</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G964</ref>
+    <rnb>966</rnb>
+    <tib>rgyud kyi rgyal po 'jam dpal gyi dkyil 'khor gyi cho ga</tib>
+    <skt/>
+    <coloph>rgyud kyi rgyal po 'jam dpal gyi dkyil 'khor gyi cho ga bla ma sdom pa bzang pos mdzad pa rdzog so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31383</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>222</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>224</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1755a</ref>
+    <rnb>972</rnb>
+    <tib>rgyud kyi rgyal po 'jam dpal gyi dkyil 'khor gyi cho ga</tib>
+    <skt/>
+    <coloph>rgyud kyi rgyal po 'jam dpal gyi dkyil 'khor gyi cho ga bla ma sdom pa bzang pos mdzad pa rdzog so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3297</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>165</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>167</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212330</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>165</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>167</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2961</ref>
+    <rnb>962</rnb>
+    <tib>rgyud kyi rgyal po 'jam dpal gyi dkyil 'khor gyi cho ga</tib>
+    <skt/>
+    <coloph>rgyud kyi rgyal po 'jam dpal gyi dkyil 'khor gyi cho ga bla ma sdom pa bzang pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13215</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>178</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>180</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>sdom pa bzang po/(saṁvarabhadra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

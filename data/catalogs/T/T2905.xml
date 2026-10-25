@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4998</ref>
+    <rnb>1</rnb>
+    <tib>nag po chen po'i bstod pa'i phreng ba zhes bya ba</tib>
+    <skt>ma hA kA la stod tra</skt>
+    <coloph>nag po chen po khyod la bstod pa/ bstod pa'i phreng ba bram ze mchog sred kyis mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta la li ta badz+ra dang / bod kyi lo tsA ba gyi ljang dbu dkar gyis bsgyur ba'o/ bram ze mchog sred zhes mthong dus dga' nas bstod pas/ mgon po mnyes nas zhal 'dzum mdzad do/ de nas phrin las bcos pa'i bstod pa mdzad do/ zhal gzigs kyi bstod pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>393</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>395</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2905</ref>
+    <rnb>2906</rnb>
+    <tib>nag po chen po'i bstod pa'i phreng ba zhes bya ba</tib>
+    <skt>ma hA kA la stod tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>353</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>354</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3695</ref>
+    <rnb>2915</rnb>
+    <tib>nag po chen po'i bstod pa'i 'phreng ba</tib>
+    <skt>ma hA kA la stod tra</skt>
+    <coloph>nag po chen po khyod la bstod pa/ bstod pa'i phreng ba bram ze mchog sred kyis mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta la li ta badz+ra dang / bod kyi lo tsA ba gyi ljang dbu dkar gyis bsgyur ba'o/ bram ze mchog sred zhes mthong dus dga' nas bstod pas/ mgon po mnyes nas zhal 'dzum mdzad do/ de nas phrin las bcos pa'i bstod pa mdzad do/ zhal gzigs kyi bstod pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>265</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>265</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>265</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>265</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4906</ref>
+    <rnb>2907</rnb>
+    <tib>nag po chen po'i bstod pa'i phreng ba zhes bya ba</tib>
+    <skt>ma hA kA la stod tra</skt>
+    <coloph>nag po chen po khyod la bstod pa/ bstod pa'i phreng ba bram ze mchog sred kyis mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta la li ta badz+ra dang / bod kyi lo tsA ba gyi ljang dbu dkar gyis bsgyur ba'o/ bram ze mchog sred zhes mthong dus dga' nas bstod pas/ mgon po mnyes nas zhal 'dzum mdzad do/ de nas phrin las bcos pa'i bstod pa mdzad do/ zhal gzigs kyi bstod pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>264</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>264</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mchog sred/(vararuci)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5059</ref>
+    <rnb>1</rnb>
+    <tib>dpal rdo rje mkha' 'gro'i bsgrub thabs zhes bya ba</tib>
+    <skt>shrI badzra DA ki ni sA d+ha nA ma</skt>
+    <coloph>grub pa brnyes pa'i rnal 'byor pa nag po spyod pa'i zhal snga nas mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta ga ya d+ha ra dang /bod kyi lo tsA ba 'brog mi shAkya ye shes kyis bsgyur te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>729</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>731</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2974</ref>
+    <rnb>2975</rnb>
+    <tib>dpal rdo rje mkha' 'gro'i bsgrub thabs shes bya ba</tib>
+    <skt>shrI badzra DA ki ni sA d+ha nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>111</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>112</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3764</ref>
+    <rnb>2984</rnb>
+    <tib>dpal rdo rje mkha' 'gro'i bsgrub thabs shes bya ba</tib>
+    <skt>shrI badzra DA ki ni sA d+ha nA ma</skt>
+    <coloph>grub pa brnyes pa'i rnal 'byor pa nag po spyod pa'i zhal snga nas mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta ga ya d+ha ra dang /bod kyi lo tsA ba 'brog mi shAkya ye shes kyis bsgyur te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>82</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>82</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>82</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>82</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4975</ref>
+    <rnb>2976</rnb>
+    <tib>dpal rdo rje mkha' 'gro'i bsgrub thabs shes bya ba</tib>
+    <skt>shrI badzra DA ki ni sA d+ha nA ma</skt>
+    <coloph>grub pa brnyes pa'i rnal 'byor pa nag po spyod pa'i zhal mnga' nas mdzad pa rdzogs so/_/rgya gar gyi paN+Di ta ga ya d+ha ra dang /_bod kyi lo tsA ba 'brog mi shAkya ye shes kyis bsgyur te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>87</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>87</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>shAkya ye shes/(śākyajñāna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nag po spyod pa/(kānha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm120.2</ref>
+    <rnb>234</rnb>
+    <tib>gsang ba dgu 'phar g.yung drung gsang ba'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4091</vol>
+        <sec>1</sec>
+        <debp>91</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>175</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt193.2</ref>
+    <rnb>5603</rnb>
+    <tib>gsang ba dgu 'phar g.yung drung gsang ba'i rgyud</tib>
+    <skt/>
+    <coloph>gsang ba dgu 'phar g.yung drung gsang ba'i rgyud zhes (ces) bya ba/ nyams su ting 'dzin blang pa'i rgyud du bstan pa rdzogs so// spa gro'i dur shogs (shog) las/ mgar nag jo sras kyis zhal bshus pa legs snyo//</coloph>
+    <colophTitle/>
+    <margin>rgyud</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4886</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>79</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz153.2</ref>
+    <rnb>269</rnb>
+    <tib>gsang ba dgu 'phar g.yung drung gsang ba'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58688</vol>
+        <sec>kha</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>68</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

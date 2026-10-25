@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4021</ref>
+    <rnb>1</rnb>
+    <tib>'phags pa gzhan gyis mi thub pa gdugs dkar mo can gyi gtor ma'i cho ga</tib>
+    <skt>Ar+ya si tA ta pa tre a pa rA dzi ta ba liM ta bi d+hi nA ma</skt>
+    <coloph>'phags ma gdugs dkar mo can gyi gtor ma'i cho ga /slob dpon tsan+d+ra go mis mdzad pa rdzogs so/ /tho ling gi gtsug lag khang du dge slong rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95883</vol>
+        <sec>1</sec>
+        <debp>538</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>554</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3047</ref>
+    <rnb>1982</rnb>
+    <tib>'phags pa gzhan gyis mi thub pa gdugs dkar mo can gyi gtor ma'i cho ga zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66105</vol>
+        <sec>rgyud</sec>
+        <debp>181</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>188</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3084</ref>
+    <rnb>1992</rnb>
+    <tib>'phags pa gzhan gyis mi thub pa gdugs dkar mo can gyi gtor ma'i cho ga zhes bya ba</tib>
+    <skt>Ar+ya si tA ta pa tre a pa rA dzi ta ba bo ta bi bye nA ma</skt>
+    <coloph>'phags ma gdugs dkar mo can gyi gtor ma'i cho ga /slob dpon tsan+d+ra go mis mdzad pa rdzogs so/ /tho ling gi gtsug lag khang du dge slong rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle>'phags ma gdugs dkar mo can gyi gtor ma'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1390</vol>
+        <sec>rgyud</sec>
+        <debp>178</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>184</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210125</vol>
+        <sec>rgyud</sec>
+        <debp>178</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>184</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211429</vol>
+        <sec>rgyud</sec>
+        <debp>178</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>184</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dge slong rin chen bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P753</rid>
+      </translator>
+      <translator>
+        <name>slob dpon tsan+d+ra go mi</name>
+        <role>author</role>
+        <rid>bdr:P7599</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1906</ref>
+    <rnb>1908</rnb>
+    <tib>'phags pa gzhan gyis mi thub pa gdugs dkar mo can gyi gtor ma'i cho ga zhes bya ba</tib>
+    <skt>Ar+ya sa ti te pa tra a pa rA dzi ta ba liM ta bi d+hi nA maH</skt>
+    <coloph>'phags ma gdugs dkar mo can gyi gtor ma'i cho ga /slob dpon tsan+d+ra go mis mdzad pa rdzogs so/ /tho ling gi gtsug lag khang du dge slong rin chen bzang pos bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31408</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>251</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>260</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2697</ref>
+    <rnb>1914</rnb>
+    <tib>'phags pa gzhan gyis mi thub pa gdugs dkar mo can gyi gtor ma'i cho ga zhes bya ba</tib>
+    <skt>Ar+ya sa ti te pa tra a pa rA dzi ta ba li ta bi d+hi nA ma</skt>
+    <coloph>'phags ma gdugs dkar mo can gyi gtor ma'i cho ga /slob dpon tsan+d+ra go mis mdzad pa rdzogs so/ /tho ling gi gtsug lag khang du dge slong rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3322</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>183</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>190</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212355</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>183</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>190</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3904</ref>
+    <rnb>1905</rnb>
+    <tib>'phags pa gzhan gyis mi thub pa gdugs dkar mo can gyi gtor ma'i cho ga zhes bya ba</tib>
+    <skt>Ar+ya sa hi te pa tra a pa rA dzi ta bi d+hi nA maH</skt>
+    <coloph>'phags ma gdugs dkar mo can gyi gtor ma'i cho ga_/slob dpon tsan+d+ra go mis mdzad pa rdzogs so/_/tho ling gi gtsug lag khang du dge slong rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13240</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>197</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>204</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rin chen bzang po/(ratnabhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>candragomin</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

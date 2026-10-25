@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5172</ref>
+    <rnb>1</rnb>
+    <tib>dpal sha ba ri'i bstod pa rin po che zhes bya ba</tib>
+    <skt>shrI sha ba ra ste tra rat+naM</skt>
+    <coloph>'di ni dpal sha ba ra'i zhabs kyi bstod pa rin po che zhes bya ba/ dpal nags kyi rin po chen zhabs kyi mdzad pa rdzogs so/ /paN+Di ta chen po de nyid dang / 'gos lo tsA ba dge slong gzhon nu dpal gyis bsgyur ba las/ slad du rje btsun gyi zhal snga nyid la lags par mnyan zhing don khong du chud par bgyis nas/ dge slong bsod nams rgya mtsho'i sde zhes bya bas cung zad bcos te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>722</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>726</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3100</ref>
+    <rnb>3101</rnb>
+    <tib>dpal sha ba ra'i bstod pa rin po che</tib>
+    <skt>shrI sha pa ra str tra rat+naM</skt>
+    <coloph>'di ni dpal sha ba ra'i zhabs kyi bstod pa rin po che zhes bya ba/ dpal nags kyi rin po chen zhabs kyi mdzad pa rdzogs so/ /paN+Di ta chen po de nyid dang / 'gos lo tsA ba dge slong gzhon nu dpal gyis bsgyur ba las/ slad du rje btsun gyi zhal snga nyid la lags par mnyan zhing don khong du chud par bgyis nas/ dge slong bsod nams rgya mtsho'i sde zhes bya bas cung zad bcos te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>220</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>222</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3891</ref>
+    <rnb>3111</rnb>
+    <tib>dpal sha ba ra'i bstod pa rin po che</tib>
+    <skt>shrI sha ba ra sto tra rat+naM</skt>
+    <coloph>'di ni dpal sha ba ra'i zhabs kyi bstod pa rin po che zhes bya ba/ dpal nags kyi rin po chen zhabs kyi mdzad pa rdzogs so//paN+Di ta chen po de nyid dang / 'gos lo tsA ba dge slong gzhon nu dpal gyis bsgyur ba las/ slad du rje btsun gyi zhal snga nyid la lags par mnyan zhing don khong du chud par bgyis nas/ dge slong bsod nams rgya mtsho'i sde zhes bya bas cung zad bcos te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>132</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>134</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>132</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>134</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5102</ref>
+    <rnb>3103</rnb>
+    <tib>dpal sha ba ra'i bstod pa rin po che</tib>
+    <skt>shrI sha ba ra sto tra rat+naM</skt>
+    <coloph>'di ni dpal sha ba ra'i zhabs kyi bstod pa rin po che zhes bya ba/_dpal nags kyi rin chen zhabs kyis mdzad pa rdzogs so/_/paN+Di ta chen po de nyid dang /_'gos lo tsA ba dge slong gzhon nu dpal gyis bsgyur ba las/_slad du rje btsun gyi zhal snga nyid la legs par mnyan zhing don khong du chud par bgyis nas/_dge slong bsod nams rgya mtsho'i sde zhes bya bas cung zad bcos te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>135</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>136</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>'gos gzhon nu dpal/(kumāraśrī)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nags kyi rin chen/(vanaratna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>bsod nams rgya mtsho'i sde/(puṇyasāgarasena)</name>
+        <role>revisor</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nags kyi rin chen/(vanaratna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

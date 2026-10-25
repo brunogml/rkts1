@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A754</ref>
+    <rnb>752</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa</tib>
+    <skt>ma hA kA ru Ni ka nA ma Ar+ya a ba lo ki te sh+wa ra d+hA ra NI y nu shaM sa sa hi ta sU trA ta saM gra hi ta</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las btus pa rdzogs so/ /dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96876</vol>
+        <sec>1</sec>
+        <debp>613</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>620</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B746</ref>
+    <rnb>745</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-101</vol>
+        <sec>rgyud</sec>
+        <debp>51</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>56</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C385</ref>
+    <rnb>385</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105080</vol>
+        <sec>rgyud</sec>
+        <debp>44</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>47</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-17</vol>
+        <sec>rgyud</sec>
+        <debp>44</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>47</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz067-028</ref>
+    <rnb>408</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>ma hA kA ru Ni ka nA ma a r+ya a ba lo ki te shva ra d+hA ra Ni a nu shaM sa sa ha ti sU traM ta saM gri hi ti</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las bsdus pa rdzogs so// dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-67</vol>
+        <sec>rgyud</sec>
+        <debp>93</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>98</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D723</ref>
+    <rnb>734</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>ma hA kA ru Ni ka nA ma Ar+ya a ba lo ki te shwa ra d+hA ra NI a nu shaM sa sa hi ta sU trAta sa~M gra hi ha</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las btus pa rdzogs so// dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0978</vol>
+        <sec>rgyud</sec>
+        <debp>201</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>204</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6440</vol>
+        <sec>rgyud</sec>
+        <debp>201</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>204</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20706</vol>
+        <sec>rgyud</sec>
+        <debp>201</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>204</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9219</vol>
+        <sec>rgyud</sec>
+        <debp>201</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>204</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dge slong shAkya ye shes</name>
+        <role>translator</role>
+        <rid>bdr:P3285</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd095-036</ref>
+    <rnb>959</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>ma hA kA ru NI ka nA ma A rya a ba lo ki te shva ra d+hA ra NI a nu shaM sa sa hi ta sU trAt saM gra hi ta</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las bsdus pa rdzogs so// dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-95</vol>
+        <sec>rgyud</sec>
+        <debp>245</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>249</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk104-028</ref>
+    <rnb>701</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>ma hA kA ru Ni ka nA ma a r+ya a ba lo ki te shva ra d+hA ra Ni a nu shaM sa sa ha ti sU traM ta saM gri hi ti</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las bsdus pa rdzogs so// dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-104</vol>
+        <sec>rgyud</sec>
+        <debp>111</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>116</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr382</ref>
+    <rnb>382</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM17</vol>
+        <sec>rgyud</sec>
+        <debp>52</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>57</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt084-028</ref>
+    <rnb>694</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>ma hA kA ru Ni ka nA ma a r+ya a ba lo ki te shva ra d+hA ra Ni a nu shaM sa sa ha ti sU traM ta saM gri hi ti</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las bsdus pa rdzogs so// dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-8-16</vol>
+        <sec>rgyud</sec>
+        <debp>92</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>95</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J693</ref>
+    <rnb>759</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9967</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>40</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>43</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>L</coll>
+    <ref>L556</ref>
+    <rnb>590</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1068</vol>
+        <sec>rgyud</sec>
+        <debp>83</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>87</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np053-028</ref>
+    <rnb>642</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>ma hA kA ru Ni ka nA ma a r+ya a ba lo ki te shva ra d+hA ra Ni a nu shaM sa sa ha ti sU traM ta saM gri hi ti</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las bsdus pa rdzogs so// dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-53</vol>
+        <sec>rgyud</sec>
+        <debp>93</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>98</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj096-037</ref>
+    <rnb>957</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>ma hA kA ru Ni ka nA ma Ar+ya a ba lo ki te shwa ra d+hA ra NI a nu shaM sa sa hi ta sU trAta sa~M gra hi ha</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las btus pa rdzogs so// dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-96</vol>
+        <sec>rgyud</sec>
+        <debp>239</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>243</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz096-037</ref>
+    <rnb>952</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>ma hA kA ru Ni ka nA ma A rya a ba lo ki te sh+va ra d+hA ra Ni a nu shaM sa sa hi ta sU traM ta saM gra hi ta</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las bsdus pa rdzogs so// dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-96</vol>
+        <sec>rgyud</sec>
+        <debp>203</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>207</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q380</ref>
+    <rnb>383</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt/>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba'i mdo las btus pa rdzogs s+ho // // dge slong shAkya ye shes kyis bsgyur ba'o // // (tsa, 43a5-6)</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96684</setid>
+        <vol>1PD106669</vol>
+        <sec>rgyud</sec>
+        <debp>39</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>43</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW3CN1094</setid>
+        <vol>3CN1113</vol>
+        <sec>rgyud</sec>
+        <debp>39</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>43</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>shAkya ye shes/</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R723</ref>
+    <rnb>722</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>ma kA kA ru NI ka nA ma A r+ya a ba lo ki te shva ra d+hA ra NI a nu shaM sa sa hi ta sU trAt saM gra hi ta</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17357</vol>
+        <sec>rgyud</sec>
+        <debp>201</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>204</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S674</ref>
+    <rnb>728</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>Ar+ya a ba lo ki te shwa ra d+hA ra Ni a nu shaM sa sa ha ti sU traM ta saM gri hi ta</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las bsdus pa rdzogs so/ /dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3814</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>91</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>96</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty071-028</ref>
+    <rnb>697</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>Ar+ya a ba lo ki te shwa ra d+hA ra Ni a nu shaM sa sa ha ti sU traM ta saM gri hi ta</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las bsdus pa rdzogs so/ /dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209933</vol>
+        <sec>rgyud</sec>
+        <debp>92</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>97</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U723</ref>
+    <rnb>722</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL314</vol>
+        <sec>rgyud</sec>
+        <debp>201</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>205</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5388</vol>
+        <sec>rgyud</sec>
+        <debp>201</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>205</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V744</ref>
+    <rnb>742</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>ma hA kA ri Ni ka nA ma A r+ya a ba lo ki te sh+wa ra d+hA ra Ni a nu shaM sa sa ha ti sU traM ta saM gri ha ti</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las bsdus pa rdzogs so/ dge slong shAkya ye shes kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86337</vol>
+        <sec>rgyud</sec>
+        <debp>84</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>88</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z687</ref>
+    <rnb>692</rnb>
+    <tib>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon mdor bsdus pa zhes bya ba</tib>
+    <skt>mahA kA ru Ni kA na ma Ar+ya a ba lo ki te sh+wa ra d+hA ra Ni a nu shaM sa sa ha ti sU traM ta saM gri hi ta</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug thugs rje chen po'i gzungs phan yon dang bcas pa zhes bya ba mdo las bsdus pa rdzogs so// //dge slong shAkya ye shes kyis bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127562</vol>
+        <sec>rgyud</sec>
+        <debp>90</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>95</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>śākya ye shes</name>
+        <role>translator</role>
+        <rid>bdr:P3285</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

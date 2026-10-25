@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G314</ref>
+    <rnb>314</rnb>
+    <tib>rdo rje phag mo'i pra brtag pa gtor ma'i cho ga lag pa'i mchod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31352</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>567</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>568</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1100</ref>
+    <rnb>311</rnb>
+    <tib>rdo rje rnal 'byor ma'i bsad pa las kyi man ngag</tib>
+    <skt/>
+    <coloph>rdo rje rnal 'byor ma'i bsad pa las kyi man ngag slob dpon a bi dzu ka tas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3266</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>399</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>399</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212299</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>399</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>399</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2309</ref>
+    <rnb>309</rnb>
+    <tib>rdo rje phag mo'i pra brtag pa gtor ma'i cho ga lag pa'i mchod pa</tib>
+    <skt/>
+    <coloph>lag pa'i mchod pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13184</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>437</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>440</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

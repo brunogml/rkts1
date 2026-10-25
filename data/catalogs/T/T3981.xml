@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1751</ref>
+    <rnb>695</rnb>
+    <tib>mngon par byang chub pa'i rim pa'i man ngag</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66066</vol>
+        <sec>rgyud</sec>
+        <debp>115</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>118</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1806</ref>
+    <rnb>705</rnb>
+    <tib>mngon par byang chub pa'i rim pa'i man ngag</tib>
+    <skt>a b+hi bo d+hi kra ma u pa de sha</skt>
+    <coloph>mngon par byang chub pa'i rim pa 'bras bu dang bcas pa slob dpon 'phags pa lhas mdzad pa'i man ngag rdzogs so// //rgya gar gyi mkhan po shrad+d+hA ka ra barma dang/ lo tsA ba dge slong rin chen bzang pos bsgyur nas zhus te gtan la phab pa'o//</coloph>
+    <colophTitle>mthar thug don rtogs byang chub mi dmigs bsngo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1351</vol>
+        <sec>rgyud</sec>
+        <debp>114</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>117</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210086</vol>
+        <sec>rgyud</sec>
+        <debp>114</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>117</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211390</vol>
+        <sec>rgyud</sec>
+        <debp>114</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>117</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po shrad+d+hA ka ra barma</name>
+        <role>translator</role>
+        <rid>bdr:P3388</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba dge slong rin chen bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P753</rid>
+      </translator>
+      <translator>
+        <name>slob dpon 'phags pa lha</name>
+        <role>author</role>
+        <rid>bdr:P7401</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1466</ref>
+    <rnb>683</rnb>
+    <tib>mngon par byang chub pa'i rim pa'i man ngag</tib>
+    <skt>a b+hi bo d+hi kra ma u pa de sha</skt>
+    <coloph>mngon par byang chub pa'i rim pa 'bras bu dang bcas pa/ /slob dpon 'phags pa lhas mdzad pa'i man ngag rdzogs so/ /rgya gar gyi mkhan po shAd+d+ha ka ra varma dang / dge slong rin chen bzang pos bsgyur cing zhus te gten la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3286</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>127</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>130</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212319</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>127</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>130</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2671</ref>
+    <rnb>672</rnb>
+    <tib>mngon par byang chub pa'i rim pa'i man ngag</tib>
+    <skt>i b+hi bo d+hi kra ma u pa de sha</skt>
+    <coloph>mngon par byang chub pa'i rim pa 'bras bu dang bcas pa/_/slob dpon 'phags pa lhas mdzad pa'i man ngag rdzogs so/_/rgya gar gyi mkhan po shAd+d+ha ka ra barmA dang /_dge slong rin chen bzang pos bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13204</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>130</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>132</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rin chen bzang po/(ratnabhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>'phags pa lha/(āryadeva)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

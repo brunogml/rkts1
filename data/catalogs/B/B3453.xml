@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt160.11</ref>
+    <rnb>4868</rnb>
+    <tib>skyabs 'gro</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4853</vol>
+        <sec>11</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt160.12</ref>
+    <rnb>4869</rnb>
+    <tib>skyabs 'gro</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>bse ru'o</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4853</vol>
+        <sec>12</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>1</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt50.42</ref>
+    <rnb>2156</rnb>
+    <tib>skyabs 'gro</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>skyabs 'gro</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4743</vol>
+        <sec>42</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt74.7</ref>
+    <rnb>2969</rnb>
+    <tib>skyabs 'gro</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4767</vol>
+        <sec>7</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>1</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

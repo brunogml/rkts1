@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt269.11</ref>
+    <rnb>7488</rnb>
+    <tib>srid rgyal dre'u dmar mo'i bskang bshags</tib>
+    <skt/>
+    <coloph>dpon gsas khyung rgod rtsal gyi gter ma'o//</coloph>
+    <colophTitle/>
+    <margin>bskang ba</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4962</vol>
+        <sec>11</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt271.61</ref>
+    <rnb>7595</rnb>
+    <tib>gsang sems gnyis med ngos sprod</tib>
+    <skt/>
+    <coloph>de ltar bdag gi rmi lam 'khrul snang 'di/ dkar chag yi ge ris su btab pa 'di/ skyobs mdzad yi dam lha la bzod par gsol/ 'di la 'gal 'khrul nyes pa ci mchis pa/ bon nyid rol pa chen po'i ngang du bshags/ 'di bris dge ba bsod nams mthu dpal gyis/ bdag sogs phyi rabs rjes 'breng gang zag rnams/ gsang sems gnyis su med pa'i don rtogs shog dus ngan snyigs ma lnga brgya'i tha ma 'dir/ bstan pa dar rgyas bstan pa'i bkra shis shog/</coloph>
+    <colophTitle/>
+    <margin>ngo sprod</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4964</vol>
+        <sec>61</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>6</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

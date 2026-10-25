@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A12</ref>
+    <rnb>12</rnb>
+    <tib>mar me'i lo rgyus dang smon lam gyi mdo</tib>
+    <skt/>
+    <coloph>mar me'i lo rgyus dang smon lam gyi mdo/ rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96796</vol>
+        <sec>1</sec>
+        <debp>890</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>895</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B11</ref>
+    <rnb>10</rnb>
+    <tib>mar me'i lo rgyus dang smon lam gyi mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-16</vol>
+        <sec>'dul ba</sec>
+        <debp>299</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>302</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1042</ref>
+    <rnb>1090</rnb>
+    <tib>mar me'i lo rgyus dang smon lam gyi mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105170</vol>
+        <sec>'dul ba</sec>
+        <debp>358</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>361</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-107</vol>
+        <sec>'dul ba</sec>
+        <debp>358</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>361</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

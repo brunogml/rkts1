@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5916</ref>
+    <rnb>1</rnb>
+    <tib>swA ra swa sti bya ka ra Na'i mtshams sbyor rtsa 'grel</tib>
+    <skt>s+wA ra s+wAsti bya ka ra Na</skt>
+    <coloph>dbyangs can ma brda spyod pa'i mtshams sbyor 'grel pa dang cas pa 'di paN+Di ta kr-iSh+Na b+haT+Ta dang tA ra nA thas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95965</vol>
+        <sec>1</sec>
+        <debp>26</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>49</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4423</ref>
+    <rnb>3339</rnb>
+    <tib>brda sprod pa dbyangs can</tib>
+    <skt>swA ra swA sti bya ka ra Na</skt>
+    <coloph/>
+    <colophTitle>dbyangs can ma brda sprod pa'i mtshams sbyor 'grel pa dang bcas pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1529</vol>
+        <sec>mdo 'grel</sec>
+        <debp>10</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>21</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210264</vol>
+        <sec>mdo 'grel</sec>
+        <debp>10</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>21</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211568</vol>
+        <sec>mdo 'grel</sec>
+        <debp>10</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>21</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta kr-iSh+Na b+haT+Ta</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>tA ra nA tha</name>
+        <role>translator</role>
+        <rid>bdr:P1428</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3900</ref>
+    <rnb>3895</rnb>
+    <tib>brda sprod pa dbyangs can</tib>
+    <skt>s+wA ra s+wAstaM bya ka ra Na</skt>
+    <coloph>dbyangs can ma brda spyod pa'i mtshams sbyor 'grel pa dang cas pa 'di paN+Di ta kr-iSh+Na b+haT+Ta dang tA ra nA thas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31557</vol>
+        <sec>sgra skor</sec>
+        <debp>362</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>373</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4684</ref>
+    <rnb>3904</rnb>
+    <tib>brda sprod pa dbyangs can</tib>
+    <skt>swA ra swA sti bya ka ra Na</skt>
+    <coloph>dbyangs can ma brda spyod pa'i mtshams sbyor 'grel pa dang cas pa 'di paN+Di ta kr-iSh+Na b+haT+Ta dang tA ra nA thas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3471</vol>
+        <sec>mdo 'grel</sec>
+        <debp>322</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>333</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212504</vol>
+        <sec>mdo 'grel</sec>
+        <debp>322</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>333</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5886</ref>
+    <rnb>3888</rnb>
+    <tib>brda sprod dbyangs can</tib>
+    <skt>s+wA ra s+wA sti bya ka ra Na</skt>
+    <coloph>dbyangs can ma brda sprod pa'i mtshams sbyor 'grel pa dang bcas pa 'di paN+Di ta kr-iSh+Na b+haT+Ta dang tA ra nA thas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13389</vol>
+        <sec>mdo 'grel</sec>
+        <debp>304</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>312</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

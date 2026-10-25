@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3331</ref>
+    <rnb>2266</rnb>
+    <tib>'phags ma dug sel ba'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>43</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>44</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3365</ref>
+    <rnb>2275</rnb>
+    <tib>'phags ma dug sel ba'i sgrub thabs</tib>
+    <skt>Ar+ya dzAng+ga lI sA d+ha naM</skt>
+    <coloph>'phags ma dug sel ma'i sgrub thabs rdzogs so//</coloph>
+    <colophTitle>'phags pa dug sel ma'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>41</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>42</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>41</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>42</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>41</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>42</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2980</ref>
+    <rnb>2196</rnb>
+    <tib>'phags ma dug sel ma'i sgrub thabs</tib>
+    <skt>Ar+ya dzAng gu lI sA d+ha naM</skt>
+    <coloph>'phags ma dug sel ma'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>47</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>47</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>47</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>47</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4186</ref>
+    <rnb>2187</rnb>
+    <tib>'phags ma dug sel ma'i sgrub thabs</tib>
+    <skt>Ar+ya dzang gu lI sA d+ha naM</skt>
+    <coloph>'phags ma dug sel ma'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>53</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>53</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

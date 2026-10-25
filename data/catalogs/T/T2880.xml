@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4980</ref>
+    <rnb>1</rnb>
+    <tib>seng ldeng nags kyi sgrol ma la bstod pa</tib>
+    <skt>kha d+hi ra d+ha ra sto tra</skt>
+    <coloph>gzhon nu kha ti ta re ma la bstod pa tshigs su bcad pa bcu drug pa/ slob dpon 'phags pa klu grub kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>264</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>267</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2880</ref>
+    <rnb>2881</rnb>
+    <tib>seng ldeng nags kyi sgrol ma la bstod pa</tib>
+    <skt>kha d+hi ra d+ha re sto tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>257</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>259</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3670</ref>
+    <rnb>2890</rnb>
+    <tib>seng ldeng nags kyi sgrol ma la bstod pa</tib>
+    <skt>ba d+hi ta d+ha ra sto tra</skt>
+    <coloph>gzhon nu kha ti ta re ma la bstod pa tshigs su bcad pa bcu drug pa/ slob dpon 'phags pa klu grub kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>193</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>195</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>193</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>195</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4881</ref>
+    <rnb>2882</rnb>
+    <tib>seng ldeng nags kyi sgrol ma la bstod pa</tib>
+    <skt>khad+hi ra d+ha ra sto tra</skt>
+    <coloph>gzhon nu kha ti ta re ma la bstod pa tshigs su bcad pa bcu drug pa/ slob dpon 'phags pa klu grub kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>194</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>196</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>klu sgrub/(nāgārjuna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

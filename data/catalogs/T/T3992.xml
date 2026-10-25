@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1264</ref>
+    <rnb>208</rnb>
+    <tib>de kho na nyid bcu pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66041</vol>
+        <sec>rgyud</sec>
+        <debp>265</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>269</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1323</ref>
+    <rnb>217</rnb>
+    <tib>de kho na nyid bcu pa</tib>
+    <skt>da sha tat+t+wA</skt>
+    <coloph>mkha' 'gro ma rdo rje gur gyi man ngag de kho na nyid bcu pa zhes bya ba/ slob dpon chen po dri med grags pas mdzad pa rdzogs so// //mar pa chos kyi blo gros kyis bsgyur pa//</coloph>
+    <colophTitle>mkha' 'gro ma rdo rje gur gyi man ngag de kho na nyid bcu pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1326</vol>
+        <sec>rgyud</sec>
+        <debp>261</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>265</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210061</vol>
+        <sec>rgyud</sec>
+        <debp>261</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>265</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211365</vol>
+        <sec>rgyud</sec>
+        <debp>261</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>265</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mar pa chos kyi blo gros</name>
+        <role>translator</role>
+        <rid>bdr:P2636</rid>
+      </translator>
+      <translator>
+        <name>slob dpon chen po dri med grags pa</name>
+        <role>author</role>
+        <rid>bdr:P1GS14003</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1250</ref>
+    <rnb>465</rnb>
+    <tib>de kho na nyid bcu pa</tib>
+    <skt>da sha tat+t+wA</skt>
+    <coloph>mkha' 'gro ma rdo rje gur gyi man ngag de kho na nyid bcu pa zhes bya ba/ slob dpon chon po dri med grags pas mdzad pa rdzogs so/ mar pa chos kyi blo gros kyis bsgyur ba/</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3275</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>137</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>142</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212308</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>137</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>142</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2455</ref>
+    <rnb>455</rnb>
+    <tib>de kho na nyid bcu pa</tib>
+    <skt>da sha tat+t+wa</skt>
+    <coloph>mkha' 'gro ma rdo rje gur gyi man ngag de kho na nyid bcu pa zhes bya ba/ slob dpon chon po dri med grags pas mdzad pa rdzogs so/ mar pa chos kyi blo gros kyis bsgyur ba</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13193</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>144</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>148</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>chos kyi blo gros/(dharmamati)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dri med grags pa/(vimalakīrti)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

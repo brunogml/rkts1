@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G3239</ref>
+    <rnb>3234</rnb>
+    <tib>rten cing 'brel par 'byung ba'i snying po'i tshigs le'ur byas pa</tib>
+    <skt>pra ti t+ya sa mat+pA da h+ri da ya kA ri kA</skt>
+    <coloph>rten cing 'brel par 'byung ba'i snying po'i tshigs le'u'a byas pa/ slob dpon 'phags pa klu sgrub kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31442</vol>
+        <sec>mdo 'grel</sec>
+        <debp>223</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>224</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3470</ref>
+    <rnb>3464</rnb>
+    <tib>rten cing 'brel par 'byung ba'i snying po'i tshig le'ur byas pa</tib>
+    <skt>pra tI t+ya sa mut+pA da h+r-i da ya kA ri kA</skt>
+    <coloph>rten cing 'brel par 'byung ba'i snying po'i tshig le'ur byas pa slob dpon 'phags pa klu sgrub mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31458</vol>
+        <sec>mdo 'grel</sec>
+        <debp>262</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>262</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5467</ref>
+    <rnb>3468</rnb>
+    <tib>rten cing 'brel par 'byung ba'i snying po'i tshig le'ur byas pa</tib>
+    <skt>pra ti t+ya sa mut+pA da h+r-i da ya lA ri kA</skt>
+    <coloph>rten cing 'brel par 'byung ba'i snying po'i tshig le'ur byas pa/_slob dpon 'phags pa klu sgrub kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13290</vol>
+        <sec>mdo 'grel</sec>
+        <debp>216</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>216</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>klu sgrub/(nāgārjuna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

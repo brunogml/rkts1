@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A315</ref>
+    <rnb>314</rnb>
+    <tib>khams mang po pa'i mdo</tib>
+    <skt>d+hA tu ba hu ta ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96854</vol>
+        <sec>1</sec>
+        <debp>802</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>813</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B304</ref>
+    <rnb>303</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-79</vol>
+        <sec>mdo sde</sec>
+        <debp>366</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>373</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba079.1</ref>
+    <rnb>487</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>1BL404</vol>
+        <sec>1</sec>
+        <debp>4</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C936</ref>
+    <rnb>936</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105114</vol>
+        <sec>mdo</sec>
+        <debp>352</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>357</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-51</vol>
+        <sec>mdo</sec>
+        <debp>352</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>357</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz093-008</ref>
+    <rnb>696</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>ba hu d+d+hA tu ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-93</vol>
+        <sec>mdo sde</sec>
+        <debp>150</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>156</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D297</ref>
+    <rnb>298</rnb>
+    <tib>khams mang po pa'i mdo</tib>
+    <skt>d+hA tu ba hu ta ka sU tra</skt>
+    <coloph>khams mang po pa zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle>khams mang po pa'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0956</vol>
+        <sec>mdo sde</sec>
+        <debp>297</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>301</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6418</vol>
+        <sec>mdo sde</sec>
+        <debp>297</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>301</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20670</vol>
+        <sec>mdo sde</sec>
+        <debp>297</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>301</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9197</vol>
+        <sec>mdo sde</sec>
+        <debp>297</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>301</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd053-010</ref>
+    <rnb>215</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>d+hA tu ba hu ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-53</vol>
+        <sec>mdo sde</sec>
+        <debp>423</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>428</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk045-008</ref>
+    <rnb>257</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>ba hu d+d+hA tu ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-45</vol>
+        <sec>mdo sde</sec>
+        <debp>163</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>170</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm16.6</ref>
+    <rnb>145</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>ba hu da tu ka su tra</skt>
+    <coloph>khams mang po ba'i mdo /_rdzogs s+ho //_//_rgya kar gi 'khan po su len dra bod de dang /_zhu chen gyi lo tsa ba ban d+he ye shes s+hes bsgyur cing gtan la phab pa //</coloph>
+    <colophTitle>khams mang po ba'i mdo</colophTitle>
+    <margin>khams</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL926</vol>
+        <sec>mdo</sec>
+        <debp>70</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>75</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya kar gi 'khan po su len dra bod de</name>
+        <role>translator</role>
+        <rid>bdr:P8228</rid>
+      </translator>
+      <translator>
+        <name>zhu chen gyi lo tsa ba ban d+he ye shes s+he</name>
+        <role>translator</role>
+        <rid>bdr:P8205</rid>
+      </translator>
+    </translators>
+    <note>The colophon in the Derge version does not provide information on translators and revisors.</note>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr965</ref>
+    <rnb>1013</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM87</vol>
+        <sec>mdo</sec>
+        <debp>463</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>470</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>F</coll>
+    <ref>F173</ref>
+    <rnb>176</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>ba hu da tu sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs+ho// rgya gar gyi mkhan po su len+Da bo de dang/ zhu chen gyi lo ts+tsha ba ban de ye shes sdes bsgyur cing gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14080</vol>
+        <sec>mdo sde</sec>
+        <debp>112</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>119</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt039-008</ref>
+    <rnb>198</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>ba hu d+d+hA tu ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-3-6</vol>
+        <sec>mdo sde</sec>
+        <debp>132</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>139</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>H</coll>
+    <ref>H300</ref>
+    <rnb>302</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>-</skt>
+    <coloph>khams mang po ba zhes bya ba'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW26071</setid>
+        <vol>4097</vol>
+        <sec>mdo sde</sec>
+        <debp>551</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>559</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J238(a)</ref>
+    <rnb>259</rnb>
+    <tib>khams mang po pa'i mdo</tib>
+    <skt>d+hA tu ba hu ta ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo/_rdzogs so//</coloph>
+    <colophTitle>khams mang po zhes bya ba'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9933</vol>
+        <sec>mdo sde</sec>
+        <debp>327</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>332</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>L</coll>
+    <ref>L174</ref>
+    <rnb>178</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1035</vol>
+        <sec>mdo sde</sec>
+        <debp>140</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>146</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N282</ref>
+    <rnb>282</rnb>
+    <tib>khams mang po pa'i mdo</tib>
+    <skt>-</skt>
+    <coloph>khams mang po ba zhes bya ba'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22703</setid>
+        <vol>5474</vol>
+        <sec>mdo sde</sec>
+        <debp>460</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>468</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5014</setid>
+        <vol>2KG212629</vol>
+        <sec>mdo sde</sec>
+        <debp>460</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>468</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng15.9</ref>
+    <rnb>147</rnb>
+    <tib>khams mang po'i mdo'</tib>
+    <skt>ba hu da tu ka su tra</skt>
+    <coloph>khams mang po pa zhes bya ba'-i mdo'i rdzogs s+ho // // rgya gar gi mkhan po su len dra bod de dang / zhu chen gyi lo tsa ba ban d+he ye shes sdes bsgyurd cing gtan la phab pa //</coloph>
+    <colophTitle/>
+    <margin>khams</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229045</vol>
+        <sec>mdo</sec>
+        <debp>226</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>231</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>The colophon in the Derge version does not provide information on translators and revisors.</note>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np023-008</ref>
+    <rnb>198</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>ba hu d+d+hA tu ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-23</vol>
+        <sec>mdo sde</sec>
+        <debp>150</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>157</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj067-010</ref>
+    <rnb>531</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>d+hA tu ba hu ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-67</vol>
+        <sec>mdo sde</sec>
+        <debp>366</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>372</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz067-010</ref>
+    <rnb>527</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>d+hA tu ba hu ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-67</vol>
+        <sec>mdo sde</sec>
+        <debp>342</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>347</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q963</ref>
+    <rnb>1016</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt/>
+    <coloph>khams mang po ba zhes bya ba'i mdo| |rdzogs s.ho||</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96684</setid>
+        <vol>1PD106739</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>325</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>330</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW3CN1094</setid>
+        <vol>3CN1183</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>325</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>330</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R297</ref>
+    <rnb>298</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>d+hA tu ba hu ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17335</vol>
+        <sec>mdo sde</sec>
+        <debp>297</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>301</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S231</ref>
+    <rnb>279</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>ba hud+d+ha tu ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3781</vol>
+        <sec>mdo sde</sec>
+        <debp>145</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>152</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty041-008</ref>
+    <rnb>254</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>ba hud+d+ha tu ka sU tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209903</vol>
+        <sec>mdo sde</sec>
+        <debp>147</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>154</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U297</ref>
+    <rnb>298</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt/>
+    <coloph>khams mang po ba zhes bya ba'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL291</vol>
+        <sec>mdo sde</sec>
+        <debp>297</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>301</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5365</vol>
+        <sec>mdo sde</sec>
+        <debp>297</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>301</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V280</ref>
+    <rnb>280</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>ba hud d+hA tu ka su tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86301</vol>
+        <sec>mdo sde</sec>
+        <debp>135</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>141</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z262</ref>
+    <rnb>262</rnb>
+    <tib>khams mang po'i mdo</tib>
+    <skt>ba hu d+d+ha tu ka sUt+ra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127529</vol>
+        <sec>mdo sde</sec>
+        <debp>157</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>163</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg16.5</ref>
+    <rnb>154</rnb>
+    <tib>khams mang po'i mdo'</tib>
+    <skt>ba hu da tu ka su tra</skt>
+    <coloph>khams mang po zhes bya ba 'i mdo' //_rdzogs s+ho //</coloph>
+    <colophTitle>khams mang po zhes bya ba 'i mdo'</colophTitle>
+    <margin>mang</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211189</vol>
+        <sec>mdo</sec>
+        <debp>60</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>65</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg46.5</ref>
+    <rnb>563</rnb>
+    <tib>khams mang po'-i mdo</tib>
+    <skt>ba hu da tu ka su tra</skt>
+    <coloph>khams mang po zhes bya ba'i mdo rdzogs+ho//</coloph>
+    <colophTitle>khams mang po zhes bya ba'i mdo</colophTitle>
+    <margin>mang</margin>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211216</vol>
+        <sec>mdo</sec>
+        <debp>54</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>59</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

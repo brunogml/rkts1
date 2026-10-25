@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4716</ref>
+    <rnb>1</rnb>
+    <tib>gtor ma chen po'i las kyi rim pa'i 'grel pa</tib>
+    <skt>ma hA ba liM karma kra ma br-it+ti</skt>
+    <coloph>gtor ma chen po'i las kyi rim pa'i 'grel pa slob dpon rdo rje mi bskyod pas mdzad pa rdzogs so/ /rgya gar gyi mkhan po badz+ra kIrti dang / bod kyi lo tsA ba dge slong dge ba'i blo gros kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95886</vol>
+        <sec>1</sec>
+        <debp>1136</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1171</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3739</ref>
+    <rnb>2675</rnb>
+    <tib>gtor ma chen pa'i las kyi rim pa'i 'grel pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66110</vol>
+        <sec>rgyud</sec>
+        <debp>176</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>188</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3773</ref>
+    <rnb>2684</rnb>
+    <tib>gtor ma chen pa'i las kyi rim pa'i 'grel pa</tib>
+    <skt>ma hA ba liM karma kra m-i brat+ti</skt>
+    <coloph>gtor ma chen po'i las kyi rim pa'i 'grel pa slob dpon rdo rje mi bskyod pas mdzad pa rdzogs so</coloph>
+    <colophTitle>gtor ma chen po'i las kyi rim pa'i 'grel pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1395</vol>
+        <sec>rgyud</sec>
+        <debp>175</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>188</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210130</vol>
+        <sec>rgyud</sec>
+        <debp>175</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>188</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211434</vol>
+        <sec>rgyud</sec>
+        <debp>175</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>188</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po badzra kI rti</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15362</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba dge slong dge ba'i blo gros</name>
+        <role>translator</role>
+        <rid>bdr:P1242</rid>
+      </translator>
+      <translator>
+        <name>slob dpon rdo rje mi bskyod pa</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15293</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2590</ref>
+    <rnb>2591</rnb>
+    <tib>gtor ma chen pa'i las kyi rim pa'i 'grel pa</tib>
+    <skt>ma hA ba ling karma kra ma br-it+ti</skt>
+    <coloph>gtor ma chen po'i las kyi rim pa'i 'grel pa slob dpon rdo rje mi bskyod pas mdzad pa rdzogs so/ /rgya gar gyi mkhan po badz+ra kIrti dang / bod kyi lo tsA ba dge slong dge ba'i blo gros kyis bsgyur cing zhus te gtan la phab pa'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31411</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>469</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>487</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3380</ref>
+    <rnb>2599</rnb>
+    <tib>gtor ma chen pa'i las kyi rim pa'i 'grel pa</tib>
+    <skt>ma hA ba ling karma kra ma brit+ti</skt>
+    <coloph>gtor ma chen po'i las kyi rim pa'i 'grel pa slob dpon rdo rje mi bskyod pas mdzad pa rdzogs so/ /rgya gar gyi mkhan po badz+ra kIrti dang / bod kyi lo tsA ba dge slong dge ba'i blo gros kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3325</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>384</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>399</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212358</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>384</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>399</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4591</ref>
+    <rnb>2592</rnb>
+    <tib>gtor ma chen pa'i las kyi rim pa'i 'grel pa</tib>
+    <skt>ma hA ba ling karma kra ma brit+ti</skt>
+    <coloph>gtor ma chen po'i las kyi rim pa'i 'grel pa slob dpon rdo rje mi bskyod pas mdzad pa rdzogs so/ /rgya gar gyi mkhan po badz+ra kIrti dang / bod kyi lo tsA ba dge slong dge ba'i blo gros kyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13243</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>387</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>402</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rdo rje mi skyod pa/(vajrākṣobhya)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

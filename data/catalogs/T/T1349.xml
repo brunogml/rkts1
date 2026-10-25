@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G1354</ref>
+    <rnb>1356</rnb>
+    <tib>kun tu bzang po zhes bya ba'i spyin sreg gi cho ga</tib>
+    <skt>sa man+ta b+ha dra nA ma ho ma lo bi ka</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31396</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>251</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3350</ref>
+    <rnb>1351</rnb>
+    <tib>kun tu bzang po zhes bya ba'i spyin sreg gi cho ga</tib>
+    <skt>sa man+ta b+ha dra nA ma ho ma lo pi ka</skt>
+    <coloph>kun tu bzang po'i zhes bya ba'i sbyin sreg gi cho ga rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13228</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>200</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>209</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

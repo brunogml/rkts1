@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2590</ref>
+    <rnb>1</rnb>
+    <tib>sgrol ma'i sgrub thabs man ngag gi rim pa</tib>
+    <skt>tA ra sA d+ha nAM u pa de sha kra ma</skt>
+    <coloph>dpal u rgyan nas byung ba'i man ngag gi rim pa'i sgrub thabs sslob dpon chen po nyi ma sbas pa'i zhabs kyi mdzad pa rdzogs so// man ngag gi rim pa'i sgrub thabs 'di dang po ma 'gyur pa las phyis kha che'i pan+Di tas kha ba can gyi ljongs su drangs pa'i dpe las bod skad du dpal sa skya'i dben gnas dam par bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95859</vol>
+        <sec>1</sec>
+        <debp>914</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>917</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1631</ref>
+    <rnb>575</rnb>
+    <tib>sgrol ma'i sgrub thabs man ngag gi rim pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66059</vol>
+        <sec>rgyud</sec>
+        <debp>24</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>25</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1687</ref>
+    <rnb>584</rnb>
+    <tib>sgrol ma'i sgrub thabs man ngag gi rim pa</tib>
+    <skt>tA ra sA d+ha nAM u pa de sha kra ma</skt>
+    <coloph>dpal au rgyan nas byung ba'i man ngag gi rim pa'i sgrub thabs slob dpon chen po nyi ma sbas pa'i zhabs kyis mdzad pa rdzogs so// //man ngag gi rim pa'i sgrub thabs 'di dang po ma 'gyur ba las phyis kha che'i paN+Di tas kha ba can gyi ljongs su aspyan drangs pa'i dpe las bod skad du dpal sa skya'i dben gnas dam par bsgyur ba'o//</coloph>
+    <colophTitle>dpal u rgyan nas byung ba'i man ngag gi rim pa'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1344</vol>
+        <sec>rgyud</sec>
+        <debp>24</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>25</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210079</vol>
+        <sec>rgyud</sec>
+        <debp>24</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>25</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211383</vol>
+        <sec>rgyud</sec>
+        <debp>24</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>25</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon chen po nyi ma sbas pa'i zhabs</name>
+        <role>author</role>
+        <rid>bdr:P0AT0407</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2559</ref>
+    <rnb>559</rnb>
+    <tib>sgrol ma'i sgrub thabs man ngag gi rim pa</tib>
+    <skt>tA ra sA d+ha nAM u pa de sha kra ma</skt>
+    <coloph>man nag gi sgrub thabs 'di dang po ma 'gyur ba las phyis kha che'i paN+Di tas kha ba can gyi ljongs su spyan drangs pa'i dpe las bod skad du dpal sa skya'i dben gnas su bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13197</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>29</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>30</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nyi ma sbas pa/</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

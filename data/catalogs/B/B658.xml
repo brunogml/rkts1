@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm137.12</ref>
+    <rnb>441</rnb>
+    <tib>don gsum</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4108</vol>
+        <sec>1</sec>
+        <debp>236</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>246</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks100.12</ref>
+    <rnb>618</rnb>
+    <tib>don gsum</tib>
+    <skt/>
+    <coloph>lho brag khom mthing gi gter ma / lha rje bzhod ston la mkha' 'gro ma'i dngos grub tu gnang nas / rim pas brgyud nas bdag la'o // dge'o</coloph>
+    <colophTitle/>
+    <margin>don gsum</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75071</vol>
+        <sec>12</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>9</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>at the end of the text it says that this text represents precepts (man ngag) of ye-gshen gtsug-phud. this and the following title are omitted from the dkar chag at the beginning of this volume. shar-rdza, history (beijing edition), p. 283: 'khrul gzhi lta ba la sogs don gsum ste.</note>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz178.12</ref>
+    <rnb>489</rnb>
+    <tib>don gsum</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58713</vol>
+        <sec>12</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>10</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

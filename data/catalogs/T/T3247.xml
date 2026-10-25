@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5373</ref>
+    <rnb>1</rnb>
+    <tib>bden pa gnyis la 'jug pa</tib>
+    <skt>sa t+ya d+wa yA ba tA ra</skt>
+    <coloph>bden pa gnyis la 'jug pa slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /paN+Di ta de nyid dang / lo tsA ba rgya brtson seng ges bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95908</vol>
+        <sec>1</sec>
+        <debp>1050</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1054</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3869</ref>
+    <rnb>2805</rnb>
+    <tib>bden pa gnyis la 'jug pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66140</vol>
+        <sec>dbu ma</sec>
+        <debp>71</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>73</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3902</ref>
+    <rnb>2814</rnb>
+    <tib>bden pa gnyis la 'jug pa</tib>
+    <skt>sa t+ya d+wa yA ba tA ra</skt>
+    <coloph>bden pa gnyis la 'jug pa slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>bden pa gnyis la 'jug pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1425</vol>
+        <sec>mdo 'grel</sec>
+        <debp>72</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>73</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210160</vol>
+        <sec>mdo 'grel</sec>
+        <debp>72</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>73</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211464</vol>
+        <sec>mdo 'grel</sec>
+        <debp>72</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>73</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon mkhas pa chen po dpal mar me mdzad ye shes</name>
+        <role>translator</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba rgya brtson seng ge</name>
+        <role>translator</role>
+        <rid>bdr:P4104</rid>
+      </translator>
+      <translator>
+        <name>slob dpon mkhas pa chen po dpal mar me mdzad ye shes</name>
+        <role>author</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3301</ref>
+    <rnb>3295</rnb>
+    <tib>bden pa gnyis la 'jug pa</tib>
+    <skt>sat+t+ya d+wa yA ba tA ra</skt>
+    <coloph>bden pa gnyis la 'jug pa slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /paN+Di ta de nyid dang / lo tsA ba rgya brtson seng ges bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31454</vol>
+        <sec>mdo 'grel</sec>
+        <debp>90</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>92</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3383</ref>
+    <rnb>3377</rnb>
+    <tib>bden pa gnyis la 'jug pa</tib>
+    <skt>sa t+ya d+wa yA ba tA ra</skt>
+    <coloph>bden pa gnyis la 'jug pa/ slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /paN+Di ta de nyid dang/ lo tsA ba rgya brtson 'grus seng+gesa bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31458</vol>
+        <sec>mdo 'grel</sec>
+        <debp>7</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>9</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4087</ref>
+    <rnb>3307</rnb>
+    <tib>bden pa gnyis la 'jug pa</tib>
+    <skt>sa t+ya d+wa yA ba tA ra</skt>
+    <coloph>bden pa gnyis la 'jug pa slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /paN+Di ta de nyid dang / lo tsA ba rgya brtson seng ges bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3368</vol>
+        <sec>mdo 'grel</sec>
+        <debp>65</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>66</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212401</vol>
+        <sec>mdo 'grel</sec>
+        <debp>65</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>66</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4169</ref>
+    <rnb>3389</rnb>
+    <tib>bden pa gnyis la 'jug pa</tib>
+    <skt>sa t+ya d+wa yA ba tA ra</skt>
+    <coloph>bden pa gnyis la 'jug pa/ slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /paN+Di ta de nyid dang/ lo tsA ba rgya brtson 'grus seng+gesa bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3372</vol>
+        <sec>mdo 'grel</sec>
+        <debp>7</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212405</vol>
+        <sec>mdo 'grel</sec>
+        <debp>7</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5298</ref>
+    <rnb>3299</rnb>
+    <tib>bden pa gnyis la 'jug pa</tib>
+    <skt>sat+t+ya d+wa yA ba tA ra</skt>
+    <coloph>bden pa gnyis la 'jug pa slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /paN+Di ta de nyid dang / lo tsA ba rgya brtson seng ges bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13286</vol>
+        <sec>mdo 'grel</sec>
+        <debp>70</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>71</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5380</ref>
+    <rnb>3381</rnb>
+    <tib>bden pa gnyis la 'jug pa</tib>
+    <skt>sa t+ya d+wa yA ba tA ra</skt>
+    <coloph>bden pa gnyis la 'jug pa/ slob dpon mkhas pa chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /paN+Di ta de nyid dang/ lo tsA ba rgya brtson 'grus seng+gesa bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13290</vol>
+        <sec>mdo 'grel</sec>
+        <debp>6</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

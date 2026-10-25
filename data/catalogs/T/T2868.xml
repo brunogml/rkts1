@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4968</ref>
+    <rnb>1</rnb>
+    <tib>'phags ma lha mo sgrol ma la bstod pa mu tig 'phreng ba zhes bya ba</tib>
+    <skt>Ar+ya tA ra de bi stod tra gu lu ta ma la sa d+ha nA ma</skt>
+    <coloph>'phags pa sgrol ma la rig pa'i gnas rnam pa lnga la ma rmongs pa snyan ngag mkhan po rnams kyi gtsug gi nor bu lta du/ slob dpon chen po tsan+d+ra go mi'i 'chi med zla ba zhes bya bas bstod pa rdzogs so/ /rgya gar gyi mkhan po dI paM ka ra shri dz+nyA na'i zhal snga nas/ bod kyi ban+de sgra bsgyur gyi lo tsA ba nag tsho tshul khrims rgyal bas ka ma la shrI la'i gtsug lag khang du bsgyur zhing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>214</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>219</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2868</ref>
+    <rnb>2869</rnb>
+    <tib>'phags ma lha mo sgrol ma la bstod pa mu tig 'phreng ba zhes bya ba</tib>
+    <skt>ar+ya tA ya ra de pi stod tra gu lu ta ma la sa d+ha na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>236</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>239</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3658</ref>
+    <rnb>2878</rnb>
+    <tib>'phags pa lha mo sgrol ma la bstod pa mu tig 'phreng ba zhes bya ba</tib>
+    <skt>Ar+ya tU ra de bi stod tra gu lu ta ma la sa d+ha nA ma</skt>
+    <coloph>'phags pa sgrol ma la rig pa'i gnas rnam pa lnga la ma rmongs pa snyan ngag mkhan po rnams kyi gtsug gi nor bu lta du/ slob dpon chen po rtsan+d+ra go mi'i 'chi med zla ba zhes bya bas bstod pa rdzogs so/ /rgya gar gyi mkhan po dI paM ka ra shri dz+nyA na'i zhal snga nas/ bod kyi ban+de sgra bsgyur gyi lo tsA ba nag tsho tshul khrims rgyal bas ka ma la shrI la'i gtsug lag khang du bsgyur zhing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>178</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>180</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>178</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>180</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4869</ref>
+    <rnb>2870</rnb>
+    <tib>'phags ma lha mo sgrol ma la bstod pa mu tig 'phreng ba zhes bya ba</tib>
+    <skt>ar+ya tA ra de bi stod tra gu lu ta ma la sa d+ha na ma</skt>
+    <coloph>'phags pa sgrol ma la rig pa'i gnas rnam pa lnga la ma rmongs pa snyan ngag mkhan po rnams kyi gtsug gi nor bu lta bu/_slob dpon chen po tsan tra go mi'am 'chi med zla ba zhes bya bas bstod pa rdzogs so/_/rgya gar gyi mkhan po ti paM ka ra shri dz+nyA na'i zhal snga nas/_bod kyi ban+de sgra bsgyur gyi lo tsA ba nag tsho tshul khrims rgyal bas bi ka ma la shrI la'i gtsug lag khang du bsgyur zhing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>178</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>181</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nag tsho tshul khrims rgyal ba/(śīlajaya)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>tibaṁkarasrījana (dīpaṁkaraśrījñāna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>cantragomi (candragomin)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

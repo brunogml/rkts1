@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt81.6</ref>
+    <rnb>3072</rnb>
+    <tib>dra ba nag po'i phyag bzhes rnam 'byed 'phrul gyi lde mig</tib>
+    <skt/>
+    <coloph>dra ba nag po'i bsdus don nyams len du dril ba rnam 'byed 'phrul gyi lde mig 'di/ smra ba'i seng ge gnyos btsun tshul khrims rgyal mtshan zhes bya bas sbyar ba rdzogs so//</coloph>
+    <colophTitle/>
+    <margin>phyag bzhes</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4774</vol>
+        <sec>6</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>9</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz171.5</ref>
+    <rnb>384</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58706</vol>
+        <sec>5</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>14</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

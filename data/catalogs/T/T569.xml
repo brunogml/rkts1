@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2601</ref>
+    <rnb>1</rnb>
+    <tib>stong pa nyid bsgom pa</tib>
+    <skt>shU n+ya tA b+hA ba na</skt>
+    <coloph>stong pa nyid sgom pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95859</vol>
+        <sec>1</sec>
+        <debp>1016</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1018</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1642</ref>
+    <rnb>586</rnb>
+    <tib>stong pa nyid bsgom pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66059</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>56</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1698</ref>
+    <rnb>595</rnb>
+    <tib>stong pa nyid bsgom pa</tib>
+    <skt>shU n+ya tA b+hA ba na</skt>
+    <coloph>stong pa nyid bsgom pa rdzogs so//</coloph>
+    <colophTitle>stong pa nyid bsgom pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1344</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>56</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210079</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>56</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211383</vol>
+        <sec>rgyud</sec>
+        <debp>55</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>56</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G572</ref>
+    <rnb>573</rnb>
+    <tib>stong pa nyid bsgom pa</tib>
+    <skt>shU n+ya tA b+ha bAn</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31365</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>gong 76</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>76'</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1364</ref>
+    <rnb>579</rnb>
+    <tib>stong pa nyid bsgom pa</tib>
+    <skt>shU n+ya tA b+hA ba na</skt>
+    <coloph>stong pa nyid bsgom pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3279</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>57</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>57</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212312</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>57</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>57</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2569</ref>
+    <rnb>569</rnb>
+    <tib>stong pa nyid bsgom pa</tib>
+    <skt>shU n+ya tA b+ha bA na</skt>
+    <coloph>stong pa nyid bsgom pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13197</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>65</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>65</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

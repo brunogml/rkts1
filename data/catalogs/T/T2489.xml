@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4610</ref>
+    <rnb>1</rnb>
+    <tib>'phags ma sgrol ma la bstod pa tshigs su bcad pa bcu gnyis pa</tib>
+    <skt>Ar+ya tA rA sto tra da sha d+wi gA thA</skt>
+    <coloph>rje btsun 'phags ma sgrol ma la bstod pa slob dpon tsan+d+ra go mis mdzad pa tshigs su bcad pa bcu gnyis pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95885</vol>
+        <sec>1</sec>
+        <debp>1328</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1330</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3634</ref>
+    <rnb>2569</rnb>
+    <tib>'phags ma sgrol ma la bstod pa tshigs su bcad pa bcug gnyis pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>288</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>288</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3668</ref>
+    <rnb>2579</rnb>
+    <tib>'phags ma sgrol ma la bstod pa tshigs su bcad pa bcug gnyis pa</tib>
+    <skt>Ar+ya tA rA sto tra da sha d+wI gA thA</skt>
+    <coloph>rje btsun 'phags ma sgrol ma la bstod pa slob dpon tsan+d+ra go mis mdzad pa tshigs su bcad pa bcu gnyis pa rdzogs so//</coloph>
+    <colophTitle>rje btsun ma 'phags ma sgrol ma la bstod pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>281</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>281</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>281</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>281</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>281</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>281</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon tsan+d+ra go mi</name>
+        <role>author</role>
+        <rid>bdr:P7599</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2492</ref>
+    <rnb>2494</rnb>
+    <tib>'phags ma sgrol ma la bstod pa tshigs su bcad pa bcug gnyis pa</tib>
+    <skt>Ar+ya tA ra sto tra da sha dI gA thA</skt>
+    <coloph>rje btsun 'phags ma sgrol ma la bstod pa slob dpon tsan+d+ra go mis mdzad pa tshigs su bcad pa bcu gnyis pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31410</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>400</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>401</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3283</ref>
+    <rnb>2500</rnb>
+    <tib>'phags ma sgrol ma la bstod pa tshigs su bcad pa bcug gnyis pa</tib>
+    <skt>Ar+ya tA ra sto tra da sha dI gA thA</skt>
+    <coloph>rje btsun 'phags ma sgrol ma la bstod pa slob dpon tsan+d+ra go mis mdzad pa tshigs su bcad pa bcu gnyis pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>331</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>332</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>331</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>332</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4490</ref>
+    <rnb>2491</rnb>
+    <tib>'phags ma sgrol ma la bstod pa tshigs su bcad pa bcug gnyis pa</tib>
+    <skt>Ar+ya tA ra stotra da shA dI gA thA</skt>
+    <coloph>rje btsun 'phags ma sgrol ma la bstod pa slob dpon tsan+d+ra go mis mdzad pa tshigs su bcad pa bcu gnyis pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>368</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>369</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>(candragomin)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

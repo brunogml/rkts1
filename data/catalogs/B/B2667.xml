@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt27.60</ref>
+    <rnb>1315</rnb>
+    <tib>spar ma klong gis skong chung</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4720</vol>
+        <sec>60</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>18</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt50.30</ref>
+    <rnb>2144</rnb>
+    <tib>spar ma klong gi bskang chung</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>dbal mo'i bskang ba</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4743</vol>
+        <sec>30</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>17</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.149</ref>
+    <rnb>151</rnb>
+    <tib>'phags pa lha mo chen mo rol par byed pa'i gtsug tor zhes bya ba'i gzungs</tib>
+    <skt>de bI ma hA ka lo ha sa uSNi nA ma dhA ra Ni</skt>
+    <coloph>dpal gshin rje gshed kyi dpal zla gsang nag po las dpal ldan lha mo chen mo rol bar byed pa'i gtsug tor zhes bya ba'i gzungs rdzogs  
+so// //mang+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>439</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>447</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg146</ref>
+    <rnb>148</rnb>
+    <tib>'phags pa lha mo chen mo rol par byed pa'i gtsug tor zhes bya ba'i gzungs</tib>
+    <skt>de bI ma hA ka lo ha sa uSNi nA ma dhA ra Ni</skt>
+    <coloph>dpal gshin rje gshed kyi dpal zla gsang nag po las dpal ldan lha mo chen mo rol bar byed pa'i gtsug tor zhes bya ba'i gzungs rdzogs so// //mang+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>414</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>419</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.142</ref>
+    <rnb>614</rnb>
+    <tib>lha mo nag mo chen mo rol bar byed pa'i gtsug tor zhes bya ba'i gzungs</tib>
+    <skt>de bI mahA ka li ha sa uSh+NI Sha nA ma d+hA ra Ni</skt>
+    <coloph>dpal gshin rje gshed kyi dpal zla gsang nag po las dpal lha mo nag mo chen mo rol par byed pa'i gtsug tor zhes bya ba'i gzungs rdzogs so//_//mang+ga laM//</coloph>
+    <colophTitle/>
+    <margin>lha mo rol</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>86 do</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.408.</note>
+  </item>
+</catalog>

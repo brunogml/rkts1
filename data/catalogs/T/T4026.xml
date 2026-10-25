@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1852</ref>
+    <rnb>794</rnb>
+    <tib>rab tu gnas pa'i cho ga zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66076</vol>
+        <sec>rgyud</sec>
+        <debp>16</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>21</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1905</ref>
+    <rnb>804</rnb>
+    <tib>rab tu gnas pa'i cho ga zhes bya ba</tib>
+    <skt>pra tiSh+Tha bi d+hi nA ma</skt>
+    <coloph>paN+Di ta mi 'jigs pa'i phyag gis mdzad pa/ /rab gnas kyi cho ga mdor bsdus pa rdzogs so//</coloph>
+    <colophTitle>rab gnas kyi cho ga mdor bsdus pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1361</vol>
+        <sec>rgyud</sec>
+        <debp>16</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>21</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210096</vol>
+        <sec>rgyud</sec>
+        <debp>16</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>21</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211400</vol>
+        <sec>rgyud</sec>
+        <debp>16</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>21</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta mi 'jigs pa'i phyag</name>
+        <role>author</role>
+        <rid>bdr:P7136</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1563</ref>
+    <rnb>780</rnb>
+    <tib>rab tu gnas pa'i cho ga zhes bya ba</tib>
+    <skt>pra tiSh+Tha bi d+hi nA ma</skt>
+    <coloph>paN+Di ta mi 'jigs pa'i phyag gis mdzad pa/ rab gnas kyi cho ga mdor bsdus pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3294</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>19</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>24</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212327</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>19</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>24</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2769</ref>
+    <rnb>770</rnb>
+    <tib>rab tu gnas pa'i cho ga zhes bya ba</tib>
+    <skt>pra tiSh+Tha bi d+hi nA ma</skt>
+    <coloph>paN+Di ta mi 'jigs pa'i phyag gis mdzad pa/ rab gnas kyi cho ga mdor bsdus pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13212</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>19</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>25</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mi 'jigs pa'i phyag(abhayapāṇi)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

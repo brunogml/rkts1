@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4785</ref>
+    <rnb>1</rnb>
+    <tib>dpal 'khor lo bde mchog gi mngon par rtogs pa'i 'grel pa</tib>
+    <skt>shrI tsakra saM ba ra a b+hi sa ma ya TI kA</skt>
+    <coloph>rnal 'byor gyi dbang phyug rnams kyis gtsug go nor bu lta bu dpal lU yis pas mdzad pa'i 'khor lo sdom pa'i mngon par rtogs pa'i 'grel pa grub pa brnyes pa'i slob dpon la ba'i na bza' can gyi zhal snga nas mdzad pa rdzogs so/ /paN+Di ta slob dpon chen po nyi ma'i dbang po'i 'od zer dang / lo tsA ba dge slong chos rje'i dpal gyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>1114</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1152</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2660</ref>
+    <rnb>2661</rnb>
+    <tib>dpal 'khor lo bde mchog gi mngon par rtogs pa'i 'grel pa</tib>
+    <skt>shri tsakra saM ba ra a b+hi sa ma ya TI ka</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31412</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>386</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>409</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3450</ref>
+    <rnb>2669</rnb>
+    <tib>dpal 'khor lo bde mchog gi mngon par rtogs pa'i 'grel pa</tib>
+    <skt>shrI tsa kra saM ba ra a b+hi sa ma ya TI kA</skt>
+    <coloph>rnal 'byor gyi dbang phyug rnams kyis gtsug go nor bu lta bu dpal lU yis pas mdzad pa'i 'khor lo sdom pa'i mngon par rtogs pa'i 'grel pa grub pa brnyes pa'i slob dpon la ba'i na bza' can gyi zhal snga nas mdzad pa rdzogs so/ /paN+Di ta slob dpon chen po nyi ma'i dbang po'i 'od zer dang / lo tsA ba dge slong chos rje'i dpal gyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>255</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>272</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212359</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>255</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>272</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4661</ref>
+    <rnb>2662</rnb>
+    <tib>dpal 'khor lo bde mchog gi mngon par rtogs pa'i 'grel pa</tib>
+    <skt>shrI tsakra saM ba ra a b+hi sa ma ya TI kA</skt>
+    <coloph>rnal 'byor gyi dbang phyug rnams kyi gtsug gi nor bu lta bu dpal lU yi pas mdzad pa'i 'khor lo sdom pa'i mngon par rtogs pa'i 'grel pa grub pa brnyes pa'i slob dpon lwa ba'i na bza' can gyi zhal snga nas mdzad pa rdzogs so/_/paN+Di ta slob dpon chen po nyi ma'i dbang po'i 'od zer dang /_lo tsA ba dge slong chos rje'i dpal gyis bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13244</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>273</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>293</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>chos rje'i dpal/(dharmasvāmiśrī)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>nyi ma'i dbang po'i 'od zer/(sūryendraprabha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>lwa ba'i na bza' can/(kambalāmbara)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

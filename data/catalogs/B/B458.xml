@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks102.24</ref>
+    <rnb>665</rnb>
+    <tib>kun bzang yab sras zhal mjal ba'i zhal gdams snying gi me long</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations/>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt32.4</ref>
+    <rnb>1539</rnb>
+    <tib>kun bzang yab sras zhal mjal ba'i zhal gdams snying gi me long</tib>
+    <skt/>
+    <coloph>de ltar snyan rgyud sems kyi me long las/ kun bzang yab sras zhal mjal gyi le'u ste dang po'o/ mjal thebs dang po/ sa ma ya/ rgya rgya rgya//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4725</vol>
+        <sec>4</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

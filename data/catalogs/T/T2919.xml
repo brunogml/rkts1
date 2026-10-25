@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5012</ref>
+    <rnb>1</rnb>
+    <tib>gnod sbyin nag po'i bstod pa</tib>
+    <skt/>
+    <coloph>slob dpon mchog sred kyis mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>434</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>436</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2919</ref>
+    <rnb>2920</rnb>
+    <tib>gnod sbyin nag po'i bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>368</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>369</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3709</ref>
+    <rnb>2929</rnb>
+    <tib>gnod sbyin nag po'i bstod pa</tib>
+    <skt/>
+    <coloph>slob dpon mchog sred kyi mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>275</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>275</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>275</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>275</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4920</ref>
+    <rnb>2921</rnb>
+    <tib>gnod sbyin nag po'i bstod pa</tib>
+    <skt/>
+    <coloph>slob dpon mchog sred kyis mdzad pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>273</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>274</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mchog sred/(vararuci)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

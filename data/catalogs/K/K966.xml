@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm45.7</ref>
+    <rnb>565</rnb>
+    <tib>khro bo'i rgyal po klu sreg par byed pa tha las thams cad pa'i khro bo 'byung po 'dul byed kyi rgyud</tib>
+    <skt>kro ta ra tsa na ga tsa la ta ha tre ta sar+ba ka rma u ta ka sha ka ma tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin>'byung po</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL955</vol>
+        <sec>rgyud</sec>
+        <debp>274</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>279</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>bsrung pa'i le'u</name>
+        <setid>MW1BL10</setid>
+        <vol>1BL955</vol>
+        <sec>rgyud</sec>
+        <debp>279</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>mthun le'u</name>
+        <setid>MW1BL10</setid>
+        <vol>1BL955</vol>
+        <sec>rgyud</sec>
+        <debp>279</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+    </chapters>
+    <note>Missing folio: 278. This work is not found in the mainstream collections but documented for Newark/Bathang (Ne).</note>
+  </item>
+</catalog>

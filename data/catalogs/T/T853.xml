@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2908</ref>
+    <rnb>1</rnb>
+    <tib>zhi ba'i las kyi bya ba bdun pa</tib>
+    <skt/>
+    <coloph>b+hai ra ba'i zhi ba'i bya ba bdun pa/ paN+Di ta a mo g+ha chung pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95869</vol>
+        <sec>1</sec>
+        <debp>662</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>672</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1950</ref>
+    <rnb>892</rnb>
+    <tib>zhi ba'i las kyi bya ba bdun bshad pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations/>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2001</ref>
+    <rnb>902</rnb>
+    <tib>zhi ba'i las kyi bya ba bdun bshad pa</tib>
+    <skt/>
+    <coloph>b+hi ra ba'i zhi ba'i bya ba bdun pa/_paN+Di ta a mo g+ha chung bas mdzad pa rdzogs so</coloph>
+    <colophTitle>b+hi ra ba'i zhi ba'i bya ba bdun pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1363</vol>
+        <sec>rgyud</sec>
+        <debp>204</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>208</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210098</vol>
+        <sec>rgyud</sec>
+        <debp>204</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>208</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211402</vol>
+        <sec>rgyud</sec>
+        <debp>204</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>208</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta a mo g+ha chung ba</name>
+        <role>author</role>
+        <rid>bdr:P8186</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G857</ref>
+    <rnb>859</rnb>
+    <tib>b+hee ra ba'i zhi ba'i bya ba bdun pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31382</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>286</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>292</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1649</ref>
+    <rnb>866</rnb>
+    <tib>bhai ra ba'i zhi ba'i bya ba bdun pa</tib>
+    <skt/>
+    <coloph>b+hai ra ba'i zhi ba'i bya ba bdun pa/ paN+Di ta a mo g+ha chung pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3296</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>202</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>206</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212329</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>202</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>206</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2854</ref>
+    <rnb>855</rnb>
+    <tib>b+hai ra ba'i zhi ba'i bya ba bdun pa</tib>
+    <skt/>
+    <coloph>b+hai ra ba'i zhi ba'i bya ba bdun pa/ paN+Di ta a mo g+ha chung pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13214</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>225</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>229</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>amoga chung-pa</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

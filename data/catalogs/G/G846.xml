@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm44.11</ref>
+    <rnb>824</rnb>
+    <tib>pad+ma gtsug lag 'khor lo'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-45</vol>
+        <sec>rnying rgyud</sec>
+        <debp>89</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>91</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt44.10</ref>
+    <rnb>829</rnb>
+    <tib>pad+ma gtsug lag 'khor lo'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-44</vol>
+        <sec>rnying rgyud</sec>
+        <debp>76</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>78</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb051.004</ref>
+    <rnb>842</rnb>
+    <tib>pad+ma gtsug lag 'khor lo'i rgyud</tib>
+    <skt>pad+ma tsakra kri yi tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21656</vol>
+        <sec>1</sec>
+        <debp>47</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>49</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>thems bstan pa'i le'u ste dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21656</vol>
+        <sec>1</sec>
+        <debp>48</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>tshad ma bstan pa'i le'u ste gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21656</vol>
+        <sec>1</sec>
+        <debp>48</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>rtsis bstan pa'i le'u ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21656</vol>
+        <sec>1</sec>
+        <debp>48</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>rjes su yid rang ba'i le'u ste bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21656</vol>
+        <sec>1</sec>
+        <debp>49</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

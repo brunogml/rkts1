@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4971</ref>
+    <rnb>1</rnb>
+    <tib>bcom ldan 'das 'phags ma sgrol ma la bstod pa zhes bya ba</tib>
+    <skt>b+ha ga wa ti ar+ya ta ra sto tra na ma</skt>
+    <coloph>ye shes kyi lha mo sgyu 'phrul chen po la/ shAkya'i dge slong dad byed go cha rin chen zhes bya bas bstod pa rdzogs so/ /lo tsA ba rig pa'i khu byug gis bsgyur zhing legs par gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>226</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>229</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2871</ref>
+    <rnb>2872</rnb>
+    <tib>bcom ldan 'das 'phags ma sgrol ma la bstod pa zhes bya ba</tib>
+    <skt>b+ha ga wa ti ar+ya ta ra sto tra na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>241</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>242</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3661</ref>
+    <rnb>2881</rnb>
+    <tib>bcom ldan 'das 'phags ma sgrol ma la bstod pa zhes bya ba</tib>
+    <skt>b+ha ga wa ti a r+ya ta ra sto tra na ma</skt>
+    <coloph>ye shes kyi lha mo sgyu 'phrul chen po la/ shAkya'i dge slong dad byed go cha rin chen zhes bya bas bstod pa rdzogs so/ /lo tsA ba rig pa'i khu byug gis bsgyur zhing legs par gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>181</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>183</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>181</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>183</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4872</ref>
+    <rnb>2873</rnb>
+    <tib>bcom ldan 'das 'phags ma sgrol ma la bstod pa zhes bya ba</tib>
+    <skt>b+ha ga wa ti ar+ya ta ra sto tra na ma</skt>
+    <coloph>ye shes kyi lha mo sgyu 'phrul chen po la/ shAkya'i dge slong dad byed go cha rin chen zhes bya bas bstod pa rdzogs so/ /lo tsA ba rig pa'i khu byug gis bsgyur zhing legs par gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>182</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>184</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dad byed go cha rin chen/(śraddhākaravarmaratna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

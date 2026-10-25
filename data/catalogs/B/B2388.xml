@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt23.67</ref>
+    <rnb>1027</rnb>
+    <tib>zil gnon khyung gis bzlog pa</tib>
+    <skt/>
+    <coloph>sham po'i gter ma ba'o//</coloph>
+    <colophTitle/>
+    <margin>khyung</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4716</vol>
+        <sec>67</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>6</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt51.27</ref>
+    <rnb>2195</rnb>
+    <tib>zil gnon khyung gi bzlog</tib>
+    <skt/>
+    <coloph>ces dbal gsas lta ba'i khyung zlog rdzogs sA+o/ sham po'i gter ma'o//</coloph>
+    <colophTitle/>
+    <margin>khyung zlog</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4744</vol>
+        <sec>27</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4945</ref>
+    <rnb>1</rnb>
+    <tib>yi ge bzhi pa'i man ngag</tib>
+    <skt/>
+    <coloph>slob dpon dwa kin+ta chen po/ sems kyi phyag rgya gsung bar mdzad/ khaD+ga ba yi man ngag go /sngon chad gangs ri'i khrod du ma byon pa'i/ gzhung bzang 'di yang bla ma'i dran las thob/ sangs rgyas sbas pa'i gsung bzhin 'di bsgyur te/ rmongs pa kun dga' snying pos g.yar khral du'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>93</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>95</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2845</ref>
+    <rnb>2846</rnb>
+    <tib>yi ge bzhi pa'i man ngag</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>177</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>178</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3635</ref>
+    <rnb>2855</rnb>
+    <tib>yi ge bzhi pa'i man ngag</tib>
+    <skt/>
+    <coloph>slob dpon d+wa kin+ta chen po/ sems kyi phyag rgya gsung bar mdzad/ khaD+ga ba yi man ngag go /sngon chad gangs ri'i khrod du ma byon pa'i/ gzhung bzang 'di yang bla ma'i dran las thob/ sangs rgyas sbas pa'i gsung bzhin 'di bsgyur te/ rmongs pa kun dga' snying pos g.yar khral du'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>134</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>135</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>134</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>135</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4846</ref>
+    <rnb>2847</rnb>
+    <tib>yi ge bzhi pa'i man ngag</tib>
+    <skt/>
+    <coloph>slob dpon dwa kin+ta chen po/_sems kyi phyag rgya gsung bar mdzad/_khaT+ga pa yi man ngag go_/sngon chad gangs ri'i khrod du ma byon pa'i/_gzhung bzang 'di yang bla ma'i drin las thob/_sangs rgyas sbas pa'i gsung bzhin 'di bsgyur te/_rmongs pa kun dga' snying pos g.yar khral du'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>139</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>139</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>kun dga' snying po/(ānandagarbha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>sangs rgyas sbas pa/(buddhagupta)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dvikhaṇḍin</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2072</ref>
+    <rnb>1</rnb>
+    <tib>dus mchod chen</tib>
+    <skt>kA la su tsa ma ha tsa turkA ri ka</skt>
+    <coloph>dus mchod chen mo bzhi'i tshig le'ur byas pa kha che'i paN+DI ta shAkya shrIs mdzad pa rdzogs so// paN+Di ta de ki dang sgra bsgyur gyi lo tsA ba byams pa'i dpal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95846</vol>
+        <sec>1</sec>
+        <debp>775</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>779</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G62</ref>
+    <rnb>62</rnb>
+    <tib>dus mchod chen mo bzhi'i tshig le'ur byas pa</tib>
+    <skt>kA la su tsa ma hA tsa turkA ri ka</skt>
+    <coloph>dus mchod chen po tshig le'ur byas pa kha che'i paN+Di ta shAkya shrIs mdzad pa rdzogs so/ /paN+Di ta de nyed dang sgra bsgyur gyi lo tsA ba byams pa'i dpal gyi bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31338</vol>
+        <sec>bstod tshogs</sec>
+        <debp>366</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>368</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N851</ref>
+    <rnb>62</rnb>
+    <tib>dus mchod chen po bzhi'i tshig le'ur byas pa</tib>
+    <skt>kA la su tsa ma ha tsa turkA ri ka</skt>
+    <coloph>dus mchod chen po tshig le'ur byas pa kha che'i paN+Di ta shAkya shrIs mdzad pa rdzogs so/ /paN+Di ta de nyed dang sgra bsgyur gyi lo tsA ba byams pa'i dpal gyi bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3252</vol>
+        <sec>bstod tshogs</sec>
+        <debp>276</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>277</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212285</vol>
+        <sec>bstod tshogs</sec>
+        <debp>276</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>277</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2061</ref>
+    <rnb>61</rnb>
+    <tib>dus mchod chen po bzhi'i tshig le'ur byas pa</tib>
+    <skt>kA la su tsa ma ha tsa turkA ri ka</skt>
+    <coloph>dus mchod chen po tshig le'ur byas pa kha che'i paN+Di ta shAkya shrIs mdzad pa rdzogs so/_/paN+Di ta de ki dang sgra bsgyur gyi lo tsA ba byams pa'i dpal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13170</vol>
+        <sec>bstod tshogs</sec>
+        <debp>293</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>294</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>byams pa'i dpal/(matitrīśrī)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>śākyaśrī</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3793</ref>
+    <rnb>1</rnb>
+    <tib>dpal 'jig rten dbang phyug mkha' la gshegs pa'i sgrub thabs rgyas pa</tib>
+    <skt>shrI kha sar pa Na lo ke sh+wa ra sA d+ha na basti raM</skt>
+    <coloph>gnas brtan dpe med bsrung bas mdzad pa rdzogs so// ''di ni sngar lo tsA ba gzhan gyis bsgyur zin kyang / rang nyid la bod skad kyi dpe med pa'i rgyu mtshan gyis/ lo tsA ba'i ming tsam 'dzin pa snyoms las pa dpang dge slong blo gros brtan pas bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95882</vol>
+        <sec>1</sec>
+        <debp>744</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>753</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3686</ref>
+    <rnb>1687</rnb>
+    <tib>dpal 'jig rten dbang phyug mkha' la gshegs pa'i sgrub thabs</tib>
+    <skt>shrI ba sa ra pa Na lo ke sh+wa ra sA d+ha na ba sti raM</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13239</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>234</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>238</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dpang blo gros brtan pa/(sthiramati)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dpe med bsrung ba/(anupamarakṣita)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

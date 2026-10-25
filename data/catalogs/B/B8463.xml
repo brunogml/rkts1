@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm145.15</ref>
+    <rnb>563</rnb>
+    <tib>ma mo srid pa rgyal mo'i las sbyor gsang ba'i rgyud gsang this khol phyung</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4116</vol>
+        <sec>1</sec>
+        <debp>325</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>338</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt269.45</ref>
+    <rnb>7522</rnb>
+    <tib>ma mo srid pa rgyal mo'i las sbyor gsang ba'i rgyud gsang this khol byung</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>rgyud</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4962</vol>
+        <sec>45</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>11</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz193.6</ref>
+    <rnb>623</rnb>
+    <tib>ma mo srid pa rgyal mo'i las sbyor gsang ba'i rgyud gsang this khol byung</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58728</vol>
+        <sec>ca'o</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>10</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2281</ref>
+    <rnb>1215</rnb>
+    <tib>rdo rje phag mo'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66083</vol>
+        <sec>rgyud</sec>
+        <debp>269</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>269</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2328</ref>
+    <rnb>1225</rnb>
+    <tib>rdo rje phag mo'i sgrub thabs</tib>
+    <skt>badzra bA rA hI sA d+ha naM</skt>
+    <coloph>rdo rje phag mo'i sgrub thabs rje btsun ka ma la sh'i las mdzad pa rdzogs so//</coloph>
+    <colophTitle>rdo rje phag mo'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1368</vol>
+        <sec>rgyud</sec>
+        <debp>269</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>269</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210103</vol>
+        <sec>rgyud</sec>
+        <debp>269</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>269</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211407</vol>
+        <sec>rgyud</sec>
+        <debp>269</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>269</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rje btsun ka ma la shI la</name>
+        <role>author</role>
+        <rid>bdr:P7641</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1171</ref>
+    <rnb>1173</rnb>
+    <tib>rdo rje phag mo'i sgrub thabs</tib>
+    <skt>badzra bA rI hi s+wa d+ha naM</skt>
+    <coloph>rdo rje phag mo'i sgrub thabs rje btsun ka ma la shrIs mdzad pa rdzos so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31386</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>369</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>370</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

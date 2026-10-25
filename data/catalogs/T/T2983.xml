@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5068</ref>
+    <rnb>1</rnb>
+    <tib>sngags kyi rgyal po'i dam tshig dngos grub sgrub pa'i thabs zhes bya ba</tib>
+    <skt>man+t+ra rA dzA sa ma ya sid+d+hi sA d+ha nA ma</skt>
+    <coloph>ngags kyi rgyal po'i dam tshig dngos grub sgrub pa'i thabs zhes bya ba/ slob dpon rin chen rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>761</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>764</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2983</ref>
+    <rnb>2984</rnb>
+    <tib>sngags kyi rgyal po'i dam tshig dngos grub sgrub pa'i thabs shes bya ba</tib>
+    <skt>mant+r+a rA dzA sa ma ya sid+d+hi sA d+ha nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>122</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>124</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3773</ref>
+    <rnb>2993</rnb>
+    <tib>sngags kyi rgyal po'i dam tshig dngos grub sgrub pa'i thabs shes bya ba</tib>
+    <skt>man+ta rA dzA sa ma ya sid+d+hi sA d+ha nA ma</skt>
+    <coloph>sngags kyi rgyal po'i dam tshig dngos grub sgrub pa'i thabs zhes bya ba/ slob dpon rin chen rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>89</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>91</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>89</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>91</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4984</ref>
+    <rnb>2985</rnb>
+    <tib>sngags kyi rgyal po'i dam tshig dngos grub sgrub pa'i thabs shes bya ba</tib>
+    <skt>man+t+ra rA dzA sa ma ya sid+d+ha sA d+ha nA ma</skt>
+    <coloph>sngags kyi rgyal po dam tshig gi dngos grub kyi mchog sgrub pa'i thabs zhes bya ba/_slob dpon rin chen rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>95</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>97</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rin chen rdo rje/(ratnavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

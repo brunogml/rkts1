@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5789</ref>
+    <rnb>1</rnb>
+    <tib>sman 'tsho ba'i mdo</tib>
+    <skt>dzI ba sU tra</skt>
+    <coloph>slob dpon 'phags pa klu sgrub snying pos sman pa rnams la brdzangs pa/ sman 'tsho ba'i mdo tshogs su bcad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95956</vol>
+        <sec>1</sec>
+        <debp>23</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>33</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4272</ref>
+    <rnb>3212</rnb>
+    <tib>sman 'tsho ba'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66229</vol>
+        <sec>gso ba rig pa</sec>
+        <debp>8</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>12</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4307</ref>
+    <rnb>3220</rnb>
+    <tib>sman 'tsho ba'i mdo</tib>
+    <skt>dzI ba sU tra</skt>
+    <coloph>slob dpon 'phags pa klu sgrub snying pos sman pa rnams la brdzangs pa/_sman 'tsho ba'i mdo tshigs su bcad pa rdzogs so</coloph>
+    <colophTitle>sman 'tsho ba'i mdo tshigs su bcad pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1514</vol>
+        <sec>mdo 'grel</sec>
+        <debp>8</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>12</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210249</vol>
+        <sec>mdo 'grel</sec>
+        <debp>8</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>12</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211553</vol>
+        <sec>mdo 'grel</sec>
+        <debp>8</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>12</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon 'phags pa klu sgrub snying po</name>
+        <role>author</role>
+        <rid>bdr:P4954</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3799</ref>
+    <rnb>3794</rnb>
+    <tib>sman 'tsho ba'i mdo</tib>
+    <skt>dzI ba sU tra</skt>
+    <coloph>slob dpon 'phags pa klu sgrub snying pos sman pa rnams la brdzangs pa/ sman 'tsho ba'i mdo tshogs su bcad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31543</vol>
+        <sec>gso rig</sec>
+        <debp>12</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>16</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4587</ref>
+    <rnb>3805</rnb>
+    <tib>sman 'tsho ba'i mdo</tib>
+    <skt>dzI ba sU tra</skt>
+    <coloph>slob dpon 'phags pa klu sgrub snying pos sman pa rnams la brdzangs pa/ sman 'tsho ba'i mdo tshogs su bcad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3457</vol>
+        <sec>mdo 'grel</sec>
+        <debp>10</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>14</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212490</vol>
+        <sec>mdo 'grel</sec>
+        <debp>10</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>14</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5796</ref>
+    <rnb>3798</rnb>
+    <tib>sman 'tsho ba'i mdo</tib>
+    <skt>dzI ba sU tra</skt>
+    <coloph>slob dpon 'phags pa klu sgrub snying pos sman pa rnams la brdzangs pa/_sman 'tsho ba'i mdo tshigs su bcad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13375</vol>
+        <sec>mdo 'grel</sec>
+        <debp>9</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>13</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>klu sgrub snying po/(nāgārjunagarbha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

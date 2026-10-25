@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4918</ref>
+    <rnb>1</rnb>
+    <tib>dpal gshin rje gshed nag po'i 'khrul 'khor bskor ba'i cho ga las/ las kyi rgyud dang grogs bstan pa'i rtog pa</tib>
+    <skt>tsakra na ma</skt>
+    <coloph>dpal ldan gshin rje gshed nag po'i 'khrul 'khor bskor ba'i cho ga las/ las kyi rgyud dang grogs bstan pa'i rtogs pa rdzogs so/ /slob dpon chen po la li ta badz+ra rgyad 'bum pa nas phyung ba/ rgya gar gyi paN+Di ta mkhan po di paM kA ra dang / bod kyi lo tsA ba rdo rje grags kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95891</vol>
+        <sec>1</sec>
+        <debp>975</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>979</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2799</ref>
+    <rnb>2800</rnb>
+    <tib>'khor lo zhes bya ba</tib>
+    <skt>tsakra na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31420</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>146</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>148</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3589</ref>
+    <rnb>2809</rnb>
+    <tib>'khor lo zhes bya ba</tib>
+    <skt>tsakra na ma</skt>
+    <coloph>dpal ldan gshin rje gshed nag po'i 'khrul 'khor bskor ba'i cho ga las/ las kyi rgyud dang grogs bstan pa'i rtogs pa rdzogs so/ /slob dpon chen po la li ta badz+ra rgyad 'bum pa nas phyung ba/ rgya gar gyi paN+Di ta mkhan po di paM kA ra dang / bod kyi lo tsA ba rdo rje grags kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>102</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>104</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212367</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>102</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>104</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4800</ref>
+    <rnb>2801</rnb>
+    <tib>'khor lo zhes bya ba</tib>
+    <skt>tsakra na ma</skt>
+    <coloph>dpal gshin rje gshed nag po'i 'khrul 'khor bskor ba'i cho ga las/_las kyi rgyud dang grogs bstan pa'i rtog pa rdzogs so/_/slob dpon chen po la li ta badzra rgyud 'bum pa nas phyung ba/_rgya gar gyi paN+Di ta mkhan po di paM kA ra dang /_bod kyi lo tsA ba rdo rje grags kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13252</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>108</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>109</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>tipaṁkara (dīpaṁkara)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>rdo rje grags/(vajrakīrti)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>lalitavajra</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt203.29</ref>
+    <rnb>5808</rnb>
+    <tib>rin blo'i gsung sgros</tib>
+    <skt/>
+    <coloph>rin chen blo gros kyis ston pa rnams la gdams pa'o//</coloph>
+    <colophTitle/>
+    <margin>rin blo</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4896</vol>
+        <sec>29</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>1</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt203.31</ref>
+    <rnb>5810</rnb>
+    <tib>rin blo'i gsung sgros</tib>
+    <skt/>
+    <coloph>ces rin chen blo gros kyis drung pa bsod nams rdo rje la gdams pa'o//</coloph>
+    <colophTitle/>
+    <margin>rin blo</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4896</vol>
+        <sec>29</sec>
+        <debp>2</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

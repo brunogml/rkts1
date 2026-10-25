@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3799</ref>
+    <rnb>1</rnb>
+    <tib>gnod sbyin gyi sde dpon chen po lag na rdo rje zhes bya ba'i sgrub pa'i thabs</tib>
+    <skt>ma hA yak+Sha se nA pa ti badzra pA Ni sA d+ha na nA ma</skt>
+    <coloph>gnod sbyin gyi sde dpon chen po lag na rdo rje gzungs kyi sgrub pa'i thabs/ slob dpon chen po su pA gi shA ra kIrtis mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta jo bo rje dang / bod kyi lo tsA ba rgya brtson seng ges bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95882</vol>
+        <sec>1</sec>
+        <debp>783</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>793</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1699a</ref>
+    <rnb>1701</rnb>
+    <tib>phyag na rdo rje sgrub pa'i thabs zhes bya ba</tib>
+    <skt>badzra pA Ni no pi ka sA d+ha nAM na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31407</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>376</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>377</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3694</ref>
+    <rnb>1695</rnb>
+    <tib>gnod sbyin gyi sde dpon chen po lag na rdo rje zhes bya ba'i sgrub pa'i thabs</tib>
+    <skt>ma hA yak+Sha se nA pa ta ya badzra pA Ni sA d+ha nAM nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13239</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>254</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>257</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya brtson 'grus seng ge/(vīryasiṁha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>suvāgīśvarakīrti</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

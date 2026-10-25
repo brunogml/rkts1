@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.162</ref>
+    <rnb>164</rnb>
+    <tib>-</tib>
+    <skt/>
+    <coloph>tsa kra bcu gsum pa'i gzungs rdzogs so/ /mang+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>532</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>532</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg155</ref>
+    <rnb>157</rnb>
+    <tib>tsa kra bcu gsum pa'i gzungs</tib>
+    <skt/>
+    <coloph>tsa kra bcu gsum pa'i gzungs rdzogs so/ /mang+ga laM/</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>466</debp>
+        <debf>b</debf>
+        <debl>9</debl>
+        <finp>467</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.151</ref>
+    <rnb>623</rnb>
+    <tib/>
+    <skt/>
+    <coloph>tsakra bcu gsum pa'i gzungs rdzogs so//_dag_//mang+ga laM/_gnyis zhus/</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>95 pi</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>1</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>Left margin of folio with foliation is missing, but from the context it is clear that the folio fits in here, see also the text sequence in Everding 2015, 307. See Everding 2015, no.414.</note>
+  </item>
+</catalog>

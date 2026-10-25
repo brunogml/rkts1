@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.84</ref>
+    <rnb>85</rnb>
+    <tib>'phags pa mchu nag po zhi bar byed pa zhes bya ba zheg pa chen po'i mdo</tib>
+    <skt>A rya kha duM dharma ta pa ye nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa mchu nag po zhi bar byed pa zhes bya ba zheg pa chen po'i mdo rdzogs so// //mang+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>209</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>211</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg84</ref>
+    <rnb>85</rnb>
+    <tib>'phags pa mchu nag po zhi bar byed pa zhes bya ba zheg pa chen po'i mdo</tib>
+    <skt>A rya kha duM dharma ta pa ye nA ma ma hA yA na sU tra</skt>
+    <coloph>'phags pa mchu nag po zhi bar byed pa zhes bya ba zheg pa chen po'i mdo rdzogs so// //mang+ga laM</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>194</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>195</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.79</ref>
+    <rnb>551</rnb>
+    <tib>'phags pa kha mchu nag po zhi bar byed pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>Ar+ya kha duM d+har+ma ta pa ye sU tra nA ma mahA yA na sU tra</skt>
+    <coloph>'phags pa kha mchu nag po zhi bar byed pa zhes bya ba theg pa chen po'i mdo rdzogs so//_//zhus dag/_//mang+ga laM//</coloph>
+    <colophTitle/>
+    <margin>kha mchu</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>43 khe</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>9</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.370.</note>
+  </item>
+</catalog>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5196</ref>
+    <rnb>1</rnb>
+    <tib>'phags ma bskul byed ma'i sgrub thabs</tib>
+    <skt>Ar+ya tsun+da sA d+ha na</skt>
+    <coloph>bskul byed ma'i sgrub thabs bud+d+ha kIrtis mdzad pa rdzogs so//gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>804</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>806</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3124</ref>
+    <rnb>3125</rnb>
+    <tib>'phags ma skul byed ma'i sgrub thabs</tib>
+    <skt>Ar+ya tsaN+Da sA d+ha na</skt>
+    <coloph>bskul byed ma'i sgrub thabs bud+d+ha kIrtIs mdzad pa rdzogs so/ /gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>254</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>255</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3915</ref>
+    <rnb>3135</rnb>
+    <tib>'phags ma skul byed ma'i sgrub thabs</tib>
+    <skt>Ar+ya dzun+da sA d+ha na</skt>
+    <coloph>bskul byed ma'i sgrub thabs bud+d+ha kIrtis mdzad pa rdzogs so//gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>153</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>153</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>153</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>153</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5126</ref>
+    <rnb>3127</rnb>
+    <tib>'phags ma skul byed ma'i sgrub thabs</tib>
+    <skt/>
+    <coloph>bskul byed ma'i sgrub thabs bud+d+ha kIrtisa mdzad pa rdzogs so//gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>156</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>156</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>buddhakīrti</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

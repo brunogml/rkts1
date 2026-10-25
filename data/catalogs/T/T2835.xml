@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4936</ref>
+    <rnb>1</rnb>
+    <tib>'jam pa'i dbyangs dpa' bo gcig grub pa'i bstod pa gser gyi phreng ba zhes bya ba</tib>
+    <skt>sid+d+hi e ka bi ra many+dzu g+ho Sha su bar+N+Na mA la stod tra nA ma</skt>
+    <coloph>'jam pa'i dbyangs dpa' bo gcig grub pa'i bstod pa gser gyi phreng ba zhes bya ba/ slob dpon gi dbang phyug grags pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>40</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>45</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2835</ref>
+    <rnb>2836</rnb>
+    <tib>'jam pa'i dbyangs dpa' bo gcig grub pa'i bstod pa gser gyi phreng ba zhes bya ba</tib>
+    <skt>sid+d+hi e ka di ra many+dzu g+ho Sha su bar+N+Na mA la sted tra nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>135</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>137</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3625</ref>
+    <rnb>2845</rnb>
+    <tib>'jam pa'i dbyangs dpa' bo gcig grub pa'i bstod pa gser gyi phreng ba zhes bya ba</tib>
+    <skt>sid+d+hi e ka pi ra many+dzu g+ho Sha su barNa mA la sto da tra nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>106</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>108</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>106</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>108</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4836</ref>
+    <rnb>2837</rnb>
+    <tib>'jam pa'i dbyangs dpa' bo gcig grub pa'i bstod pa gser gyi phreng ba zhes bya ba</tib>
+    <skt>si d+d+hi e ka bi ra many+dzu g+ho Sha su bar+N+Na mA la stod ta nA ma</skt>
+    <coloph>'jam pa'i dbyangs dpa' bo gcig grub pa'i bstod pa gser gyi phreng ba zhes bya ba/_slob dpon ngag gi dbang phyug grags pas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>110</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>112</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>ngag gi dpang phyug grags pa/(vāgīśvarakīrti)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

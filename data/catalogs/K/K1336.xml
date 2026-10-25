@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.113</ref>
+    <rnb>115</rnb>
+    <tib>'phags pa rta nad thams cad rab tu zhi bar byed pa'i gzungs</tib>
+    <skt>A rya gha ra dha ni</skt>
+    <coloph>gnod sbyin ku be ra zhes bya ba' gzungs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>250</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg109</ref>
+    <rnb>111</rnb>
+    <tib>'phags pa rta nad thams cad rab tu zhi bar byed pa'i gzungs</tib>
+    <skt>A rya gha ra dha ni</skt>
+    <coloph>gnod sbyin ku be ra zhes bya ba' gzungs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>235</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>237</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.106</ref>
+    <rnb>578</rnb>
+    <tib>'phags pa rta nad thams cad rab tu zhi bar byed pa'i gzungs</tib>
+    <skt>Ar+ya g+ha ra d+ha ni</skt>
+    <coloph>gnod sbyin ku b+he ra zhes bya ba'i gzungs rdzogs so//_//zhu dag//_//_mang+ga laM//</coloph>
+    <colophTitle/>
+    <margin>rta gzungs</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>56 ce</sec>
+        <debp>4</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>5</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.395.</note>
+  </item>
+</catalog>

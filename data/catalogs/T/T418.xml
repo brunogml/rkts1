@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1236</ref>
+    <rnb>179</rnb>
+    <tib>gtor ma'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66032</vol>
+        <sec>rgyud</sec>
+        <debp>189</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>191</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1295</ref>
+    <rnb>187</rnb>
+    <tib>gtor ma'i cho ga</tib>
+    <skt>ba liM bi d+hiH</skt>
+    <coloph>byung po thams cad pa'i gtor ma'i cho ga /slob dpon chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so//</coloph>
+    <colophTitle>'byung po thams cad pa'i gtor ma'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1326</vol>
+        <sec>rgyud</sec>
+        <debp>185</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>187</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210061</vol>
+        <sec>rgyud</sec>
+        <debp>185</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>187</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211365</vol>
+        <sec>rgyud</sec>
+        <debp>185</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>187</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon chen po dpal mar me mdzad ye shes</name>
+        <role>author</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G422</ref>
+    <rnb>423</rnb>
+    <tib>gtor ma'i cho ga</tib>
+    <skt>ba liM bi d+hi</skt>
+    <coloph>'byung po thams cad pa'i gtor ma'i cho ga slob dpon chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31360</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>692</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>695</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

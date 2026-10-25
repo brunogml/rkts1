@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.17</ref>
+    <rnb>17</rnb>
+    <tib/>
+    <skt/>
+    <coloph>smon lam gdab pa'i mdo rdzogs so// sarba mangga laM</coloph>
+    <colophTitle>smon lam gdab pa'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>58</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>71</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg17</ref>
+    <rnb>17</rnb>
+    <tib>smon lam gdab pa'i mdo</tib>
+    <skt/>
+    <coloph>smon lam gdab pa'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>49</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>60</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

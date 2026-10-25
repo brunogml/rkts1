@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm116.77</ref>
+    <rnb>762</rnb>
+    <tib/>
+    <skt/>
+    <coloph>rdo rje gcod pa'i snying po 'di lan cig bzlas na/_rdo rje gcod pa khri dgu stong klags par 'gyur ro//_maMg+ha laM//</coloph>
+    <colophTitle>rdo rje gcod pa'i snying po</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL1026</vol>
+        <sec>gzungs 'dus</sec>
+        <debp>230</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>230</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>In some catalogues, this is not counted as a separate text.</note>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.120</ref>
+    <rnb>592</rnb>
+    <tib/>
+    <skt/>
+    <coloph>rdo rje gcod pa'i snying po 'di lan gcig bzlas pas rdo rje gcod pa khri dgu stong bklags pa dang mnyam par 'gyur ro//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>67 je</sec>
+        <debp>20</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>20</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>In some catalogues, this is not counted as a separate text. At the end, the consecration formula is added. See Everding 2015, no.400.</note>
+  </item>
+</catalog>

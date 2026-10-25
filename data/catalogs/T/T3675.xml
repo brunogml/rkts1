@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5830</ref>
+    <rnb>1</rnb>
+    <tib>thugs rje chen po'i grub pa thob pa'i gtam rgyud</tib>
+    <skt/>
+    <coloph>paN+Di ta rnam par grags pa'i lhas thugs rje chen po l grub pa thob pa'i gtam brgyud paN+Di ta bi na ya shrI mi tras bsgyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95959</vol>
+        <sec>1</sec>
+        <debp>1485</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1487</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4305</ref>
+    <rnb>3246</rnb>
+    <tib>bi khyA ta de bas thugs rje chen po'i grub pa thob pa'i gtam rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66234</vol>
+        <sec>sna tshogs</sec>
+        <debp>147</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>148</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4341</ref>
+    <rnb>3254</rnb>
+    <tib>bi khyA ta de bas thugs rje chen po'i grub pa thob pa'i gtam rgyud</tib>
+    <skt>na mo lo ki sh+wa rA ya</skt>
+    <coloph/>
+    <colophTitle>thugs rje chen po la grub pa thob pa'i gtam rgyud</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1521</vol>
+        <sec>mdo 'grel</sec>
+        <debp>155</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>155</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210256</vol>
+        <sec>mdo 'grel</sec>
+        <debp>155</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>155</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211560</vol>
+        <sec>mdo 'grel</sec>
+        <debp>155</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>155</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Dita bi na yashrI mitra</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15099</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3840</ref>
+    <rnb>3835</rnb>
+    <tib>paN+Di ta rnam par grags pa'i lhas thugs rje chen po la grub pa thob pa'i gtam rgyud</tib>
+    <skt/>
+    <coloph>paN+Di ta rnam par grags pa'i lhas thugs rje chen po la grub pa thob pa'i gtam rgyud paN+Di ta bi na ya shrI mi tras bsgyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31548</vol>
+        <sec>bzo rig</sec>
+        <debp>300</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>301</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

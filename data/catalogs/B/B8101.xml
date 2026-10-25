@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm107.2</ref>
+    <rnb>222</rnb>
+    <tib>nye lam sde bzhi'i gnyan 'bum</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4078</vol>
+        <sec>1</sec>
+        <debp>165</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>180</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt253.25</ref>
+    <rnb>7128</rnb>
+    <tib>nye lam sde bzhi'i gnyan 'bum</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>gnyan 'bum</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4946</vol>
+        <sec>25</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>17</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz136.2</ref>
+    <rnb>258</rnb>
+    <tib>nye lam sde bzhi'i gnyan 'bum</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58671</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>13</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

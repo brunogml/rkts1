@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2959</ref>
+    <rnb>1</rnb>
+    <tib>rin chen phreng ba ma</tib>
+    <skt>rat+na mA la</skt>
+    <coloph>a pa tsha ra'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95869</vol>
+        <sec>1</sec>
+        <debp>1268</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1269</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2000</ref>
+    <rnb>941</rnb>
+    <tib>rin chen phreng ba ma</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66079</vol>
+        <sec>rgyud</sec>
+        <debp>153</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>153</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2048</ref>
+    <rnb>951</rnb>
+    <tib>rin chen phreng ba ma</tib>
+    <skt>rat+na mA la</skt>
+    <coloph>a pa tsha ri'i sgrub thabs rdzogs so//</coloph>
+    <colophTitle>a pa tsha ri'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1364</vol>
+        <sec>rgyud</sec>
+        <debp>151</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>151</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210099</vol>
+        <sec>rgyud</sec>
+        <debp>151</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>151</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211403</vol>
+        <sec>rgyud</sec>
+        <debp>151</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>151</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G916</ref>
+    <rnb>918</rnb>
+    <tib>rin chen phreng ba ma</tib>
+    <skt>rat+na mA la</skt>
+    <coloph>a pa tsha ra'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31382</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>591</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>592</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1708</ref>
+    <rnb>924</rnb>
+    <tib>rin chen phreng ba ma</tib>
+    <skt>rat+na mA la</skt>
+    <coloph>a pa tsha ra'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3296</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>433</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>433</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212329</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>433</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>433</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2913</ref>
+    <rnb>914</rnb>
+    <tib>rin chen phreng ba ma</tib>
+    <skt>rat+na mA la</skt>
+    <coloph>a pa tsha ra'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13214</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>476</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>476</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

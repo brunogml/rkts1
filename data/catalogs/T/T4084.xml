@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3380</ref>
+    <rnb>2315</rnb>
+    <tib>seng ge sgra'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>83</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>83</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3414</ref>
+    <rnb>2324</rnb>
+    <tib>seng ge sgra'i sgrub thabs</tib>
+    <skt>siM ha nA da sA d+ha naM</skt>
+    <coloph>bdag gi sgrub thabs cho ga 'dis/ gang zhig nor dang dge thob cing / mgon po seng+ge sgra'i dang ni/ 'gro ba rnams ni nad med shog /paN+Di ta a ba d+hU ti dpal ldan gnyis med rdo rje zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>seng ge sgra'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>81</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>81</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>81</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>81</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>81</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>81</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3029</ref>
+    <rnb>2245</rnb>
+    <tib>seng ge sgra'i sgrub thabs</tib>
+    <skt>siM ha nA da sA d+ha naM</skt>
+    <coloph>bdag gi sgrub thabs cho ga 'dis/ gang zhig nor dang dge thob cing / mgon po seng+ge sgra'i dang ni/ 'gro ba rnams ni nad med shog /paN+Di ta a ba d+hU ti dpal ldan gnyis med rdo rje zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>93</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>94</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>93</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>94</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4235</ref>
+    <rnb>2236</rnb>
+    <tib>seng ge sgra'i sgrub thabs</tib>
+    <skt>siM ha nA da sA d+ha naM</skt>
+    <coloph>bdag gi sgrub thabs cho ga 'dis/_gang zhig nor dang dge thob cing /_mgon po seng ge sgra dang ni/_'gro ba rnams ni nad med shog_/paN+Di ta a ba d+hU ti dpal ldan gnyis med rdo rje zhabs kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>103</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gnyis med rdo rje/(advayavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

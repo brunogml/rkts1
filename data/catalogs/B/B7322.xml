@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm132.7</ref>
+    <rnb>355</rnb>
+    <tib>mkha' sgyur das chad kyi rgyud bstan pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4103</vol>
+        <sec>1</sec>
+        <debp>140</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>151</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt224.5</ref>
+    <rnb>6300</rnb>
+    <tib>mkha' bsgyur das chad kyi rgyud</tib>
+    <skt/>
+    <coloph> dro'i (gro'i) dur (dung) shog las bdag mgar ston jo sras kyis zhal bshus so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4917</vol>
+        <sec>5</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>9</finp>
+        <finf>b</finf>
+        <finl>10</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

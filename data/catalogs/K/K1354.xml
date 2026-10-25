@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.160</ref>
+    <rnb>162</rnb>
+    <tib>rgyal po chos 'phrul ston pa phyir zlog pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>oM rya ta rA dzA ma ra ni tsa tri ni chu</skt>
+    <coloph>rgyal po chos 'phrul ston pa phyir zlog pa zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>528</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>529</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg152</ref>
+    <rnb>154</rnb>
+    <tib>rgyal po chos 'phrul ston pa phyir zlog pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>oM rya ta rA dzA ma ra ni tsa tri ni chu</skt>
+    <coloph>rgyal po chos 'phrul ston pa phyir zlog pa zhes bya ba rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>463</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>463</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.149</ref>
+    <rnb>621</rnb>
+    <tib>rgyal pos cho 'phrul ston pa phyir zlog pa zhes bya ba theg pa chen po'i mdo</tib>
+    <skt>oM r+ya ta ra dzA ma ra ni tsi tri ni chu</skt>
+    <coloph>rgyal pos cho 'phrul ston pa phyir zlog pa zhes bya ba theg pa chen po'i mdo rdzogs s+ho//_dag/</coloph>
+    <colophTitle/>
+    <margin>rgyal po'i cho 'phrul</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>93 pi</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.412.</note>
+  </item>
+</catalog>

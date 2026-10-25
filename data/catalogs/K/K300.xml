@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A318</ref>
+    <rnb>317</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>Ar+ya ka l+yA Na mi tra se ba ni sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96854</vol>
+        <sec>1</sec>
+        <debp>829</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>831</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B307</ref>
+    <rnb>306</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-79</vol>
+        <sec>mdo sde</sec>
+        <debp>379</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>381</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba069.2</ref>
+    <rnb>430</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>Ar+ya d+ha ra na ma nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>1BL394</vol>
+        <sec>1</sec>
+        <debp>76</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>76</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C939</ref>
+    <rnb>939</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105114</vol>
+        <sec>mdo</sec>
+        <debp>361</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>363</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-51</vol>
+        <sec>mdo</sec>
+        <debp>361</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>363</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz089-009</ref>
+    <rnb>640</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>A r+ya ka lya mi tra se ba nam sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-89</vol>
+        <sec>mdo sde</sec>
+        <debp>439</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>441</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D300</ref>
+    <rnb>301</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>Ar+ya ka l+ya Na mi tra se ba ni sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs s+ho</coloph>
+    <colophTitle>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0956</vol>
+        <sec>mdo sde</sec>
+        <debp>304</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>305</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6418</vol>
+        <sec>mdo sde</sec>
+        <debp>304</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>305</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20670</vol>
+        <sec>mdo sde</sec>
+        <debp>304</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>305</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9197</vol>
+        <sec>mdo sde</sec>
+        <debp>304</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>305</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd053-013</ref>
+    <rnb>218</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>A rya kalyA Na mi tra se ba na sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-53</vol>
+        <sec>mdo sde</sec>
+        <debp>432</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>433</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk041-009</ref>
+    <rnb>201</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>A r+ya ka l+ya mi tra se ba nam sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-41</vol>
+        <sec>mdo sde</sec>
+        <debp>464</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>466</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr968</ref>
+    <rnb>1016</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM87</vol>
+        <sec>mdo</sec>
+        <debp>475</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>477</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt035-009</ref>
+    <rnb>142</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>A r+ya ka lya mi tra se ba nam sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-3-2</vol>
+        <sec>mdo sde</sec>
+        <debp>380</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>381</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>H</coll>
+    <ref>H303</ref>
+    <rnb>305</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>-</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW26071</setid>
+        <vol>4097</vol>
+        <sec>mdo sde</sec>
+        <debp>564</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>565</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J240</ref>
+    <rnb>262</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>Ar+ya ka l+ya Na mi tra se ba ni sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo/_rdzogs so//</coloph>
+    <colophTitle>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9933</vol>
+        <sec>mdo sde</sec>
+        <debp>336</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>337</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N285</ref>
+    <rnb>285</rnb>
+    <tib>'phags pa bde ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>-</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22703</setid>
+        <vol>5474</vol>
+        <sec>mdo sde</sec>
+        <debp>473</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>474</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5014</setid>
+        <vol>2KG212629</vol>
+        <sec>mdo sde</sec>
+        <debp>473</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>474</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np019-009</ref>
+    <rnb>142</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>A r+ya ka lya mi tra se ba nam sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-19</vol>
+        <sec>mdo sde</sec>
+        <debp>413</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>415</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj067-013</ref>
+    <rnb>534</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>A r+ya kal+yA Na mi tra se ba na sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-67</vol>
+        <sec>mdo sde</sec>
+        <debp>376</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>377</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz067-013</ref>
+    <rnb>530</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>A r+ya kal+yA Na mi tra se ba na sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-67</vol>
+        <sec>mdo sde</sec>
+        <debp>352</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>353</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q966</ref>
+    <rnb>1019</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt/>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo||rdzog-s.ho| | ye dha+rmmā … shra ma Naḥ|| dge'o ||</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96684</setid>
+        <vol>1PD106739</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>334</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>335</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW3CN1094</setid>
+        <vol>3CN1183</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>334</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>335</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R300</ref>
+    <rnb>301</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>A r+ya kalyA Na mi tra se ba na sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17335</vol>
+        <sec>mdo sde</sec>
+        <debp>304</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>305</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S175</ref>
+    <rnb>223</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>Ar+ya ka l+ya mi tra se ba na ma sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3777</vol>
+        <sec>mdo sde</sec>
+        <debp>406</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>407</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty037-008</ref>
+    <rnb>198</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>Ar+ya ka l+ya mi tra se ba na ma sU tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209899</vol>
+        <sec>mdo sde</sec>
+        <debp>408</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>409</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U300</ref>
+    <rnb>301</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt></skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so//</coloph>
+    <colophTitle></colophTitle>
+    <margin></margin>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL291</vol>
+        <sec>mdo sde</sec>
+        <debp>304</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>305</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5365</vol>
+        <sec>mdo sde</sec>
+        <debp>304</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>305</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V224</ref>
+    <rnb>224</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>Ar+ya ka l+ya mi tra se ba na ma sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo/ / rdzogs s+ho</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86297</vol>
+        <sec>mdo sde</sec>
+        <debp>358</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>359</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z206</ref>
+    <rnb>206</rnb>
+    <tib>'phags pa dge ba'i bshes gnyen bsten pa'i mdo</tib>
+    <skt>Ar+ya ka l+ya mi tra se ba na ma sU tra</skt>
+    <coloph>'phags pa dge ba'i bshes gnyen bsten pa'i mdo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127525</vol>
+        <sec>mdo sde</sec>
+        <debp>428</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>429</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

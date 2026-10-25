@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1961</ref>
+    <rnb>903</rnb>
+    <tib>dpal rdo rje 'jigs byed kyi bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66078</vol>
+        <sec>rgyud</sec>
+        <debp>217</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>217</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2011</ref>
+    <rnb>913</rnb>
+    <tib>dpal rdo rje 'jigs byed kyi bstod pa</tib>
+    <skt>shrI badzra b+hai ra ba stu ti</skt>
+    <coloph>dpal rdo rje 'jigs byed kyi bstod pa paN+Di ta don yod rdo rjes mdzad pa rdzogs so// //paN+Di ta de nyid dang/ zhang lo tsA ba shes rab bla mas bsgyur ba'o//</coloph>
+    <colophTitle>dpal rdo rje 'jigs byed kyi bstod pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1363</vol>
+        <sec>rgyud</sec>
+        <debp>219</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>220</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210098</vol>
+        <sec>rgyud</sec>
+        <debp>219</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>220</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211402</vol>
+        <sec>rgyud</sec>
+        <debp>219</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>220</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta don yod rdo rje</name>
+        <role>translator</role>
+        <rid>bdr:P8224</rid>
+      </translator>
+      <translator>
+        <name>zhang lo tsA ba shes rab bla ma</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15290</rid>
+      </translator>
+      <translator>
+        <name>paN+Di ta don yod rdo rje</name>
+        <role>author</role>
+        <rid>bdr:P8224</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G868</ref>
+    <rnb>870</rnb>
+    <tib>dpal rdo rje 'jigs byed kyi bstod pa</tib>
+    <skt>shrI badzra b+hai ra bstu ti</skt>
+    <coloph>dpal rdo rje 'jigs byed kyi bstod pa/ paN+Di ta don yod rdo rjes mdzad pa rdzogs so/ /paN+Di ta de nyid dang / zhang lo tsA ba she rab bla mas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31382</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>314</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>314</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

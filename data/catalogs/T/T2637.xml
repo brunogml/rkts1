@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4762</ref>
+    <rnb>1</rnb>
+    <tib>dpal 'khor lo sdom pa'i dkyil 'khor gyi cho ga zhes bya ba</tib>
+    <skt>shrI tsakra saM ba ra maN+Da la bi ti na ma</skt>
+    <coloph>bde mchog lha lnga'i ting nge 'dzin dbang bskur ba'i cho ga /ye shes kyi Da ki ma ni gu mas sdom pa rgya mtsho'i rgyud las phyung ba'o/ /rdzogs so/ bdag khyung po rnal 'byor pas mkha' 'gro ma de nyid mnyas par byas nas zhus pa'o/ lo tsA ba glan dar ma blo gros kyi bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>859</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>863</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2637</ref>
+    <rnb>2638</rnb>
+    <tib>dpal 'khor lo sdom pa'i dkyil 'khor gyi cho ga zhes bya ba</tib>
+    <skt>shrI tsakra saM ba ra maN+Da la bi ti na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31412</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>233</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>236</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3427</ref>
+    <rnb>2646</rnb>
+    <tib>dpal 'khor lo sdom pa'i dkyil 'khor gyi cho ga</tib>
+    <skt>shrI tsakra saM ba ra maN+Da la bi ti na ma</skt>
+    <coloph>bde mchog lha lnga'i ting nge 'dzin dbang bskur ba'i cho ga /ye shes kyi Da ki ma ni gu mas sdom pa rgya mtsho'i rgyud las phyung ba'o//rdzogs so/ bdag khyung po rnal 'byor pas mkha' 'gro ma de nyid mnyas par byas nas zhus pa'o/ lo tsA ba glan dar ma blo gros kyi bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>151</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>153</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212359</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>151</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>153</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4638</ref>
+    <rnb>2639</rnb>
+    <tib>dpal 'khor lo sdom pa'i dkyil 'khor gyi cho ga zhes bya ba</tib>
+    <skt>shrI tsakra saM ba ra maN+Da la bi ti na ma</skt>
+    <coloph>bde mchog lha lnga'i ting nge 'dzin dbang bskur ba'i cho ga_/ye shes kyi Da ki ma ni gu mas sdom pa rgya mtsho'i rgyud las phyung ba'o/_/rdzogs so/_bdag khyung po rnal 'byor pas mkha' 'gro ma de nyid mnyas par byas nas zhus pa'o/_lo tsA ba glan dar ma blo gros kyi bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13244</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>158</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>160</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>glan darma blo gros/(dharmamati)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>ye shes kyi DAkinI ni gu ma/(jñānaḍākinī nigu)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

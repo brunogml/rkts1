@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4016</ref>
+    <rnb>1</rnb>
+    <tib>sAts+tsha lnga gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph>mchod rten lnga gdab pa'i cho ga/ dI paM ka ra shrI dz+nyA nas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95883</vol>
+        <sec>1</sec>
+        <debp>516</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>518</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3036</ref>
+    <rnb>1971</rnb>
+    <tib>mchod rten lnga gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66105</vol>
+        <sec>rgyud</sec>
+        <debp>175</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>175</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3074</ref>
+    <rnb>1981</rnb>
+    <tib>mchod rten lnga gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph>rdzogs so//</coloph>
+    <colophTitle>mchod rten lnga gdab pa'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1390</vol>
+        <sec>rgyud</sec>
+        <debp>171</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>171</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210125</vol>
+        <sec>rgyud</sec>
+        <debp>171</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>171</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211429</vol>
+        <sec>rgyud</sec>
+        <debp>171</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>171</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1901</ref>
+    <rnb>1903</rnb>
+    <tib>mchod rten lnga gdab pa'i cho ga</tib>
+    <skt/>
+    <coloph>mchod rten lnga gdab pa'i cho ga/ dI paM ka ra shrI dz+nyA nas mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31408</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>240</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>241</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

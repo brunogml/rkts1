@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Gbr</coll>
+    <ref>Gbr005.12</ref>
+    <rnb>97</rnb>
+    <tib>byang chub sems dpa' 'khor lo rdo rje zhes bya ba'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW21519</setid>
+        <vol>0581</vol>
+        <sec>12</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggk</coll>
+    <ref>Ggk002.012</ref>
+    <rnb>29</rnb>
+    <tib>'khor lo rdo rje</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1ER156</setid>
+        <vol>1ER877</vol>
+        <sec>kha-pha</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>9</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb054.004</ref>
+    <rnb>909</rnb>
+    <tib>'khor lo rdo rje</tib>
+    <skt>badzra tsakra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21659</vol>
+        <sec>1</sec>
+        <debp>24</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>30</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>'khor lo rdo rje las ngo bo nges par bstan pa'i gleng gzhi'i le'u ste dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21659</vol>
+        <sec>1</sec>
+        <debp>26</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>sgo sna tshogs su gleng slangs pa'i le'u ste gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21659</vol>
+        <sec>1</sec>
+        <debp>28</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>rnam grangs nges pa'i le'u ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21659</vol>
+        <sec>1</sec>
+        <debp>29</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>gsang ba'i man ngag gi le'u ste bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21659</vol>
+        <sec>1</sec>
+        <debp>30</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

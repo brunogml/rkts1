@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5153</ref>
+    <rnb>1</rnb>
+    <tib>man+Dal dpe chung ltar bris pa</tib>
+    <skt/>
+    <coloph>paN+Di ta chen po a ti ba'i zhal mnga' nas/ bod kyi lo tsA te dron bsgyur pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>335</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>337</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3080</ref>
+    <rnb>3081</rnb>
+    <tib>maN+Da la dpe chung ltar bris</tib>
+    <skt/>
+    <coloph>paN+Di ta chen po a ti ba'i zhal mnga' nas/ bod kyi lo tsA te dron bsgyur pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31424</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>182</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>182</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3869</ref>
+    <rnb>3089</rnb>
+    <tib>maN+Da la dpe chung ltar bris</tib>
+    <skt/>
+    <coloph>paN+Di ta chen po a ti ba'i zhal mnga' nas/ bod kyi lo tsA te dron bsgyur pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3338</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>116</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>116</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212371</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>116</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>116</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5080</ref>
+    <rnb>3081</rnb>
+    <tib>maN+Dala dpe chung ltar bris</tib>
+    <skt/>
+    <coloph>ces pa la sogs pa'i bshad pa zhib rgyas su gsungs ngo</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13256</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>129</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>129</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

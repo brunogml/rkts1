@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>L</coll>
+    <ref>L246a</ref>
+    <rnb>256</rnb>
+    <tib>mdzad pa bcu gnyis kyi tshul la bstod pa zhes bya ba</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1049</vol>
+        <sec>mdo sde</sec>
+        <debp>381</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>384</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S331</ref>
+    <rnb>379</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3795</vol>
+        <sec>mdo sde</sec>
+        <debp>388</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>390</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty055-019</ref>
+    <rnb>353</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209917</vol>
+        <sec>mdo sde</sec>
+        <debp>387</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>390</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z341</ref>
+    <rnb>341</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127543</vol>
+        <sec>mdo sde</sec>
+        <debp>418</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>421</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>There is no indication of a title at the beginning or end of the text. In Skorupski 1985 and Bethlenfalvy 1982, this work is listed as bkra shis kyi tshigs su bcad pa, according to the respective dkar chags. This work is not listed in Pagel and Gaffney 1996, but it is found in L: mdo, ji (vol. 67), 381b6-384b1.</note>
+  </item>
+</catalog>

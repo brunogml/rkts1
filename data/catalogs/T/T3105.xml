@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3414</ref>
+    <rnb>1</rnb>
+    <tib>gdugs la sogs pa rab tu gnas pa dang rnying pa 'byin pa'i cho ga</tib>
+    <skt>ts+tsha trA di pra tiSh+ThA dzIr+N+Nod+hA ra bi d+hiH</skt>
+    <coloph>gdugs la sogs pa rab tu gnas pa dang rnying pa 'byin pa'i cho ga 'di'i rgya dpe gnyal gyi phyogs nas rnyed do/ /bstan pa rin po che la phul du byung ba'i gces spras su mdzad pa mtshungs med chos kyi rje rin po che zhwa dmar cod pan 'dzin pa bzhi pa'i zhal snga nas bsgyur cig ces bka' bstsal pa bzhin zha lu lo tsA ba dge slong chos skyong bzang pos dpal sne'u gdong rtser bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95872</vol>
+        <sec>1</sec>
+        <debp>933</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>937</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2450</ref>
+    <rnb>1384</rnb>
+    <tib>gdugs la sogs pa rab tu gnas pa dang rnying pa 'byin pa'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66084</vol>
+        <sec>rgyud</sec>
+        <debp>260</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2497</ref>
+    <rnb>1394</rnb>
+    <tib>gdugs la sogs pa rab tu gnas pa dang rnying pa 'byin pa'i cho ga</tib>
+    <skt>ts+tsha trA di pra tiSh+ThA dzIr+N+No d+hA ra bi d+hiH</skt>
+    <coloph>gdugs la sogs pa rab tu gnas pa dang rnying pa 'byin pa'i cho ga 'di'i rgya dpe gnyal gyi phyogs nas rnyed do/ /bstan pa rin po che la phul du byung ba'i gces spras su mdzad pa mtshungs med chos kyi rje rin po che zhwa dmar cod pan 'dzin pa bzhi pa'i zhal snga nas bsgyur cig ces bka' bstsal pa bzhin zha lu lo tsA ba dge slong chos skyong bzang pos dpal sne'u gdong rtser bsgyur ba'o</coloph>
+    <colophTitle>gdugs la sogs pa rab tu gnas pa dang rnying pa 'byin pa'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1369</vol>
+        <sec>rgyud</sec>
+        <debp>260</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210104</vol>
+        <sec>rgyud</sec>
+        <debp>260</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211408</vol>
+        <sec>rgyud</sec>
+        <debp>260</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>261</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zha lu lo tsA ba dge slong chos skyong bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P856</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

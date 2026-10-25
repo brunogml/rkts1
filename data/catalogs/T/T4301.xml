@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3017</ref>
+    <rnb>1952</rnb>
+    <tib>rta mgrin gyi sgrub thabs zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66105</vol>
+        <sec>rgyud</sec>
+        <debp>109</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>109</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3055</ref>
+    <rnb>1962</rnb>
+    <tib>rta mgrin gyi sgrub thabs zhes bya ba</tib>
+    <skt>ha ya grI ba sA d+ha naM nA ma</skt>
+    <coloph>rtog pa bdun brgya pa'i rta mgrin gyi sgrub thabs slob dpon tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi yul bA ra NA si'i paN+Di ta pu ru Shot+ta ma'i zhal snga nas mnyan te/ lo tsA ba shAkyi'i dge slong nyi ma rgyal mtshan dpal bzang pos bla ma dam pa'i bkas gtsug lag khang chen po dpal thar pa gling du legs par bsgyur ba'o</coloph>
+    <colophTitle>rta mgrin gyi sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1390</vol>
+        <sec>rgyud</sec>
+        <debp>108</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>108</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210125</vol>
+        <sec>rgyud</sec>
+        <debp>108</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>108</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211429</vol>
+        <sec>rgyud</sec>
+        <debp>108</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>108</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>lo tsA ba shAkya'i dge slong nyi ma rgyal mtshan dpal bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P2147</rid>
+      </translator>
+      <translator>
+        <name>slob dpon tsan+d+ra go mi</name>
+        <role>author</role>
+        <rid>bdr:P7599</rid>
+      </translator>
+      <translator>
+        <name>rgya gar yul bA rA Na sI'i paN+Di ta pu ru Shot+ta ma</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15522</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2672</ref>
+    <rnb>1889</rnb>
+    <tib>rta mgrin gyi sgrub thabs zhes bya ba</tib>
+    <skt>ha ya grI ba sA d+ha naM nA ma</skt>
+    <coloph>rtog pa bdun brgya pa'i rta mgrin gyi sgrub thabs slob dpon tsan+d+ra go mis mdzad pa rdzogs so/ /rgya gar gyi yul bA ra NA si'i paN+Di ta pu ru Shot+ta ma'i zhal snga nas mnyan te/ lo tsA ba shAkyi'i dge slong nyi ma rgyal mtshan dpal bzang pos bla ma dam pa'i bkas gtsug lag khang chen po dpal thar pa gling du legs par bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3322</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>115</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>115</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212355</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>115</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>115</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3879</ref>
+    <rnb>1880</rnb>
+    <tib>rta mgrin gyi sgrub thabs zhes bya ba</tib>
+    <skt>ha ya gri ba sA d+ha naM nA MaH</skt>
+    <coloph>rta mgrin gyi sgrub thabs slob dpon tsan+t+ra go mis mdzad pa rdzogs so/_/rgya gar gyi yul bA ra NA si'i paN+Di ta pu ru Shot+ta ma'i zhal snga nas mnyan te/_lo tsA ba shAkya'i dge slong nyi ma rgyal mtshan dpal bzang pos bla ma dam pa'i bkas gtsug lag khang chen po dpal thar pa gling du legs par bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13240</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>124</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>124</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nyi ma rgyal mtshan dpal bzang po/(sūryadhvajaśrībhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>candragomin</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

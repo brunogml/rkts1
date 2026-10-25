@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G2898</ref>
+    <rnb>2899</rnb>
+    <tib>nag po chen po'i 'phrin las gsang ba'i bsgrub thabs</tib>
+    <skt>ma hA ka la ma ra na g+hu h+ya sa da na</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>341</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>344</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3688</ref>
+    <rnb>2908</rnb>
+    <tib>nag po chen po'i 'phrin las gsang ba'i bsgrub thabs</tib>
+    <skt>ma hA ka la ma ra na g+hu y+ya sa da na</skt>
+    <coloph>nag po chen po'i 'phrin las gsang ba'i bsgrub thabs/ slob dpon chen po bram ze mchog sred kyis mdzad pa'o/ /a tsar+ya ra hU la dmar po'i gdams ngag /bla ma gyi ljang gyi thugs la sbas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>256</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>259</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>256</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>259</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4899</ref>
+    <rnb>2900</rnb>
+    <tib>nag po chen po'i 'phrin las gsang ba'i bsgrub thabs</tib>
+    <skt>ma hA ka la ma ra na g+hu h+ya sa da na</skt>
+    <coloph>dpal nag po chen po'i 'phrin las gsang ba'i bsgrub thabs/_slob dpon chen po bram ze mchog sred kyis mdzad pa'o/_/a tsa Ra ra hU la dmar po'i gdams ngag_/bla ma gyi ljang gis thugs la sbas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>256</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>258</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mchog sred/(vararuci)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

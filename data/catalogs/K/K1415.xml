@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm42.10</ref>
+    <rnb>532</rnb>
+    <tib/>
+    <skt/>
+    <coloph>'phags pa spyan ras gzigs dbang phyug gi mtshan brgyad pa zhes bya ba'i gzungs rdzogs s+h+yo//</coloph>
+    <colophTitle>'phags pa spyan ras gzigs dbang phyug gi mtshan brgyad pa zhes bya ba'i gzungs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL952</vol>
+        <sec>rgyud</sec>
+        <debp>103</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>103</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>There is no title of the text at the beginning. The text as whole is not included in the mainstream collections, even though similar but longer texts of this kind are found there (rKTs-K 628, 699, 700).</note>
+  </item>
+  <item>
+    <coll>Lg</coll>
+    <ref>Lg126.10</ref>
+    <rnb>910</rnb>
+    <tib/>
+    <skt/>
+    <coloph>'phags pa spyan ras gzigs dbang phyug gyi mtshan brgyad pa zhes bya ba'i gzungs //_rdzogs s+ho //</coloph>
+    <colophTitle>'phags pa spyan ras gzigs dbang phyug gyi mtshan brgyad pa zhes bya ba'i gzungs</colophTitle>
+    <margin/>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2KG210299</setid>
+        <vol>2KG211268</vol>
+        <sec>rgyud</sec>
+        <debp>114</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>115</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters/>
+  </item>
+</catalog>

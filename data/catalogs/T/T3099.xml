@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3252</ref>
+    <rnb>1</rnb>
+    <tib>tshe sgrub pa'i thabs</tib>
+    <skt>A yuHsAd+ha nAM</skt>
+    <coloph>yo gI bi bud+d+ha ka ra'i man ngag ste/ rgya gar shar phyogs sad+na ga ra'i paN+Di ta chen po dpal nags kyi rin po che'i spyan sngar dge slong chos smra ba bsod nams rgya mtsho'i sdes bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95871</vol>
+        <sec>1</sec>
+        <debp>1712</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1713</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2289</ref>
+    <rnb>1223</rnb>
+    <tib>tshe sgrub pa'i thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66083</vol>
+        <sec>rgyud</sec>
+        <debp>299</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>299</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2336</ref>
+    <rnb>1233</rnb>
+    <tib>tshe sgrub pa'i thabs</tib>
+    <skt>A yuHsAd+ha naM</skt>
+    <coloph>yo gI bi bud+d+ha ka ra'i man ngag ste/ rgya gar shar phyogs sad+na ga ra'i paN+Di ta chen po dpal nags kyi rin po che'i spyan sngar dge slong chos smra ba bsod nams rgya mtsho'i sdes bsgyur ba'o</coloph>
+    <colophTitle>yo gI bi bud+d+ha ka ra'i man ngag</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1368</vol>
+        <sec>rgyud</sec>
+        <debp>299</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>299</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210103</vol>
+        <sec>rgyud</sec>
+        <debp>299</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>299</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211407</vol>
+        <sec>rgyud</sec>
+        <debp>299</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>299</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dge slong chos smra ba bsod nams rgya mtsho'i sde</name>
+        <role>translator</role>
+        <rid>bdr:P208</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

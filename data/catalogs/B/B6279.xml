@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm45.4</ref>
+    <rnb>146</rnb>
+    <tib>rin chen sgron ma 'khor ba dong sprug gi dbang lung man ngag thob tshul</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4016</vol>
+        <sec>1</sec>
+        <debp>290</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>297</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt175.30</ref>
+    <rnb>5167</rnb>
+    <tib>rin chen sgron ma 'khor ba dong sprug gi dbang lung man ngag thob tshul</tib>
+    <skt/>
+    <coloph>bla chen dran pa nam mkha' yis/ mkha' 'gro 'od ldan 'bar ma la brgyud/ 'od ldan 'bar mas bdag la gnang / bdag gis phyi rabs don du bkod//</coloph>
+    <colophTitle/>
+    <margin>dbang lung</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4868</vol>
+        <sec>30</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>9</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz58.3</ref>
+    <rnb>169</rnb>
+    <tib>rin chen sgron ma 'khor ba dong sprug gi dbang lung man ngag thob tshul</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58593</vol>
+        <sec>3</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

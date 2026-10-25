@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3024</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje glu'i gdams ngag</tib>
+    <skt/>
+    <coloph>rdo rje glu'i gdams ngag rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95870</vol>
+        <sec>1</sec>
+        <debp>438</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>440</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2064</ref>
+    <rnb>1005</rnb>
+    <tib>rdo rje glu'i gdams ngag</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66080</vol>
+        <sec>rgyud</sec>
+        <debp>153</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>154</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2112</ref>
+    <rnb>1015</rnb>
+    <tib>rdo rje glu'i gdams ngag</tib>
+    <skt/>
+    <coloph>rdo rje glu'i gdams ngag rdzogs so//</coloph>
+    <colophTitle>rdo rje glu'i gdams ngag</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1365</vol>
+        <sec>rgyud</sec>
+        <debp>153</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>154</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210100</vol>
+        <sec>rgyud</sec>
+        <debp>153</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>154</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211404</vol>
+        <sec>rgyud</sec>
+        <debp>153</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>154</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G966</ref>
+    <rnb>968</rnb>
+    <tib>rdo rje glu'i gdams ngag</tib>
+    <skt/>
+    <coloph>rdo rje glu'i gdams ngag rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31383</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>229</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>230</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1757</ref>
+    <rnb>974</rnb>
+    <tib>rdo rje glu'i gdams ngag</tib>
+    <skt/>
+    <coloph>rdo rje glu'i gdams ngag rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3297</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>171</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>172</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212330</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>171</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>172</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2963</ref>
+    <rnb>964</rnb>
+    <tib>rdo rje glu'i gdams ngag</tib>
+    <skt/>
+    <coloph>rdo rje glu'i gdams ngag rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13215</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>185</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>185</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

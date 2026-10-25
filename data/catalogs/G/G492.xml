@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm8.27</ref>
+    <rnb>178</rnb>
+    <tib>ye shes snang ba'i mdangs rang 'Bar ba</tib>
+    <skt>dz+nyA ba ga ya hi pa re</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-9</vol>
+        <sec>rnying rgyud</sec>
+        <debp>294</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>296</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt8.27</ref>
+    <rnb>188</rnb>
+    <tib>ye shes snang ba'i mdangs rang 'bar ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-8</vol>
+        <sec>rnying rgyud</sec>
+        <debp>252</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>254</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb037.007</ref>
+    <rnb>492</rnb>
+    <tib>ye shes snang ba'i mdangs rang 'bar ba</tib>
+    <skt>dz+nyA na ga ya hi pa re</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21642</vol>
+        <sec>1</sec>
+        <debp>47</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>50</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>gnad bstan pa'i le'u ste dang po</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21642</vol>
+        <sec>1</sec>
+        <debp>47</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>dris pa'i le'u ste gnyis pa</name>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21642</vol>
+        <sec>1</sec>
+        <debp>48</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+    </chapters>
+  </item>
+  <item>
+    <coll>Gsg</coll>
+    <ref>Gsg8.10</ref>
+    <rnb>161</rnb>
+    <tib>ye shes snang pa'i mdangs rang 'bar ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG16449</setid>
+        <vol>1KG16492</vol>
+        <sec>nya</sec>
+        <debp>297</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>299</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm82.2</ref>
+    <rnb>198</rnb>
+    <tib>theg pa chen po yum gyi snying po zhes pa'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4053</vol>
+        <sec>1</sec>
+        <debp>43</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>49</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks67.4</ref>
+    <rnb>459</rnb>
+    <tib>dpal gshen bstan sman ri'i tshogs 'dod las // // thig chen yum gyi mdo</tib>
+    <skt/>
+    <coloph>dpal gshen bstan mi ri'i [~sman ri'i] 'tshogs 'don nor bu'i gter / sde dge'i spar dpe ci bzhin 'khrul med pa / gu dag ni dpal dpe'i ci bzhin bris kyang / par dpe 'dra ba ni gnyis byung tshe thar tshom mang pa'i / par gnyis cig sgril du bris pa yin gsungs pa'i / gru dbang rin po che'i phyag dpe'i nas zhal bshus so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75038</vol>
+        <sec>4</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz109.2</ref>
+    <rnb>234</rnb>
+    <tib>theg pa chen po yum gyi snying po zhes bya ba'i mdo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58644</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>6</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

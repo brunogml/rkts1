@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4931</ref>
+    <rnb>1</rnb>
+    <tib>gnod sbyin ma kun nas 'khyil pa'i gwa thabs kyi don bsdus pa'i 'grel pa</tib>
+    <skt>yak+Shi n kun d+ha li sa d+ha na ma</skt>
+    <coloph>gnod sbyin ma kun nas 'khyil pa'i gwa sgrub thabs/ slob dpon klu grub kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95891</vol>
+        <sec>1</sec>
+        <debp>1150</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1156</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2828</ref>
+    <rnb>2829</rnb>
+    <tib>gnod sbyin ma kun nas 'khyil pa'i g+wa thabs kyi don bsdus pa'i 'grel pa</tib>
+    <skt>a k+Shi ni kun d+ha li sa d+ha na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31420</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>297</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>301</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3618</ref>
+    <rnb>2838</rnb>
+    <tib>gnod sbyin ma kun nas 'khyil pa'i gwa thabs kyi don bsdus pa'i 'grel pa</tib>
+    <skt>a k+Shi ni kun d+ha li sa d+ha na ma</skt>
+    <coloph>gnod sbyin ma kun nas 'khyil pa'i gwa thabs/slob dpon klu grub kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3334</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>206</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>208</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212367</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>206</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>208</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4829</ref>
+    <rnb>2830</rnb>
+    <tib>gnod sbyin ma kun nas 'khyil pa'i sgrub thabs kyi don bsdus pa'i 'grel pa</tib>
+    <skt>yak+Shi ni kun d+ha li sa d+ha na ma</skt>
+    <coloph>gnod sbyin ma kun nas 'khyil pa'i gwa (sgrub) thabs/_slob dpon klu grub kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13252</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>220</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>222</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>klu sgrub/(nāgārjuna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

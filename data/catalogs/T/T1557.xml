@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3660</ref>
+    <rnb>1</rnb>
+    <tib>dpal 'phags pa spyan ras gzigs dbang phyug la bstod pa zhes bya ba</tib>
+    <skt>shrI Ar+yA ba lo ke te sh+wa ra s+ya stu ti nA ma</skt>
+    <coloph>bcom ldan 'phags pa spyan ras gzigs dbang bstod phyag 'tshal/ dge slong ma zla mdzes kyis bstod pa mdzad pa rdzogs so/ /'di ni rgya gar shar phyogs kyi btsun pa tsan+d+ra shrI'i dag las 'byung ba dang rgya dpe bstun nas dge slong bsod nams rnam rgyal gyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95882</vol>
+        <sec>1</sec>
+        <debp>459</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>461</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1565</ref>
+    <rnb>1566</rnb>
+    <tib>dpal 'phags pa spyan ras gzigs dbang phyug la bstod pa zhes bya ba</tib>
+    <skt>shrI Ar+ya a ba lo ki te sh+wa ra s+ya stu ti nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31407</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>246</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>247</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

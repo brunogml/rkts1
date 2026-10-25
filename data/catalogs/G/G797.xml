@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm43.16</ref>
+    <rnb>775</rnb>
+    <tib>rdo rje bya khyung gsang ba rin po che khros pa sprul pa'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-44</vol>
+        <sec>rnying rgyud</sec>
+        <debp>123</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>125</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt43.16</ref>
+    <rnb>782</rnb>
+    <tib>rdo rje bya khyung gsang ba rin po che 'khros pa sprul pa'i rgyud ces bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-43</vol>
+        <sec>rnying rgyud</sec>
+        <debp>104</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>106</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb049.029</ref>
+    <rnb>793</rnb>
+    <tib>rdo rje bya khyung gsang ba rin po che 'khros pa sprul pa'i rgyud ces bya ba</tib>
+    <skt>badzra ga ru Da gu h+ya rat+na rag sha kro d+ha ni ra mA Na na ma tan tra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>364</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>366</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>gleng bzhi'i le'u ste dang pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>364</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>sa bdag klu gnyan la sogs pa thams cad bsad pa sngags kyi kha bkang ba'i le'u ste gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>365</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>zhugs pa gzhi'i mtshan nyid bstan pa'i le'u ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>365</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>gsang ba'i rtag pa dbang po'i dngas ma la rtag pa'i le'u ste bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>365</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>gso ba man ngag gi le'u ste lnga pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>366</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>6</rn>
+        <name>go cha'i man ngag gi le'u ste drug pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>366</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>7</rn>
+        <name>'khor gyis bstod pa'i le'u ste bdun pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>366</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>8</rn>
+        <name>rgyud yongs su bzung ba'i le'u ste brgyad pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21654</vol>
+        <sec>1</sec>
+        <debp>366</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

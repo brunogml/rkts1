@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt104.5</ref>
+    <rnb>3576</rnb>
+    <tib>gshen rab rnam par rgyal ba'i g.yang skyabs</tib>
+    <skt/>
+    <coloph>dmu rgyal nyi mas mdzad pa'o//</coloph>
+    <colophTitle/>
+    <margin>g.yang skyabs</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4797</vol>
+        <sec>5</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>9</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt87.187</ref>
+    <rnb>3366</rnb>
+    <tib>gshen rab rnam par rgyal ba'i g.yang skyabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>rnam rgyal</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4780</vol>
+        <sec>187</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>20</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

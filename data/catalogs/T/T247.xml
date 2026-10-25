@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2437</ref>
+    <rnb>1</rnb>
+    <tib>dpal 'khor lo sdom pa dpa' bo gcig pa'i sgrub thabs</tib>
+    <skt>shrI tsakra sam+ba rai ka bI ea sA d+ha naM</skt>
+    <coloph>dpal 'khor lo sdom pa dpa' bo gcig po'i sgrub thabs paN+Di ta dpal ma na ka shrIsa mdzad pa rdzogs so/ /rgya gar gyi mkhan po mkhas pa su ma ti'i spyan sngar/ dge slong pradz+nyA kIrtis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95857</vol>
+        <sec>1</sec>
+        <debp>325</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>335</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1478</ref>
+    <rnb>422</rnb>
+    <tib>dpal 'khor lo sdom pa dpa' bo gcig pa'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66054</vol>
+        <sec>rgyud</sec>
+        <debp>109</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>113</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1536</ref>
+    <rnb>431</rnb>
+    <tib>dpal 'khor lo sdom pa dpa' bo gcig pa'i sgrub thabs</tib>
+    <skt>shrI tsakra salba ri ka bI ra sA d+ha naM</skt>
+    <coloph>dpal 'khor lo sdom pa dpa' bo gcig pu'i sgrub thabs paN+Di ta dpal ma na ka shrIs mdzad pa rdzogs so/ /rgya gar gyi mkhan po mkhas pa su ma ti'i spyan sngar dge slong pradz+nyA k'i rtis bsgyur ba'o//</coloph>
+    <colophTitle>dpal 'khor lo sdom pa dpa' bo gcig pu'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1339</vol>
+        <sec>rgyud</sec>
+        <debp>108</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>112</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210074</vol>
+        <sec>rgyud</sec>
+        <debp>108</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>112</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211378</vol>
+        <sec>rgyud</sec>
+        <debp>108</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>112</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dge slong pradz+nyA kIrti</name>
+        <role>translator</role>
+        <rid>bdr:P1245</rid>
+      </translator>
+      <translator>
+        <name>paN+Di ta dpal ma na ka shrI</name>
+        <role>author</role>
+        <rid>bdr:P0AT0312</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G249</ref>
+    <rnb>249</rnb>
+    <tib>dpal 'khor lo sdom pa dpa' bo gcig bu'i sgrub thabs</tib>
+    <skt>shrI tsakra sam+ba rai ko li mi bI ra sA d+ha naM</skt>
+    <coloph>dpal 'khor lo sdom pa dpa' bo gcig po'i sgrub thabs paN+Di ta dpal ma na ka shrIs mdzad pa rdzogs so/ /rgya gar gyi mkhan po mkhas pa su ma ti'i spyan sngar/ dge slong pradz+nyA kIrtis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31352</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>147</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>152</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1038</ref>
+    <rnb>249</rnb>
+    <tib>dpal 'khor lo sdom pa dpa' bo gcig bu'i sgrub thabs</tib>
+    <skt>shrI tsakra sam+ba rai ko li ni bI ra sA d+ha naM</skt>
+    <coloph>dpal 'khor lo sdom pa dpa' bo gcig po'i sgrub thabs paN+Di ta dpal ma na ka shrIsa mdzad pa rdzogs so/ /rgya gar gyi mkhan po mkhas pa su ma ti'i spyan sngar/ dge slong pradz+nyA kIrtis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3266</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>111</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>115</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212299</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>111</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>115</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2247</ref>
+    <rnb>247</rnb>
+    <tib>dpal 'khor lo sdom pa dpa' bo gcig bu'i sgrub thabs</tib>
+    <skt>shrI tsakra sam+ba ri kp li ni bI ra sA d+ha naM</skt>
+    <coloph>dpal 'khor lo sdom pa dpa' bo gcig po'i sgrub thabs paN+Di ta dpal ma na ka shrIsa mdzad pa rdzogs so/ /rgya gar gyi mkhan po mkhas pa su ma ti'i spyan sngar/ dge slong pradz+nyA kIrtisa bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13184</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>124</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>128</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>manakaśrī</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

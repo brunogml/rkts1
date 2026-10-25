@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G2747</ref>
+    <rnb>2748</rnb>
+    <tib>sgyu 'phrul dpe chung rang gnas kyi rim pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31414</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>719</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>725</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3537</ref>
+    <rnb>2756</rnb>
+    <tib>sgyu 'phrul dpe chung rang gnas kyi rim pa</tib>
+    <skt/>
+    <coloph>sgyu 'phrul dpe chung rang gnas kyi rim pa'o/ sgeg pa rdo rje mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3328</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>550</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>555</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212361</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>550</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>555</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4748</ref>
+    <rnb>2749</rnb>
+    <tib>sgyu 'phrul dpe chung rang gnas kyi rim pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13246</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>590</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>595</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>sgeg pa rdo rje/(līlāvajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

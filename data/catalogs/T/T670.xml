@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2712</ref>
+    <rnb>1</rnb>
+    <tib>mngon par byang chub pa'i rim pa'i man ngag</tib>
+    <skt>a b+hi bo d+hi kra ma u pa de sha</skt>
+    <coloph>mngon par byang chub pa'i rim pa 'bras bu dang bcas pa/ /slob dpon 'phags pa lhas mdzad pa'i man ngag rdzogs so/ /rgya gar gyi mkhan po shAd+d+ha ka ra war ma dang / dge slong rin chen bzang pos bsgyur cing zhus te gten la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95863</vol>
+        <sec>1</sec>
+        <debp>314</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>321</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G674</ref>
+    <rnb>676</rnb>
+    <tib>mngon par byang chub pa'i rim pa'i man ngag</tib>
+    <skt>i b+hi bo d+hi kra ma u pa de sha</skt>
+    <coloph>mngon par byang chub pa'i rim pa 'bras bu dang bcas pa/ /slob dpon 'phags pa lhas mdzad pa'i man ngag rdzogs so/ /rgya gar gyi mkhan po shAd+d+ha ka ra varma dang / dge slong rin chen bzang pos bsgyur cing zhus te gten la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>165</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>169</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

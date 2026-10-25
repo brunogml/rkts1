@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt230.33</ref>
+    <rnb>6399</rnb>
+    <tib>gnas sbyong nyi zer zhags pa'i gtad yal</tib>
+    <skt/>
+    <coloph>ces pa'i gnas sbyong nyi zer zhags pa thar lam bde 'dren gyi gtad yal (yar) 'di gzhung ltar du mkhan nyi ming pas sman ri bla brang du bsgrigs pa dge bar gyur cig/</coloph>
+    <colophTitle/>
+    <margin>gtad yal</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4923</vol>
+        <sec>33</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt47.8</ref>
+    <rnb>1987</rnb>
+    <tib>gnas sbyong nyi zer zhags pa'i gtad g.yar</tib>
+    <skt/>
+    <coloph>ces pa'i gnas sbyong nyi zer zhags pa thar lam bder 'dren gyi gtad g.yar 'di gzhung ltar du mkhan nyi ming pas sman ri'i bla brang du bsgrigs pa dge gyur cig/</coloph>
+    <colophTitle/>
+    <margin>gtad g.yar</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4740</vol>
+        <sec>8</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>2</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

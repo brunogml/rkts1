@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5156</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje theg pa'i rtsa ba'i ltung ba</tib>
+    <skt>badzra ya na mu la pa ti</skt>
+    <coloph>rdo rje theg pa'i rtsa ba'i ltung ba bcu bzhi pa/ slob dpon b+ha bi lhas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>365</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>368</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3083</ref>
+    <rnb>3084</rnb>
+    <tib>rdo rje theg pa'i rtsa ba'i ltung ba</tib>
+    <skt/>
+    <coloph>rdo rje theg pa'i rtsa ba'i ltung ba bcu bzhi pa/ slob dpon b+ha bi lhas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31424</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>199</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>201</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3872</ref>
+    <rnb>3092</rnb>
+    <tib>rdo rje theg pa'i rtsa ba'i ltung ba</tib>
+    <skt>badzra ya na mu la pa ti</skt>
+    <coloph>rdo rje theg pa'i rtsa ba'i ltung ba bcu bzhi pa/ slob dpon b+ha bi lhas mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3338</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>127</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>128</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212371</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>127</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>128</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5083</ref>
+    <rnb>3084</rnb>
+    <tib>rdo rje theg pa'i rtsa ba'i ltang ba</tib>
+    <skt>badzra ya na mu le pa ti</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13256</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>139</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>140</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bhabiva (bhavila)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+    <note>rdo rje theg pa'i rtsa ba'i ltung ba bcu bzhi pa/_slob dpon b+ha bi was mdzad pa rdzogs so</note>
+  </item>
+</catalog>

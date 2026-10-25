@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5158</ref>
+    <rnb>1</rnb>
+    <tib>ltung ba bco lnga pa</tib>
+    <skt/>
+    <coloph>ltung ba bco lnga pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>372</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>374</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5085</ref>
+    <rnb>3086</rnb>
+    <tib>dam pa dang po'i rgyud las gsungs pa'i ltung ba bco lnga pa</tib>
+    <skt/>
+    <coloph>ltung ba bco lnga pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13256</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>141</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>142</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

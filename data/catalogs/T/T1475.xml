@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3572</ref>
+    <rnb>1</rnb>
+    <tib>mchod rten sgrub pa'i cho ga</tib>
+    <skt>tsai tya bi d+hiH</skt>
+    <coloph>bi ma la uSh+NI Sha'i gzungs las/ mchod rten sgrub pa'i cho ga rnal 'byor gyi rgyud dang sdebs te/ slob dpon zhi ba'i snying pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95879</vol>
+        <sec>1</sec>
+        <debp>1575</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1588</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2608</ref>
+    <rnb>1542</rnb>
+    <tib>mchod rten sgrub pa'i cho ga</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66099</vol>
+        <sec>rgyud</sec>
+        <debp>317</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>322</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2652</ref>
+    <rnb>1552</rnb>
+    <tib>mchod rten sgrub pa'i cho ga</tib>
+    <skt>tsai t+ya bi d+hiH</skt>
+    <coloph>bi ma la uSh+NI Sha'i gzungs las/ mchod rten sgrub pa'i cho ga rnal 'byor gyi rgyud dang sdebs te/ slob dpon zhi ba'i snying pos mdzad pa rdzogs so</coloph>
+    <colophTitle>bi ma la uShiNA Sha'i gzungs las mchod rten sgrub pa'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1384</vol>
+        <sec>rgyud</sec>
+        <debp>302</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>306</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210119</vol>
+        <sec>rgyud</sec>
+        <debp>302</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>306</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211423</vol>
+        <sec>rgyud</sec>
+        <debp>302</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>306</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon zhi ba'i snying po</name>
+        <role>author</role>
+        <rid>bdr:P4957</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1480</ref>
+    <rnb>1482</rnb>
+    <tib>mchod rten sgrub pa'i cho ga</tib>
+    <skt>tse tu pI bi d+hi</skt>
+    <coloph>bi ma la uSh+NI Sha'i gzungs las/ mchod rten sgrub pa'i cho ga rnal 'byor gyi rgyud dang sdebs te/ slob dpon zhi ba'i snying pos mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31402</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>405</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>412</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2272</ref>
+    <rnb>1489</rnb>
+    <tib>mchod rten sgrub pa'i cho ga</tib>
+    <skt>tse tu pa bi d+hi</skt>
+    <coloph>bi ma la uSh+NI Sha'i gzungs las/ mchod rten sgrub pa'i cho ga rnal 'byor gyi rgyud dang sdebs te/ slob dpon zhi ba'i snying pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3316</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>314</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>320</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212349</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>314</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>320</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3476</ref>
+    <rnb>1477</rnb>
+    <tib>mchod rten sgrub pa'i cho ga</tib>
+    <skt>tsi tu bI bi d+hi</skt>
+    <coloph>bi ma la uSh+NI Sha'i gzungs las/ mchod rten sgrub pa'i cho ga rnal 'byor gyi rgyud dang sdebs te/ slob dpon zhi ba'i snying pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13234</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>331</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>337</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zhi ba'i snying po/(śāntigarbha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5870</ref>
+    <rnb>1</rnb>
+    <tib>rgyal po gser gyi lag pa'i smon lam</tib>
+    <skt/>
+    <coloph>'di yang gser 'od dam pa las gsungs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95961</vol>
+        <sec>1</sec>
+        <debp>1650</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1652</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4344</ref>
+    <rnb>3285</rnb>
+    <tib>rgyal po gser gyi lag pa'i smon lam bzhugs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66238</vol>
+        <sec>sna tshogs</sec>
+        <debp>313</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>313</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4380</ref>
+    <rnb>3293</rnb>
+    <tib>rgyal po gser gyi lag pa'i smon lam bzhugs</tib>
+    <skt/>
+    <coloph>rgyal po gser gyi lag pa'i smon lam 'di yang gser 'od dam pa las gsungs so</coloph>
+    <colophTitle>rgyal po gser gyi lag pa'i smon lam</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1525</vol>
+        <sec>mdo 'grel</sec>
+        <debp>309</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210260</vol>
+        <sec>mdo 'grel</sec>
+        <debp>309</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211564</vol>
+        <sec>mdo 'grel</sec>
+        <debp>309</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>310</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4726</ref>
+    <rnb>3946</rnb>
+    <tib>rgyal po gser gyi lag pa'i smon lam bzhugs</tib>
+    <skt/>
+    <coloph>sbyin pa'i rab rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3475</vol>
+        <sec>mdo 'grel</sec>
+        <debp>291</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>292</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212508</vol>
+        <sec>mdo 'grel</sec>
+        <debp>291</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>292</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

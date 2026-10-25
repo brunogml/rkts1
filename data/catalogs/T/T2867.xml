@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4967</ref>
+    <rnb>1</rnb>
+    <tib>tsha tsh+wa'i cho ga</tib>
+    <skt>tsI ta ba ti</skt>
+    <coloph>tsha tsha'i cho ga / slob dpon chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /gsang ngo/ dge bshes spyang nga bya yul ba'i/ rgya gar gyi mkhan po dI paM ka ra shrI dz+nyA na dang / bod kyi lo tsA ba gyi jo zla ba'i 'od zer gyis sgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>210</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>213</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2867</ref>
+    <rnb>2868</rnb>
+    <tib>tsha tsha'i cho ga</tib>
+    <skt>tsI ta bi ti</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>234</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>235</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3657</ref>
+    <rnb>2877</rnb>
+    <tib>tsha tsha'i cho ga</tib>
+    <skt>tsi ta bi ti</skt>
+    <coloph>tsha tsha'i cho ga / slob dpon chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /gsang ngo/ dge bshes spyang nga bya yul ba'i/ rgya gar gyi mkhan po dI paM ka ra shrI dz+nyA na dang / bod kyi lo tsA ba gyi jo zla ba'i 'od zer gyis sgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>176</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>178</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>176</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>178</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4868</ref>
+    <rnb>2869</rnb>
+    <tib>tsha tsha'i cho ga</tib>
+    <skt>tsI ta ba ti</skt>
+    <coloph>tsha tsha'i cho ga_/slob dpon chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/_/gsang ngo/_dge bshes sbyang nga bya yul ba'i/_rgya gar gyi mkhan po ti paM ka ra shrI dz+nyA na dang /_bod kyi lo tsA ba gyi jo zla ba'i 'od zer gyis sgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>177</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>178</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gyi jo zla ba'i 'od zer/(candraprabha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>tibaṁkaraśrījñāna (dīpaṁkaraśrījñāna)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

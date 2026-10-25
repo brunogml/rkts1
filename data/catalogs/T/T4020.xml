@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2630</ref>
+    <rnb>630</rnb>
+    <tib>dpal nag po chen po'i sgrub thabs zhes bya ba</tib>
+    <skt>shrI ma hA kA la sA d+hA naM nA ma</skt>
+    <coloph>dpal nag po'i sgrub thabs slob dpon bram ze mchog sred kyis mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13197</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>277</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>278</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mchog sred/(vararuci)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

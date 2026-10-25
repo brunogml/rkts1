@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5313</ref>
+    <rnb>1</rnb>
+    <tib>cha shas kyi yan lag ces bya ba'i rab tu byed pa</tib>
+    <skt>hasta bA sa nA ma pra ka ra Na</skt>
+    <coloph>cha shas kyi yan lag ces bya ba'i rab tu byed pa slob dpon 'phags pa lhas mdzad pa rdzogs so/ /rgya gar gyi mkhan po shrad+d+ha ka ra varma dang / bod kyi lo tsA ba rin chen bzang po'i bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95902</vol>
+        <sec>1</sec>
+        <debp>771</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>773</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3810</ref>
+    <rnb>2746</rnb>
+    <tib>cha shas kyi yan lag ces bya ba'i rab tu byed pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66127</vol>
+        <sec>dbu ma</sec>
+        <debp>279</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>279</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3844</ref>
+    <rnb>2755</rnb>
+    <tib>cha shas kyi yan lag ces bya ba'i rab tu byed pa</tib>
+    <skt>hasta bA sa nA ma pra ka ra Na</skt>
+    <coloph>cha shas kyi yan lag ces bya ba'i rab tu byed pa slob dpon 'phags pa lhas mdzad pa rdzogs so</coloph>
+    <colophTitle>cha shas kyi yan lag ces bya ba'i rab tu byed pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1412</vol>
+        <sec>mdo 'grel</sec>
+        <debp>282</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>282</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210147</vol>
+        <sec>mdo 'grel</sec>
+        <debp>282</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>282</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211451</vol>
+        <sec>mdo 'grel</sec>
+        <debp>282</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>282</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po shrad+d+ha ka ra warma</name>
+        <role>translator</role>
+        <rid>bdr:P3388</rid>
+      </translator>
+      <translator>
+        <name>bod kyi lo tsA ba rin chen bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P753</rid>
+      </translator>
+      <translator>
+        <name>slob dpon 'phags pa lha</name>
+        <role>author</role>
+        <rid>bdr:P7401</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3247</ref>
+    <rnb>3242</rnb>
+    <tib>cha shas kyi yan lag ces bya ba'i rab tu byed pa</tib>
+    <skt>hasta ba la nA ma pra ka ra Na</skt>
+    <coloph>cha shas kyi yan lag ces bya ba'i rab tu byed pa slob dpon 'phags pa lhas mdzad pa rdzogs so/ /rgya gar gyi mkhan po shrad+d+ha ka ra varma dang / bod kyi lo tsA ba rin chen bzang po'i bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31442</vol>
+        <sec>mdo 'grel</sec>
+        <debp>436</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>440</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4033</ref>
+    <rnb>3253</rnb>
+    <tib>cha shas kyi yan lag ces bya ba'i rab tu byed pa</tib>
+    <skt>hasta bA sa nA ma pra ka ra Na</skt>
+    <coloph>cha shas kyi yan lag ces bya ba'i rab tu byed pa slob dpon 'phags pa lhas mdzad pa rdzogs so/ /rgya gar gyi mkhan po shrad+d+ha ka ra varma dang / bod kyi lo tsA ba rin chen bzang po'i bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3356</vol>
+        <sec>mdo 'grel</sec>
+        <debp>312</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>313</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212389</vol>
+        <sec>mdo 'grel</sec>
+        <debp>312</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>313</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5244</ref>
+    <rnb>3245</rnb>
+    <tib>cha shas kyi yan lag ces bya ba'i rab tu byed pa</tib>
+    <skt>ha sta ba la nA ma pra ka ra Na</skt>
+    <coloph>cha shas kyi yan lag ces bya ba'i rab tu byed pa/_slob dpon 'phags pa lhas mdzad pa rdzogs so/_/rgya gar gyi mkhan po shrad+d+ha ka ra warma dang /_bod kyi lo tsA ba rin chen bzang po'i bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13274</vol>
+        <sec>mdo 'grel</sec>
+        <debp>319</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>319</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>śraddhakaravarma (śraddhākaravarman)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>'phags pa lha/(āryadeva)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

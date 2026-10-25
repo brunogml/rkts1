@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3612</ref>
+    <rnb>1</rnb>
+    <tib>stong chen mo rab tu 'joms pa'i mdo'i 'bum 'grel</tib>
+    <skt>ma hA sA ha srA pra marda ni sa ta sU tra TI kA</skt>
+    <coloph>stong chen mo rab tu 'joms ma'i 'bum 'grel dag pa lnga pa/ stong chen mo rab tu 'joms ma'i 'grel pa/ las kyi rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95881</vol>
+        <sec>1</sec>
+        <debp>936</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1182</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2647</ref>
+    <rnb>1582</rnb>
+    <tib>stong chen mo rab tu 'joms pa'i mdo'i 'bum 'grel lo</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66103</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>93</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2690</ref>
+    <rnb>1592</rnb>
+    <tib>stong chen mo rab tu 'joms pa'i mdo'i 'bum 'grel lo</tib>
+    <skt>ma hA sA ha sra pra marda ni sa ta sU tra TI kA</skt>
+    <coloph>stong chen mo rab tu 'joms ma'i 'grel pa/_las kyi rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle>stong chen mo rab tu 'joms ma'i 'grel pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1388</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>93</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210123</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>93</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211427</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>93</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>las kyi rdo rje</name>
+        <role>author</role>
+        <rid>bdr:P7603</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1519</ref>
+    <rnb>1521</rnb>
+    <tib>stong chen mo rab tu 'joms pa'i mdo'i 'bum 'grel pa</tib>
+    <skt>ma hA sa ha srA pra marda ni sa ha sU tra TI kA</skt>
+    <coloph>stong chen mo rab tu 'joms ma'i 'bum 'grel dag pa lnga pa/ stong chen mo rab tu 'joms ma'i 'grel pa/ las kyi rdo rjes mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31406</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>131</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2311</ref>
+    <rnb>1529</rnb>
+    <tib>stong chen mo rab tu 'joms pa'i mdo'i 'bum 'grel pa</tib>
+    <skt>ma hA sa ha srA pra marda ni sa ha sU tra TI kA</skt>
+    <coloph>stong chen mo rab tu 'joms ma'i 'bum 'grel dag pa lnga pa/ stong chen mo rab tu 'joms ma'i 'grel pa/ las kyi rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3320</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212353</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3514</ref>
+    <rnb>1515</rnb>
+    <tib>stong chen mo rab tu 'joms pa'i mdo'i 'bum 'grel pa</tib>
+    <skt>ma hA sa ha srA pra marda ni sa ha sU tra TI kA</skt>
+    <coloph>stong chen mo rab tu 'joms ma'i 'bum 'grel dag pa lnga pa/ stong chen mo rab tu 'joms ma'i 'grel pa/ las kyi rdo rjes mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13238</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>109</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>las kyi rdo rje/(karmavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

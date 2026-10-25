@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.116</ref>
+    <rnb>118</rnb>
+    <tib>shes rab kyi pha rol tu phyin pa stong phrag brgya pa'i don ma nor ba sdus pa</tib>
+    <skt>sha ta sa ha sri ka pradznyA pa ra mi ta</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>254</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>254</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg112</ref>
+    <rnb>114</rnb>
+    <tib>shes rab kyi pha rol tu phyin pa stong phrag brgya pa'i don ma nor ba sdus pa</tib>
+    <skt>sha ta sa ha sri ka pradznyA pa ra mi ta</skt>
+    <coloph>yum chen mo 'bum chung stod phrag brgya pa'i phan yon rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>241</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>243'</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.109</ref>
+    <rnb>581</rnb>
+    <tib>'phags pa shes rab kyi pha rol tu phyin pa stong phrag brgya pa'i don ma nor bar bsdus pa</tib>
+    <skt>sha ta sa ha sri ka pradz+nyA pa ra mi ta</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin>'bum chung</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>59 chi</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>5</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.399.</note>
+  </item>
+</catalog>

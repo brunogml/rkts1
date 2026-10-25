@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>L</coll>
+    <ref>L560</ref>
+    <rnb>595</rnb>
+    <tib>rje btsun ma 'phags ma sgrol ma'i mtshan brgya rtsa brgyad pa zhes bya ba</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1068</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S679</ref>
+    <rnb>733</rnb>
+    <tib>rje btsun ma 'phags ma sgrol ma'i mtshan brgya rtsa brgyad pa zhes bya ba</tib>
+    <skt>b+ha Ta tA rA aSh+Ta sha da ka nA ma</skt>
+    <coloph>'phags ma sgrol ma'i mtshan brgya rtsa brgyad pa rdzogs so/ /paN+Di ta bud d+ha A ka ra dang/ bod kyi lo tsa ba ga rub chos kyi shes rab kyis kha che'i dpe las bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3814</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>126</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>127</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V749</ref>
+    <rnb>747</rnb>
+    <tib>rje btsun sgrol ma'i mtshan brgya rtsa brgyad pa zhes bya ba</tib>
+    <skt>b+ha Ta Ta rA aSh+Ta sha da ka nA ma</skt>
+    <coloph>'phags ma sgrol ma'i mtshan brgya rtsa brgyad pa rdzogs so/ kha che'i paN+Ti ta bud d+ha A ka ra dang / bod kyi lo ts+tsha ba ga rub chos kyi shes rab kyis/ kha che'i dpe la bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86337</vol>
+        <sec>rgyud</sec>
+        <debp>114</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>115</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z692</ref>
+    <rnb>697</rnb>
+    <tib>rje btsun sgrol ma'i mtshan brgya rtsa brgyad pa zhes bya ba</tib>
+    <skt>b+ha Ta tA tA rA aSh+Ta sha da ka nA ma</skt>
+    <coloph>'phags ma sgrol ma'i mtshan brgya rtsa brgyad pa rdzogs so// //kha che'i paN+Di ta bud d+ha A ka ra dang / /bod kyi lo tsa ba ga ru ba chos kyi shes rab kyis kha che'i dpe las bsgyur cing zhus te gtan la phab pa'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127562</vol>
+        <sec>rgyud</sec>
+        <debp>123</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>124</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>buddhākara</name>
+        <role>translator</role>
+        <rid>bdr:P8245</rid>
+      </translator>
+      <translator>
+        <name>chos kyi shes rab</name>
+        <role>translator</role>
+        <rid>bdr:P3890</rid>
+      </translator>
+    </translators>
+    <note>Even though the title is similar, this work is different from rKTs721. The text is not found in D. It corresponds to S679, L560, T676, V749.</note>
+  </item>
+</catalog>

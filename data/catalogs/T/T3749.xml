@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5911</ref>
+    <rnb>1</rnb>
+    <tib>gzhi lam 'bras bu'i dge legs yid gcugs mdza' bo 'gugs pa'i rgyang glu</tib>
+    <skt/>
+    <coloph>zhes bya ba par byang mdor bsdus tsam dan gbcas pa 'di ni/ zhu dag pa ban+de tshul khrims rin chen nam/ 'byung du rungba'i yon tan la smon pa'i tha snyad du ngag gi dbang po 'jigs bral phyogs las rnampar rgyal ba'i lha dbyangs can snyems pa'i lang tsho'i sde zhes tags pa'i snyom las pa des nam mkha' 'phur lding la bung ba gzhon nus 'gran pa bzhin du smras pa dge legs 'phel bar gyur cig</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95961</vol>
+        <sec>1</sec>
+        <debp>1826</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1841</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4419a</ref>
+    <rnb>3334</rnb>
+    <tib>sde dge bstan 'gyur gyi phyi mo yongs su rdzogs par grub pa'i bsngo ba smon lam gyi tshigs su bcad pa gzhi lam 'bras bu'i dge legs yid bcugs mdza' bo 'gugs pa'i rgyang glu</tib>
+    <skt/>
+    <coloph>gdan sa chen po dpal ldan sde dge lhun grub steng gi rgyal khab chen po la bka' spyi dang bye brag gi dgongs pa ma lus pa rnam 'grel pa'i bstan bcos 'gyur ro 'tshal gyi chos sbyin rgyun mi chad pa'i phyi mo yongs su rdzogs par grub pa'i bsngo ba smon lam gyi tshigs su bcad pa gzhi lam 'bras bu'i dge legs yid bcugs mdza' bo 'gugs pa'i rgyang glu</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1525</vol>
+        <sec>mdo 'grel</sec>
+        <debp>353</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>361</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210260</vol>
+        <sec>mdo 'grel</sec>
+        <debp>353</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>361</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211564</vol>
+        <sec>mdo 'grel</sec>
+        <debp>353</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>361</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>gos lo tsA ba d+harma pA la b+ha dra</name>
+        <role>translator</role>
+        <rid>bdr:P856</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

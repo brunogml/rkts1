@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt110.2</ref>
+    <rnb>3757</rnb>
+    <tib>bla ma rig 'dzin mkha' 'gro'i gtor bskang</tib>
+    <skt/>
+    <coloph>de ltar rig 'dzin mkha' 'gro'i bskang (skong)bshags/ mkha' 'gro 'od ldan 'bar ma'i(mas)/ sprul sku blo ldan snying po la brgyud/ bstan 'dzin slob ma rnams la rim par brgyud pa'o/dam nyams ru tra'i lag tu ma shor cig/</coloph>
+    <colophTitle/>
+    <margin>bla ma rig 'dzin</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4803</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>15</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt88.7</ref>
+    <rnb>3387</rnb>
+    <tib>bla ma rig 'dzin mkha' 'gro'i gtor skong</tib>
+    <skt/>
+    <coloph>rgya gar bon gyi bka' lung / rig 'dzin thugs kyi gsang bcud/ 'od ldan 'bar ma'i snyan rgyud/ ithi sa ma yA/ rgya rgya rgya/ de ltar rig 'dzin mkha' 'gro'i skong bshags mkha' 'gro 'od ldan 'bar mas sprul sku blo ldan snying po la brgyud pa'o//</coloph>
+    <colophTitle/>
+    <margin>bla ma rig 'dzin skong ba</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4781</vol>
+        <sec>7</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>18</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

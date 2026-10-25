@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1536</ref>
+    <rnb>480</rnb>
+    <tib>rdo rje rnal 'byor ma la bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66055</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>113</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1594</ref>
+    <rnb>489</rnb>
+    <tib>rdo rje rnal 'byor ma la bstod pa</tib>
+    <skt>badzra yo gi ni sto tra</skt>
+    <coloph>dpal rdo rje rnal 'byor ma la bstod pa paN+Di ta chen po dI pam ka ra shrI dz+nyA nas mdzad pa rdzogs so// //paN+Di ta de nyid dang/ lo tsA ba khu ne tsos bsgyur ba'o//</coloph>
+    <colophTitle>dpal rdo rje rnal 'byor ma la bstod pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1340</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210075</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211379</vol>
+        <sec>rgyud</sec>
+        <debp>113</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>114</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta chen po dI paM ka ra shrI dz+nyA na</name>
+        <role>translator</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba khu ne tso</name>
+        <role>translator</role>
+        <rid>bdr:P4CZ15171</rid>
+      </translator>
+      <translator>
+        <name>paN+Di ta chen po dI paM ka ra shrI dz+nyA na</name>
+        <role>author</role>
+        <rid>bdr:P3379</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1096</ref>
+    <rnb>307</rnb>
+    <tib>rdo rje rnal 'byor ma la bstod pa</tib>
+    <skt>badzra yo gi ni sto tra</skt>
+    <coloph>dpal rdo rje rnal 'byor ma la bstod pa paN+Di ta chen po dI paM ka ra shrI dz+nyA nas mdzad pa rdzogs so/ paN+Di ta de nying dang / lo tsA ba khu ne tsos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3266</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>395</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>396</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212299</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>395</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>396</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2305</ref>
+    <rnb>305</rnb>
+    <tib>rdo rje rnal 'byor ma la bstod pa</tib>
+    <skt>badztra yo gi ni sto tra</skt>
+    <coloph>dpal rdo rje rnal 'byor ma la bstod pa paN+Di ta chen po dI paM ka ra shrI dz+nyA nas mdzad pa rdzogs so/ paN+Di ta de nying dang / lo tsA ba khu ne tsos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13184</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>432</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>433</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>ne tso/(śuka)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dīpaṁkaraśrījñāna</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

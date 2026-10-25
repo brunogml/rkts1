@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt212.43</ref>
+    <rnb>6022</rnb>
+    <tib>rig 'dzin gsang ba'i rgyud las 'gro ba smin ma'i gso rgyun</tib>
+    <skt/>
+    <coloph>sprul sku pad+ma g.yung drung o rgyan bde chen gling pas kong yul dpal gyi phug nas gdan drangs pa lags so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4905</vol>
+        <sec>43</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>1</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt281.65</ref>
+    <rnb>7863</rnb>
+    <tib>rig 'dzin gsang ba'i rgyud las 'gro ba smin pa'i gsos rgyun</tib>
+    <skt/>
+    <coloph>sprul sku pad+ma g.yung drung o rgyan bde chen gling pas kong yul dpal gyi phug nas gdan drangs pa lags so//</coloph>
+    <colophTitle/>
+    <margin>smin ma'i gsos rgyun</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4974</vol>
+        <sec>64</sec>
+        <debp>4</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>5</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

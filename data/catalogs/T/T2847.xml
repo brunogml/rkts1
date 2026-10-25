@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4947</ref>
+    <rnb>1</rnb>
+    <tib>gnod sbyin gyi sde dpon chen po lag na rdo rje gos sngon can gyi sgrub thabs zhes bya ba</tib>
+    <skt>ma hA yak+sha se na pa ti/ ni laM ba ra d+ha ra badzra pa Ni sa d+ha na na ma</skt>
+    <coloph>gnod sbyin sde dpon chen po phyag na rdo rje bsgrub pa'i thabs/ slob dpon chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /rgya gar gyi mkhan po d+hi paM ka ra shrI dz+nyA na dang / zhu chen gyi lo tsA ba dge slong rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>102</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>112</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2847</ref>
+    <rnb>2848</rnb>
+    <tib>gnod sbyin sde dpon chen po lag na rdo rje gos sngon can gyi bsgrub thabs zhes bya ba</tib>
+    <skt>ma hA yak+sha se na pa ti/ ni laM ba ra d+ha ra badzra pa Ni sa d+ha na na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31421</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>183</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>188</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3637</ref>
+    <rnb>2857</rnb>
+    <tib>gnod sbyin sde dpon chen po lag na rdo rje gos sngon can gyi sgrub thabs zhes bya ba</tib>
+    <skt>ma hA ya ku se na pa ti ni laM ba ra d+ha ra badzra pa Ni sa d+ha na na ma</skt>
+    <coloph>gnod sbyin sde dpon chen po phyag na rdo rje bsgrub pa'i thabs/ slob dpon chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/ /rgya gar gyi mkhan po b+hi pi ka ra shrI dz+nyA na dang / zhu chen gyi lo tsA ba dge slong rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3335</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>137</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>141</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212368</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>137</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>141</finp>
+        <finf>b</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4848</ref>
+    <rnb>2849</rnb>
+    <tib>gnod sbyin gyi sde dpon chen po lag na rdo rje gos sngon can gyi bsgrub thabs zhes bya ba</tib>
+    <skt>ma hA yak+sha se na pa ti/ ni laM ba ra d+ha ra badzra paNi sad+ha na na ma</skt>
+    <coloph>gnod sbyin sde dpon chen po phyag na rdo rje bsgrub pa'i thabs/_slob dpon chen po dpal mar me mdzad ye shes kyis mdzad pa rdzogs so/_/rgya gar gyi mkhan po b+hi paM ka ra shrI dz+nyA na dang /_zhu chen gyi lo tsA ba dge slong rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13253</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>142</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>146</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rin chen bzang po/(ratnabhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>mar me mdzad ye shes/(dīpaṁkarajñāna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

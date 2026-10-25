@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5120</ref>
+    <rnb>1</rnb>
+    <tib>'bras bu rin po che dang mnyam pa'i rgyud kyi dka' 'grel rin po che za ma tog 'bar ba</tib>
+    <skt>pha laM ma hA rat+na sa ma ta tan tre pan tsi ka</skt>
+    <coloph>'bras bu rin chen dang mnyam pa'i rgyud kyi dka' 'grel/ rin po che za ma tog 'bar ba zhes bya ba/ slob dpon dga' rab rdo rjes mdzad pa'o/ /rgya gar gyi mkhan po shrI sing ha dang / bod kyi lo tsA ba bai ro tsa nas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>45</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>52</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3038</ref>
+    <rnb>3039</rnb>
+    <tib>'bras bu rin po che dang mnyam pa'i rgyud kyi dka' 'grel</tib>
+    <skt>pha laM ma hA rat+na sa ma ta tan tre pan tsi ka</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31424</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>23</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>27</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3828</ref>
+    <rnb>3048</rnb>
+    <tib>'bras bu rin chen dang mnyam pa'i rgyud kyi dka' 'grel</tib>
+    <skt>pha lam ma hA rat+na sa ma ta tan tre pan tsi ka</skt>
+    <coloph>'bras bu rin chen dang mnyam pa'i rgyud kyi dka' 'grel/ rin po che za ma tog 'bar ba zhes bya ba/ slob dpon dga' rab rdo rjes mdzad pa'o/ /rgya gar gyi mkhan po shrI sing ha dang / bod kyi lo tsA ba bai ro tsa nas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3338</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>15</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>17</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212371</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>15</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>17</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5039</ref>
+    <rnb>3040</rnb>
+    <tib>'bras bu rin po che dang mnyam pa'i rgyud kyi dka' 'grel</tib>
+    <skt>pha laM ma hA rat+na sa ma ta tan+t+re pan tsi ka</skt>
+    <coloph>'bras bu rin chen dang mnyam pa'i rgyud kyi dka' 'grel/_rin po che za ma tog 'bar ba zhes bya ba/_slob dpon dga' rab rdo rjes mdzad pa rdzogs so/_/rgya gar gyi mkhan po shrI sing da dang /_bod kyi lo tsA ba bai ro tsa nas bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13256</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>15</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>18</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>śrisiṅṅa (śrīsiṁha)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>dga' rab rdo rje/(surativajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5412</ref>
+    <rnb>1</rnb>
+    <tib>bslab pa kun las btus pa</tib>
+    <skt>shik+Sha sa mu ts+tsha yaH</skt>
+    <coloph>bslab pa kun las btus pa zhes bya ba byang chub sems dpa'i 'dul ba mdo sde du ma las btus pa/ slob dpon zhi ba'i lhas mdzad pa rdzogs so/ /rgya gar gyi mkhan po dzi na mi tra dang dA na shI la dang / zhu chen gyi lo tsA ba ban+de ye shes sdes bsgyur cing zhus te gtan la phab pa/ slad kyi kha che'i paN+Di ta ti la ka kla shu dang / lo tsA ba dge slong blo ldan shes rab kyis/sri mda'i dgon par zhusasa tug legs par byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95909</vol>
+        <sec>1</sec>
+        <debp>1009</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1519</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3907</ref>
+    <rnb>2843</rnb>
+    <tib>bslab pa kun las btus pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66142</vol>
+        <sec>dbu ma</sec>
+        <debp>3</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>196</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3940</ref>
+    <rnb>2852</rnb>
+    <tib>bslab pa kun las btus pa</tib>
+    <skt>shik+Sha sa muts+tsha yaH</skt>
+    <coloph>bslab pa kun las btus pa zhes bya ba byang chub sems dpa'i 'dul ba mdo sde du ma las btus pa/_slob dpon zhi ba'i lhas mdzad pa rdzogs so</coloph>
+    <colophTitle>bslab pa kun las btus pa zhes bya ba byang chub sems dpa'i 'dul ba mdo sde du ma las btus pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1427</vol>
+        <sec>mdo 'grel</sec>
+        <debp>3</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>194</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210162</vol>
+        <sec>mdo 'grel</sec>
+        <debp>3</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>194</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211466</vol>
+        <sec>mdo 'grel</sec>
+        <debp>3</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>194</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po dzi na mi tra</name>
+        <role>translator</role>
+        <rid>bdr:P8209</rid>
+      </translator>
+      <translator>
+        <name>dA na shI la</name>
+        <role>translator</role>
+        <rid>bdr:P8210</rid>
+      </translator>
+      <translator>
+        <name>zhu chen gyi lo tsA ba ban de ye shes sde</name>
+        <role>translator</role>
+        <rid>bdr:P8205</rid>
+      </translator>
+      <translator>
+        <name>kha che'i paN+Di ta ti la ka ka la sha</name>
+        <role>revisor</role>
+        <rid>bdr:P4CZ15246</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba dge slong blo ldan shes rab</name>
+        <role>revisor</role>
+        <rid>bdr:P2551</rid>
+      </translator>
+      <translator>
+        <name>slob dpon zhi ba'i lha</name>
+        <role>author</role>
+        <rid>bdr:P6161</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3339</ref>
+    <rnb>3333</rnb>
+    <tib>bslab pa kun las btus pa</tib>
+    <skt>shk+Sha sa mu ts+tsa ya</skt>
+    <coloph>bslab pa kun las btus pa zhes bya ba byang chub sems dpa'i 'dul ba mdo sde du ma las btus pa/ slob dpon zhi ba'i lhas mdzad pa rdzogs so/ /rgya gar gyi mkhan po dzi na mi tra dang dA na shI la dang / zhu chen gyi lo tsA ba ban+de ye shes sdes bsgyur cing zhus te gtan la phab pa/ slad kyi kha che'i paN+Di ta ti la ka kla shu dang / lo tsA ba dge slong blo ldan shes rab kyis/sri mda'i dgon par zhusas tug legs par byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31456</vol>
+        <sec>mdo 'grel</sec>
+        <debp>5</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>303</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4125</ref>
+    <rnb>3345</rnb>
+    <tib>bslab pa kun las btus pa</tib>
+    <skt>shik+Sha sa muts+tsha ya</skt>
+    <coloph>bslab pa kun las btus pa zhes bya ba byang chub sems dpa'i 'dul ba mdo sde du ma las btus pa/ slob dpon zhi ba'i lhas mdzad pa rdzogs so/ /rgya gar gyi mkhan po dzi na mi tra dang dA na shI la dang / zhu chen gyi lo tsA ba ban+de ye shes sdes bsgyur cing zhus te gtan la phab pa/ slad kyi kha che'i paN+Di ta ti la ka kla shu dang / lo tsA ba dge slong blo ldan shes rab kyis/sri mda'i dgon par zhusasa tug legs par byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3370</vol>
+        <sec>mdo 'grel</sec>
+        <debp>4</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>220</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212403</vol>
+        <sec>mdo 'grel</sec>
+        <debp>4</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>220</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5336</ref>
+    <rnb>3337</rnb>
+    <tib>bslab pa kun las btus pa</tib>
+    <skt>shak+Sha sa mu ts+tsha ya</skt>
+    <coloph>bslab pa kun las btus pa zhes bya ba byang chub sems dpa'i 'dul ba mdo sde du ma las btus pa/_slob dpon zhi ba'i lhas mdzad pa rdzogs so/_/rgya gar gyi mkhan po dzi na mi tra dang dA na shI la dang /_zhu chen gyi lo tsA ba ban+de ye shes sdes bsgyur cing zhus te gtan la phab pa/_slad kyi kha che'i paN+Di ta ti la ka kla shu dang /_lo tsA ba dge slong blo ldan shes rab kyis/_sri mda'i dgon par zhu thug legs par byas pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13288</vol>
+        <sec>mdo 'grel</sec>
+        <debp>3</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>225</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>tilakaklaśu (tilakakalaśa)</name>
+        <role>revisor</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>blo ldan shes rab/</name>
+        <role>revisor</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>zhi ba lha/(śāntideva)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

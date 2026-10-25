@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5099</ref>
+    <rnb>1</rnb>
+    <tib>bla ma gsang bar sgrub pa zhes bya ba</tib>
+    <skt>gu h+ya sid+hi na ma</skt>
+    <coloph>bla ma gsang bar sgrub pa ni/ paN+Di ta na ga dzu nas mdzad pa rdzogs so/ /dpal ding ri glang 'khor gyi dgon par / paN+Di ta bi bu ti tsan+d+rasa bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>896</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>901</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3016</ref>
+    <rnb>3017</rnb>
+    <tib>bla ma gsang bar sgrub pa zhes bya ba</tib>
+    <skt>gu h+ya si d+hi na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31423</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>39</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>42</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3806</ref>
+    <rnb>3026</rnb>
+    <tib>bla ma gsang bar sgrub pa zhes bya ba</tib>
+    <skt>gu h+ya si d+hi na ma</skt>
+    <coloph>bla ma gsang bar sgrub pa ni/ paN+Di ta na ga dzu nas mdzad pa rdzogs so/ /dpal ding ri glang 'khor gyi dgon par / paN+Di ta bi bu ti tsan+d+ras bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3337</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>32</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>34</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212370</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>32</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>34</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5017</ref>
+    <rnb>3018</rnb>
+    <tib>bla ma gsang bar sgrub pa zhes bya ba</tib>
+    <skt>gu h+ya si d+hi na ma</skt>
+    <coloph>bla ma gsang ba sgrub pa ni/_paN+Di ta na ga dzu nas mdzad pa rdzogs so/_/dpal ding ri glang 'khor gyi dgon par /_paN+Di ta bi bu ti tsan+t+ras bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13255</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>32</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>35</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>nagajuna (nāgārjuna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

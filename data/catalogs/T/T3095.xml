@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2139</ref>
+    <rnb>1080</rnb>
+    <tib>rdo rje lce dbab pa'i sngags</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66081</vol>
+        <sec>rgyud</sec>
+        <debp>58</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>60</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2187</ref>
+    <rnb>1090</rnb>
+    <tib>rdo rje lce dbab pa'i sngags</tib>
+    <skt/>
+    <coloph>lce dbab pa'i bya thabs rdzogs so</coloph>
+    <colophTitle>rten 'brel gyi mthus bsrung ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1366</vol>
+        <sec>rgyud</sec>
+        <debp>58</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>59</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210101</vol>
+        <sec>rgyud</sec>
+        <debp>58</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>59</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211405</vol>
+        <sec>rgyud</sec>
+        <debp>58</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>59</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4756</ref>
+    <rnb>1</rnb>
+    <tib>spra khrid lung bstan te lo'i gsungs</tib>
+    <skt/>
+    <coloph>spra khrid lung bstan te lo dus gsum mkhyen pa'i gsungs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>820</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>830</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2628</ref>
+    <rnb>2629</rnb>
+    <tib>spra khrid lung bstan</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31412</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>190</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>196</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3418</ref>
+    <rnb>2637</rnb>
+    <tib>spra khrid lung bstan</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3326</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>125</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>129</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212359</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>125</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>129</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4629</ref>
+    <rnb>2630</rnb>
+    <tib>spra khrid lung bstan</tib>
+    <skt/>
+    <coloph>spra khrid lung bstan te lo dus gsum mkhyen pa'i gsungs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13244</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>129</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>134</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>te lo dus gsum mkhyen pa/(tailika trikālaja)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

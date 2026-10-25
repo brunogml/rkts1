@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4878</ref>
+    <rnb>1</rnb>
+    <tib>thugs kyi sgo lcags</tib>
+    <skt/>
+    <coloph>slob dpon chen po shrI sid+ha yis thugs kyi sgo lcags dbye ba'i don bkrol ba'o/ rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95889</vol>
+        <sec>1</sec>
+        <debp>354</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>365</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2757</ref>
+    <rnb>2758</rnb>
+    <tib>thugs kyi sgo lcags</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31415</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>182</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>188</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3547</ref>
+    <rnb>2766</rnb>
+    <tib>thugs kyi sgo lcags</tib>
+    <skt/>
+    <coloph>slob dpon chen po shrI sid+ha yis thugs kyi sgo lcags dbye ba'i don bkrol ba'o/ rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3329</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>164</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>168</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212362</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>164</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>168</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4758</ref>
+    <rnb>2759</rnb>
+    <tib>thugs kyi sgo lcags</tib>
+    <skt/>
+    <coloph>slob dpon chen po shrI sid+hi yis thugs kyi sgo lcags dbye ba'i don bkrol ba'o/_/rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13247</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>159</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>164</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>śrīsiṅhi (śrīsiṁha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

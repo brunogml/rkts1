@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm45.11</ref>
+    <rnb>875</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-46</vol>
+        <sec>rnying rgyud</sec>
+        <debp>158</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>161</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb052.018</ref>
+    <rnb>893</rnb>
+    <tib>klu nag po'i rgyud</tib>
+    <skt>nA ga ka la tan+t+ra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21657</vol>
+        <sec>1</sec>
+        <debp>232</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>234</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

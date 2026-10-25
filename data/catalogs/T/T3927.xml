@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5803</ref>
+    <rnb>1</rnb>
+    <tib>spos sbyor rin po che'i 'phreng ba zhes bya ba</tib>
+    <skt>du pa yo ga rat+na ma la na ma</skt>
+    <coloph>spos sbyor rin po che'i phreng ba zhes bya ba/ slob dpon klu sgrub kyis mdzad pa/ kha che'i paN+Di ta'i zhal mnga' nas dang / lo tsA ba rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95959</vol>
+        <sec>1</sec>
+        <debp>937</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>938</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3813</ref>
+    <rnb>3808</rnb>
+    <tib>spos sbyor rin po che'i phreng ba zhes bya ba</tib>
+    <skt>du pa yo ga rat+na ma la na ma</skt>
+    <coloph>spos sbyor rin po che'i phreng ba zhes bya ba/ slob dpon klu sgrub kyis mdzad pa/ kha che'i paN+Di ta'i zhal mnga' nas dang / lo tsA ba rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31548</vol>
+        <sec>bzo rig</sec>
+        <debp>46</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>46</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4599</ref>
+    <rnb>3817</rnb>
+    <tib>spos sbyor rin po che'i phreng ba</tib>
+    <skt>du pa yo ga rat+ni ma la na ma</skt>
+    <coloph>spos sbyor rin po che'i phreng ba zhes bya ba/ slob dpon klu sgrub kyis mdzad pa/ kha che'i paN+Di ta'i zhal mnga' nas dang / lo tsA ba rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3462</vol>
+        <sec>mdo 'grel</sec>
+        <debp>28</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>28</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212495</vol>
+        <sec>mdo 'grel</sec>
+        <debp>28</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>28</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5808</ref>
+    <rnb>3810</rnb>
+    <tib>spos sbyor rin po che'i phreng ba zhes bya ba</tib>
+    <skt>du pa yo ga rat+na ma la na ma</skt>
+    <coloph>spos sbyor rin po che'i phreng ba zhes bya ba/ slob dpon klu sgrub kyis mdzad pa/ kha che'i paN+Di ta'i zhal mnga' nas dang / lo tsA ba rin chen bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13380</vol>
+        <sec>mdo 'grel</sec>
+        <debp>29</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>29</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>klu sgrub/(nāgārjuna)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

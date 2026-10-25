@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Gtn</coll>
+    <ref>Gtn001.034</ref>
+    <rnb>34</rnb>
+    <tib>skye med ti ka bzhugs</tib>
+    <skt/>
+    <coloph>byang chub kyi sems mi 'gyur ba'i thig le ti ga rdzogso</coloph>
+    <colophTitle/>
+    <margin/>
+    <note/>
+    <locations>
+      <location>
+        <setid>MW2PD19896</setid>
+        <vol>2PD20015</vol>
+        <sec>1</sec>
+        <debp>204</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>206</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name/>
+        <setid>MW2PD19896</setid>
+        <vol>2PD20015</vol>
+        <sec>1</sec>
+        <debp>206</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name></name>
+        <setid>MW2PD19896</setid>
+        <vol>2PD20015</vol>
+        <sec>1</sec>
+        <debp>206</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2428</ref>
+    <rnb>1</rnb>
+    <tib>dpal rdo rje mkha' 'gro ma lta sgom spyod gsum gyi brda bstan pa</tib>
+    <skt/>
+    <coloph>rdo rje'i tshig rkang rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95857</vol>
+        <sec>1</sec>
+        <debp>253</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>254 </finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1470</ref>
+    <rnb>414</rnb>
+    <tib>dpal rdo rje mkha' 'gro ma lta sgom spyod gsum gyi brda bstan pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66054</vol>
+        <sec>rgyud</sec>
+        <debp>86</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>87</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1528</ref>
+    <rnb>423</rnb>
+    <tib>dpal rdo rje mkha' 'gro ma lta sgom spyod gsum gyi brda bstan pa</tib>
+    <skt/>
+    <coloph>rdo rje tshig rkang yin no rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1339</vol>
+        <sec>rgyud</sec>
+        <debp>85</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>86</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210074</vol>
+        <sec>rgyud</sec>
+        <debp>85</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>86</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211378</vol>
+        <sec>rgyud</sec>
+        <debp>85</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>86</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C2934</ref>
+    <rnb>1869</rnb>
+    <tib>'gal ba skrag par byed pa'i las sna tshogs pa'i cho ga mgal pa me'i 'khor lo zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66105</vol>
+        <sec>rgyud</sec>
+        <debp>47</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>48</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2972</ref>
+    <rnb>1879</rnb>
+    <tib>gal ba skrag par byed pa'i las sna tshogs pa'i cho ga mgal pa me'i 'khor lo zhes bya ba</tib>
+    <skt/>
+    <coloph>gal ba skrag par byed pa'i las sna tshogs pa'i cho ga mgal ba me'i 'khor lo zhes bya ba/ dpal mar me mdzad bzang pos mdzad pa rdzogs so</coloph>
+    <colophTitle>'gal ba skrag par byed pa'i las sna tshogs pa'i cho ga 'gal ba me'i 'khor lo zhes bya ba</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1390</vol>
+        <sec>rgyud</sec>
+        <debp>48</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>48</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210125</vol>
+        <sec>rgyud</sec>
+        <debp>48</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>48</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211429</vol>
+        <sec>rgyud</sec>
+        <debp>48</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>48</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dpal mar me mdzad bzang po</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15260</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1799</ref>
+    <rnb>1801</rnb>
+    <tib>'gal ba skrag par byed pa'i las sna tshogs pa'i cho ga mgal pa me'i 'khor lo zhes bya ba</tib>
+    <skt/>
+    <coloph>'gal ba skrag par byed pa'i las sna tshogs pa'i cho ga mgal ba me'i 'khor lo zhes bya ba/ dpal mar me mdzad bzang pos mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31408</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>63</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>64</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2589</ref>
+    <rnb>1807</rnb>
+    <tib>gal ba skrag par byed pa'i las sna tshogs pa'i cho ga mgal pa me'i 'khor lo zhes bya ba</tib>
+    <skt/>
+    <coloph>gal ba skrag par byed pa'i las sna tshogs pa'i cho ga mgal ba me'i 'khor lo zhes bya ba/ dpal mar me mdzad bzang pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3322</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>50</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>51</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212355</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>50</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>51</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3797</ref>
+    <rnb>1798</rnb>
+    <tib>'gal ba skrag par byed pa'i las sna tshogs pa'i cho ga mgal pa me'i 'khor lo zhes bya ba</tib>
+    <skt/>
+    <coloph>'gal ba skrag par byed pa'i las sna tshogs pa'i cho ga mgal pa me'i 'khor lo zhes bya ba/_dpal mar me mdzad bzang pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13240</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>52</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>53</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>mar me mdzad bzang po/(dīpaṁkarabhadra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

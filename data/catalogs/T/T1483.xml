@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G1488</ref>
+    <rnb>1490</rnb>
+    <tib>'phags pa rdo rje chos kyi rnal 'byor gcig pa'i sgrub thabs zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31402</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>422</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>430</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3484</ref>
+    <rnb>1485</rnb>
+    <tib>'phags pa rdo rje chos kyi rnal 'byor gcig pa'i sgrub thabs zhes bya ba</tib>
+    <skt/>
+    <coloph>'phags pa rdo rje chos kyi rnal 'byor gcig pa'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13234</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>343</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>351</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

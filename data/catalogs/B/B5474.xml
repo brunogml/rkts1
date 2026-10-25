@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt129.27</ref>
+    <rnb>4309</rnb>
+    <tib>sman sgrub</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4822</vol>
+        <sec>27</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>12</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt245.39</ref>
+    <rnb>6913</rnb>
+    <tib>sman sgrub</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>sman</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4938</vol>
+        <sec>39</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

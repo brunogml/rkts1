@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3576</ref>
+    <rnb>2511</rnb>
+    <tib>dpal rdo rje phag mo'i rtog pa don thams cad sgrub pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66108</vol>
+        <sec>rgyud</sec>
+        <debp>241</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>243</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3610</ref>
+    <rnb>2520</rnb>
+    <tib>dpal ldan rdo rje phag mo'i rtog pa don thams cad sgrub pa</tib>
+    <skt>shrI badzra bA rA hI kAlpa sarba ar+tha sA d+ha naM</skt>
+    <coloph>dpal ldan rdo rje phag mo'i rtog pa don thams cad sgrub pa'i sgrub thabs rdzogs so</coloph>
+    <colophTitle>dpal rdo rje phag mo rtog pa las gsungs pa'i don thams cad sgrub pa'i thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1393</vol>
+        <sec>rgyud</sec>
+        <debp>234</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>236</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210128</vol>
+        <sec>rgyud</sec>
+        <debp>234</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>236</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211432</vol>
+        <sec>rgyud</sec>
+        <debp>234</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>236</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2434</ref>
+    <rnb>2436</rnb>
+    <tib>dpal ldan rdo rje phag mo'i rtog pa don thams cad sgrub pa</tib>
+    <skt>shrI badzra bA rA hI kal pa sarbAr+tha sA d+ha naM</skt>
+    <coloph>dpal ldan rdo rje phag mo'i rtog pa don thams cad sgrub pa'i sgrub thabs rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31410</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>330</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>332</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3226</ref>
+    <rnb>2442</rnb>
+    <tib>dpal ldan rdo rje phag mo'i rtog pa don thams cad sgrub pa</tib>
+    <skt>shrI badzra bA rA hI kal pa sarbAr+tha sA d+ha naM</skt>
+    <coloph>dpal ldan rdo rje phag mo'i rtog pa don thams cad sgrub pa'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3324</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>278</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>280</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212357</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>278</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>280</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4432</ref>
+    <rnb>2433</rnb>
+    <tib>dpal ldan rdo rje phag mo'i rtog pa don thams cad sgrub pa</tib>
+    <skt>shrI badzra bA rA hI kal pa sarbar+tha sA d+ha naM</skt>
+    <coloph>dpal rdo rje phag mo'i rtog pa don thams cad bsgrub pa'i thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13242</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>304</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>307</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

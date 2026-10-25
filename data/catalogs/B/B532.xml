@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks172.1</ref>
+    <rnb>1035</rnb>
+    <tib>bka' gsang me ri 'bar ba rtsa ba'i brgyud</tib>
+    <skt/>
+    <coloph>me ri 'bar ba rtsa ba'i rgyud las / gter nas thon nas shog ser ma nor ba las / 'gal ston gyi bris so / bdag 'gar ston khro 'dul bas / … 'gar ston 'dzin rten grag la / sga ston g.yung drung rgyal gyis zhus so / da la yon sgom a gsas kyi zhus so</coloph>
+    <colophTitle/>
+    <margin>me ri</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75143</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>12</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz167.2</ref>
+    <rnb>351</rnb>
+    <tib>bka' gsang me ri 'bar ba rtsa ba'i brgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58702</vol>
+        <sec>ka</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>11</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

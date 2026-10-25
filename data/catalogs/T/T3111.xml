@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3553</ref>
+    <rnb>1</rnb>
+    <tib>ngan song thams cad yongs su sbyong ba'i shi ba'i sbyin sreg gi cho ga'i las kyi rim pa</tib>
+    <skt>sarba durga ti pa ri sho d+ha na ma ra ho ma bi d+hi karma kra ma</skt>
+    <coloph>ro bsreg pa'i cho ga mdo danng bsres pa slob dpon chen po kun dga' snying pos mdzad pa/ ngan song thams cad yongs su sbyong ba'i rgyud kyi rgyal po'i ro'i sbyin sreg gi cho ga rdzogs so/ /rgya gar gyi mkhan po shrd+d+ha ka na ka war ma dang / dge slong rin chen bzang pos bsgyur cing zhus te gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95879</vol>
+        <sec>1</sec>
+        <debp>1194</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1223</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2589</ref>
+    <rnb>1523</rnb>
+    <tib>ngan song thams cad yongs su sbyong ba'i shi ba'i sbyin sreg gi cho ga'i las kyi rim pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66099</vol>
+        <sec>rgyud</sec>
+        <debp>172</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>184</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2633</ref>
+    <rnb>1533</rnb>
+    <tib>ngan song thams cad yongs su sbyong ba'i shi ba'i sbyin sreg gi cho ga'i las kyi rim pa</tib>
+    <skt>sarba durga ti pa ri sho d+ha na ma ra ho ma bid+hi karma kra ma</skt>
+    <coloph>de bzhin gshegs pa dgra bcom pa yang dag par rdzogs pa'i sangs rgyas ngan song thams cad yongs su sbyong ba'i lung las/_ro sbyong zhing sreg pa'i thabs kyi cho ga mdo dang bsres nas/_slob dpon kun dga' snying pos mdzad pa rdzogs so</coloph>
+    <colophTitle>de bzhin gshegs pa dgra bcom pa yang dag par rdzogs pa'i sangs rgyas ngan song thams cad yongs su sbyong ba'i lung las/_ro sbyong zhing sreg pa'i thabs kyi cho ga mdo dang bsres</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1384</vol>
+        <sec>rgyud</sec>
+        <debp>168</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>179</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210119</vol>
+        <sec>rgyud</sec>
+        <debp>168</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>179</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211423</vol>
+        <sec>rgyud</sec>
+        <debp>168</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>179</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po shrad+d+hAka ra barma</name>
+        <role>translator</role>
+        <rid>bdr:P3388</rid>
+      </translator>
+      <translator>
+        <name>bod kyi dge slong rin chen bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P753</rid>
+      </translator>
+      <translator>
+        <name>slob dpon chen po kun dga' snying po</name>
+        <role>author</role>
+        <rid>bdr:P7166</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

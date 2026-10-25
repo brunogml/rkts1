@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks74.22</ref>
+    <rnb>504</rnb>
+    <tib>ltung bshags dri med mchog byang</tib>
+    <skt/>
+    <coloph>tshe dbang rig 'dzin chen pos shar pa rnal 'byor gyi snyan du brgyud pa'i / bshags pa dri med mchog byang bon spyod 'di / rjes 'bring [~'breng] rnams kyi don du yi ger bkod …</coloph>
+    <colophTitle/>
+    <margin>ltung bshags</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75045</vol>
+        <sec>22</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>32</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt235.27</ref>
+    <rnb>6502</rnb>
+    <tib>ltung bshags dri med mchog sbyangs</tib>
+    <skt/>
+    <coloph>tshe dbang rig 'dzin chen po nas/ shar pa rnal 'byor la snyan du brgyud pa'i bshags pa dri med mchog sbyangs (byang) bon spyod 'di/ rjes 'breng don du yi ger bkod pa dge'o//</coloph>
+    <colophTitle/>
+    <margin>ltung bshags</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4928</vol>
+        <sec>27</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>29</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

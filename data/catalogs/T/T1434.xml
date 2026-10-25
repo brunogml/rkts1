@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3528</ref>
+    <rnb>1</rnb>
+    <tib>gshin rje dgra nag po'i sgrub thabs zhes bya ba</tib>
+    <skt>ya mA ri kA la sA d+ha na nA ma</skt>
+    <coloph>gshin rje'i gshed kyi sgrub thabs slob dpon a sho ka shrIsa mdzad pa rdzogs so/ /paN+Di ta d+harmA shrI mi tra dang lo tsA ba chos kyi bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95878</vol>
+        <sec>1</sec>
+        <debp>1046</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1048</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>A</coll>
+    <ref>A4571</ref>
+    <rnb>1</rnb>
+    <tib>gshin rje dgra nag po'i sgrub thabs</tib>
+    <skt>kr-iSh+Na ya mA ri sA d+ha naM</skt>
+    <coloph>gshin rje dgra nag po'i sgrub thabs rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95885</vol>
+        <sec>1</sec>
+        <debp>1171</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1173</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C2564</ref>
+    <rnb>1498</rnb>
+    <tib>gshin rje dgra nag po'i sgrub thabs zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66097</vol>
+        <sec>rgyud</sec>
+        <debp>85</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>85</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D2608</ref>
+    <rnb>1508</rnb>
+    <tib>gshin rje dgra nag po'i sgrub thabs zhes bya ba</tib>
+    <skt>ya mA ri kA la sA d+ha na nA ma</skt>
+    <coloph>gshin rje'i gshed kyi sgrub thabs slob dpon a sho ka shrIsa mdzad pa rdzogs so/ /paN+Di ta d+harmA shrI mi tra dang lo tsA ba chos kyi bzang pos bsgyur ba'o</coloph>
+    <colophTitle>gshin rje gshed kyi sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1382</vol>
+        <sec>rgyud</sec>
+        <debp>81</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>81</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210117</vol>
+        <sec>rgyud</sec>
+        <debp>81</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>81</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211421</vol>
+        <sec>rgyud</sec>
+        <debp>81</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>81</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta d+harma shrI mi tra</name>
+        <role>translator</role>
+        <rid>bdr:P8231</rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba chos kyi bzang po</name>
+        <role>translator</role>
+        <rid>bdr:P3939</rid>
+      </translator>
+      <translator>
+        <name>slob dpon a sh+wa ka shrI</name>
+        <role>author</role>
+        <rid>bdr:P4CZ15076</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1439</ref>
+    <rnb>1441</rnb>
+    <tib>gshin rje dgra nag po'i sgrub thabs zhes bya ba</tib>
+    <skt>ya ma a ri kA la sA d+ha nA ma</skt>
+    <coloph>gshin rje'i gshed kyi sgrub thabs slob dpon a sho ka shrIs mdzad pa rdzogs so/ /paN+Di ta d+harmA shrI mi tra dang lo tsA ba chos kyi bzang pos bsgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31400</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>122</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>123</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2231</ref>
+    <rnb>1448</rnb>
+    <tib>gshin rje dgra nag po'i sgrub thabs zhes bya ba</tib>
+    <skt>ya ma a ri kA la sA d+ha nA ma</skt>
+    <coloph>gshin rje'i gshed kyi sgrub thabs slob dpon a sho ka shrIsa mdzad pa rdzogs so/ /paN+Di ta d+harmA shrI mi tra dang lo tsA ba chos kyi bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3314</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>85</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>86</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212347</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>85</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>86</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3435</ref>
+    <rnb>1436</rnb>
+    <tib>gshin rje dgra nag po'i sgrub thabs zhes bya ba</tib>
+    <skt>ya ma a ri kA la sA d+ha nA ma</skt>
+    <coloph>gshin rje'i gshed kyi sgrub thabs slob dpon a sho ka shrIsa mdzad pa rdzogs so/ /paN+Di ta d+harmA shrI mi tra dang lo tsA ba chos kyi bzang pos bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13232</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>97</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>97</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>chos kyi bzang po/(dharmabhadra)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>aśokaśrī</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

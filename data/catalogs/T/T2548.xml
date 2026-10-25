@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4669</ref>
+    <rnb>1</rnb>
+    <tib>sdom gsum 'od kyi phreng ba zhes bya ba</tib>
+    <skt>tri sam+ba ra pra b+hA mA lA nA ma</skt>
+    <coloph>rgya gar shar phyogs dzA ga ta la'i paN+Di ta chen po bi b+hu ti tsan+d+rasa mdzad pa de rang 'gyur du mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95886</vol>
+        <sec>1</sec>
+        <debp>720</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>727</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C3693</ref>
+    <rnb>2629</rnb>
+    <tib>sdom gsum 'od kyi phreng ba zhes bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66110</vol>
+        <sec>rgyud</sec>
+        <debp>54</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>56</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3727</ref>
+    <rnb>2638</rnb>
+    <tib>sdom gsum 'od kyi phreng ba zhes bya ba</tib>
+    <skt>tri sam+ba ra pra b+hA mA lA nA ma</skt>
+    <coloph>rgya gar shar phyogs dzA ga ta la'i paN+Di ta chen po bi b+hU ti tsan+d+ras mdzad de rang 'gyur du mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1395</vol>
+        <sec>rgyud</sec>
+        <debp>54</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>56</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210130</vol>
+        <sec>rgyud</sec>
+        <debp>54</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>56</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211434</vol>
+        <sec>rgyud</sec>
+        <debp>54</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>56</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar shar phyogs dzA ga ta la'i paN+Di ta chen po bi b+hU ti tsan+d+ra</name>
+        <role>translator</role>
+        <rid>bdr:P00EGS1017688</rid>
+      </translator>
+      <translator>
+        <name>rgya gar shar phyogs dzA ga ta la'i paN+Di ta chen po bi b+hU ti tsan+d+ra</name>
+        <role>author</role>
+        <rid>bdr:P00EGS1017688</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2551</ref>
+    <rnb>2553</rnb>
+    <tib>sdom gsum 'od kyi phreng ba zhes bya ba</tib>
+    <skt>tri sam+ba ra pra b+hA mA lA nA mA</skt>
+    <coloph>rgya gar shar phyogs dzA ga ta la'i paN+Di ta chen po bi b+hu ti tsan+d+ras mdzad pa de rang 'gyur du mdzad pa rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31411</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>325</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>329</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3342</ref>
+    <rnb>2559</rnb>
+    <tib>sdom gsum 'od kyi phreng ba zhes bya ba</tib>
+    <skt>tri sam+ba ra pra b+hA mA lA nA ma</skt>
+    <coloph>rgya gar shar phyogs dzA ga ta la'i paN+Di ta chen po bi b+hu ti tsan+d+ras mdzad pa de rang 'gyur du mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3325</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>266</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>269</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212358</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>266</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>269</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4549</ref>
+    <rnb>2550</rnb>
+    <tib>sdom gsum 'od kyi phreng ba zhes bya ba</tib>
+    <skt>tri sam+ba ra pra b+hA mA lA nA ma</skt>
+    <coloph>rgya gar shar phyogs dzA ga ta la'i paN+Di ta chen po bi b+hu ti tsan+d+rasa mdzad pa de rang 'gyur du mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13243</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>265</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>268</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>vibhūticandra</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

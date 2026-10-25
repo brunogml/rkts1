@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>G</coll>
+    <ref>G312</ref>
+    <rnb>312</rnb>
+    <tib>rdo rje phag mo'i pra brtags pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31352</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>565</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>566</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1104a</ref>
+    <rnb>316</rnb>
+    <tib>rdo rje phag mo'i sra brtag pa</tib>
+    <skt/>
+    <coloph>zhes pa rdo rje phag mo'i pra brtag pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3266</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>400</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>401</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212299</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>400</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>401</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

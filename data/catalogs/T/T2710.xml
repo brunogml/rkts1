@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4831</ref>
+    <rnb>1</rnb>
+    <tib>ku ru kul+le'i las sbyor gyi man ngag</tib>
+    <skt/>
+    <coloph>ku ru ku l+le'i las sbyor gyi man ngag paN+Di ta don yod rdo rjes bla ma ba ri lo tsA ba la gnang ngo / 'di la shin tu dam par mdzad nas mang po la spel ba'i srol med do/ gsang ngo sbas so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95887</vol>
+        <sec>1</sec>
+        <debp>1625</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1629</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2710</ref>
+    <rnb>2711</rnb>
+    <tib>ku ru ku l+le'i las sbyor gyi man ngag</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31413</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>290</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>292</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3500</ref>
+    <rnb>2719</rnb>
+    <tib>ku ru ku l+le'i las sbyor gyi man ngag</tib>
+    <skt/>
+    <coloph>ku ru ku l+le'i las sbyor gyi man ngag paN+Di ta don yod rdo rjes bla ma ba ri lo tsA ba la gnang ngo / 'di la shin tu dam par mdzad nas mang po la spel ba'i srol med do/ gsang ngo sbas so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3327</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>209</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>211</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212360</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>209</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>211</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4711</ref>
+    <rnb>2712</rnb>
+    <tib>ku ru ku l+le'i las sbyor gyi man ngag</tib>
+    <skt/>
+    <coloph>ku ru ku l+le'i las sbyor gyi man ngag paN+Di ta don yod rdo rjes bla ma ba ri lo tsA ba la gnang ngo / 'di la shin tu dam par mdzad nas mang po la spel ba'i srol med do/ gsang ngo sbas so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13245</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>217</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>219</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>don yod rdo rje/(amoghavajra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

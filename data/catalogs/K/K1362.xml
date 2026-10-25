@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.170</ref>
+    <rnb>173</rnb>
+    <tib>shes rab kyi pha rol tu phyin pa nyi shu lnga pa'i snying po</tib>
+    <skt>pranytsa bying sha te sa ha sri ga pradznyA pA ra mi ta</skt>
+    <coloph>nyi khri'i snying po rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>573</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>573</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg169</ref>
+    <rnb>171</rnb>
+    <tib>shes rab kyi pha rol tu phyin pa nyi shu lnga pa'i snying po</tib>
+    <skt>pranytsa bying sha te sa ha sri ga pradznyA pA ra mi ta</skt>
+    <coloph>nyi khri'i snying po rdzogs so: :</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>513</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>513</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

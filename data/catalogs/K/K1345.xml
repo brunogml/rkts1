@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bd</coll>
+    <ref>Bd1.146</ref>
+    <rnb>148</rnb>
+    <tib>rin po che tshe'i sgrub pa zhes bya ba</tib>
+    <skt>a pa ri mi tA</skt>
+    <coloph>rin po che tshe sgrub pa zhes bya ba bkra shis smon lam dang bcas pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW8LS15931</setid>
+        <vol>2KG220158</vol>
+        <sec>mañjuśrīnāmasaṃgīti</sec>
+        <debp>431</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>434</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Eg</coll>
+    <ref>Eg143</ref>
+    <rnb>145</rnb>
+    <tib>rin po che tshe'i sgrub pa zhes bya ba</tib>
+    <skt>a pa ri mi tA</skt>
+    <coloph>rin po che tshe sgrub pa zhes bya ba bkra shis smon lam dang bcas pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG12671</setid>
+        <vol>2KG209791</vol>
+        <sec>mtshan brjod</sec>
+        <debp>406</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>409</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ng</coll>
+    <ref>Ng52.139</ref>
+    <rnb>611</rnb>
+    <tib>rin po che tshe'i sgrub pa zhes bya ba</tib>
+    <skt>a pa ri mi ta</skt>
+    <coloph>rin po che tshe'i sgrub pa zhes bya ba bkra shis smon lam dang bcas pa rdzogs so//_//dge'o//</coloph>
+    <colophTitle/>
+    <margin>tshe snying</margin>
+    <locations>
+      <location>
+        <setid>MW2KG229028</setid>
+        <vol>2KG229082</vol>
+        <sec>84 du</sec>
+        <debp>4</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>7</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>See Everding 2015, no.405.</note>
+  </item>
+</catalog>

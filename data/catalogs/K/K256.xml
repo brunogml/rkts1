@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A274</ref>
+    <rnb>273</rnb>
+    <tib>chos kyi rgya mo/ sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu pa</tib>
+    <skt/>
+    <coloph>chos kyi rgya mo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96849</vol>
+        <sec>1</sec>
+        <debp>213</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>254</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>B</coll>
+    <ref>B263</ref>
+    <rnb>262</rnb>
+    <tib/>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL2</setid>
+        <vol>1BL1-74</vol>
+        <sec>mdo sde</sec>
+        <debp>92</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>113</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C895</ref>
+    <rnb>895</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105109</vol>
+        <sec>mdo</sec>
+        <debp>84</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-46</vol>
+        <sec>mdo</sec>
+        <debp>84</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>104</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Cz</coll>
+    <ref>Cz081-009</ref>
+    <rnb>568</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-4-1</setid>
+        <vol>EAP570-4-1-81</vol>
+        <sec>mdo sde</sec>
+        <debp>372</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>397</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D256</ref>
+    <rnb>257</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph>chos kyi rgya mo rdzogs so</coloph>
+    <colophTitle>chos kyi rgya mo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0951</vol>
+        <sec>mdo sde</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>91</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6413</vol>
+        <sec>mdo sde</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>91</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20665</vol>
+        <sec>mdo sde</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>91</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9192</vol>
+        <sec>mdo sde</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>91</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos>
+      <bampo>
+        <rn>1</rn>
+        <name>1.</name>
+        <setid>MW22084</setid>
+        <vol>0951</vol>
+        <sec>mdo sde</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </bampo>
+      <bampo>
+        <rn>2</rn>
+        <name>2.</name>
+        <setid>MW22084</setid>
+        <vol>0951</vol>
+        <sec>mdo sde</sec>
+        <debp>82</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </bampo>
+    </bampos>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd048-014</ref>
+    <rnb>173</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph>chos kyi rgya mo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-48</vol>
+        <sec>mdo sde</sec>
+        <debp>92</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>112</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dk</coll>
+    <ref>Dk033-009</ref>
+    <rnb>129</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-1-1</setid>
+        <vol>EAP570-1-1-33</vol>
+        <sec>mdo sde</sec>
+        <debp>398</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>427</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Dr</coll>
+    <ref>Dr924</ref>
+    <rnb>972</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu </tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWNPM1</setid>
+        <vol>NPM82</vol>
+        <sec>mdo</sec>
+        <debp>118</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>144</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Go</coll>
+    <ref>Go24,03</ref>
+    <rnb>164</rnb>
+    <tib>chos kyi rgyal po//// sangs rgyas rnam par snang mdzad kyis//// byang chub sems dpa' sems dpa' chen po rnam kyis gnas bshad pa'i le'u bcu / chos kyi rgyal mo</tib>
+    <skt/>
+    <coloph>dang zhus // gnyis zhus</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG5016</setid>
+        <vol>2KG212535</vol>
+        <sec>1</sec>
+        <debp>85</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>101</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gt</coll>
+    <ref>Gt027-009</ref>
+    <rnb>70</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-1</setid>
+        <vol>EAP039-1-1-2-11</vol>
+        <sec>mdo sde</sec>
+        <debp>329</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>352</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>H</coll>
+    <ref>H257</ref>
+    <rnb>259</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu </tib>
+    <skt/>
+    <coloph>chos kyi rgya mo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW26071</setid>
+        <vol>4092</vol>
+        <sec>mdo sde</sec>
+        <debp>114</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>145</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos>
+      <bampo>
+        <rn>1</rn>
+        <name>1.</name>
+        <setid>MW26071</setid>
+        <vol>4092</vol>
+        <sec>mdo sde</sec>
+        <debp>114</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </bampo>
+      <bampo>
+        <rn>2</rn>
+        <name>2.</name>
+        <setid>MW26071</setid>
+        <vol>4092</vol>
+        <sec>mdo sde</sec>
+        <debp>129</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </bampo>
+    </bampos>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J198</ref>
+    <rnb>218</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph>chos kyi rgya mo rdzogs s+ho//</coloph>
+    <colophTitle>chos kyi rgya mo</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9928</vol>
+        <sec>mdo sde</sec>
+        <debp>77</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>95</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos>
+      <bampo>
+        <rn>1</rn>
+        <name>1.</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9928</vol>
+        <sec>mdo sde</sec>
+        <debp>77</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </bampo>
+      <bampo>
+        <rn>2</rn>
+        <name>2.</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9928</vol>
+        <sec>mdo sde</sec>
+        <debp>85</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+      </bampo>
+    </bampos>
+  </item>
+  <item>
+    <coll>L</coll>
+    <ref>L79</ref>
+    <rnb>81</rnb>
+    <tib>chos kyi sgo mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW3CN981</setid>
+        <vol>3CN1023</vol>
+        <sec>mdo sde</sec>
+        <debp>326</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>348</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N241</ref>
+    <rnb>241</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt>-</skt>
+    <coloph>chos kyi rgya mo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22703</setid>
+        <vol>5469</vol>
+        <sec>mdo sde</sec>
+        <debp>106</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>131</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5014</setid>
+        <vol>2KG212624</vol>
+        <sec>mdo sde</sec>
+        <debp>106</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>131</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Np</coll>
+    <ref>Np011-009</ref>
+    <rnb>70</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP310-2-1</setid>
+        <vol>EAP310-2-1-11</vol>
+        <sec>mdo sde</sec>
+        <debp>387</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>414</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj062-014</ref>
+    <rnb>490</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph>chos kyi rgya mo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-62</vol>
+        <sec>mdo sde</sec>
+        <debp>88</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>109</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz062-014</ref>
+    <rnb>486</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph>chos kyi rgya mo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-62</vol>
+        <sec>mdo sde</sec>
+        <debp>77</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>95</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q922</ref>
+    <rnb>975</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph>chos kyi rgya mo rdzogs s.ho||</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96684</setid>
+        <vol>1PD106734</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>79</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>98</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW3CN1094</setid>
+        <vol>3CN1178</vol>
+        <sec>mdo sna tshogs</sec>
+        <debp>79</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>98</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R256</ref>
+    <rnb>257</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph>chos kyi rgya mo rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17330</vol>
+        <sec>mdo sde</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>91</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>S</coll>
+    <ref>S103</ref>
+    <rnb>151</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22083</setid>
+        <vol>3769</vol>
+        <sec>mdo sde</sec>
+        <debp>375</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>401</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ty</coll>
+    <ref>Ty029-009</ref>
+    <rnb>127</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems lyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209891</vol>
+        <sec>mdo sde</sec>
+        <debp>363</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>389</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos>
+      <bampo>
+        <rn>1</rn>
+        <name>1.</name>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209891</vol>
+        <sec>mdo sde</sec>
+        <debp>363</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+      </bampo>
+      <bampo>
+        <rn>2</rn>
+        <name>2.</name>
+        <setid>MW2KG209840</setid>
+        <vol>2KG209891</vol>
+        <sec>mdo sde</sec>
+        <debp>376</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+      </bampo>
+    </bampos>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U256</ref>
+    <rnb>257</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph>chos kyi rgya mo rdzogs so//</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL286</vol>
+        <sec>mdo sde</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>91</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5360</vol>
+        <sec>mdo sde</sec>
+        <debp>74</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>91</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>V</coll>
+    <ref>V153</ref>
+    <rnb>153</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14700</setid>
+        <vol>1KG86289</vol>
+        <sec>mdo sde</sec>
+        <debp>318</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>340</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Z</coll>
+    <ref>Z134</ref>
+    <rnb>134</rnb>
+    <tib>chos kyi rgya mo sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127517</vol>
+        <sec>mdo sde</sec>
+        <debp>405</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>434</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <bampos>
+      <bampo>
+        <rn>1</rn>
+        <name>1.</name>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127517</vol>
+        <sec>mdo sde</sec>
+        <debp>405</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </bampo>
+      <bampo>
+        <rn>2</rn>
+        <name>2.</name>
+        <setid>MW1PD127393</setid>
+        <vol>1PD127517</vol>
+        <sec>mdo sde</sec>
+        <debp>419</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+      </bampo>
+    </bampos>
+  </item>
+</catalog>

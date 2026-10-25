@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5167</ref>
+    <rnb>1</rnb>
+    <tib>mkha' 'gro ma gsum gyis zab mo'i glu blang ba</tib>
+    <skt/>
+    <coloph>zhes glu blangs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>676</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>678</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3092</ref>
+    <rnb>3093</rnb>
+    <tib>mkha' 'gro ma dma' we dbang gi glu</tib>
+    <skt/>
+    <coloph>zhes glu blangs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>188</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>189</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3883</ref>
+    <rnb>3103</rnb>
+    <tib>mkha' 'gro ma dma' we dbang gi glu</tib>
+    <skt/>
+    <coloph>zhes glu blangs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>112</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>113</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>112</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>113</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5094</ref>
+    <rnb>3095</rnb>
+    <tib>mkha' 'gro ma dma' nye dbang gi glu</tib>
+    <skt/>
+    <coloph>zhes glu blangs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>115</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>116</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

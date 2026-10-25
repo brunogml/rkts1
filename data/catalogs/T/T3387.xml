@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5522</ref>
+    <rnb>1</rnb>
+    <tib>theg pa chen po bsdus pa</tib>
+    <skt>ma hA yA na saM gra ha</skt>
+    <coloph>theg pa chen po bsdus pa/ slob dpon thogs med kyis mdzad pa rdzogs so/ /paN+Di ta dzi na mi tra dang shI len+d+ra bo d+hi dang ban+de ye shes sde'i 'gyur</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95921</vol>
+        <sec>1</sec>
+        <debp>3</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>115</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C4015</ref>
+    <rnb>2952</rnb>
+    <tib>theg pa chen po bsdus pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66165</vol>
+        <sec>sems tsam</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>43</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D4048</ref>
+    <rnb>2961</rnb>
+    <tib>theg pa chen po bsdus pa</tib>
+    <skt>ma hA yA na saM gra ha</skt>
+    <coloph>theg pa chen po bsdus pa/_slob dpon chen po thogs med kyis mdzad pa rdzogs so</coloph>
+    <colophTitle>theg pa chen po bsdus pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1450</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>43</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210185</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>43</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211489</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>43</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta dzi na mi tra</name>
+        <role>translator</role>
+        <rid>bdr:P8209</rid>
+      </translator>
+      <translator>
+        <name>shI len+d+ra bo d+hi</name>
+        <role>translator</role>
+        <rid>bdr:P1KG8854</rid>
+      </translator>
+      <translator>
+        <name>ban de ye shes sde</name>
+        <role>translator</role>
+        <rid>bdr:P8205</rid>
+      </translator>
+      <translator>
+        <name>slob dpon chen po thogs med</name>
+        <role>author</role>
+        <rid>bdr:P6117</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3552</ref>
+    <rnb>3546</rnb>
+    <tib>theg pa chen po bsdus pa</tib>
+    <skt>ma hA yA na saM gra ha</skt>
+    <coloph>theg pa chen po bsdus pa/ slob dpon thogs med kyis mdzad pa rdzogs so/ /paN+Di ta dzi na mi tra dang shI len+d+ra bo d+hi dang ban+de ye shes sde'i 'gyur</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31481</vol>
+        <sec>sems tsam</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>57</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N4338</ref>
+    <rnb>3558</rnb>
+    <tib>theg pa chen po bsdus pa</tib>
+    <skt>ma hA yA na sa gra ha</skt>
+    <coloph>theg pa chen po bsdus pa/ slob dpon thogs med kyis mdzad pa rdzogs so/ /paN+Di ta dzi na mi tra dang shI len+d+ra bo d+hi dang ban+de ye shes sde'i 'gyur</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3395</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>47</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212428</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>47</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5549</ref>
+    <rnb>3550</rnb>
+    <tib>theg pa chen po bsdus pa</tib>
+    <skt>ma hA yA na saM gra ha</skt>
+    <coloph>theg pa chen po bsdus pa/ slob dpon thogs med kyis mdzad pa rdzogs so/ /paN+Di ta dzi na mi tra dang shI len+d+ra bo d+hi dang ban+de ye shes sde'i 'gyur</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13313</vol>
+        <sec>mdo 'grel</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>51</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>thogs med/(asaṅga)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

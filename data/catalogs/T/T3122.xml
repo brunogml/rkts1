@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C3030</ref>
+    <rnb>1965</rnb>
+    <tib>'phags pa kun nas sgor 'jug pa'i 'od zer gtsug tor dri ma med par snang ba'i gzungs bklag cing mchod rten brgya rtsa brgyad dam mchod rten lnga gdab pa'i cho ga mdo sd las bsdus pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66105</vol>
+        <sec>rgyud</sec>
+        <debp>144</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>157</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D3068</ref>
+    <rnb>1975</rnb>
+    <tib>'phags pa kun nas sgor 'jug pa'i 'od zer gtsug tor dri ma med par snang ba'i gzungs bklag cing mchod rten brgya rtsa brgyad dam mchod rten lnga gdab pa'i cho ga mdo sd las bsdus pa</tib>
+    <skt/>
+    <coloph>'phags pa kun nas sgor 'jug pa'i 'od zer gtsug tor dri ma med par snang ba'i gzungs bklag cing mchod rten brgya rtsa brgyad dam/ mchod rten lnga gdab pa'i cho ga mdo snge las btus pa/ slob dpon chen po bo d+hi sa t+wa mdzad pa rdzogs so</coloph>
+    <colophTitle>mchod rten brgya rtsa brgyad btab pa'i cho ga</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1390</vol>
+        <sec>rgyud</sec>
+        <debp>140</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>153</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210125</vol>
+        <sec>rgyud</sec>
+        <debp>140</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>153</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211429</vol>
+        <sec>rgyud</sec>
+        <debp>140</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>153</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>slob dpon bo d+hi sat+wa</name>
+        <role>author</role>
+        <rid>bdr:P6450</rid>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5094</ref>
+    <rnb>1</rnb>
+    <tib>khro bo reg tshig gi gtor chog</tib>
+    <skt>b+ha li d+ha b+hi ti na ma</skt>
+    <coloph>dge ba 'di yis thams cad 'byor ldan shog</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>876</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>878</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3009</ref>
+    <rnb>3010</rnb>
+    <tib>gtor ma'i cho ga zhes bya ba</tib>
+    <skt>b+ha li d+ha b+hi ti na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>171</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+        <finp>172</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

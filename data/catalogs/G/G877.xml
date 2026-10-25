@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm44.42</ref>
+    <rnb>855</rnb>
+    <tib>srog gzer nag po ging gi spu gri 'khrul 'khor nag po'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-45</vol>
+        <sec>rnying rgyud</sec>
+        <debp>364</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>368</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt44.38</ref>
+    <rnb>857</rnb>
+    <tib>srog gzer nag po ging gi spu gri 'khrul 'khor nag po'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-44</vol>
+        <sec>rnying rgyud</sec>
+        <debp>297</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>301</finp>
+        <finf>a</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb051.035</ref>
+    <rnb>873</rnb>
+    <tib>srog gzer nag po ging gi spu gri 'khrul 'khor nag po'i rgyud</tib>
+    <skt>shrI ya maM ha g+hu ya so ri ge tu tsakra tan+t+ra</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21656</vol>
+        <sec>1</sec>
+        <debp>339</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>344</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>gleng gzhi'i le'u ste dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21656</vol>
+        <sec>1</sec>
+        <debp>340</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>las la mngags pa'i le'u ste gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21656</vol>
+        <sec>1</sec>
+        <debp>341</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>skyes mchog nye bar bkol ba'i le'u ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21656</vol>
+        <sec>1</sec>
+        <debp>342</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>lo tog gzhom pa'i le'u ste bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21656</vol>
+        <sec>1</sec>
+        <debp>343</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>'khor la gtad cing yi rang ba'i le'u ste lnga pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21656</vol>
+        <sec>1</sec>
+        <debp>343</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

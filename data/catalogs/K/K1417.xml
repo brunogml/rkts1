@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm50.21</ref>
+    <rnb>612</rnb>
+    <tib>'phags pa don yod zhags pa zhes bya ba'i gzungs</tib>
+    <skt>ar+ya a mo ga pa sha nA na ma d+ha ra ni</skt>
+    <coloph>'phags pa spyan ras gzigs dbang phyug gi don yod pa'i zhags pa'i snying po cho ga dang bcas pa rdzogs s+ho //</coloph>
+    <colophTitle>'phags pa spyan ras gzigs dbang phyug gi don yod pa'i zhags pa'i snying po cho ga dang bcas pa</colophTitle>
+    <margin>don zhags</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL960</vol>
+        <sec>rgyud</sec>
+        <debp>164</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>169</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>This text is related to rKTs-K676 and 677 but as there are also major differences, it can be considered a separate work.</note>
+  </item>
+</catalog>

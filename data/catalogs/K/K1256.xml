@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>F</coll>
+    <ref>F30</ref>
+    <rnb>33</rnb>
+    <tib>'phags pa byams pa lung bstan</tib>
+    <skt>ar+ya me'i tri ya bya ka ra na ma</skt>
+    <coloph>'phags pa byams pa lung bstan rdzogs</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13607</setid>
+        <vol>1KG14057</vol>
+        <sec>phal chen2</sec>
+        <debp>63</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>69</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>He</coll>
+    <ref>He55.4</ref>
+    <rnb>113</rnb>
+    <tib>'phags pa byams pa lung bstan pa zhes bya ba</tib>
+    <skt>A rya mai tri ya bya ga ra na ma</skt>
+    <coloph>'phags pa byams pa lung bstan pa zhes bya ba'i mdo rdzogs s+h+yo</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45313</setid>
+        <vol>4CZ75312</vol>
+        <sec>mdo</sec>
+        <debp>287</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>292</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Dm</coll>
+    <ref>Dm33.4</ref>
+    <rnb>454</rnb>
+    <tib/>
+    <skt/>
+    <coloph>rgya gar gyi mkhan po g+ha ya d+ha ra dang/_dge slong shAk+ya ye shes kyis sgyur ba'o//</coloph>
+    <colophTitle/>
+    <margin>sgyu ma</margin>
+    <locations>
+      <location>
+        <setid>MW1BL10</setid>
+        <vol>1BL943</vol>
+        <sec>rgyud</sec>
+        <debp>80</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>100</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>rgya gar gyi mkhan po g+ha ya d+ha ra</name>
+        <role>translator</role>
+        <rid>bdr:P3302</rid>
+      </translator>
+      <translator>
+        <name>dge slong shAk+ya ye shes</name>
+        <role>translator</role>
+        <rid>bdr:P3285</rid>
+      </translator>
+    </translators>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>sngon du snyen pa rtogs pa'i le'u ste dang po</name>
+        <setid>MW1BL10</setid>
+        <vol>1BL943</vol>
+        <sec>rgyud</sec>
+        <debp>82</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>yongs su bzung ba'i le'u ste gnyis pa</name>
+        <setid>MW1BL10</setid>
+        <vol>1BL943</vol>
+        <sec>rgyud</sec>
+        <debp>83</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>dkyil 'khor cho ga zhes bya ba'i le'u ste gsum pa</name>
+        <setid>MW1BL10</setid>
+        <vol>1BL943</vol>
+        <sec>rgyud</sec>
+        <debp>100</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+    </chapters>
+    <note>No title is mentioned at the beginning or end of the text. This work is not identified in the mainstream collections, only individual passages seem to be related to rKTs-K428.</note>
+  </item>
+</catalog>

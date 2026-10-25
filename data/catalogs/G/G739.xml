@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm41.12</ref>
+    <rnb>716</rnb>
+    <tib>ma mo srog las kyi rgyal bu zhes bya ba'i rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-42</vol>
+        <sec>rnying rgyud</sec>
+        <debp>308</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>317</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt41.12</ref>
+    <rnb>725</rnb>
+    <tib>ma mo srog las kyi rgyal bu zhes bya ba'i rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-41</vol>
+        <sec>rnying rgyud</sec>
+        <debp>279</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>286</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb048.004</ref>
+    <rnb>735</rnb>
+    <tib>ma mo srog las kyi rgyal bu zhes bya ba'i rgyud kyi rgyal po</tib>
+    <skt>trag rag+sha baM la rA dza tan tra na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21653</vol>
+        <sec>1</sec>
+        <debp>59</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>667</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>gleng glang ba'i le'u ste dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21653</vol>
+        <sec>1</sec>
+        <debp>60</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>ma mo srog las kyi rkyal bu las sring mos gnad pa byin pa'i le'u ste gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21653</vol>
+        <sec>1</sec>
+        <debp>60</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>bsgrub pa'i mtshan nyid dang/ gnas kyi mtshan nyid dang/ sngon du bsnyen pa bya ba'i le'u ste gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21653</vol>
+        <sec>1</sec>
+        <debp>62</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>drag po'i las kyi le'u ste bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21653</vol>
+        <sec>1</sec>
+        <debp>63</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>nag mo nyi ma'i dmod mo'i le'u ste lnga pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21653</vol>
+        <sec>1</sec>
+        <debp>64</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>6</rn>
+        <name>thun drug 'khor lo'i le'u ste drug pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21653</vol>
+        <sec>1</sec>
+        <debp>66</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>7</rn>
+        <name>lha mo'i thog ser 'bebs pa'i le'u ste bdun pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21653</vol>
+        <sec>1</sec>
+        <debp>66</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>8</rn>
+        <name>rims nad dbab pa'i le'u ste brgyad pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21653</vol>
+        <sec>1</sec>
+        <debp>66</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>

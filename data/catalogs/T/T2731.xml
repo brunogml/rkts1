@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4852</ref>
+    <rnb>1</rnb>
+    <tib>sgyu 'phrul phyag rgya bsam gtan</tib>
+    <skt/>
+    <coloph>slob dpon bi ma las mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95888</vol>
+        <sec>1</sec>
+        <debp>919</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>923</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2731</ref>
+    <rnb>2732</rnb>
+    <tib>sgyu 'phrul phyag rgya bsam gtan</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31414</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>550</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>552</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3521</ref>
+    <rnb>2740</rnb>
+    <tib>sgyu 'phrul phyag rgya bsam gtan</tib>
+    <skt/>
+    <coloph>slob dpon bi ma las mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3328</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>410</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>411</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212361</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>410</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>411</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4732</ref>
+    <rnb>2733</rnb>
+    <tib>sgyu 'phrul phyag rgya bsam gtan</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13246</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>448</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>450</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>vimala (vimalamitra)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

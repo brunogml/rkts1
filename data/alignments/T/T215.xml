@@ -1,0 +1,28 @@
+<list>
+<locref><ref>D1500</ref><vol>1338</vol><p>250a7-251b1</p><voln></voln><json></json><psection></psection></locref>
+
+<item>
+<ref><coll>D</coll><setid>MW23703</setid><vol>1338</vol><sec>rgyud</sec><pag>250a</pag></ref>
+<align><coll>A</coll><ref>A2399</ref><setid>1PD95844</setid><vol>1PD95856</vol><sec>1</sec><pag>1702</pag><user>BL</user></align>
+<align><coll>C</coll><ref>C1441</ref><setid>1GS66030</setid><vol>1GS66053</vol><sec>rgyud</sec><pag>251b</pag><user>BL</user></align>
+<align><coll>G</coll><ref>GT217</ref><setid>23702</setid><vol>1PD31351</vol><sec>rgyud 'grel</sec><pag>341b</pag><user>BL</user></align>
+<align><coll>N</coll><ref>N1005</ref><setid>22704</setid><vol>3265</vol><sec>rgyud 'grel</sec><pag>272b</pag><user>BL</user></align>
+<align><coll>Q</coll><ref>Q2215</ref><setid>1KG13126</setid><vol>1KG13183</vol><sec>rgyud 'grel</sec><pag>261b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW23703</setid><vol>1338</vol><sec>rgyud</sec><pag>250b</pag></ref>
+<align><coll>N</coll><ref>N1005</ref><setid>22704</setid><vol>3265</vol><sec>rgyud 'grel</sec><pag>272b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW23703</setid><vol>1338</vol><sec>rgyud</sec><pag>251a</pag></ref>
+<align><coll>N</coll><ref>N1005</ref><setid>22704</setid><vol>3265</vol><sec>rgyud 'grel</sec><pag>273b</pag><user>BL</user></align>
+</item>
+
+<item>
+<ref><coll>D</coll><setid>MW23703</setid><vol>1338</vol><sec>rgyud</sec><pag>251b</pag></ref>
+<align><coll>N</coll><ref>N1005</ref><setid>22704</setid><vol>3265</vol><sec>rgyud 'grel</sec><pag>274a</pag><user>BL</user></align>
+</item>
+
+</list>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A4897</ref>
+    <rnb>1</rnb>
+    <tib>lha'i sku sgom pa'i man ngag</tib>
+    <skt>de ba ka ya mu tra sa ma ta ba tre na ma</skt>
+    <coloph>slob dpon bi ma las mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95889</vol>
+        <sec>1</sec>
+        <debp>535</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>537</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2776</ref>
+    <rnb>2777</rnb>
+    <tib>lha'i sku sgom pa'i man ngag</tib>
+    <skt>de ba ka ya mu tra sa ma ti pa tre na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31415</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>278</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>278</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3566</ref>
+    <rnb>2785</rnb>
+    <tib>lha'i sku sgom pa'i man ngag</tib>
+    <skt>de ba ka ya mu tra sa ma ta pa tre na ma</skt>
+    <coloph>slob dpon bi ma las mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3329</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>232</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>233</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212362</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>232</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>233</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4777</ref>
+    <rnb>2778</rnb>
+    <tib>lha'i sku sgom pa'i man ngag</tib>
+    <skt>de ba ka ya mu tra sa mu ti pa tre na ma</skt>
+    <coloph>slob dpon bi ma las mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13247</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>232</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>232</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>vimala</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

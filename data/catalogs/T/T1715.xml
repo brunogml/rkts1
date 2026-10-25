@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3821</ref>
+    <rnb>1</rnb>
+    <tib>bcom ldan 'das phyag na rdo rje gos sngon po can gyi sgrub pa'i thabs zhes bya ba</tib>
+    <skt>b+ha ga bAn ni lAM ba ra d+ha ra badzra pA Ni sa d+ha nA ma</skt>
+    <coloph>slob dpon 'gro bzang snying pos mdzad pa/ rgya gar gyi paN+Di ta te dza de wa dang / bod kyi lo tsA ba zangs dkar 'phags pa shes rab kyis bsgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95882</vol>
+        <sec>1</sec>
+        <debp>908</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>912</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1719</ref>
+    <rnb>1721</rnb>
+    <tib>bcom ldan 'das phyag na rdo rje gos sngon po can gyi sgrub pa'i thabs zhes bya ba</tib>
+    <skt>b+ha ga bAn nI lAM ba ra s+ha ra badzra pA Ni pA d+ha naM nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31407</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>417</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+        <finp>419</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2509</ref>
+    <rnb>1728</rnb>
+    <tib>bcom ldan 'das phyag na rdo rje gos sngon po can gyi sgrub pa'i thabs</tib>
+    <skt>b+ha ga bAn nI laM ba ra d+ha ra badzra pA Na bA d+ha naM nA ma</skt>
+    <coloph>khro bo rgyal po chen po gos sngon po can gyi sgrub thabs slob dpon 'gro bzang snying po'i zhal snga nas kyis mdzad pa rdzogs so/ /rgya gar gyi paN+Di ta te dza de ba dang / bod kyi lo tsA ba dge slong 'phags pa shes rab kyis bsgyur cing gtan la phab pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3321</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>315</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>317</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212354</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>315</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>317</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3716</ref>
+    <rnb>1717</rnb>
+    <tib>bcom ldan 'das phyag na rdo rje gos sngon po can gyi sgrub pa'i thabs zhes bya ba</tib>
+    <skt>b+ha ga bAn ni lAM ba ra d+ha ra badzra pA Ni sa d+ha nA ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13239</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>291</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>292</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>'phags pa shes rab/(ārya prajñā)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+      <translator>
+        <name>'gro bzangs snying po/(sugatigarbha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

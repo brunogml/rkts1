@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5054</ref>
+    <rnb>1</rnb>
+    <tib>rnam thos sras rjes su 'brang ba'i gtor ma'i cho ga zhes bya ba</tib>
+    <skt>b+hai shra pa a nu dzA pa b+hi ti b+ha li na ma</skt>
+    <coloph>rgyal po chen po rnam thos sras kyis rjes su 'brang ba'i gtor ma'i cho ga zhe bya ba/ 'gro bzang snying pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>693</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>708</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G2969</ref>
+    <rnb>2970</rnb>
+    <tib>rnam thos sras rjes su 'brang ba'i gtor ma'i cho ga zhes bya ba</tib>
+    <skt>b+hai shra pa a nu dzA pa b+hi ti b+ha li na ma</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31422</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>93</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>101</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3759</ref>
+    <rnb>2979</rnb>
+    <tib>rnam thos sras rjes su 'brang ba'i gtor ma'i cho ga zhes bya ba</tib>
+    <skt>b+hai shra pa a nu dzA pa b+hi ti b+ha li na ma</skt>
+    <coloph>rgyal po chen po rnam thos sras kyis rjes su 'brang ba'i gtor ma'i cho ga zhe bya ba/ 'gro bzang snying pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3336</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>69</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>76</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212369</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>69</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+        <finp>76</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q4970</ref>
+    <rnb>2971</rnb>
+    <tib>rnam thos sras rjes su 'brang ba'i gtor ma'i cho ga zhes bya ba</tib>
+    <skt>b+hai shra ba a nu dzA pa b+hi ta b+hi li na ma</skt>
+    <coloph>rgyal po chen po rnam thos sras kyis rjes su 'brang ba'i gtor ma'i cho ga zhes bya ba/_'gro bzang snying pos mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13254</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>73</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>80</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>'gro bzang snying po/(sugatigarbha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

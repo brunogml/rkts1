@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A473</ref>
+    <rnb>472</rnb>
+    <tib>dpal ye shes rdo rje kun las bsdus pa</tib>
+    <skt>shrI dz+nyA na badzra sa muts+tsa ya</skt>
+    <coloph>dpal ye shes rdo rje kun las bsdus pa las rab tu byed pa bzhi bcu rtsa gcig pa'o/ slob dpon chen po zla ba grags pa las rim par brgyud pa/ dpal nA ro pa'i slob ma kha che'i paN+Di ta A ka ra sid+d+hi dang / lo tsA ba dge slong tshul khrims kyis zhus shing gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96682</setid>
+        <vol>1PD96865</vol>
+        <sec>1</sec>
+        <debp>3</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>88</finp>
+        <finf/>
+        <finl>25</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C88</ref>
+    <rnb>88</rnb>
+    <tib>dpal ye shes rdo rje kun las bsdus pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD96685</setid>
+        <vol>1PD105068</vol>
+        <sec>rgyud</sec>
+        <debp>346</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>385</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MWEAP1034-2-2</setid>
+        <vol>EAP1034-2-2-5</vol>
+        <sec>rgyud</sec>
+        <debp>346</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>385</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D450</ref>
+    <rnb>452</rnb>
+    <tib>dpal ye shes rdo rje kun las bsdus pa</tib>
+    <skt>shrI dz+nyA na badzra sa muts+tsa ya</skt>
+    <coloph>dpal ye shes rdo rje kun las bsdus pa las rab tu byed pa bzhi bcu rtsa gcig pa'o/ /slob dpon chen po zla ba grags pa las rim par brgyud pa/ dpal nA ro ba'i slob ma kha che'i baN+Dita A ka ra sid+d+hi dang / lo tsA ba dge slong tshul khrims kyis zhus shing gtan la phab pa</coloph>
+    <colophTitle>dpal ye shes rdo rje kun las bsdus pa las rab tu byed pa bzhi bcu rtsa gcig pa'o</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>35</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW30532</setid>
+        <vol>6429</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>35</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW3CN20612</setid>
+        <vol>3CN20695</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>35</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW4CZ5369</setid>
+        <vol>1KG9208</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>35</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>lo tsA ba dge slong tshul khrims</name>
+        <role>translator</role>
+        <rid>#</rid>
+      </translator>
+      <translator>
+        <name>dpal nA ro ba'i slob ma kha che'i baN+Dita A ka ra sid+d+hi</name>
+        <role>translator</role>
+        <rid>bdr:P8174</rid>
+      </translator>
+    </translators>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>rab tu byed pa dang po</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>4</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>rab tu byed pa gnyis pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>6</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>rab tu byed pa gsum pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>9</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>rab tu byed pa bzhi pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>10</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>rab tu byed pa lnga pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>11</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>6</rn>
+        <name>rab tu byed pa drug pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>13</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>7</rn>
+        <name>rab tu byed pa bdun pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>14</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>8</rn>
+        <name>rab tu byed pa brgyad pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>14</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>9</rn>
+        <name>rab tu byed pa dgu pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>14</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>10</rn>
+        <name>rab tu byed pa bcu pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>15</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>11</rn>
+        <name>rab tu byed pa bcu gcig pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>16</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>12</rn>
+        <name>rab tu byed pa bcu gnyis pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>17</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>13</rn>
+        <name>rab tu byed pa bcu gsum pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>18</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>14</rn>
+        <name>rab tu byed pa bcu bzhi pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>18</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>15</rn>
+        <name>rab tu byed pa bcu lnga pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>19</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>16</rn>
+        <name>rab tu byed pa bcu drug pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>19</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>17</rn>
+        <name>rab tu byed pa bcu bdun pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>20</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>18</rn>
+        <name>rab tu byed pa bcu brgyad pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>20</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>19</rn>
+        <name>rab tu byed pa bcu dgu pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>20</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>20</rn>
+        <name>rab tu byed pa nyi shu pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>21</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>21</rn>
+        <name>rab tu byed pa nyi shu rtsa gcig pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>22</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>22</rn>
+        <name>rab tu byed pa nyi shu rtsa gnyis pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>22</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>23</rn>
+        <name>rab tu byed pa nyi shu rtsa gsum pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>23</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>24</rn>
+        <name>rab tu byed pa nyi shu rtsa bzhi pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>24</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>25</rn>
+        <name>rab tu byed pa nyi shu rtsa lnga pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>24</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>26</rn>
+        <name>rab tu byed pa nyi shu rtsa drug pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>24</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>27</rn>
+        <name>rab tu byed pa nyi shu rtsa bdun pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>26</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>28</rn>
+        <name>rab tu byed pa nyi shu rtsa brgyad pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>26</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>29</rn>
+        <name>rab tu byed pa nyi shu rtsa dgu pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>27</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>30</rn>
+        <name>rab tu byed pa sum cu pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>27</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>31</rn>
+        <name>rab tu byed pa sum cu so gcig pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>28</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>32</rn>
+        <name>rab tu byed pa sum cu so gnyis pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>29</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>33</rn>
+        <name>rab tu byed pa sum cu so gsum pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>30</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>34</rn>
+        <name>rab tu byed pa sum cu so bzhi pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>30</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>35</rn>
+        <name>rab tu byed pa sum cu rtsa lnga pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>31</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>36</rn>
+        <name>rab tu byed pa sum cu so drug pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>33</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>37</rn>
+        <name>rab tu byed pa sum cu so bdun pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>33</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>38</rn>
+        <name>rab tu byed pa sum cu so brgyad pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>34</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>39</rn>
+        <name>rab tu byed pa sum cu so dgu pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>34</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>40</rn>
+        <name>rab tu byed pa bzhi bcu pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>35</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>41</rn>
+        <name>rab tu byed pa bzhi bcu rtsa gcig pa</name>
+        <setid>MW22084</setid>
+        <vol>0967</vol>
+        <sec>rgyud</sec>
+        <debp>35</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+      </chapter>
+    </chapters>
+  </item>
+  <item>
+    <coll>Dd</coll>
+    <ref>Dd084-001</ref>
+    <rnb>685</rnb>
+    <tib>dpal ye shes rdo rje kun las bsdus pa</tib>
+    <skt>shrI dz+nyA na badz+ra sa muts+tsha ya</skt>
+    <coloph>slob dpon chen po zla ba grags pa las rim par brgyud pa/ dpal nA ro pa'i slob ma kha che paN+Di ta A ka ra singng+hi dang/ lo tsA ba dge slong tshul khrims kyis zhus shing gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-5-1</setid>
+        <vol>EAP570-5-1-84</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>41</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>H</coll>
+    <ref>H787</ref>
+    <rnb>791</rnb>
+    <tib>dpal ye shes rdo rje kun las bsdus pa</tib>
+    <skt>-</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW26071</setid>
+        <vol>4122</vol>
+        <sec>rgyud</sec>
+        <debp>376</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>424</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>J</coll>
+    <ref>J429</ref>
+    <rnb>460</rnb>
+    <tib>dpal ye shes rdo rje kun las bsdus pa</tib>
+    <skt>shrI dz+nyA na badzra sa muts+tsa ya</skt>
+    <coloph>dpal ye shes rdo rje kun las bsdus pa las//_rab tu byed pa bzhi bcu rtsa gcig pa'o//_//slob dpon chen po zla ba grags pa las rim par brgyud pa/_dpal nA ro ba'i slob ma/_/kha che'i baN+Dita A ka ra sid+d+hi dang/_lo tsA ba dge slong tshul khrims rgyal bas zhus shing gtan la phab pa</coloph>
+    <colophTitle>dpal ye shes rdo rje kun las bsdus pa las rab tu byed pa bzhi bcu rtsa gcig pa</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>337</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>371</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>dpal nA ro ba'i slob ma kha che'i baN+Dita A ka ra sid+d+hi</name>
+        <role>translator</role>
+        <rid>bdr:P8174 </rid>
+      </translator>
+      <translator>
+        <name>lo tsA ba dge slong tshul khrims rgyal ba</name>
+        <role>translator</role>
+        <rid>bdr:P3456</rid>
+      </translator>
+    </translators>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>rab tu byed pa dang po</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>340</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>rab tu byed pa gnyis pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>342</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>rab tu byed pa gsum pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>345</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>rab tu byed pa bzhi pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>346</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>rab tu byed pa lnga pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>348</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>6</rn>
+        <name>rab tu byed pa drug pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>349</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>7</rn>
+        <name>rab tu byed pa bdun pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>349</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>8</rn>
+        <name>rab tu byed pa brgyad pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>349</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>9</rn>
+        <name>rab tu byed pa dgu pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>350</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>10</rn>
+        <name>rab tu byed pa bcu pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>350</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>11</rn>
+        <name>rab tu byed pa bcu gcig pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>351</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+      </chapter>
+      <chapter>
+        <rn>12</rn>
+        <name>rab tu byed pa bcu gnyis pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>352</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>13</rn>
+        <name>rab tu byed pa bcu gsum pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>353</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>14</rn>
+        <name>rab tu byed pa bcu bzhi pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>353</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>15</rn>
+        <name>rab tu byed pa bcwo lnga pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>354</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>16</rn>
+        <name>rab tu byed pa bcu drug pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>354</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>17</rn>
+        <name>rab tu byed pa bcu bdun pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>355</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>18</rn>
+        <name>rab tu byed pa bcu brgyad pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>355</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>19</rn>
+        <name>rab tu byed pa bcu dgu pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>356</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>20</rn>
+        <name>rab tu byed pa nyi shu pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>357</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>21</rn>
+        <name>rab tu byed pa nyi shu rtsa gcig pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>357</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+      </chapter>
+      <chapter>
+        <rn>22</rn>
+        <name>rab tu byed pa nyi shu rtsa gnyis pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>358</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>23</rn>
+        <name>rab tu byed pa nyi shu rtsa gsum pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>358</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>24</rn>
+        <name>rab tu byed pa nyi shu rtsa bzhi pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>359</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+      </chapter>
+      <chapter>
+        <rn>25</rn>
+        <name>rab tu byed pa nyi shu rtsa lnga pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>359</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>26</rn>
+        <name>rab tu byed pa nyi shu rtsa drug pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>355</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>27</rn>
+        <name>rab tu byed pa nyi shu rtsa bdun pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>361</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>28</rn>
+        <name>rab tu byed pa nyi shu rtsa brgyad pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>361</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+      </chapter>
+      <chapter>
+        <rn>29</rn>
+        <name>rab tu byed pa nyi shu rtsa dgu pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>362</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>30</rn>
+        <name>rab tu byed pa sum cu pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>362</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+      </chapter>
+      <chapter>
+        <rn>31</rn>
+        <name>rab tu byed pa sum cu so gcig pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>363</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+      </chapter>
+      <chapter>
+        <rn>32</rn>
+        <name>rab tu byed pa sum cu so gnyis pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>364</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>33</rn>
+        <name>rab tu byed pa sum cu so gsum pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>365</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>34</rn>
+        <name>rab tu byed pa sum cu so bzhi pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>366</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>35</rn>
+        <name>rab tu byed pa sum cu rtsa lnga pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>366</debp>
+        <debf>b</debf>
+        <debl>7</debl>
+      </chapter>
+      <chapter>
+        <rn>36</rn>
+        <name>rab tu byed pa sum cu so drug pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>368</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+      </chapter>
+      <chapter>
+        <rn>37</rn>
+        <name>rab tu byed pa sum cu so bdun pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>369</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>38</rn>
+        <name>rab tu byed pa sum cu so brgyad pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>369</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>39</rn>
+        <name>rab tu byed pa sum cu so dgu pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>370</debp>
+        <debf>a</debf>
+        <debl>5</debl>
+      </chapter>
+      <chapter>
+        <rn>40</rn>
+        <name>rab tu byed pa bzhi bcu pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>370</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>41</rn>
+        <name>rab tu byed pa bzhi bcu rtsa gcig pa</name>
+        <setid>MW4CZ7445</setid>
+        <vol>1KG9955</vol>
+        <sec>rgyud 'bum</sec>
+        <debp>371</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+      </chapter>
+    </chapters>
+  </item>
+  <item>
+    <coll>Pj</coll>
+    <ref>Pj085-001</ref>
+    <rnb>684</rnb>
+    <tib>dpal ye shes rdo rje kun las bsdus pa</tib>
+    <skt>shrI dz+nyA na badzra sa muts+tsha ya</skt>
+    <coloph>slob dpon chen po zla ba grags pa las rim par brgyud pa/ dpal nA ro pa'i slob ma kha che paNDi ta A ka ra singnghi dang/ lo tsA ba dge slong tshul khrims kyis zhus shing gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-6-1</setid>
+        <vol>EAP570-6-1-85</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>38</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Pz</coll>
+    <ref>Pz085-001</ref>
+    <rnb>680</rnb>
+    <tib>dpal ye shes rdo rje kun las bsdus pa</tib>
+    <skt>sh+rI dz+nyA na badzra sa muts+tsha ya</skt>
+    <coloph>slob dpon chen po zla ba grags pa las rim par brgyud pa/ dpal nA ro pa'i slob ma kha che paN+Di ta A ka ra singng+hi dang/ lo tsA ba dge slong tshul khrims kyis zhus shing gtan la phab pa</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP570-7-1</setid>
+        <vol>EAP570-7-1-85</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>38</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>R</coll>
+    <ref>R450</ref>
+    <rnb>450</rnb>
+    <tib>dpal ye shes rdo rje kun las bsdus pa</tib>
+    <skt>shrI dz+nyA na badzra sa muts+tsa ya</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW2PD17098</setid>
+        <vol>2PD17346</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>35</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>U</coll>
+    <ref>U449</ref>
+    <rnb>449</rnb>
+    <tib>dpal ye shes rdo rje kun las bsdus pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1BL4</setid>
+        <vol>1BL303</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>38</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW29468</setid>
+        <vol>5377</vol>
+        <sec>rgyud</sec>
+        <debp>1</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>38</finp>
+        <finf>b</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

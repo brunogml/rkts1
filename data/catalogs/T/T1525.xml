@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A3625</ref>
+    <rnb>1</rnb>
+    <tib>bcom ldan 'das 'jam pa'i dbyangs kyi dpyad pa</tib>
+    <skt/>
+    <coloph>grub pa 'phags pa'i lhas ni 'di byas so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95882</vol>
+        <sec>1</sec>
+        <debp>275</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>285</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G1532</ref>
+    <rnb>1534</rnb>
+    <tib>bcom ldan 'das 'jam pa'i dbyangs kyi dpyad</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31407</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>155</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+        <finp>161</finp>
+        <finf>a</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N2323</ref>
+    <rnb>1542</rnb>
+    <tib>bcom ldan 'das 'jam pa'i dbyangs kyi dpyad pa</tib>
+    <skt/>
+    <coloph>bcom ldan 'das 'jam pa'i dbyangs kyi dpyad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3321</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>114</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>118</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212354</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>114</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>118</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q3526</ref>
+    <rnb>1527</rnb>
+    <tib>bcom ldan 'das 'jam pa'i dbyangs kyi dpyad</tib>
+    <skt/>
+    <coloph>bcom ldan 'das 'jam pa'i dbyangs kyi dpyad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13239</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>85</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>88</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>'phags pa'i lha/(āryadeva)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

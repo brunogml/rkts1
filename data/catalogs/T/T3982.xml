@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>C</coll>
+    <ref>C1514</ref>
+    <rnb>458</rnb>
+    <tib>rdo rje phag mo'i sgrub thabs</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66054</vol>
+        <sec>rgyud</sec>
+        <debp>250</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>250</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1572</ref>
+    <rnb>467</rnb>
+    <tib>rdo rje phag mo'i sgrub thabs</tib>
+    <skt>badzra bA rA hI sA d+ha naM</skt>
+    <coloph>dpal au rgyan rdo rje rnal 'byor ma'i gnas nas rnam par byung ba rdo rje phag mo'i sgrub thabs rdzogs so// //bod kyi lo tsA ba bande mar ba chos kyi dbang phyug nyid kyis bsgyur ba'o// //</coloph>
+    <colophTitle>dpal u rgyan rdo rje rnal 'byor ma'i gnas nas rnam par byung ba rdo rje phag mo'i sgrub thabs</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1339</vol>
+        <sec>rgyud</sec>
+        <debp>249</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>249</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210074</vol>
+        <sec>rgyud</sec>
+        <debp>249</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>249</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211378</vol>
+        <sec>rgyud</sec>
+        <debp>249</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>249</finp>
+        <finf>a</finf>
+        <finl>7</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>bod kyi lo tsA ba ban+de mar ba chos kyi dbang phyug</name>
+        <role>translator</role>
+        <rid>bdr:P3814</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2280</ref>
+    <rnb>280</rnb>
+    <tib>rdo rje phag mo'i sgrub thabs</tib>
+    <skt>badzra bA rA hI sA d+ha nAM</skt>
+    <coloph>dpal oD+ya Na rdo rje rnal 'byor ma'i gnas nas rnam par byung ba rdo rje phag mo'i sgrubs thabs rdzogs so/ /bod kyi lo tsA ba ban de mar pa chos kyi dbang phyug nyid kyis bgyur ba'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13184</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>294</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>294</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>chos kyi dbang phyug(dharmeśvara)</name>
+        <role>translator</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

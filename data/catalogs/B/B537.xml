@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm131.8</ref>
+    <rnb>342</rnb>
+    <tib>ge khod bdud 'dul gsang ba rtsa ba'i rgyud</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4102</vol>
+        <sec>1</sec>
+        <debp>161</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>228</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks172.6</ref>
+    <rnb>1040</rnb>
+    <tib>ge khod bdud 'dul rtsa ba'i rgyud chen mo</tib>
+    <skt/>
+    <coloph>zhang zhung bon sde kun gyi bcud 'dus pa / zhang zhung rgyal po'i bsrung / sku brtsegs dang bcas pa'i bon / rgyud cha lag 'am bur 'char ba 'di / zhang zhung stag sna rgyal pos / khri ldong khang la gtad / des ston khra 'od gsas la gtad / des zhang zhung gsang ba'i gtang rum las / des sad ne ga'u las / des rgyung ne khod spungs las / des hris pa gyer med las / des co min gyer chen / des this dmar spung rgyung / des dran pa nam mkha' las gtad cing rgyud pa'o / … sprul sku khyung rgod rtsal la dngos grub du bab pa de nas rim par rgyud nas</coloph>
+    <colophTitle/>
+    <margin>ge khod rtsa rgyud</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75143</vol>
+        <sec>6</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>64</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkz</coll>
+    <ref>Bkz168.1</ref>
+    <rnb>358</rnb>
+    <tib>ge khod bdud 'dul gsang ba rtsa ba'i rgyud ces bya ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ58532</setid>
+        <vol>4CZ58703</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>55</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

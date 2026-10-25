@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks184.12</ref>
+    <rnb>1085</rnb>
+    <tib>mkha' 'gro chen mo kye ma 'od mtsho'i dbang gi sbyin sreg mngon rtogs dngos grub nor bu 'od 'bar</tib>
+    <skt/>
+    <coloph>de ltar sbyin sreg nor bu 'od 'bar zhes bya / gshen nyi ma rgyal mtshan gyis mdzad pa la / 'phrin las go bde 'grig rim 'di / bla ma'i gsung bzhin bon drung tshe dbang 'od zer gyis dpal ldan zangs ri dbu rtser bla brang du sbyar ba dge legs 'phel</coloph>
+    <colophTitle/>
+    <margin>mngon rtogs</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75155</vol>
+        <sec>12</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>4</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gbr</coll>
+    <ref>Gbr002.28</ref>
+    <rnb>36</rnb>
+    <tib>khyung chen lding ba</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW21519</setid>
+        <vol>0578</vol>
+        <sec>8</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>7</finp>
+        <finf>b</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

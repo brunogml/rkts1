@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bkm</coll>
+    <ref>Bkm136.1</ref>
+    <rnb>406</rnb>
+    <tib>byang chub sems kyi myu gu gab pa dgu skor</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>W4PD502</setid>
+        <vol>4PD4107</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>23</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks99.2</ref>
+    <rnb>602</rnb>
+    <tib>byang chub sems gab pa dgu skor</tib>
+    <skt/>
+    <coloph>gshen sgom chen gyi gter ma'o // … [the following in smaller letters:] par byang / byang phyogs bstan pa dmar pos bcom brlag skabs / byang sems theg mchog gab pa dgu skor 'di / byang chub sems dpa' brtson 'grus rgyal mtshan gyis / byang chen sa la 'gro kun dge phyir spel …</coloph>
+    <colophTitle/>
+    <margin>gab pa</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75070</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>87</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt216.2</ref>
+    <rnb>6129</rnb>
+    <tib>byang chub sems gab pa dgu skor</tib>
+    <skt/>
+    <coloph>gshen sgom chen gyi gter ma'o//</coloph>
+    <colophTitle/>
+    <margin>gab pa</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4909</vol>
+        <sec>2</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>87</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

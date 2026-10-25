@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks37.32</ref>
+    <rnb>245</rnb>
+    <tib>gsang sngags ma rgyud kyi rgyan mchod phyag rgya dbang 'khor lo</tib>
+    <skt/>
+    <coloph>ces gsang sngags ma rgyud kyi phyag mchod 'bul ba / phyag rgya dbang po'i 'khor lo zhes bya ba / byang gi sa gnas dar ma nyin / kre ta gnam mtsho zhes bya ba'i mdun du / dmu rgyal rnal 'byor nyi ma'i dbang pos brtsams pa sa stag zla ba bdun pa'i nyer lnga'i nyin dge legs 'phel</coloph>
+    <colophTitle/>
+    <margin>rgyan mchod</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75008</vol>
+        <sec>32</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>12</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>the title reads phyag mchod in ntkc, which seems to correspond to our colophon title: ma rgyud kyi phyag mchod.</note>
+  </item>
+</catalog>

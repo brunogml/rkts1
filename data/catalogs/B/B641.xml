@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Bks</coll>
+    <ref>Bks99.1</ref>
+    <rnb>601</rnb>
+    <tib>byang chub sems gab pa dgu skor gyi dbu yi sa gcod kyi le'u</tib>
+    <skt/>
+    <coloph>dang po sgom chen gshen sgur gyi gter lugs so / de nas brgyud do dpe rgan du byed pa la / rgya bla ma khri rjes gtug pa'o / [8v] de la bru ston bla mas gtugs / de la rong ston jo sras kyis zhus / de la ltod ston me pos zhus / 'gro don mtha' ru phyin par shog …</coloph>
+    <colophTitle/>
+    <margin>gab pa</margin>
+    <locations>
+      <location>
+        <setid>MW4CZ58520</setid>
+        <vol>4CZ75070</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+    <note>note on the right-hand side of the title page the chinese words "sheng de yi juan." this text is a general outline of the gab pa cycle.</note>
+  </item>
+  <item>
+    <coll>Bkt</coll>
+    <ref>Bkt216.1</ref>
+    <rnb>6128</rnb>
+    <tib>byang chub sems gab pa dgu skor gyi dbu yi sa gcod kyi le'u</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin>sa gcod</margin>
+    <locations>
+      <location>
+        <setid>MW30498</setid>
+        <vol>1CZ4909</vol>
+        <sec>1</sec>
+        <debp>1</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>8</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

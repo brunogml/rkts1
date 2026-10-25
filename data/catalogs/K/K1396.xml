@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ba</coll>
+    <ref>Ba146.19</ref>
+    <rnb>742</rnb>
+    <tib>dpal dpa' bo dang dpa' mo mngon par bsgrub pa rgyud kyi rgyal po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45308</setid>
+        <vol>4CZ75449</vol>
+        <sec>1</sec>
+        <debp>90</debp>
+        <debf>b</debf>
+        <debl>3</debl>
+        <finp>92</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Hg</coll>
+    <ref>Hg56-028</ref>
+    <rnb>112</rnb>
+    <tib>dpal dpa' bo dang dpa' mo mngon par grub pa rgyud kyi rgyal po</tib>
+    <skt>shrI wI ra DA ki nI yo gi ya b+hi Shiny+tsa sid+d+hi tan+t+ra rA dza</skt>
+    <coloph>dpa' bo dang dpa' mo mngon par grub pa rgyud kyi rgyal po rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW4CZ45315</setid>
+        <vol>2KG209217</vol>
+        <sec>1</sec>
+        <debp>161</debp>
+        <debf>a</debf>
+        <debl>8</debl>
+        <finp>163</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+</catalog>

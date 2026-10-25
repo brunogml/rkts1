@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5097</ref>
+    <rnb>1</rnb>
+    <tib>phyi sgrub kyi rten 'brel pan chen b+hi bu ti tsan+tras mdzad pa</tib>
+    <skt/>
+    <coloph>bla ma gus pas brten pa/ dpal 'jigs med grags pa la/ bla ma tai lo pas gsungs pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95892</vol>
+        <sec>1</sec>
+        <debp>888</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>890</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3014</ref>
+    <rnb>3015</rnb>
+    <tib>phyi sgrub kyi rten 'brel</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31423</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>37</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>38</finp>
+        <finf>a</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3804</ref>
+    <rnb>3024</rnb>
+    <tib>phyi sgrub kyi rten 'brel</tib>
+    <skt/>
+    <coloph>bla ma gus pas brten pa/ dpal 'jigs med grags pa la/ bla ma tai lo pas gsungs pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3337</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>30</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>31</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212370</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>30</debp>
+        <debf>a</debf>
+        <debl>6</debl>
+        <finp>31</finp>
+        <finf>a</finf>
+        <finl>3</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5015</ref>
+    <rnb>3016</rnb>
+    <tib>phyi sgrub kyi rten 'brel</tib>
+    <skt/>
+    <coloph>bla ma gus pas brten pa/_dpal 'jigs med grags pa la/_bla ma tai l+lo pas gsungs pa'o</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13255</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>30</debp>
+        <debf>a</debf>
+        <debl>3</debl>
+        <finp>31</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>tillo pa (tailika)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

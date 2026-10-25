@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A2627</ref>
+    <rnb>1</rnb>
+    <tib>rdo rje phag mo sgrol ma la bstod pa</tib>
+    <skt>badzra bA rA hI tA ra sto traM</skt>
+    <coloph>paN+Di ta zla ba grags pas bstod pa mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95859</vol>
+        <sec>1</sec>
+        <debp>1149</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>1150</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>C</coll>
+    <ref>C1668</ref>
+    <rnb>612</rnb>
+    <tib>rdo rje phag mo sgrol ma la bstod pa</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1GS66030</setid>
+        <vol>1GS66059</vol>
+        <sec>rgyud</sec>
+        <debp>91</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>91</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>D</coll>
+    <ref>D1724</ref>
+    <rnb>622</rnb>
+    <tib>rdo rje phag mo sgrol ma la bstod pa</tib>
+    <skt>badzra bA rA hI tA ra sto traM</skt>
+    <coloph>dur khrod brgyad kyi zhing khams su/ /rdo rje phag mor skur ston cing/ /me dpung 'bar ba'i dbus na bzhugs/ /sgrol ma la ni phyag 'tshal bstod/ /paN+Di ta zla ba grags pas bstod pa mdzad pa rdzogs so//</coloph>
+    <colophTitle>sgrol ma la ni phyag 'tshal bstod</colophTitle>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23703</setid>
+        <vol>1344</vol>
+        <sec>rgyud</sec>
+        <debp>91</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>91</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG209989</setid>
+        <vol>2KG210079</vol>
+        <sec>rgyud</sec>
+        <debp>91</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>91</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+      <location>
+        <setid>MW2KG5013</setid>
+        <vol>2KG211383</vol>
+        <sec>rgyud</sec>
+        <debp>91</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>91</finp>
+        <finf>b</finf>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>paN+Di ta zla ba grags pa</name>
+        <role>author</role>
+        <rid>bdr:P5782</rid>
+      </translator>
+    </translators>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G598</ref>
+    <rnb>599</rnb>
+    <tib>rdo rje phag mo sgrol ma la bstod pa</tib>
+    <skt>badzra bA ra hi tA ra sto traM</skt>
+    <coloph>dur khrod brgyad kyi zhing khams su/ rdo rje phag mor skur bston cing / me dpung 'bar ba'i dbus na bzhugs/ sgrol ma la ni phyag 'tshal bstod/ paN+Di ta zla ba grags pas bstod pa mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31365</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>127</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>128</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N1391</ref>
+    <rnb>606</rnb>
+    <tib>rdo rje phag mo sgrol ma la bstod pa</tib>
+    <skt>badzra bA rA hi tA ra sto traM</skt>
+    <coloph>dur khrod brgyad kyi zhing khams su/ rdo rje phag mor skur bston cing / me dpung 'bar ba'i dbus na bzhugs/ sgrol ma la ni phyag 'tshal bstod/ paN+Di ta zla ba grags pas bstod pa mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3279</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>96</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>96</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212312</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>96</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+        <finp>96</finp>
+        <finf>b</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q2595</ref>
+    <rnb>595</rnb>
+    <tib>rdo rje phag mo sgrol ma la bstod pa</tib>
+    <skt>badzra bA ra hi tA ra sto traM</skt>
+    <coloph>dur khrod brgyad kyi zhing khams su/ rdo rje phag mor skur bston cing / me dpung 'bar ba'i dbus na bzhugs/ sgrol ma la ni phyag 'tshal bstod/ paN+Di ta zla ba grags pas bstod pa mdzad pa rdzogs so</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13197</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>106</debp>
+        <debf>b</debf>
+        <debl>5</debl>
+        <finp>107</finp>
+        <finf>a</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>zla ba grags pa/(candrakīrti)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>A</coll>
+    <ref>A5192</ref>
+    <rnb>1</rnb>
+    <tib>bdud rtsi 'od kyi sgrub thabs</tib>
+    <skt>a mr-i ta b+hA sA d+ha naM</skt>
+    <coloph>bdud rtsi 'od kyi sgrub thabs slob dpon 'phrog byed seng ges mdzad pa rdzogs so/ /gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1PD95844</setid>
+        <vol>1PD95893</vol>
+        <sec>1</sec>
+        <debp>794</debp>
+        <debf/>
+        <debl>1</debl>
+        <finp>796</finp>
+        <finf/>
+        <finl>1</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>G</coll>
+    <ref>G3120</ref>
+    <rnb>3121</rnb>
+    <tib>bdud rtsi 'od kyi sgrub thabs</tib>
+    <skt>a mri ta b+ha sA d+ha naM</skt>
+    <coloph>bdud rtsi 'od kyi sgrub thabs slob dpon 'phrog byed seng ges mdzad pa rdzogs so/ /gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW23702</setid>
+        <vol>1PD31425</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>250</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+        <finp>251</finp>
+        <finf>a</finf>
+        <finl>6</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>N</coll>
+    <ref>N3911</ref>
+    <rnb>3131</rnb>
+    <tib>bdud rtsi 'od kyi sgrub thabs</tib>
+    <skt>a mri ta d+ha sAd+ha naM</skt>
+    <coloph>bdud rtsi 'od kyi sgrub thabs slob dpon 'phrog byed seng ges mdzad pa rdzogs so/ /gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW22704</setid>
+        <vol>3339</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>151</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>151</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+      <location>
+        <setid>MW2KG5015</setid>
+        <vol>2KG212372</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>151</debp>
+        <debf>a</debf>
+        <debl>4</debl>
+        <finp>151</finp>
+        <finf>b</finf>
+        <finl>5</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Q</coll>
+    <ref>Q5122</ref>
+    <rnb>3123</rnb>
+    <tib>bdud rtsi 'od kyi sgrub thabs</tib>
+    <skt/>
+    <coloph>bdud rtsi 'od kyi sgrub thabs slob dpon 'phrog byed seng ges mdzad pa rdzogs so/ /gsar 'gyur ro</coloph>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG13126</setid>
+        <vol>1KG13257</vol>
+        <sec>rgyud 'grel</sec>
+        <debp>154</debp>
+        <debf>a</debf>
+        <debl>7</debl>
+        <finp>154</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators>
+      <translator>
+        <name>'phrog byed seng ge (harisiṁha)</name>
+        <role>author</role>
+        <rid/>
+      </translator>
+    </translators>
+  </item>
+</catalog>

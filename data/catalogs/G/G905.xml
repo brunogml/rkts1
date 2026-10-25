@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <item>
+    <coll>Ggm</coll>
+    <ref>Ggm45.19</ref>
+    <rnb>883</rnb>
+    <tib>klu'i 'khor lo nag po/ byol song ha la nag po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP105-1-1</setid>
+        <vol>EAP105-1-1-46</vol>
+        <sec>rnying rgyud</sec>
+        <debp>384</debp>
+        <debf>b</debf>
+        <debl>1</debl>
+        <finp>390</finp>
+        <finf>a</finf>
+        <finl>2</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Ggt</coll>
+    <ref>Ggt45.19</ref>
+    <rnb>885</rnb>
+    <tib>klu'i 'khor lo nag po/ byol song ha la nag po</tib>
+    <skt/>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MWEAP039-1-3-1</setid>
+        <vol>EAP039-1-3-1-45</vol>
+        <sec>rnying rgyud</sec>
+        <debp>337</debp>
+        <debf>b</debf>
+        <debl>8</debl>
+        <finp>342</finp>
+        <finf>b</finf>
+        <finl>8</finl>
+      </location>
+    </locations>
+    <translators/>
+  </item>
+  <item>
+    <coll>Gpb</coll>
+    <ref>Gpb053.006</ref>
+    <rnb>901</rnb>
+    <tib>klu'i 'khor lo nag po/ byol song ha la nag po</tib>
+    <skt>nA ga ka la tsakra ti ra ya ka hA la kA la</skt>
+    <coloph/>
+    <colophTitle/>
+    <margin/>
+    <locations>
+      <location>
+        <setid>MW1KG14783</setid>
+        <vol>1KG21658</vol>
+        <sec>1</sec>
+        <debp>97</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+        <finp>103</finp>
+        <finf>b</finf>
+        <finl>4</finl>
+      </location>
+    </locations>
+    <translators/>
+    <chapters>
+      <chapter>
+        <rn>1</rn>
+        <name>byol song glang mgo can las skabs dang po</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21658</vol>
+        <sec>1</sec>
+        <debp>97</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>2</rn>
+        <name>byol song glang mgo can las skabs gnyis pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21658</vol>
+        <sec>1</sec>
+        <debp>98</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>3</rn>
+        <name>byol song glang mgo can las skabs te gsum pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21658</vol>
+        <sec>1</sec>
+        <debp>100</debp>
+        <debf>a</debf>
+        <debl>2</debl>
+      </chapter>
+      <chapter>
+        <rn>4</rn>
+        <name>byol song glang mgo can las rtog pa'i skabs te bzhi pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21658</vol>
+        <sec>1</sec>
+        <debp>101</debp>
+        <debf>a</debf>
+        <debl>1</debl>
+      </chapter>
+      <chapter>
+        <rn>5</rn>
+        <name>byol song glang mgo can las/ mar ya'i le'u ste skabs lnga pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21658</vol>
+        <sec>1</sec>
+        <debp>101</debp>
+        <debf>b</debf>
+        <debl>6</debl>
+      </chapter>
+      <chapter>
+        <rn>6</rn>
+        <name>byol song glang mgo can las/ rtog pa'i skabs te drug pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21658</vol>
+        <sec>1</sec>
+        <debp>102</debp>
+        <debf>b</debf>
+        <debl>4</debl>
+      </chapter>
+      <chapter>
+        <rn>7</rn>
+        <name>byol song glang mgo can las skabs bdun pa</name>
+        <setid>1KG14783</setid>
+        <vol>1KG21658</vol>
+        <sec>1</sec>
+        <debp>103</debp>
+        <debf>b</debf>
+        <debl>2</debl>
+      </chapter>
+    </chapters>
+  </item>
+</catalog>
