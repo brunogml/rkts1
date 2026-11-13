@@ -344,10 +344,6 @@
                     <i class="bi bi-book"></i> Open in Dictionary viewer
                 </a>
             </div>
-            <div class="info-section" id="collation-section" style="display:none">
-                <div class="info-label">Collation tool</div>
-                <div id="collation-links"></div>
-            </div>
             <div class="info-section" id="parallel-section" style="display:none">
                 <div class="info-label">Other sets</div>
                 <div id="parallel-links"></div>
@@ -410,8 +406,6 @@
     const startPage = (P.get('page')  || '').trim();
 
     const GENRE_CODE = { 'Kanjur': '1', 'Canonical Collection': '1', 'Tanjur': '2', 'Old Tantra': '3' };
-
-    const COLLATION_COLLECTIONS = ['1F','1Go','1H','1J','1L','1N','1Ng','1Q','1S','1Ty','2G','2N','2Q'];
 
     /* ── Topbar initial fill ──────────────────────────────────────── */
     document.getElementById('meta-coll').textContent  = coll  || '—';
@@ -628,29 +622,6 @@
         }
 
         renderCitation(pag);
-
-        // Collation links
-        const collationSection = document.getElementById('collation-section');
-        const collationLinks   = document.getElementById('collation-links');
-        const collKey = genreCode + coll;
-        if (COLLATION_COLLECTIONS.includes(collKey) && matching.length) {
-            let linkHtml = '';
-            matching.forEach(it => {
-                if (!it.ref) return;
-                const folioCount = (it.debp && it.finp)
-                    ? (parseInt(it.finp, 10) - parseInt(it.debp, 10) + 1) : 999;
-                if (folioCount >= 50) return;
-                linkHtml += `<a href="collation.php?ref=${encodeURIComponent(it.ref)}" target="_blank"
-                    style="display:inline-flex;align-items:center;gap:0.35rem;font-size:0.8rem;
-                    color:#2c6fad;text-decoration:none;padding:3px 7px;border:1px solid #c8d6e5;
-                    border-radius:3px;background:#f0f5fb;margin-bottom:4px;">
-                    <i class="bi bi-journals"></i> ${esc(it.ref)} – Collation</a><br>`;
-            });
-            if (linkHtml) { collationLinks.innerHTML = linkHtml; collationSection.style.display = ''; }
-            else collationSection.style.display = 'none';
-        } else {
-            collationSection.style.display = 'none';
-        }
 
         // Parallel volume links — select dropdown
         const parallelSection = document.getElementById('parallel-section');
